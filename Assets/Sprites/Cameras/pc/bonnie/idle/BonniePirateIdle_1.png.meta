@@ -1,0 +1,5280 @@
+fileFormatVersion: 2
+guid: 011853c22118d1940bfb34c381ec2c80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6277464191571008456
+    second: BonniePirateIdle_1_0
+  - first:
+      213: -3635988370976323866
+    second: BonniePirateIdle_1_1
+  - first:
+      213: 587584050900308276
+    second: BonniePirateIdle_1_2
+  - first:
+      213: -5632401576132629956
+    second: BonniePirateIdle_1_3
+  - first:
+      213: -3122589142323079122
+    second: BonniePirateIdle_1_4
+  - first:
+      213: 2459857498013890841
+    second: BonniePirateIdle_1_5
+  - first:
+      213: -8006822262936754951
+    second: BonniePirateIdle_1_6
+  - first:
+      213: -7558592028787396933
+    second: BonniePirateIdle_1_7
+  - first:
+      213: 5836589165719311522
+    second: BonniePirateIdle_1_8
+  - first:
+      213: -8347708012911884882
+    second: BonniePirateIdle_1_9
+  - first:
+      213: 6717202282959563458
+    second: BonniePirateIdle_1_10
+  - first:
+      213: 9205743243186768700
+    second: BonniePirateIdle_1_11
+  - first:
+      213: 2859962674223467143
+    second: BonniePirateIdle_1_12
+  - first:
+      213: -4520725548464888219
+    second: BonniePirateIdle_1_13
+  - first:
+      213: 8121165259141392589
+    second: BonniePirateIdle_1_14
+  - first:
+      213: 6688258322775346538
+    second: BonniePirateIdle_1_15
+  - first:
+      213: 7949409632826497653
+    second: BonniePirateIdle_1_16
+  - first:
+      213: -83620082806370100
+    second: BonniePirateIdle_1_17
+  - first:
+      213: 7016352308729354068
+    second: BonniePirateIdle_1_18
+  - first:
+      213: -2360394753107190730
+    second: BonniePirateIdle_1_19
+  - first:
+      213: 911209604342778275
+    second: BonniePirateIdle_1_20
+  - first:
+      213: -1889607086707852305
+    second: BonniePirateIdle_1_21
+  - first:
+      213: 5893084264843082447
+    second: BonniePirateIdle_1_22
+  - first:
+      213: 6976639386410910786
+    second: BonniePirateIdle_1_23
+  - first:
+      213: 8070010577803065450
+    second: BonniePirateIdle_1_24
+  - first:
+      213: -1839564644445902924
+    second: BonniePirateIdle_1_25
+  - first:
+      213: -5712480037317934121
+    second: BonniePirateIdle_1_26
+  - first:
+      213: 2184173964926096904
+    second: BonniePirateIdle_1_27
+  - first:
+      213: -7183325740326223804
+    second: BonniePirateIdle_1_28
+  - first:
+      213: -3224763558122216116
+    second: BonniePirateIdle_1_29
+  - first:
+      213: -4801060752266949896
+    second: BonniePirateIdle_1_30
+  - first:
+      213: 2057357767114821570
+    second: BonniePirateIdle_1_31
+  - first:
+      213: 4183514159442060251
+    second: BonniePirateIdle_1_32
+  - first:
+      213: 6690609049818970762
+    second: BonniePirateIdle_1_33
+  - first:
+      213: -3979922249851985252
+    second: BonniePirateIdle_1_34
+  - first:
+      213: -5686228319075083863
+    second: BonniePirateIdle_1_35
+  - first:
+      213: -6229842299275616430
+    second: BonniePirateIdle_1_36
+  - first:
+      213: 238382697352702382
+    second: BonniePirateIdle_1_37
+  - first:
+      213: -1909327116026411087
+    second: BonniePirateIdle_1_38
+  - first:
+      213: -8440598051428682168
+    second: BonniePirateIdle_1_39
+  - first:
+      213: 1694790679607864715
+    second: BonniePirateIdle_1_40
+  - first:
+      213: -9150008921238919803
+    second: BonniePirateIdle_1_41
+  - first:
+      213: -163386260931812777
+    second: BonniePirateIdle_1_42
+  - first:
+      213: 4050835943243497569
+    second: BonniePirateIdle_1_43
+  - first:
+      213: 7475821744084717986
+    second: BonniePirateIdle_1_44
+  - first:
+      213: 4492019812913575772
+    second: BonniePirateIdle_1_45
+  - first:
+      213: 3977847023288878807
+    second: BonniePirateIdle_1_46
+  - first:
+      213: -1420777495441290830
+    second: BonniePirateIdle_1_47
+  - first:
+      213: -7716319342061928587
+    second: BonniePirateIdle_1_48
+  - first:
+      213: 3745804337061152763
+    second: BonniePirateIdle_1_49
+  - first:
+      213: -6343324331503582143
+    second: BonniePirateIdle_1_50
+  - first:
+      213: 8516225573204786117
+    second: BonniePirateIdle_1_51
+  - first:
+      213: -4180128910514946678
+    second: BonniePirateIdle_1_52
+  - first:
+      213: 1614416864232892076
+    second: BonniePirateIdle_1_53
+  - first:
+      213: 429361810066872580
+    second: BonniePirateIdle_1_54
+  - first:
+      213: 3731652026287967652
+    second: BonniePirateIdle_1_55
+  - first:
+      213: 1874448215133033132
+    second: BonniePirateIdle_1_56
+  - first:
+      213: 7708228587561527789
+    second: BonniePirateIdle_1_57
+  - first:
+      213: 972707024087427395
+    second: BonniePirateIdle_1_58
+  - first:
+      213: -2604009495138388698
+    second: BonniePirateIdle_1_59
+  - first:
+      213: 1412446436149834688
+    second: BonniePirateIdle_1_60
+  - first:
+      213: 1450718847071119179
+    second: BonniePirateIdle_1_61
+  - first:
+      213: 3340710699912467384
+    second: BonniePirateIdle_1_62
+  - first:
+      213: 353167170643098533
+    second: BonniePirateIdle_1_63
+  - first:
+      213: -1939961494188922948
+    second: BonniePirateIdle_1_64
+  - first:
+      213: 2272204692641600019
+    second: BonniePirateIdle_1_65
+  - first:
+      213: -8698515621499280251
+    second: BonniePirateIdle_1_66
+  - first:
+      213: 6067124006618646547
+    second: BonniePirateIdle_1_67
+  - first:
+      213: -6092741035150167280
+    second: BonniePirateIdle_1_68
+  - first:
+      213: -5922603902937075303
+    second: BonniePirateIdle_1_69
+  - first:
+      213: -7012460599462554542
+    second: BonniePirateIdle_1_70
+  - first:
+      213: -1160001871588053951
+    second: BonniePirateIdle_1_71
+  - first:
+      213: 1359580117416709081
+    second: BonniePirateIdle_1_72
+  - first:
+      213: 3849457426073046164
+    second: BonniePirateIdle_1_73
+  - first:
+      213: -4549059019466647043
+    second: BonniePirateIdle_1_74
+  - first:
+      213: -3258631661324766421
+    second: BonniePirateIdle_1_75
+  - first:
+      213: 2342164168599017165
+    second: BonniePirateIdle_1_76
+  - first:
+      213: 9193359941456532852
+    second: BonniePirateIdle_1_77
+  - first:
+      213: 3135881918701415991
+    second: BonniePirateIdle_1_78
+  - first:
+      213: -5266388266253479634
+    second: BonniePirateIdle_1_79
+  - first:
+      213: -259338966067229415
+    second: BonniePirateIdle_1_80
+  - first:
+      213: -2480236189566948460
+    second: BonniePirateIdle_1_81
+  - first:
+      213: 4002566459954633961
+    second: BonniePirateIdle_1_82
+  - first:
+      213: -4481880571474215805
+    second: BonniePirateIdle_1_83
+  - first:
+      213: -2047337131913530067
+    second: BonniePirateIdle_1_84
+  - first:
+      213: 3856575277175939359
+    second: BonniePirateIdle_1_85
+  - first:
+      213: 7985156628570006873
+    second: BonniePirateIdle_1_86
+  - first:
+      213: -3163625122974483454
+    second: BonniePirateIdle_1_87
+  - first:
+      213: -4417461955490154226
+    second: BonniePirateIdle_1_88
+  - first:
+      213: -8616940555474879815
+    second: BonniePirateIdle_1_89
+  - first:
+      213: -3357355317085893674
+    second: BonniePirateIdle_1_90
+  - first:
+      213: 8572546356633306124
+    second: BonniePirateIdle_1_91
+  - first:
+      213: -3341787004408902140
+    second: BonniePirateIdle_1_92
+  - first:
+      213: 3549029737017392131
+    second: BonniePirateIdle_1_93
+  - first:
+      213: -4469500940798174571
+    second: BonniePirateIdle_1_94
+  - first:
+      213: 6343513282501627485
+    second: BonniePirateIdle_1_95
+  - first:
+      213: 4587598943566121685
+    second: BonniePirateIdle_1_96
+  - first:
+      213: 2463454867764670206
+    second: BonniePirateIdle_1_97
+  - first:
+      213: 4547642710853069081
+    second: BonniePirateIdle_1_98
+  - first:
+      213: 6087065463308905342
+    second: BonniePirateIdle_1_99
+  - first:
+      213: -2260377172288953295
+    second: BonniePirateIdle_1_100
+  - first:
+      213: -9139795677138389292
+    second: BonniePirateIdle_1_101
+  - first:
+      213: 7069676088458684976
+    second: BonniePirateIdle_1_102
+  - first:
+      213: -1188277209480250596
+    second: BonniePirateIdle_1_103
+  - first:
+      213: 6160982261890472574
+    second: BonniePirateIdle_1_104
+  - first:
+      213: -1489740068655159715
+    second: BonniePirateIdle_1_105
+  - first:
+      213: -845261061544228400
+    second: BonniePirateIdle_1_106
+  - first:
+      213: 5318897041212534510
+    second: BonniePirateIdle_1_107
+  - first:
+      213: 8159201538235138371
+    second: BonniePirateIdle_1_108
+  - first:
+      213: -4641388935340435358
+    second: BonniePirateIdle_1_109
+  - first:
+      213: 2066115617152531342
+    second: BonniePirateIdle_1_110
+  - first:
+      213: 5076722727273486284
+    second: BonniePirateIdle_1_111
+  - first:
+      213: 1676006283453278512
+    second: BonniePirateIdle_1_112
+  - first:
+      213: 3258339520576031199
+    second: BonniePirateIdle_1_113
+  - first:
+      213: 8474496746950837615
+    second: BonniePirateIdle_1_114
+  - first:
+      213: -658258263553118997
+    second: BonniePirateIdle_1_115
+  - first:
+      213: 5101797058945275992
+    second: BonniePirateIdle_1_116
+  - first:
+      213: 8570072079121896888
+    second: BonniePirateIdle_1_117
+  - first:
+      213: 6951456426824710368
+    second: BonniePirateIdle_1_118
+  - first:
+      213: -8165720254597115033
+    second: BonniePirateIdle_1_119
+  - first:
+      213: -481043773813923112
+    second: BonniePirateIdle_1_120
+  - first:
+      213: -6278835637005565480
+    second: BonniePirateIdle_1_121
+  - first:
+      213: -5116187564140152910
+    second: BonniePirateIdle_1_122
+  - first:
+      213: 4136705646932498700
+    second: BonniePirateIdle_1_123
+  - first:
+      213: -6581167112042873688
+    second: BonniePirateIdle_1_124
+  - first:
+      213: -6638223864542756742
+    second: BonniePirateIdle_1_125
+  - first:
+      213: 6224446307117932850
+    second: BonniePirateIdle_1_126
+  - first:
+      213: -3069016201098995811
+    second: BonniePirateIdle_1_127
+  - first:
+      213: 8947276697266260505
+    second: BonniePirateIdle_1_128
+  - first:
+      213: -7581508495717858690
+    second: BonniePirateIdle_1_129
+  - first:
+      213: -4390565042692694602
+    second: BonniePirateIdle_1_130
+  - first:
+      213: 3289894952680736445
+    second: BonniePirateIdle_1_131
+  - first:
+      213: 3290726811513433193
+    second: BonniePirateIdle_1_132
+  - first:
+      213: 8975507307981537430
+    second: BonniePirateIdle_1_133
+  - first:
+      213: -1382972117124532737
+    second: BonniePirateIdle_1_134
+  - first:
+      213: 5985684919657899250
+    second: BonniePirateIdle_1_135
+  - first:
+      213: -6484554120767227634
+    second: BonniePirateIdle_1_136
+  - first:
+      213: 5236499875847900021
+    second: BonniePirateIdle_1_137
+  - first:
+      213: 4988502192934282806
+    second: BonniePirateIdle_1_138
+  - first:
+      213: -3235776393670031661
+    second: BonniePirateIdle_1_139
+  - first:
+      213: -1311752158158557943
+    second: BonniePirateIdle_1_140
+  - first:
+      213: -6860764423044604006
+    second: BonniePirateIdle_1_141
+  - first:
+      213: -5520107091700887838
+    second: BonniePirateIdle_1_142
+  - first:
+      213: -3764192181941462156
+    second: BonniePirateIdle_1_143
+  - first:
+      213: -2768491690864729415
+    second: BonniePirateIdle_1_144
+  - first:
+      213: -7394995517201794964
+    second: BonniePirateIdle_1_145
+  - first:
+      213: -825467332038189478
+    second: BonniePirateIdle_1_146
+  - first:
+      213: -8237821057557038962
+    second: BonniePirateIdle_1_147
+  - first:
+      213: -2572008016237064566
+    second: BonniePirateIdle_1_148
+  - first:
+      213: -2306118456011112988
+    second: BonniePirateIdle_1_149
+  - first:
+      213: 3365108955489584197
+    second: BonniePirateIdle_1_150
+  - first:
+      213: -2412061934601522562
+    second: BonniePirateIdle_1_151
+  - first:
+      213: -8084356443962881097
+    second: BonniePirateIdle_1_152
+  - first:
+      213: 8281534063295338521
+    second: BonniePirateIdle_1_153
+  - first:
+      213: -8543736304386375868
+    second: BonniePirateIdle_1_154
+  - first:
+      213: 2198820937829522819
+    second: BonniePirateIdle_1_155
+  - first:
+      213: 4277981536293341084
+    second: BonniePirateIdle_1_156
+  - first:
+      213: -835597667586281095
+    second: BonniePirateIdle_1_157
+  - first:
+      213: 2344772537761989090
+    second: BonniePirateIdle_1_158
+  - first:
+      213: -9156558552751019679
+    second: BonniePirateIdle_1_159
+  - first:
+      213: 1120574668695370914
+    second: BonniePirateIdle_1_160
+  - first:
+      213: -8449570273705594734
+    second: BonniePirateIdle_1_161
+  - first:
+      213: 2802224866960205527
+    second: BonniePirateIdle_1_162
+  - first:
+      213: 4189756220122445566
+    second: BonniePirateIdle_1_163
+  - first:
+      213: 3347239496117011085
+    second: BonniePirateIdle_1_164
+  - first:
+      213: -3738540953026743608
+    second: BonniePirateIdle_1_165
+  - first:
+      213: -7652871979515052813
+    second: BonniePirateIdle_1_166
+  - first:
+      213: -4718119014740403215
+    second: BonniePirateIdle_1_167
+  - first:
+      213: -6262615280833410562
+    second: BonniePirateIdle_1_168
+  - first:
+      213: 3349741135765027500
+    second: BonniePirateIdle_1_169
+  - first:
+      213: 830202972081600442
+    second: BonniePirateIdle_1_170
+  - first:
+      213: -3338070822203632555
+    second: BonniePirateIdle_1_171
+  - first:
+      213: -1465681776639115191
+    second: BonniePirateIdle_1_172
+  - first:
+      213: -7230235349898900705
+    second: BonniePirateIdle_1_173
+  - first:
+      213: 7413410176546778989
+    second: BonniePirateIdle_1_174
+  - first:
+      213: -5180045717635486131
+    second: BonniePirateIdle_1_175
+  - first:
+      213: 810166322339825933
+    second: BonniePirateIdle_1_176
+  - first:
+      213: -4786954235753067404
+    second: BonniePirateIdle_1_177
+  - first:
+      213: 7361734607719874231
+    second: BonniePirateIdle_1_178
+  - first:
+      213: 6366732939277999412
+    second: BonniePirateIdle_1_179
+  - first:
+      213: -244677656856647791
+    second: BonniePirateIdle_1_180
+  - first:
+      213: 8410071108303478823
+    second: BonniePirateIdle_1_181
+  - first:
+      213: 6386817057693651651
+    second: BonniePirateIdle_1_182
+  - first:
+      213: 8161879941787923676
+    second: BonniePirateIdle_1_183
+  - first:
+      213: 4510413815220703820
+    second: BonniePirateIdle_1_184
+  - first:
+      213: 8949348840375867913
+    second: BonniePirateIdle_1_185
+  - first:
+      213: 5081535776017652720
+    second: BonniePirateIdle_1_186
+  - first:
+      213: -1097054784340931920
+    second: BonniePirateIdle_1_187
+  - first:
+      213: -9205820212121823175
+    second: BonniePirateIdle_1_188
+  - first:
+      213: -7277938586004389578
+    second: BonniePirateIdle_1_189
+  - first:
+      213: -3985524793635606864
+    second: BonniePirateIdle_1_190
+  - first:
+      213: -9102233307763806038
+    second: BonniePirateIdle_1_191
+  - first:
+      213: 6051444640370408997
+    second: BonniePirateIdle_1_192
+  - first:
+      213: -5046999412077098338
+    second: BonniePirateIdle_1_193
+  - first:
+      213: -4816945844449765507
+    second: BonniePirateIdle_1_194
+  - first:
+      213: 8332794749151687832
+    second: BonniePirateIdle_1_195
+  - first:
+      213: -5519294506939405132
+    second: BonniePirateIdle_1_196
+  - first:
+      213: -4689245024687604599
+    second: BonniePirateIdle_1_197
+  - first:
+      213: -7987767028173330933
+    second: BonniePirateIdle_1_198
+  - first:
+      213: -5304161078621887505
+    second: BonniePirateIdle_1_199
+  - first:
+      213: 3723026274653661289
+    second: BonniePirateIdle_1_200
+  - first:
+      213: 2454451771142630229
+    second: BonniePirateIdle_1_201
+  - first:
+      213: -7650719363001254792
+    second: BonniePirateIdle_1_202
+  - first:
+      213: 4532437719069934284
+    second: BonniePirateIdle_1_203
+  - first:
+      213: 5342376941833312435
+    second: BonniePirateIdle_1_204
+  - first:
+      213: 6566652895625028094
+    second: BonniePirateIdle_1_205
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 531
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb13dc3c680e1750800000000000000
+      internalID: 6277464191571008456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 486
+        width: 395
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6418447df5a8dc0800000000000000
+      internalID: -3635988370976323866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_2
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 530
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4311995c494872800800000000000000
+      internalID: 587584050900308276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 417
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3aa346bb90b5d1b0800000000000000
+      internalID: -5632401576132629956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_4
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 494
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28575028b55aa4d0800000000000000
+      internalID: -3122589142323079122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_5
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 494
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919f23f8c5b232220800000000000000
+      internalID: 2459857498013890841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_6
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 484
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f427f5e29d02e090800000000000000
+      internalID: -8006822262936754951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_7
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 471
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe2702d89c7a1790800000000000000
+      internalID: -7558592028787396933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_8
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 492
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4d7923ceabff050800000000000000
+      internalID: 5836589165719311522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_9
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 497
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea584b15acbf62c80800000000000000
+      internalID: -8347708012911884882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_10
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 494
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca6f3813eb483d50800000000000000
+      internalID: 6717202282959563458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 460
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b899f94be51cf70800000000000000
+      internalID: 9205743243186768700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_12
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 496
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a47f346e0a0b720800000000000000
+      internalID: 2859962674223467143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_13
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 492
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566a7b4c0182341c0800000000000000
+      internalID: -4520725548464888219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_14
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 476
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8ad5186cc24b070800000000000000
+      internalID: 8121165259141392589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_15
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 481
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d0317328771dc50800000000000000
+      internalID: 6688258322775346538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_16
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 460
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a11ba71f9f15e60800000000000000
+      internalID: 7949409632826497653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_17
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 481
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0dc3c4afbe6def0800000000000000
+      internalID: -83620082806370100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_18
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 474
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4571ec420471f5160800000000000000
+      internalID: 7016352308729354068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_19
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 486
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c995b5a713e3fd0800000000000000
+      internalID: -2360394753107190730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_20
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 476
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a986ceae4445ac00800000000000000
+      internalID: 911209604342778275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_21
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 459
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febb7bfbd54c6c5e0800000000000000
+      internalID: -1889607086707852305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_22
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 432
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca7a6d7ae078c150800000000000000
+      internalID: 5893084264843082447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_23
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 471
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2448501ee8002d060800000000000000
+      internalID: 6976639386410910786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_24
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 424
+        width: 83
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68b89f1ddf6eff60800000000000000
+      internalID: 8070010577803065450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_25
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 469
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b72f6ac3bd8876e0800000000000000
+      internalID: -1839564644445902924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_26
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 455
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3872d0ca139b0b0800000000000000
+      internalID: -5712480037317934121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_27
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 458
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806931b16aebf4e10800000000000000
+      internalID: 2184173964926096904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_28
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 464
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4408fed4c43bf4c90800000000000000
+      internalID: -7183325740326223804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_29
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 473
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45208121a65f33d0800000000000000
+      internalID: -3224763558122216116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_30
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 468
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa0f04dea43f5db0800000000000000
+      internalID: -4801060752266949896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_31
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 446
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf05c42df33d8c10800000000000000
+      internalID: 2057357767114821570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_32
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 424
+        width: 76
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd36c5a76f3de0a30800000000000000
+      internalID: 4183514159442060251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_33
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 456
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a39718b71d9dc50800000000000000
+      internalID: 6690609049818970762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_34
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 443
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9226efdcc974c8c0800000000000000
+      internalID: -3979922249851985252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_35
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 437
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a953c188757611b0800000000000000
+      internalID: -5686228319075083863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_36
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 267
+        width: 292
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f59f89f672b89a0800000000000000
+      internalID: -6229842299275616430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_37
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 414
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9ae4cdcc7ee4300800000000000000
+      internalID: 238382697352702382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_38
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 404
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b78931aa15b085e0800000000000000
+      internalID: -1909327116026411087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_39
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 410
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8463dbcdac8fcda80800000000000000
+      internalID: -8440598051428682168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_40
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 252
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d6baac42b158710800000000000000
+      internalID: 1694790679607864715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_41
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 256
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58526ed6d53a40180800000000000000
+      internalID: -9150008921238919803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_42
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 258
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752eaf3bf098bbdf0800000000000000
+      internalID: -163386260931812777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_43
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 254
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160c96004d5773830800000000000000
+      internalID: 4050835943243497569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_44
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 255
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a19f4484447fb760800000000000000
+      internalID: 7475821744084717986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_45
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 257
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57fab8583cd65e30800000000000000
+      internalID: 4492019812913575772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_46
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 264
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d68af9cac6243730800000000000000
+      internalID: 3977847023288878807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_47
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 254
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b94a5f3562684ce0800000000000000
+      internalID: -1420777495441290830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_48
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 262
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f3ce2f0702ae490800000000000000
+      internalID: -7716319342061928587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_49
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 254
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7c5acc235cbf330800000000000000
+      internalID: 3745804337061152763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_50
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 193
+        width: 43
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14403adf02cf7f7a0800000000000000
+      internalID: -6343324331503582143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_51
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 266
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbf7f5b906bf2670800000000000000
+      internalID: 8516225573204786117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_52
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 243
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d7a6537e23df5c0800000000000000
+      internalID: -4180128910514946678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_53
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 248
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca66000a59f876610800000000000000
+      internalID: 1614416864232892076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_54
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 247
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40997299a4665f500800000000000000
+      internalID: 429361810066872580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_55
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 242
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adc24c2fbd79c330800000000000000
+      internalID: 3731652026287967652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_56
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 245
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca29edc68b0630a10800000000000000
+      internalID: 1874448215133033132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_57
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 217
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9ad197f0129fa60800000000000000
+      internalID: 7708228587561527789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_58
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 246
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349224182efbf7d00800000000000000
+      internalID: 972707024087427395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_59
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 253
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625388a2923bcdbd0800000000000000
+      internalID: -2604009495138388698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_60
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 251
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c33afadc840a9310800000000000000
+      internalID: 1412446436149834688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 234
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4763acea1df12410800000000000000
+      internalID: 1450718847071119179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_62
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b311a58ea69c5e20800000000000000
+      internalID: 3340710699912467384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_63
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 232
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abf288aba3b6e400800000000000000
+      internalID: 353167170643098533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_64
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 232
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7eee4ac4fd315e0800000000000000
+      internalID: -1939961494188922948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_65
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 219
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312d0e9112e788f10800000000000000
+      internalID: 2272204692641600019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_66
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 235
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5846953012aa84780800000000000000
+      internalID: -8698515621499280251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_67
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 234
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318cfb69321c23450800000000000000
+      internalID: 6067124006618646547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_68
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 226
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013bd6b2f4c327ba0800000000000000
+      internalID: -6092741035150167280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_69
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 209
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991f71c212faecda0800000000000000
+      internalID: -5922603902937075303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_70
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 224
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2549c970d3cbeae90800000000000000
+      internalID: -7012460599462554542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_71
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 203
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ca4399178d6efe0800000000000000
+      internalID: -1160001871588053951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_72
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 222
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db8e46d9e23ed210800000000000000
+      internalID: 1359580117416709081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_73
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 204
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cc21b32250c6530800000000000000
+      internalID: 3849457426073046164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_74
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 217
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9576a7cee7ed0c0800000000000000
+      internalID: -4549059019466647043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_75
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 223
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2375ecd4c307c2d0800000000000000
+      internalID: -3258631661324766421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_76
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 223
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc61efae6e9018020800000000000000
+      internalID: 2342164168599017165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_77
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 208
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47592d28820659f70800000000000000
+      internalID: 9193359941456532852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_78
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 201
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ea4cd8df3e48b20800000000000000
+      internalID: 3135881918701415991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_79
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 214
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e211dac36c70ae6b0800000000000000
+      internalID: -5266388266253479634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_80
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 212
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d452b9594a66cf0800000000000000
+      internalID: -259338966067229415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_81
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 200
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b2bc1935e649dd0800000000000000
+      internalID: -2480236189566948460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_82
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 205
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec1d732df8fb8730800000000000000
+      internalID: 4002566459954633961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_83
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 211
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cfd83cd592dc1c0800000000000000
+      internalID: -4481880571474215805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_84
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 207
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25b3dcc9b56693e0800000000000000
+      internalID: -2047337131913530067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_85
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 193
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1120a518ce458530800000000000000
+      internalID: 3856575277175939359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_86
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 198
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95565c185a9f0de60800000000000000
+      internalID: 7985156628570006873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_87
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 198
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cba9656bb8814d0800000000000000
+      internalID: -3163625122974483454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_88
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 196
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09f43691c502b2c0800000000000000
+      internalID: -4417461955490154226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_89
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 169
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba3344283a7a6880800000000000000
+      internalID: -8616940555474879815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_90
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 186
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db835c80274861d0800000000000000
+      internalID: -3357355317085893674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_91
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 199
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0482b7fd7dc7f670800000000000000
+      internalID: 8572546356633306124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_92
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 201
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ec03fcc669f91d0800000000000000
+      internalID: -3341787004408902140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_93
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 183
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c38340ebfa04130800000000000000
+      internalID: 3549029737017392131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_94
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 193
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a5374239429f1c0800000000000000
+      internalID: -4469500940798174571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_95
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 196
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e4b7798bfa80850800000000000000
+      internalID: 6343513282501627485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_96
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 116
+        width: 17
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da473bdeec6aaf30800000000000000
+      internalID: 4587598943566121685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_97
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 176
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efee1597623ff2220800000000000000
+      internalID: 2463454867764670206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_98
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 179
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919aac973f87c1f30800000000000000
+      internalID: 4547642710853069081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_99
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 179
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b6319c9c9997450800000000000000
+      internalID: 6087065463308905342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_100
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 186
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134a05310f681a0e0800000000000000
+      internalID: -2260377172288953295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_101
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 184
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6f380a14ce82180800000000000000
+      internalID: -9139795677138389292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_102
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 188
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a27a912f88c1260800000000000000
+      internalID: 7069676088458684976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_103
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 180
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bbc3a7c24628fe0800000000000000
+      internalID: -1188277209480250596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_104
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 177
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ad67399b4308550800000000000000
+      internalID: 6160982261890472574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_105
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 184
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56a420fc41635be0800000000000000
+      internalID: -1489740068655159715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_106
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 177
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9cf2cfa870544f0800000000000000
+      internalID: -845261061544228400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_107
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 171
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee6952ada480d940800000000000000
+      internalID: 5318897041212534510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_108
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 179
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3418359d19e4b3170800000000000000
+      internalID: 8159201538235138371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_109
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 168
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268da9cba59769fb0800000000000000
+      internalID: -4641388935340435358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_110
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 170
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b734105315cac10800000000000000
+      internalID: 2066115617152531342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_111
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 169
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7d94e3c64247640800000000000000
+      internalID: 5076722727273486284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_112
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 163
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0392e8eb5de524710800000000000000
+      internalID: 1676006283453278512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_113
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 158
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd90d81d782f73d20800000000000000
+      internalID: 3258339520576031199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_114
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 170
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65453c34e57b9570800000000000000
+      internalID: 8474496746950837615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_115
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 146
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec637ec8956dd6f0800000000000000
+      internalID: -658258263553118997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_116
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 160
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858d09605693dc640800000000000000
+      internalID: 5101797058945275992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_117
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 166
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5dd8756230fe670800000000000000
+      internalID: 8570072079121896888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_118
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 162
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e83e703ac8887060800000000000000
+      internalID: 6951456426824710368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_119
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 142
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763d68931b88dae80800000000000000
+      internalID: -8165720254597115033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_120
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 148
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d268648c3df259f0800000000000000
+      internalID: -481043773813923112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_121
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 137
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1483d31481dd8a0800000000000000
+      internalID: -6278835637005565480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_122
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 149
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7b7236486aff8b0800000000000000
+      internalID: -5116187564140152910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_123
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 154
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0993c16ed7886930800000000000000
+      internalID: 4136705646932498700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_124
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 157
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac733f416ffaa4a0800000000000000
+      internalID: -6581167112042873688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_125
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 147
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a708866e09a40e3a0800000000000000
+      internalID: -6638223864542756742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_126
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 145
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231a14310fca16650800000000000000
+      internalID: 6224446307117932850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_127
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 147
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d975393860aa865d0800000000000000
+      internalID: -3069016201098995811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_128
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 149
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a8faf50cc1b2c70800000000000000
+      internalID: 8947276697266260505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_129
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 126
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e728123113219c690800000000000000
+      internalID: -7581508495717858690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_130
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bddd0b1b549113c0800000000000000
+      internalID: -4390565042692694602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_131
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 145
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6c2e2670e08ad20800000000000000
+      internalID: 3289894952680736445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_132
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 136
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cac1d99920bad20800000000000000
+      internalID: 3290726811513433193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_133
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 141
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6908923a7586f8c70800000000000000
+      internalID: 8975507307981537430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_134
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 131
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5b580df22becce0800000000000000
+      internalID: -1382972117124532737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_135
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 133
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f42f9d88bc611350800000000000000
+      internalID: 5985684919657899250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_136
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 130
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09bfd0426c3206a0800000000000000
+      internalID: -6484554120767227634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_137
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 134
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b8a4694e8cba840800000000000000
+      internalID: 5236499875847900021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_138
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 126
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636ea137058ba3540800000000000000
+      internalID: 4988502192934282806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_139
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 121
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d604ba83863813d0800000000000000
+      internalID: -3235776393670031661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_140
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 116
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d6b93bc58bbcde0800000000000000
+      internalID: -1311752158158557943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_141
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 123
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fd9cc6b1ba9c0a0800000000000000
+      internalID: -6860764423044604006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_142
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 132
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eecd0dc8d3a463b0800000000000000
+      internalID: -5520107091700887838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_143
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 116
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b93117727e2cbc0800000000000000
+      internalID: -3764192181941462156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_144
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 134
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2236aa9775499d0800000000000000
+      internalID: -2768491690864729415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_145
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 115
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68b499e1c2bf5990800000000000000
+      internalID: -7394995517201794964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_146
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 125
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e9c24c5d95b84f0800000000000000
+      internalID: -825467332038189478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_147
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 103
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88741dd4616dad80800000000000000
+      internalID: -8237821057557038962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_148
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 122
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e8bb816546e4cd0800000000000000
+      internalID: -2572008016237064566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_149
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 123
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed3c7b8b750fffd0800000000000000
+      internalID: -2306118456011112988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_150
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 100
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544417214c443be20800000000000000
+      internalID: 3365108955489584197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_151
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 98
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72b5db3372a68ed0800000000000000
+      internalID: -2412061934601522562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_152
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 98
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbc3ff95a89ecf80800000000000000
+      internalID: -8084356443962881097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_153
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 111
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91814066a5bede270800000000000000
+      internalID: 8281534063295338521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_154
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 103
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ff07a091d8e6980800000000000000
+      internalID: -8543736304386375868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_155
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 107
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d150c3ef7c38e10800000000000000
+      internalID: 2198820937829522819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_156
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 113
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97c172aa817e5b30800000000000000
+      internalID: 4277981536293341084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_157
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 87
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971ff58395c5764f0800000000000000
+      internalID: -835597667586281095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_158
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 83
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e10560333e4a8020800000000000000
+      internalID: 2344772537761989090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_159
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 93
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169e532828e5de080800000000000000
+      internalID: -9156558552751019679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_160
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 93
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac73ef59b41d8f00800000000000000
+      internalID: 1120574668695370914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_161
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 97
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290f3139a981dba80800000000000000
+      internalID: -8449570273705594734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_162
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 95
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6edef6ba083e620800000000000000
+      internalID: 2802224866960205527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_163
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 84
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6b1eb7511052a30800000000000000
+      internalID: 4189756220122445566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_164
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 72
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8246385698c37e20800000000000000
+      internalID: 3347239496117011085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_165
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 85
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c237949fc80e1cc0800000000000000
+      internalID: -3738540953026743608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_166
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 20
+        width: 31
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcf6753b798bc590800000000000000
+      internalID: -7652871979515052813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_167
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 72
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbd166f0cfd58eb0800000000000000
+      internalID: -4718119014740403215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_168
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 82
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9cdf43598b619a0800000000000000
+      internalID: -6262615280833410562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_169
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 80
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caab9c6b0dbac7e20800000000000000
+      internalID: 3349741135765027500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_170
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 89
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7b56a5439758b00800000000000000
+      internalID: 830202972081600442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_171
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 78
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554d477e54acca1d0800000000000000
+      internalID: -3338070822203632555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_172
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 87
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94089ad803ad8abe0800000000000000
+      internalID: -1465681776639115191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_173
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 82
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bcdc6b14b09ab90800000000000000
+      internalID: -7230235349898900705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_174
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f26531749b1e660800000000000000
+      internalID: 7413410176546778989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_175
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 58
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ead086dd7cc18b0800000000000000
+      internalID: -5180045717635486131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_176
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 76
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09cc0c4af94e3b00800000000000000
+      internalID: 810166322339825933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_177
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 68
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c03e52c72519db0800000000000000
+      internalID: -4786954235753067404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_178
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 71
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7beb7df1f922a2660800000000000000
+      internalID: 7361734607719874231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_179
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d917930ed2b5850800000000000000
+      internalID: 6366732939277999412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_180
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 68
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197a59aa7faba9cf0800000000000000
+      internalID: -244677656856647791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_181
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 60
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72064325d1396b470800000000000000
+      internalID: 8410071108303478823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_182
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 30
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c25c31764882a850800000000000000
+      internalID: 6386817057693651651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_183
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 64
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4b7a54092d44170800000000000000
+      internalID: 8161879941787923676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_184
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 60
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c429e3eb775389e30800000000000000
+      internalID: 4510413815220703820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_185
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 67
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a58a9ca59723c70800000000000000
+      internalID: 8949348840375867913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_186
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb98fa7ddd358640800000000000000
+      internalID: 5081535776017652720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_187
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 28
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba47307c7a76c0f0800000000000000
+      internalID: -1097054784340931920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_188
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 43
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9381e56aa4b5e3080800000000000000
+      internalID: -9205820212121823175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_189
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631891c8a619ffa90800000000000000
+      internalID: -7277938586004389578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_190
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 49
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be66dff05290b8c0800000000000000
+      internalID: -3985524793635606864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_191
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa07204480f5ea180800000000000000
+      internalID: -9102233307763806038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_192
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 27
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e3837a6dc0bf350800000000000000
+      internalID: 6051444640370408997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_193
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 14
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a0a8d56c475f9b0800000000000000
+      internalID: -5046999412077098338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_194
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 26
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7717479645c62db0800000000000000
+      internalID: -4816945844449765507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_195
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 8
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8943d61eca804a370800000000000000
+      internalID: 8332794749151687832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_196
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 31
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcac1f63e68763b0800000000000000
+      internalID: -5519294506939405132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_197
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c3ab6ae747ceeb0800000000000000
+      internalID: -4689245024687604599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_198
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 5
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06a6297530c52190800000000000000
+      internalID: -7987767028173330933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_199
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 15
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe32a450a95d366b0800000000000000
+      internalID: -5304161078621887505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_200
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9686d2edba8daa330800000000000000
+      internalID: 3723026274653661289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_201
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55be841b1e6ff0220800000000000000
+      internalID: 2454451771142630229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_202
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 8
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c7b1c464f23d590800000000000000
+      internalID: -7650719363001254792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_203
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 0
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2ceb3771476ee30800000000000000
+      internalID: 4532437719069934284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_204
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b85632068fe32a40800000000000000
+      internalID: 5342376941833312435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonniePirateIdle_1_205
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 0
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef125075400712b50800000000000000
+      internalID: 6566652895625028094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

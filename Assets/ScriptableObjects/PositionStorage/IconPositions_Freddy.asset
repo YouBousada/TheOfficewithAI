@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d60c6ed7dcf1fe04c8eee202d2253ca7, type: 3}
+  m_Name: IconPositions_Freddy
+  m_EditorClassIdentifier: 
+  StagePos: {x: 2.3155, y: 480.74}
+  BackStagePos: {x: -243.8, y: 345.3}
+  MainAreaPos: {x: 23.5, y: 287.7}
+  PiratesCovePos: {x: -9, y: -46.2}
+  RestRoomPos: {x: 327.9, y: 317.2}
+  SecondOfficePos: {x: -146.5, y: -243.7}
+  ClosetPos: {x: -135.9, y: -156.7}
+  WestHallFarPos: {x: -80.9, y: -237.6}
+  BreakRoom: {x: 6.5, y: -312.1}
+  EastHallFarPos: {x: 61.5, y: -213.9}
+  EastHallCornerPos: {x: 55, y: -481.6}
+  EastDoorPos: {x: 64.7, y: -437.4}
+  KitchenPos: {x: 233.1, y: -445}
+  WestHallCornerPos: {x: -90.30002, y: -485.2}
+  WestDoorPos: {x: -90.30002, y: -451.2}
+  NoWhere: {x: -204, y: 1390}

@@ -1,0 +1,3030 @@
+fileFormatVersion: 2
+guid: 190987af2f02396499706cb4b23cb9af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6225252929500282489
+    second: ChicaRRRush_1_0
+  - first:
+      213: 8156635227716861214
+    second: ChicaRRRush_1_1
+  - first:
+      213: -4872894053073988955
+    second: ChicaRRRush_1_2
+  - first:
+      213: -7589932373648314688
+    second: ChicaRRRush_1_3
+  - first:
+      213: 3644245226240213356
+    second: ChicaRRRush_1_4
+  - first:
+      213: 428880317711283830
+    second: ChicaRRRush_1_5
+  - first:
+      213: -6061436590912977929
+    second: ChicaRRRush_1_6
+  - first:
+      213: 1595004609394448929
+    second: ChicaRRRush_1_7
+  - first:
+      213: -2961699220591721086
+    second: ChicaRRRush_1_8
+  - first:
+      213: 2814906543468151140
+    second: ChicaRRRush_1_9
+  - first:
+      213: 1597218991319963995
+    second: ChicaRRRush_1_10
+  - first:
+      213: -8069332746950831948
+    second: ChicaRRRush_1_11
+  - first:
+      213: -5748808964538799627
+    second: ChicaRRRush_1_12
+  - first:
+      213: -3954730799465557673
+    second: ChicaRRRush_1_13
+  - first:
+      213: 3031046788779100401
+    second: ChicaRRRush_1_14
+  - first:
+      213: -9026202541068290783
+    second: ChicaRRRush_1_15
+  - first:
+      213: -5594441511089009990
+    second: ChicaRRRush_1_16
+  - first:
+      213: -1874156478144347484
+    second: ChicaRRRush_1_17
+  - first:
+      213: 1190916240762196643
+    second: ChicaRRRush_1_18
+  - first:
+      213: 2019173226752399659
+    second: ChicaRRRush_1_19
+  - first:
+      213: -4992173491694036662
+    second: ChicaRRRush_1_20
+  - first:
+      213: -3430479036000011414
+    second: ChicaRRRush_1_21
+  - first:
+      213: -6897855321837736749
+    second: ChicaRRRush_1_22
+  - first:
+      213: -5419055262877079014
+    second: ChicaRRRush_1_23
+  - first:
+      213: -7637503272814152366
+    second: ChicaRRRush_1_24
+  - first:
+      213: 3692290808893118631
+    second: ChicaRRRush_1_25
+  - first:
+      213: 6476780882842649524
+    second: ChicaRRRush_1_26
+  - first:
+      213: 6933949303594718438
+    second: ChicaRRRush_1_27
+  - first:
+      213: -9064311488573925817
+    second: ChicaRRRush_1_28
+  - first:
+      213: -7230924537039621158
+    second: ChicaRRRush_1_29
+  - first:
+      213: -82430330215006737
+    second: ChicaRRRush_1_30
+  - first:
+      213: 2229009561511711603
+    second: ChicaRRRush_1_31
+  - first:
+      213: 133459258749292396
+    second: ChicaRRRush_1_32
+  - first:
+      213: -8980416219208599789
+    second: ChicaRRRush_1_33
+  - first:
+      213: 8457719974875433727
+    second: ChicaRRRush_1_34
+  - first:
+      213: 9165799676142804707
+    second: ChicaRRRush_1_35
+  - first:
+      213: -2932099892684636648
+    second: ChicaRRRush_1_36
+  - first:
+      213: -8475992081352976802
+    second: ChicaRRRush_1_37
+  - first:
+      213: 2840331532213361986
+    second: ChicaRRRush_1_38
+  - first:
+      213: 7322841414981415343
+    second: ChicaRRRush_1_39
+  - first:
+      213: -4804177531996920730
+    second: ChicaRRRush_1_40
+  - first:
+      213: -7438681279355246059
+    second: ChicaRRRush_1_41
+  - first:
+      213: -4772353108979971370
+    second: ChicaRRRush_1_42
+  - first:
+      213: 8525160678508321208
+    second: ChicaRRRush_1_43
+  - first:
+      213: -612412729753841144
+    second: ChicaRRRush_1_44
+  - first:
+      213: -5015995390839572425
+    second: ChicaRRRush_1_45
+  - first:
+      213: -7933934533290316774
+    second: ChicaRRRush_1_46
+  - first:
+      213: 2809425138815231625
+    second: ChicaRRRush_1_47
+  - first:
+      213: 6338453449081909796
+    second: ChicaRRRush_1_48
+  - first:
+      213: 881429584983705629
+    second: ChicaRRRush_1_49
+  - first:
+      213: -4130255484904090133
+    second: ChicaRRRush_1_50
+  - first:
+      213: 5719898400509773311
+    second: ChicaRRRush_1_51
+  - first:
+      213: -4990567858669870802
+    second: ChicaRRRush_1_52
+  - first:
+      213: -223568469213145106
+    second: ChicaRRRush_1_53
+  - first:
+      213: -7360763436001296018
+    second: ChicaRRRush_1_54
+  - first:
+      213: 2641506528169836409
+    second: ChicaRRRush_1_55
+  - first:
+      213: -7738890687837306251
+    second: ChicaRRRush_1_56
+  - first:
+      213: 8813275924108405991
+    second: ChicaRRRush_1_57
+  - first:
+      213: -6446585549225226633
+    second: ChicaRRRush_1_58
+  - first:
+      213: 2215416831612236901
+    second: ChicaRRRush_1_59
+  - first:
+      213: -8579670639806388581
+    second: ChicaRRRush_1_60
+  - first:
+      213: 7637473656812561749
+    second: ChicaRRRush_1_61
+  - first:
+      213: -1432338109250471305
+    second: ChicaRRRush_1_62
+  - first:
+      213: 253799233521933865
+    second: ChicaRRRush_1_63
+  - first:
+      213: -7094924319471574130
+    second: ChicaRRRush_1_64
+  - first:
+      213: 211413999216509031
+    second: ChicaRRRush_1_65
+  - first:
+      213: -4190097089105718067
+    second: ChicaRRRush_1_66
+  - first:
+      213: 2963633092701534807
+    second: ChicaRRRush_1_67
+  - first:
+      213: -5621647493452020917
+    second: ChicaRRRush_1_68
+  - first:
+      213: -2261809687336973735
+    second: ChicaRRRush_1_69
+  - first:
+      213: -3713209355617431842
+    second: ChicaRRRush_1_70
+  - first:
+      213: 669128663526868454
+    second: ChicaRRRush_1_71
+  - first:
+      213: 2005153278679826134
+    second: ChicaRRRush_1_72
+  - first:
+      213: -333053946074646663
+    second: ChicaRRRush_1_73
+  - first:
+      213: 304473356334962486
+    second: ChicaRRRush_1_74
+  - first:
+      213: 1413915268194669906
+    second: ChicaRRRush_1_75
+  - first:
+      213: 1781351973607008875
+    second: ChicaRRRush_1_76
+  - first:
+      213: -2301685795260207830
+    second: ChicaRRRush_1_77
+  - first:
+      213: -5649565536992450154
+    second: ChicaRRRush_1_78
+  - first:
+      213: 5565563577640995798
+    second: ChicaRRRush_1_79
+  - first:
+      213: -4693337850224765521
+    second: ChicaRRRush_1_80
+  - first:
+      213: 143574021296572968
+    second: ChicaRRRush_1_81
+  - first:
+      213: 4776528280933376571
+    second: ChicaRRRush_1_82
+  - first:
+      213: 7322859267074387687
+    second: ChicaRRRush_1_83
+  - first:
+      213: -1371001742115480682
+    second: ChicaRRRush_1_84
+  - first:
+      213: 8392164668304038549
+    second: ChicaRRRush_1_85
+  - first:
+      213: 6021414506383688207
+    second: ChicaRRRush_1_86
+  - first:
+      213: 4525894276192367372
+    second: ChicaRRRush_1_87
+  - first:
+      213: -308426681059099193
+    second: ChicaRRRush_1_88
+  - first:
+      213: 1246456948708333331
+    second: ChicaRRRush_1_89
+  - first:
+      213: -19792611530942521
+    second: ChicaRRRush_1_90
+  - first:
+      213: 5705059437719817419
+    second: ChicaRRRush_1_91
+  - first:
+      213: -2617183090160367169
+    second: ChicaRRRush_1_92
+  - first:
+      213: 8914738369131908161
+    second: ChicaRRRush_1_93
+  - first:
+      213: 7760620647463780606
+    second: ChicaRRRush_1_94
+  - first:
+      213: -8895676707582747153
+    second: ChicaRRRush_1_95
+  - first:
+      213: -867248599378030693
+    second: ChicaRRRush_1_96
+  - first:
+      213: 1477177224860046066
+    second: ChicaRRRush_1_97
+  - first:
+      213: 5838956768540405200
+    second: ChicaRRRush_1_98
+  - first:
+      213: -4469163715214911491
+    second: ChicaRRRush_1_99
+  - first:
+      213: -8948961467837364368
+    second: ChicaRRRush_1_100
+  - first:
+      213: -9080428382363964317
+    second: ChicaRRRush_1_101
+  - first:
+      213: 8010804219615190786
+    second: ChicaRRRush_1_102
+  - first:
+      213: 5766352196360191945
+    second: ChicaRRRush_1_103
+  - first:
+      213: -5510252809548748229
+    second: ChicaRRRush_1_104
+  - first:
+      213: 9040468571661029515
+    second: ChicaRRRush_1_105
+  - first:
+      213: 6885840777735476740
+    second: ChicaRRRush_1_106
+  - first:
+      213: -5137319556990803175
+    second: ChicaRRRush_1_107
+  - first:
+      213: -8966292816932090236
+    second: ChicaRRRush_1_108
+  - first:
+      213: -1884109398107680288
+    second: ChicaRRRush_1_109
+  - first:
+      213: 5701301930326150857
+    second: ChicaRRRush_1_110
+  - first:
+      213: 5213706810925366078
+    second: ChicaRRRush_1_111
+  - first:
+      213: -8800308560965078695
+    second: ChicaRRRush_1_112
+  - first:
+      213: -8294175945508250289
+    second: ChicaRRRush_1_113
+  - first:
+      213: -1654885969426203363
+    second: ChicaRRRush_1_114
+  - first:
+      213: 922764539016232763
+    second: ChicaRRRush_1_115
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChicaRRRush_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 497
+        width: 280
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ef2db7e8a846650800000000000000
+      internalID: 6225252929500282489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 434
+        width: 12
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d308e1680323170800000000000000
+      internalID: 8156635227716861214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 421
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2596a2da0006cb0800000000000000
+      internalID: -4872894053073988955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 437
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce647728b42ba690800000000000000
+      internalID: -7589932373648314688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 440
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c610678a9b5f29230800000000000000
+      internalID: 3644245226240213356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_5
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 429
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676765c6060b3f500800000000000000
+      internalID: 428880317711283830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 444
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3c312198371eba0800000000000000
+      internalID: -6061436590912977929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 440
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a1116dd38922610800000000000000
+      internalID: 1595004609394448929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 518
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2854419204ee5e6d0800000000000000
+      internalID: -2961699220591721086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 418
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4618757569e801720800000000000000
+      internalID: 2814906543468151140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 466
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59522ec5367a2610800000000000000
+      internalID: 1597218991319963995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 464
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0919bae98f30090800000000000000
+      internalID: -8069332746950831948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 456
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9651b84b02830b0800000000000000
+      internalID: -5748808964538799627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 469
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7511f8b7a49fd19c0800000000000000
+      internalID: -3954730799465557673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_14
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 297
+        width: 146
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f844c6cef0701a20800000000000000
+      internalID: 3031046788779100401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_15
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 416
+        width: 20
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12575ec9c9c7cb280800000000000000
+      internalID: -9026202541068290783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_16
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 481
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba07d6161d8c52b0800000000000000
+      internalID: -5594441511089009990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_17
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 482
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a285b2ec98adf5e0800000000000000
+      internalID: -1874156478144347484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 471
+        width: 164
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2dfdfd20cf68010800000000000000
+      internalID: 1190916240762196643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 444
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b295e880a5b850c10800000000000000
+      internalID: 2019173226752399659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_20
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 478
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a499472b8ac38bab0800000000000000
+      internalID: -4992173491694036662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 260
+        width: 127
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b7bc10e7d7460d0800000000000000
+      internalID: -3430479036000011414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_22
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 425
+        width: 178
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dce2d59125e540a0800000000000000
+      internalID: -6897855321837736749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_23
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 465
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a200623f5abc4b0800000000000000
+      internalID: -5419055262877079014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_24
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 474
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25577051d33220690800000000000000
+      internalID: -7637503272814152366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_25
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 429
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a893879de6ad3330800000000000000
+      internalID: 3692290808893118631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_26
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 513
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b380e1c5e522e950800000000000000
+      internalID: 6476780882842649524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_27
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 444
+        width: 74
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4945b67265a3060800000000000000
+      internalID: 6933949303594718438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_28
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 486
+        width: 90
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7461f06d9b8153280800000000000000
+      internalID: -9064311488573925817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_29
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 387
+        width: 18
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3f814d17896ab90800000000000000
+      internalID: -7230924537039621158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_30
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 479
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedf0d82d062bdef0800000000000000
+      internalID: -82430330215006737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 409
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373dadae2680fee10800000000000000
+      internalID: 2229009561511711603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_32
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 409
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f0dbd1d742ad100800000000000000
+      internalID: 133459258749292396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_33
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 414
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3173ae667072f5380800000000000000
+      internalID: -8980416219208599789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa0d28918bdf5570800000000000000
+      internalID: 8457719974875433727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 11
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eed1e23e36733f70800000000000000
+      internalID: 9165799676142804707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 345
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e329abea61f47d0800000000000000
+      internalID: -2932099892684636648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_37
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 353
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e569ee71c1a3f5a80800000000000000
+      internalID: -8475992081352976802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_38
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 345
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d1be5da72ea6720800000000000000
+      internalID: 2840331532213361986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_39
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 0
+        width: 164
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa17c760875ff9560800000000000000
+      internalID: 7322841414981415343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_40
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 332
+        width: 5
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664296ffcf1245db0800000000000000
+      internalID: -4804177531996920730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51aaeaac9ce74c890800000000000000
+      internalID: -7438681279355246059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_42
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 254
+        width: 95
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da8484e12235cdb0800000000000000
+      internalID: -4772353108979971370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_43
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 312
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9dd9708747f4670800000000000000
+      internalID: 8525160678508321208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_44
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 320
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8025813fdd54087f0800000000000000
+      internalID: -612412729753841144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738b20694ca936ab0800000000000000
+      internalID: -5015995390839572425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_46
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 222
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ca608e39005e190800000000000000
+      internalID: -7933934533290316774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_47
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 203
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986622e57451df620800000000000000
+      internalID: 2809425138815231625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_48
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 166
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42270e154d5b6f750800000000000000
+      internalID: 6338453449081909796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_49
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 170
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18497b99877b3c00800000000000000
+      internalID: 881429584983705629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_50
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 153
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5deaef4826ea6c0800000000000000
+      internalID: -4130255484904090133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_51
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 162
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5c5b93a49216f40800000000000000
+      internalID: 5719898400509773311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_52
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 154
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21208449f0fdbab0800000000000000
+      internalID: -4990567858669870802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_53
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 158
+        width: 88
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7929969a9b5ecf0800000000000000
+      internalID: -223568469213145106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_54
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 200
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61857967a059d990800000000000000
+      internalID: -7360763436001296018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f307b213488a420800000000000000
+      internalID: 2641506528169836409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_56
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 46
+        width: 142
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57201ebfbefe99490800000000000000
+      internalID: -7738890687837306251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_57
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 175
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecebfb12cb0f4a70800000000000000
+      internalID: 8813275924108405991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_58
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 181
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e834439902986a0800000000000000
+      internalID: -6446585549225226633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_59
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 189
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5643baddeddbebe10800000000000000
+      internalID: 2215416831612236901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_60
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 187
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96ed789203eee880800000000000000
+      internalID: -8579670639806388581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_61
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 175
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55567b763d1cdf960800000000000000
+      internalID: 7637473656812561749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_62
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 229
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77afed714105f1ce0800000000000000
+      internalID: -1432338109250471305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_63
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 208
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e5756ee0da58300800000000000000
+      internalID: 253799233521933865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_64
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 230
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83ed950ce3c98d90800000000000000
+      internalID: -7094924319471574130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_65
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 237
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76048d389e71fe200800000000000000
+      internalID: 211413999216509031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_66
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 243
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc49475c5e8c9d5c0800000000000000
+      internalID: -4190097089105718067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_67
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 246
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a31178890f02920800000000000000
+      internalID: 2963633092701534807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_68
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 165
+        width: 45
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43c354b365ebf1b0800000000000000
+      internalID: -5621647493452020917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_69
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 302
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a0ebca2107c90e0800000000000000
+      internalID: -2261809687336973735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_70
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 168
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede04c5b3c7087cc0800000000000000
+      internalID: -3713209355617431842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_71
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 168
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e50d8a69f8394900800000000000000
+      internalID: 669128663526868454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_72
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 158
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6debbef784cb3db10800000000000000
+      internalID: 2005153278679826134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_73
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 135
+        width: 63
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977bd2d5331c06bf0800000000000000
+      internalID: -333053946074646663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_74
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 297
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6379ae787e4b93400800000000000000
+      internalID: 304473356334962486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2559e37f17c3f9310800000000000000
+      internalID: 1413915268194669906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_76
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 95
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a69c69e22a8b810800000000000000
+      internalID: 1781351973607008875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_77
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 61
+        width: 40
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2de3fcc6f4ce00e0800000000000000
+      internalID: -2301685795260207830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_78
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 145
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699a648a316b891b0800000000000000
+      internalID: -5649565536992450154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_79
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 112
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbc424169adc3d40800000000000000
+      internalID: 5565563577640995798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_80
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 138
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa51572771aeddeb0800000000000000
+      internalID: -4693337850224765521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_81
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 140
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a4b5acfc31ef100800000000000000
+      internalID: 143574021296572968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_82
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 132
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3224a41a23a94240800000000000000
+      internalID: 4776528280933376571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_83
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee652a84b500a560800000000000000
+      internalID: 7322859267074387687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_84
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 49
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bd3ceed2939fce0800000000000000
+      internalID: -1371001742115480682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_85
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 137
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a98de5d45f67470800000000000000
+      internalID: 8392164668304038549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_86
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 46
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02426a379c509350800000000000000
+      internalID: 6021414506383688207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_87
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 116
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c037b6f6dd43fce30800000000000000
+      internalID: 4525894276192367372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_88
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd3834519f38bbf0800000000000000
+      internalID: -308426681059099193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_89
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 121
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317d397adfd4c4110800000000000000
+      internalID: 1246456948708333331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_90
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 70
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7558489bea9bff0800000000000000
+      internalID: -19792611530942521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_91
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 59
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc87c7f4517c2f40800000000000000
+      internalID: 5705059437719817419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_92
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 37
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb905de88d5edabd0800000000000000
+      internalID: -2617183090160367169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_93
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 132
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c07ad705387bb70800000000000000
+      internalID: 8914738369131908161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_94
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 62
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef004a08c5343bb60800000000000000
+      internalID: 7760620647463780606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_95
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed50df6a253c8480800000000000000
+      internalID: -8895676707582747153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_96
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f0e166ef9e6f3f0800000000000000
+      internalID: -867248599378030693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_97
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 51
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2941e0cdcff7410800000000000000
+      internalID: 1477177224860046066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_98
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dda6bfae34280150800000000000000
+      internalID: 5838956768540405200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_99
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 15
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7dc8797475af1c0800000000000000
+      internalID: -4469163715214911491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_100
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 36
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07745e865f6eec380800000000000000
+      internalID: -8948961467837364368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_101
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 55
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c22d41f76dbf180800000000000000
+      internalID: -9080428382363964317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_102
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 31
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f1d53aef71c2f60800000000000000
+      internalID: 8010804219615190786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_103
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfb7d965c2360050800000000000000
+      internalID: 5766352196360191945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_104
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 58
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3aaf38a346a783b0800000000000000
+      internalID: -5510252809548748229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_105
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 136
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8050f87442367d70800000000000000
+      internalID: 9040468571661029515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_106
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 34
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40692d064bb6f8f50800000000000000
+      internalID: 6885840777735476740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_107
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 67
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91365e3e41394b8b0800000000000000
+      internalID: -5137319556990803175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_108
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 101
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e40ae3034519380800000000000000
+      internalID: -8966292816932090236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_109
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e111df1c7c4ad5e0800000000000000
+      internalID: -1884109398107680288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_110
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 121
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cec65a16e71f1f40800000000000000
+      internalID: 5701301930326150857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_111
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 139
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bbd3c98beca5840800000000000000
+      internalID: 5213706810925366078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_112
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951f8d56df50fd580800000000000000
+      internalID: -8800308560965078695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_113
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 0
+        width: 34
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d14670cea25ec80800000000000000
+      internalID: -8294175945508250289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_114
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 37
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1db2909af9a809e0800000000000000
+      internalID: -1654885969426203363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRRush_1_115
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 73
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fb36f85715ecc00800000000000000
+      internalID: 922764539016232763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

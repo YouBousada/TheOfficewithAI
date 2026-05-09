@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858b09d791ce49f42a2d6ea74503d436, type: 3}
+  m_Name: WestHallFar
+  m_EditorClassIdentifier: 
+  thisBaseMapRoomName: 9
+  edges:
+  - {fileID: 11400000, guid: 2ced57aa06825594b8cb0c83792b516d, type: 2}
+  - {fileID: 11400000, guid: cde2914586e0721488fd0058b0b66ae6, type: 2}
+  - {fileID: 11400000, guid: c16d9ee84f01eee4d8675b399f9ce0d1, type: 2}
+  - {fileID: 11400000, guid: 5777ca273b5db8a40a0517c60db2a19e, type: 2}

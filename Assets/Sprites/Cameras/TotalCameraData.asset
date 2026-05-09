@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1111754dbd39756428dafac503ccf5fc, type: 3}
+  m_Name: TotalCameraData
+  m_EditorClassIdentifier: 
+  roomCameraDatas:
+  - {fileID: 11400000, guid: 5cd975a738f28bf4db358e15aa9211db, type: 2}
+  - {fileID: 11400000, guid: f1d77d4184c05384e9cdf04b7020909b, type: 2}
+  - {fileID: 11400000, guid: 40a685264ab0ce0458d1a326f398312c, type: 2}
+  - {fileID: 11400000, guid: 605a9748d0d91cc4cafc9520472714e0, type: 2}
+  - {fileID: 11400000, guid: 1ba4e34b92cd24e46ac80fd9d89eb07f, type: 2}
+  - {fileID: 11400000, guid: cbde8cc32aae26745a4ae17340311144, type: 2}
+  - {fileID: 11400000, guid: 22ad8958cc08bf7459db8ed896a672f7, type: 2}
+  - {fileID: 11400000, guid: c086b79190a8dc14a97635013355c41d, type: 2}
+  - {fileID: 11400000, guid: f44bd01ec951094428fdc321be8a0758, type: 2}
+  - {fileID: 11400000, guid: 45b032f2e9a95fd45bbb655833e27fb8, type: 2}
+  - {fileID: 11400000, guid: 75deeff21f8d3544b81fac8d2d5f42f9, type: 2}

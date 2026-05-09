@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d60c6ed7dcf1fe04c8eee202d2253ca7, type: 3}
+  m_Name: IconPositions_Foxy
+  m_EditorClassIdentifier: 
+  StagePos: {x: -25, y: 446}
+  BackStagePos: {x: -316.5, y: 415.7}
+  MainAreaPos: {x: -140.7, y: 204.9}
+  PiratesCovePos: {x: -11.041, y: -107.4}
+  RestRoomPos: {x: 328.4, y: 245.4}
+  SecondOfficePos: {x: -265.7, y: -477.2}
+  ClosetPos: {x: -175.1, y: -155}
+  WestHallFarPos: {x: -93.2, y: -211.4}
+  BreakRoom: {x: -36.947, y: -344.2}
+  EastHallFarPos: {x: 57.2, y: -194.5}
+  EastHallCornerPos: {x: 49.3, y: -489.9}
+  EastDoorPos: {x: 53.3, y: -451.7}
+  KitchenPos: {x: 232, y: -480}
+  WestHallCornerPos: {x: -88.2, y: -490.4}
+  WestDoorPos: {x: -71.201, y: -456.1}
+  NoWhere: {x: -204, y: 1390}

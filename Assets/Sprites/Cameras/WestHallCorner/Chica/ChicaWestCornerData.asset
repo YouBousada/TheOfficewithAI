@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f46567c318504aa3442aec0ebfd3e, type: 3}
+  m_Name: ChicaWestCornerData
+  m_EditorClassIdentifier: 
+  characterName: 3
+  Layer1_FreeRoamRenders:
+  - {fileID: 21300000, guid: f0d2dea97346ec84593a43f3950e8728, type: 3}
+  Layer2_FreeRoamRenders:
+  - {fileID: 21300000, guid: e5ae2125dc4e097408def2dcfc1fe5f4, type: 3}
+  Layer3_FreeRoamRenders:
+  - {fileID: 21300000, guid: 60eaec501a65bec44b0465e450661263, type: 3}
+  Layer4_FreeRoamRenders:
+  - {fileID: 21300000, guid: 07af674e2816e8440933681ba8ee1c6d, type: 3}
+  Layer1_IdleRenders: []
+  Layer2_IdleRenders: []
+  Layer3_IdleRenders: []
+  Layer4_IdleRenders: []
+  Layer1_RunningRenders: []
+  Layer2_RunningRenders: []
+  Layer3_RunningRenders: []
+  Layer4_RunningRenders: []

@@ -1,0 +1,5630 @@
+fileFormatVersion: 2
+guid: a1c9e03fb0537334c9314c51ff1fd15d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1437824812380910228
+    second: ChicaShowroomRush_2_0
+  - first:
+      213: -4699763744085308784
+    second: ChicaShowroomRush_2_1
+  - first:
+      213: -2439272425068145359
+    second: ChicaShowroomRush_2_2
+  - first:
+      213: 3682676580401084990
+    second: ChicaShowroomRush_2_3
+  - first:
+      213: 2974985742485730805
+    second: ChicaShowroomRush_2_4
+  - first:
+      213: 1724974032387841408
+    second: ChicaShowroomRush_2_5
+  - first:
+      213: -2765006604164460684
+    second: ChicaShowroomRush_2_6
+  - first:
+      213: -2105918183750793152
+    second: ChicaShowroomRush_2_7
+  - first:
+      213: -3052316594643924588
+    second: ChicaShowroomRush_2_8
+  - first:
+      213: 4599931698957709087
+    second: ChicaShowroomRush_2_9
+  - first:
+      213: 2193046845505473119
+    second: ChicaShowroomRush_2_10
+  - first:
+      213: 59743297596004747
+    second: ChicaShowroomRush_2_11
+  - first:
+      213: -6281333617372630307
+    second: ChicaShowroomRush_2_12
+  - first:
+      213: 3250278158745231752
+    second: ChicaShowroomRush_2_13
+  - first:
+      213: -6173037093580917978
+    second: ChicaShowroomRush_2_14
+  - first:
+      213: 7071402117087331485
+    second: ChicaShowroomRush_2_15
+  - first:
+      213: -5973551081869163191
+    second: ChicaShowroomRush_2_16
+  - first:
+      213: -2277151505276697657
+    second: ChicaShowroomRush_2_17
+  - first:
+      213: 5051075725638929001
+    second: ChicaShowroomRush_2_18
+  - first:
+      213: 8419456746544186577
+    second: ChicaShowroomRush_2_19
+  - first:
+      213: -5215969629540035339
+    second: ChicaShowroomRush_2_20
+  - first:
+      213: 6708602978389922366
+    second: ChicaShowroomRush_2_21
+  - first:
+      213: -803650366871596898
+    second: ChicaShowroomRush_2_22
+  - first:
+      213: 6732987779657613946
+    second: ChicaShowroomRush_2_23
+  - first:
+      213: 7350073674076094605
+    second: ChicaShowroomRush_2_24
+  - first:
+      213: 3656401788984957902
+    second: ChicaShowroomRush_2_25
+  - first:
+      213: -5148695434664996349
+    second: ChicaShowroomRush_2_26
+  - first:
+      213: -4688954923942344245
+    second: ChicaShowroomRush_2_27
+  - first:
+      213: -465491296572473200
+    second: ChicaShowroomRush_2_28
+  - first:
+      213: -6273989720141482384
+    second: ChicaShowroomRush_2_29
+  - first:
+      213: 7156481567338451843
+    second: ChicaShowroomRush_2_30
+  - first:
+      213: 3010329033084529810
+    second: ChicaShowroomRush_2_31
+  - first:
+      213: 4790393662035495511
+    second: ChicaShowroomRush_2_32
+  - first:
+      213: 4191046435798913192
+    second: ChicaShowroomRush_2_33
+  - first:
+      213: -2797783869987746411
+    second: ChicaShowroomRush_2_34
+  - first:
+      213: -5516481374411943747
+    second: ChicaShowroomRush_2_35
+  - first:
+      213: 6975542349944965080
+    second: ChicaShowroomRush_2_36
+  - first:
+      213: 5121876029993621259
+    second: ChicaShowroomRush_2_37
+  - first:
+      213: 5508413241638125582
+    second: ChicaShowroomRush_2_38
+  - first:
+      213: -6704484033087885659
+    second: ChicaShowroomRush_2_39
+  - first:
+      213: -3036180924874175013
+    second: ChicaShowroomRush_2_40
+  - first:
+      213: 4745807625386721485
+    second: ChicaShowroomRush_2_41
+  - first:
+      213: 1723262900735983890
+    second: ChicaShowroomRush_2_42
+  - first:
+      213: 8944535456773970005
+    second: ChicaShowroomRush_2_43
+  - first:
+      213: 678823603287976685
+    second: ChicaShowroomRush_2_44
+  - first:
+      213: 3114253950925026683
+    second: ChicaShowroomRush_2_45
+  - first:
+      213: 193771238172789586
+    second: ChicaShowroomRush_2_46
+  - first:
+      213: 8486867436940792662
+    second: ChicaShowroomRush_2_47
+  - first:
+      213: -1177121460314592977
+    second: ChicaShowroomRush_2_48
+  - first:
+      213: -8592530609064821986
+    second: ChicaShowroomRush_2_49
+  - first:
+      213: 4945990507412752443
+    second: ChicaShowroomRush_2_50
+  - first:
+      213: 5063814958469815444
+    second: ChicaShowroomRush_2_51
+  - first:
+      213: -583096098474338229
+    second: ChicaShowroomRush_2_52
+  - first:
+      213: -4793065104450453411
+    second: ChicaShowroomRush_2_53
+  - first:
+      213: -1945203318221122849
+    second: ChicaShowroomRush_2_54
+  - first:
+      213: -2498851468053689684
+    second: ChicaShowroomRush_2_55
+  - first:
+      213: 5095736436487727701
+    second: ChicaShowroomRush_2_56
+  - first:
+      213: -9066096197060768470
+    second: ChicaShowroomRush_2_57
+  - first:
+      213: -5416543934616857364
+    second: ChicaShowroomRush_2_58
+  - first:
+      213: -6377452342278391508
+    second: ChicaShowroomRush_2_59
+  - first:
+      213: -6911657119702203159
+    second: ChicaShowroomRush_2_60
+  - first:
+      213: 3825188585268165496
+    second: ChicaShowroomRush_2_61
+  - first:
+      213: -891328438843287207
+    second: ChicaShowroomRush_2_62
+  - first:
+      213: 1777031962737865920
+    second: ChicaShowroomRush_2_63
+  - first:
+      213: -6007651184666010847
+    second: ChicaShowroomRush_2_64
+  - first:
+      213: 919866307552855756
+    second: ChicaShowroomRush_2_65
+  - first:
+      213: -2756938619888030660
+    second: ChicaShowroomRush_2_66
+  - first:
+      213: 3867107432017163160
+    second: ChicaShowroomRush_2_67
+  - first:
+      213: 5421112257555819586
+    second: ChicaShowroomRush_2_68
+  - first:
+      213: 8159145796557381943
+    second: ChicaShowroomRush_2_69
+  - first:
+      213: 592857572603664112
+    second: ChicaShowroomRush_2_70
+  - first:
+      213: -6732399563784501770
+    second: ChicaShowroomRush_2_71
+  - first:
+      213: 4053793125392636873
+    second: ChicaShowroomRush_2_72
+  - first:
+      213: -5590165892866809879
+    second: ChicaShowroomRush_2_73
+  - first:
+      213: -8178240835163273263
+    second: ChicaShowroomRush_2_74
+  - first:
+      213: -7484769668826769641
+    second: ChicaShowroomRush_2_75
+  - first:
+      213: 6936509910299462494
+    second: ChicaShowroomRush_2_76
+  - first:
+      213: -8848815992366898152
+    second: ChicaShowroomRush_2_77
+  - first:
+      213: -5792016706108872820
+    second: ChicaShowroomRush_2_78
+  - first:
+      213: 5711566421520971636
+    second: ChicaShowroomRush_2_79
+  - first:
+      213: 3513877513005492482
+    second: ChicaShowroomRush_2_80
+  - first:
+      213: -6792466578603449725
+    second: ChicaShowroomRush_2_81
+  - first:
+      213: 8946526559441978275
+    second: ChicaShowroomRush_2_82
+  - first:
+      213: 96366397684874002
+    second: ChicaShowroomRush_2_83
+  - first:
+      213: 5499772963287499248
+    second: ChicaShowroomRush_2_84
+  - first:
+      213: -2843688550785365452
+    second: ChicaShowroomRush_2_85
+  - first:
+      213: 6338855759226703883
+    second: ChicaShowroomRush_2_86
+  - first:
+      213: 1084664590901144543
+    second: ChicaShowroomRush_2_87
+  - first:
+      213: 1599900161538288898
+    second: ChicaShowroomRush_2_88
+  - first:
+      213: 6138238534693478154
+    second: ChicaShowroomRush_2_89
+  - first:
+      213: -2173474191539334869
+    second: ChicaShowroomRush_2_90
+  - first:
+      213: 654838724891723124
+    second: ChicaShowroomRush_2_91
+  - first:
+      213: -8202897428909886895
+    second: ChicaShowroomRush_2_92
+  - first:
+      213: -2538623026619062074
+    second: ChicaShowroomRush_2_93
+  - first:
+      213: -7378723352795277294
+    second: ChicaShowroomRush_2_94
+  - first:
+      213: -2676467515894713373
+    second: ChicaShowroomRush_2_95
+  - first:
+      213: 3460688224988197328
+    second: ChicaShowroomRush_2_96
+  - first:
+      213: -6262595386399565858
+    second: ChicaShowroomRush_2_97
+  - first:
+      213: -4937932836020619307
+    second: ChicaShowroomRush_2_98
+  - first:
+      213: -8713903301823213772
+    second: ChicaShowroomRush_2_99
+  - first:
+      213: 7485620090485921031
+    second: ChicaShowroomRush_2_100
+  - first:
+      213: -3556238629843383405
+    second: ChicaShowroomRush_2_101
+  - first:
+      213: 7506586374321101287
+    second: ChicaShowroomRush_2_102
+  - first:
+      213: 3327890240830750449
+    second: ChicaShowroomRush_2_103
+  - first:
+      213: -2227841046665067869
+    second: ChicaShowroomRush_2_104
+  - first:
+      213: 3262909651860347436
+    second: ChicaShowroomRush_2_105
+  - first:
+      213: -4953160139231236112
+    second: ChicaShowroomRush_2_106
+  - first:
+      213: -5907784242288416228
+    second: ChicaShowroomRush_2_107
+  - first:
+      213: -6007186584024006413
+    second: ChicaShowroomRush_2_108
+  - first:
+      213: -2943120085337880559
+    second: ChicaShowroomRush_2_109
+  - first:
+      213: 5777588239599936506
+    second: ChicaShowroomRush_2_110
+  - first:
+      213: -4861194374271406562
+    second: ChicaShowroomRush_2_111
+  - first:
+      213: 8587639871172322329
+    second: ChicaShowroomRush_2_112
+  - first:
+      213: 8380586927226880887
+    second: ChicaShowroomRush_2_113
+  - first:
+      213: -4944162468450971284
+    second: ChicaShowroomRush_2_114
+  - first:
+      213: -4215009732385312042
+    second: ChicaShowroomRush_2_115
+  - first:
+      213: -2441978364740453983
+    second: ChicaShowroomRush_2_116
+  - first:
+      213: -1237968215835088806
+    second: ChicaShowroomRush_2_117
+  - first:
+      213: -7773258158227633435
+    second: ChicaShowroomRush_2_118
+  - first:
+      213: -7852374131282776944
+    second: ChicaShowroomRush_2_119
+  - first:
+      213: -2515703907573911161
+    second: ChicaShowroomRush_2_120
+  - first:
+      213: 8240435115409703832
+    second: ChicaShowroomRush_2_121
+  - first:
+      213: -3705317162470827659
+    second: ChicaShowroomRush_2_122
+  - first:
+      213: -1739344409116489614
+    second: ChicaShowroomRush_2_123
+  - first:
+      213: -4705324751014604372
+    second: ChicaShowroomRush_2_124
+  - first:
+      213: -6137534843521958552
+    second: ChicaShowroomRush_2_125
+  - first:
+      213: 5559842716808719354
+    second: ChicaShowroomRush_2_126
+  - first:
+      213: -2426679385749675135
+    second: ChicaShowroomRush_2_127
+  - first:
+      213: 3160695936529338569
+    second: ChicaShowroomRush_2_128
+  - first:
+      213: 6289561279721565046
+    second: ChicaShowroomRush_2_129
+  - first:
+      213: 9158252252791512694
+    second: ChicaShowroomRush_2_130
+  - first:
+      213: 5311013321794046920
+    second: ChicaShowroomRush_2_131
+  - first:
+      213: 1281662802311679515
+    second: ChicaShowroomRush_2_132
+  - first:
+      213: 4206522501787622283
+    second: ChicaShowroomRush_2_133
+  - first:
+      213: -8381451771801573176
+    second: ChicaShowroomRush_2_134
+  - first:
+      213: -3028624110829364452
+    second: ChicaShowroomRush_2_135
+  - first:
+      213: -6394960967362190221
+    second: ChicaShowroomRush_2_136
+  - first:
+      213: 2817528599017248326
+    second: ChicaShowroomRush_2_137
+  - first:
+      213: 3879125195851968036
+    second: ChicaShowroomRush_2_138
+  - first:
+      213: 8658834338471257055
+    second: ChicaShowroomRush_2_139
+  - first:
+      213: 9173436213538116759
+    second: ChicaShowroomRush_2_140
+  - first:
+      213: 3088573671673409504
+    second: ChicaShowroomRush_2_141
+  - first:
+      213: -1413715180701003166
+    second: ChicaShowroomRush_2_142
+  - first:
+      213: 6706420733891324817
+    second: ChicaShowroomRush_2_143
+  - first:
+      213: 6588721040076765841
+    second: ChicaShowroomRush_2_144
+  - first:
+      213: 1448012038022181835
+    second: ChicaShowroomRush_2_145
+  - first:
+      213: -490629135703406950
+    second: ChicaShowroomRush_2_146
+  - first:
+      213: 6584874408563193748
+    second: ChicaShowroomRush_2_147
+  - first:
+      213: -1596605134736846149
+    second: ChicaShowroomRush_2_148
+  - first:
+      213: -178747266205008069
+    second: ChicaShowroomRush_2_149
+  - first:
+      213: -5138367914914012301
+    second: ChicaShowroomRush_2_150
+  - first:
+      213: 5260593540137356675
+    second: ChicaShowroomRush_2_151
+  - first:
+      213: 6498121146139090649
+    second: ChicaShowroomRush_2_152
+  - first:
+      213: -4925878773473335062
+    second: ChicaShowroomRush_2_153
+  - first:
+      213: 5192232245849139628
+    second: ChicaShowroomRush_2_154
+  - first:
+      213: -1174449405785368603
+    second: ChicaShowroomRush_2_155
+  - first:
+      213: -8922092736381253504
+    second: ChicaShowroomRush_2_156
+  - first:
+      213: 1444636955715226329
+    second: ChicaShowroomRush_2_157
+  - first:
+      213: -876098501186201024
+    second: ChicaShowroomRush_2_158
+  - first:
+      213: 5772929300727162011
+    second: ChicaShowroomRush_2_159
+  - first:
+      213: -8099699891348868625
+    second: ChicaShowroomRush_2_160
+  - first:
+      213: 8131950049066210040
+    second: ChicaShowroomRush_2_161
+  - first:
+      213: -3681943285403375041
+    second: ChicaShowroomRush_2_162
+  - first:
+      213: 3085630475277027748
+    second: ChicaShowroomRush_2_163
+  - first:
+      213: 43543193015471882
+    second: ChicaShowroomRush_2_164
+  - first:
+      213: -4267293413292002671
+    second: ChicaShowroomRush_2_165
+  - first:
+      213: -6992992128527996628
+    second: ChicaShowroomRush_2_166
+  - first:
+      213: -4843310788548926510
+    second: ChicaShowroomRush_2_167
+  - first:
+      213: -8363968001591954623
+    second: ChicaShowroomRush_2_168
+  - first:
+      213: 1414115643635470667
+    second: ChicaShowroomRush_2_169
+  - first:
+      213: 7409929605803411015
+    second: ChicaShowroomRush_2_170
+  - first:
+      213: -865299618571571300
+    second: ChicaShowroomRush_2_171
+  - first:
+      213: 6896231095027750060
+    second: ChicaShowroomRush_2_172
+  - first:
+      213: 5456164749281611925
+    second: ChicaShowroomRush_2_173
+  - first:
+      213: -2092661243322520716
+    second: ChicaShowroomRush_2_174
+  - first:
+      213: 8277008328626119860
+    second: ChicaShowroomRush_2_175
+  - first:
+      213: -1721772877581927887
+    second: ChicaShowroomRush_2_176
+  - first:
+      213: -2692977512852590473
+    second: ChicaShowroomRush_2_177
+  - first:
+      213: 2478655573802008695
+    second: ChicaShowroomRush_2_178
+  - first:
+      213: -4202782349127793376
+    second: ChicaShowroomRush_2_179
+  - first:
+      213: -2420735299484431761
+    second: ChicaShowroomRush_2_180
+  - first:
+      213: 3572450877705691734
+    second: ChicaShowroomRush_2_181
+  - first:
+      213: 255052791666637034
+    second: ChicaShowroomRush_2_182
+  - first:
+      213: -8999788097631195571
+    second: ChicaShowroomRush_2_183
+  - first:
+      213: 3449222962424811378
+    second: ChicaShowroomRush_2_184
+  - first:
+      213: 2816231927588585342
+    second: ChicaShowroomRush_2_185
+  - first:
+      213: 689244213749731891
+    second: ChicaShowroomRush_2_186
+  - first:
+      213: 524151186463830670
+    second: ChicaShowroomRush_2_187
+  - first:
+      213: 5023788430360012843
+    second: ChicaShowroomRush_2_188
+  - first:
+      213: -5239062254744960236
+    second: ChicaShowroomRush_2_189
+  - first:
+      213: 9213808796148178989
+    second: ChicaShowroomRush_2_190
+  - first:
+      213: 7260789984903210204
+    second: ChicaShowroomRush_2_191
+  - first:
+      213: 6652293178450939651
+    second: ChicaShowroomRush_2_192
+  - first:
+      213: -3968124010807291237
+    second: ChicaShowroomRush_2_193
+  - first:
+      213: 32677648051577781
+    second: ChicaShowroomRush_2_194
+  - first:
+      213: -4001618106509960836
+    second: ChicaShowroomRush_2_195
+  - first:
+      213: -7831198136364483879
+    second: ChicaShowroomRush_2_196
+  - first:
+      213: -5779764884626729481
+    second: ChicaShowroomRush_2_197
+  - first:
+      213: -4591316238779442604
+    second: ChicaShowroomRush_2_198
+  - first:
+      213: 8359908789489040989
+    second: ChicaShowroomRush_2_199
+  - first:
+      213: 1038343073108555928
+    second: ChicaShowroomRush_2_200
+  - first:
+      213: -7403918028438831924
+    second: ChicaShowroomRush_2_201
+  - first:
+      213: 174452698824450009
+    second: ChicaShowroomRush_2_202
+  - first:
+      213: -1698396549771240221
+    second: ChicaShowroomRush_2_203
+  - first:
+      213: 6997401577623815257
+    second: ChicaShowroomRush_2_204
+  - first:
+      213: 3651127074936625631
+    second: ChicaShowroomRush_2_205
+  - first:
+      213: 8345997996438307567
+    second: ChicaShowroomRush_2_206
+  - first:
+      213: -785750714211598645
+    second: ChicaShowroomRush_2_207
+  - first:
+      213: -1836771161576472320
+    second: ChicaShowroomRush_2_208
+  - first:
+      213: -7969133064968765073
+    second: ChicaShowroomRush_2_209
+  - first:
+      213: 3606058059727420470
+    second: ChicaShowroomRush_2_210
+  - first:
+      213: 8598755351356445471
+    second: ChicaShowroomRush_2_211
+  - first:
+      213: -1382339404182233808
+    second: ChicaShowroomRush_2_212
+  - first:
+      213: -8792849718071621252
+    second: ChicaShowroomRush_2_213
+  - first:
+      213: 2525617795509303434
+    second: ChicaShowroomRush_2_214
+  - first:
+      213: 1183912955142374264
+    second: ChicaShowroomRush_2_215
+  - first:
+      213: -140137320703518813
+    second: ChicaShowroomRush_2_216
+  - first:
+      213: -3467418066600077699
+    second: ChicaShowroomRush_2_217
+  - first:
+      213: -848393816612994935
+    second: ChicaShowroomRush_2_218
+  - first:
+      213: -4937797737265838934
+    second: ChicaShowroomRush_2_219
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 720
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492f4378c0e24f310800000000000000
+      internalID: 1437824812380910228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a098176c517ceb0800000000000000
+      internalID: -4699763744085308784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135586937a6f52ed0800000000000000
+      internalID: -2439272425068145359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 117
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3af47596de7b1330800000000000000
+      internalID: 3682676580401084990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 152
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5b6b845c5494920800000000000000
+      internalID: 2974985742485730805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 139
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d104f3eb650f710800000000000000
+      internalID: 1724974032387841408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f0b25a429b0a9d0800000000000000
+      internalID: -2765006604164460684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 100
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0488f7bc19646c2e0800000000000000
+      internalID: -2105918183750793152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 137
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4990832aa3ef3a5d0800000000000000
+      internalID: -3052316594643924588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 117
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fee6b328d36df30800000000000000
+      internalID: 4599931698957709087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 95
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a052a9c744f6e10800000000000000
+      internalID: 2193046845505473119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 129
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b899bee663044d000800000000000000
+      internalID: 59743297596004747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 80
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2f8ccda5834d8a0800000000000000
+      internalID: -6281333617372630307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_13
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8816831c3ce4b1d20800000000000000
+      internalID: 3250278158745231752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 107
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623bcc33877f45aa0800000000000000
+      internalID: -6173037093580917978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 137
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d948fe472caa22260800000000000000
+      internalID: 7071402117087331485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 119
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945c985b0fea91da0800000000000000
+      internalID: -5973551081869163191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 108
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c38c3455cee560e0800000000000000
+      internalID: -2277151505276697657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 94
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a8e485c96091640800000000000000
+      internalID: 5051075725638929001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d448838d4be7d470800000000000000
+      internalID: 8419456746544186577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 128
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f45a00e1472d97b0800000000000000
+      internalID: -5215969629540035339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_21
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e321f0a7ddeb91d50800000000000000
+      internalID: 6708602978389922366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 140
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90910fcf3cd8d4f0800000000000000
+      internalID: -803650366871596898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_23
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 106
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72c98376b0607d50800000000000000
+      internalID: 6732987779657613946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_24
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 99
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8081407015b00660800000000000000
+      internalID: 7350073674076094605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 77
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb1d8cfd062eb230800000000000000
+      internalID: 3656401788984957902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 151
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3021e18f7c82c88b0800000000000000
+      internalID: -5148695434664996349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 134
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9099ef65c7deeb0800000000000000
+      internalID: -4688954923942344245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_28
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 122
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09003cdc12e3a89f0800000000000000
+      internalID: -465491296572473200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_29
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 128
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076b38e279f4ee8a0800000000000000
+      internalID: -6273989720141482384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_30
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 110
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383d6de911ee05360800000000000000
+      internalID: 7156481567338451843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_31
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 94
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c6c026e46d6c920800000000000000
+      internalID: 3010329033084529810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_32
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 130
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a88efa7a5ea7240800000000000000
+      internalID: 4790393662035495511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 84
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a016fa3786992a30800000000000000
+      internalID: 4191046435798913192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 138
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d001fb4664c29d0800000000000000
+      internalID: -2797783869987746411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_35
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 81
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db01e14ea658173b0800000000000000
+      internalID: -5516481374411943747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_36
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 112
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7c92c2fca1ec060800000000000000
+      internalID: 6975542349944965080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_37
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 79
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b079b57cc1f841740800000000000000
+      internalID: 5121876029993621259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_38
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 106
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0006ef88a0d17c40800000000000000
+      internalID: 5508413241638125582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 140
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aea4853b43e4f2a0800000000000000
+      internalID: -6704484033087885659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_40
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 107
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddce0309815dd5d0800000000000000
+      internalID: -3036180924874175013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_41
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 96
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0048314ee7cd140800000000000000
+      internalID: 4745807625386721485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_42
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 41
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2114afc5a724ae710800000000000000
+      internalID: 1723262900735983890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_43
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 152
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55816e59b9f512c70800000000000000
+      internalID: 8944535456773970005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_44
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 139
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea612b787aab6900800000000000000
+      internalID: 678823603287976685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_45
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 93
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b753e35e77d083b20800000000000000
+      internalID: 3114253950925026683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_46
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 89
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b0afa1ae960b200800000000000000
+      internalID: 193771238172789586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_47
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 80
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6539fa2f7f867c570800000000000000
+      internalID: 8486867436940792662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_48
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 143
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29a57cb4460aafe0800000000000000
+      internalID: -1177121460314592977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_49
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 76
+        width: 34
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b350dafe231c880800000000000000
+      internalID: -8592530609064821986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 50
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b388ac85920b3a440800000000000000
+      internalID: 4945990507412752443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_51
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 142
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c17ef10e8464640800000000000000
+      internalID: 5063814958469815444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_52
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 146
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b485584103d68e7f0800000000000000
+      internalID: -583096098474338229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_53
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 114
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5009e7aeac9b7db0800000000000000
+      internalID: -4793065104450453411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_54
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 135
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2d48163ef3105e0800000000000000
+      internalID: -1945203318221122849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_55
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 135
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa423c44db425dd0800000000000000
+      internalID: -2498851468053689684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_56
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 132
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55aadd56a41b7b640800000000000000
+      internalID: 5095736436487727701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_57
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 81
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d4ca20b81ce2280800000000000000
+      internalID: -9066096197060768470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_58
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce49dd25df194d4b0800000000000000
+      internalID: -5416543934616857364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_59
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 108
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29738642ecbe77a0800000000000000
+      internalID: -6377452342278391508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_60
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 77
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4c9da187cd410a0800000000000000
+      internalID: -6911657119702203159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_61
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 104
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bb9c760ccc51530800000000000000
+      internalID: 3825188585268165496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_62
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 105
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959da80e18d51a3f0800000000000000
+      internalID: -891328438843287207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_63
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 79
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4718da72949a810800000000000000
+      internalID: 1777031962737865920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_64
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 112
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b1783d31980aca0800000000000000
+      internalID: -6007651184666010847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_65
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 65
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6c986788504cc00800000000000000
+      internalID: 919866307552855756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_66
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 99
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ca40e9ee26db9d0800000000000000
+      internalID: -2756938619888030660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_67
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 108
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893f7a978b9baa530800000000000000
+      internalID: 3867107432017163160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_68
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 93
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c612f30e8ab3b40800000000000000
+      internalID: 5421112257555819586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_69
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 103
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731ac6a7fdb1b3170800000000000000
+      internalID: 8159145796557381943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_70
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 97
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6117932d04a3800800000000000000
+      internalID: 592857572603664112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_71
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 83
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f541aa3446b192a0800000000000000
+      internalID: -6732399563784501770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_72
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 69
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbd2ff9e57f14830800000000000000
+      internalID: 4053793125392636873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_73
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 152
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef5b280dbdbb62b0800000000000000
+      internalID: -5590165892866809879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_74
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 67
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7cf746a4d018e80800000000000000
+      internalID: -8178240835163273263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_75
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 153
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71756f764a1c02890800000000000000
+      internalID: -7484769668826769641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_76
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b4060230f634060800000000000000
+      internalID: 6936509910299462494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_77
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 141
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814ec2cecb0b23580800000000000000
+      internalID: -8848815992366898152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_78
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 90
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87a0434e7f9e9fa0800000000000000
+      internalID: -5792016706108872820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_79
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 80
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4777ec1366f834f40800000000000000
+      internalID: 5711566421520971636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_80
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209ece21bfcc3c030800000000000000
+      internalID: 3513877513005492482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_81
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382e0a182af4cb1a0800000000000000
+      internalID: -6792466578603449725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_82
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 45
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3032d4182782c70800000000000000
+      internalID: 8946526559441978275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_83
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 100
+        width: 107
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b7a466abc565100800000000000000
+      internalID: 96366397684874002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_84
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f18c0efe5e135c40800000000000000
+      internalID: 5499772963287499248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_85
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 84
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ac79e54503988d0800000000000000
+      internalID: -2843688550785365452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_86
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 148
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0095237ab328f750800000000000000
+      internalID: 6338855759226703883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_87
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 88
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb6b19d2b08d0f00800000000000000
+      internalID: 1084664590901144543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_88
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 71
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d649468bcf33610800000000000000
+      internalID: 1599900161538288898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_89
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 22
+        width: 123
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fd40fec676f2550800000000000000
+      internalID: 6138238534693478154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_90
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 97
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2191d40db446d1e0800000000000000
+      internalID: -2173474191539334869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_91
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 119
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475475ec954761900800000000000000
+      internalID: 654838724891723124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_92
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 152
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1527cdccf34792e80800000000000000
+      internalID: -8202897428909886895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_93
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 114
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c86eb7becff4ccd0800000000000000
+      internalID: -2538623026619062074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_94
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 85
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21812cc6432899990800000000000000
+      internalID: -7378723352795277294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_95
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 109
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3393e89f64bdad0800000000000000
+      internalID: -2676467515894713373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_96
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 108
+        width: 103
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d17cc8ea95d60030800000000000000
+      internalID: 3460688224988197328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_97
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 76
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed757ad3daac619a0800000000000000
+      internalID: -6262595386399565858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_98
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 105
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7f0487f30f87bb0800000000000000
+      internalID: -4937932836020619307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_99
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 99
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f49bf7d1ff11780800000000000000
+      internalID: -8713903301823213772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_100
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 85
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705d0f0dfc342e760800000000000000
+      internalID: 7485620090485921031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_101
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 56
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bc9a3dec3b5aec0800000000000000
+      internalID: -3556238629843383405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_102
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 122
+        width: 31
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9523d2980cc2860800000000000000
+      internalID: 7506586374321101287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_103
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 72
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1feb438ca8a0f2e20800000000000000
+      internalID: 3327890240830750449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_104
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 81
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a28e752f5e1511e0800000000000000
+      internalID: -2227841046665067869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_105
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 71
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a545d6a0f284d20800000000000000
+      internalID: 3262909651860347436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_106
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 78
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff6f79a817d24bb0800000000000000
+      internalID: -4953160139231236112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_107
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 73
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1aafbc4885530ea0800000000000000
+      internalID: -5907784242288416228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_108
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 68
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0c1c711af22aca0800000000000000
+      internalID: -6007186584024006413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_109
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 73
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1184e1e20efe727d0800000000000000
+      internalID: -2943120085337880559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_110
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 77
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af324d794ed1e2050800000000000000
+      internalID: 5777588239599936506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_111
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 136
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1eec69e871998cb0800000000000000
+      internalID: -4861194374271406562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_112
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 79
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914253ca6fc6d2770800000000000000
+      internalID: 8587639871172322329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_113
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 12
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77304a67863dd4470800000000000000
+      internalID: 8380586927226880887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6159242e6ec26bb0800000000000000
+      internalID: -4944162468450971284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_115
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 68
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2fb500bf64185c0800000000000000
+      internalID: -4215009732385312042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_116
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 62
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9b47c8d995c1ed0800000000000000
+      internalID: -2441978364740453983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_117
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 49
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58eceb777ad1dee0800000000000000
+      internalID: -1237968215835088806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_118
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 55
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea4f6bb3e6df1490800000000000000
+      internalID: -7773258158227633435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_119
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 53
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c6c6dc453c60390800000000000000
+      internalID: -7852374131282776944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_120
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 60
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781bef4ff9c661dd0800000000000000
+      internalID: -2515703907573911161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_121
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89386a8e318eb5270800000000000000
+      internalID: 8240435115409703832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_122
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 67
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57994ce1ca1149cc0800000000000000
+      internalID: -3705317162470827659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_123
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 63
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278cc80b97b9cd7e0800000000000000
+      internalID: -1739344409116489614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_124
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 66
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1dbee911453beb0800000000000000
+      internalID: -4705324751014604372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_125
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 23
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d7a4fe39813daa0800000000000000
+      internalID: -6137534843521958552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_126
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 66
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb2d6e5e77882d40800000000000000
+      internalID: 5559842716808719354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_127
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 64
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183a0aca4f3b25ed0800000000000000
+      internalID: -2426679385749675135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_128
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 56
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c01adb453c0ddb20800000000000000
+      internalID: 3160695936529338569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_129
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 68
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67beade09a2094750800000000000000
+      internalID: 6289561279721565046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e1f03c6e5a81f70800000000000000
+      internalID: 9158252252791512694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_131
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 43
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbc6ea2a7284b940800000000000000
+      internalID: 5311013321794046920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_132
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 45
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e8e95378169c110800000000000000
+      internalID: 1281662802311679515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_133
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b1db2ade1906a30800000000000000
+      internalID: 4206522501787622283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_134
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 40
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8e2b7350a1fab80800000000000000
+      internalID: -8381451771801573176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_135
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 57
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b15d3ea6a28f5d0800000000000000
+      internalID: -3028624110829364452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_136
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 50
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37463e3d1e88047a0800000000000000
+      internalID: -6394960967362190221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_137
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 56
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6465de8355fd91720800000000000000
+      internalID: 2817528599017248326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_138
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 54
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e260a20db65d530800000000000000
+      internalID: 3879125195851968036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_139
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 49
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3a88154fb5a2870800000000000000
+      internalID: 8658834338471257055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_140
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 27
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794d4ad12a79e4f70800000000000000
+      internalID: 9173436213538116759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_141
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efa7b2f361dcda20800000000000000
+      internalID: 3088573671673409504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_142
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 51
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2625db88889716ce0800000000000000
+      internalID: -1413715180701003166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_143
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 39
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b28e5102ef11d50800000000000000
+      internalID: 6706420733891324817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_144
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 29
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19afaed90e6df6b50800000000000000
+      internalID: 6588721040076765841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_145
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 24
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc33dc4d64f581410800000000000000
+      internalID: 1448012038022181835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_146
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 40
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9601f9866fe039f0800000000000000
+      internalID: -490629135703406950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_147
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 27
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49738fce26c226b50800000000000000
+      internalID: 6584874408563193748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_148
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb21271d618b7d9e0800000000000000
+      internalID: -1596605134736846149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_149
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 35
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f3745fe46f48df0800000000000000
+      internalID: -178747266205008069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_150
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 47
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373294a0b99d0b8b0800000000000000
+      internalID: -5138367914914012301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_151
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 42
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d0a93f3f1610940800000000000000
+      internalID: 5260593540137356675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_152
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 44
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de131ff0c6fd2a50800000000000000
+      internalID: 6498121146139090649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_153
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 37
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae82c7c9a53c3abb0800000000000000
+      internalID: -4925878773473335062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_154
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 44
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9aa2dc7b38e0840800000000000000
+      internalID: 5192232245849139628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_155
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 47
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e79e79ec7483bfe0800000000000000
+      internalID: -1174449405785368603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_156
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 26
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08807e27deb5e2480800000000000000
+      internalID: -8922092736381253504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_157
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 28
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dacece38a16c0410800000000000000
+      internalID: 1444636955715226329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_158
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 45
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a5b801e0977d3f0800000000000000
+      internalID: -876098501186201024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_159
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 25
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94694bdc909d1050800000000000000
+      internalID: 5772929300727162011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_160
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 41
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe171e4ecd5189f80800000000000000
+      internalID: -8099699891348868625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_161
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 45
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2dfc51c7d7ad070800000000000000
+      internalID: 8131950049066210040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_162
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 7
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aa566f61c17ecc0800000000000000
+      internalID: -3681943285403375041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_163
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 33
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9c103a19c52da20800000000000000
+      internalID: 3085630475277027748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_164
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 10
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fc218ad42ba9000800000000000000
+      internalID: 43543193015471882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_165
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 29
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192bd5cef3787c4c0800000000000000
+      internalID: -4267293413292002671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_166
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 22
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c296cf5a5b6e3fe90800000000000000
+      internalID: -6992992128527996628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_167
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 29
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d369bfaf7a19ccb0800000000000000
+      internalID: -4843310788548926510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_168
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 31
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143b060ba673deb80800000000000000
+      internalID: -8363968001591954623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_169
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 35
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4117328fa2ff9310800000000000000
+      internalID: 1414115643635470667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_170
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 36
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746009c87bb55d660800000000000000
+      internalID: 7409929605803411015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_171
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 16
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fa2cad496ddf3f0800000000000000
+      internalID: -865299618571571300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_172
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 0
+        width: 12
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4d124a4a554bf50800000000000000
+      internalID: 6896231095027750060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_173
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 17
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59050f47ee038bb40800000000000000
+      internalID: 5456164749281611925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_174
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 13
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ba884cfaf55f2e0800000000000000
+      internalID: -2092661243322520716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_175
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4a5bea837ddd270800000000000000
+      internalID: 8277008328626119860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_176
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 23
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ab3dfa0b80b18e0800000000000000
+      internalID: -1721772877581927887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_177
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7707e46583f90aad0800000000000000
+      internalID: -2692977512852590473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_178
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 19
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770c205ac14f56220800000000000000
+      internalID: 2478655573802008695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_179
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 26
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025c4f388b7bca5c0800000000000000
+      internalID: -4202782349127793376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_180
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a4bfa1212d76ed0800000000000000
+      internalID: -2420735299484431761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_181
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 3
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6522e274525e39130800000000000000
+      internalID: 3572450877705691734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_182
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 25
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8f246a9212a8300800000000000000
+      internalID: 255052791666637034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_183
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 3
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e67ea78645a1380800000000000000
+      internalID: -8999788097631195571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_184
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 26
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f8372720a1edf20800000000000000
+      internalID: 3449222962424811378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_185
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 7
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ff7016404451720800000000000000
+      internalID: 2816231927588585342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_186
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332db0ce5ffa09900800000000000000
+      internalID: 689244213749731891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_187
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82b6cd1ab8264700800000000000000
+      internalID: 524151186463830670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_188
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b286352d5f418b540800000000000000
+      internalID: 5023788430360012843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_189
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 11
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41305c513ac1b47b0800000000000000
+      internalID: -5239062254744960236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_190
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2028c288460edf70800000000000000
+      internalID: 9213808796148178989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_191
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 7
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4aede950283c460800000000000000
+      internalID: 7260789984903210204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_192
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 5
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f82538661b15c50800000000000000
+      internalID: 6652293178450939651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_193
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9212277c346ee8c0800000000000000
+      internalID: -3968124010807291237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_194
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3a534d528147000800000000000000
+      internalID: 32677648051577781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_195
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 11
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79d3ba98856778c0800000000000000
+      internalID: -4001618106509960836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_196
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 18
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da3b4459cef15390800000000000000
+      internalID: -7831198136364483879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_197
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f51c8eb5762acfa0800000000000000
+      internalID: -5779764884626729481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_198
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a9118e43e5840c0800000000000000
+      internalID: -4591316238779442604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_199
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 9
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ef82850cc540470800000000000000
+      internalID: 8359908789489040989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_200
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 16
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8987f9b068fe86e00800000000000000
+      internalID: 1038343073108555928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_201
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccfac0e7cfff3990800000000000000
+      internalID: -7403918028438831924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_202
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df1a872ec7cb6200800000000000000
+      internalID: 174452698824450009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_203
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecd22326551e68e0800000000000000
+      internalID: -1698396549771240221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_204
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954860939a3cb1160800000000000000
+      internalID: 6997401577623815257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_205
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9986beab86ba230800000000000000
+      internalID: 3651127074936625631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_206
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 4
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2c3d175f0f2d370800000000000000
+      internalID: 8345997996438307567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_207
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce786573e37815f0800000000000000
+      internalID: -785750714211598645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_208
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0018d843c5a7286e0800000000000000
+      internalID: -1836771161576472320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_209
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6187be13b3f76190800000000000000
+      internalID: -7969133064968765073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_210
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cbc7913ba4b0230800000000000000
+      internalID: 3606058059727420470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_211
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 0
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1317141f6ae45770800000000000000
+      internalID: 8598755351356445471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_212
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d51b6c2a1f0dce0800000000000000
+      internalID: -1382339404182233808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_213
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 9
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7982f694c589f580800000000000000
+      internalID: -8792849718071621252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_214
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88bcb3f00ccc0320800000000000000
+      internalID: 2525617795509303434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_215
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8738e306f8a1e6010800000000000000
+      internalID: 1183912955142374264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_216
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a711bb69d12e0ef0800000000000000
+      internalID: -140137320703518813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_217
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76d78cb3a141efc0800000000000000
+      internalID: -3467418066600077699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_218
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980052b9156e934f0800000000000000
+      internalID: -848393816612994935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomRush_2_219
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4ca899e1b697bb0800000000000000
+      internalID: -4937797737265838934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

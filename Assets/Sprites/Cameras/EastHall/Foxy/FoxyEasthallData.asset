@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f46567c318504aa3442aec0ebfd3e, type: 3}
+  m_Name: FoxyEasthallData
+  m_EditorClassIdentifier: 
+  characterName: 4
+  Layer1_FreeRoamRenders:
+  - {fileID: 21300000, guid: f44dcb02eb411dd42ab0bbab93c8bd73, type: 3}
+  Layer2_FreeRoamRenders:
+  - {fileID: 21300000, guid: dfe7d1fb07f989643814b31050ea140c, type: 3}
+  Layer3_FreeRoamRenders:
+  - {fileID: 21300000, guid: 118168d478e8887439d0bd2031e60473, type: 3}
+  Layer4_FreeRoamRenders:
+  - {fileID: 21300000, guid: e3c834c493973bc4b9bc2542dfe07b2e, type: 3}
+  Layer1_IdleRenders: []
+  Layer2_IdleRenders: []
+  Layer3_IdleRenders: []
+  Layer4_IdleRenders: []
+  Layer1_RunningRenders:
+  - {fileID: 21300000, guid: a5fd4c56bfefb68458c09d9721eda304, type: 3}
+  Layer2_RunningRenders:
+  - {fileID: 21300000, guid: be1c8e0aee9d06642b455315cae3db44, type: 3}
+  Layer3_RunningRenders:
+  - {fileID: 21300000, guid: 078d35fd70b2c384c9465dda0e2b3088, type: 3}
+  Layer4_RunningRenders:
+  - {fileID: 21300000, guid: 500ffd8c122bc014592183f7d89a8fdc, type: 3}

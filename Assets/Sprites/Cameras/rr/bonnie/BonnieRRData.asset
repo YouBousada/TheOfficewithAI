@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f46567c318504aa3442aec0ebfd3e, type: 3}
+  m_Name: BonnieRRData
+  m_EditorClassIdentifier: 
+  characterName: 2
+  Layer1_FreeRoamRenders:
+  - {fileID: 21300000, guid: 6f28e521c353aa54696d169898f6c299, type: 3}
+  Layer2_FreeRoamRenders:
+  - {fileID: 21300000, guid: a36474f69da49ca47aac90297a3093bb, type: 3}
+  Layer3_FreeRoamRenders:
+  - {fileID: 21300000, guid: 3dbabfa7fa2a05d4c8e1693f9625b3cd, type: 3}
+  Layer4_FreeRoamRenders:
+  - {fileID: 21300000, guid: 64823d3eb7fa61648a732dff38e33910, type: 3}
+  Layer1_IdleRenders:
+  - {fileID: 21300000, guid: f1fce78d457cc6743855f8ba7007f8d1, type: 3}
+  Layer2_IdleRenders:
+  - {fileID: 21300000, guid: 5f4a85176c8887a49a76ab740459694a, type: 3}
+  Layer3_IdleRenders:
+  - {fileID: 21300000, guid: 2c765ddbfa9b81f4983245f86dcb874d, type: 3}
+  Layer4_IdleRenders:
+  - {fileID: 21300000, guid: 0d310b20871df5a49ae34fdb0d03bc4f, type: 3}
+  Layer1_RunningRenders:
+  - {fileID: 21300000, guid: 121f211baedf1fd488d73d26790b4a10, type: 3}
+  Layer2_RunningRenders:
+  - {fileID: 21300000, guid: c72ed92208815e4489adf051324ebc89, type: 3}
+  Layer3_RunningRenders:
+  - {fileID: 21300000, guid: 014f897b374628144b098ab266475b7b, type: 3}
+  Layer4_RunningRenders:
+  - {fileID: 21300000, guid: f05e90adb1db5e7448f35b3bb4158248, type: 3}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a45ceb60379007b42bba924042faa391, type: 3}
+  m_Name: RightDoorViewJumpscareData
+  m_EditorClassIdentifier: 
+  ThisDoorBonnieAnimationDoorOpen: {fileID: 11400000, guid: 4468eb08b4d55be42a66f0726b40c3b3, type: 2}
+  ThisDoorChicaAnimationDoorOpen: {fileID: 11400000, guid: 704514267939953489c84ca0948d3581, type: 2}
+  ThisDoorFoxyAnimationDoorOpen: {fileID: 11400000, guid: ebb9b5a907286d245944b3a64d1478a4, type: 2}
+  ThisDoorFreddyAnimationDoorOpen: {fileID: 11400000, guid: 569791406b75fde4e8a9c93417b1422d, type: 2}
+  OtherDoorBonnieAnimationDoorOpen: {fileID: 11400000, guid: fb821553f891ee3428f20cad021a021a, type: 2}
+  OtherDoorChicaAnimationDoorOpen: {fileID: 11400000, guid: da8c22307090b654984b02deaa7f43b3, type: 2}
+  OtherDoorFoxyAnimationDoorOpen: {fileID: 11400000, guid: 53adab78e92b5df47959d420b716121c, type: 2}
+  OtherDoorFreddyAnimationDoorOpen: {fileID: 11400000, guid: 3efd7b0fb1f70464c8fb055543a96d08, type: 2}
+  OtherDoorBonnieAnimationDoorClosed: {fileID: 11400000, guid: fdc541f6d9dd7e74a998f0c015c88607, type: 2}
+  OtherDoorChicaAnimationDoorClosed: {fileID: 11400000, guid: ba72a233ad85c49469ffbccd83dfd6d3, type: 2}
+  OtherDoorFoxyAnimationDoorClosed: {fileID: 11400000, guid: 2930df3aa4690a847858935b2e944b57, type: 2}
+  OtherDoorFreddyAnimationDoorClosed: {fileID: 11400000, guid: f570783c8399c5d41a5877774f1bf275, type: 2}

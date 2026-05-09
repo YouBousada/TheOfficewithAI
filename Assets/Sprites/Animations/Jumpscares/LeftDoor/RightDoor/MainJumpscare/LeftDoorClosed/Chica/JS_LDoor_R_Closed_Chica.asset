@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_LDoor_R_Closed_Chica
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4209461767521648114, guid: 01f4532b44972d34ba51b7241cb3d457, type: 3}
+  - {fileID: 6032186475404308979, guid: 932cc6ec8e7ca034ca882697ba57d78d, type: 3}
+  - {fileID: 5453481469928959302, guid: 04704fe89add89241af528f64e4b49d1, type: 3}
+  - {fileID: -1792632809057475342, guid: ef8e7ea94c715bb41ab540b161f6ffeb, type: 3}
+  - {fileID: -7839056689181992794, guid: 129a0d4887e580d418ce1b1f9d92c7f2, type: 3}
+  - {fileID: -2053394916973472229, guid: a618be5ee26ec4e4b9e12f8770ea4c37, type: 3}
+  - {fileID: -7866962194647477418, guid: 6d240a9fbcae70a49ab4aec9b7cbd490, type: 3}
+  - {fileID: 8652625658316714873, guid: f7e5cbf9150aa5844960f43766aefa6f, type: 3}
+  - {fileID: 3965758638191431310, guid: aec8a42240a71f24f8bfb620c2ab8ded, type: 3}
+  - {fileID: -8999544654852872013, guid: 69f3f0fdbaeb7364bb6461f5a8e60ee6, type: 3}
+  - {fileID: 2066082498040014989, guid: b895bde93764c93499bf250b8b817e4c, type: 3}
+  - {fileID: 6977660837472787490, guid: fa6970f879d7f02449ea90d05d50c7b3, type: 3}
+  fps: 12

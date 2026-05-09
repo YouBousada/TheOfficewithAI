@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_Desk_L_Foxy
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4209461767521648114, guid: 8628f95411de92e4794470df021bad84, type: 3}
+  - {fileID: 6032186475404308979, guid: b26372153bbc4a044810eed2e66928fa, type: 3}
+  - {fileID: 5453481469928959302, guid: 3f8a7ac2ec8488b4c95a041d03626332, type: 3}
+  - {fileID: -1792632809057475342, guid: c3e34dffa8101444c8696457a7fca063, type: 3}
+  - {fileID: -7839056689181992794, guid: 373358fbf6eddd1479235d69120c2f20, type: 3}
+  - {fileID: -2053394916973472229, guid: 6de33a99c998c3940ab775d4f816aa6e, type: 3}
+  - {fileID: -7866962194647477418, guid: 668c4c1df67fb444fb6c7a08154e6563, type: 3}
+  - {fileID: 8652625658316714873, guid: a001a592ba0f52f48895df5aa44fa3a0, type: 3}
+  - {fileID: 3965758638191431310, guid: 7f52183106e9f014d8653a2cb9bc18e0, type: 3}
+  - {fileID: -8999544654852872013, guid: 959cf08bf32034846b2a1b3f4cdc5824, type: 3}
+  - {fileID: 2066082498040014989, guid: 1f5443dd3424c8c41ab462269b7cc3c2, type: 3}
+  - {fileID: 6977660837472787490, guid: a419965c67648964c9e722fa20414ad4, type: 3}
+  fps: 12

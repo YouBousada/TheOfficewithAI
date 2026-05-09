@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_LDoor_R_Closed_Bonnie
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4209461767521648114, guid: e34df06fe6c0978469589e030c978abf, type: 3}
+  - {fileID: 6032186475404308979, guid: 7f1e161743b608646b2d277a47dd05c9, type: 3}
+  - {fileID: 5453481469928959302, guid: b09d58de9593ac54ead0ffbf783841f5, type: 3}
+  - {fileID: -1792632809057475342, guid: 8e4f59329e8028340adeb8c0ce675726, type: 3}
+  - {fileID: -7839056689181992794, guid: 61f82cb4a95433f42b3bd7a58a5e849a, type: 3}
+  - {fileID: -2053394916973472229, guid: 2997e20fdb33cc243858a8285fea4973, type: 3}
+  - {fileID: -7866962194647477418, guid: b25d4274334bfab46adc82a8d1f55f39, type: 3}
+  - {fileID: 8652625658316714873, guid: 684ed2ead0397a8419359e8c84aa63fe, type: 3}
+  - {fileID: 3965758638191431310, guid: 2e8151a2b03006548b9f3d83de71eb7a, type: 3}
+  - {fileID: -8999544654852872013, guid: 2f2b93f4f012ff44d977ef63b80ee440, type: 3}
+  - {fileID: 2066082498040014989, guid: 3522b947d1048564b9502ba8b577de2b, type: 3}
+  - {fileID: 6977660837472787490, guid: 071807cbc153736479ab2994aab36a92, type: 3}
+  fps: 12

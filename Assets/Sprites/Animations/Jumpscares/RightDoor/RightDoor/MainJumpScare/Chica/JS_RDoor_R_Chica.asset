@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_RDoor_R_Chica
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 21300000, guid: 37e002f15024a26458b229a84150250b, type: 3}
+  - {fileID: 21300000, guid: d7ac62d0016331f48a6499712f46bbf7, type: 3}
+  - {fileID: 21300000, guid: 1bfcb852e6d9b1a41a3278dcacf6d32b, type: 3}
+  - {fileID: 21300000, guid: fdd228a11f261ae41b52b1ea409fadab, type: 3}
+  - {fileID: 21300000, guid: fdd228a11f261ae41b52b1ea409fadab, type: 3}
+  - {fileID: 21300000, guid: a12d6b6cba61dc947a98c5d907dd7330, type: 3}
+  - {fileID: 21300000, guid: 2362aa99ac286d94bad4d0c46b965c81, type: 3}
+  - {fileID: 21300000, guid: 4f1abc475ae64754badd5bd083fd6eff, type: 3}
+  - {fileID: 21300000, guid: d450f64367dc6454681dc3470c695f36, type: 3}
+  - {fileID: 21300000, guid: 61553290bda916c4a9cc47c4b75acbfb, type: 3}
+  - {fileID: 21300000, guid: 95c7e0414f82f484cbdba15a211a88c4, type: 3}
+  - {fileID: 21300000, guid: 32d72135cfb50ff47afff099900c78eb, type: 3}
+  fps: 12

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f46567c318504aa3442aec0ebfd3e, type: 3}
+  m_Name: FreddyBreakroomData
+  m_EditorClassIdentifier: 
+  characterName: 1
+  associatedLocation: 8
+  Layer1_FreeRoamRenders:
+  - {fileID: 21300000, guid: 5db30a381261b254e949dd097199e40b, type: 3}
+  Layer2_FreeRoamRenders:
+  - {fileID: 21300000, guid: dce3c3f552041344d9a95f08fad10791, type: 3}
+  Layer3_FreeRoamRenders:
+  - {fileID: 21300000, guid: 959d693f4012b0b4281a5d8b6e1aa36a, type: 3}
+  Layer4_FreeRoamRenders:
+  - {fileID: 21300000, guid: 75c3f92d94cfd5842920df3a6480ac9d, type: 3}
+  Layer1_IdleRenders:
+  - {fileID: 21300000, guid: a0361a61e77acbc4aa87cba692f1a4c5, type: 3}
+  Layer2_IdleRenders:
+  - {fileID: 21300000, guid: 3db5ae09ddc92b847b4177021c3ffea4, type: 3}
+  Layer3_IdleRenders:
+  - {fileID: 21300000, guid: 8a3a7543540df6f4ebcbe4591caa1ee3, type: 3}
+  Layer4_IdleRenders:
+  - {fileID: 21300000, guid: b8b15f163dfdd9342ae905b01c148c5f, type: 3}
+  Layer1_RunningRenders:
+  - {fileID: 21300000, guid: 1740882372e51e247b61a41af48bb726, type: 3}
+  Layer2_RunningRenders:
+  - {fileID: 21300000, guid: 70feecc4c31dfe2458569cd558711da0, type: 3}
+  Layer3_RunningRenders:
+  - {fileID: 21300000, guid: bb5e5355b31cc5a48813b805cc7c8b28, type: 3}
+  Layer4_RunningRenders:
+  - {fileID: 21300000, guid: 7343d8b1a48842041a2176ab027f6d53, type: 3}

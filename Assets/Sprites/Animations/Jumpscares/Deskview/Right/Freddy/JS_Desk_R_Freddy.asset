@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_Desk_R_Freddy
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4209461767521648114, guid: 51bd2193ee7f45246b20f02edea6aa8e, type: 3}
+  - {fileID: 6032186475404308979, guid: 9a6f602bbcb84ab42a1a64ffeac87ad1, type: 3}
+  - {fileID: 5453481469928959302, guid: a78f56d368bc9964a9fe7d07237f26bf, type: 3}
+  - {fileID: -1792632809057475342, guid: 8e6f30ccc5b24804dbf31d7c47e928f7, type: 3}
+  - {fileID: -7839056689181992794, guid: d3a6ecfad1fdfe441b9d7a7750556571, type: 3}
+  - {fileID: -2053394916973472229, guid: 7449c4c6fe9b82a4498648c0b527fa20, type: 3}
+  - {fileID: -7866962194647477418, guid: 6b1d9dbccc2458745861c18f0b1d159b, type: 3}
+  - {fileID: 8652625658316714873, guid: 56a6343d7e0a0974ca1a2e292c59e31d, type: 3}
+  - {fileID: 3965758638191431310, guid: e04dd89166e759440986d930e961da05, type: 3}
+  - {fileID: -8999544654852872013, guid: 82144a763d0544f4dbbddb1e7eb1dcc0, type: 3}
+  - {fileID: 2066082498040014989, guid: 16e21203aaad25a49808c921b18fdfd2, type: 3}
+  - {fileID: 6977660837472787490, guid: 0715e5dcefdd62148a892cda269f0044, type: 3}
+  fps: 12

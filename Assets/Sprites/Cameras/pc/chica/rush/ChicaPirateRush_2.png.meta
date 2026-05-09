@@ -1,0 +1,3130 @@
+fileFormatVersion: 2
+guid: 30b2b287c9b4d0f48bf332d566de0ad2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7678140133565113232
+    second: ChicaPirateRush_2_0
+  - first:
+      213: -1581083928504899996
+    second: ChicaPirateRush_2_1
+  - first:
+      213: -1342618421809243489
+    second: ChicaPirateRush_2_2
+  - first:
+      213: 7439073779179339129
+    second: ChicaPirateRush_2_3
+  - first:
+      213: -2008370469975988242
+    second: ChicaPirateRush_2_4
+  - first:
+      213: -873311811985569789
+    second: ChicaPirateRush_2_5
+  - first:
+      213: -1592622613620573159
+    second: ChicaPirateRush_2_6
+  - first:
+      213: 6643360590030800926
+    second: ChicaPirateRush_2_7
+  - first:
+      213: 1595065027402528382
+    second: ChicaPirateRush_2_8
+  - first:
+      213: -1465063159328229763
+    second: ChicaPirateRush_2_9
+  - first:
+      213: 7546270118545853044
+    second: ChicaPirateRush_2_10
+  - first:
+      213: -4839864680810399714
+    second: ChicaPirateRush_2_11
+  - first:
+      213: 2893215983819055234
+    second: ChicaPirateRush_2_12
+  - first:
+      213: 5623094415525961332
+    second: ChicaPirateRush_2_13
+  - first:
+      213: -4496348932947963841
+    second: ChicaPirateRush_2_14
+  - first:
+      213: 2093558101322422876
+    second: ChicaPirateRush_2_15
+  - first:
+      213: 8377362666978712045
+    second: ChicaPirateRush_2_16
+  - first:
+      213: -6231450661277729594
+    second: ChicaPirateRush_2_17
+  - first:
+      213: -8529591282325197804
+    second: ChicaPirateRush_2_18
+  - first:
+      213: 2389724309493277502
+    second: ChicaPirateRush_2_19
+  - first:
+      213: -1659431004978661609
+    second: ChicaPirateRush_2_20
+  - first:
+      213: 5248028213353241452
+    second: ChicaPirateRush_2_21
+  - first:
+      213: -6468875652162353359
+    second: ChicaPirateRush_2_22
+  - first:
+      213: 4966913502466114338
+    second: ChicaPirateRush_2_23
+  - first:
+      213: 6924108666405920874
+    second: ChicaPirateRush_2_24
+  - first:
+      213: -3324518879381175934
+    second: ChicaPirateRush_2_25
+  - first:
+      213: -7793006527448744689
+    second: ChicaPirateRush_2_26
+  - first:
+      213: -2819492399093943335
+    second: ChicaPirateRush_2_27
+  - first:
+      213: 5419091159877423804
+    second: ChicaPirateRush_2_28
+  - first:
+      213: -564966477781846548
+    second: ChicaPirateRush_2_29
+  - first:
+      213: -3589504359698293429
+    second: ChicaPirateRush_2_30
+  - first:
+      213: -4591932855151807199
+    second: ChicaPirateRush_2_31
+  - first:
+      213: 3900895894703198252
+    second: ChicaPirateRush_2_32
+  - first:
+      213: -2200979655248666726
+    second: ChicaPirateRush_2_33
+  - first:
+      213: 7535419499401603736
+    second: ChicaPirateRush_2_34
+  - first:
+      213: -6303256596432898858
+    second: ChicaPirateRush_2_35
+  - first:
+      213: 7891158555735011779
+    second: ChicaPirateRush_2_36
+  - first:
+      213: 7751422879749311635
+    second: ChicaPirateRush_2_37
+  - first:
+      213: -2599862209055797074
+    second: ChicaPirateRush_2_38
+  - first:
+      213: -7942816084058768438
+    second: ChicaPirateRush_2_39
+  - first:
+      213: 5694610435120504304
+    second: ChicaPirateRush_2_40
+  - first:
+      213: 3064146227237087427
+    second: ChicaPirateRush_2_41
+  - first:
+      213: 6919754719782050183
+    second: ChicaPirateRush_2_42
+  - first:
+      213: -8725155029863043650
+    second: ChicaPirateRush_2_43
+  - first:
+      213: -6084180689482955118
+    second: ChicaPirateRush_2_44
+  - first:
+      213: 3183467420978670218
+    second: ChicaPirateRush_2_45
+  - first:
+      213: 2048622327028401115
+    second: ChicaPirateRush_2_46
+  - first:
+      213: 5004389944969937078
+    second: ChicaPirateRush_2_47
+  - first:
+      213: -4468702374338123789
+    second: ChicaPirateRush_2_48
+  - first:
+      213: -2524034468269484326
+    second: ChicaPirateRush_2_49
+  - first:
+      213: -6969135071198761391
+    second: ChicaPirateRush_2_50
+  - first:
+      213: -644246902828459238
+    second: ChicaPirateRush_2_51
+  - first:
+      213: -5654774295995476396
+    second: ChicaPirateRush_2_52
+  - first:
+      213: -7361043631945022252
+    second: ChicaPirateRush_2_53
+  - first:
+      213: 4936396951264545811
+    second: ChicaPirateRush_2_54
+  - first:
+      213: 4870052855001709268
+    second: ChicaPirateRush_2_55
+  - first:
+      213: 1658944389017989710
+    second: ChicaPirateRush_2_56
+  - first:
+      213: 5957459872447657855
+    second: ChicaPirateRush_2_57
+  - first:
+      213: -6715957012501896422
+    second: ChicaPirateRush_2_58
+  - first:
+      213: 8294498097342099276
+    second: ChicaPirateRush_2_59
+  - first:
+      213: 3593841020263973483
+    second: ChicaPirateRush_2_60
+  - first:
+      213: 1066387755647948426
+    second: ChicaPirateRush_2_61
+  - first:
+      213: -5859112035102372935
+    second: ChicaPirateRush_2_62
+  - first:
+      213: -6838695754481796807
+    second: ChicaPirateRush_2_63
+  - first:
+      213: 8727875270307621722
+    second: ChicaPirateRush_2_64
+  - first:
+      213: -313290450598791986
+    second: ChicaPirateRush_2_65
+  - first:
+      213: -371678027842210855
+    second: ChicaPirateRush_2_66
+  - first:
+      213: -548863385454401468
+    second: ChicaPirateRush_2_67
+  - first:
+      213: -3561793190032393997
+    second: ChicaPirateRush_2_68
+  - first:
+      213: -57925533967004409
+    second: ChicaPirateRush_2_69
+  - first:
+      213: -698271100608848446
+    second: ChicaPirateRush_2_70
+  - first:
+      213: 6226207265371706339
+    second: ChicaPirateRush_2_71
+  - first:
+      213: 8026091527027026415
+    second: ChicaPirateRush_2_72
+  - first:
+      213: 8185956230571918432
+    second: ChicaPirateRush_2_73
+  - first:
+      213: 1736311937409430934
+    second: ChicaPirateRush_2_74
+  - first:
+      213: 6380659450756752130
+    second: ChicaPirateRush_2_75
+  - first:
+      213: -7860930384899867956
+    second: ChicaPirateRush_2_76
+  - first:
+      213: 2151489640599883681
+    second: ChicaPirateRush_2_77
+  - first:
+      213: 8587862098669594710
+    second: ChicaPirateRush_2_78
+  - first:
+      213: -3609987956506828817
+    second: ChicaPirateRush_2_79
+  - first:
+      213: -4749591881814273686
+    second: ChicaPirateRush_2_80
+  - first:
+      213: 769357478530277390
+    second: ChicaPirateRush_2_81
+  - first:
+      213: 6508595382039514691
+    second: ChicaPirateRush_2_82
+  - first:
+      213: -1546923640558138503
+    second: ChicaPirateRush_2_83
+  - first:
+      213: 3853701268482043509
+    second: ChicaPirateRush_2_84
+  - first:
+      213: 779669169517292871
+    second: ChicaPirateRush_2_85
+  - first:
+      213: 4764667563889719377
+    second: ChicaPirateRush_2_86
+  - first:
+      213: -2847204120991047432
+    second: ChicaPirateRush_2_87
+  - first:
+      213: -1815303994495681923
+    second: ChicaPirateRush_2_88
+  - first:
+      213: -7172630668902408712
+    second: ChicaPirateRush_2_89
+  - first:
+      213: -2607481365155221400
+    second: ChicaPirateRush_2_90
+  - first:
+      213: -8252408665152042492
+    second: ChicaPirateRush_2_91
+  - first:
+      213: 5964976144878680151
+    second: ChicaPirateRush_2_92
+  - first:
+      213: 6870299271442913736
+    second: ChicaPirateRush_2_93
+  - first:
+      213: 6385404050652738740
+    second: ChicaPirateRush_2_94
+  - first:
+      213: -1647611560164399361
+    second: ChicaPirateRush_2_95
+  - first:
+      213: -2860293776222989328
+    second: ChicaPirateRush_2_96
+  - first:
+      213: 7399017518025128552
+    second: ChicaPirateRush_2_97
+  - first:
+      213: -7938901371685373774
+    second: ChicaPirateRush_2_98
+  - first:
+      213: 4200874901784333975
+    second: ChicaPirateRush_2_99
+  - first:
+      213: 84638479664324936
+    second: ChicaPirateRush_2_100
+  - first:
+      213: -4040460911696200897
+    second: ChicaPirateRush_2_101
+  - first:
+      213: -5199439164205329390
+    second: ChicaPirateRush_2_102
+  - first:
+      213: 3779675572822302270
+    second: ChicaPirateRush_2_103
+  - first:
+      213: 4452528551259958395
+    second: ChicaPirateRush_2_104
+  - first:
+      213: -8120310228690463350
+    second: ChicaPirateRush_2_105
+  - first:
+      213: 3320081295712613174
+    second: ChicaPirateRush_2_106
+  - first:
+      213: 4407810807312366692
+    second: ChicaPirateRush_2_107
+  - first:
+      213: -7804093757568690801
+    second: ChicaPirateRush_2_108
+  - first:
+      213: 8130981120822729957
+    second: ChicaPirateRush_2_109
+  - first:
+      213: 495657349590155022
+    second: ChicaPirateRush_2_110
+  - first:
+      213: 3327399429204455268
+    second: ChicaPirateRush_2_111
+  - first:
+      213: 3344916945476667668
+    second: ChicaPirateRush_2_112
+  - first:
+      213: -5957346757579250024
+    second: ChicaPirateRush_2_113
+  - first:
+      213: -7779423308173133974
+    second: ChicaPirateRush_2_114
+  - first:
+      213: 2972813698562535594
+    second: ChicaPirateRush_2_115
+  - first:
+      213: 552197467939434661
+    second: ChicaPirateRush_2_116
+  - first:
+      213: -6141037317301954245
+    second: ChicaPirateRush_2_117
+  - first:
+      213: -3788900831572633633
+    second: ChicaPirateRush_2_118
+  - first:
+      213: 2563328188518869282
+    second: ChicaPirateRush_2_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 524
+        width: 121
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c5e23aa34c17590800000000000000
+      internalID: -7678140133565113232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466e2614b8cde0ae0800000000000000
+      internalID: -1581083928504899996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 523
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a1a2ba8af0e5de0800000000000000
+      internalID: -1342618421809243489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 531
+        width: 387
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d38e13036ec3760800000000000000
+      internalID: 7439073779179339129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 518
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee762b7c2b5d024e0800000000000000
+      internalID: -2008370469975988242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_5
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 530
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3088274b88f51e3f0800000000000000
+      internalID: -873311811985569789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_6
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 522
+        width: 211
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c34e5cb2ed5e9e0800000000000000
+      internalID: -1592622613620573159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_7
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 529
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e188d933245f13c50800000000000000
+      internalID: 6643360590030800926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_8
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 527
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76f9fff03fc22610800000000000000
+      internalID: 1595065027402528382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_9
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 532
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76babe91dc0babe0800000000000000
+      internalID: -1465063159328229763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 515
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a0213e0bcb9b860800000000000000
+      internalID: 7546270118545853044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18365b27b855dcb0800000000000000
+      internalID: -4839864680810399714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 94
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280640ebb94c62820800000000000000
+      internalID: 2893215983819055234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 106
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e58e7149e390e40800000000000000
+      internalID: 5623094415525961332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 97
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f301e69d772c991c0800000000000000
+      internalID: -4496348932947963841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ad6f14000dd0d10800000000000000
+      internalID: 2093558101322422876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_16
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 97
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de992efd5fe524470800000000000000
+      internalID: 8377362666978712045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 100
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccfa23a3a07589a0800000000000000
+      internalID: -6231450661277729594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_18
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 96
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cecb1abedc0a980800000000000000
+      internalID: -8529591282325197804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_19
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 101
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33667229910a2120800000000000000
+      internalID: 2389724309493277502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_20
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 108
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7173af20b4488f8e0800000000000000
+      internalID: -1659431004978661609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_21
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 107
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bd524daddb4d840800000000000000
+      internalID: 5248028213353241452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_22
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 98
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13780b03edfe936a0800000000000000
+      internalID: -6468875652162353359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 101
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2238590c3850ee440800000000000000
+      internalID: 4966913502466114338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_24
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 102
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6024578520671060800000000000000
+      internalID: 6924108666405920874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_25
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 102
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281c76971bfecd1d0800000000000000
+      internalID: -3324518879381175934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 93
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dfd173adda9d390800000000000000
+      internalID: -7793006527448744689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_27
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 90
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d37711f9962fd8d0800000000000000
+      internalID: -2819492399093943335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 96
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb214f5c2ba743b40800000000000000
+      internalID: 5419091159877423804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 97
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce53fc55bf5d828f0800000000000000
+      internalID: -564966477781846548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_30
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 93
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d97788dc48f2ec0800000000000000
+      internalID: -3589504359698293429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 98
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1253b38b56d2640c0800000000000000
+      internalID: -4591932855151807199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_32
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 92
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20509df524c22630800000000000000
+      internalID: 3900895894703198252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_33
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 99
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f9a033aac8471e0800000000000000
+      internalID: -2200979655248666726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_34
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 89
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a626f3c10339860800000000000000
+      internalID: 7535419499401603736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_35
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 94
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4ba7985855688a0800000000000000
+      internalID: -6303256596432898858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_36
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 85
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1bed4b5e6038d60800000000000000
+      internalID: 7891158555735011779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_37
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 98
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c0b435a06929b60800000000000000
+      internalID: 7751422879749311635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_38
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 84
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea05444781f6bebd0800000000000000
+      internalID: -2599862209055797074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_39
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 89
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbfa69bad275c190800000000000000
+      internalID: -7942816084058768438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_40
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 93
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd1797f402570f40800000000000000
+      internalID: 5694610435120504304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_41
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 94
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8e15652c8068a20800000000000000
+      internalID: 3064146227237087427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 15
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78911755148e70060800000000000000
+      internalID: 6919754719782050183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 77
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdecca6ab50ae680800000000000000
+      internalID: -8725155029863043650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_44
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 87
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296c316f5e5a09ba0800000000000000
+      internalID: -6084180689482955118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_45
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 70
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a667da0c2fd2c20800000000000000
+      internalID: 3183467420978670218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_46
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 79
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd34671072b2e6c10800000000000000
+      internalID: 2048622327028401115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_47
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0487bf32a237540800000000000000
+      internalID: 5004389944969937078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_48
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 43
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7a1a2eddafbf1c0800000000000000
+      internalID: -4468702374338123789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_49
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 49
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad694f52604d8fcd0800000000000000
+      internalID: -2524034468269484326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_50
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e2b79a398a84f90800000000000000
+      internalID: -6969135071198761391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_51
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 81
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b9341fadc2f07f0800000000000000
+      internalID: -644246902828459238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_52
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 77
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4561e22fcb43681b0800000000000000
+      internalID: -5654774295995476396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_53
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 75
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d404c531d158d990800000000000000
+      internalID: -7361043631945022252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_54
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 80
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31cc17e7fda918440800000000000000
+      internalID: 4936396951264545811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_55
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 77
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4daf0cbd447e59340800000000000000
+      internalID: 4870052855001709268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_56
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 74
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e427b81e121c50710800000000000000
+      internalID: 1658944389017989710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_57
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 68
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77f2e4a0362da250800000000000000
+      internalID: 5957459872447657855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_58
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 76
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13e7070ea02cc2a0800000000000000
+      internalID: -6715957012501896422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_59
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 75
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4faa3ac21afb1370800000000000000
+      internalID: 8294498097342099276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_60
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 68
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62cf00fd53efd130800000000000000
+      internalID: 3593841020263973483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_61
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 67
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86d83883029cce00800000000000000
+      internalID: 1066387755647948426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_62
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 65
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbc180a5a040bea0800000000000000
+      internalID: -5859112035102372935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_63
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 68
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939f32bb1721811a0800000000000000
+      internalID: -6838695754481796807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_64
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b2a9ae054af1970800000000000000
+      internalID: 8727875270307621722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_65
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 74
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4798cbef7f6abf0800000000000000
+      internalID: -313290450598791986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_66
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 52
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3b5ab8dc887daf0800000000000000
+      internalID: -371678027842210855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_67
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 51
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448a5cfa8ab0268f0800000000000000
+      internalID: -548863385454401468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_68
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 57
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8b6b007f7f19ec0800000000000000
+      internalID: -3561793190032393997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_69
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 59
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dc874a805323ff0800000000000000
+      internalID: -57925533967004409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_70
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdd943322e3f46f0800000000000000
+      internalID: -698271100608848446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_71
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 59
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3df6e158ee76650800000000000000
+      internalID: 6226207265371706339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_72
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 56
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9e73348b7626f60800000000000000
+      internalID: 8026091527027026415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_73
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 51
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064822612db5a9170800000000000000
+      internalID: 8185956230571918432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_74
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 58
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6953f88f18e981810800000000000000
+      internalID: 1736311937409430934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_75
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 59
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203681bd6f7ac8850800000000000000
+      internalID: 6380659450756752130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_76
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 38
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccaf7f3c67d58e290800000000000000
+      internalID: -7860930384899867956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_77
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 43
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af83e5dd60abdd10800000000000000
+      internalID: 2151489640599883681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_78
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658ed3b04173e2770800000000000000
+      internalID: 8587862098669594710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_79
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 52
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefd8f0841fb6edc0800000000000000
+      internalID: -3609987956506828817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_80
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 42
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a619160195f061eb0800000000000000
+      internalID: -4749591881814273686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_81
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 40
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00661dec8e4daa00800000000000000
+      internalID: 769357478530277390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 38
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e8635140d235a50800000000000000
+      internalID: 6508595382039514691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_83
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 40
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bc0e51529388ae0800000000000000
+      internalID: -1546923640558138503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_84
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 39
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e285ac2e81b7530800000000000000
+      internalID: 3853701268482043509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_85
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 36
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74de6639af0f1da00800000000000000
+      internalID: 779669169517292871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_86
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 37
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158f872b7ef7f1240800000000000000
+      internalID: 4764667563889719377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_87
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 35
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0ec45efe2bc78d0800000000000000
+      internalID: -2847204120991047432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_88
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 39
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7abcb882aebec6e0800000000000000
+      internalID: -1815303994495681923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_89
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 38
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fddffaa862b57c90800000000000000
+      internalID: -7172630668902408712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_90
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 36
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860f87f638d50dbd0800000000000000
+      internalID: -2607481365155221400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_91
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 31
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ac14cca0e897d80800000000000000
+      internalID: -8252408665152042492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_92
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 28
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7583c21333ad7c250800000000000000
+      internalID: 5964976144878680151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_93
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 30
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9daf679c4385f50800000000000000
+      internalID: 6870299271442913736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_94
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 22
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b43f7a17238d9850800000000000000
+      internalID: 6385404050652738740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_95
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 11
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6e294f3028229e0800000000000000
+      internalID: -1647611560164399361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_96
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 30
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3d7fa07f13e48d0800000000000000
+      internalID: -2860293776222989328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_97
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 18
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ab7c02b379ea660800000000000000
+      internalID: 7399017518025128552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_98
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 29
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8f4d9b34b53d190800000000000000
+      internalID: -7938901371685373774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_99
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 19
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e85ba47718c4a30800000000000000
+      internalID: 4200874901784333975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_100
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 12
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841a8b2bf32bc2100800000000000000
+      internalID: 84638479664324936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_101
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 13
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b3f7545366de7c0800000000000000
+      internalID: -4040460911696200897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_102
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 14
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2149942c0a1e7d7b0800000000000000
+      internalID: -5199439164205329390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_103
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 14
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e5b4c68ea147430800000000000000
+      internalID: 3779675572822302270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_104
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 16
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c622a702f8acd30800000000000000
+      internalID: 4452528551259958395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_105
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a851fe8cedcde4f80800000000000000
+      internalID: -8120310228690463350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_106
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 12
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6337e50195c431e20800000000000000
+      internalID: 3320081295712613174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_107
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 5
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c3bfe5390bb2d30800000000000000
+      internalID: 4407810807312366692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_108
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85564a431a42b390800000000000000
+      internalID: -7804093757568690801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_109
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 5
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecdb06ef3c07d070800000000000000
+      internalID: 8130981120822729957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ff1acbbbde0e600800000000000000
+      internalID: 495657349590155022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_111
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 5
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fa19bc62c4d2e20800000000000000
+      internalID: 3327399429204455268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_112
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 3
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41942526d388b6e20800000000000000
+      internalID: 3344916945476667668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_113
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896e9a6ffa0435da0800000000000000
+      internalID: -5957346757579250024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_114
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6732f6e7bfe90490800000000000000
+      internalID: -7779423308173133974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_115
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 5
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa03c36ee4e814920800000000000000
+      internalID: 2972813698562535594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_116
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 7
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a07662ebacc9a700800000000000000
+      internalID: 552197467939434661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_117
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b399cc5b817a6caa0800000000000000
+      internalID: -6141037317301954245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_118
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 3
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd75ee4a4ce1b6bc0800000000000000
+      internalID: -3788900831572633633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateRush_2_119
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 3
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229a9670865c29320800000000000000
+      internalID: 2563328188518869282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c2c09fa7d8ea442a2f855286564570, type: 3}
+  m_Name: Desk_ScreenPosition
+  m_EditorClassIdentifier: 
+  anchorMin: {x: 0.5, y: 0.5}
+  anchorMax: {x: 0.5, y: 0.5}
+  pivot: {x: 0.5, y: 0.5}
+  anchoredPosition: {x: -36.6, y: -12.1, z: 9.299769}
+  sizeDelta: {x: 50.22, y: 64.86}
+  rotation: {x: 0, y: -30.607, z: 0}
+  scale: {x: 1, y: 1, z: 1}

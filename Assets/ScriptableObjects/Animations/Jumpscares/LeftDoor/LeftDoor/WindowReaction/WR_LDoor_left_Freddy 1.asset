@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: WR_LDoor_left_Freddy 1
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 21300000, guid: e9d9070199b408d47a0c4cf17185f4af, type: 3}
+  - {fileID: 21300000, guid: d71634c73eb31bc41846a6dd4d66b6f5, type: 3}
+  - {fileID: 21300000, guid: 26d1573e5e1ae8044955307e60d89115, type: 3}
+  - {fileID: 21300000, guid: 42d529652e6ee304ebc8a249d72d2a14, type: 3}
+  - {fileID: 21300000, guid: cf4c8f9c343d11045bb3ac96136e7991, type: 3}
+  - {fileID: 21300000, guid: 98999dde90143f24dbe869c75325c0bc, type: 3}
+  - {fileID: 21300000, guid: 298a0b5be1eb9d74f91dfa5fe5f2492c, type: 3}
+  - {fileID: 21300000, guid: 3c91e73cecede5f419723772c2bc066a, type: 3}
+  - {fileID: 21300000, guid: 988d58a7384bccd40ab99c3dea27adf5, type: 3}
+  - {fileID: 21300000, guid: 0e9e44b2143dbe84bb97d89b4b9243aa, type: 3}
+  - {fileID: 21300000, guid: 478e932af708df140a25a99b44bbbd97, type: 3}
+  - {fileID: 21300000, guid: a281cb0e4b5f7b8428c485f4ce2b61fa, type: 3}
+  fps: 12

@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: a44c4170e22d74a41abe58544be2242f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5528824688501207547
+    second: FoxyPirateIdle_2_0
+  - first:
+      213: 7902692279964579255
+    second: FoxyPirateIdle_2_1
+  - first:
+      213: 2544316119990940835
+    second: FoxyPirateIdle_2_2
+  - first:
+      213: -7754106011379295055
+    second: FoxyPirateIdle_2_3
+  - first:
+      213: -6902878026997035877
+    second: FoxyPirateIdle_2_4
+  - first:
+      213: 327182337307588362
+    second: FoxyPirateIdle_2_5
+  - first:
+      213: -1703674633543704247
+    second: FoxyPirateIdle_2_6
+  - first:
+      213: -1667646936486308877
+    second: FoxyPirateIdle_2_7
+  - first:
+      213: 1181145904919235564
+    second: FoxyPirateIdle_2_8
+  - first:
+      213: -491981827455124781
+    second: FoxyPirateIdle_2_9
+  - first:
+      213: -1291156019412868799
+    second: FoxyPirateIdle_2_10
+  - first:
+      213: 5543645706080927966
+    second: FoxyPirateIdle_2_11
+  - first:
+      213: -8210115209126678706
+    second: FoxyPirateIdle_2_12
+  - first:
+      213: 494706394408133448
+    second: FoxyPirateIdle_2_13
+  - first:
+      213: 2278589286296048033
+    second: FoxyPirateIdle_2_14
+  - first:
+      213: 5732544752311258805
+    second: FoxyPirateIdle_2_15
+  - first:
+      213: -738564640073089342
+    second: FoxyPirateIdle_2_16
+  - first:
+      213: 4070292234420754653
+    second: FoxyPirateIdle_2_17
+  - first:
+      213: -9173096643133174940
+    second: FoxyPirateIdle_2_18
+  - first:
+      213: -1921855518839250136
+    second: FoxyPirateIdle_2_19
+  - first:
+      213: -9080383679266838762
+    second: FoxyPirateIdle_2_20
+  - first:
+      213: -1561423965708788885
+    second: FoxyPirateIdle_2_21
+  - first:
+      213: -6572622557696924922
+    second: FoxyPirateIdle_2_22
+  - first:
+      213: 8271217271255311813
+    second: FoxyPirateIdle_2_23
+  - first:
+      213: 3553631144201153850
+    second: FoxyPirateIdle_2_24
+  - first:
+      213: -7743594445923962213
+    second: FoxyPirateIdle_2_25
+  - first:
+      213: 8041613678069629967
+    second: FoxyPirateIdle_2_26
+  - first:
+      213: 7007310325335641950
+    second: FoxyPirateIdle_2_27
+  - first:
+      213: 3877641112530695909
+    second: FoxyPirateIdle_2_28
+  - first:
+      213: 1550042426612014460
+    second: FoxyPirateIdle_2_29
+  - first:
+      213: 169419909451075984
+    second: FoxyPirateIdle_2_30
+  - first:
+      213: -7562727349363452492
+    second: FoxyPirateIdle_2_31
+  - first:
+      213: 1214197926593830074
+    second: FoxyPirateIdle_2_32
+  - first:
+      213: 2465360585548678220
+    second: FoxyPirateIdle_2_33
+  - first:
+      213: -436899429133606376
+    second: FoxyPirateIdle_2_34
+  - first:
+      213: -5291364037409194079
+    second: FoxyPirateIdle_2_35
+  - first:
+      213: 2139157183201872332
+    second: FoxyPirateIdle_2_36
+  - first:
+      213: -6160170546103967758
+    second: FoxyPirateIdle_2_37
+  - first:
+      213: -2126049696751744188
+    second: FoxyPirateIdle_2_38
+  - first:
+      213: 8153384100743716350
+    second: FoxyPirateIdle_2_39
+  - first:
+      213: 4734767788124478583
+    second: FoxyPirateIdle_2_40
+  - first:
+      213: -2080833510569042492
+    second: FoxyPirateIdle_2_41
+  - first:
+      213: -3545585948563148533
+    second: FoxyPirateIdle_2_42
+  - first:
+      213: 7959579413052095484
+    second: FoxyPirateIdle_2_43
+  - first:
+      213: 8611993310613593673
+    second: FoxyPirateIdle_2_44
+  - first:
+      213: -2510288559197998966
+    second: FoxyPirateIdle_2_45
+  - first:
+      213: 3154516233072402904
+    second: FoxyPirateIdle_2_46
+  - first:
+      213: -2973699554306465285
+    second: FoxyPirateIdle_2_47
+  - first:
+      213: 3699025932230341700
+    second: FoxyPirateIdle_2_48
+  - first:
+      213: 4868615561977720386
+    second: FoxyPirateIdle_2_49
+  - first:
+      213: -1102662408178625902
+    second: FoxyPirateIdle_2_50
+  - first:
+      213: -1840497563406374028
+    second: FoxyPirateIdle_2_51
+  - first:
+      213: 6880891501272885032
+    second: FoxyPirateIdle_2_52
+  - first:
+      213: 7619506382480568075
+    second: FoxyPirateIdle_2_53
+  - first:
+      213: -1686607050178364920
+    second: FoxyPirateIdle_2_54
+  - first:
+      213: -4065509955625313073
+    second: FoxyPirateIdle_2_55
+  - first:
+      213: -4953303050691871489
+    second: FoxyPirateIdle_2_56
+  - first:
+      213: -1092994964395017453
+    second: FoxyPirateIdle_2_57
+  - first:
+      213: 3690638739213949074
+    second: FoxyPirateIdle_2_58
+  - first:
+      213: 8261276866062539590
+    second: FoxyPirateIdle_2_59
+  - first:
+      213: -4542084852084426301
+    second: FoxyPirateIdle_2_60
+  - first:
+      213: -791056066774569733
+    second: FoxyPirateIdle_2_61
+  - first:
+      213: -4808035384129299149
+    second: FoxyPirateIdle_2_62
+  - first:
+      213: -8171798587317112783
+    second: FoxyPirateIdle_2_63
+  - first:
+      213: 3284797091074853410
+    second: FoxyPirateIdle_2_64
+  - first:
+      213: 7132274807025094198
+    second: FoxyPirateIdle_2_65
+  - first:
+      213: 3718986778128932825
+    second: FoxyPirateIdle_2_66
+  - first:
+      213: 4910324992323309405
+    second: FoxyPirateIdle_2_67
+  - first:
+      213: -4638546137893498515
+    second: FoxyPirateIdle_2_68
+  - first:
+      213: -7706581688681799591
+    second: FoxyPirateIdle_2_69
+  - first:
+      213: 4002145315181977607
+    second: FoxyPirateIdle_2_70
+  - first:
+      213: 6009280390906263380
+    second: FoxyPirateIdle_2_71
+  - first:
+      213: -2820894622835599254
+    second: FoxyPirateIdle_2_72
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ec9702d3ba543b0800000000000000
+      internalID: -5528824688501207547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5b28422c00cad60800000000000000
+      internalID: 7902692279964579255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a43c50e70a3f4320800000000000000
+      internalID: 2544316119990940835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc14096aa1e36490800000000000000
+      internalID: -7754106011379295055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c0ef8e10d0430a0800000000000000
+      internalID: -6902878026997035877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_5
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0730003a926a8400800000000000000
+      internalID: 327182337307588362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 19
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941a8ce72f45b58e0800000000000000
+      internalID: -1703674633543704247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 3
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f317f362f35bd8e0800000000000000
+      internalID: -1667646936486308877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb4e9a41f5446010800000000000000
+      internalID: 1181145904919235564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 15
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3daf69272212c29f0800000000000000
+      internalID: -491981827455124781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_10
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 27
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141e941f074e41ee0800000000000000
+      internalID: -1291156019412868799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_11
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 16
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0c29fe56cfeec40800000000000000
+      internalID: 5543645706080927966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_12
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fe8f267bfcf0e80800000000000000
+      internalID: -8210115209126678706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 13
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843afca38dc8dd600800000000000000
+      internalID: 494706394408133448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_14
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 3
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1dfa622ec2f9f10800000000000000
+      internalID: 2278589286296048033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_15
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 6
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5beca8474171e8f40800000000000000
+      internalID: 5732544752311258805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 18
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce77c87f5710c5f0800000000000000
+      internalID: -738564640073089342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_17
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 26
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd81eacc8359c7830800000000000000
+      internalID: 4070292234420754653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_18
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 3
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b08b7443d92b080800000000000000
+      internalID: -9173096643133174940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 26
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82366f986923455e0800000000000000
+      internalID: -1921855518839250136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_20
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 12
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617ab05572ffbf180800000000000000
+      internalID: -9080383679266838762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_21
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 23
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b552c0d25b45ae0800000000000000
+      internalID: -1561423965708788885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 33
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60361c56b9a59c4a0800000000000000
+      internalID: -6572622557696924922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_23
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 33
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5af31194449c270800000000000000
+      internalID: 8271217271255311813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_24
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 23
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3defdc92b8015130800000000000000
+      internalID: 3553631144201153850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_25
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 14
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92b306f0e9398490800000000000000
+      internalID: -7743594445923962213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_26
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04434ea80d899f60800000000000000
+      internalID: 8041613678069629967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_27
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 31
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fce845d97fe3160800000000000000
+      internalID: 7007310325335641950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_28
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 33
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6b7d61c0620d530800000000000000
+      internalID: 3877641112530695909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_29
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 16
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d5ef0ef5bd28510800000000000000
+      internalID: 1550042426612014460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_30
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 34
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091d5b09286e95200800000000000000
+      internalID: 169419909451075984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_31
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 29
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b55f087b8bcb0790800000000000000
+      internalID: -7562727349363452492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_32
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 25
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc14a5c492b9d010800000000000000
+      internalID: 1214197926593830074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_33
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 6
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44c0e8f368b63220800000000000000
+      internalID: 2465360585548678220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_34
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 3
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812abe3b842dfe9f0800000000000000
+      internalID: -436899429133606376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_35
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 3
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afb2fc517c4196b0800000000000000
+      internalID: -5291364037409194079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_36
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 28
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc90977df10dfad10800000000000000
+      internalID: 2139157183201872332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_37
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 19
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff16abb68da28aa0800000000000000
+      internalID: -6160170546103967758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_38
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b094aa011ce72e0800000000000000
+      internalID: -2126049696751744188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_39
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 5
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd952224a3a62170800000000000000
+      internalID: 8153384100743716350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_40
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c1f19a73645b140800000000000000
+      internalID: 4734767788124478583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_41
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd9dc562f46f13e0800000000000000
+      internalID: -2080833510569042492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_42
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 34
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01f6477d5c8bcec0800000000000000
+      internalID: -3545585948563148533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_43
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 15
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb7b74fd4b167e60800000000000000
+      internalID: 7959579413052095484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_44
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 23
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ed927a942f38770800000000000000
+      internalID: 8611993310613593673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_45
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80b6410bd9a92dd0800000000000000
+      internalID: -2510288559197998966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_46
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1eb76fcc717cb20800000000000000
+      internalID: 3154516233072402904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_47
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 6
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf163dcb20c4bb6d0800000000000000
+      internalID: -2973699554306465285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_48
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 9
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4443c81bc74955330800000000000000
+      internalID: 3699025932230341700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_49
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 34
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24eee9ffe0cc09340800000000000000
+      internalID: 4868615561977720386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_50
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 6
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2921655c16e82b0f0800000000000000
+      internalID: -1102662408178625902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_51
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 18
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47be03ba73d3576e0800000000000000
+      internalID: -1840497563406374028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_52
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 5
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ef572d56dd7f50800000000000000
+      internalID: 6880891501272885032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_53
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 4
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f639b5facedb960800000000000000
+      internalID: 7619506382480568075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_54
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 9
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80af27ae2d7f798e0800000000000000
+      internalID: -1686607050178364920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_55
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 31
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc93204c386497c0800000000000000
+      internalID: -4065509955625313073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_56
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 24
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcf6ae7e15524bb0800000000000000
+      internalID: -4953303050691871489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_57
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 16
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bb1fdeed6e4d0f0800000000000000
+      internalID: -1092994964395017453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_58
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 4
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29894252168c73330800000000000000
+      internalID: 3690638739213949074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_59
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 11
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b5fc02a83f5a270800000000000000
+      internalID: 8261276866062539590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_60
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 23
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c933db54e547f0c0800000000000000
+      internalID: -4542084852084426301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_61
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfceb7ec2ba9505f0800000000000000
+      internalID: -791056066774569733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_62
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 3
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dd67dca4d664db0800000000000000
+      internalID: -4808035384129299149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_63
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 28
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130bcea1b70f79e80800000000000000
+      internalID: -8171798587317112783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_64
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 17
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ac0ccfc81f59d20800000000000000
+      internalID: 3284797091074853410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_65
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 22
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ec239062eeaf260800000000000000
+      internalID: 7132274807025094198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_66
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 25
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfdfba45ce7c9330800000000000000
+      internalID: 3718986778128932825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_67
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f4723809af42440800000000000000
+      internalID: 4910324992323309405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_68
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 28
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6119981dd290afb0800000000000000
+      internalID: -4638546137893498515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_69
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 15
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950679d09c8bc0590800000000000000
+      internalID: -7706581688681799591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_70
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 4
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7006aeab5f97a8730800000000000000
+      internalID: 4002145315181977607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_71
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 34
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45730bf4da0456350800000000000000
+      internalID: 6009280390906263380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateIdle_2_72
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a681319494b2ad8d0800000000000000
+      internalID: -2820894622835599254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FoxyPirateIdle_2_0: -5528824688501207547
+      FoxyPirateIdle_2_1: 7902692279964579255
+      FoxyPirateIdle_2_10: -1291156019412868799
+      FoxyPirateIdle_2_11: 5543645706080927966
+      FoxyPirateIdle_2_12: -8210115209126678706
+      FoxyPirateIdle_2_13: 494706394408133448
+      FoxyPirateIdle_2_14: 2278589286296048033
+      FoxyPirateIdle_2_15: 5732544752311258805
+      FoxyPirateIdle_2_16: -738564640073089342
+      FoxyPirateIdle_2_17: 4070292234420754653
+      FoxyPirateIdle_2_18: -9173096643133174940
+      FoxyPirateIdle_2_19: -1921855518839250136
+      FoxyPirateIdle_2_2: 2544316119990940835
+      FoxyPirateIdle_2_20: -9080383679266838762
+      FoxyPirateIdle_2_21: -1561423965708788885
+      FoxyPirateIdle_2_22: -6572622557696924922
+      FoxyPirateIdle_2_23: 8271217271255311813
+      FoxyPirateIdle_2_24: 3553631144201153850
+      FoxyPirateIdle_2_25: -7743594445923962213
+      FoxyPirateIdle_2_26: 8041613678069629967
+      FoxyPirateIdle_2_27: 7007310325335641950
+      FoxyPirateIdle_2_28: 3877641112530695909
+      FoxyPirateIdle_2_29: 1550042426612014460
+      FoxyPirateIdle_2_3: -7754106011379295055
+      FoxyPirateIdle_2_30: 169419909451075984
+      FoxyPirateIdle_2_31: -7562727349363452492
+      FoxyPirateIdle_2_32: 1214197926593830074
+      FoxyPirateIdle_2_33: 2465360585548678220
+      FoxyPirateIdle_2_34: -436899429133606376
+      FoxyPirateIdle_2_35: -5291364037409194079
+      FoxyPirateIdle_2_36: 2139157183201872332
+      FoxyPirateIdle_2_37: -6160170546103967758
+      FoxyPirateIdle_2_38: -2126049696751744188
+      FoxyPirateIdle_2_39: 8153384100743716350
+      FoxyPirateIdle_2_4: -6902878026997035877
+      FoxyPirateIdle_2_40: 4734767788124478583
+      FoxyPirateIdle_2_41: -2080833510569042492
+      FoxyPirateIdle_2_42: -3545585948563148533
+      FoxyPirateIdle_2_43: 7959579413052095484
+      FoxyPirateIdle_2_44: 8611993310613593673
+      FoxyPirateIdle_2_45: -2510288559197998966
+      FoxyPirateIdle_2_46: 3154516233072402904
+      FoxyPirateIdle_2_47: -2973699554306465285
+      FoxyPirateIdle_2_48: 3699025932230341700
+      FoxyPirateIdle_2_49: 4868615561977720386
+      FoxyPirateIdle_2_5: 327182337307588362
+      FoxyPirateIdle_2_50: -1102662408178625902
+      FoxyPirateIdle_2_51: -1840497563406374028
+      FoxyPirateIdle_2_52: 6880891501272885032
+      FoxyPirateIdle_2_53: 7619506382480568075
+      FoxyPirateIdle_2_54: -1686607050178364920
+      FoxyPirateIdle_2_55: -4065509955625313073
+      FoxyPirateIdle_2_56: -4953303050691871489
+      FoxyPirateIdle_2_57: -1092994964395017453
+      FoxyPirateIdle_2_58: 3690638739213949074
+      FoxyPirateIdle_2_59: 8261276866062539590
+      FoxyPirateIdle_2_6: -1703674633543704247
+      FoxyPirateIdle_2_60: -4542084852084426301
+      FoxyPirateIdle_2_61: -791056066774569733
+      FoxyPirateIdle_2_62: -4808035384129299149
+      FoxyPirateIdle_2_63: -8171798587317112783
+      FoxyPirateIdle_2_64: 3284797091074853410
+      FoxyPirateIdle_2_65: 7132274807025094198
+      FoxyPirateIdle_2_66: 3718986778128932825
+      FoxyPirateIdle_2_67: 4910324992323309405
+      FoxyPirateIdle_2_68: -4638546137893498515
+      FoxyPirateIdle_2_69: -7706581688681799591
+      FoxyPirateIdle_2_7: -1667646936486308877
+      FoxyPirateIdle_2_70: 4002145315181977607
+      FoxyPirateIdle_2_71: 6009280390906263380
+      FoxyPirateIdle_2_72: -2820894622835599254
+      FoxyPirateIdle_2_8: 1181145904919235564
+      FoxyPirateIdle_2_9: -491981827455124781
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

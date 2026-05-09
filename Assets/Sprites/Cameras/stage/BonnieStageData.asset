@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f46567c318504aa3442aec0ebfd3e, type: 3}
+  m_Name: BonnieStageData
+  m_EditorClassIdentifier: 
+  characterName: 2
+  Layer1_FreeRoamRenders: []
+  Layer2_FreeRoamRenders:
+  - {fileID: 2910606622477855852, guid: d57cf501b25270446a5e58434ea23a30, type: 3}
+  Layer3_FreeRoamRenders: []
+  Layer4_FreeRoamRenders: []
+  Layer1_IdleRenders: []
+  Layer2_IdleRenders: []
+  Layer3_IdleRenders: []
+  Layer4_IdleRenders: []
+  Layer1_RunningRenders: []
+  Layer2_RunningRenders: []
+  Layer3_RunningRenders: []
+  Layer4_RunningRenders: []

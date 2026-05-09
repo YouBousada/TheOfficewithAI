@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_Back_R_Bonnie
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4209461767521648114, guid: 178aa734353accf4daf21ecc41867f65, type: 3}
+  - {fileID: 6032186475404308979, guid: 668c26c147f771b4db66915a63fff56c, type: 3}
+  - {fileID: 5453481469928959302, guid: 170c622acb6d6494fbcd435bf7c7d591, type: 3}
+  - {fileID: -1792632809057475342, guid: 5a3bd15a7d768614a9c92b740ade67bd, type: 3}
+  - {fileID: -7839056689181992794, guid: b7c0fe353a59c304e9aaf33e18b72145, type: 3}
+  - {fileID: -2053394916973472229, guid: ac8f1b14beaf76248b40ba975e259342, type: 3}
+  - {fileID: -7866962194647477418, guid: afd9ad22101970640b778d823e3f6926, type: 3}
+  - {fileID: 8652625658316714873, guid: 93c0f3958f540634f9594f83641a4e06, type: 3}
+  - {fileID: 3965758638191431310, guid: cc730b503c36b3a41af61d492d618a4f, type: 3}
+  - {fileID: -8999544654852872013, guid: 332f358fec70a73459c4158a21c6ab6f, type: 3}
+  - {fileID: 2066082498040014989, guid: b350bf0ed29ea4a429cbdbedf3dd6d48, type: 3}
+  - {fileID: 6977660837472787490, guid: 81462bf2201656d46bef33de48a62550, type: 3}
+  fps: 12

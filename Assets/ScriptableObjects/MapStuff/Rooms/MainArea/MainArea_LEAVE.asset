@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858b09d791ce49f42a2d6ea74503d436, type: 3}
+  m_Name: MainArea_LEAVE
+  m_EditorClassIdentifier: 
+  thisRoomName: 0
+  edges:
+  - {fileID: 11400000, guid: 9d0b1550137ef32409cdf5d043ee6cc5, type: 2}
+  - {fileID: 11400000, guid: faad5da1cb8c60349822be81f8834d26, type: 2}

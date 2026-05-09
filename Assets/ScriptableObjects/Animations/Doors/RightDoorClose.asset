@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: RightDoorClose
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 21300000, guid: a2c16462ebf8f7a40b78c38e5513e14a, type: 3}
+  - {fileID: 21300000, guid: 7d199002d24233c41a9530536a536ecb, type: 3}
+  - {fileID: 21300000, guid: dc1afc659e3bf944cb3b97ec7ea3d1c0, type: 3}
+  - {fileID: 21300000, guid: bc174f4240c990541807eaec0c572bce, type: 3}
+  - {fileID: 21300000, guid: e7a8794430cb3f247b47549e186f17b2, type: 3}
+  - {fileID: 21300000, guid: 9723fe6349ae82a4482a81731def64cc, type: 3}
+  - {fileID: 21300000, guid: 4046810e3bf56c544a56ee85eaa09d51, type: 3}
+  - {fileID: 21300000, guid: 648e5125b91cb5845929d8853ab91017, type: 3}
+  - {fileID: 21300000, guid: 885aa550f6cb1ab44a1364be6d291083, type: 3}
+  - {fileID: 21300000, guid: 945ce8357347fe34fa4504ea688beddd, type: 3}
+  - {fileID: 21300000, guid: 7521cdbc91575564a9e1ac449c858d25, type: 3}
+  - {fileID: 21300000, guid: ccbff921e3c140343a55936971a1622a, type: 3}
+  - {fileID: 21300000, guid: bef4eda3c6b084f47a76f8902b6371dc, type: 3}
+  - {fileID: 21300000, guid: b611cce5eb01fdf4fbe810f5b0b3e01d, type: 3}
+  - {fileID: 21300000, guid: c3aed75c74834fb4484946b81d7e295e, type: 3}
+  - {fileID: 21300000, guid: cd32a584bb7532141a2da53fc0a2ed95, type: 3}
+  - {fileID: 21300000, guid: f1a5be3f7f2df7947a16831ffb309afd, type: 3}
+  - {fileID: 21300000, guid: 76f8d6657dce06c429d1f4d90fefdb8b, type: 3}
+  - {fileID: 21300000, guid: ac46fff7456b39143a800612116b2701, type: 3}
+  - {fileID: 21300000, guid: 1782ad007c827644c9e40996b67062f2, type: 3}
+  - {fileID: 21300000, guid: 56b7df9988f2aeb41990f17adcebc456, type: 3}
+  - {fileID: 21300000, guid: 20916a26a2b039843b388e8a1d5b09e0, type: 3}
+  - {fileID: 21300000, guid: e949433c9be1852478d321bb513f8e71, type: 3}
+  - {fileID: 21300000, guid: e42619328e9a7b14b8f8025ac1d6ef1a, type: 3}
+  fps: 12

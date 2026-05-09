@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_Back_R_Chica
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4209461767521648114, guid: 64e550e25f3d8304887a05f2d4a4a493, type: 3}
+  - {fileID: 6032186475404308979, guid: d1a514646f02bba47859991889ee5304, type: 3}
+  - {fileID: 5453481469928959302, guid: 491e58f425a3e8944825e06901abb887, type: 3}
+  - {fileID: -1792632809057475342, guid: bbc700e773ed8764c887857bb1610af5, type: 3}
+  - {fileID: -7839056689181992794, guid: 229b1d4bd3fca6d479f7ae792c89abcc, type: 3}
+  - {fileID: -2053394916973472229, guid: f33e332a17d7acd43b5d261f680c66b2, type: 3}
+  - {fileID: -7866962194647477418, guid: d5585ebaa1157704498501ecdf1fd366, type: 3}
+  - {fileID: 8652625658316714873, guid: cac8e252de3ccf14db20c2e8c5df7f8d, type: 3}
+  - {fileID: 3965758638191431310, guid: 434de42fb22f7e34c8423f5338153908, type: 3}
+  - {fileID: -8999544654852872013, guid: 8fc4f20837e9a7a4b80b62616abc66f7, type: 3}
+  - {fileID: 2066082498040014989, guid: d39acdc9c135c494898feaa38cb640a2, type: 3}
+  - {fileID: 6977660837472787490, guid: 199de1bf863cd4b43bd35eafa47f6def, type: 3}
+  fps: 12

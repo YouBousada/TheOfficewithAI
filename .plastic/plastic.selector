@@ -1,0 +1,4 @@
+repository "TheOffice 2025-12-31_10-27-15/TheOffice@2475914597216@cloud"
+  path "/"
+    br "/main"
+    co "/main"

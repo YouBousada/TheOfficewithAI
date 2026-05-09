@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8c70e6b229a784f9be9abea5eed067, type: 3}
+  m_Name: LeaveBaseMap
+  m_EditorClassIdentifier: 
+  Rooms:
+  - {fileID: 11400000, guid: dd95d35dc1b94e34cb773f371b2f2d89, type: 2}
+  - {fileID: 11400000, guid: 14b63c1a4160e7a48ad2e28b8ada4a49, type: 2}
+  - {fileID: 11400000, guid: 64898914595c5204790e6c53e92c86b8, type: 2}
+  - {fileID: 11400000, guid: 255dad0d82153ae419af74ee2214d906, type: 2}
+  - {fileID: 11400000, guid: 8486d272a7d39a643ab53adaaced7044, type: 2}
+  - {fileID: 11400000, guid: 0b51d2bd2cfb55b498b344c4e79ca4b4, type: 2}
+  - {fileID: 11400000, guid: f6b4d0e0ad6d90342b9b61d9f33d8df9, type: 2}
+  - {fileID: 11400000, guid: 5a5b95a554a8bed4d9d9a94f7aee5426, type: 2}
+  - {fileID: 11400000, guid: c063e290e8da5a84c9f59f2eb42e2e21, type: 2}
+  - {fileID: 11400000, guid: 03e8add5541ae0b4facb7eac917095d9, type: 2}
+  - {fileID: 11400000, guid: e3ebcff3752b7024e818316dbbd8d9ac, type: 2}
+  - {fileID: 11400000, guid: 075804732f35ad9458f94cc92ab2ad1a, type: 2}
+  - {fileID: 11400000, guid: e2a8a36ed8e228248857d5f44fe79c15, type: 2}
+  - {fileID: 11400000, guid: a84bfd08710ca90419ffb3b93b8d85c6, type: 2}
+  - {fileID: 11400000, guid: e3f0cc42938565943850cb6dc6778647, type: 2}

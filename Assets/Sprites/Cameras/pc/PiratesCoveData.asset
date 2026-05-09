@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806f70939d2b51240816d47b13004dd1, type: 3}
+  m_Name: PiratesCoveData
+  m_EditorClassIdentifier: 
+  cameraLocation: 5
+  backgroundSprite: {fileID: 488566688391327861, guid: 0d4093399cda3ba42b010ee89c52e41b, type: 3}
+  BonnieCamviewData: {fileID: 11400000, guid: 7a6133cd3abb8d94cb7df355efffa80b, type: 2}
+  ChicaCamviewData: {fileID: 11400000, guid: 503a0ee6fcda74446993cb4a2063a8ea, type: 2}
+  FoxyCamviewData: {fileID: 11400000, guid: 7fff01842ae960b4aa0b6433ee1f4c8f, type: 2}
+  FreddyCamviewData: {fileID: 11400000, guid: d3c59fa7700198948aeb113881db9933, type: 2}

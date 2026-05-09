@@ -1,0 +1,3805 @@
+fileFormatVersion: 2
+guid: d209d417b164e0b449d0bfcd62d969ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1015690276961771352
+    second: FoxyRRIdle_1_0
+  - first:
+      213: -6007727793980267687
+    second: FoxyRRIdle_1_1
+  - first:
+      213: 3423900573029027296
+    second: FoxyRRIdle_1_2
+  - first:
+      213: 5245897912900400602
+    second: FoxyRRIdle_1_3
+  - first:
+      213: 4408820500863287116
+    second: FoxyRRIdle_1_4
+  - first:
+      213: -4312030487412851498
+    second: FoxyRRIdle_1_5
+  - first:
+      213: 8213381368015759138
+    second: FoxyRRIdle_1_6
+  - first:
+      213: -7348896334631373861
+    second: FoxyRRIdle_1_7
+  - first:
+      213: -1663542583722952776
+    second: FoxyRRIdle_1_8
+  - first:
+      213: 5420021747603883053
+    second: FoxyRRIdle_1_9
+  - first:
+      213: -2208229056023266308
+    second: FoxyRRIdle_1_10
+  - first:
+      213: 730586137557733848
+    second: FoxyRRIdle_1_11
+  - first:
+      213: -2117398477685879758
+    second: FoxyRRIdle_1_12
+  - first:
+      213: 9187524077387132407
+    second: FoxyRRIdle_1_13
+  - first:
+      213: 7864302514740067331
+    second: FoxyRRIdle_1_14
+  - first:
+      213: 1636906317408669091
+    second: FoxyRRIdle_1_15
+  - first:
+      213: 232202325568668442
+    second: FoxyRRIdle_1_16
+  - first:
+      213: 629302262059621311
+    second: FoxyRRIdle_1_17
+  - first:
+      213: 4524688178145149518
+    second: FoxyRRIdle_1_18
+  - first:
+      213: 2126223464851637896
+    second: FoxyRRIdle_1_19
+  - first:
+      213: 4128664882106110751
+    second: FoxyRRIdle_1_20
+  - first:
+      213: -7740701330169985049
+    second: FoxyRRIdle_1_21
+  - first:
+      213: 780898726320627218
+    second: FoxyRRIdle_1_22
+  - first:
+      213: -4999379008951480838
+    second: FoxyRRIdle_1_23
+  - first:
+      213: 1418975704934818567
+    second: FoxyRRIdle_1_24
+  - first:
+      213: 7343839340383718773
+    second: FoxyRRIdle_1_25
+  - first:
+      213: 8416395214087304463
+    second: FoxyRRIdle_1_26
+  - first:
+      213: -6663029834489310152
+    second: FoxyRRIdle_1_27
+  - first:
+      213: 3549154659268662102
+    second: FoxyRRIdle_1_28
+  - first:
+      213: 7108443137619774151
+    second: FoxyRRIdle_1_29
+  - first:
+      213: -8335690653185461090
+    second: FoxyRRIdle_1_30
+  - first:
+      213: 7033231786772799156
+    second: FoxyRRIdle_1_31
+  - first:
+      213: 739837218934908994
+    second: FoxyRRIdle_1_32
+  - first:
+      213: -7825598921353483522
+    second: FoxyRRIdle_1_33
+  - first:
+      213: 8242866864044571121
+    second: FoxyRRIdle_1_34
+  - first:
+      213: 7601704092748663406
+    second: FoxyRRIdle_1_35
+  - first:
+      213: 8099774689089876309
+    second: FoxyRRIdle_1_36
+  - first:
+      213: -6683765549190317140
+    second: FoxyRRIdle_1_37
+  - first:
+      213: -6290638081524816711
+    second: FoxyRRIdle_1_38
+  - first:
+      213: 2444261047320576793
+    second: FoxyRRIdle_1_39
+  - first:
+      213: 6875923347239519182
+    second: FoxyRRIdle_1_40
+  - first:
+      213: 4002524895111686562
+    second: FoxyRRIdle_1_41
+  - first:
+      213: -5186112382981681777
+    second: FoxyRRIdle_1_42
+  - first:
+      213: 7982021156323109232
+    second: FoxyRRIdle_1_43
+  - first:
+      213: -3193876488982629986
+    second: FoxyRRIdle_1_44
+  - first:
+      213: 7315033787683749176
+    second: FoxyRRIdle_1_45
+  - first:
+      213: -2494769826085410042
+    second: FoxyRRIdle_1_46
+  - first:
+      213: 5498984623866447422
+    second: FoxyRRIdle_1_47
+  - first:
+      213: 3908838982961895666
+    second: FoxyRRIdle_1_48
+  - first:
+      213: -543796988190344989
+    second: FoxyRRIdle_1_49
+  - first:
+      213: 8416599054067301919
+    second: FoxyRRIdle_1_50
+  - first:
+      213: 1195730040259653319
+    second: FoxyRRIdle_1_51
+  - first:
+      213: -5000043647933488517
+    second: FoxyRRIdle_1_52
+  - first:
+      213: 5265128307293657057
+    second: FoxyRRIdle_1_53
+  - first:
+      213: -4781060759250022726
+    second: FoxyRRIdle_1_54
+  - first:
+      213: -3590147667716295682
+    second: FoxyRRIdle_1_55
+  - first:
+      213: 6819596377255215193
+    second: FoxyRRIdle_1_56
+  - first:
+      213: 2434074847989579496
+    second: FoxyRRIdle_1_57
+  - first:
+      213: 1866149000128843054
+    second: FoxyRRIdle_1_58
+  - first:
+      213: -8009382138559625690
+    second: FoxyRRIdle_1_59
+  - first:
+      213: 7102352838713511233
+    second: FoxyRRIdle_1_60
+  - first:
+      213: 7962956794261962133
+    second: FoxyRRIdle_1_61
+  - first:
+      213: -7059827086553262111
+    second: FoxyRRIdle_1_62
+  - first:
+      213: 6515834646331859761
+    second: FoxyRRIdle_1_63
+  - first:
+      213: 2685708402679713844
+    second: FoxyRRIdle_1_64
+  - first:
+      213: 4495171996795366973
+    second: FoxyRRIdle_1_65
+  - first:
+      213: -8187525301710884625
+    second: FoxyRRIdle_1_66
+  - first:
+      213: -4719536607485936522
+    second: FoxyRRIdle_1_67
+  - first:
+      213: 8577194025308138480
+    second: FoxyRRIdle_1_68
+  - first:
+      213: -6289015543104921904
+    second: FoxyRRIdle_1_69
+  - first:
+      213: 4818368428008450565
+    second: FoxyRRIdle_1_70
+  - first:
+      213: 1790711262205174113
+    second: FoxyRRIdle_1_71
+  - first:
+      213: -398509878266108727
+    second: FoxyRRIdle_1_72
+  - first:
+      213: 2867495385684488089
+    second: FoxyRRIdle_1_73
+  - first:
+      213: 4850486997194278587
+    second: FoxyRRIdle_1_74
+  - first:
+      213: -5080679201266932729
+    second: FoxyRRIdle_1_75
+  - first:
+      213: -6146795522229226750
+    second: FoxyRRIdle_1_76
+  - first:
+      213: 3067303737371298545
+    second: FoxyRRIdle_1_77
+  - first:
+      213: 6117217722225219959
+    second: FoxyRRIdle_1_78
+  - first:
+      213: -2659204014467843735
+    second: FoxyRRIdle_1_79
+  - first:
+      213: 960117435870969358
+    second: FoxyRRIdle_1_80
+  - first:
+      213: -1241857988019638199
+    second: FoxyRRIdle_1_81
+  - first:
+      213: 8900425840904742381
+    second: FoxyRRIdle_1_82
+  - first:
+      213: -1335860492494268308
+    second: FoxyRRIdle_1_83
+  - first:
+      213: 4407104555885516189
+    second: FoxyRRIdle_1_84
+  - first:
+      213: -5198780201209290157
+    second: FoxyRRIdle_1_85
+  - first:
+      213: 1658570604900286948
+    second: FoxyRRIdle_1_86
+  - first:
+      213: -2299953333034083196
+    second: FoxyRRIdle_1_87
+  - first:
+      213: 443651737880766544
+    second: FoxyRRIdle_1_88
+  - first:
+      213: -6684933176987758116
+    second: FoxyRRIdle_1_89
+  - first:
+      213: 5692927770486396004
+    second: FoxyRRIdle_1_90
+  - first:
+      213: -1679659211155358600
+    second: FoxyRRIdle_1_91
+  - first:
+      213: 3939143886510577654
+    second: FoxyRRIdle_1_92
+  - first:
+      213: -2316359712596294491
+    second: FoxyRRIdle_1_93
+  - first:
+      213: -7731512365518055390
+    second: FoxyRRIdle_1_94
+  - first:
+      213: 40634682106015307
+    second: FoxyRRIdle_1_95
+  - first:
+      213: 3780877899033176810
+    second: FoxyRRIdle_1_96
+  - first:
+      213: 2198108291110035737
+    second: FoxyRRIdle_1_97
+  - first:
+      213: 1646523882990742755
+    second: FoxyRRIdle_1_98
+  - first:
+      213: -4551925951511526272
+    second: FoxyRRIdle_1_99
+  - first:
+      213: 7299401804523008881
+    second: FoxyRRIdle_1_100
+  - first:
+      213: -4215876781527840451
+    second: FoxyRRIdle_1_101
+  - first:
+      213: -3762401413472835347
+    second: FoxyRRIdle_1_102
+  - first:
+      213: -7818105945438644084
+    second: FoxyRRIdle_1_103
+  - first:
+      213: 4772021178935384848
+    second: FoxyRRIdle_1_104
+  - first:
+      213: -3921711776286840778
+    second: FoxyRRIdle_1_105
+  - first:
+      213: -385228386753759774
+    second: FoxyRRIdle_1_106
+  - first:
+      213: -3003233993332640203
+    second: FoxyRRIdle_1_107
+  - first:
+      213: 8467351709100059090
+    second: FoxyRRIdle_1_108
+  - first:
+      213: -8765003541774732705
+    second: FoxyRRIdle_1_109
+  - first:
+      213: 3043246329040029637
+    second: FoxyRRIdle_1_110
+  - first:
+      213: 7886911081424758691
+    second: FoxyRRIdle_1_111
+  - first:
+      213: -3296393059361778835
+    second: FoxyRRIdle_1_112
+  - first:
+      213: 5651630779259626584
+    second: FoxyRRIdle_1_113
+  - first:
+      213: 9025481970800511361
+    second: FoxyRRIdle_1_114
+  - first:
+      213: -1170956153082159843
+    second: FoxyRRIdle_1_115
+  - first:
+      213: 6291328343371124961
+    second: FoxyRRIdle_1_116
+  - first:
+      213: 7172526683906021978
+    second: FoxyRRIdle_1_117
+  - first:
+      213: 8062508730021780668
+    second: FoxyRRIdle_1_118
+  - first:
+      213: -2415626349541755517
+    second: FoxyRRIdle_1_119
+  - first:
+      213: -4973683702003014656
+    second: FoxyRRIdle_1_120
+  - first:
+      213: 6223475911785940034
+    second: FoxyRRIdle_1_121
+  - first:
+      213: -4179760494637084935
+    second: FoxyRRIdle_1_122
+  - first:
+      213: -2011750614098241276
+    second: FoxyRRIdle_1_123
+  - first:
+      213: 3725845720908117761
+    second: FoxyRRIdle_1_124
+  - first:
+      213: -7794619797088902554
+    second: FoxyRRIdle_1_125
+  - first:
+      213: -2359914097049694975
+    second: FoxyRRIdle_1_126
+  - first:
+      213: -4261756834349749590
+    second: FoxyRRIdle_1_127
+  - first:
+      213: 7226421899024551763
+    second: FoxyRRIdle_1_128
+  - first:
+      213: 513124250922039047
+    second: FoxyRRIdle_1_129
+  - first:
+      213: 5999845906121788505
+    second: FoxyRRIdle_1_130
+  - first:
+      213: 7849840740703424042
+    second: FoxyRRIdle_1_131
+  - first:
+      213: 5065617536420963689
+    second: FoxyRRIdle_1_132
+  - first:
+      213: 4827981378695752213
+    second: FoxyRRIdle_1_133
+  - first:
+      213: -436210330735363105
+    second: FoxyRRIdle_1_134
+  - first:
+      213: 635088145992612998
+    second: FoxyRRIdle_1_135
+  - first:
+      213: 8254664840508255398
+    second: FoxyRRIdle_1_136
+  - first:
+      213: -329108888321082514
+    second: FoxyRRIdle_1_137
+  - first:
+      213: -873516450413458847
+    second: FoxyRRIdle_1_138
+  - first:
+      213: 8405254057363666431
+    second: FoxyRRIdle_1_139
+  - first:
+      213: -570510152753266442
+    second: FoxyRRIdle_1_140
+  - first:
+      213: -8333025526418878322
+    second: FoxyRRIdle_1_141
+  - first:
+      213: 3872498128475932601
+    second: FoxyRRIdle_1_142
+  - first:
+      213: 4942996769182917963
+    second: FoxyRRIdle_1_143
+  - first:
+      213: -1060679016018847534
+    second: FoxyRRIdle_1_144
+  - first:
+      213: 3123194127279675412
+    second: FoxyRRIdle_1_145
+  - first:
+      213: -7129817448720565001
+    second: FoxyRRIdle_1_146
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 99
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fdf10fce4781e00800000000000000
+      internalID: 1015690276961771352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 417
+        width: 238
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953a094d66340aca0800000000000000
+      internalID: -6007727793980267687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 477
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edc6a93e63248f20800000000000000
+      internalID: 3423900573029027296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 412
+        width: 36
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5346a9b5c2dc840800000000000000
+      internalID: 5245897912900400602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 172
+        width: 470
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f7a68f2e64f2d30800000000000000
+      internalID: 4408820500863287116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267
+        width: 83
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc3a192e179824c0800000000000000
+      internalID: -4312030487412851498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 338
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227246d76dacbf170800000000000000
+      internalID: 8213381368015759138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 395
+        width: 65
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3702348b9730a90800000000000000
+      internalID: -7348896334631373861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_8
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 399
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7357c75d8e9e8e0800000000000000
+      internalID: -1663542583722952776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_9
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 387
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2442dc1019c73b40800000000000000
+      internalID: 5420021747603883053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 408
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb790d8f5bca51e0800000000000000
+      internalID: -2208229056023266308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 399
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d114f6a830932a00800000000000000
+      internalID: 730586137557733848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 406
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c84919d4d7d92e0800000000000000
+      internalID: -2117398477685879758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_13
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 391
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd22068874a08f70800000000000000
+      internalID: 9187524077387132407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_14
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 365
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cfa45687d932d60800000000000000
+      internalID: 7864302514740067331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 368
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad8cbb7f9577b610800000000000000
+      internalID: 1636906317408669091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 394
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a134a8be8c2f83300800000000000000
+      internalID: 232202325568668442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 390
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbd96ab21bbbb800800000000000000
+      internalID: 629302262059621311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_18
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 386
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4240c9dcebeace30800000000000000
+      internalID: 4524688178145149518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_19
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 396
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886059fd9fcd18d10800000000000000
+      internalID: 2126223464851637896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_20
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 375
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13909ee5d6fb4930800000000000000
+      internalID: 4128664882106110751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_21
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 380
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e703d6f621839490800000000000000
+      internalID: -7740701330169985049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 335
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e55e3114f46da00800000000000000
+      internalID: 780898726320627218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 373
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd07e97743ae9ab0800000000000000
+      internalID: -4999379008951480838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 339
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703ac85b2e631b310800000000000000
+      internalID: 1418975704934818567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_25
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 379
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d4c1388fe8ae560800000000000000
+      internalID: 7343839340383718773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 381
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05b8f0fada0dc470800000000000000
+      internalID: 8416395214087304463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_27
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 354
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8345f63faa92883a0800000000000000
+      internalID: -6663029834489310152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 358
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65391aebb51214130800000000000000
+      internalID: 3549154659268662102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_29
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 324
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cac3eb1f5346a260800000000000000
+      internalID: 7108443137619774151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_30
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 362
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94365be38da15c80800000000000000
+      internalID: -8335690653185461090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_31
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 365
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be1491eb0f0b9160800000000000000
+      internalID: 7033231786772799156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_32
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 366
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2486a32e70e644a00800000000000000
+      internalID: 739837218934908994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 334
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaab0a2e33e56390800000000000000
+      internalID: -7825598921353483522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_34
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 366
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9f6328dbb846270800000000000000
+      internalID: 8242866864044571121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_35
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 341
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6acae7c89dae7960800000000000000
+      internalID: 7601704092748663406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 356
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551f6ef4a2e286070800000000000000
+      internalID: 8099774689089876309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 357
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab748625ae7e33a0800000000000000
+      internalID: -6683765549190317140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_38
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 325
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b42b2c7ef923b8a0800000000000000
+      internalID: -6290638081524816711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_39
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 288
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9130ed7e872cbe120800000000000000
+      internalID: 2444261047320576793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_40
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 319
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3c607aadf2c6f50800000000000000
+      internalID: 6875923347239519182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_41
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 303
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a92ac19f23db8730800000000000000
+      internalID: 4002524895111686562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_42
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 313
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d4f1fc34a3708b0800000000000000
+      internalID: -5186112382981681777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_43
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 249
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079aa4c73f5d5ce60800000000000000
+      internalID: 7982021156323109232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 301
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91f7b151421da3d0800000000000000
+      internalID: -3193876488982629986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_45
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 294
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dbed22978348560800000000000000
+      internalID: 7315033787683749176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_46
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 302
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60be0df9f0cc06dd0800000000000000
+      internalID: -2494769826085410042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 303
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3605ea6161505c40800000000000000
+      internalID: 5498984623866447422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 304
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f894a7585cfe3630800000000000000
+      internalID: 3908838982961895666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 225
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8bcf8358b0478f0800000000000000
+      internalID: -543796988190344989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_50
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 209
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ef1922f34cdc470800000000000000
+      internalID: 8416599054067301919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_51
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 213
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cea0f8e226189010800000000000000
+      internalID: 1195730040259653319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_52
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 222
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72e9772bc64c9ab0800000000000000
+      internalID: -5000043647933488517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_53
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 219
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e79715bc4e711940800000000000000
+      internalID: 5265128307293657057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_54
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 221
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abec753129246adb0800000000000000
+      internalID: -4781060759250022726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_55
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 222
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3b296b7bb3d2ec0800000000000000
+      internalID: -3590147667716295682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_56
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 203
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95086d9f5c214ae50800000000000000
+      internalID: 6819596377255215193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_57
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 122
+        width: 178
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eeb12f8d2297c120800000000000000
+      internalID: 2434074847989579496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_58
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 184
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d41aad0a4e5e910800000000000000
+      internalID: 1866149000128843054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_59
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 205
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6268bc86165f8d090800000000000000
+      internalID: -8009382138559625690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_60
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 210
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d8105e640a09260800000000000000
+      internalID: 7102352838713511233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_61
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 214
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d74cbc30b128e60800000000000000
+      internalID: 7962956794261962133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_62
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 203
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7df4a5ba4760e90800000000000000
+      internalID: -7059827086553262111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_63
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 213
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1332bc5a615ec6a50800000000000000
+      internalID: 6515834646331859761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_64
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 204
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4309100109d854520800000000000000
+      internalID: 2685708402679713844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_65
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 218
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e65495d1f026e30800000000000000
+      internalID: 4495171996795366973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_66
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 212
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0fff11e11106e80800000000000000
+      internalID: -8187525301710884625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_67
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 197
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c395ee576d08eb0800000000000000
+      internalID: -4719536607485936522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_68
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 193
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb2818a580580770800000000000000
+      internalID: 8577194025308138480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_69
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 205
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de12562fade8b8a0800000000000000
+      internalID: -6289015543104921904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_70
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 208
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50aa6647e884ed240800000000000000
+      internalID: 4818368428008450565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_71
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 204
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161e707c762e9d810800000000000000
+      internalID: 1790711262205174113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_72
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 148
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4e67a8065387af0800000000000000
+      internalID: -398509878266108727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_73
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 195
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fabc25cd36bc720800000000000000
+      internalID: 2867495385684488089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_74
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 186
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb68a679934605340800000000000000
+      internalID: 4850486997194278587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_75
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 180
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704e4ce5f2dcd79b0800000000000000
+      internalID: -5080679201266932729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_76
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 194
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203b0962a0232baa0800000000000000
+      internalID: -6146795522229226750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_77
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 194
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa8e347f70419a20800000000000000
+      internalID: 3067303737371298545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_78
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 87
+        width: 98
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77955f2ab19b4e450800000000000000
+      internalID: 6117217722225219959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_79
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 196
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969f954b90c981bd0800000000000000
+      internalID: -2659204014467843735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_80
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 171
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e7fb398b5035d00800000000000000
+      internalID: 960117435870969358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_81
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 163
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940bb925db804cee0800000000000000
+      internalID: -1241857988019638199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_82
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 122
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5a5d4552aa48b70800000000000000
+      internalID: 8900425840904742381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_83
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c689663b5f1167de0800000000000000
+      internalID: -1335860492494268308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_84
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 175
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95df856e3e292d30800000000000000
+      internalID: 4407104555885516189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_85
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352269983f83ad7b0800000000000000
+      internalID: -5198780201209290157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_86
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 150
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e18cfb7d2d640710800000000000000
+      internalID: 1658570604900286948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_87
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 131
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c178811ace410e0800000000000000
+      internalID: -2299953333034083196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_88
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 160
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0582e50b7ea282600800000000000000
+      internalID: 443651737880766544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_89
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 131
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1db6e91b85a33a0800000000000000
+      internalID: -6684933176987758116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_90
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 149
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4645cc315a7510f40800000000000000
+      internalID: 5692927770486396004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_91
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 148
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c3f5fb8d6a0b8e0800000000000000
+      internalID: -1679659211155358600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_92
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 147
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f75d9a8e76aaa630800000000000000
+      internalID: 3939143886510577654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_93
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 130
+        width: 56
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a40cae2d13aadfd0800000000000000
+      internalID: -2316359712596294491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_94
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 130
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22891c4877624b490800000000000000
+      internalID: -7731512365518055390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_95
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 127
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e6d70370d509000800000000000000
+      internalID: 40634682106015307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_96
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 59
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea6ffeca60687430800000000000000
+      internalID: 3780877899033176810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_97
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 132
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911647d38df318e10800000000000000
+      internalID: 2198108291110035737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_98
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 129
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec2cd77fb0a9d610800000000000000
+      internalID: 1646523882990742755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_99
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 124
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0840648d67f44d0c0800000000000000
+      internalID: -4551925951511526272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_100
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 135
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173707f644fac4560800000000000000
+      internalID: 7299401804523008881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_101
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 130
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39473467623e75c0800000000000000
+      internalID: -4215876781527840451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_102
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 136
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8268739d349cbc0800000000000000
+      internalID: -3762401413472835347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_103
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 126
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8892c19012808390800000000000000
+      internalID: -7818105945438644084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_104
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 131
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b951f9aff993240800000000000000
+      internalID: 4772021178935384848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_105
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 130
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638e4f6eae74399c0800000000000000
+      internalID: -3921711776286840778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_106
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 89
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e53522c2d467aaf0800000000000000
+      internalID: -385228386753759774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_107
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 115
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536b70a489e5256d0800000000000000
+      internalID: -3003233993332640203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_108
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 76
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9a4397483128570800000000000000
+      internalID: 8467351709100059090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_109
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 115
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52f97db7b37c5680800000000000000
+      internalID: -8765003541774732705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_110
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c741769968cb3a20800000000000000
+      internalID: 3043246329040029637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_111
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 128
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a72a6787dfe37d60800000000000000
+      internalID: 7886911081424758691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_112
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 82
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d639da04afbd042d0800000000000000
+      internalID: -3296393059361778835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_113
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 61
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8542f670040ae6e40800000000000000
+      internalID: 5651630779259626584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_114
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 123
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189c14c8804f04d70800000000000000
+      internalID: 9025481970800511361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_115
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 104
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ddaff259defbfe0800000000000000
+      internalID: -1170956153082159843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_116
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 124
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e09bff9bc94f4750800000000000000
+      internalID: 6291328343371124961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_117
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 107
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a9a30740fe98360800000000000000
+      internalID: 7172526683906021978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_118
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 108
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc1f6319f8c3ef60800000000000000
+      internalID: 8062508730021780668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_119
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 20
+        width: 131
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3857d7532a8f97ed0800000000000000
+      internalID: -2415626349541755517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_120
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 91
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004e5f4560de9fab0800000000000000
+      internalID: -4973683702003014656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_121
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 80
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244833e4e5a3e5650800000000000000
+      internalID: 6223475911785940034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_122
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe02f6b9f18ef5c0800000000000000
+      internalID: -4179760494637084935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_123
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 87
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4091006a973d414e0800000000000000
+      internalID: -2011750614098241276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_124
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 257
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10733aa51fcd4b330800000000000000
+      internalID: 3725845720908117761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_125
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 85
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662e94b9792f3d390800000000000000
+      internalID: -7794619797088902554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_126
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 87
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d8ae0d1a6ef3fd0800000000000000
+      internalID: -2359914097049694975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_127
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 27
+        width: 99
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa6d792db23bd4c0800000000000000
+      internalID: -4261756834349749590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_128
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 6
+        width: 71
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f46701e68694460800000000000000
+      internalID: 7226421899024551763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_129
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 64
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707b8dd99cbfe1700800000000000000
+      internalID: 513124250922039047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_130
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 84
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c8875201cb34350800000000000000
+      internalID: 5999845906121788505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_131
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 60
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e440d309c30fc60800000000000000
+      internalID: 7849840740703424042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_132
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 54
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9656c528f40bc4640800000000000000
+      internalID: 5065617536420963689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_133
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 34
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a6c53fb7f600340800000000000000
+      internalID: 4827981378695752213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_134
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 38
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbb92de30542f9f0800000000000000
+      internalID: -436210330735363105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_135
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 41
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c73fecd4940d800800000000000000
+      internalID: 635088145992612998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_136
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 37
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aca666ffe57e8270800000000000000
+      internalID: 8254664840508255398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_137
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 34
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6bb233b535ce6bf0800000000000000
+      internalID: -329108888321082514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 33
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a45ab9a65a0e3f0800000000000000
+      internalID: -873516450413458847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_139
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 41
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff57210480675a470800000000000000
+      internalID: 8405254057363666431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_140
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 21
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0436ce9042518f0800000000000000
+      internalID: -570510152753266442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_141
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e805a891f652b5c80800000000000000
+      internalID: -8333025526418878322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_142
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 65
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b74c2dc780edb530800000000000000
+      internalID: 3872498128475932601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_143
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b452d095f5d099440800000000000000
+      internalID: 4942996769182917963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_144
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d85c7dfd06b741f0800000000000000
+      internalID: -1060679016018847534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_145
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 52
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4185719e280d75b20800000000000000
+      internalID: 3123194127279675412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyRRIdle_1_146
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcf0a74ecccd0d90800000000000000
+      internalID: -7129817448720565001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

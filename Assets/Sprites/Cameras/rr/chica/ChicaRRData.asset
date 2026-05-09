@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f46567c318504aa3442aec0ebfd3e, type: 3}
+  m_Name: ChicaRRData
+  m_EditorClassIdentifier: 
+  characterName: 3
+  Layer1_FreeRoamRenders:
+  - {fileID: 21300000, guid: a7466041d86069648adf4f74897c54ce, type: 3}
+  Layer2_FreeRoamRenders:
+  - {fileID: 21300000, guid: 1d3ec01072d00d74f84546175c0f73ca, type: 3}
+  Layer3_FreeRoamRenders:
+  - {fileID: 21300000, guid: 92f797a32c1dc884e89bcd81cfeab270, type: 3}
+  Layer4_FreeRoamRenders:
+  - {fileID: 21300000, guid: de75076e96b3fb04ab794fa0643f05fb, type: 3}
+  Layer1_IdleRenders:
+  - {fileID: 21300000, guid: 2c07bea54a103844d9647318f6c2e691, type: 3}
+  Layer2_IdleRenders:
+  - {fileID: 21300000, guid: 0eb5d51fa5606734b8f39d5f0c90b45f, type: 3}
+  Layer3_IdleRenders:
+  - {fileID: 21300000, guid: 531b69a98c9befd4190d3c312e7d71de, type: 3}
+  Layer4_IdleRenders:
+  - {fileID: 21300000, guid: fd61e34b05323134fac8e2cbb04df75a, type: 3}
+  Layer1_RunningRenders:
+  - {fileID: 21300000, guid: bb286f107b5ddad4981b6434cd07a09a, type: 3}
+  Layer2_RunningRenders:
+  - {fileID: 21300000, guid: e9c3dc6653866704593e9e549f155da8, type: 3}
+  Layer3_RunningRenders:
+  - {fileID: 21300000, guid: 7cc48fa7684caae41b9f22b755e44950, type: 3}
+  Layer4_RunningRenders:
+  - {fileID: 21300000, guid: ec942ab901b90ec4da5187eaf3a23869, type: 3}

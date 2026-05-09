@@ -1,0 +1,2652 @@
+fileFormatVersion: 2
+guid: 847f615182f2ab34c95058c450aaa4f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8975104157450839284
+    second: BonnieEastCornerFreeroam_4_0
+  - first:
+      213: -9087073211881189064
+    second: BonnieEastCornerFreeroam_4_1
+  - first:
+      213: 2435250796616377623
+    second: BonnieEastCornerFreeroam_4_2
+  - first:
+      213: 3025244338594440197
+    second: BonnieEastCornerFreeroam_4_3
+  - first:
+      213: 3337716649755457122
+    second: BonnieEastCornerFreeroam_4_4
+  - first:
+      213: 8220119811200460456
+    second: BonnieEastCornerFreeroam_4_5
+  - first:
+      213: 3587062085978701904
+    second: BonnieEastCornerFreeroam_4_6
+  - first:
+      213: 2666210303219094207
+    second: BonnieEastCornerFreeroam_4_7
+  - first:
+      213: 2623857406737430398
+    second: BonnieEastCornerFreeroam_4_8
+  - first:
+      213: 1987728791887535408
+    second: BonnieEastCornerFreeroam_4_9
+  - first:
+      213: 3225063629753697292
+    second: BonnieEastCornerFreeroam_4_10
+  - first:
+      213: 9035339442289946552
+    second: BonnieEastCornerFreeroam_4_11
+  - first:
+      213: 286390927965433570
+    second: BonnieEastCornerFreeroam_4_12
+  - first:
+      213: -3787289415374521670
+    second: BonnieEastCornerFreeroam_4_13
+  - first:
+      213: 4555973277056088286
+    second: BonnieEastCornerFreeroam_4_14
+  - first:
+      213: -5416537734452106912
+    second: BonnieEastCornerFreeroam_4_15
+  - first:
+      213: -3201673528903173971
+    second: BonnieEastCornerFreeroam_4_16
+  - first:
+      213: -8527212985068578208
+    second: BonnieEastCornerFreeroam_4_17
+  - first:
+      213: -5278326327353602470
+    second: BonnieEastCornerFreeroam_4_18
+  - first:
+      213: 980469689842292515
+    second: BonnieEastCornerFreeroam_4_19
+  - first:
+      213: 8434002125448154838
+    second: BonnieEastCornerFreeroam_4_20
+  - first:
+      213: -6683945927207061660
+    second: BonnieEastCornerFreeroam_4_21
+  - first:
+      213: -9140315417031298901
+    second: BonnieEastCornerFreeroam_4_22
+  - first:
+      213: 7495870377849715497
+    second: BonnieEastCornerFreeroam_4_23
+  - first:
+      213: -8469324507374594911
+    second: BonnieEastCornerFreeroam_4_24
+  - first:
+      213: -7141683326946123221
+    second: BonnieEastCornerFreeroam_4_25
+  - first:
+      213: 4450759192368834764
+    second: BonnieEastCornerFreeroam_4_26
+  - first:
+      213: -8153102438723009442
+    second: BonnieEastCornerFreeroam_4_27
+  - first:
+      213: 8874394811700089758
+    second: BonnieEastCornerFreeroam_4_28
+  - first:
+      213: -7374317674720599948
+    second: BonnieEastCornerFreeroam_4_29
+  - first:
+      213: -5940318349994684454
+    second: BonnieEastCornerFreeroam_4_30
+  - first:
+      213: -8587111114456211986
+    second: BonnieEastCornerFreeroam_4_31
+  - first:
+      213: 8460277490929364260
+    second: BonnieEastCornerFreeroam_4_32
+  - first:
+      213: -4620215386553350356
+    second: BonnieEastCornerFreeroam_4_33
+  - first:
+      213: 5184904984733030606
+    second: BonnieEastCornerFreeroam_4_34
+  - first:
+      213: -7500125365653037108
+    second: BonnieEastCornerFreeroam_4_35
+  - first:
+      213: 5008027610219659797
+    second: BonnieEastCornerFreeroam_4_36
+  - first:
+      213: 3569010757688839059
+    second: BonnieEastCornerFreeroam_4_37
+  - first:
+      213: 1490515392298201654
+    second: BonnieEastCornerFreeroam_4_38
+  - first:
+      213: -4431206727385574267
+    second: BonnieEastCornerFreeroam_4_39
+  - first:
+      213: 1988188564710518130
+    second: BonnieEastCornerFreeroam_4_40
+  - first:
+      213: 6099138163224789811
+    second: BonnieEastCornerFreeroam_4_41
+  - first:
+      213: -5536767396715365354
+    second: BonnieEastCornerFreeroam_4_42
+  - first:
+      213: -5322086432944524580
+    second: BonnieEastCornerFreeroam_4_43
+  - first:
+      213: -611009527900346271
+    second: BonnieEastCornerFreeroam_4_44
+  - first:
+      213: -5347941732274296707
+    second: BonnieEastCornerFreeroam_4_45
+  - first:
+      213: 8408130281405945931
+    second: BonnieEastCornerFreeroam_4_46
+  - first:
+      213: 5223890734915304015
+    second: BonnieEastCornerFreeroam_4_47
+  - first:
+      213: -936142569876355139
+    second: BonnieEastCornerFreeroam_4_48
+  - first:
+      213: 8770619608355455141
+    second: BonnieEastCornerFreeroam_4_49
+  - first:
+      213: -1843388130091405546
+    second: BonnieEastCornerFreeroam_4_50
+  - first:
+      213: 6827523354679942696
+    second: BonnieEastCornerFreeroam_4_51
+  - first:
+      213: 5917739888611651124
+    second: BonnieEastCornerFreeroam_4_52
+  - first:
+      213: -8991465791113184558
+    second: BonnieEastCornerFreeroam_4_53
+  - first:
+      213: 6918418724381695516
+    second: BonnieEastCornerFreeroam_4_54
+  - first:
+      213: 4600584552248651734
+    second: BonnieEastCornerFreeroam_4_55
+  - first:
+      213: -4786492792385508535
+    second: BonnieEastCornerFreeroam_4_56
+  - first:
+      213: 2600126145438588289
+    second: BonnieEastCornerFreeroam_4_57
+  - first:
+      213: -6241118949354891380
+    second: BonnieEastCornerFreeroam_4_58
+  - first:
+      213: 7040205473147314481
+    second: BonnieEastCornerFreeroam_4_59
+  - first:
+      213: -903812529958885548
+    second: BonnieEastCornerFreeroam_4_60
+  - first:
+      213: 7862437073409276255
+    second: BonnieEastCornerFreeroam_4_61
+  - first:
+      213: -3551235814734127475
+    second: BonnieEastCornerFreeroam_4_62
+  - first:
+      213: -7936616890267271244
+    second: BonnieEastCornerFreeroam_4_63
+  - first:
+      213: -3355590727942804413
+    second: BonnieEastCornerFreeroam_4_64
+  - first:
+      213: 1667515092931695644
+    second: BonnieEastCornerFreeroam_4_65
+  - first:
+      213: 5106715124311829950
+    second: BonnieEastCornerFreeroam_4_66
+  - first:
+      213: -2250880379599579519
+    second: BonnieEastCornerFreeroam_4_67
+  - first:
+      213: 4468302127527308347
+    second: BonnieEastCornerFreeroam_4_68
+  - first:
+      213: -4876691165207580361
+    second: BonnieEastCornerFreeroam_4_69
+  - first:
+      213: -4222818842373539394
+    second: BonnieEastCornerFreeroam_4_70
+  - first:
+      213: -8863817037965689533
+    second: BonnieEastCornerFreeroam_4_71
+  - first:
+      213: -8928431104016811723
+    second: BonnieEastCornerFreeroam_4_72
+  - first:
+      213: 1061028525331096033
+    second: BonnieEastCornerFreeroam_4_73
+  - first:
+      213: 7714723232009307562
+    second: BonnieEastCornerFreeroam_4_74
+  - first:
+      213: 4104673003547440304
+    second: BonnieEastCornerFreeroam_4_75
+  - first:
+      213: 4431344148775913740
+    second: BonnieEastCornerFreeroam_4_76
+  - first:
+      213: -4550972604940765529
+    second: BonnieEastCornerFreeroam_4_77
+  - first:
+      213: 3664186093362432038
+    second: BonnieEastCornerFreeroam_4_78
+  - first:
+      213: -7415209940779451184
+    second: BonnieEastCornerFreeroam_4_79
+  - first:
+      213: -4707937468500392956
+    second: BonnieEastCornerFreeroam_4_80
+  - first:
+      213: 6565508456115546587
+    second: BonnieEastCornerFreeroam_4_81
+  - first:
+      213: -6980666418180818410
+    second: BonnieEastCornerFreeroam_4_82
+  - first:
+      213: 740218490081435271
+    second: BonnieEastCornerFreeroam_4_83
+  - first:
+      213: 611831077311954767
+    second: BonnieEastCornerFreeroam_4_84
+  - first:
+      213: -7359820712714817381
+    second: BonnieEastCornerFreeroam_4_85
+  - first:
+      213: -8631161969798015025
+    second: BonnieEastCornerFreeroam_4_86
+  - first:
+      213: -6694259409518868098
+    second: BonnieEastCornerFreeroam_4_87
+  - first:
+      213: 2358262542000488849
+    second: BonnieEastCornerFreeroam_4_88
+  - first:
+      213: 9173211968656181998
+    second: BonnieEastCornerFreeroam_4_89
+  - first:
+      213: -4417735777911106860
+    second: BonnieEastCornerFreeroam_4_90
+  - first:
+      213: 8996454794540358960
+    second: BonnieEastCornerFreeroam_4_91
+  - first:
+      213: 1396169699797023138
+    second: BonnieEastCornerFreeroam_4_92
+  - first:
+      213: 7101283414303447034
+    second: BonnieEastCornerFreeroam_4_93
+  - first:
+      213: 947372106826636260
+    second: BonnieEastCornerFreeroam_4_94
+  - first:
+      213: 839810890625456745
+    second: BonnieEastCornerFreeroam_4_95
+  - first:
+      213: 7312142004212782966
+    second: BonnieEastCornerFreeroam_4_96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bd2092256027380800000000000000
+      internalID: -8975104157450839284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 527
+        width: 142
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8319ad52f0b34e180800000000000000
+      internalID: -9087073211881189064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 530
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7156e4f62bfbbc120800000000000000
+      internalID: 2435250796616377623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_3
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 528
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504eea092b3dbf920800000000000000
+      internalID: 3025244338594440197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 535
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266b495eb93f15e20800000000000000
+      internalID: 3337716649755457122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 530
+        width: 154
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a621cd8a6bb31270800000000000000
+      internalID: 8220119811200460456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 478
+        width: 196
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050480e46fdc7c130800000000000000
+      internalID: 3587062085978701904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_7
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 530
+        width: 54
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb25cd30528400520800000000000000
+      internalID: 2666210303219094207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_8
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 509
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77bcddd860d96420800000000000000
+      internalID: 2623857406737430398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_9
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 526
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03dd5460ec4d59b10800000000000000
+      internalID: 1987728791887535408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_10
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 529
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04408db84ab1cc20800000000000000
+      internalID: 3225063629753697292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 455
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfa4caf959f36d70800000000000000
+      internalID: 9035339442289946552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_12
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 514
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee2648180779f300800000000000000
+      internalID: 286390927965433570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_13
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 507
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba3107b758d07bc0800000000000000
+      internalID: -3787289415374521670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_14
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 500
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8b9119e811a3f30800000000000000
+      internalID: 4555973277056088286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_15
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 481
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069ab79e0a794d4b0800000000000000
+      internalID: -5416537734452106912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_16
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 523
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da874fe73ee5193d0800000000000000
+      internalID: -3201673528903173971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a93ec18f049a980800000000000000
+      internalID: -8527212985068578208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_18
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 503
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e0f79cb2e9fb6b0800000000000000
+      internalID: -5278326327353602470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 513
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3275618fcf35b9d00800000000000000
+      internalID: 980469689842292515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_20
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 512
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de0a327f389b0570800000000000000
+      internalID: 8434002125448154838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_21
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 514
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46777ee979add33a0800000000000000
+      internalID: -6683945927207061660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_22
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 506
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0b2d04e83172180800000000000000
+      internalID: -9140315417031298901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_23
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 481
+        width: 77
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bfa12d46ea60860800000000000000
+      internalID: 7495870377849715497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_24
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 488
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a45d62ab3ae67a80800000000000000
+      internalID: -8469324507374594911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_25
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 495
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22eb073ad4a3ec90800000000000000
+      internalID: -7141683326946123221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_26
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 495
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8e2f187e544cd30800000000000000
+      internalID: 4450759192368834764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_27
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 501
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e544b8a678c5ade80800000000000000
+      internalID: -8153102438723009442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_28
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 494
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9314fb001f282b70800000000000000
+      internalID: 8874394811700089758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_29
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 489
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470e469452929a990800000000000000
+      internalID: -7374317674720599948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_30
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 478
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf05df0fefbf8da0800000000000000
+      internalID: -5940318349994684454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_31
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 475
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed570810f374d880800000000000000
+      internalID: -8587111114456211986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_32
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 481
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42de314bd81f86570800000000000000
+      internalID: 8460277490929364260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_33
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 487
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2781bab592b1efb0800000000000000
+      internalID: -4620215386553350356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_34
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 488
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec81a21ec9b74f740800000000000000
+      internalID: 5184904984733030606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_35
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 481
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf9a51a7b33ae790800000000000000
+      internalID: -7500125365653037108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_36
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 478
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512cd7ce396108540800000000000000
+      internalID: 5008027610219659797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_37
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 446
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b479bef5ca78130800000000000000
+      internalID: 3569010757688839059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_38
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 473
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632bf2a2adf5fa410800000000000000
+      internalID: 1490515392298201654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_39
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 476
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5849cdf75f03182c0800000000000000
+      internalID: -4431206727385574267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_40
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 476
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d601a37f6779b10800000000000000
+      internalID: 1988188564710518130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_41
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 465
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333ca0748dd74a450800000000000000
+      internalID: 6099138163224789811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_42
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 437
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61cf0d243637923b0800000000000000
+      internalID: -5536767396715365354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_43
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 451
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd27a6c36962426b0800000000000000
+      internalID: -5322086432944524580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168ee1752124587f0800000000000000
+      internalID: -611009527900346271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_45
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 454
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78ad40445b48c5b0800000000000000
+      internalID: -5347941732274296707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_46
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 400
+        width: 82
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48186851fdafa470800000000000000
+      internalID: 8408130281405945931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_47
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 441
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ab41032fcfe7840800000000000000
+      internalID: 5223890734915304015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_48
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 430
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db70667ea472203f0800000000000000
+      internalID: -936142569876355139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_49
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 453
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a04a18a01087b970800000000000000
+      internalID: 8770619608355455141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_50
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 437
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61feaba2348fa66e0800000000000000
+      internalID: -1843388130091405546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_51
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 461
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e916b315c30ce50800000000000000
+      internalID: 6827523354679942696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_52
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 460
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e6bdd3319002250800000000000000
+      internalID: 5917739888611651124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_53
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 440
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da3f967085e73380800000000000000
+      internalID: -8991465791113184558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_54
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 453
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e9e2aac29230060800000000000000
+      internalID: 6918418724381695516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_55
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 443
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df2eeb764f88df30800000000000000
+      internalID: 4600584552248651734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_56
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 458
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94be4ed4a26f29db0800000000000000
+      internalID: -4786492792385508535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_57
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 419
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d921604f0851420800000000000000
+      internalID: 2600126145438588289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_58
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 454
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c871eb6e1671369a0800000000000000
+      internalID: -6241118949354891380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_59
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 387
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131e4b4c395d3b160800000000000000
+      internalID: 7040205473147314481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_60
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 425
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457e048ea430573f0800000000000000
+      internalID: -903812529958885548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_61
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 403
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59fb6d7cdcfc1d60800000000000000
+      internalID: 7862437073409276255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_62
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 385
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e902d77d977bec0800000000000000
+      internalID: -3551235814734127475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_63
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 421
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bff0410df87bd190800000000000000
+      internalID: -7936616890267271244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_64
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 420
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cef59f20c8e61d0800000000000000
+      internalID: -3355590727942804413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_65
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 374
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14dbc36424342710800000000000000
+      internalID: 1667515092931695644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_66
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 420
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebda8b95952bed640800000000000000
+      internalID: 5106715124311829950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_67
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 419
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186121e683443c0e0800000000000000
+      internalID: -2250880379599579519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c23646c19920e30800000000000000
+      internalID: 4468302127527308347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_69
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 379
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731348a1933825cb0800000000000000
+      internalID: -4876691165207580361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_70
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 390
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9bf75e2a88565c0800000000000000
+      internalID: -4222818842373539394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_71
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 413
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34dfff1dd556df480800000000000000
+      internalID: -8863817037965689533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_72
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 412
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539778b3737d71480800000000000000
+      internalID: -8928431104016811723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_73
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 404
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1aaec72d789be00800000000000000
+      internalID: 1061028525331096033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_74
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 394
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa54e58b7e3301b60800000000000000
+      internalID: 7714723232009307562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_75
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 384
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4b497695ab6f830800000000000000
+      internalID: 4104673003547440304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 394
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c094b49660c4f7d30800000000000000
+      internalID: 4431344148775913740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 377
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6b8f32782b7d0c0800000000000000
+      internalID: -4550972604940765529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6284bc596ddc9d230800000000000000
+      internalID: 3664186093362432038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_79
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 372
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc35e8a8d1e71990800000000000000
+      internalID: -7415209940779451184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_80
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 382
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404484de0db0aaeb0800000000000000
+      internalID: -4707937468500392956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_81
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 369
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd92790c72f5d1b50800000000000000
+      internalID: 6565508456115546587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_82
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 392
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a75d8b0e0bf1f90800000000000000
+      internalID: -6980666418180818410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_83
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 392
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78eda7d7bc8c54a00800000000000000
+      internalID: 740218490081435271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_84
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 379
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f39b98f19ad7800800000000000000
+      internalID: 611831077311954767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_85
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 385
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9032184e0aacd990800000000000000
+      internalID: -7359820712714817381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_86
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 377
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc714571be3f73880800000000000000
+      internalID: -8631161969798015025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_87
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 399
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79cf45e8863913a0800000000000000
+      internalID: -6694259409518868098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 556
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1918c0f894b3ab020800000000000000
+      internalID: 2358262542000488849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_89
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 362
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea0d190fabcd4f70800000000000000
+      internalID: 9173211968656181998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_90
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 362
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2131657bc01b2c0800000000000000
+      internalID: -4417735777911106860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_91
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 368
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d107a68f3d9dc70800000000000000
+      internalID: 8996454794540358960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_92
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 339
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9b09ad1f0306310800000000000000
+      internalID: 1396169699797023138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_93
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 333
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af71eee14a3dc8260800000000000000
+      internalID: 7101283414303447034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_94
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 297
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebd38969edb52d00800000000000000
+      internalID: 947372106826636260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_95
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 306
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a1c363e8b97ab00800000000000000
+      internalID: 839810890625456745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonnieEastCornerFreeroam_4_96
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 179
+        width: 29
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677d0545962f97560800000000000000
+      internalID: 7312142004212782966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BonnieEastCornerFreeroam_4_0: -8975104157450839284
+      BonnieEastCornerFreeroam_4_1: -9087073211881189064
+      BonnieEastCornerFreeroam_4_10: 3225063629753697292
+      BonnieEastCornerFreeroam_4_11: 9035339442289946552
+      BonnieEastCornerFreeroam_4_12: 286390927965433570
+      BonnieEastCornerFreeroam_4_13: -3787289415374521670
+      BonnieEastCornerFreeroam_4_14: 4555973277056088286
+      BonnieEastCornerFreeroam_4_15: -5416537734452106912
+      BonnieEastCornerFreeroam_4_16: -3201673528903173971
+      BonnieEastCornerFreeroam_4_17: -8527212985068578208
+      BonnieEastCornerFreeroam_4_18: -5278326327353602470
+      BonnieEastCornerFreeroam_4_19: 980469689842292515
+      BonnieEastCornerFreeroam_4_2: 2435250796616377623
+      BonnieEastCornerFreeroam_4_20: 8434002125448154838
+      BonnieEastCornerFreeroam_4_21: -6683945927207061660
+      BonnieEastCornerFreeroam_4_22: -9140315417031298901
+      BonnieEastCornerFreeroam_4_23: 7495870377849715497
+      BonnieEastCornerFreeroam_4_24: -8469324507374594911
+      BonnieEastCornerFreeroam_4_25: -7141683326946123221
+      BonnieEastCornerFreeroam_4_26: 4450759192368834764
+      BonnieEastCornerFreeroam_4_27: -8153102438723009442
+      BonnieEastCornerFreeroam_4_28: 8874394811700089758
+      BonnieEastCornerFreeroam_4_29: -7374317674720599948
+      BonnieEastCornerFreeroam_4_3: 3025244338594440197
+      BonnieEastCornerFreeroam_4_30: -5940318349994684454
+      BonnieEastCornerFreeroam_4_31: -8587111114456211986
+      BonnieEastCornerFreeroam_4_32: 8460277490929364260
+      BonnieEastCornerFreeroam_4_33: -4620215386553350356
+      BonnieEastCornerFreeroam_4_34: 5184904984733030606
+      BonnieEastCornerFreeroam_4_35: -7500125365653037108
+      BonnieEastCornerFreeroam_4_36: 5008027610219659797
+      BonnieEastCornerFreeroam_4_37: 3569010757688839059
+      BonnieEastCornerFreeroam_4_38: 1490515392298201654
+      BonnieEastCornerFreeroam_4_39: -4431206727385574267
+      BonnieEastCornerFreeroam_4_4: 3337716649755457122
+      BonnieEastCornerFreeroam_4_40: 1988188564710518130
+      BonnieEastCornerFreeroam_4_41: 6099138163224789811
+      BonnieEastCornerFreeroam_4_42: -5536767396715365354
+      BonnieEastCornerFreeroam_4_43: -5322086432944524580
+      BonnieEastCornerFreeroam_4_44: -611009527900346271
+      BonnieEastCornerFreeroam_4_45: -5347941732274296707
+      BonnieEastCornerFreeroam_4_46: 8408130281405945931
+      BonnieEastCornerFreeroam_4_47: 5223890734915304015
+      BonnieEastCornerFreeroam_4_48: -936142569876355139
+      BonnieEastCornerFreeroam_4_49: 8770619608355455141
+      BonnieEastCornerFreeroam_4_5: 8220119811200460456
+      BonnieEastCornerFreeroam_4_50: -1843388130091405546
+      BonnieEastCornerFreeroam_4_51: 6827523354679942696
+      BonnieEastCornerFreeroam_4_52: 5917739888611651124
+      BonnieEastCornerFreeroam_4_53: -8991465791113184558
+      BonnieEastCornerFreeroam_4_54: 6918418724381695516
+      BonnieEastCornerFreeroam_4_55: 4600584552248651734
+      BonnieEastCornerFreeroam_4_56: -4786492792385508535
+      BonnieEastCornerFreeroam_4_57: 2600126145438588289
+      BonnieEastCornerFreeroam_4_58: -6241118949354891380
+      BonnieEastCornerFreeroam_4_59: 7040205473147314481
+      BonnieEastCornerFreeroam_4_6: 3587062085978701904
+      BonnieEastCornerFreeroam_4_60: -903812529958885548
+      BonnieEastCornerFreeroam_4_61: 7862437073409276255
+      BonnieEastCornerFreeroam_4_62: -3551235814734127475
+      BonnieEastCornerFreeroam_4_63: -7936616890267271244
+      BonnieEastCornerFreeroam_4_64: -3355590727942804413
+      BonnieEastCornerFreeroam_4_65: 1667515092931695644
+      BonnieEastCornerFreeroam_4_66: 5106715124311829950
+      BonnieEastCornerFreeroam_4_67: -2250880379599579519
+      BonnieEastCornerFreeroam_4_68: 4468302127527308347
+      BonnieEastCornerFreeroam_4_69: -4876691165207580361
+      BonnieEastCornerFreeroam_4_7: 2666210303219094207
+      BonnieEastCornerFreeroam_4_70: -4222818842373539394
+      BonnieEastCornerFreeroam_4_71: -8863817037965689533
+      BonnieEastCornerFreeroam_4_72: -8928431104016811723
+      BonnieEastCornerFreeroam_4_73: 1061028525331096033
+      BonnieEastCornerFreeroam_4_74: 7714723232009307562
+      BonnieEastCornerFreeroam_4_75: 4104673003547440304
+      BonnieEastCornerFreeroam_4_76: 4431344148775913740
+      BonnieEastCornerFreeroam_4_77: -4550972604940765529
+      BonnieEastCornerFreeroam_4_78: 3664186093362432038
+      BonnieEastCornerFreeroam_4_79: -7415209940779451184
+      BonnieEastCornerFreeroam_4_8: 2623857406737430398
+      BonnieEastCornerFreeroam_4_80: -4707937468500392956
+      BonnieEastCornerFreeroam_4_81: 6565508456115546587
+      BonnieEastCornerFreeroam_4_82: -6980666418180818410
+      BonnieEastCornerFreeroam_4_83: 740218490081435271
+      BonnieEastCornerFreeroam_4_84: 611831077311954767
+      BonnieEastCornerFreeroam_4_85: -7359820712714817381
+      BonnieEastCornerFreeroam_4_86: -8631161969798015025
+      BonnieEastCornerFreeroam_4_87: -6694259409518868098
+      BonnieEastCornerFreeroam_4_88: 2358262542000488849
+      BonnieEastCornerFreeroam_4_89: 9173211968656181998
+      BonnieEastCornerFreeroam_4_9: 1987728791887535408
+      BonnieEastCornerFreeroam_4_90: -4417735777911106860
+      BonnieEastCornerFreeroam_4_91: 8996454794540358960
+      BonnieEastCornerFreeroam_4_92: 1396169699797023138
+      BonnieEastCornerFreeroam_4_93: 7101283414303447034
+      BonnieEastCornerFreeroam_4_94: 947372106826636260
+      BonnieEastCornerFreeroam_4_95: 839810890625456745
+      BonnieEastCornerFreeroam_4_96: 7312142004212782966
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

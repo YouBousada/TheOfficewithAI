@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_RDoor_L_Open_Foxy
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4209461767521648114, guid: 0abb80f3a54aaa748a220582b73c0fac, type: 3}
+  - {fileID: 6032186475404308979, guid: 6f87fac52e798ae409dd9d2e65c38c07, type: 3}
+  - {fileID: 5453481469928959302, guid: 2d846315a608d134fb9bc741ebe3c65f, type: 3}
+  - {fileID: -1792632809057475342, guid: a692cc2a7cbb0a1478e6fe4c8279cd49, type: 3}
+  - {fileID: -7839056689181992794, guid: b1881bd91f6cfe843ab389c2b5b6818d, type: 3}
+  - {fileID: -2053394916973472229, guid: 147fc71df00e4424bae9350cedaab290, type: 3}
+  - {fileID: -7866962194647477418, guid: 3f0e05bfac616294f97a4fb033fe0537, type: 3}
+  - {fileID: 8652625658316714873, guid: ae809ef5eb6baa84bb5538a198060479, type: 3}
+  - {fileID: 3965758638191431310, guid: 8df0def4182504f409e22cb8ee29b096, type: 3}
+  - {fileID: -8999544654852872013, guid: 25258f090c7177147b773e39c726e7da, type: 3}
+  - {fileID: 2066082498040014989, guid: 4198f39c87f9c5646b7d1a2d2db9112e, type: 3}
+  - {fileID: 6977660837472787490, guid: c8d65e54d7599c4488dbab128b93a906, type: 3}
+  fps: 12

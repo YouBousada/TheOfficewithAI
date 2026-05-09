@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_LDoor_R_Open_Freddy
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4209461767521648114, guid: 2e35d022f8820804cbdc77e85e890544, type: 3}
+  - {fileID: 6032186475404308979, guid: 38d1ac1fdeb78bc439f043fd9dd03d28, type: 3}
+  - {fileID: 5453481469928959302, guid: 28c2c38743d67f64bb803394b91afea9, type: 3}
+  - {fileID: -1792632809057475342, guid: 8d54f2466fa73d64590145a39e528aec, type: 3}
+  - {fileID: -7839056689181992794, guid: 68ce6a49115debf41ad21f8cb2b8c079, type: 3}
+  - {fileID: -2053394916973472229, guid: 483a2d4e5bf7d0041952c041ae744662, type: 3}
+  - {fileID: -7866962194647477418, guid: c21a37b04f2f5284b85e4391fdb355db, type: 3}
+  - {fileID: 8652625658316714873, guid: a77807d329a984548904795f4e63d492, type: 3}
+  - {fileID: 3965758638191431310, guid: c24927a6912c12643803486e0a64ca8c, type: 3}
+  - {fileID: -8999544654852872013, guid: a6fafa978df8eb349bf61613544f6d5d, type: 3}
+  - {fileID: 2066082498040014989, guid: 3bb3d792e85788f4b90e14328dc67ef7, type: 3}
+  - {fileID: 6977660837472787490, guid: 2ee3a283fc0531a4197205f82f595158, type: 3}
+  fps: 12

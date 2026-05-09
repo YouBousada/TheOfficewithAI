@@ -1,0 +1,2522 @@
+fileFormatVersion: 2
+guid: 9793aa49b72096a4786747e6bbf71cf1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8667930158868930551
+    second: ChicaEastCornerFreeroam_4_0
+  - first:
+      213: -806650641882637356
+    second: ChicaEastCornerFreeroam_4_1
+  - first:
+      213: 5276376919526505668
+    second: ChicaEastCornerFreeroam_4_2
+  - first:
+      213: -2450375417046532329
+    second: ChicaEastCornerFreeroam_4_3
+  - first:
+      213: 3925740492897633176
+    second: ChicaEastCornerFreeroam_4_4
+  - first:
+      213: -3709211506415247477
+    second: ChicaEastCornerFreeroam_4_5
+  - first:
+      213: 3499291678020489123
+    second: ChicaEastCornerFreeroam_4_6
+  - first:
+      213: -9114988897805777797
+    second: ChicaEastCornerFreeroam_4_7
+  - first:
+      213: 3632422193223935723
+    second: ChicaEastCornerFreeroam_4_8
+  - first:
+      213: 7853114558257852498
+    second: ChicaEastCornerFreeroam_4_9
+  - first:
+      213: -2871589697566250278
+    second: ChicaEastCornerFreeroam_4_10
+  - first:
+      213: 6425093658135742379
+    second: ChicaEastCornerFreeroam_4_11
+  - first:
+      213: -3140956008959751209
+    second: ChicaEastCornerFreeroam_4_12
+  - first:
+      213: -6941872254482897711
+    second: ChicaEastCornerFreeroam_4_13
+  - first:
+      213: 6754040915124969141
+    second: ChicaEastCornerFreeroam_4_14
+  - first:
+      213: -2518963662096408639
+    second: ChicaEastCornerFreeroam_4_15
+  - first:
+      213: -1913173433349652032
+    second: ChicaEastCornerFreeroam_4_16
+  - first:
+      213: 6653899334555861167
+    second: ChicaEastCornerFreeroam_4_17
+  - first:
+      213: 3094598412112795001
+    second: ChicaEastCornerFreeroam_4_18
+  - first:
+      213: 5907966128165409340
+    second: ChicaEastCornerFreeroam_4_19
+  - first:
+      213: 1092461534241813002
+    second: ChicaEastCornerFreeroam_4_20
+  - first:
+      213: 4210008729909419522
+    second: ChicaEastCornerFreeroam_4_21
+  - first:
+      213: -6269578591446215095
+    second: ChicaEastCornerFreeroam_4_22
+  - first:
+      213: 6446160193881590490
+    second: ChicaEastCornerFreeroam_4_23
+  - first:
+      213: 5522107477842228
+    second: ChicaEastCornerFreeroam_4_24
+  - first:
+      213: 5393169835330978188
+    second: ChicaEastCornerFreeroam_4_25
+  - first:
+      213: 7949032452198316476
+    second: ChicaEastCornerFreeroam_4_26
+  - first:
+      213: -4707152750990264862
+    second: ChicaEastCornerFreeroam_4_27
+  - first:
+      213: 8364636049933672533
+    second: ChicaEastCornerFreeroam_4_28
+  - first:
+      213: -3712456127666514926
+    second: ChicaEastCornerFreeroam_4_29
+  - first:
+      213: 3515855671648934988
+    second: ChicaEastCornerFreeroam_4_30
+  - first:
+      213: 5384130511258071124
+    second: ChicaEastCornerFreeroam_4_31
+  - first:
+      213: 5167822577242801686
+    second: ChicaEastCornerFreeroam_4_32
+  - first:
+      213: -6474698890005437431
+    second: ChicaEastCornerFreeroam_4_33
+  - first:
+      213: -1360656202629286454
+    second: ChicaEastCornerFreeroam_4_34
+  - first:
+      213: 4329186949096182128
+    second: ChicaEastCornerFreeroam_4_35
+  - first:
+      213: -7168082530264178580
+    second: ChicaEastCornerFreeroam_4_36
+  - first:
+      213: -860613435841893464
+    second: ChicaEastCornerFreeroam_4_37
+  - first:
+      213: -5646443489319456145
+    second: ChicaEastCornerFreeroam_4_38
+  - first:
+      213: -759450970216157850
+    second: ChicaEastCornerFreeroam_4_39
+  - first:
+      213: 2689812367967185725
+    second: ChicaEastCornerFreeroam_4_40
+  - first:
+      213: 6799638663597000472
+    second: ChicaEastCornerFreeroam_4_41
+  - first:
+      213: 7849995840542705579
+    second: ChicaEastCornerFreeroam_4_42
+  - first:
+      213: 386487423678657359
+    second: ChicaEastCornerFreeroam_4_43
+  - first:
+      213: -5757573530607610619
+    second: ChicaEastCornerFreeroam_4_44
+  - first:
+      213: -5506129595396490831
+    second: ChicaEastCornerFreeroam_4_45
+  - first:
+      213: -917982621058987867
+    second: ChicaEastCornerFreeroam_4_46
+  - first:
+      213: -5111368912171017936
+    second: ChicaEastCornerFreeroam_4_47
+  - first:
+      213: -8015518675618597951
+    second: ChicaEastCornerFreeroam_4_48
+  - first:
+      213: -6140294589300042722
+    second: ChicaEastCornerFreeroam_4_49
+  - first:
+      213: 5794084352098207589
+    second: ChicaEastCornerFreeroam_4_50
+  - first:
+      213: -647647460211785393
+    second: ChicaEastCornerFreeroam_4_51
+  - first:
+      213: 6401708551045156255
+    second: ChicaEastCornerFreeroam_4_52
+  - first:
+      213: 83556398737225105
+    second: ChicaEastCornerFreeroam_4_53
+  - first:
+      213: 939332911865966240
+    second: ChicaEastCornerFreeroam_4_54
+  - first:
+      213: -4460411288093199075
+    second: ChicaEastCornerFreeroam_4_55
+  - first:
+      213: 6432513491213391813
+    second: ChicaEastCornerFreeroam_4_56
+  - first:
+      213: -5878215451268267412
+    second: ChicaEastCornerFreeroam_4_57
+  - first:
+      213: 8926306469366955770
+    second: ChicaEastCornerFreeroam_4_58
+  - first:
+      213: 4754768100041246158
+    second: ChicaEastCornerFreeroam_4_59
+  - first:
+      213: -6245864616037406028
+    second: ChicaEastCornerFreeroam_4_60
+  - first:
+      213: 2118313539295065040
+    second: ChicaEastCornerFreeroam_4_61
+  - first:
+      213: 6523906074364140887
+    second: ChicaEastCornerFreeroam_4_62
+  - first:
+      213: 4893181202715116175
+    second: ChicaEastCornerFreeroam_4_63
+  - first:
+      213: 9182714552545139867
+    second: ChicaEastCornerFreeroam_4_64
+  - first:
+      213: -1964312177058415948
+    second: ChicaEastCornerFreeroam_4_65
+  - first:
+      213: 7822301785367103579
+    second: ChicaEastCornerFreeroam_4_66
+  - first:
+      213: -5069902861029399430
+    second: ChicaEastCornerFreeroam_4_67
+  - first:
+      213: 2469599455058827024
+    second: ChicaEastCornerFreeroam_4_68
+  - first:
+      213: -5665021297454325753
+    second: ChicaEastCornerFreeroam_4_69
+  - first:
+      213: -6218892825291065653
+    second: ChicaEastCornerFreeroam_4_70
+  - first:
+      213: -4848778821274326460
+    second: ChicaEastCornerFreeroam_4_71
+  - first:
+      213: -3935771759335572041
+    second: ChicaEastCornerFreeroam_4_72
+  - first:
+      213: -896223914028558207
+    second: ChicaEastCornerFreeroam_4_73
+  - first:
+      213: 1969014171399083481
+    second: ChicaEastCornerFreeroam_4_74
+  - first:
+      213: 66903504485066289
+    second: ChicaEastCornerFreeroam_4_75
+  - first:
+      213: -5457806437342088367
+    second: ChicaEastCornerFreeroam_4_76
+  - first:
+      213: 4854126759849236916
+    second: ChicaEastCornerFreeroam_4_77
+  - first:
+      213: -4560340852656813944
+    second: ChicaEastCornerFreeroam_4_78
+  - first:
+      213: -6154185287081566004
+    second: ChicaEastCornerFreeroam_4_79
+  - first:
+      213: -75990461776408655
+    second: ChicaEastCornerFreeroam_4_80
+  - first:
+      213: -975803358727863060
+    second: ChicaEastCornerFreeroam_4_81
+  - first:
+      213: -4186475827335035608
+    second: ChicaEastCornerFreeroam_4_82
+  - first:
+      213: 18686138653404797
+    second: ChicaEastCornerFreeroam_4_83
+  - first:
+      213: 8931907518355305162
+    second: ChicaEastCornerFreeroam_4_84
+  - first:
+      213: -3566862280892793232
+    second: ChicaEastCornerFreeroam_4_85
+  - first:
+      213: 6722560778905619726
+    second: ChicaEastCornerFreeroam_4_86
+  - first:
+      213: 5014944878806317247
+    second: ChicaEastCornerFreeroam_4_87
+  - first:
+      213: -8229994723630583184
+    second: ChicaEastCornerFreeroam_4_88
+  - first:
+      213: 6911885316730514460
+    second: ChicaEastCornerFreeroam_4_89
+  - first:
+      213: -1855820240880164676
+    second: ChicaEastCornerFreeroam_4_90
+  - first:
+      213: 5461023414796878198
+    second: ChicaEastCornerFreeroam_4_91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 563
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff17490e8caa4870800000000000000
+      internalID: 8667930158868930551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_1
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 530
+        width: 68
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db9eb8d3833ec4f0800000000000000
+      internalID: -806650641882637356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 531
+        width: 83
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc72755ad4793940800000000000000
+      internalID: 5276376919526505668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 526
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f77947a848efdd0800000000000000
+      internalID: -2450375417046532329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_4
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 527
+        width: 43
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893c787cd280b7630800000000000000
+      internalID: 3925740492897633176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 515
+        width: 105
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fd35389cb368cc0800000000000000
+      internalID: -3709211506415247477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_6
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 524
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af44e9bd3bff8030800000000000000
+      internalID: 3499291678020489123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_7
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 526
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7448a604ed018180800000000000000
+      internalID: -9114988897805777797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_8
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 509
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6ab554db4f86230800000000000000
+      internalID: 3632422193223935723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_9
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 530
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2507869451edbfc60800000000000000
+      internalID: 7853114558257852498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_10
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 522
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada64e762601628d0800000000000000
+      internalID: -2871589697566250278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 519
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7cbc5f3a48a2950800000000000000
+      internalID: 6425093658135742379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_12
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 514
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db43deb6251964d0800000000000000
+      internalID: -3140956008959751209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_13
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 507
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d42863d6f389af90800000000000000
+      internalID: -6941872254482897711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_14
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 500
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be5a788d6c2bbd50800000000000000
+      internalID: 6754040915124969141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_15
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 473
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf50a635e7da0dd0800000000000000
+      internalID: -2518963662096408639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_16
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 523
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1ca7716ea0375e0800000000000000
+      internalID: -1913173433349652032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_17
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 505
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0096fd036675c50800000000000000
+      internalID: 6653899334555861167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_18
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 490
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97598742cd832fa20800000000000000
+      internalID: 3094598412112795001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_19
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 513
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32d65e44ef4df150800000000000000
+      internalID: 5907966128165409340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_20
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 505
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02f24f2af3392f00800000000000000
+      internalID: 1092461534241813002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_21
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 503
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e5b8f52a4fc6a30800000000000000
+      internalID: 4210008729909419522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 512
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946547d1d7bfdf8a0800000000000000
+      internalID: -6269578591446215095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_23
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 498
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada43990b8c557950800000000000000
+      internalID: 6446160193881590490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_24
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 464
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439d0a6d35e931000800000000000000
+      internalID: 5522107477842228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_25
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 498
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c814148146368da40800000000000000
+      internalID: 5393169835330978188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_26
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 487
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9355546e2a05e60800000000000000
+      internalID: 7949032452198316476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_27
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 501
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5f8b53385dcaeb0800000000000000
+      internalID: -4707152750990264862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_28
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 493
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55029bf6b28251470800000000000000
+      internalID: 8364636049933672533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_29
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 491
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214173242d4ba7cc0800000000000000
+      internalID: -3712456127666514926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_30
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 473
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c5d260b14dac030800000000000000
+      internalID: 3515855671648934988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_31
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 451
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45031e37c2648ba40800000000000000
+      internalID: 5384130511258071124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_32
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 474
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6160dc2f04bc7b740800000000000000
+      internalID: 5167822577242801686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_33
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 480
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9042c99f9af3526a0800000000000000
+      internalID: -6474698890005437431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_34
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 489
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac579dc846afd1de0800000000000000
+      internalID: -1360656202629286454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_35
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 486
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071922bd79c541c30800000000000000
+      internalID: 4329186949096182128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_36
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 488
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60abe6baead58c90800000000000000
+      internalID: -7168082530264178580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_37
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 474
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab27bbc3ac7e04f0800000000000000
+      internalID: -860613435841893464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_38
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 459
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62fbc6009dc3a1b0800000000000000
+      internalID: -5646443489319456145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_39
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 459
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66da0f7cd53e575f0800000000000000
+      internalID: -759450970216157850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_40
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 466
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3be221f812245520800000000000000
+      internalID: 2689812367967185725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_41
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 446
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81706b8a65b2d5e50800000000000000
+      internalID: 6799638663597000472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_42
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 463
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba787db30a9c0fc60800000000000000
+      internalID: 7849995840542705579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_43
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 453
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43b58e93441d5500800000000000000
+      internalID: 386487423678657359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_44
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 435
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50511fbf06df810b0800000000000000
+      internalID: -5757573530607610619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_45
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 460
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b970234e4c4693b0800000000000000
+      internalID: -5506129595396490831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_46
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 454
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a80cc97baba243f0800000000000000
+      internalID: -917982621058987867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_47
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 435
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039521a3e05c019b0800000000000000
+      internalID: -5111368912171017936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_48
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 440
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c37e398b3823c090800000000000000
+      internalID: -8015518675618597951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_49
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 453
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14948c8a9a49caa0800000000000000
+      internalID: -6140294589300042722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_50
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 440
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56786751509b86050800000000000000
+      internalID: 5794084352098207589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_51
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 393
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41846af0181307f0800000000000000
+      internalID: -647647460211785393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_52
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 446
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d80ac620077d850800000000000000
+      internalID: 6401708551045156255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_53
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 429
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19571791a1ad82100800000000000000
+      internalID: 83556398737225105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_54
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 420
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aeaa997e4e290d00800000000000000
+      internalID: 939332911865966240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_55
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 416
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15ff05d09f6912c0800000000000000
+      internalID: -4460411288093199075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_56
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 387
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c79ea870f0e44950800000000000000
+      internalID: 6432513491213391813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_57
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 419
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6241f1f0326c6ea0800000000000000
+      internalID: -5878215451268267412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_58
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 416
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe73e6b07c90eb70800000000000000
+      internalID: 8926306469366955770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 412
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5415825645cf140800000000000000
+      internalID: 4754768100041246158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_60
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 403
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4baa8e5493b3259a0800000000000000
+      internalID: -6245864616037406028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_61
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 411
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d33590d0f2c56d10800000000000000
+      internalID: 2118313539295065040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_62
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 403
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ddc7e6202998a50800000000000000
+      internalID: 6523906074364140887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_63
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 409
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f820471f06218e340800000000000000
+      internalID: 4893181202715116175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_64
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 376
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c5342cb3e8f6f70800000000000000
+      internalID: 9182714552545139867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_65
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 322
+        width: 73
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba757a7b7c5db4e0800000000000000
+      internalID: -1964312177058415948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_66
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 379
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58c5ba87066e8c60800000000000000
+      internalID: 7822301785367103579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_67
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 385
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a742b9a953614a9b0800000000000000
+      internalID: -5069902861029399430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_68
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 392
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0179740be97c54220800000000000000
+      internalID: 2469599455058827024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_69
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 372
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7006630052dc161b0800000000000000
+      internalID: -5665021297454325753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_70
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 385
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6fc4caced02b9a0800000000000000
+      internalID: -6218892825291065653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_71
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 375
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44aa18b1a5da5bcb0800000000000000
+      internalID: -4848778821274326460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_72
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 368
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdf9cfff645169c0800000000000000
+      internalID: -3935771759335572041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_73
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 387
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1881e1d3919ff83f0800000000000000
+      internalID: -896223914028558207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_74
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 362
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5d3f3e4f7535b10800000000000000
+      internalID: 1969014171399083481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_75
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 367
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136af030260bde000800000000000000
+      internalID: 66903504485066289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_76
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 329
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153726146f9f144b0800000000000000
+      internalID: -5457806437342088367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_77
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 348
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9188fd1925d5340800000000000000
+      internalID: 4854126759849236916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_78
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 340
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88840bef72a66b0c0800000000000000
+      internalID: -4560340852656813944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_79
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 347
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc061917611f79aa0800000000000000
+      internalID: -6154185287081566004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_80
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 347
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfcf7fd31702fef0800000000000000
+      internalID: -75990461776408655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_81
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 338
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce48468e3004572f0800000000000000
+      internalID: -975803358727863060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_82
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 329
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8258fea7a66a6e5c0800000000000000
+      internalID: -4186475827335035608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_83
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 285
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ee8a0b1f2624000800000000000000
+      internalID: 18686138653404797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_84
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 323
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2753e809284fb70800000000000000
+      internalID: 8931907518355305162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_85
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 315
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e35a057a5ff7ec0800000000000000
+      internalID: -3566862280892793232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_86
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 293
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d84a729655b4d50800000000000000
+      internalID: 6722560778905619726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_87
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 291
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb83a650cc9a89540800000000000000
+      internalID: 5014944878806317247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_88
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 299
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072f8aa376f29cd80800000000000000
+      internalID: -8229994723630583184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_89
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 172
+        width: 27
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ce5f72313fbef50800000000000000
+      internalID: 6911885316730514460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_90
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 268
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0ab5fc25dce36e0800000000000000
+      internalID: -1855820240880164676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaEastCornerFreeroam_4_91
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 107
+        width: 15
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6710f0dacd379cb40800000000000000
+      internalID: 5461023414796878198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChicaEastCornerFreeroam_4_0: 8667930158868930551
+      ChicaEastCornerFreeroam_4_1: -806650641882637356
+      ChicaEastCornerFreeroam_4_10: -2871589697566250278
+      ChicaEastCornerFreeroam_4_11: 6425093658135742379
+      ChicaEastCornerFreeroam_4_12: -3140956008959751209
+      ChicaEastCornerFreeroam_4_13: -6941872254482897711
+      ChicaEastCornerFreeroam_4_14: 6754040915124969141
+      ChicaEastCornerFreeroam_4_15: -2518963662096408639
+      ChicaEastCornerFreeroam_4_16: -1913173433349652032
+      ChicaEastCornerFreeroam_4_17: 6653899334555861167
+      ChicaEastCornerFreeroam_4_18: 3094598412112795001
+      ChicaEastCornerFreeroam_4_19: 5907966128165409340
+      ChicaEastCornerFreeroam_4_2: 5276376919526505668
+      ChicaEastCornerFreeroam_4_20: 1092461534241813002
+      ChicaEastCornerFreeroam_4_21: 4210008729909419522
+      ChicaEastCornerFreeroam_4_22: -6269578591446215095
+      ChicaEastCornerFreeroam_4_23: 6446160193881590490
+      ChicaEastCornerFreeroam_4_24: 5522107477842228
+      ChicaEastCornerFreeroam_4_25: 5393169835330978188
+      ChicaEastCornerFreeroam_4_26: 7949032452198316476
+      ChicaEastCornerFreeroam_4_27: -4707152750990264862
+      ChicaEastCornerFreeroam_4_28: 8364636049933672533
+      ChicaEastCornerFreeroam_4_29: -3712456127666514926
+      ChicaEastCornerFreeroam_4_3: -2450375417046532329
+      ChicaEastCornerFreeroam_4_30: 3515855671648934988
+      ChicaEastCornerFreeroam_4_31: 5384130511258071124
+      ChicaEastCornerFreeroam_4_32: 5167822577242801686
+      ChicaEastCornerFreeroam_4_33: -6474698890005437431
+      ChicaEastCornerFreeroam_4_34: -1360656202629286454
+      ChicaEastCornerFreeroam_4_35: 4329186949096182128
+      ChicaEastCornerFreeroam_4_36: -7168082530264178580
+      ChicaEastCornerFreeroam_4_37: -860613435841893464
+      ChicaEastCornerFreeroam_4_38: -5646443489319456145
+      ChicaEastCornerFreeroam_4_39: -759450970216157850
+      ChicaEastCornerFreeroam_4_4: 3925740492897633176
+      ChicaEastCornerFreeroam_4_40: 2689812367967185725
+      ChicaEastCornerFreeroam_4_41: 6799638663597000472
+      ChicaEastCornerFreeroam_4_42: 7849995840542705579
+      ChicaEastCornerFreeroam_4_43: 386487423678657359
+      ChicaEastCornerFreeroam_4_44: -5757573530607610619
+      ChicaEastCornerFreeroam_4_45: -5506129595396490831
+      ChicaEastCornerFreeroam_4_46: -917982621058987867
+      ChicaEastCornerFreeroam_4_47: -5111368912171017936
+      ChicaEastCornerFreeroam_4_48: -8015518675618597951
+      ChicaEastCornerFreeroam_4_49: -6140294589300042722
+      ChicaEastCornerFreeroam_4_5: -3709211506415247477
+      ChicaEastCornerFreeroam_4_50: 5794084352098207589
+      ChicaEastCornerFreeroam_4_51: -647647460211785393
+      ChicaEastCornerFreeroam_4_52: 6401708551045156255
+      ChicaEastCornerFreeroam_4_53: 83556398737225105
+      ChicaEastCornerFreeroam_4_54: 939332911865966240
+      ChicaEastCornerFreeroam_4_55: -4460411288093199075
+      ChicaEastCornerFreeroam_4_56: 6432513491213391813
+      ChicaEastCornerFreeroam_4_57: -5878215451268267412
+      ChicaEastCornerFreeroam_4_58: 8926306469366955770
+      ChicaEastCornerFreeroam_4_59: 4754768100041246158
+      ChicaEastCornerFreeroam_4_6: 3499291678020489123
+      ChicaEastCornerFreeroam_4_60: -6245864616037406028
+      ChicaEastCornerFreeroam_4_61: 2118313539295065040
+      ChicaEastCornerFreeroam_4_62: 6523906074364140887
+      ChicaEastCornerFreeroam_4_63: 4893181202715116175
+      ChicaEastCornerFreeroam_4_64: 9182714552545139867
+      ChicaEastCornerFreeroam_4_65: -1964312177058415948
+      ChicaEastCornerFreeroam_4_66: 7822301785367103579
+      ChicaEastCornerFreeroam_4_67: -5069902861029399430
+      ChicaEastCornerFreeroam_4_68: 2469599455058827024
+      ChicaEastCornerFreeroam_4_69: -5665021297454325753
+      ChicaEastCornerFreeroam_4_7: -9114988897805777797
+      ChicaEastCornerFreeroam_4_70: -6218892825291065653
+      ChicaEastCornerFreeroam_4_71: -4848778821274326460
+      ChicaEastCornerFreeroam_4_72: -3935771759335572041
+      ChicaEastCornerFreeroam_4_73: -896223914028558207
+      ChicaEastCornerFreeroam_4_74: 1969014171399083481
+      ChicaEastCornerFreeroam_4_75: 66903504485066289
+      ChicaEastCornerFreeroam_4_76: -5457806437342088367
+      ChicaEastCornerFreeroam_4_77: 4854126759849236916
+      ChicaEastCornerFreeroam_4_78: -4560340852656813944
+      ChicaEastCornerFreeroam_4_79: -6154185287081566004
+      ChicaEastCornerFreeroam_4_8: 3632422193223935723
+      ChicaEastCornerFreeroam_4_80: -75990461776408655
+      ChicaEastCornerFreeroam_4_81: -975803358727863060
+      ChicaEastCornerFreeroam_4_82: -4186475827335035608
+      ChicaEastCornerFreeroam_4_83: 18686138653404797
+      ChicaEastCornerFreeroam_4_84: 8931907518355305162
+      ChicaEastCornerFreeroam_4_85: -3566862280892793232
+      ChicaEastCornerFreeroam_4_86: 6722560778905619726
+      ChicaEastCornerFreeroam_4_87: 5014944878806317247
+      ChicaEastCornerFreeroam_4_88: -8229994723630583184
+      ChicaEastCornerFreeroam_4_89: 6911885316730514460
+      ChicaEastCornerFreeroam_4_9: 7853114558257852498
+      ChicaEastCornerFreeroam_4_90: -1855820240880164676
+      ChicaEastCornerFreeroam_4_91: 5461023414796878198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

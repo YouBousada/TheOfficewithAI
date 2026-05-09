@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_Desk_L_Chica
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4209461767521648114, guid: 8a50b9c43228705439a9389a61547cbf, type: 3}
+  - {fileID: 6032186475404308979, guid: b46dccb803b16774593ff2e5236a466a, type: 3}
+  - {fileID: 5453481469928959302, guid: 7c2283b4304f819428adc1f44f53b26f, type: 3}
+  - {fileID: -1792632809057475342, guid: 681e95b17471b9c40bc2e750de7f7bee, type: 3}
+  - {fileID: -7839056689181992794, guid: f62fca94edb1f574091f25f2d71c4e48, type: 3}
+  - {fileID: -2053394916973472229, guid: 514df44d9fa2a4c42b7c953c619a78fd, type: 3}
+  - {fileID: -7866962194647477418, guid: 4ab16da1057d06d4ca75a9ca0c683cc5, type: 3}
+  - {fileID: 8652625658316714873, guid: a046cf13f17752e478b90de9aee0bf4e, type: 3}
+  - {fileID: 3965758638191431310, guid: bd6910318ea1093469ca4cb830ab9289, type: 3}
+  - {fileID: -8999544654852872013, guid: fd099c0722c092841b4d1fa26721467b, type: 3}
+  - {fileID: 2066082498040014989, guid: 1b9f0f18b3308e840856b8fccc3a8a22, type: 3}
+  - {fileID: 6977660837472787490, guid: 9f6e5e89a4eb70746a0c42cab81284bd, type: 3}
+  fps: 12

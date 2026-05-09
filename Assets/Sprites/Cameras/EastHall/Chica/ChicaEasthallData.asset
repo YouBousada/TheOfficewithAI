@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f46567c318504aa3442aec0ebfd3e, type: 3}
+  m_Name: ChicaEasthallData
+  m_EditorClassIdentifier: 
+  characterName: 3
+  Layer1_FreeRoamRenders:
+  - {fileID: 21300000, guid: 4a62b0c1b8170b84d98cbb6619d369cb, type: 3}
+  Layer2_FreeRoamRenders:
+  - {fileID: 21300000, guid: c6ee1184115a29646be0d6de05de9ce8, type: 3}
+  Layer3_FreeRoamRenders:
+  - {fileID: 21300000, guid: 4c3de141cb630d14a8233d7a7c9bd9bf, type: 3}
+  Layer4_FreeRoamRenders:
+  - {fileID: 21300000, guid: b0780e745965f004ea80c9d6f2ea7411, type: 3}
+  Layer1_IdleRenders: []
+  Layer2_IdleRenders: []
+  Layer3_IdleRenders: []
+  Layer4_IdleRenders: []
+  Layer1_RunningRenders:
+  - {fileID: 21300000, guid: 8d3916ae210528a4e8f4c224fdbedcb3, type: 3}
+  Layer2_RunningRenders:
+  - {fileID: 21300000, guid: 1c5b5356fbeb424439ac5e5e84b1e699, type: 3}
+  Layer3_RunningRenders:
+  - {fileID: 21300000, guid: 46f9a8931e47ea44f8121e4a2a51eb18, type: 3}
+  Layer4_RunningRenders:
+  - {fileID: 21300000, guid: 72ebf98a4f23f764aa89ef5a1d7745b5, type: 3}

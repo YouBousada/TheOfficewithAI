@@ -1,0 +1,7905 @@
+fileFormatVersion: 2
+guid: 48809cedd3467734a8eab87dadf74231
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6104260019098464071
+    second: ChicaShowroomIdle_2_0
+  - first:
+      213: -5387733487017190335
+    second: ChicaShowroomIdle_2_1
+  - first:
+      213: -842924205860515480
+    second: ChicaShowroomIdle_2_2
+  - first:
+      213: 7529439022664877539
+    second: ChicaShowroomIdle_2_3
+  - first:
+      213: -1424505331308835342
+    second: ChicaShowroomIdle_2_4
+  - first:
+      213: -8897996053007790007
+    second: ChicaShowroomIdle_2_5
+  - first:
+      213: 6294059811228513708
+    second: ChicaShowroomIdle_2_6
+  - first:
+      213: 5719936915516735038
+    second: ChicaShowroomIdle_2_7
+  - first:
+      213: -2237085814500542128
+    second: ChicaShowroomIdle_2_8
+  - first:
+      213: 4315823803835822537
+    second: ChicaShowroomIdle_2_9
+  - first:
+      213: -5025802461284362908
+    second: ChicaShowroomIdle_2_10
+  - first:
+      213: -6250106466499819798
+    second: ChicaShowroomIdle_2_11
+  - first:
+      213: 4930202906434715504
+    second: ChicaShowroomIdle_2_12
+  - first:
+      213: -546442808514557563
+    second: ChicaShowroomIdle_2_13
+  - first:
+      213: -2066211763923196799
+    second: ChicaShowroomIdle_2_14
+  - first:
+      213: -6436189849098570973
+    second: ChicaShowroomIdle_2_15
+  - first:
+      213: -8823693144689554373
+    second: ChicaShowroomIdle_2_16
+  - first:
+      213: -5979865425609984584
+    second: ChicaShowroomIdle_2_17
+  - first:
+      213: -7834068336907379045
+    second: ChicaShowroomIdle_2_18
+  - first:
+      213: -5253995113142084825
+    second: ChicaShowroomIdle_2_19
+  - first:
+      213: -5548295540472298583
+    second: ChicaShowroomIdle_2_20
+  - first:
+      213: -3296202565558189285
+    second: ChicaShowroomIdle_2_21
+  - first:
+      213: -3372257732358439224
+    second: ChicaShowroomIdle_2_22
+  - first:
+      213: 5806276692180528727
+    second: ChicaShowroomIdle_2_23
+  - first:
+      213: 2595129315222114354
+    second: ChicaShowroomIdle_2_24
+  - first:
+      213: 4412345049239172953
+    second: ChicaShowroomIdle_2_25
+  - first:
+      213: 5694456278196651431
+    second: ChicaShowroomIdle_2_26
+  - first:
+      213: 2972587611182872228
+    second: ChicaShowroomIdle_2_27
+  - first:
+      213: 4523893506032503852
+    second: ChicaShowroomIdle_2_28
+  - first:
+      213: -7762485352814875943
+    second: ChicaShowroomIdle_2_29
+  - first:
+      213: 4737393832062649117
+    second: ChicaShowroomIdle_2_30
+  - first:
+      213: -2169372301731946462
+    second: ChicaShowroomIdle_2_31
+  - first:
+      213: 8012158053911185078
+    second: ChicaShowroomIdle_2_32
+  - first:
+      213: 4712001402364793235
+    second: ChicaShowroomIdle_2_33
+  - first:
+      213: -4670392951480345780
+    second: ChicaShowroomIdle_2_34
+  - first:
+      213: 8182609931693183557
+    second: ChicaShowroomIdle_2_35
+  - first:
+      213: -252723327539354766
+    second: ChicaShowroomIdle_2_36
+  - first:
+      213: 6095254982948209316
+    second: ChicaShowroomIdle_2_37
+  - first:
+      213: 1283975440845902215
+    second: ChicaShowroomIdle_2_38
+  - first:
+      213: -8281255755656764086
+    second: ChicaShowroomIdle_2_39
+  - first:
+      213: -2336614290626941189
+    second: ChicaShowroomIdle_2_40
+  - first:
+      213: -5431074049934413967
+    second: ChicaShowroomIdle_2_41
+  - first:
+      213: -8634312378395579062
+    second: ChicaShowroomIdle_2_42
+  - first:
+      213: 6820463387586851793
+    second: ChicaShowroomIdle_2_43
+  - first:
+      213: -3089999274331910528
+    second: ChicaShowroomIdle_2_44
+  - first:
+      213: 4956585556994446596
+    second: ChicaShowroomIdle_2_45
+  - first:
+      213: -5502916094814495067
+    second: ChicaShowroomIdle_2_46
+  - first:
+      213: 209954798622751431
+    second: ChicaShowroomIdle_2_47
+  - first:
+      213: 8676486636584958886
+    second: ChicaShowroomIdle_2_48
+  - first:
+      213: 7044367551275387451
+    second: ChicaShowroomIdle_2_49
+  - first:
+      213: 8493410183793768723
+    second: ChicaShowroomIdle_2_50
+  - first:
+      213: -1058474641040681836
+    second: ChicaShowroomIdle_2_51
+  - first:
+      213: 5436561242507466782
+    second: ChicaShowroomIdle_2_52
+  - first:
+      213: -3445542304923782321
+    second: ChicaShowroomIdle_2_53
+  - first:
+      213: -543845547864975995
+    second: ChicaShowroomIdle_2_54
+  - first:
+      213: -6193238289041215724
+    second: ChicaShowroomIdle_2_55
+  - first:
+      213: 6775212305211581991
+    second: ChicaShowroomIdle_2_56
+  - first:
+      213: -4041631644944163122
+    second: ChicaShowroomIdle_2_57
+  - first:
+      213: 6581668543629134243
+    second: ChicaShowroomIdle_2_58
+  - first:
+      213: -3848842116572260436
+    second: ChicaShowroomIdle_2_59
+  - first:
+      213: -8002961200922024504
+    second: ChicaShowroomIdle_2_60
+  - first:
+      213: -3534208718649954745
+    second: ChicaShowroomIdle_2_61
+  - first:
+      213: 6267722184895763423
+    second: ChicaShowroomIdle_2_62
+  - first:
+      213: -2983437928642765045
+    second: ChicaShowroomIdle_2_63
+  - first:
+      213: 1606741398646751595
+    second: ChicaShowroomIdle_2_64
+  - first:
+      213: 3551339601722667873
+    second: ChicaShowroomIdle_2_65
+  - first:
+      213: 7894670944658948005
+    second: ChicaShowroomIdle_2_66
+  - first:
+      213: -3007830960833465043
+    second: ChicaShowroomIdle_2_67
+  - first:
+      213: 4484890173705541513
+    second: ChicaShowroomIdle_2_68
+  - first:
+      213: -8657956296993967349
+    second: ChicaShowroomIdle_2_69
+  - first:
+      213: 1074504790464668478
+    second: ChicaShowroomIdle_2_70
+  - first:
+      213: -3432766198236804582
+    second: ChicaShowroomIdle_2_71
+  - first:
+      213: -5677727963721400227
+    second: ChicaShowroomIdle_2_72
+  - first:
+      213: -7497459728578922673
+    second: ChicaShowroomIdle_2_73
+  - first:
+      213: 2068214603268206551
+    second: ChicaShowroomIdle_2_74
+  - first:
+      213: 2505475360385214396
+    second: ChicaShowroomIdle_2_75
+  - first:
+      213: 7649240147506727226
+    second: ChicaShowroomIdle_2_76
+  - first:
+      213: -1137090859712252388
+    second: ChicaShowroomIdle_2_77
+  - first:
+      213: 517537528634705419
+    second: ChicaShowroomIdle_2_78
+  - first:
+      213: -2380265449023956464
+    second: ChicaShowroomIdle_2_79
+  - first:
+      213: -811462118066202787
+    second: ChicaShowroomIdle_2_80
+  - first:
+      213: 9220232862220321971
+    second: ChicaShowroomIdle_2_81
+  - first:
+      213: -5177307112434270326
+    second: ChicaShowroomIdle_2_82
+  - first:
+      213: 327451610954251602
+    second: ChicaShowroomIdle_2_83
+  - first:
+      213: -3653163355954265614
+    second: ChicaShowroomIdle_2_84
+  - first:
+      213: -5905688320949551590
+    second: ChicaShowroomIdle_2_85
+  - first:
+      213: 4611228318151086873
+    second: ChicaShowroomIdle_2_86
+  - first:
+      213: -1827984458261692501
+    second: ChicaShowroomIdle_2_87
+  - first:
+      213: 3033291699313838224
+    second: ChicaShowroomIdle_2_88
+  - first:
+      213: -6289271582789539981
+    second: ChicaShowroomIdle_2_89
+  - first:
+      213: 4153287388262981546
+    second: ChicaShowroomIdle_2_90
+  - first:
+      213: 7154172443186652668
+    second: ChicaShowroomIdle_2_91
+  - first:
+      213: 2380757676014436590
+    second: ChicaShowroomIdle_2_92
+  - first:
+      213: 6603987697391949615
+    second: ChicaShowroomIdle_2_93
+  - first:
+      213: 1504749322459486178
+    second: ChicaShowroomIdle_2_94
+  - first:
+      213: -7238570468583027048
+    second: ChicaShowroomIdle_2_95
+  - first:
+      213: -2775424005763189075
+    second: ChicaShowroomIdle_2_96
+  - first:
+      213: -5818041189792605887
+    second: ChicaShowroomIdle_2_97
+  - first:
+      213: -8247784793337138397
+    second: ChicaShowroomIdle_2_98
+  - first:
+      213: 5877887398930439761
+    second: ChicaShowroomIdle_2_99
+  - first:
+      213: -8452020283234009857
+    second: ChicaShowroomIdle_2_100
+  - first:
+      213: -4218086395832703001
+    second: ChicaShowroomIdle_2_101
+  - first:
+      213: 7564647091458986718
+    second: ChicaShowroomIdle_2_102
+  - first:
+      213: -2640846936605694019
+    second: ChicaShowroomIdle_2_103
+  - first:
+      213: -3529847158743964113
+    second: ChicaShowroomIdle_2_104
+  - first:
+      213: 2024512653450575738
+    second: ChicaShowroomIdle_2_105
+  - first:
+      213: -2635419372261611523
+    second: ChicaShowroomIdle_2_106
+  - first:
+      213: 2929744717872218558
+    second: ChicaShowroomIdle_2_107
+  - first:
+      213: 312412728942729321
+    second: ChicaShowroomIdle_2_108
+  - first:
+      213: 6181647646874866936
+    second: ChicaShowroomIdle_2_109
+  - first:
+      213: -6438203339825910814
+    second: ChicaShowroomIdle_2_110
+  - first:
+      213: -3371521180417841455
+    second: ChicaShowroomIdle_2_111
+  - first:
+      213: 2922946579075022734
+    second: ChicaShowroomIdle_2_112
+  - first:
+      213: 7745848079648203832
+    second: ChicaShowroomIdle_2_113
+  - first:
+      213: -2415089122007321497
+    second: ChicaShowroomIdle_2_114
+  - first:
+      213: -2110880564091964861
+    second: ChicaShowroomIdle_2_115
+  - first:
+      213: -6232623269530745198
+    second: ChicaShowroomIdle_2_116
+  - first:
+      213: -561830596325469493
+    second: ChicaShowroomIdle_2_117
+  - first:
+      213: 2668038061166189232
+    second: ChicaShowroomIdle_2_118
+  - first:
+      213: 4032606998116554495
+    second: ChicaShowroomIdle_2_119
+  - first:
+      213: -2272740677416504639
+    second: ChicaShowroomIdle_2_120
+  - first:
+      213: -959974022719902958
+    second: ChicaShowroomIdle_2_121
+  - first:
+      213: -2272247994125364109
+    second: ChicaShowroomIdle_2_122
+  - first:
+      213: 5965120302203759045
+    second: ChicaShowroomIdle_2_123
+  - first:
+      213: 2038568424539182417
+    second: ChicaShowroomIdle_2_124
+  - first:
+      213: -3221100486179460175
+    second: ChicaShowroomIdle_2_125
+  - first:
+      213: -1727245902532802817
+    second: ChicaShowroomIdle_2_126
+  - first:
+      213: 1011230149616400480
+    second: ChicaShowroomIdle_2_127
+  - first:
+      213: -3397051915529083330
+    second: ChicaShowroomIdle_2_128
+  - first:
+      213: -6383002624098440203
+    second: ChicaShowroomIdle_2_129
+  - first:
+      213: 7602446729950700606
+    second: ChicaShowroomIdle_2_130
+  - first:
+      213: 5261438560716380776
+    second: ChicaShowroomIdle_2_131
+  - first:
+      213: 893554657203604671
+    second: ChicaShowroomIdle_2_132
+  - first:
+      213: 9026259902485247452
+    second: ChicaShowroomIdle_2_133
+  - first:
+      213: -9212250723490578196
+    second: ChicaShowroomIdle_2_134
+  - first:
+      213: 6480456709937350333
+    second: ChicaShowroomIdle_2_135
+  - first:
+      213: -7264862819728962913
+    second: ChicaShowroomIdle_2_136
+  - first:
+      213: 7919814140372561285
+    second: ChicaShowroomIdle_2_137
+  - first:
+      213: -5399283915711965014
+    second: ChicaShowroomIdle_2_138
+  - first:
+      213: 8659288979397283084
+    second: ChicaShowroomIdle_2_139
+  - first:
+      213: 1791818912052259172
+    second: ChicaShowroomIdle_2_140
+  - first:
+      213: 816363468355199637
+    second: ChicaShowroomIdle_2_141
+  - first:
+      213: 6288413277924207885
+    second: ChicaShowroomIdle_2_142
+  - first:
+      213: -3419475563047876053
+    second: ChicaShowroomIdle_2_143
+  - first:
+      213: -4581692530782736684
+    second: ChicaShowroomIdle_2_144
+  - first:
+      213: 6896952071311856648
+    second: ChicaShowroomIdle_2_145
+  - first:
+      213: 8397900849104661481
+    second: ChicaShowroomIdle_2_146
+  - first:
+      213: -3548828444340683568
+    second: ChicaShowroomIdle_2_147
+  - first:
+      213: -6109075982338301030
+    second: ChicaShowroomIdle_2_148
+  - first:
+      213: -956432032436657395
+    second: ChicaShowroomIdle_2_149
+  - first:
+      213: 1271539486721605843
+    second: ChicaShowroomIdle_2_150
+  - first:
+      213: -2688229244304015702
+    second: ChicaShowroomIdle_2_151
+  - first:
+      213: 3671975807654304403
+    second: ChicaShowroomIdle_2_152
+  - first:
+      213: 2482196782384561861
+    second: ChicaShowroomIdle_2_153
+  - first:
+      213: -7057159432345283437
+    second: ChicaShowroomIdle_2_154
+  - first:
+      213: -2869275597738488624
+    second: ChicaShowroomIdle_2_155
+  - first:
+      213: 8345639558753377774
+    second: ChicaShowroomIdle_2_156
+  - first:
+      213: -5345484121580962662
+    second: ChicaShowroomIdle_2_157
+  - first:
+      213: 5154884910724086853
+    second: ChicaShowroomIdle_2_158
+  - first:
+      213: -6999390194476720714
+    second: ChicaShowroomIdle_2_159
+  - first:
+      213: -2353619128222222605
+    second: ChicaShowroomIdle_2_160
+  - first:
+      213: 3129937277863979307
+    second: ChicaShowroomIdle_2_161
+  - first:
+      213: -2645499227159767508
+    second: ChicaShowroomIdle_2_162
+  - first:
+      213: -3589368153988065068
+    second: ChicaShowroomIdle_2_163
+  - first:
+      213: -5018652836220084747
+    second: ChicaShowroomIdle_2_164
+  - first:
+      213: 1847963908226431181
+    second: ChicaShowroomIdle_2_165
+  - first:
+      213: -5372483613925006844
+    second: ChicaShowroomIdle_2_166
+  - first:
+      213: -4951829707533083510
+    second: ChicaShowroomIdle_2_167
+  - first:
+      213: 7404953567058438048
+    second: ChicaShowroomIdle_2_168
+  - first:
+      213: -703470429952682928
+    second: ChicaShowroomIdle_2_169
+  - first:
+      213: -9088516777088541944
+    second: ChicaShowroomIdle_2_170
+  - first:
+      213: -1989017156460689722
+    second: ChicaShowroomIdle_2_171
+  - first:
+      213: -3702177736727227436
+    second: ChicaShowroomIdle_2_172
+  - first:
+      213: -4830349579789743100
+    second: ChicaShowroomIdle_2_173
+  - first:
+      213: 2897929906742549389
+    second: ChicaShowroomIdle_2_174
+  - first:
+      213: -6475738955619641015
+    second: ChicaShowroomIdle_2_175
+  - first:
+      213: 8112041989401679641
+    second: ChicaShowroomIdle_2_176
+  - first:
+      213: 6894591549855395575
+    second: ChicaShowroomIdle_2_177
+  - first:
+      213: 8658616185965365537
+    second: ChicaShowroomIdle_2_178
+  - first:
+      213: 4842191586260120607
+    second: ChicaShowroomIdle_2_179
+  - first:
+      213: 3890817298859013423
+    second: ChicaShowroomIdle_2_180
+  - first:
+      213: 5228931953704434343
+    second: ChicaShowroomIdle_2_181
+  - first:
+      213: -1716264483528264454
+    second: ChicaShowroomIdle_2_182
+  - first:
+      213: -4839630900717574805
+    second: ChicaShowroomIdle_2_183
+  - first:
+      213: 5474995318831145077
+    second: ChicaShowroomIdle_2_184
+  - first:
+      213: 6204725343644039643
+    second: ChicaShowroomIdle_2_185
+  - first:
+      213: -8982534270981932650
+    second: ChicaShowroomIdle_2_186
+  - first:
+      213: -2097149145182570909
+    second: ChicaShowroomIdle_2_187
+  - first:
+      213: 2280904855423059510
+    second: ChicaShowroomIdle_2_188
+  - first:
+      213: -1693907392629631827
+    second: ChicaShowroomIdle_2_189
+  - first:
+      213: 3100363340919721031
+    second: ChicaShowroomIdle_2_190
+  - first:
+      213: 4355229305836713349
+    second: ChicaShowroomIdle_2_191
+  - first:
+      213: -1621793584040723212
+    second: ChicaShowroomIdle_2_192
+  - first:
+      213: 1358336112840168409
+    second: ChicaShowroomIdle_2_193
+  - first:
+      213: 2902068202983541557
+    second: ChicaShowroomIdle_2_194
+  - first:
+      213: 4471901011049717620
+    second: ChicaShowroomIdle_2_195
+  - first:
+      213: -4249771300999130747
+    second: ChicaShowroomIdle_2_196
+  - first:
+      213: -6681326405464953974
+    second: ChicaShowroomIdle_2_197
+  - first:
+      213: -4432335659132844330
+    second: ChicaShowroomIdle_2_198
+  - first:
+      213: -6142959115340556056
+    second: ChicaShowroomIdle_2_199
+  - first:
+      213: 7753696075542563317
+    second: ChicaShowroomIdle_2_200
+  - first:
+      213: 7281004573680785927
+    second: ChicaShowroomIdle_2_201
+  - first:
+      213: -2505070230159311756
+    second: ChicaShowroomIdle_2_202
+  - first:
+      213: -6056949308877678732
+    second: ChicaShowroomIdle_2_203
+  - first:
+      213: -7605661897641343956
+    second: ChicaShowroomIdle_2_204
+  - first:
+      213: -7377431492997791386
+    second: ChicaShowroomIdle_2_205
+  - first:
+      213: 3105725963230833564
+    second: ChicaShowroomIdle_2_206
+  - first:
+      213: -4328886711418278029
+    second: ChicaShowroomIdle_2_207
+  - first:
+      213: -4969585338215976166
+    second: ChicaShowroomIdle_2_208
+  - first:
+      213: 2212049990167253586
+    second: ChicaShowroomIdle_2_209
+  - first:
+      213: 6732955199742082346
+    second: ChicaShowroomIdle_2_210
+  - first:
+      213: -904909251192620296
+    second: ChicaShowroomIdle_2_211
+  - first:
+      213: -5380193263822533578
+    second: ChicaShowroomIdle_2_212
+  - first:
+      213: 8354432638484858848
+    second: ChicaShowroomIdle_2_213
+  - first:
+      213: 5947504184396952034
+    second: ChicaShowroomIdle_2_214
+  - first:
+      213: -7520577186998265719
+    second: ChicaShowroomIdle_2_215
+  - first:
+      213: 8002203051001465127
+    second: ChicaShowroomIdle_2_216
+  - first:
+      213: 4761374816734159340
+    second: ChicaShowroomIdle_2_217
+  - first:
+      213: -4672286935516296603
+    second: ChicaShowroomIdle_2_218
+  - first:
+      213: 2970635520515391425
+    second: ChicaShowroomIdle_2_219
+  - first:
+      213: -5711224773774923372
+    second: ChicaShowroomIdle_2_220
+  - first:
+      213: -69845413902367518
+    second: ChicaShowroomIdle_2_221
+  - first:
+      213: -2977660070171559146
+    second: ChicaShowroomIdle_2_222
+  - first:
+      213: 1534421022879934128
+    second: ChicaShowroomIdle_2_223
+  - first:
+      213: 6188756894181232010
+    second: ChicaShowroomIdle_2_224
+  - first:
+      213: -7127508451518872988
+    second: ChicaShowroomIdle_2_225
+  - first:
+      213: 7069325765721658927
+    second: ChicaShowroomIdle_2_226
+  - first:
+      213: 1321642635220866047
+    second: ChicaShowroomIdle_2_227
+  - first:
+      213: 2156330843002076138
+    second: ChicaShowroomIdle_2_228
+  - first:
+      213: 719080451634396762
+    second: ChicaShowroomIdle_2_229
+  - first:
+      213: -2355793254214083620
+    second: ChicaShowroomIdle_2_230
+  - first:
+      213: 6316335067738014311
+    second: ChicaShowroomIdle_2_231
+  - first:
+      213: 4389934809035562553
+    second: ChicaShowroomIdle_2_232
+  - first:
+      213: -8595369046523447675
+    second: ChicaShowroomIdle_2_233
+  - first:
+      213: -2435339846857433674
+    second: ChicaShowroomIdle_2_234
+  - first:
+      213: -5769029651366150027
+    second: ChicaShowroomIdle_2_235
+  - first:
+      213: 2208336400358567524
+    second: ChicaShowroomIdle_2_236
+  - first:
+      213: -3526924850166201089
+    second: ChicaShowroomIdle_2_237
+  - first:
+      213: 4424411873857952889
+    second: ChicaShowroomIdle_2_238
+  - first:
+      213: 5836143796029095960
+    second: ChicaShowroomIdle_2_239
+  - first:
+      213: 5372031121672334080
+    second: ChicaShowroomIdle_2_240
+  - first:
+      213: 4429294534280941328
+    second: ChicaShowroomIdle_2_241
+  - first:
+      213: -3732634867304048490
+    second: ChicaShowroomIdle_2_242
+  - first:
+      213: 4634132413673198727
+    second: ChicaShowroomIdle_2_243
+  - first:
+      213: 6837275745055832956
+    second: ChicaShowroomIdle_2_244
+  - first:
+      213: -2866576746796178920
+    second: ChicaShowroomIdle_2_245
+  - first:
+      213: -3306492367386644426
+    second: ChicaShowroomIdle_2_246
+  - first:
+      213: 4691698291844420612
+    second: ChicaShowroomIdle_2_247
+  - first:
+      213: -1495429977178584921
+    second: ChicaShowroomIdle_2_248
+  - first:
+      213: -8437913944405690134
+    second: ChicaShowroomIdle_2_249
+  - first:
+      213: -6568743963668796065
+    second: ChicaShowroomIdle_2_250
+  - first:
+      213: -4029704694048579900
+    second: ChicaShowroomIdle_2_251
+  - first:
+      213: 3365971736617335536
+    second: ChicaShowroomIdle_2_252
+  - first:
+      213: -2879897786150916602
+    second: ChicaShowroomIdle_2_253
+  - first:
+      213: -4535125458426892509
+    second: ChicaShowroomIdle_2_254
+  - first:
+      213: 1015022312086022758
+    second: ChicaShowroomIdle_2_255
+  - first:
+      213: 3201879698056496270
+    second: ChicaShowroomIdle_2_256
+  - first:
+      213: 6679467252981017165
+    second: ChicaShowroomIdle_2_257
+  - first:
+      213: 4804708060433343149
+    second: ChicaShowroomIdle_2_258
+  - first:
+      213: 2986917040720140073
+    second: ChicaShowroomIdle_2_259
+  - first:
+      213: -7946709686081640597
+    second: ChicaShowroomIdle_2_260
+  - first:
+      213: -5865264142017765775
+    second: ChicaShowroomIdle_2_261
+  - first:
+      213: 1921521110776032142
+    second: ChicaShowroomIdle_2_262
+  - first:
+      213: -1903477331745439163
+    second: ChicaShowroomIdle_2_263
+  - first:
+      213: 4662658557736594276
+    second: ChicaShowroomIdle_2_264
+  - first:
+      213: 1398012743107367366
+    second: ChicaShowroomIdle_2_265
+  - first:
+      213: 4538634949894803104
+    second: ChicaShowroomIdle_2_266
+  - first:
+      213: -6399906387096471891
+    second: ChicaShowroomIdle_2_267
+  - first:
+      213: 2296821612526474935
+    second: ChicaShowroomIdle_2_268
+  - first:
+      213: -5479625849208107490
+    second: ChicaShowroomIdle_2_269
+  - first:
+      213: 4562081475218420567
+    second: ChicaShowroomIdle_2_270
+  - first:
+      213: -2821558269971375779
+    second: ChicaShowroomIdle_2_271
+  - first:
+      213: -4884933522733369244
+    second: ChicaShowroomIdle_2_272
+  - first:
+      213: -2465737327717377958
+    second: ChicaShowroomIdle_2_273
+  - first:
+      213: -7432982170123313027
+    second: ChicaShowroomIdle_2_274
+  - first:
+      213: 1628435480031779438
+    second: ChicaShowroomIdle_2_275
+  - first:
+      213: -4367723680261298448
+    second: ChicaShowroomIdle_2_276
+  - first:
+      213: -4965325834858627906
+    second: ChicaShowroomIdle_2_277
+  - first:
+      213: 2788557460673682831
+    second: ChicaShowroomIdle_2_278
+  - first:
+      213: -5369663636086468769
+    second: ChicaShowroomIdle_2_279
+  - first:
+      213: 902467310338848163
+    second: ChicaShowroomIdle_2_280
+  - first:
+      213: 6137571366527448586
+    second: ChicaShowroomIdle_2_281
+  - first:
+      213: -5482193263220976237
+    second: ChicaShowroomIdle_2_282
+  - first:
+      213: 1259244901783832909
+    second: ChicaShowroomIdle_2_283
+  - first:
+      213: 7380670558016058775
+    second: ChicaShowroomIdle_2_284
+  - first:
+      213: 512096768205825308
+    second: ChicaShowroomIdle_2_285
+  - first:
+      213: -95746600929635215
+    second: ChicaShowroomIdle_2_286
+  - first:
+      213: -6516477056136101571
+    second: ChicaShowroomIdle_2_287
+  - first:
+      213: 7389656292475271686
+    second: ChicaShowroomIdle_2_288
+  - first:
+      213: -3989846350390011975
+    second: ChicaShowroomIdle_2_289
+  - first:
+      213: -7605582013927655830
+    second: ChicaShowroomIdle_2_290
+  - first:
+      213: -8029675004308856530
+    second: ChicaShowroomIdle_2_291
+  - first:
+      213: -3821873656585658774
+    second: ChicaShowroomIdle_2_292
+  - first:
+      213: 4878029845106701498
+    second: ChicaShowroomIdle_2_293
+  - first:
+      213: -3231087369483045916
+    second: ChicaShowroomIdle_2_294
+  - first:
+      213: -2867217669713871909
+    second: ChicaShowroomIdle_2_295
+  - first:
+      213: -165642967823334154
+    second: ChicaShowroomIdle_2_296
+  - first:
+      213: -6333322453254361581
+    second: ChicaShowroomIdle_2_297
+  - first:
+      213: 1615974238732713842
+    second: ChicaShowroomIdle_2_298
+  - first:
+      213: 2596862786220924579
+    second: ChicaShowroomIdle_2_299
+  - first:
+      213: 8498528724728292788
+    second: ChicaShowroomIdle_2_300
+  - first:
+      213: -7004608485765908480
+    second: ChicaShowroomIdle_2_301
+  - first:
+      213: 7991746813478558553
+    second: ChicaShowroomIdle_2_302
+  - first:
+      213: 2512470890056598859
+    second: ChicaShowroomIdle_2_303
+  - first:
+      213: 4361982296602775520
+    second: ChicaShowroomIdle_2_304
+  - first:
+      213: -1145890721063318946
+    second: ChicaShowroomIdle_2_305
+  - first:
+      213: -2423727618739247432
+    second: ChicaShowroomIdle_2_306
+  - first:
+      213: -5333949115009317887
+    second: ChicaShowroomIdle_2_307
+  - first:
+      213: 5413237072790638806
+    second: ChicaShowroomIdle_2_308
+  - first:
+      213: 4777078737806166991
+    second: ChicaShowroomIdle_2_309
+  - first:
+      213: -5181967868956802236
+    second: ChicaShowroomIdle_2_310
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 720
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b05409badf494ba0800000000000000
+      internalID: -6104260019098464071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c1dd160fcea35b0800000000000000
+      internalID: -5387733487017190335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 30
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8611b1996e45d44f0800000000000000
+      internalID: -842924205860515480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 220
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e587eff5e0fd7860800000000000000
+      internalID: 7529439022664877539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 218
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fdcfa2d2f32b3ce0800000000000000
+      internalID: -1424505331308835342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 216
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94094afbbb7f38480800000000000000
+      internalID: -8897996053007790007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 197
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5765b0d0ef85750800000000000000
+      internalID: 6294059811228513708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 216
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3eb403b15c416f40800000000000000
+      internalID: 5719936915516735038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_8
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 176
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05931a6ed4644f0e0800000000000000
+      internalID: -2237085814500542128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 204
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c13fc422e2e4eb30800000000000000
+      internalID: 4315823803835822537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 193
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4659cdf0a43c04ab0800000000000000
+      internalID: -5025802461284362908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 196
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae608ef78492349a0800000000000000
+      internalID: -6250106466499819798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 209
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fb3ac0c699b6440800000000000000
+      internalID: 4930202906434715504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 165
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5894c6c2925aa68f0800000000000000
+      internalID: -546442808514557563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_14
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 222
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184ef9419575353e0800000000000000
+      internalID: -2066211763923196799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_15
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 220
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3233181ce6f0ea6a0800000000000000
+      internalID: -6436189849098570973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_16
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 224
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ccab7b5d1fb8580800000000000000
+      internalID: -8823693144689554373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_17
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 200
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b570edf310430da0800000000000000
+      internalID: -5979865425609984584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 215
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e1080ba5cc74390800000000000000
+      internalID: -7834068336907379045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 150
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b178d084f0617b0800000000000000
+      internalID: -5253995113142084825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_20
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 203
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3c3412a9e7003b0800000000000000
+      internalID: -5548295540472298583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 224
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b134c2c0b398142d0800000000000000
+      internalID: -3296202565558189285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_22
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 174
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cef5bb95755331d0800000000000000
+      internalID: -3372257732358439224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_23
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 215
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75eec0973e9049050800000000000000
+      internalID: 5806276692180528727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_24
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 215
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2305404dc50c30420800000000000000
+      internalID: 2595129315222114354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957ba56d17ccb3d30800000000000000
+      internalID: 4412345049239172953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_26
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 215
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a587e280d5c60f40800000000000000
+      internalID: 5694456278196651431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_27
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 206
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a63844dea0c04920800000000000000
+      internalID: 2972587611182872228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_28
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 215
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c83c4dc2918ce30800000000000000
+      internalID: 4523893506032503852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_29
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 196
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daeb43f2bc164490800000000000000
+      internalID: -7762485352814875943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_30
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 182
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d138839279a9eb140800000000000000
+      internalID: 4737393832062649117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 214
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22022b9a267d4e1e0800000000000000
+      internalID: -2169372301731946462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_32
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 208
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b649afbc47e03f60800000000000000
+      internalID: 8012158053911185078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_33
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 218
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39198196f44646140800000000000000
+      internalID: 4712001402364793235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_34
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 180
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b968dfa5e6f2fb0800000000000000
+      internalID: -4670392951480345780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_35
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 219
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542d72a21687e8170800000000000000
+      internalID: 8182609931693183557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_36
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 200
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273ef8bf8752e7cf0800000000000000
+      internalID: -252723327539354766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_37
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 213
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2ce0aec12b69450800000000000000
+      internalID: 6095254982948209316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 172
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78112f35cd891d110800000000000000
+      internalID: 1283975440845902215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_39
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 206
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a456be524c1131d80800000000000000
+      internalID: -8281255755656764086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_40
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 218
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe641ebeada29fd0800000000000000
+      internalID: -2336614290626941189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_41
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 201
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f21d83de2f0a4b0800000000000000
+      internalID: -5431074049934413967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_42
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 224
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d29fd63a2cc2880800000000000000
+      internalID: -8634312378395579062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_43
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 204
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3fbac805727ae50800000000000000
+      internalID: 6820463387586851793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_44
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 219
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e4b31180e1e15d0800000000000000
+      internalID: -3089999274331910528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_45
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 193
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4055c7f8d4459c440800000000000000
+      internalID: 4956585556994446596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_46
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 211
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae5dcba7f6b1a3b0800000000000000
+      internalID: -5502916094814495067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_47
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 188
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca3cc6e6c8e9e200800000000000000
+      internalID: 209954798622751431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_48
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 223
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abf11040a2196870800000000000000
+      internalID: 8676486636584958886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 215
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ace0917fe92c160800000000000000
+      internalID: 7044367551275387451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_50
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 203
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31976b8ef87aed570800000000000000
+      internalID: 8493410183793768723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_51
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 103
+        width: 45
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494d2090cea8f41f0800000000000000
+      internalID: -1058474641040681836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_52
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 217
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18505b55ab827b40800000000000000
+      internalID: 5436561242507466782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_53
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 197
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43ff686789fe20d0800000000000000
+      internalID: -3445542304923782321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_54
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 221
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58594da0b5fd378f0800000000000000
+      internalID: -543845547864975995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_55
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 170
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fa95cd6923d0aa0800000000000000
+      internalID: -6193238289041215724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_56
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 203
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726edf9e1b3660e50800000000000000
+      internalID: 6775212305211581991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_57
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 121
+        width: 253
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece1022be6d39e7c0800000000000000
+      internalID: -4041631644944163122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_58
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 203
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a980645ba8c65b50800000000000000
+      internalID: 6581668543629134243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_59
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 176
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7d52dac7a269ac0800000000000000
+      internalID: -3848842116572260436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_60
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c52fc37035cfe090800000000000000
+      internalID: -8002961200922024504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_61
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 163
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ee7ca35e7f3fec0800000000000000
+      internalID: -3534208718649954745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_62
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 180
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd31c8d8e1c6bf650800000000000000
+      internalID: 6267722184895763423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_63
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 168
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f12d5c203b896d0800000000000000
+      internalID: -2983437928642765045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_64
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 151
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6101480aca4c4610800000000000000
+      internalID: 1606741398646751595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_65
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 166
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163f47d4d84e84130800000000000000
+      internalID: 3551339601722667873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_66
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 181
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af7efa75618f8d60800000000000000
+      internalID: 7894670944658948005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_67
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 155
+        width: 59
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2579136da90246d0800000000000000
+      internalID: -3007830960833465043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_68
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 170
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987db5cd9d78d3e30800000000000000
+      internalID: 4484890173705541513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_69
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 134
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0371d4ae92c8d780800000000000000
+      internalID: -8657956296993967349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_70
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 63
+        width: 16
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e332a19f96869ee00800000000000000
+      internalID: 1074504790464668478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_71
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 164
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a802d845d5c50d0800000000000000
+      internalID: -3432766198236804582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_72
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 164
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d508517bf78a431b0800000000000000
+      internalID: -5677727963721400227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_73
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 167
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47b140a91ca3f790800000000000000
+      internalID: -7497459728578922673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_74
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 162
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfa31b4936c3bc10800000000000000
+      internalID: 2068214603268206551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_75
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 171
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb72141d09c35c220800000000000000
+      internalID: 2505475360385214396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_76
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a398bc1036f872a60800000000000000
+      internalID: 7649240147506727226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_77
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 157
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16f18d33ed3830f0800000000000000
+      internalID: -1137090859712252388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_78
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 140
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b068438e3a9ae2700800000000000000
+      internalID: 517537528634705419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 156
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a9acf6f2997fed0800000000000000
+      internalID: -2380265449023956464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_80
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 144
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d575affb08b1db4f0800000000000000
+      internalID: -811462118066202787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 153
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b48603ffe8d4ff70800000000000000
+      internalID: 9220232862220321971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 138
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f704e9c928628b0800000000000000
+      internalID: -5177307112434270326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 155
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dbe0851875b8400800000000000000
+      internalID: 327451610954251602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_84
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 141
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f14fd5784b5d4dc0800000000000000
+      internalID: -3653163355954265614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_85
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ef0a303c7ca0ea0800000000000000
+      internalID: -5905688320949551590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_86
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 111
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9131e9959bf5eff30800000000000000
+      internalID: 4611228318151086873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_87
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 129
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf706ef1d1b1a6e0800000000000000
+      internalID: -1827984458261692501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_88
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 147
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0980ebdbaba681a20800000000000000
+      internalID: 3033291699313838224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_89
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 134
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377eed341d408b8a0800000000000000
+      internalID: -6289271582789539981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_90
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 126
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf5683efd073a930800000000000000
+      internalID: 4153287388262981546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_91
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 148
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf56702cee9b84360800000000000000
+      internalID: 7154172443186652668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_92
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 89
+        width: 77
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee000271e762a0120800000000000000
+      internalID: 2380757676014436590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_93
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 147
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27d81442d316ab50800000000000000
+      internalID: 6603987697391949615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_94
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 138
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e715394981f1e410800000000000000
+      internalID: 1504749322459486178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_95
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 140
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ec97aa28e6b8b90800000000000000
+      internalID: -7238570468583027048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_96
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 138
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6b4635296bb79d0800000000000000
+      internalID: -2775424005763189075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_97
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 140
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14912d9fc5a224fa0800000000000000
+      internalID: -5818041189792605887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_98
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 120
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3237549dd6bf98d80800000000000000
+      internalID: -8247784793337138397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_99
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 150
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e5efa6273729150800000000000000
+      internalID: 5877887398930439761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_100
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 118
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcb077455464ba80800000000000000
+      internalID: -8452020283234009857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_101
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 153
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7eb7875c85675c0800000000000000
+      internalID: -4218086395832703001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_102
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 139
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2da9153760bf860800000000000000
+      internalID: 7564647091458986718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_103
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 114
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db76075f3b3d95bd0800000000000000
+      internalID: -2640846936605694019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_104
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 11
+        width: 89
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26e4a706b6730fc0800000000000000
+      internalID: -3529847158743964113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_105
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 137
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f74303883881c10800000000000000
+      internalID: 2024512653450575738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_106
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 128
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7e9224b0c1d6bd0800000000000000
+      internalID: -2635419372261611523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_107
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 109
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1c9576c4b88a820800000000000000
+      internalID: 2929744717872218558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_108
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 129
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96811f3c8b9e55400800000000000000
+      internalID: 312412728942729321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_109
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 129
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f41b9678cf99c550800000000000000
+      internalID: 6181647646874866936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_110
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 131
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb61f96c28e6a6a0800000000000000
+      internalID: -6438203339825910814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_111
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 133
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d62d787953f531d0800000000000000
+      internalID: -3371521180417841455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_112
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 108
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fb53f5d64609820800000000000000
+      internalID: 2922946579075022734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_113
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 132
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834a2970ac7ce7b60800000000000000
+      internalID: 7745848079648203832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_114
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 114
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764f7dd3d31eb7ed0800000000000000
+      internalID: -2415089122007321497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_115
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 129
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342b5069f45a4b2e0800000000000000
+      internalID: -2110880564091964861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29649c088264189a0800000000000000
+      internalID: -6232623269530745198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_117
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 123
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc21312ac0af338f0800000000000000
+      internalID: -561830596325469493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_118
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 108
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba58031b76c60520800000000000000
+      internalID: 2668038061166189232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_119
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 119
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6dd79f2b2b6f730800000000000000
+      internalID: 4032606998116554495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_120
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 116
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c23208356a9570e0800000000000000
+      internalID: -2272740677416504639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_121
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 106
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b6d2666bc7da2f0800000000000000
+      internalID: -959974022719902958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_122
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 106
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374509cfc7a5770e0800000000000000
+      internalID: -2272247994125364109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_123
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 113
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9635f6f4d58c250800000000000000
+      internalID: 5965120302203759045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_124
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 120
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1555cfa6e237a4c10800000000000000
+      internalID: 2038568424539182417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_125
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb6f678c2a5c43d0800000000000000
+      internalID: -3221100486179460175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_126
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 118
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff688c3c0079708e0800000000000000
+      internalID: -1727245902532802817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_127
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 106
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068fc0e967c980e00800000000000000
+      internalID: 1011230149616400480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_128
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 51
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36245bf74f3bd0d0800000000000000
+      internalID: -3397051915529083330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_129
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 111
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbe9369ee40b67a0800000000000000
+      internalID: -6383002624098440203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_130
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 118
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34aa8a7501518960800000000000000
+      internalID: 7602446729950700606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_131
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 115
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ada03ae72640940800000000000000
+      internalID: 5261438560716380776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_132
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 118
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc440af93b866c00800000000000000
+      internalID: 893554657203604671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_133
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 117
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd53cf1ee87b34d70800000000000000
+      internalID: 9026259902485247452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_134
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 72
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0428c86c2872080800000000000000
+      internalID: -9212250723490578196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_135
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 110
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6cc12fa053fe950800000000000000
+      internalID: 6480456709937350333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_136
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 101
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9acc10a1c50e2b90800000000000000
+      internalID: -7264862819728962913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_137
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 111
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58da50ceff4d8ed60800000000000000
+      internalID: 7919814140372561285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_138
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 109
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa81282a2e3e115b0800000000000000
+      internalID: -5399283915711965014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_139
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 105
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d0e68a279fb2870800000000000000
+      internalID: 8659288979397283084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_140
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 109
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469a3ba9ec1ddd810800000000000000
+      internalID: 1791818912052259172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_141
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 107
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592eaeacf3e445b00800000000000000
+      internalID: 816363468355199637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_142
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 103
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0da58f0f8ee44750800000000000000
+      internalID: 6288413277924207885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_143
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a0762b7159b80d0800000000000000
+      internalID: -3419475563047876053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_144
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 49
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de62a80bee8a60c0800000000000000
+      internalID: -4581692530782736684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_145
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 105
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80410730e55e6bf50800000000000000
+      internalID: 6896952071311856648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_146
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 113
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eba5d904565b8470800000000000000
+      internalID: 8397900849104661481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc7546155700cec0800000000000000
+      internalID: -3548828444340683568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_148
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 82
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93ead6e2c3383ba0800000000000000
+      internalID: -6109075982338301030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_149
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 103
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03eec642221ab2f0800000000000000
+      internalID: -956432032436657395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_150
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 95
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d08cef1d6a65a110800000000000000
+      internalID: 1271539486721605843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_151
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 96
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae3172cebd71bad0800000000000000
+      internalID: -2688229244304015702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_152
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 79
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a1017ca8a75f230800000000000000
+      internalID: 3671975807654304403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_153
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 77
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce36a482d8827220800000000000000
+      internalID: 2482196782384561861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_154
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 82
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39413cff2eeef0e90800000000000000
+      internalID: -7057159432345283437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_155
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 66
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcc912cb094e28d0800000000000000
+      internalID: -2869275597738488624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_156
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 77
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed51fa26faa1d370800000000000000
+      internalID: 8345639558753377774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_157
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 71
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cfca4538601d5b0800000000000000
+      internalID: -5345484121580962662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_158
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 99
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54cfab9b384d98740800000000000000
+      internalID: 5154884910724086853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_159
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 82
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bddcd5d3bb2dde90800000000000000
+      internalID: -6999390194476720714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_160
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 78
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6ffb57fd3465fd0800000000000000
+      internalID: -2353619128222222605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_161
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 91
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29e5500f55cf6b20800000000000000
+      internalID: 3129937277863979307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_162
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 89
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c265297287c494bd0800000000000000
+      internalID: -2645499227159767508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_163
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 63
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d811756ea0003ec0800000000000000
+      internalID: -3589368153988065068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_164
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 69
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd581ed5d92a5ab0800000000000000
+      internalID: -5018652836220084747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_165
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 92
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc83493326945a910800000000000000
+      internalID: 1847963908226431181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_166
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 74
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402a4662e9a1175b0800000000000000
+      internalID: -5372483613925006844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_167
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 93
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c934eed11974bb0800000000000000
+      internalID: -4951829707533083510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_168
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 80
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7a7ce390ea3c660800000000000000
+      internalID: 7404953567058438048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054dda00f55cc36f0800000000000000
+      internalID: -703470429952682928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_170
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 79
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b957ee42a1fd180800000000000000
+      internalID: -9088516777088541944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_171
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 77
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6c0093f679564e0800000000000000
+      internalID: -1989017156460689722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_172
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 71
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d39303a6f83f9cc0800000000000000
+      internalID: -3702177736727227436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_173
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 68
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ccca346a627fcb0800000000000000
+      internalID: -4830349579789743100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_174
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 59
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bde5375e3873820800000000000000
+      internalID: 2897929906742549389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_175
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 78
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949d124dabd8126a0800000000000000
+      internalID: -6475738955619641015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_176
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 67
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917175db533c39070800000000000000
+      internalID: 8112041989401679641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_177
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 77
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe6a884c728eaf50800000000000000
+      internalID: 6894591549855395575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_178
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 58
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129c9eabb85992870800000000000000
+      internalID: 8658616185965365537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_179
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 69
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f147b69b79be23340800000000000000
+      internalID: 4842191586260120607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_180
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 68
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25bf6808b5fef530800000000000000
+      internalID: 3890817298859013423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_181
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 75
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aafd3768e5e09840800000000000000
+      internalID: 5228931953704434343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_182
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 48
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4bdae9b8a9e28e0800000000000000
+      internalID: -1716264483528264454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_183
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 60
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65a9b6565d26dcb0800000000000000
+      internalID: -4839630900717574805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_184
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 49
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5706bd51c371bfb40800000000000000
+      internalID: 5474995318831145077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_185
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd934c473dc9b1650800000000000000
+      internalID: 6204725343644039643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_186
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 62
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699795b0ca0a75380800000000000000
+      internalID: -8982534270981932650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_187
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 52
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366f060b6fd65e2e0800000000000000
+      internalID: -2097149145182570909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_188
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 55
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63684f991e667af10800000000000000
+      internalID: 2280904855423059510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_189
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 62
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da417eb73380e78e0800000000000000
+      internalID: -1693907392629631827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_190
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 59
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cc92a3804b60b20800000000000000
+      internalID: 3100363340919721031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_191
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 61
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585b4c98af1e07c30800000000000000
+      internalID: 4355229305836713349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_192
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 54
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcbe34f35b3e79e0800000000000000
+      internalID: -1621793584040723212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_193
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 56
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d35c637f77c9d210800000000000000
+      internalID: 1358336112840168409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_194
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 59
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b4ac0a7a7364820800000000000000
+      internalID: 2902068202983541557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_195
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 42
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f1452c6426f0e30800000000000000
+      internalID: 4471901011049717620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_196
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 59
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5811c4b9487c505c0800000000000000
+      internalID: -4249771300999130747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_197
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 43
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8be2dd88092743a0800000000000000
+      internalID: -6681326405464953974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_198
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 66
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d60718933e2d72c0800000000000000
+      internalID: -4432335659132844330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_199
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 47
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8d06c3b33dfbaa0800000000000000
+      internalID: -6142959115340556056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_200
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f90e07ff79aa9b60800000000000000
+      internalID: 7753696075542563317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_201
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70adc3655135b0560800000000000000
+      internalID: 7281004573680785927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_202
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 52
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47cb2f9e5e33c3dd0800000000000000
+      internalID: -2505070230159311756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_203
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 67
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4775cc5d1b461fba0800000000000000
+      internalID: -6056949308877678732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_204
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 16
+        width: 11
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c244d55fcc2437690800000000000000
+      internalID: -7605661897641343956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_205
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 30
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6614619f4291e9990800000000000000
+      internalID: -7377431492997791386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_206
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 49
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9be4180f41c91b20800000000000000
+      internalID: 3105725963230833564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_207
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 52
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f210da874bce3c0800000000000000
+      internalID: -4328886711418278029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_208
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 45
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13b5a2077c780bb0800000000000000
+      internalID: -4969585338215976166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_209
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 43
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25253510fb7c2be10800000000000000
+      internalID: 2212049990167253586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_210
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 44
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dfe39d413407d50800000000000000
+      internalID: 6732955199742082346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_211
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 49
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8faf2b894dd1173f0800000000000000
+      internalID: -904909251192620296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_212
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 22
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c88e66bb6b555b0800000000000000
+      internalID: -5380193263822533578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_213
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 56
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7c1d49838e0f370800000000000000
+      internalID: 8354432638484858848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_214
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 35
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e131236b87c98250800000000000000
+      internalID: 5947504184396952034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_215
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 57
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988df07e4ea81a790800000000000000
+      internalID: -7520577186998265719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_216
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 48
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7294d7307498d0f60800000000000000
+      internalID: 8002203051001465127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_217
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 48
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce12ee14b2dc31240800000000000000
+      internalID: 4761374816734159340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_218
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a4ad779c3b82fb0800000000000000
+      internalID: -4672286935516296603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_219
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 39
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf3a7d4441d93920800000000000000
+      internalID: 2970635520515391425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_220
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 40
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4992cbed357adb0b0800000000000000
+      internalID: -5711224773774923372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_221
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 39
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4c82357fbd70ff0800000000000000
+      internalID: -69845413902367518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_222
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 44
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b3f8741f93da6d0800000000000000
+      internalID: -2977660070171559146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_223
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 44
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b666a46acb5b4510800000000000000
+      internalID: 1534421022879934128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_224
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 24
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d0ce61b91e2e550800000000000000
+      internalID: 6188756894181232010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_225
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 36
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4628f9593d0061d90800000000000000
+      internalID: -7127508451518872988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_226
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 18
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f261b5b345a4b1260800000000000000
+      internalID: 7069325765721658927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_227
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 48
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3d95079fa675210800000000000000
+      internalID: 1321642635220866047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_228
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 23
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb7b5b1a73dced10800000000000000
+      internalID: 2156330843002076138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_229
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 44
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e78946cdfaaf900800000000000000
+      internalID: 719080451634396762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_230
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 20
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbde4e448a8e4fd0800000000000000
+      internalID: -2355793254214083620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_231
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 39
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7620eda574128a750800000000000000
+      internalID: 6316335067738014311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_232
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 0
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93edfaf237e2cec30800000000000000
+      internalID: 4389934809035562553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_233
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 24
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586f494746d17b880800000000000000
+      internalID: -8595369046523447675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_234
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 38
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd55b0ff4fe33ed0800000000000000
+      internalID: -2435339846857433674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_235
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 41
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57000a3091a40ffa0800000000000000
+      internalID: -5769029651366150027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_236
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 43
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46eefef714695ae10800000000000000
+      internalID: 2208336400358567524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_237
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 29
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff488540988dd0fc0800000000000000
+      internalID: -3526924850166201089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_238
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 27
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cd251682ba66d30800000000000000
+      internalID: 4424411873857952889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_239
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 6
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8100a6c7cd52ef050800000000000000
+      internalID: 5836143796029095960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_240
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 33
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b6f99c7d94d8a40800000000000000
+      internalID: 5372031121672334080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_241
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 18
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f056959e3087d30800000000000000
+      internalID: 4429294534280941328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_242
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 36
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698da125d54033cc0800000000000000
+      internalID: -3732634867304048490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_243
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 29
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7845d17a0eebf4040800000000000000
+      internalID: 4634132413673198727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_244
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 13
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b727f8012e2ee50800000000000000
+      internalID: 6837275745055832956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_245
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 28
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812a1d5f2afd738d0800000000000000
+      internalID: -2866576746796178920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_246
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 28
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630f06dd5bafc12d0800000000000000
+      internalID: -3306492367386644426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_247
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 36
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40491be1db24c1140800000000000000
+      internalID: 4691698291844420612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_248
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 17
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8cccfdb5a2f3be0800000000000000
+      internalID: -1495429977178584921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_249
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 18
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8326a39f186ea80800000000000000
+      internalID: -8437913944405690134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_250
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 14
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5da701fa2227d4a0800000000000000
+      internalID: -6568743963668796065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_251
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 37
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce92895eec9318c0800000000000000
+      internalID: -4029704694048579900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_252
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 6
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fab415f57556be20800000000000000
+      internalID: 3365971736617335536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_253
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 28
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e6a0bc83c8808d0800000000000000
+      internalID: -2879897786150916602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_254
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 0
+        width: 63
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f62a67c6fff01c0800000000000000
+      internalID: -4535125458426892509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_255
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 26
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66aabfe3a65161e00800000000000000
+      internalID: 1015022312086022758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_256
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8441300f9c5f6c20800000000000000
+      internalID: 3201879698056496270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_257
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4aa9c6c31c32bc50800000000000000
+      internalID: 6679467252981017165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_258
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 18
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2e5974680cda240800000000000000
+      internalID: 4804708060433343149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_259
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 11
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9275fa12939a37920800000000000000
+      internalID: 2986917040720140073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_260
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 27
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67a2fbd4ad97b190800000000000000
+      internalID: -7946709686081640597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_261
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ed13d96556a9ea0800000000000000
+      internalID: -5865264142017765775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_262
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 27
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b2834054d9aaa10800000000000000
+      internalID: 1921521110776032142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_263
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 11
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5420e4ba37d7595e0800000000000000
+      internalID: -1903477331745439163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_264
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b23d2214715b040800000000000000
+      internalID: 4662658557736594276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_265
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c15260de2db66310800000000000000
+      internalID: 1398012743107367366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_266
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 21
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae07a1b0787cfe30800000000000000
+      internalID: 4538634949894803104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_267
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da67c519c07fe27a0800000000000000
+      internalID: -6399906387096471891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_268
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 25
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b694176613ffdf10800000000000000
+      internalID: 2296821612526474935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_269
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 0
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e07eb825574f3b0800000000000000
+      internalID: -5479625849208107490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753b8c64ee4cf4f30800000000000000
+      internalID: 4562081475218420567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_271
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d595a45e3bfc7d8d0800000000000000
+      internalID: -2821558269971375779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_272
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4687412b7da353cb0800000000000000
+      internalID: -4884933522733369244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_273
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a581cf7e6f0f7cdd0800000000000000
+      internalID: -2465737327717377958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_274
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 18
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70ecff091eb8d890800000000000000
+      internalID: -7432982170123313027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_275
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6adfe6f07d599610800000000000000
+      internalID: 1628435480031779438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_276
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 13
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6a6f8347ab263c0800000000000000
+      internalID: -4367723680261298448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_277
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc7e2be57e971bb0800000000000000
+      internalID: -4965325834858627906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_278
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 9
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d583f6c32f2b620800000000000000
+      internalID: 2788557460673682831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_279
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 15
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fcbb76f5f1b75b0800000000000000
+      internalID: -5369663636086468769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_280
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5362ebc35368c00800000000000000
+      internalID: 902467310338848163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_281
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 7
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a063a7db3a80d2550800000000000000
+      internalID: 6137571366527448586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_282
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3959ca3e5465be3b0800000000000000
+      internalID: -5482193263220976237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_283
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 15
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d490c00019cb97110800000000000000
+      internalID: 1259244901783832909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_284
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7953bbe94c86d6660800000000000000
+      internalID: 7380670558016058775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_285
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15a8872c455b1700800000000000000
+      internalID: 512096768205825308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_286
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 8
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174532749f6dbaef0800000000000000
+      internalID: -95746600929635215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_287
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 5
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31460aa4a2d095a0800000000000000
+      internalID: -6516477056136101571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_288
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 7
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60af735fe355d8660800000000000000
+      internalID: 7389656292475271686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_289
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 4
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b75d9822e731a8c0800000000000000
+      internalID: -3989846350390011975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_290
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66fdb5547b837690800000000000000
+      internalID: -7605582013927655830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_291
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 13
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21665a602dd09090800000000000000
+      internalID: -8029675004308856530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_292
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 3
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ed9c2982af5fac0800000000000000
+      internalID: -3821873656585658774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_293
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 10
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4b6599c4e32b340800000000000000
+      internalID: 4878029845106701498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_294
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e336bf082fd823d0800000000000000
+      internalID: -3231087369483045916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_295
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 16
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb3bf678b89538d0800000000000000
+      internalID: -2867217669713871909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_296
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4495f299483bdf0800000000000000
+      internalID: -165642967823334154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_297
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ea4cdb8c48b18a0800000000000000
+      internalID: -6333322453254361581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_298
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 0
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f78d122081d6610800000000000000
+      internalID: 1615974238732713842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_299
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 17
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae112ff1f8e90420800000000000000
+      internalID: 2596862786220924579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_300
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 6
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b522e619d6d0f570800000000000000
+      internalID: 8498528724728292788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_301
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 0
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0087c37b1b1aace90800000000000000
+      internalID: -7004608485765908480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_302
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 13
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bdf30826368ee60800000000000000
+      internalID: 7991746813478558553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_303
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45455e76f61ed220800000000000000
+      internalID: 2512470890056598859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_304
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef0d89b9cfd88c30800000000000000
+      internalID: 4361982296602775520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_305
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aca9bd57af810f0800000000000000
+      internalID: -1145890721063318946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_306
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 16
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b66ebc72903d5ed0800000000000000
+      internalID: -2423727618739247432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_307
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1044cd55a810af5b0800000000000000
+      internalID: -5333949115009317887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_308
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 6
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d059a8ef6eaf1b40800000000000000
+      internalID: 5413237072790638806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_309
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 0
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb020f4dc79b4240800000000000000
+      internalID: 4777078737806166991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaShowroomIdle_2_310
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 0
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443875dada3f518b0800000000000000
+      internalID: -5181967868956802236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

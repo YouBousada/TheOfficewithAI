@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_RDoor_R_Door
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 21300000, guid: 3caf5f52be308e147839d8a28aefff8f, type: 3}
+  - {fileID: 21300000, guid: d44ac3ab6af417e40864abb758d1c518, type: 3}
+  - {fileID: 21300000, guid: 1c17b3314edc7d1459dc119eec4358a8, type: 3}
+  - {fileID: 21300000, guid: 8d92173e0074b384b80bc9e6db580351, type: 3}
+  - {fileID: 21300000, guid: b87f8234b1e44fa49ab101c07da88f8c, type: 3}
+  - {fileID: 21300000, guid: b816b8d8b8a949f45b7e53b2e7e25ac9, type: 3}
+  - {fileID: 21300000, guid: cc82014310f3eb44ca88f3c7c77c0837, type: 3}
+  - {fileID: 21300000, guid: dd0b0a261c3424b40aa9f64c12152790, type: 3}
+  - {fileID: 21300000, guid: ef57ea133ebad104388025afd95ec3f6, type: 3}
+  - {fileID: 21300000, guid: 550405d37b123244b87e9accc054ec75, type: 3}
+  - {fileID: 21300000, guid: 3d0acecfb42bf9a4b8def22876ce36b7, type: 3}
+  - {fileID: 21300000, guid: b0efcf7db7aa58d4f9abf294e34cfa69, type: 3}
+  fps: 12

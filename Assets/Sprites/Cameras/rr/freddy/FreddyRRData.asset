@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f46567c318504aa3442aec0ebfd3e, type: 3}
+  m_Name: FreddyRRData
+  m_EditorClassIdentifier: 
+  characterName: 1
+  Layer1_FreeRoamRenders:
+  - {fileID: 21300000, guid: a2080544fc9ca724890308a6b8730277, type: 3}
+  Layer2_FreeRoamRenders:
+  - {fileID: 21300000, guid: e9f321800eaf11648afcad0fad9debd9, type: 3}
+  Layer3_FreeRoamRenders:
+  - {fileID: 21300000, guid: 08c6e1aef98a1754287abc7cf230fcea, type: 3}
+  Layer4_FreeRoamRenders:
+  - {fileID: 21300000, guid: 200f48ee3415d7e45ba3e93a4d438317, type: 3}
+  Layer1_IdleRenders:
+  - {fileID: 21300000, guid: 408904dd830a7474b95ced7e4e86c660, type: 3}
+  Layer2_IdleRenders:
+  - {fileID: 21300000, guid: e1818270119742b449ba418a2bd6a9e3, type: 3}
+  Layer3_IdleRenders:
+  - {fileID: 21300000, guid: 1621252759b715b42a7116ae82859c38, type: 3}
+  Layer4_IdleRenders:
+  - {fileID: 21300000, guid: 51e815580cd67d54cabdfa172776b058, type: 3}
+  Layer1_RunningRenders:
+  - {fileID: 21300000, guid: eadb320f53b67104eb510434aeae3661, type: 3}
+  Layer2_RunningRenders:
+  - {fileID: 21300000, guid: ca17878d309d451469b4813314491472, type: 3}
+  Layer3_RunningRenders:
+  - {fileID: 21300000, guid: 839d98e5c432b6b43b1097e3cddedfc1, type: 3}
+  Layer4_RunningRenders:
+  - {fileID: 21300000, guid: ea1e7344f78a1e246aa8f29fc088482d, type: 3}

@@ -1,0 +1,1880 @@
+fileFormatVersion: 2
+guid: 18ae8bc718bae32408c155cb5b50e20e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6086975737944765804
+    second: FoxyPirateFreeroam_1_0
+  - first:
+      213: -7748736867426206081
+    second: FoxyPirateFreeroam_1_1
+  - first:
+      213: -2837819236730421936
+    second: FoxyPirateFreeroam_1_2
+  - first:
+      213: 2629584077888035122
+    second: FoxyPirateFreeroam_1_3
+  - first:
+      213: 9052620941181743422
+    second: FoxyPirateFreeroam_1_4
+  - first:
+      213: -3528185432524084533
+    second: FoxyPirateFreeroam_1_5
+  - first:
+      213: 1074093203023055271
+    second: FoxyPirateFreeroam_1_6
+  - first:
+      213: 8697993054483586534
+    second: FoxyPirateFreeroam_1_7
+  - first:
+      213: -5782980064853948616
+    second: FoxyPirateFreeroam_1_8
+  - first:
+      213: -975957280987340262
+    second: FoxyPirateFreeroam_1_9
+  - first:
+      213: -3662198085981077511
+    second: FoxyPirateFreeroam_1_10
+  - first:
+      213: 8584882374683314252
+    second: FoxyPirateFreeroam_1_11
+  - first:
+      213: 546130856370767626
+    second: FoxyPirateFreeroam_1_12
+  - first:
+      213: -4182037929702682897
+    second: FoxyPirateFreeroam_1_13
+  - first:
+      213: -2990199719866785749
+    second: FoxyPirateFreeroam_1_14
+  - first:
+      213: -6438375026756227116
+    second: FoxyPirateFreeroam_1_15
+  - first:
+      213: 3635411968180462814
+    second: FoxyPirateFreeroam_1_16
+  - first:
+      213: 6254714075403381529
+    second: FoxyPirateFreeroam_1_17
+  - first:
+      213: -6113601404646686464
+    second: FoxyPirateFreeroam_1_18
+  - first:
+      213: 825209528903098582
+    second: FoxyPirateFreeroam_1_19
+  - first:
+      213: 7011427850306421954
+    second: FoxyPirateFreeroam_1_20
+  - first:
+      213: 5638268657493269123
+    second: FoxyPirateFreeroam_1_21
+  - first:
+      213: -35604623899889115
+    second: FoxyPirateFreeroam_1_22
+  - first:
+      213: -2919157157682955534
+    second: FoxyPirateFreeroam_1_23
+  - first:
+      213: -8680461166811897855
+    second: FoxyPirateFreeroam_1_24
+  - first:
+      213: -8008257075279164449
+    second: FoxyPirateFreeroam_1_25
+  - first:
+      213: 3558307311598113401
+    second: FoxyPirateFreeroam_1_26
+  - first:
+      213: 7070374707525800374
+    second: FoxyPirateFreeroam_1_27
+  - first:
+      213: 8522495455958208064
+    second: FoxyPirateFreeroam_1_28
+  - first:
+      213: 3070944906368622144
+    second: FoxyPirateFreeroam_1_29
+  - first:
+      213: 2848260963360009632
+    second: FoxyPirateFreeroam_1_30
+  - first:
+      213: 7976154495413880913
+    second: FoxyPirateFreeroam_1_31
+  - first:
+      213: 3143293288575320069
+    second: FoxyPirateFreeroam_1_32
+  - first:
+      213: -21640294875190053
+    second: FoxyPirateFreeroam_1_33
+  - first:
+      213: -4837450029765447003
+    second: FoxyPirateFreeroam_1_34
+  - first:
+      213: -1914614011653548656
+    second: FoxyPirateFreeroam_1_35
+  - first:
+      213: -4485723157304646866
+    second: FoxyPirateFreeroam_1_36
+  - first:
+      213: 1599056513782335109
+    second: FoxyPirateFreeroam_1_37
+  - first:
+      213: -1073290649787518404
+    second: FoxyPirateFreeroam_1_38
+  - first:
+      213: -6359311179297645948
+    second: FoxyPirateFreeroam_1_39
+  - first:
+      213: 7812262548335281745
+    second: FoxyPirateFreeroam_1_40
+  - first:
+      213: 3081670304547323410
+    second: FoxyPirateFreeroam_1_41
+  - first:
+      213: -1745603321296844040
+    second: FoxyPirateFreeroam_1_42
+  - first:
+      213: 8419226088645671101
+    second: FoxyPirateFreeroam_1_43
+  - first:
+      213: -3300622088661344622
+    second: FoxyPirateFreeroam_1_44
+  - first:
+      213: 1787807392304266118
+    second: FoxyPirateFreeroam_1_45
+  - first:
+      213: -8704204267664906165
+    second: FoxyPirateFreeroam_1_46
+  - first:
+      213: 3781296239647764157
+    second: FoxyPirateFreeroam_1_47
+  - first:
+      213: -1753367210749908304
+    second: FoxyPirateFreeroam_1_48
+  - first:
+      213: -1250086519478205900
+    second: FoxyPirateFreeroam_1_49
+  - first:
+      213: 6066347779625801758
+    second: FoxyPirateFreeroam_1_50
+  - first:
+      213: 586538980284878850
+    second: FoxyPirateFreeroam_1_51
+  - first:
+      213: -5481370806269715196
+    second: FoxyPirateFreeroam_1_52
+  - first:
+      213: 4480945581516586314
+    second: FoxyPirateFreeroam_1_53
+  - first:
+      213: -4531668463482460751
+    second: FoxyPirateFreeroam_1_54
+  - first:
+      213: -2849336155527863385
+    second: FoxyPirateFreeroam_1_55
+  - first:
+      213: 4784772875101493418
+    second: FoxyPirateFreeroam_1_56
+  - first:
+      213: 5326358928114687130
+    second: FoxyPirateFreeroam_1_57
+  - first:
+      213: -9132453524392654498
+    second: FoxyPirateFreeroam_1_58
+  - first:
+      213: -6295997947158952871
+    second: FoxyPirateFreeroam_1_59
+  - first:
+      213: -5383952593705836500
+    second: FoxyPirateFreeroam_1_60
+  - first:
+      213: -8436707039407957500
+    second: FoxyPirateFreeroam_1_61
+  - first:
+      213: -4740662452662428293
+    second: FoxyPirateFreeroam_1_62
+  - first:
+      213: -5810854603516739988
+    second: FoxyPirateFreeroam_1_63
+  - first:
+      213: 2866290692622595941
+    second: FoxyPirateFreeroam_1_64
+  - first:
+      213: 4824888930909923291
+    second: FoxyPirateFreeroam_1_65
+  - first:
+      213: -8572840664675850620
+    second: FoxyPirateFreeroam_1_66
+  - first:
+      213: 4578498547248138360
+    second: FoxyPirateFreeroam_1_67
+  - first:
+      213: -1806680818649819674
+    second: FoxyPirateFreeroam_1_68
+  - first:
+      213: -4361926644402635402
+    second: FoxyPirateFreeroam_1_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c657e98fe28497450800000000000000
+      internalID: 6086975737944765804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e7617afd4f67490800000000000000
+      internalID: -7748736867426206081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 23
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05db9e9807a0e98d0800000000000000
+      internalID: -2837819236730421936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2391a8569c82e7420800000000000000
+      internalID: 2629584077888035122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 17
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31766d78ce51ad70800000000000000
+      internalID: 9052620941181743422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcaa1b0da0e590fc0800000000000000
+      internalID: -3528185432524084533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9c9ddc312f7ee00800000000000000
+      internalID: 1074093203023055271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_7
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 7
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed1f4f599a75b870800000000000000
+      internalID: 8697993054483586534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 24
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8370733454abebfa0800000000000000
+      internalID: -5782980064853948616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 14
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a122bc61604b472f0800000000000000
+      internalID: -975957280987340262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff7bf37e324d2dc0800000000000000
+      internalID: -3662198085981077511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48c28df801a32770800000000000000
+      internalID: 8584882374683314252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_12
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 3
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a070cdece1f349700800000000000000
+      internalID: 546130856370767626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 17
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee8cda09aa66f5c0800000000000000
+      internalID: -4182037929702682897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 6
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b202ed1923da086d0800000000000000
+      internalID: -2990199719866785749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_15
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 17
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfe27f660c46a6a0800000000000000
+      internalID: -6438375026756227116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4a99f7ce3937230800000000000000
+      internalID: 3635411968180462814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 58
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bed0c00553dc650800000000000000
+      internalID: 6254714075403381529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 16
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00184b9e9ef182ba0800000000000000
+      internalID: -6113601404646686464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_19
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 21
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d06983c1bbb37b00800000000000000
+      internalID: 825209528903098582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 14
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c48bc15b789d4160800000000000000
+      internalID: 7011427850306421954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_21
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 22
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ada1e98772f3e40800000000000000
+      internalID: 5638268657493269123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_22
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 18
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522f51088c1818ff0800000000000000
+      internalID: -35604623899889115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_23
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fab4cc08021d77d0800000000000000
+      internalID: -2919157157682955534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_24
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 23
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100aa915f8ec88780800000000000000
+      internalID: -8680461166811897855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_25
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb0afd9e94fcd090800000000000000
+      internalID: -8008257075279164449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_26
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9721b7da5a5a16130800000000000000
+      internalID: 3558307311598113401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_27
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 14
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b15bf606540f1260800000000000000
+      internalID: 7070374707525800374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_28
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 26
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e054c867cf54670800000000000000
+      internalID: 8522495455958208064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_29
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 19
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e95ec2f103e9a20800000000000000
+      internalID: 3070944906368622144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_30
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 22
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad6fa4614e078720800000000000000
+      internalID: 2848260963360009632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_31
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 3
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15887cc014ef0be60800000000000000
+      internalID: 7976154495413880913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_32
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 14
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500c66297983f9b20800000000000000
+      internalID: 3143293288575320069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_33
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 6
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc2127344e13bff0800000000000000
+      internalID: -21640294875190053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_34
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2b02de3dceddcb0800000000000000
+      internalID: -4837450029765447003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_35
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 27
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095976153bced65e0800000000000000
+      internalID: -1914614011653548656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_36
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23ec180e828fb1c0800000000000000
+      internalID: -4485723157304646866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_37
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 19
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58645c75d6df03610800000000000000
+      internalID: 1599056513782335109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_38
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 5
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32baae27d7ea11f0800000000000000
+      internalID: -1073290649787518404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_39
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 23
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a1bcdec203fb7a0800000000000000
+      internalID: -6359311179297645948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_40
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 21
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156cc95856bba6c60800000000000000
+      internalID: 7812262548335281745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_41
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 25
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eb96980da44ca20800000000000000
+      internalID: 3081670304547323410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_42
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 0
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa0c53270f56c7e0800000000000000
+      internalID: -1745603321296844040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_43
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 23
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db83d69458917d470800000000000000
+      internalID: 8419226088645671101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_44
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 24
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e5883a2b5d132d0800000000000000
+      internalID: -3300622088661344622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_45
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 14
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bfc11e9519fc810800000000000000
+      internalID: 1787807392304266118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_46
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48e46dd554743780800000000000000
+      internalID: -8704204267664906165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_47
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 8
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbea9b255ecd97430800000000000000
+      internalID: 3781296239647764157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_48
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 22
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba2f62cfc9caa7e0800000000000000
+      internalID: -1753367210749908304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_49
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 6
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4324ffb0fecc6aee0800000000000000
+      internalID: -1250086519478205900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_50
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 27
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1853982a2fff2450800000000000000
+      internalID: 6066347779625801758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_51
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 25
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200dcce481ec32800800000000000000
+      internalID: 586538980284878850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_52
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dd8121b424ee3b0800000000000000
+      internalID: -5481370806269715196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_53
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 23
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4df62ce3448f2e30800000000000000
+      internalID: 4480945581516586314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_54
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 8
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5a942da874c11c0800000000000000
+      internalID: -4531668463482460751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_55
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 9
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3a51cecdf1578d0800000000000000
+      internalID: -2849336155527863385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_56
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 23
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8595f349de66240800000000000000
+      internalID: 4784772875101493418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_57
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 20
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c918099370be940800000000000000
+      internalID: 5326358928114687130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_58
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59cfc6c7e1034180800000000000000
+      internalID: -9132453524392654498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_59
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 4
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9548005893f10a8a0800000000000000
+      internalID: -6295997947158952871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_60
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 21
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20ee9434ab5845b0800000000000000
+      internalID: -5383952593705836500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_61
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 25
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a1d02b5abcaea80800000000000000
+      internalID: -8436707039407957500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_62
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 7
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d160dcd98c53eb0800000000000000
+      internalID: -4740662452662428293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_63
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ef0fb7682bb5fa0800000000000000
+      internalID: -5810854603516739988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_64
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 2
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56737ccd23c17c720800000000000000
+      internalID: 2866290692622595941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_65
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 14
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7a9975be275f240800000000000000
+      internalID: 4824888930909923291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_66
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 25
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486e8f916d6270980800000000000000
+      internalID: -8572840664675850620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_67
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 11
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8780e59bb281a8f30800000000000000
+      internalID: 4578498547248138360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_68
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 7
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e59ddd1e516de6e0800000000000000
+      internalID: -1806680818649819674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxyPirateFreeroam_1_69
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 14
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67db110d3d25773c0800000000000000
+      internalID: -4361926644402635402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806f70939d2b51240816d47b13004dd1, type: 3}
+  m_Name: EastCornerData
+  m_EditorClassIdentifier: 
+  cameraLocation: 12
+  backgroundSprite: {fileID: 5741709492286167976, guid: bc001b9c71a58ab46aeacc1727a7958c, type: 3}
+  BonnieCamviewData: {fileID: 11400000, guid: 88ef07d082741a64193dca64b160a35e, type: 2}
+  ChicaCamviewData: {fileID: 11400000, guid: 5aa31d7435ca54740848f4815890240b, type: 2}
+  FoxyCamviewData: {fileID: 11400000, guid: 098bcdf55126fa04da3f2ef8ac77cbca, type: 2}
+  FreddyCamviewData: {fileID: 11400000, guid: 2acc6a3b4cbce5346a79517f0289d550, type: 2}

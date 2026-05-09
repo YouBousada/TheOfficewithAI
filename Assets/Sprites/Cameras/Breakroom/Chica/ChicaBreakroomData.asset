@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f46567c318504aa3442aec0ebfd3e, type: 3}
+  m_Name: ChicaBreakroomData
+  m_EditorClassIdentifier: 
+  characterName: 0
+  associatedLocation: 0
+  Layer1_FreeRoamRenders:
+  - {fileID: 21300000, guid: 1766b31396aba2f4e85f861cefaf4b16, type: 3}
+  Layer2_FreeRoamRenders:
+  - {fileID: 21300000, guid: af8b0711884980443a8e14dfe04d04d7, type: 3}
+  Layer3_FreeRoamRenders:
+  - {fileID: 21300000, guid: 2d1c447992275414d9a2510022f2750b, type: 3}
+  Layer4_FreeRoamRenders:
+  - {fileID: 21300000, guid: 8044140f1ada7e94abc1ae0e308dd1a6, type: 3}
+  Layer1_RunningRenders:
+  - {fileID: 21300000, guid: ea68d3f097d033346bf890583c74041f, type: 3}
+  Layer2_RunningRenders:
+  - {fileID: 21300000, guid: 10205d6dc10ea3c49b78b6d355aea377, type: 3}
+  Layer3_RunningRenders:
+  - {fileID: 21300000, guid: e6ef324f9dee55140860f3f9ec40d893, type: 3}
+  Layer4_RunningRenders:
+  - {fileID: 21300000, guid: b63a5838b19c0264390a0a77593cf7ad, type: 3}
+  Layer1_IdleRenders:
+  - {fileID: 21300000, guid: 057fcd461bd220248b37504c5fc88556, type: 3}
+  Layer2_IdleRenders:
+  - {fileID: 21300000, guid: 236bbc3df3e1a464fb3d9c9852f4e859, type: 3}
+  Layer3_IdleRenders:
+  - {fileID: 21300000, guid: 5a23cf167732a6a46b2c47c1d513a036, type: 3}
+  Layer4_IdleRenders:
+  - {fileID: 21300000, guid: f1283e3018ad80f42b650c82664b574f, type: 3}

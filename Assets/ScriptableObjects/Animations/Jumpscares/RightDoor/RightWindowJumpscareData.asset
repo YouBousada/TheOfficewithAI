@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4113711e783d1384d845199ce7287f5c, type: 3}
+  m_Name: RightWindowJumpscareData
+  m_EditorClassIdentifier: 
+  FromHereBonnieAnimation: {fileID: 11400000, guid: c485c3be692e6004a83854d3861e5dc4, type: 2}
+  FromHereChicaAnimation: {fileID: 11400000, guid: a411877f7b65f5142b1d02351237e283, type: 2}
+  FromHereFoxyAnimation: {fileID: 11400000, guid: 25737b2979b4c7840905ecfe4e9b2d8d, type: 2}
+  FromHereFreddyAnimation: {fileID: 11400000, guid: f96d2ff5efcf20746b4a5a609368156d, type: 2}
+  FromOtherDoorBonnieAnimation: {fileID: 11400000, guid: 265f523607ab7ca4598114ce3534fd74, type: 2}
+  FromOtherDoorChicaAnimation: {fileID: 11400000, guid: 675a36cb299c30d4daf5008784b15647, type: 2}
+  FromOtherDoorFoxyAnimation: {fileID: 11400000, guid: 34b653beef88c9f45b3efd88cd18287b, type: 2}
+  FromOtherDoorFreddyAnimation: {fileID: 11400000, guid: 983de4ce62b34704cb5056fff5f64688, type: 2}

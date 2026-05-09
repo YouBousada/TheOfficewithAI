@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_Desk_L_Bonnie
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4209461767521648114, guid: c1cf8a7fde1082e4b8d81ee0be49bbd2, type: 3}
+  - {fileID: 6032186475404308979, guid: 0a75110d064724943bc16adfab87ae31, type: 3}
+  - {fileID: 5453481469928959302, guid: af820d38d911c874394b3187a4921e5d, type: 3}
+  - {fileID: -1792632809057475342, guid: 5ca5521b3a1ebcb46a6ce5909eebc959, type: 3}
+  - {fileID: -7839056689181992794, guid: 49682e6b1bc938147a74ce38cbe24454, type: 3}
+  - {fileID: -2053394916973472229, guid: c88b81af46484204394483122cb78c8a, type: 3}
+  - {fileID: -7866962194647477418, guid: 3fb271a55ffc4724386dcc9bae3f4b53, type: 3}
+  - {fileID: 8652625658316714873, guid: 9ae355d0c27f3b742805259922eb288a, type: 3}
+  - {fileID: 3965758638191431310, guid: 2bd85793e13f33f4d8e9c3b3a80eacd3, type: 3}
+  - {fileID: -8999544654852872013, guid: 805fe5b58ad5ffa469f73b20014396c3, type: 3}
+  - {fileID: 2066082498040014989, guid: 4cc26da6729303e4b835b80953406f13, type: 3}
+  - {fileID: 6977660837472787490, guid: 0c7048c40e9856c4192d3085b6ae086b, type: 3}
+  fps: 12

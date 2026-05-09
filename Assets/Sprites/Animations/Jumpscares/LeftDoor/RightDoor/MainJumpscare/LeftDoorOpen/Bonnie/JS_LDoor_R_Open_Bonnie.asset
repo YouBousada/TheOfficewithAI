@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: JS_LDoor_R_Open_Bonnie
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4209461767521648114, guid: b87f2e1c69d42ff4f9793e06bc554808, type: 3}
+  - {fileID: 6032186475404308979, guid: 6c4dfe6612393844b8056823509609c4, type: 3}
+  - {fileID: 5453481469928959302, guid: 6a735386b994bc745a1e663ad0b3e01f, type: 3}
+  - {fileID: -1792632809057475342, guid: f20672c1f243d874e8e2d86b01c1da7b, type: 3}
+  - {fileID: -7839056689181992794, guid: 8e2a4de1aa7f04748a91c6ee723b7ad9, type: 3}
+  - {fileID: -2053394916973472229, guid: 07173f3f45b35664c9caef2b4173fe3c, type: 3}
+  - {fileID: -7866962194647477418, guid: 0192040481a9bd9469fa1a07854cdb9a, type: 3}
+  - {fileID: 8652625658316714873, guid: 7efca00fae8361c498eac6027303f9d8, type: 3}
+  - {fileID: 3965758638191431310, guid: 12272aaf0e3cc434b9e2c5cf7b508eb7, type: 3}
+  - {fileID: -8999544654852872013, guid: e7aa86ff3137c294ab364dd7eb1799a2, type: 3}
+  - {fileID: 2066082498040014989, guid: 1cf9c52d9c710fa47b2dcf2b977bfd6b, type: 3}
+  - {fileID: 6977660837472787490, guid: d33fde2a308ff7b41a48a45ba49b1b9d, type: 3}
+  fps: 12

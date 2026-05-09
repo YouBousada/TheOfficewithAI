@@ -1,0 +1,5694 @@
+fileFormatVersion: 2
+guid: 074ff0c0520baf84389f064b3f7303f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -465772397436932995
+    second: ChicaPirateFreeroam_2_0
+  - first:
+      213: 7707608827204613869
+    second: ChicaPirateFreeroam_2_1
+  - first:
+      213: -6726341370494119935
+    second: ChicaPirateFreeroam_2_2
+  - first:
+      213: -843216808631110735
+    second: ChicaPirateFreeroam_2_3
+  - first:
+      213: -36574277608554974
+    second: ChicaPirateFreeroam_2_4
+  - first:
+      213: -4016589342719512362
+    second: ChicaPirateFreeroam_2_5
+  - first:
+      213: -6998792452415204072
+    second: ChicaPirateFreeroam_2_6
+  - first:
+      213: -3451502146916123629
+    second: ChicaPirateFreeroam_2_7
+  - first:
+      213: 2643373933074724410
+    second: ChicaPirateFreeroam_2_8
+  - first:
+      213: -5759219315584970871
+    second: ChicaPirateFreeroam_2_9
+  - first:
+      213: 3149137438377330092
+    second: ChicaPirateFreeroam_2_10
+  - first:
+      213: -3488421126041683149
+    second: ChicaPirateFreeroam_2_11
+  - first:
+      213: -8529658284022264639
+    second: ChicaPirateFreeroam_2_12
+  - first:
+      213: 6762068884540050585
+    second: ChicaPirateFreeroam_2_13
+  - first:
+      213: 3459510825221717429
+    second: ChicaPirateFreeroam_2_14
+  - first:
+      213: -4855185220099520894
+    second: ChicaPirateFreeroam_2_15
+  - first:
+      213: 3326389165776223715
+    second: ChicaPirateFreeroam_2_16
+  - first:
+      213: -7245826104039677968
+    second: ChicaPirateFreeroam_2_17
+  - first:
+      213: -8453597031853595025
+    second: ChicaPirateFreeroam_2_18
+  - first:
+      213: -2946439773030436407
+    second: ChicaPirateFreeroam_2_19
+  - first:
+      213: -6738221701507717944
+    second: ChicaPirateFreeroam_2_20
+  - first:
+      213: -960688940358581196
+    second: ChicaPirateFreeroam_2_21
+  - first:
+      213: -8603968993632012208
+    second: ChicaPirateFreeroam_2_22
+  - first:
+      213: 1534223986968579834
+    second: ChicaPirateFreeroam_2_23
+  - first:
+      213: 1819487406783417786
+    second: ChicaPirateFreeroam_2_24
+  - first:
+      213: 4375139447496385656
+    second: ChicaPirateFreeroam_2_25
+  - first:
+      213: -8768953138381110996
+    second: ChicaPirateFreeroam_2_26
+  - first:
+      213: 2060724579211834938
+    second: ChicaPirateFreeroam_2_27
+  - first:
+      213: 146498924769503098
+    second: ChicaPirateFreeroam_2_28
+  - first:
+      213: -5322998385754434164
+    second: ChicaPirateFreeroam_2_29
+  - first:
+      213: 6878751028623659813
+    second: ChicaPirateFreeroam_2_30
+  - first:
+      213: 1861531079701937976
+    second: ChicaPirateFreeroam_2_31
+  - first:
+      213: -2220050727430822364
+    second: ChicaPirateFreeroam_2_32
+  - first:
+      213: 7890205799023467777
+    second: ChicaPirateFreeroam_2_33
+  - first:
+      213: 4317466152035492156
+    second: ChicaPirateFreeroam_2_34
+  - first:
+      213: 3758079509456790049
+    second: ChicaPirateFreeroam_2_35
+  - first:
+      213: 3887948142342106884
+    second: ChicaPirateFreeroam_2_36
+  - first:
+      213: 9018121120478364078
+    second: ChicaPirateFreeroam_2_37
+  - first:
+      213: -2354056062623629918
+    second: ChicaPirateFreeroam_2_38
+  - first:
+      213: 3360234750809602568
+    second: ChicaPirateFreeroam_2_39
+  - first:
+      213: -6372173331666675356
+    second: ChicaPirateFreeroam_2_40
+  - first:
+      213: 8245209496311215667
+    second: ChicaPirateFreeroam_2_41
+  - first:
+      213: -6246004988181314476
+    second: ChicaPirateFreeroam_2_42
+  - first:
+      213: 5904763442778129007
+    second: ChicaPirateFreeroam_2_43
+  - first:
+      213: 6516789685796474620
+    second: ChicaPirateFreeroam_2_44
+  - first:
+      213: 6296282161510874407
+    second: ChicaPirateFreeroam_2_45
+  - first:
+      213: 1865984598748907990
+    second: ChicaPirateFreeroam_2_46
+  - first:
+      213: 5166752523940638751
+    second: ChicaPirateFreeroam_2_47
+  - first:
+      213: 3766531799444514151
+    second: ChicaPirateFreeroam_2_48
+  - first:
+      213: -8045651839154608421
+    second: ChicaPirateFreeroam_2_49
+  - first:
+      213: 884961308262225781
+    second: ChicaPirateFreeroam_2_50
+  - first:
+      213: 3265398603763208048
+    second: ChicaPirateFreeroam_2_51
+  - first:
+      213: -2511678719086778949
+    second: ChicaPirateFreeroam_2_52
+  - first:
+      213: -8161553912586217499
+    second: ChicaPirateFreeroam_2_53
+  - first:
+      213: 7579195503292567239
+    second: ChicaPirateFreeroam_2_54
+  - first:
+      213: -6249779262037831230
+    second: ChicaPirateFreeroam_2_55
+  - first:
+      213: 5488094503640317434
+    second: ChicaPirateFreeroam_2_56
+  - first:
+      213: -1364461782756777422
+    second: ChicaPirateFreeroam_2_57
+  - first:
+      213: 4822331238111677021
+    second: ChicaPirateFreeroam_2_58
+  - first:
+      213: 8714984530188583759
+    second: ChicaPirateFreeroam_2_59
+  - first:
+      213: 4321322743582530193
+    second: ChicaPirateFreeroam_2_60
+  - first:
+      213: -8409127949822524956
+    second: ChicaPirateFreeroam_2_61
+  - first:
+      213: 5706166911949526018
+    second: ChicaPirateFreeroam_2_62
+  - first:
+      213: -2077020675853704090
+    second: ChicaPirateFreeroam_2_63
+  - first:
+      213: -5601858395931160372
+    second: ChicaPirateFreeroam_2_64
+  - first:
+      213: -6285533610985389331
+    second: ChicaPirateFreeroam_2_65
+  - first:
+      213: -7536272792813168344
+    second: ChicaPirateFreeroam_2_66
+  - first:
+      213: -915734039485154525
+    second: ChicaPirateFreeroam_2_67
+  - first:
+      213: -3640495340649300591
+    second: ChicaPirateFreeroam_2_68
+  - first:
+      213: 5526429225091057494
+    second: ChicaPirateFreeroam_2_69
+  - first:
+      213: -429673879247451493
+    second: ChicaPirateFreeroam_2_70
+  - first:
+      213: 1614034836050904469
+    second: ChicaPirateFreeroam_2_71
+  - first:
+      213: -6683195714512202752
+    second: ChicaPirateFreeroam_2_72
+  - first:
+      213: 1247004334827713478
+    second: ChicaPirateFreeroam_2_73
+  - first:
+      213: -5325706989704725145
+    second: ChicaPirateFreeroam_2_74
+  - first:
+      213: -840297389829287208
+    second: ChicaPirateFreeroam_2_75
+  - first:
+      213: 6051376729480081367
+    second: ChicaPirateFreeroam_2_76
+  - first:
+      213: -1721460446733568325
+    second: ChicaPirateFreeroam_2_77
+  - first:
+      213: -4210747987325594269
+    second: ChicaPirateFreeroam_2_78
+  - first:
+      213: 6427757849412443913
+    second: ChicaPirateFreeroam_2_79
+  - first:
+      213: -1211926918740902275
+    second: ChicaPirateFreeroam_2_80
+  - first:
+      213: 4005940473621851723
+    second: ChicaPirateFreeroam_2_81
+  - first:
+      213: -3820002715637231917
+    second: ChicaPirateFreeroam_2_82
+  - first:
+      213: 3323033067448057935
+    second: ChicaPirateFreeroam_2_83
+  - first:
+      213: 1317309181573633944
+    second: ChicaPirateFreeroam_2_84
+  - first:
+      213: -7621831953234667525
+    second: ChicaPirateFreeroam_2_85
+  - first:
+      213: 8583500727866957866
+    second: ChicaPirateFreeroam_2_86
+  - first:
+      213: 3403855840049163821
+    second: ChicaPirateFreeroam_2_87
+  - first:
+      213: -1204455567668333341
+    second: ChicaPirateFreeroam_2_88
+  - first:
+      213: 888417733737792507
+    second: ChicaPirateFreeroam_2_89
+  - first:
+      213: 6205550210677923067
+    second: ChicaPirateFreeroam_2_90
+  - first:
+      213: 7832077909583680127
+    second: ChicaPirateFreeroam_2_91
+  - first:
+      213: 4723296576187136937
+    second: ChicaPirateFreeroam_2_92
+  - first:
+      213: 2277715488477612279
+    second: ChicaPirateFreeroam_2_93
+  - first:
+      213: -6042393164336486433
+    second: ChicaPirateFreeroam_2_94
+  - first:
+      213: 3853314460804696155
+    second: ChicaPirateFreeroam_2_95
+  - first:
+      213: 6597308872467073971
+    second: ChicaPirateFreeroam_2_96
+  - first:
+      213: -3783614332357571747
+    second: ChicaPirateFreeroam_2_97
+  - first:
+      213: -5376089279227591786
+    second: ChicaPirateFreeroam_2_98
+  - first:
+      213: -9011546058686285991
+    second: ChicaPirateFreeroam_2_99
+  - first:
+      213: -8792518689672670938
+    second: ChicaPirateFreeroam_2_100
+  - first:
+      213: 4910697921661674785
+    second: ChicaPirateFreeroam_2_101
+  - first:
+      213: 6461198170144487299
+    second: ChicaPirateFreeroam_2_102
+  - first:
+      213: -3499407052735843284
+    second: ChicaPirateFreeroam_2_103
+  - first:
+      213: 2650427010707997582
+    second: ChicaPirateFreeroam_2_104
+  - first:
+      213: -9017311264265423657
+    second: ChicaPirateFreeroam_2_105
+  - first:
+      213: 2220588073375781038
+    second: ChicaPirateFreeroam_2_106
+  - first:
+      213: 4713367751791182458
+    second: ChicaPirateFreeroam_2_107
+  - first:
+      213: 5008528371174738215
+    second: ChicaPirateFreeroam_2_108
+  - first:
+      213: 4967943675975083339
+    second: ChicaPirateFreeroam_2_109
+  - first:
+      213: -6028636327495755025
+    second: ChicaPirateFreeroam_2_110
+  - first:
+      213: -2068009859685104420
+    second: ChicaPirateFreeroam_2_111
+  - first:
+      213: 686381452295844181
+    second: ChicaPirateFreeroam_2_112
+  - first:
+      213: 4846954149953431773
+    second: ChicaPirateFreeroam_2_113
+  - first:
+      213: 2548829266754977473
+    second: ChicaPirateFreeroam_2_114
+  - first:
+      213: -2718098194083789693
+    second: ChicaPirateFreeroam_2_115
+  - first:
+      213: 857048879956391816
+    second: ChicaPirateFreeroam_2_116
+  - first:
+      213: -8359021271097316543
+    second: ChicaPirateFreeroam_2_117
+  - first:
+      213: -6277519082589228077
+    second: ChicaPirateFreeroam_2_118
+  - first:
+      213: -1466526238820735053
+    second: ChicaPirateFreeroam_2_119
+  - first:
+      213: -6830074831039290870
+    second: ChicaPirateFreeroam_2_120
+  - first:
+      213: 3701662819215334287
+    second: ChicaPirateFreeroam_2_121
+  - first:
+      213: -7255041652411422953
+    second: ChicaPirateFreeroam_2_122
+  - first:
+      213: 7264025084848393980
+    second: ChicaPirateFreeroam_2_123
+  - first:
+      213: 929067598675165325
+    second: ChicaPirateFreeroam_2_124
+  - first:
+      213: -6635839226229315574
+    second: ChicaPirateFreeroam_2_125
+  - first:
+      213: -229519500585008410
+    second: ChicaPirateFreeroam_2_126
+  - first:
+      213: -8826025352002986806
+    second: ChicaPirateFreeroam_2_127
+  - first:
+      213: 6833063969705965023
+    second: ChicaPirateFreeroam_2_128
+  - first:
+      213: -5067786323235792971
+    second: ChicaPirateFreeroam_2_129
+  - first:
+      213: -17028414523121154
+    second: ChicaPirateFreeroam_2_130
+  - first:
+      213: -1280490279169192741
+    second: ChicaPirateFreeroam_2_131
+  - first:
+      213: 2277418669981773647
+    second: ChicaPirateFreeroam_2_132
+  - first:
+      213: -2927383623815287233
+    second: ChicaPirateFreeroam_2_133
+  - first:
+      213: 6148871951268539394
+    second: ChicaPirateFreeroam_2_134
+  - first:
+      213: -1359557552049733886
+    second: ChicaPirateFreeroam_2_135
+  - first:
+      213: -1586987950365908242
+    second: ChicaPirateFreeroam_2_136
+  - first:
+      213: -3643052327849564116
+    second: ChicaPirateFreeroam_2_137
+  - first:
+      213: -5191066220932922952
+    second: ChicaPirateFreeroam_2_138
+  - first:
+      213: -8919506427426922719
+    second: ChicaPirateFreeroam_2_139
+  - first:
+      213: 5095351068614287066
+    second: ChicaPirateFreeroam_2_140
+  - first:
+      213: -1048781162111142034
+    second: ChicaPirateFreeroam_2_141
+  - first:
+      213: 7677792952065141320
+    second: ChicaPirateFreeroam_2_142
+  - first:
+      213: -4310419735035637860
+    second: ChicaPirateFreeroam_2_143
+  - first:
+      213: -5418644908892506753
+    second: ChicaPirateFreeroam_2_144
+  - first:
+      213: -606610517429093116
+    second: ChicaPirateFreeroam_2_145
+  - first:
+      213: 1209672145209619565
+    second: ChicaPirateFreeroam_2_146
+  - first:
+      213: 4270075274992708211
+    second: ChicaPirateFreeroam_2_147
+  - first:
+      213: 9101761511762996928
+    second: ChicaPirateFreeroam_2_148
+  - first:
+      213: -218727148534116810
+    second: ChicaPirateFreeroam_2_149
+  - first:
+      213: 6971815530590516284
+    second: ChicaPirateFreeroam_2_150
+  - first:
+      213: -4902843485191741914
+    second: ChicaPirateFreeroam_2_151
+  - first:
+      213: -656210246108048839
+    second: ChicaPirateFreeroam_2_152
+  - first:
+      213: 370579034744870420
+    second: ChicaPirateFreeroam_2_153
+  - first:
+      213: -5469508626730428804
+    second: ChicaPirateFreeroam_2_154
+  - first:
+      213: 4398583753933014049
+    second: ChicaPirateFreeroam_2_155
+  - first:
+      213: -5029844520115469769
+    second: ChicaPirateFreeroam_2_156
+  - first:
+      213: 7296918053590747469
+    second: ChicaPirateFreeroam_2_157
+  - first:
+      213: 3799231531344785740
+    second: ChicaPirateFreeroam_2_158
+  - first:
+      213: -5103188728935416628
+    second: ChicaPirateFreeroam_2_159
+  - first:
+      213: 5401461993831590646
+    second: ChicaPirateFreeroam_2_160
+  - first:
+      213: -266537181197733217
+    second: ChicaPirateFreeroam_2_161
+  - first:
+      213: 7370974295457059038
+    second: ChicaPirateFreeroam_2_162
+  - first:
+      213: -6698617487338534728
+    second: ChicaPirateFreeroam_2_163
+  - first:
+      213: 1917752454513986273
+    second: ChicaPirateFreeroam_2_164
+  - first:
+      213: -3645956971831695005
+    second: ChicaPirateFreeroam_2_165
+  - first:
+      213: -170712684110848478
+    second: ChicaPirateFreeroam_2_166
+  - first:
+      213: 7800998592072790750
+    second: ChicaPirateFreeroam_2_167
+  - first:
+      213: -1043058077304809706
+    second: ChicaPirateFreeroam_2_168
+  - first:
+      213: -8487076093120135338
+    second: ChicaPirateFreeroam_2_169
+  - first:
+      213: -3965408400124301018
+    second: ChicaPirateFreeroam_2_170
+  - first:
+      213: 4143928740703447636
+    second: ChicaPirateFreeroam_2_171
+  - first:
+      213: -883559408620325232
+    second: ChicaPirateFreeroam_2_172
+  - first:
+      213: -4337198798106485262
+    second: ChicaPirateFreeroam_2_173
+  - first:
+      213: -1983114656533709614
+    second: ChicaPirateFreeroam_2_174
+  - first:
+      213: 3027007800024420469
+    second: ChicaPirateFreeroam_2_175
+  - first:
+      213: -5620081711735767852
+    second: ChicaPirateFreeroam_2_176
+  - first:
+      213: 2042426657635191047
+    second: ChicaPirateFreeroam_2_177
+  - first:
+      213: 7358487597830849923
+    second: ChicaPirateFreeroam_2_178
+  - first:
+      213: -9029678069407219949
+    second: ChicaPirateFreeroam_2_179
+  - first:
+      213: 6347195964056415987
+    second: ChicaPirateFreeroam_2_180
+  - first:
+      213: -88870771532797999
+    second: ChicaPirateFreeroam_2_181
+  - first:
+      213: 8637484912982459420
+    second: ChicaPirateFreeroam_2_182
+  - first:
+      213: -1647629685169404648
+    second: ChicaPirateFreeroam_2_183
+  - first:
+      213: 7009134374130345698
+    second: ChicaPirateFreeroam_2_184
+  - first:
+      213: 3479329124415033469
+    second: ChicaPirateFreeroam_2_185
+  - first:
+      213: 1462819829844444366
+    second: ChicaPirateFreeroam_2_186
+  - first:
+      213: -9154080380538276018
+    second: ChicaPirateFreeroam_2_187
+  - first:
+      213: 7297975184904584924
+    second: ChicaPirateFreeroam_2_188
+  - first:
+      213: -7651229234874054864
+    second: ChicaPirateFreeroam_2_189
+  - first:
+      213: 5601093479172173165
+    second: ChicaPirateFreeroam_2_190
+  - first:
+      213: 8512381604687086281
+    second: ChicaPirateFreeroam_2_191
+  - first:
+      213: -1550459509917081319
+    second: ChicaPirateFreeroam_2_192
+  - first:
+      213: 3529972085901163714
+    second: ChicaPirateFreeroam_2_193
+  - first:
+      213: -7745687895147976332
+    second: ChicaPirateFreeroam_2_194
+  - first:
+      213: 8964608346468042993
+    second: ChicaPirateFreeroam_2_195
+  - first:
+      213: 5981711965331748989
+    second: ChicaPirateFreeroam_2_196
+  - first:
+      213: 3775550970578503644
+    second: ChicaPirateFreeroam_2_197
+  - first:
+      213: -5204094768385337744
+    second: ChicaPirateFreeroam_2_198
+  - first:
+      213: 6398704024773892641
+    second: ChicaPirateFreeroam_2_199
+  - first:
+      213: -6846307652452482441
+    second: ChicaPirateFreeroam_2_200
+  - first:
+      213: 5308689633457505661
+    second: ChicaPirateFreeroam_2_201
+  - first:
+      213: -3132239647228905867
+    second: ChicaPirateFreeroam_2_202
+  - first:
+      213: 6503519326218225465
+    second: ChicaPirateFreeroam_2_203
+  - first:
+      213: 4927272614544019606
+    second: ChicaPirateFreeroam_2_204
+  - first:
+      213: 99295025491071842
+    second: ChicaPirateFreeroam_2_205
+  - first:
+      213: -9059734742618436966
+    second: ChicaPirateFreeroam_2_206
+  - first:
+      213: -8638685425500138672
+    second: ChicaPirateFreeroam_2_207
+  - first:
+      213: -7495262729375717114
+    second: ChicaPirateFreeroam_2_208
+  - first:
+      213: 1506299434792180265
+    second: ChicaPirateFreeroam_2_209
+  - first:
+      213: 8600705605097847311
+    second: ChicaPirateFreeroam_2_210
+  - first:
+      213: 121441988794376087
+    second: ChicaPirateFreeroam_2_211
+  - first:
+      213: -1083080508661563264
+    second: ChicaPirateFreeroam_2_212
+  - first:
+      213: 5015987486939631116
+    second: ChicaPirateFreeroam_2_213
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ce698e87e3989f0800000000000000
+      internalID: -465772397436932995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de63235446de6fa60800000000000000
+      internalID: 7707608827204613869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 531
+        width: 152
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1001fa5492c37a2a0800000000000000
+      internalID: -6726341370494119935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 530
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b377e4b7ca4c44f0800000000000000
+      internalID: -843216808631110735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 533
+        width: 152
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22eb93763ef0e7ff0800000000000000
+      internalID: -36574277608554974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_5
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 535
+        width: 134
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0759a06453248c0800000000000000
+      internalID: -4016589342719512362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_6
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 531
+        width: 118
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8155b11885b4fde90800000000000000
+      internalID: -6998792452415204072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 46
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31cf09f851dc910d0800000000000000
+      internalID: -3451502146916123629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 122
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36327146962fa420800000000000000
+      internalID: 2643373933074724410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 120
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f4dfecb842310b0800000000000000
+      internalID: -5759219315584970871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 127
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca54d5bb0dbf3bb20800000000000000
+      internalID: 3149137438377330092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 114
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b3153e773a69fc0800000000000000
+      internalID: -3488421126041683149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_12
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 137
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc82659bf090a980800000000000000
+      internalID: -8529658284022264639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 142
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c4bb1d2d1b7dd50800000000000000
+      internalID: 6762068884540050585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 140
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd75f924c6a20030800000000000000
+      internalID: 3459510825221717429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_15
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 138
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286cd3524caee9cb0800000000000000
+      internalID: -4855185220099520894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 140
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edbcc28255b92e20800000000000000
+      internalID: 3326389165776223715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_17
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 132
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff56746c87a17b90800000000000000
+      internalID: -7245826104039677968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_18
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 142
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66e112e94aceaa80800000000000000
+      internalID: -8453597031853595025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_19
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 140
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1307823a42c17d0800000000000000
+      internalID: -2946439773030436407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_20
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 137
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4edc720170d72a0800000000000000
+      internalID: -6738221701507717944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_21
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 138
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434c74aaf72faa2f0800000000000000
+      internalID: -960688940358581196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_22
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 136
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058b61c39cf889880800000000000000
+      internalID: -8603968993632012208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_23
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 134
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe45256698aa4510800000000000000
+      internalID: 1534223986968579834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_24
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 139
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd4f9a082e104910800000000000000
+      internalID: 1819487406783417786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 112
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87422d2a52e97bc30800000000000000
+      internalID: 4375139447496385656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_26
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 127
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c214fbe949b6e4680800000000000000
+      internalID: -8768953138381110996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_27
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 124
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3676db261a299c10800000000000000
+      internalID: 2060724579211834938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_28
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 118
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77ecd2fef7780200800000000000000
+      internalID: 146498924769503098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_29
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 125
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85112dab29e026b0800000000000000
+      internalID: -5322998385754434164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_30
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 127
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52357778d9b367f50800000000000000
+      internalID: 6878751028623659813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_31
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 128
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fbbf777ac75d910800000000000000
+      internalID: 1861531079701937976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_32
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426632030abc031e0800000000000000
+      internalID: -2220050727430822364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_33
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 129
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d558fbe54af7d60800000000000000
+      internalID: 7890205799023467777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_34
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 126
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3129d12798baeb30800000000000000
+      internalID: 4317466152035492156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_35
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 133
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122a8d61761672430800000000000000
+      internalID: 3758079509456790049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_36
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 130
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fe0797c34c4f530800000000000000
+      internalID: 3887948142342106884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_37
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 123
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea18f87016dc62d70800000000000000
+      internalID: 9018121120478364078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_38
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 121
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adb6fdbb76b45fd0800000000000000
+      internalID: -2354056062623629918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_39
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 122
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80afdebd3b3f1ae20800000000000000
+      internalID: 3360234750809602568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_40
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 121
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4695ac6bd1e7197a0800000000000000
+      internalID: -6372173331666675356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_41
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 117
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336be461a5edc6270800000000000000
+      internalID: 8245209496311215667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_42
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 120
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45482265e8bb159a0800000000000000
+      internalID: -6246004988181314476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_43
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 113
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62c081011fe1f150800000000000000
+      internalID: 5904763442778129007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_44
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 109
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe04d911b9407a50800000000000000
+      internalID: 6516789685796474620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_45
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 117
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dfb7a4443e06750800000000000000
+      internalID: 6296282161510874407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_46
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 91
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d947cc2b1f45e910800000000000000
+      internalID: 1865984598748907990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 109
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10b5dfbb0ef3b740800000000000000
+      internalID: 5166752523940638751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_48
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 109
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7656a1537b8654430800000000000000
+      internalID: 3766531799444514151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_49
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 104
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6a8bca74a185090800000000000000
+      internalID: -8045651839154608421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_50
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 104
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5775fe20f93084c00800000000000000
+      internalID: 884961308262225781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_51
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 112
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fcc53bab6015d20800000000000000
+      internalID: 3265398603763208048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_52
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 101
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5acee2389b42dd0800000000000000
+      internalID: -2511678719086778949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_53
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 104
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7591155f55cbe80800000000000000
+      internalID: -8161553912586217499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_54
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 113
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cecdf86726be2960800000000000000
+      internalID: 7579195503292567239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_55
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 112
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1d1a9bfd25449a0800000000000000
+      internalID: -6249779262037831230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_56
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 107
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd3147bfd0a92c40800000000000000
+      internalID: 5488094503640317434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_57
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 106
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232af21ec35701de0800000000000000
+      internalID: -1364461782756777422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_58
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 109
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a8ae416bc5ce240800000000000000
+      internalID: 4822331238111677021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_59
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 100
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f434ae89148d1f870800000000000000
+      internalID: 8714984530188583759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_60
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 64
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a9d03d32c68fb30800000000000000
+      internalID: 4321322743582530193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_61
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 97
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e10500eea6cc4b80800000000000000
+      internalID: -8409127949822524956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_62
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 96
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204d6d7e290603f40800000000000000
+      internalID: 5706166911949526018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_63
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 97
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664299823b0fc23e0800000000000000
+      internalID: -2077020675853704090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_64
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 104
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0db7408733242b0800000000000000
+      internalID: -5601858395931160372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_65
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 105
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de20075ab7c45c8a0800000000000000
+      internalID: -6285533610985389331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_66
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 98
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8291ee5e2d7c96790800000000000000
+      internalID: -7536272792813168344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_67
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 89
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bf0cb2eb8aa43f0800000000000000
+      internalID: -915734039485154525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_68
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 86
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d322e96cc5a7dc0800000000000000
+      internalID: -3640495340649300591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_69
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 51
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657c3e59912d1bc40800000000000000
+      internalID: 5526429225091057494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 83
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a013222ed790af0800000000000000
+      internalID: -429673879247451493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_71
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 84
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5958be1c124366610800000000000000
+      internalID: 1614034836050904469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_72
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 91
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004561028e48043a0800000000000000
+      internalID: -6683195714512202752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_73
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 86
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c337cae5df3e4110800000000000000
+      internalID: 1247004334827713478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_74
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 93
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76db5dca5b94716b0800000000000000
+      internalID: -5325706989704725145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_75
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2998dd9f9a654f0800000000000000
+      internalID: -840297389829287208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_76
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 88
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfa9bae21fcaf350800000000000000
+      internalID: 6051376729480081367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_77
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 86
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb67f8928d42c18e0800000000000000
+      internalID: -1721460446733568325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_78
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 94
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36554c8d30b6095c0800000000000000
+      internalID: -4210747987325594269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_79
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 79
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f157455bbf33950800000000000000
+      internalID: 6427757849412443913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_80
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 90
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ef6b273ee5e2fe0800000000000000
+      internalID: -1211926918740902275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_81
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 82
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e2799e2a5f79730800000000000000
+      internalID: 4005940473621851723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_82
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 71
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de4a65f4cf9cfac0800000000000000
+      internalID: -3820002715637231917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_83
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 84
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f404e1af7f8cd1e20800000000000000
+      internalID: 3323033067448057935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_84
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 71
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8979e03a8b5084210800000000000000
+      internalID: 1317309181573633944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_85
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 85
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7d9b18830d93690800000000000000
+      internalID: -7621831953234667525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_86
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 79
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2021d54f68be1770800000000000000
+      internalID: 8583500727866957866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_87
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 85
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ee4c42adcec3f20800000000000000
+      internalID: 3403855840049163821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_88
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 73
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4336dea0ae84fe0800000000000000
+      internalID: -1204455567668333341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_89
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 76
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf34997c83b445c00800000000000000
+      internalID: 888417733737792507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_90
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 79
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcde47c90b8e1650800000000000000
+      internalID: 6205550210677923067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_91
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 84
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f725be5dc5121bc60800000000000000
+      internalID: 7832077909583680127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_92
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 77
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abf37006358c8140800000000000000
+      internalID: 4723296576187136937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_93
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 81
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f80d1e3b221c9f10800000000000000
+      internalID: 2277715488477612279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_94
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 85
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7a9765e6b152ca0800000000000000
+      internalID: -6042393164336486433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_95
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 82
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58c32c1619b97530800000000000000
+      internalID: 3853314460804696155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_96
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 67
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbcee827795e8b50800000000000000
+      internalID: 6597308872467073971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_97
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b00c8afc6ed7bc0800000000000000
+      internalID: -3783614332357571747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_98
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 24
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6938ad6c84b4465b0800000000000000
+      internalID: -5376089279227591786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_99
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 78
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957bee6da9e80f280800000000000000
+      internalID: -9011546058686285991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_100
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 75
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621d31526d2baf580800000000000000
+      internalID: -8792518689672670938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_101
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 76
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125a4e3edbd462440800000000000000
+      internalID: 4910697921661674785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_102
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 71
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387bddab089caa950800000000000000
+      internalID: 6461198170144487299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_103
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 69
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24fe2183db9f6fc0800000000000000
+      internalID: -3499407052735843284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_104
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 72
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83c95cd25538c420800000000000000
+      internalID: 2650427010707997582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_105
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 76
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4b4505e231cd280800000000000000
+      internalID: -9017311264265423657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_106
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 66
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0580a661d11de10800000000000000
+      internalID: 2220588073375781038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_107
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 74
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a728b4d6ffe396140800000000000000
+      internalID: 4713367751791182458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_108
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 67
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729065b640ed18540800000000000000
+      internalID: 5008528371174738215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_109
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 61
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45a4a6b37ea1f440800000000000000
+      internalID: 4967943675975083339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_110
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 63
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea9993833bf55ca0800000000000000
+      internalID: -6028636327495755025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_111
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 68
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4c6794df3fc43e0800000000000000
+      internalID: -2068009859685104420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_112
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 61
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551b2845b44868900800000000000000
+      internalID: 686381452295844181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_113
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 59
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8649e7e17d34340800000000000000
+      internalID: 4846954149953431773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_114
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 54
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cebc0eb6b24f5320800000000000000
+      internalID: 2548829266754977473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_115
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 66
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3844105f710674ad0800000000000000
+      internalID: -2718098194083789693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_116
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 70
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88772fc5a69d4eb00800000000000000
+      internalID: 857048879956391816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_117
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 64
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b6f42217acefb80800000000000000
+      internalID: -8359021271097316543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_118
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 67
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3788377a5c1e8a0800000000000000
+      internalID: -6277519082589228077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_119
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 64
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7ec41e72ad5abe0800000000000000
+      internalID: -1466526238820735053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_120
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 57
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a022192e023b631a0800000000000000
+      internalID: -6830074831039290870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_121
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 53
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bd999c8b2fe5330800000000000000
+      internalID: 3701662819215334287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_122
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 38
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717aa555e0ae05b90800000000000000
+      internalID: -7255041652411422953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_123
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 61
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe4ae504500fc460800000000000000
+      internalID: 7264025084848393980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_124
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 58
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80cb5ffe06b4ec00800000000000000
+      internalID: 929067598675165325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_125
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 58
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08aff5c163c8e3a0800000000000000
+      internalID: -6635839226229315574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_126
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 43
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e20b92fa3590dcf0800000000000000
+      internalID: -229519500585008410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_127
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 58
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc154364b8a38580800000000000000
+      internalID: -8826025352002986806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_128
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 51
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd538d13a7be3de50800000000000000
+      internalID: 6833063969705965023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_129
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 59
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b792f5703b9ba9b0800000000000000
+      internalID: -5067786323235792971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_130
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 58
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1e2494fb083cff0800000000000000
+      internalID: -17028414523121154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_131
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 58
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc87cb10e8ca3ee0800000000000000
+      internalID: -1280490279169192741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_132
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 51
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f2b1dc6340b9f10800000000000000
+      internalID: 2277418669981773647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_133
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 62
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ea135aa18df57d0800000000000000
+      internalID: -2927383623815287233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_134
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 58
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c69b8267e255550800000000000000
+      internalID: 6148871951268539394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_135
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 33
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f30621c91e12de0800000000000000
+      internalID: -1359557552049733886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_136
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 46
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee26d9b0ed2e9f9e0800000000000000
+      internalID: -1586987950365908242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_137
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 46
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28ed54a537417dc0800000000000000
+      internalID: -3643052327849564116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_138
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 52
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b183c786c0a5f7b0800000000000000
+      internalID: -5191066220932922952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_139
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f976d692c873480800000000000000
+      internalID: -8919506427426922719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_140
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 48
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade59a2fcc256b640800000000000000
+      internalID: 5095351068614287066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_141
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 52
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e677e39f61bf171f0800000000000000
+      internalID: -1048781162111142034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_142
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 49
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a27ded2000d8a60800000000000000
+      internalID: 7677792952065141320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_143
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 48
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f0e5ca6105e24c0800000000000000
+      internalID: -4310419735035637860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_144
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 45
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75bb712a2b1dc4b0800000000000000
+      internalID: -5418644908892506753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_145
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 41
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d7f97c2f2e497f0800000000000000
+      internalID: -606610517429093116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_146
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 38
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6477ed286e99c010800000000000000
+      internalID: 1209672145209619565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_147
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 37
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a6e1ab6da524b30800000000000000
+      internalID: 4270075274992708211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_148
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 39
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cea4fa2fd3ff4e70800000000000000
+      internalID: 9101761511762996928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_149
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 40
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ec3e831dce6fcf0800000000000000
+      internalID: -218727148534116810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_150
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 45
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34366c694dd0c060800000000000000
+      internalID: 6971815530590516284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_151
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 32
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62edecb93d995fbb0800000000000000
+      internalID: -4902843485191741914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_152
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 35
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93212c6024ca4e6f0800000000000000
+      internalID: -656210246108048839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_153
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 39
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416dc2f2baf842500800000000000000
+      internalID: 370579034744870420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_154
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 41
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c765cc7f1e66814b0800000000000000
+      internalID: -5469508626730428804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_155
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 36
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1244bf79e98ea0d30800000000000000
+      internalID: 4398583753933014049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_156
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 27
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7328217ee07623ab0800000000000000
+      internalID: -5029844520115469769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_157
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 6
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49496b1f4cd34560800000000000000
+      internalID: 7296918053590747469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_158
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41f445d2f499b430800000000000000
+      internalID: 3799231531344785740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_159
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccf60e83e4dd29b0800000000000000
+      internalID: -5103188728935416628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_160
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 28
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faea12b019d5fa40800000000000000
+      internalID: 5401461993831590646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_161
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 17
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92764b88d11d4cf0800000000000000
+      internalID: -266537181197733217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_162
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0d0419116fa4660800000000000000
+      internalID: 7370974295457059038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_163
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 31
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b887f4d2eab903a0800000000000000
+      internalID: -6698617487338534728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_164
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 22
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea807a52b93d9a10800000000000000
+      internalID: 1917752454513986273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_165
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 24
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369ec938375f66dc0800000000000000
+      internalID: -3645956971831695005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_166
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 35
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e5be0e7b181adf0800000000000000
+      internalID: -170712684110848478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_167
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 23
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed232d553e6b24c60800000000000000
+      internalID: 7800998592072790750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_168
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 27
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617152e74305681f0800000000000000
+      internalID: -1043058077304809706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_169
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 31
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f3ddf7249d73a80800000000000000
+      internalID: -8487076093120135338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_170
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 24
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621bd39d11a08f8c0800000000000000
+      internalID: -3965408400124301018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_171
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 29
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a2924fb31328930800000000000000
+      internalID: 4143928740703447636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_172
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 5
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0963b3f2667fcb3f0800000000000000
+      internalID: -883559408620325232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_173
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 23
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd9c9e2cac2fc3c0800000000000000
+      internalID: -4337198798106485262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_174
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcff641abf8a74e0800000000000000
+      internalID: -1983114656533709614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_175
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 13
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570dacc6e87120a20800000000000000
+      internalID: 3027007800024420469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_176
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 23
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcf15ba5757102b0800000000000000
+      internalID: -5620081711735767852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_177
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 14
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70942205938285c10800000000000000
+      internalID: 2042426657635191047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_178
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 22
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38543d8bb799e1660800000000000000
+      internalID: 7358487597830849923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_179
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ff8dc13a320b280800000000000000
+      internalID: -9029678069407219949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_180
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 15
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe2065b915c51850800000000000000
+      internalID: 6347195964056415987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_181
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 18
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d76fdf018444cef0800000000000000
+      internalID: -88870771532797999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_182
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 25
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c148d17d3c28ed770800000000000000
+      internalID: 8637484912982459420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_183
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 22
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815c616e7817229e0800000000000000
+      internalID: -1647629685169404648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_184
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 16
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6e409c392754160800000000000000
+      internalID: 7009134374130345698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_185
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 13
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70dd65876f094030800000000000000
+      internalID: 3479329124415033469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_186
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4864882eafc4410800000000000000
+      internalID: 1462819829844444366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_187
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 5
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47b4a0f46c26f080800000000000000
+      internalID: -9154080380538276018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_188
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 15
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde7adba3cd974560800000000000000
+      internalID: 7297975184904584924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_189
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 14
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0378f308c8f51d590800000000000000
+      internalID: -7651229234874054864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_190
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 13
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d60dbe7d41bbd40800000000000000
+      internalID: 5601093479172173165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_191
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 17
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c281fb08fd022670800000000000000
+      internalID: 8512381604687086281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_192
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 9
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91124c85a49ab7ae0800000000000000
+      internalID: -1550459509917081319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_193
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 7
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccfe27d8eafcf030800000000000000
+      internalID: 3529972085901163714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_194
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 10
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47969a4d5e9c18490800000000000000
+      internalID: -7745687895147976332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_195
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 12
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8cab96bcfa86c70800000000000000
+      internalID: 8964608346468042993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_196
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d787d4a075f430350800000000000000
+      internalID: 5981711965331748989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_197
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd786b0aa93756430800000000000000
+      internalID: 3775550970578503644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_198
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0765ce0716757c7b0800000000000000
+      internalID: -5204094768385337744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_199
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a9283a863ccc850800000000000000
+      internalID: 6398704024773892641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_200
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 3
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7720880a6770df0a0800000000000000
+      internalID: -6846307652452482441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_201
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 5
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75880158114ca940800000000000000
+      internalID: 5308689633457505661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_202
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576b68bd2ac0884d0800000000000000
+      internalID: -3132239647228905867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_203
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 4
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937002dbe54214a50800000000000000
+      internalID: 6503519326218225465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_204
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690186d4650316440800000000000000
+      internalID: 4927272614544019606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_205
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263db52bc44c06100800000000000000
+      internalID: 99295025491071842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_206
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a86fa804b554280800000000000000
+      internalID: -9059734742618436966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_207
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 4
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05358be00693d1880800000000000000
+      internalID: -8638685425500138672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_208
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 5
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609e55d524a7bf790800000000000000
+      internalID: -7495262729375717114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_209
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 4
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ad820fa5377e410800000000000000
+      internalID: 1506299434792180265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_210
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 9
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a7199ed28db5770800000000000000
+      internalID: 8600705605097847311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_211
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fd7ea68d27fa100800000000000000
+      internalID: 121441988794376087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_212
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 3
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080041a040028f0f0800000000000000
+      internalID: -1083080508661563264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateFreeroam_2_213
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e47d42b0e5c9540800000000000000
+      internalID: 5015987486939631116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChicaPirateFreeroam_2_0: -465772397436932995
+      ChicaPirateFreeroam_2_1: 7707608827204613869
+      ChicaPirateFreeroam_2_10: 3149137438377330092
+      ChicaPirateFreeroam_2_100: -8792518689672670938
+      ChicaPirateFreeroam_2_101: 4910697921661674785
+      ChicaPirateFreeroam_2_102: 6461198170144487299
+      ChicaPirateFreeroam_2_103: -3499407052735843284
+      ChicaPirateFreeroam_2_104: 2650427010707997582
+      ChicaPirateFreeroam_2_105: -9017311264265423657
+      ChicaPirateFreeroam_2_106: 2220588073375781038
+      ChicaPirateFreeroam_2_107: 4713367751791182458
+      ChicaPirateFreeroam_2_108: 5008528371174738215
+      ChicaPirateFreeroam_2_109: 4967943675975083339
+      ChicaPirateFreeroam_2_11: -3488421126041683149
+      ChicaPirateFreeroam_2_110: -6028636327495755025
+      ChicaPirateFreeroam_2_111: -2068009859685104420
+      ChicaPirateFreeroam_2_112: 686381452295844181
+      ChicaPirateFreeroam_2_113: 4846954149953431773
+      ChicaPirateFreeroam_2_114: 2548829266754977473
+      ChicaPirateFreeroam_2_115: -2718098194083789693
+      ChicaPirateFreeroam_2_116: 857048879956391816
+      ChicaPirateFreeroam_2_117: -8359021271097316543
+      ChicaPirateFreeroam_2_118: -6277519082589228077
+      ChicaPirateFreeroam_2_119: -1466526238820735053
+      ChicaPirateFreeroam_2_12: -8529658284022264639
+      ChicaPirateFreeroam_2_120: -6830074831039290870
+      ChicaPirateFreeroam_2_121: 3701662819215334287
+      ChicaPirateFreeroam_2_122: -7255041652411422953
+      ChicaPirateFreeroam_2_123: 7264025084848393980
+      ChicaPirateFreeroam_2_124: 929067598675165325
+      ChicaPirateFreeroam_2_125: -6635839226229315574
+      ChicaPirateFreeroam_2_126: -229519500585008410
+      ChicaPirateFreeroam_2_127: -8826025352002986806
+      ChicaPirateFreeroam_2_128: 6833063969705965023
+      ChicaPirateFreeroam_2_129: -5067786323235792971
+      ChicaPirateFreeroam_2_13: 6762068884540050585
+      ChicaPirateFreeroam_2_130: -17028414523121154
+      ChicaPirateFreeroam_2_131: -1280490279169192741
+      ChicaPirateFreeroam_2_132: 2277418669981773647
+      ChicaPirateFreeroam_2_133: -2927383623815287233
+      ChicaPirateFreeroam_2_134: 6148871951268539394
+      ChicaPirateFreeroam_2_135: -1359557552049733886
+      ChicaPirateFreeroam_2_136: -1586987950365908242
+      ChicaPirateFreeroam_2_137: -3643052327849564116
+      ChicaPirateFreeroam_2_138: -5191066220932922952
+      ChicaPirateFreeroam_2_139: -8919506427426922719
+      ChicaPirateFreeroam_2_14: 3459510825221717429
+      ChicaPirateFreeroam_2_140: 5095351068614287066
+      ChicaPirateFreeroam_2_141: -1048781162111142034
+      ChicaPirateFreeroam_2_142: 7677792952065141320
+      ChicaPirateFreeroam_2_143: -4310419735035637860
+      ChicaPirateFreeroam_2_144: -5418644908892506753
+      ChicaPirateFreeroam_2_145: -606610517429093116
+      ChicaPirateFreeroam_2_146: 1209672145209619565
+      ChicaPirateFreeroam_2_147: 4270075274992708211
+      ChicaPirateFreeroam_2_148: 9101761511762996928
+      ChicaPirateFreeroam_2_149: -218727148534116810
+      ChicaPirateFreeroam_2_15: -4855185220099520894
+      ChicaPirateFreeroam_2_150: 6971815530590516284
+      ChicaPirateFreeroam_2_151: -4902843485191741914
+      ChicaPirateFreeroam_2_152: -656210246108048839
+      ChicaPirateFreeroam_2_153: 370579034744870420
+      ChicaPirateFreeroam_2_154: -5469508626730428804
+      ChicaPirateFreeroam_2_155: 4398583753933014049
+      ChicaPirateFreeroam_2_156: -5029844520115469769
+      ChicaPirateFreeroam_2_157: 7296918053590747469
+      ChicaPirateFreeroam_2_158: 3799231531344785740
+      ChicaPirateFreeroam_2_159: -5103188728935416628
+      ChicaPirateFreeroam_2_16: 3326389165776223715
+      ChicaPirateFreeroam_2_160: 5401461993831590646
+      ChicaPirateFreeroam_2_161: -266537181197733217
+      ChicaPirateFreeroam_2_162: 7370974295457059038
+      ChicaPirateFreeroam_2_163: -6698617487338534728
+      ChicaPirateFreeroam_2_164: 1917752454513986273
+      ChicaPirateFreeroam_2_165: -3645956971831695005
+      ChicaPirateFreeroam_2_166: -170712684110848478
+      ChicaPirateFreeroam_2_167: 7800998592072790750
+      ChicaPirateFreeroam_2_168: -1043058077304809706
+      ChicaPirateFreeroam_2_169: -8487076093120135338
+      ChicaPirateFreeroam_2_17: -7245826104039677968
+      ChicaPirateFreeroam_2_170: -3965408400124301018
+      ChicaPirateFreeroam_2_171: 4143928740703447636
+      ChicaPirateFreeroam_2_172: -883559408620325232
+      ChicaPirateFreeroam_2_173: -4337198798106485262
+      ChicaPirateFreeroam_2_174: -1983114656533709614
+      ChicaPirateFreeroam_2_175: 3027007800024420469
+      ChicaPirateFreeroam_2_176: -5620081711735767852
+      ChicaPirateFreeroam_2_177: 2042426657635191047
+      ChicaPirateFreeroam_2_178: 7358487597830849923
+      ChicaPirateFreeroam_2_179: -9029678069407219949
+      ChicaPirateFreeroam_2_18: -8453597031853595025
+      ChicaPirateFreeroam_2_180: 6347195964056415987
+      ChicaPirateFreeroam_2_181: -88870771532797999
+      ChicaPirateFreeroam_2_182: 8637484912982459420
+      ChicaPirateFreeroam_2_183: -1647629685169404648
+      ChicaPirateFreeroam_2_184: 7009134374130345698
+      ChicaPirateFreeroam_2_185: 3479329124415033469
+      ChicaPirateFreeroam_2_186: 1462819829844444366
+      ChicaPirateFreeroam_2_187: -9154080380538276018
+      ChicaPirateFreeroam_2_188: 7297975184904584924
+      ChicaPirateFreeroam_2_189: -7651229234874054864
+      ChicaPirateFreeroam_2_19: -2946439773030436407
+      ChicaPirateFreeroam_2_190: 5601093479172173165
+      ChicaPirateFreeroam_2_191: 8512381604687086281
+      ChicaPirateFreeroam_2_192: -1550459509917081319
+      ChicaPirateFreeroam_2_193: 3529972085901163714
+      ChicaPirateFreeroam_2_194: -7745687895147976332
+      ChicaPirateFreeroam_2_195: 8964608346468042993
+      ChicaPirateFreeroam_2_196: 5981711965331748989
+      ChicaPirateFreeroam_2_197: 3775550970578503644
+      ChicaPirateFreeroam_2_198: -5204094768385337744
+      ChicaPirateFreeroam_2_199: 6398704024773892641
+      ChicaPirateFreeroam_2_2: -6726341370494119935
+      ChicaPirateFreeroam_2_20: -6738221701507717944
+      ChicaPirateFreeroam_2_200: -6846307652452482441
+      ChicaPirateFreeroam_2_201: 5308689633457505661
+      ChicaPirateFreeroam_2_202: -3132239647228905867
+      ChicaPirateFreeroam_2_203: 6503519326218225465
+      ChicaPirateFreeroam_2_204: 4927272614544019606
+      ChicaPirateFreeroam_2_205: 99295025491071842
+      ChicaPirateFreeroam_2_206: -9059734742618436966
+      ChicaPirateFreeroam_2_207: -8638685425500138672
+      ChicaPirateFreeroam_2_208: -7495262729375717114
+      ChicaPirateFreeroam_2_209: 1506299434792180265
+      ChicaPirateFreeroam_2_21: -960688940358581196
+      ChicaPirateFreeroam_2_210: 8600705605097847311
+      ChicaPirateFreeroam_2_211: 121441988794376087
+      ChicaPirateFreeroam_2_212: -1083080508661563264
+      ChicaPirateFreeroam_2_213: 5015987486939631116
+      ChicaPirateFreeroam_2_22: -8603968993632012208
+      ChicaPirateFreeroam_2_23: 1534223986968579834
+      ChicaPirateFreeroam_2_24: 1819487406783417786
+      ChicaPirateFreeroam_2_25: 4375139447496385656
+      ChicaPirateFreeroam_2_26: -8768953138381110996
+      ChicaPirateFreeroam_2_27: 2060724579211834938
+      ChicaPirateFreeroam_2_28: 146498924769503098
+      ChicaPirateFreeroam_2_29: -5322998385754434164
+      ChicaPirateFreeroam_2_3: -843216808631110735
+      ChicaPirateFreeroam_2_30: 6878751028623659813
+      ChicaPirateFreeroam_2_31: 1861531079701937976
+      ChicaPirateFreeroam_2_32: -2220050727430822364
+      ChicaPirateFreeroam_2_33: 7890205799023467777
+      ChicaPirateFreeroam_2_34: 4317466152035492156
+      ChicaPirateFreeroam_2_35: 3758079509456790049
+      ChicaPirateFreeroam_2_36: 3887948142342106884
+      ChicaPirateFreeroam_2_37: 9018121120478364078
+      ChicaPirateFreeroam_2_38: -2354056062623629918
+      ChicaPirateFreeroam_2_39: 3360234750809602568
+      ChicaPirateFreeroam_2_4: -36574277608554974
+      ChicaPirateFreeroam_2_40: -6372173331666675356
+      ChicaPirateFreeroam_2_41: 8245209496311215667
+      ChicaPirateFreeroam_2_42: -6246004988181314476
+      ChicaPirateFreeroam_2_43: 5904763442778129007
+      ChicaPirateFreeroam_2_44: 6516789685796474620
+      ChicaPirateFreeroam_2_45: 6296282161510874407
+      ChicaPirateFreeroam_2_46: 1865984598748907990
+      ChicaPirateFreeroam_2_47: 5166752523940638751
+      ChicaPirateFreeroam_2_48: 3766531799444514151
+      ChicaPirateFreeroam_2_49: -8045651839154608421
+      ChicaPirateFreeroam_2_5: -4016589342719512362
+      ChicaPirateFreeroam_2_50: 884961308262225781
+      ChicaPirateFreeroam_2_51: 3265398603763208048
+      ChicaPirateFreeroam_2_52: -2511678719086778949
+      ChicaPirateFreeroam_2_53: -8161553912586217499
+      ChicaPirateFreeroam_2_54: 7579195503292567239
+      ChicaPirateFreeroam_2_55: -6249779262037831230
+      ChicaPirateFreeroam_2_56: 5488094503640317434
+      ChicaPirateFreeroam_2_57: -1364461782756777422
+      ChicaPirateFreeroam_2_58: 4822331238111677021
+      ChicaPirateFreeroam_2_59: 8714984530188583759
+      ChicaPirateFreeroam_2_6: -6998792452415204072
+      ChicaPirateFreeroam_2_60: 4321322743582530193
+      ChicaPirateFreeroam_2_61: -8409127949822524956
+      ChicaPirateFreeroam_2_62: 5706166911949526018
+      ChicaPirateFreeroam_2_63: -2077020675853704090
+      ChicaPirateFreeroam_2_64: -5601858395931160372
+      ChicaPirateFreeroam_2_65: -6285533610985389331
+      ChicaPirateFreeroam_2_66: -7536272792813168344
+      ChicaPirateFreeroam_2_67: -915734039485154525
+      ChicaPirateFreeroam_2_68: -3640495340649300591
+      ChicaPirateFreeroam_2_69: 5526429225091057494
+      ChicaPirateFreeroam_2_7: -3451502146916123629
+      ChicaPirateFreeroam_2_70: -429673879247451493
+      ChicaPirateFreeroam_2_71: 1614034836050904469
+      ChicaPirateFreeroam_2_72: -6683195714512202752
+      ChicaPirateFreeroam_2_73: 1247004334827713478
+      ChicaPirateFreeroam_2_74: -5325706989704725145
+      ChicaPirateFreeroam_2_75: -840297389829287208
+      ChicaPirateFreeroam_2_76: 6051376729480081367
+      ChicaPirateFreeroam_2_77: -1721460446733568325
+      ChicaPirateFreeroam_2_78: -4210747987325594269
+      ChicaPirateFreeroam_2_79: 6427757849412443913
+      ChicaPirateFreeroam_2_8: 2643373933074724410
+      ChicaPirateFreeroam_2_80: -1211926918740902275
+      ChicaPirateFreeroam_2_81: 4005940473621851723
+      ChicaPirateFreeroam_2_82: -3820002715637231917
+      ChicaPirateFreeroam_2_83: 3323033067448057935
+      ChicaPirateFreeroam_2_84: 1317309181573633944
+      ChicaPirateFreeroam_2_85: -7621831953234667525
+      ChicaPirateFreeroam_2_86: 8583500727866957866
+      ChicaPirateFreeroam_2_87: 3403855840049163821
+      ChicaPirateFreeroam_2_88: -1204455567668333341
+      ChicaPirateFreeroam_2_89: 888417733737792507
+      ChicaPirateFreeroam_2_9: -5759219315584970871
+      ChicaPirateFreeroam_2_90: 6205550210677923067
+      ChicaPirateFreeroam_2_91: 7832077909583680127
+      ChicaPirateFreeroam_2_92: 4723296576187136937
+      ChicaPirateFreeroam_2_93: 2277715488477612279
+      ChicaPirateFreeroam_2_94: -6042393164336486433
+      ChicaPirateFreeroam_2_95: 3853314460804696155
+      ChicaPirateFreeroam_2_96: 6597308872467073971
+      ChicaPirateFreeroam_2_97: -3783614332357571747
+      ChicaPirateFreeroam_2_98: -5376089279227591786
+      ChicaPirateFreeroam_2_99: -9011546058686285991
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

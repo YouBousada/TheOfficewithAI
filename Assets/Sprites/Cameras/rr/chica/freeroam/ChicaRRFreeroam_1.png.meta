@@ -1,0 +1,3480 @@
+fileFormatVersion: 2
+guid: 875bec8f4d722cb48a94911fd45b7189
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5516760063786986842
+    second: ChicaRRFreeroam_1_0
+  - first:
+      213: 7819681262684547081
+    second: ChicaRRFreeroam_1_1
+  - first:
+      213: -3691442601992653136
+    second: ChicaRRFreeroam_1_2
+  - first:
+      213: 8982905106309118202
+    second: ChicaRRFreeroam_1_3
+  - first:
+      213: 1283326545649114882
+    second: ChicaRRFreeroam_1_4
+  - first:
+      213: -5168570888361064109
+    second: ChicaRRFreeroam_1_5
+  - first:
+      213: 819637696938344387
+    second: ChicaRRFreeroam_1_6
+  - first:
+      213: -7362434485656489799
+    second: ChicaRRFreeroam_1_7
+  - first:
+      213: 3104460173552712364
+    second: ChicaRRFreeroam_1_8
+  - first:
+      213: 9056848971127967921
+    second: ChicaRRFreeroam_1_9
+  - first:
+      213: -8660078451154918240
+    second: ChicaRRFreeroam_1_10
+  - first:
+      213: 766809441445454094
+    second: ChicaRRFreeroam_1_11
+  - first:
+      213: 4864518161982690893
+    second: ChicaRRFreeroam_1_12
+  - first:
+      213: 4697387171787543219
+    second: ChicaRRFreeroam_1_13
+  - first:
+      213: 4673255493302169550
+    second: ChicaRRFreeroam_1_14
+  - first:
+      213: 8536136827270735805
+    second: ChicaRRFreeroam_1_15
+  - first:
+      213: 8965390537115409066
+    second: ChicaRRFreeroam_1_16
+  - first:
+      213: -757214011810758741
+    second: ChicaRRFreeroam_1_17
+  - first:
+      213: 4833635013627122982
+    second: ChicaRRFreeroam_1_18
+  - first:
+      213: -6978130776674376854
+    second: ChicaRRFreeroam_1_19
+  - first:
+      213: 4164452992609589141
+    second: ChicaRRFreeroam_1_20
+  - first:
+      213: 49962522804574782
+    second: ChicaRRFreeroam_1_21
+  - first:
+      213: -823333221081923984
+    second: ChicaRRFreeroam_1_22
+  - first:
+      213: 9046312280832962949
+    second: ChicaRRFreeroam_1_23
+  - first:
+      213: 7764541260676806595
+    second: ChicaRRFreeroam_1_24
+  - first:
+      213: -3509299659900160703
+    second: ChicaRRFreeroam_1_25
+  - first:
+      213: 4008550350335950531
+    second: ChicaRRFreeroam_1_26
+  - first:
+      213: -7139038171425457109
+    second: ChicaRRFreeroam_1_27
+  - first:
+      213: 3718504216573853039
+    second: ChicaRRFreeroam_1_28
+  - first:
+      213: -8144035452965146669
+    second: ChicaRRFreeroam_1_29
+  - first:
+      213: 3140661207766155454
+    second: ChicaRRFreeroam_1_30
+  - first:
+      213: 5379204605611068589
+    second: ChicaRRFreeroam_1_31
+  - first:
+      213: 4846168422269234215
+    second: ChicaRRFreeroam_1_32
+  - first:
+      213: -9005725469455144125
+    second: ChicaRRFreeroam_1_33
+  - first:
+      213: 2573045200395646110
+    second: ChicaRRFreeroam_1_34
+  - first:
+      213: 496706168130265653
+    second: ChicaRRFreeroam_1_35
+  - first:
+      213: 1767551262457021974
+    second: ChicaRRFreeroam_1_36
+  - first:
+      213: 8600125537139031932
+    second: ChicaRRFreeroam_1_37
+  - first:
+      213: 306105928003038549
+    second: ChicaRRFreeroam_1_38
+  - first:
+      213: -6696246016515182631
+    second: ChicaRRFreeroam_1_39
+  - first:
+      213: -7736849576042770737
+    second: ChicaRRFreeroam_1_40
+  - first:
+      213: 1735492807204189933
+    second: ChicaRRFreeroam_1_41
+  - first:
+      213: -1951778926043774928
+    second: ChicaRRFreeroam_1_42
+  - first:
+      213: -4397333517664093713
+    second: ChicaRRFreeroam_1_43
+  - first:
+      213: 5556059904946697668
+    second: ChicaRRFreeroam_1_44
+  - first:
+      213: -3271517378502183402
+    second: ChicaRRFreeroam_1_45
+  - first:
+      213: -8615741869217861133
+    second: ChicaRRFreeroam_1_46
+  - first:
+      213: -3234467783877259753
+    second: ChicaRRFreeroam_1_47
+  - first:
+      213: -5798242353105138349
+    second: ChicaRRFreeroam_1_48
+  - first:
+      213: 7628459357841201333
+    second: ChicaRRFreeroam_1_49
+  - first:
+      213: 1779902695550024692
+    second: ChicaRRFreeroam_1_50
+  - first:
+      213: -6498286933474186406
+    second: ChicaRRFreeroam_1_51
+  - first:
+      213: 434677889522427804
+    second: ChicaRRFreeroam_1_52
+  - first:
+      213: -4972221840028706191
+    second: ChicaRRFreeroam_1_53
+  - first:
+      213: 1379919186370784021
+    second: ChicaRRFreeroam_1_54
+  - first:
+      213: -972125984497979051
+    second: ChicaRRFreeroam_1_55
+  - first:
+      213: -1883195186815410759
+    second: ChicaRRFreeroam_1_56
+  - first:
+      213: -6435079364049713577
+    second: ChicaRRFreeroam_1_57
+  - first:
+      213: -1791329347135032939
+    second: ChicaRRFreeroam_1_58
+  - first:
+      213: 4547798668274496674
+    second: ChicaRRFreeroam_1_59
+  - first:
+      213: -4122959099762165036
+    second: ChicaRRFreeroam_1_60
+  - first:
+      213: -4856997124980784564
+    second: ChicaRRFreeroam_1_61
+  - first:
+      213: 4165467539215493759
+    second: ChicaRRFreeroam_1_62
+  - first:
+      213: 425183789315251611
+    second: ChicaRRFreeroam_1_63
+  - first:
+      213: 4261370293878867631
+    second: ChicaRRFreeroam_1_64
+  - first:
+      213: 6165819024452825312
+    second: ChicaRRFreeroam_1_65
+  - first:
+      213: 5384660418785470908
+    second: ChicaRRFreeroam_1_66
+  - first:
+      213: 3041261649450326292
+    second: ChicaRRFreeroam_1_67
+  - first:
+      213: -8889017190281194043
+    second: ChicaRRFreeroam_1_68
+  - first:
+      213: 6622981954476466448
+    second: ChicaRRFreeroam_1_69
+  - first:
+      213: -5966637828902952274
+    second: ChicaRRFreeroam_1_70
+  - first:
+      213: 1835039946866786802
+    second: ChicaRRFreeroam_1_71
+  - first:
+      213: -2509597596275395826
+    second: ChicaRRFreeroam_1_72
+  - first:
+      213: -8221906934987673742
+    second: ChicaRRFreeroam_1_73
+  - first:
+      213: -2910835304501896483
+    second: ChicaRRFreeroam_1_74
+  - first:
+      213: 5700383531128474854
+    second: ChicaRRFreeroam_1_75
+  - first:
+      213: 8628122085741897958
+    second: ChicaRRFreeroam_1_76
+  - first:
+      213: -1011868291138791868
+    second: ChicaRRFreeroam_1_77
+  - first:
+      213: 8460336230239592951
+    second: ChicaRRFreeroam_1_78
+  - first:
+      213: 1573441837224706344
+    second: ChicaRRFreeroam_1_79
+  - first:
+      213: 3746193839849136999
+    second: ChicaRRFreeroam_1_80
+  - first:
+      213: -2849444484170856881
+    second: ChicaRRFreeroam_1_81
+  - first:
+      213: 2074948679325293871
+    second: ChicaRRFreeroam_1_82
+  - first:
+      213: -5009537794560040297
+    second: ChicaRRFreeroam_1_83
+  - first:
+      213: 4083840850030937088
+    second: ChicaRRFreeroam_1_84
+  - first:
+      213: 2871777941460960760
+    second: ChicaRRFreeroam_1_85
+  - first:
+      213: -1854463606687344411
+    second: ChicaRRFreeroam_1_86
+  - first:
+      213: -2762583876701550548
+    second: ChicaRRFreeroam_1_87
+  - first:
+      213: -4196497615788641050
+    second: ChicaRRFreeroam_1_88
+  - first:
+      213: 971961499107412836
+    second: ChicaRRFreeroam_1_89
+  - first:
+      213: -4422001097451579459
+    second: ChicaRRFreeroam_1_90
+  - first:
+      213: -5345672754202553744
+    second: ChicaRRFreeroam_1_91
+  - first:
+      213: -1026566803860379244
+    second: ChicaRRFreeroam_1_92
+  - first:
+      213: 7250383360355869680
+    second: ChicaRRFreeroam_1_93
+  - first:
+      213: -4403676575362188024
+    second: ChicaRRFreeroam_1_94
+  - first:
+      213: -5749984366492550495
+    second: ChicaRRFreeroam_1_95
+  - first:
+      213: 4799743047985976906
+    second: ChicaRRFreeroam_1_96
+  - first:
+      213: -4798619414085681262
+    second: ChicaRRFreeroam_1_97
+  - first:
+      213: 7765938482894801762
+    second: ChicaRRFreeroam_1_98
+  - first:
+      213: 2939955612543512884
+    second: ChicaRRFreeroam_1_99
+  - first:
+      213: -7965939880668404973
+    second: ChicaRRFreeroam_1_100
+  - first:
+      213: 1399417952555993107
+    second: ChicaRRFreeroam_1_101
+  - first:
+      213: -7500880108604213954
+    second: ChicaRRFreeroam_1_102
+  - first:
+      213: 3822574131664454323
+    second: ChicaRRFreeroam_1_103
+  - first:
+      213: 6742111606694636777
+    second: ChicaRRFreeroam_1_104
+  - first:
+      213: -4717605629650658381
+    second: ChicaRRFreeroam_1_105
+  - first:
+      213: 9049911209378836853
+    second: ChicaRRFreeroam_1_106
+  - first:
+      213: -8103044684826437121
+    second: ChicaRRFreeroam_1_107
+  - first:
+      213: 6539702859732156764
+    second: ChicaRRFreeroam_1_108
+  - first:
+      213: -7232661737561439940
+    second: ChicaRRFreeroam_1_109
+  - first:
+      213: -1040329784749843689
+    second: ChicaRRFreeroam_1_110
+  - first:
+      213: 1659399797074910454
+    second: ChicaRRFreeroam_1_111
+  - first:
+      213: 9134327795111468979
+    second: ChicaRRFreeroam_1_112
+  - first:
+      213: -3190541552452770001
+    second: ChicaRRFreeroam_1_113
+  - first:
+      213: 2560857327456889584
+    second: ChicaRRFreeroam_1_114
+  - first:
+      213: -2153518345173326542
+    second: ChicaRRFreeroam_1_115
+  - first:
+      213: -9222947494936739272
+    second: ChicaRRFreeroam_1_116
+  - first:
+      213: -3180990799060930380
+    second: ChicaRRFreeroam_1_117
+  - first:
+      213: -9177869859447128690
+    second: ChicaRRFreeroam_1_118
+  - first:
+      213: 6863708035669372490
+    second: ChicaRRFreeroam_1_119
+  - first:
+      213: 7100013923586422851
+    second: ChicaRRFreeroam_1_120
+  - first:
+      213: 5732142661894543731
+    second: ChicaRRFreeroam_1_121
+  - first:
+      213: -3913667465011300205
+    second: ChicaRRFreeroam_1_122
+  - first:
+      213: -6371735791181413169
+    second: ChicaRRFreeroam_1_123
+  - first:
+      213: -6890516372027091506
+    second: ChicaRRFreeroam_1_124
+  - first:
+      213: -6818007194129254707
+    second: ChicaRRFreeroam_1_125
+  - first:
+      213: 1403924345068996752
+    second: ChicaRRFreeroam_1_126
+  - first:
+      213: 2445120477078517168
+    second: ChicaRRFreeroam_1_127
+  - first:
+      213: -6296850144666604128
+    second: ChicaRRFreeroam_1_128
+  - first:
+      213: 2144846471682804984
+    second: ChicaRRFreeroam_1_129
+  - first:
+      213: -4324310517243897173
+    second: ChicaRRFreeroam_1_130
+  - first:
+      213: 635813915109223214
+    second: ChicaRRFreeroam_1_131
+  - first:
+      213: 7652991332606498086
+    second: ChicaRRFreeroam_1_132
+  - first:
+      213: -2354344978861075385
+    second: ChicaRRFreeroam_1_133
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 191
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a25ae673f78073b0800000000000000
+      internalID: -5516760063786986842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 472
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908271f8da6158c60800000000000000
+      internalID: 7819681262684547081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 465
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6fb77f28c55ccc0800000000000000
+      internalID: -3691442601992653136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 475
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8f898c990b9ac70800000000000000
+      internalID: 8982905106309118202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 514
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f9e34a1ba4fc110800000000000000
+      internalID: 1283326545649114882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 466
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35940da492c8548b0800000000000000
+      internalID: -5168570888361064109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 461
+        width: 200
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf778a8420ff5b00800000000000000
+      internalID: 819637696938344387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 469
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0fb58d7d063d990800000000000000
+      internalID: -7362434485656489799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_8
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 507
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caaf4f76412451b20800000000000000
+      internalID: 3104460173552712364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_9
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 481
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0d17c672460bd70800000000000000
+      internalID: 9056848971127967921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_10
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 517
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a465ef188831d780800000000000000
+      internalID: -8660078451154918240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 474
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01a5cfcf1144aa00800000000000000
+      internalID: 766809441445454094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 471
+        width: 48
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d461a68be7d328340800000000000000
+      internalID: 4864518161982690893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_13
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 495
+        width: 156
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b29fd2beb8703140800000000000000
+      internalID: 4697387171787543219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_14
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 323
+        width: 116
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf2be67c1dbad040800000000000000
+      internalID: 4673255493302169550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_15
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 380
+        width: 202
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db72a9fc733767670800000000000000
+      internalID: 8536136827270735805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_16
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 459
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa996d51377b6c70800000000000000
+      internalID: 8965390537115409066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_17
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 499
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf321f3ed5dd75f0800000000000000
+      internalID: -757214011810758741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_18
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 486
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62592296f65841340800000000000000
+      internalID: 4833635013627122982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_19
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 481
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a636a14c703b82f90800000000000000
+      internalID: -6978130776674376854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 425
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5979e4cbeeb1bc930800000000000000
+      internalID: 4164452992609589141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_21
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 436
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a59d756a081b000800000000000000
+      internalID: 49962522804574782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 440
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e32a13ccee294f0800000000000000
+      internalID: -823333221081923984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_23
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 427
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5817d4a0715fa8d70800000000000000
+      internalID: 9046312280832962949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 448
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c73186632131cb60800000000000000
+      internalID: 7764541260676806595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_25
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 427
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14570496d867c4fc0800000000000000
+      internalID: -3509299659900160703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 443
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ceba003e4b31a730800000000000000
+      internalID: 4008550350335950531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_27
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 399
+        width: 88
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c3b3a7b9a0dec90800000000000000
+      internalID: -7139038171425457109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_28
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 426
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d3dac22e7ca9330800000000000000
+      internalID: 3718504216573853039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_29
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 451
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df23db87e29afe80800000000000000
+      internalID: -8144035452965146669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_30
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 435
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb040c08abed59b20800000000000000
+      internalID: 3140661207766155454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_31
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 426
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacc79ba616c6aa40800000000000000
+      internalID: 5379204605611068589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 414
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ca213018c014340800000000000000
+      internalID: 4846168422269234215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_33
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 419
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b2070666c350380800000000000000
+      internalID: -9005725469455144125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_34
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 404
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e943b982afa45b320800000000000000
+      internalID: 2573045200395646110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_35
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 418
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5326625d0a7a4e600800000000000000
+      internalID: 496706168130265653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_36
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 413
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6164b01228a978810800000000000000
+      internalID: 1767551262457021974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 263
+        width: 53
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fffe05c98c95770800000000000000
+      internalID: 8600125537139031932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 353
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d234e38b18f3400800000000000000
+      internalID: 306105928003038549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 314
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfecf8e9b72213a0800000000000000
+      internalID: -6696246016515182631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_40
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 167
+        width: 127
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcec65b5d4031a490800000000000000
+      internalID: -7736849576042770737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_41
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 325
+        width: 51
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6b6ab5385b51810800000000000000
+      internalID: 1735492807204189933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_42
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 226
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03041116863e9e4e0800000000000000
+      internalID: -1951778926043774928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_43
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 296
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe976b8b67889f2c0800000000000000
+      internalID: -4397333517664093713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_44
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 321
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c57329db071b1d40800000000000000
+      internalID: 5556059904946697668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_45
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 334
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6163cd9074c3992d0800000000000000
+      internalID: -3271517378502183402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_46
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 345
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f13fc80b6cbe6880800000000000000
+      internalID: -8615741869217861133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_47
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 0
+        width: 158
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e0d8000bcdc13d0800000000000000
+      internalID: -3234467783877259753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_48
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 332
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d0b8ddc41888fa0800000000000000
+      internalID: -5798242353105138349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_49
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 296
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b811af5e5bbdd960800000000000000
+      internalID: 7628459357841201333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 307
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbf40f321c73b810800000000000000
+      internalID: 1779902695550024692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_51
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 313
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b65b1a67271d5a0800000000000000
+      internalID: -6498286933474186406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9763bccc39480600800000000000000
+      internalID: 434677889522427804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_53
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 245
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a56a8949e1ffab0800000000000000
+      internalID: -4972221840028706191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_54
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 107
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b606a5035762310800000000000000
+      internalID: 1379919186370784021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_55
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 255
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551321151905282f0800000000000000
+      internalID: -972125984497979051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_56
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 239
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd542784fb8dd5e0800000000000000
+      internalID: -1883195186815410759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 245
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756ce54b96102b6a0800000000000000
+      internalID: -6435079364049713577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_58
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 239
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591b84c137be327e0800000000000000
+      internalID: -1791329347135032939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_59
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 229
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4fe742bc60d1f30800000000000000
+      internalID: 4547798668274496674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_60
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 228
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da363b0b8e48c6c0800000000000000
+      internalID: -4122959099762165036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_61
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 230
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c424d6a29da789cb0800000000000000
+      internalID: -4856997124980784564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_62
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 234
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a2c5648a6bec930800000000000000
+      internalID: 4165467539215493759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9dd366576e86e500800000000000000
+      internalID: 425183789315251611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_64
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 194
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa64d0f54bd632b30800000000000000
+      internalID: 4261370293878867631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 178
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e03bdd1cb3619550800000000000000
+      internalID: 6165819024452825312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_66
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 186
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb960d92f182aba40800000000000000
+      internalID: 5384660418785470908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_67
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 170
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419518c5b5bb43a20800000000000000
+      internalID: 3041261649450326292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_68
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 179
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5d2f226fdd3a480800000000000000
+      internalID: -8889017190281194043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_69
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011646e5ffe89eb50800000000000000
+      internalID: 6622981954476466448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_70
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 160
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2e4d8d18e323da0800000000000000
+      internalID: -5966637828902952274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_71
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 148
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f185a5fb1f577910800000000000000
+      internalID: 1835039946866786802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_72
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 142
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03b4d8584e1c2dd0800000000000000
+      internalID: -2509597596275395826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_73
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 136
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f2db3443be5ed80800000000000000
+      internalID: -8221906934987673742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_74
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 142
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda9f7b76b2aa97d0800000000000000
+      internalID: -2910835304501896483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_75
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 39
+        width: 114
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec4660ae94db1f40800000000000000
+      internalID: 5700383531128474854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_76
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 200
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8295fb25f3db770800000000000000
+      internalID: 8628122085741897958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_77
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 186
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446d03b762f15f1f0800000000000000
+      internalID: -1011868291138791868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_78
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 175
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f16cc30af6296570800000000000000
+      internalID: 8460336230239592951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_79
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 174
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8214486b30df5d510800000000000000
+      internalID: 1573441837224706344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_80
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 206
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763e6fbf2772df330800000000000000
+      internalID: 3746193839849136999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_81
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 152
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46ccc1b65db478d0800000000000000
+      internalID: -2849444484170856881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_82
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 90
+        width: 47
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d995e84d2bbcc10800000000000000
+      internalID: 2074948679325293871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_83
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 190
+        width: 67
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792ea52eaeb8a7ab0800000000000000
+      internalID: -5009537794560040297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_84
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 143
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004c251bd97bca830800000000000000
+      internalID: 4083840850030937088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_85
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 161
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5459a82da9ad720800000000000000
+      internalID: 2871777941460960760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_86
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 181
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8d282dc2f9346e0800000000000000
+      internalID: -1854463606687344411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_87
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 158
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c288bf6d99459a9d0800000000000000
+      internalID: -2762583876701550548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_88
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 157
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4f42607ab03c5c0800000000000000
+      internalID: -4196497615788641050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_89
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 199
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b47a175d91d7d00800000000000000
+      internalID: 971961499107412836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_90
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7d20e3e65e1a2c0800000000000000
+      internalID: -4422001097451579459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_91
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 113
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072d540e3fa50d5b0800000000000000
+      internalID: -5345672754202553744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_92
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 126
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499a1bd4ee6e0c1f0800000000000000
+      internalID: -1026566803860379244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_93
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 132
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f32a6780498e9460800000000000000
+      internalID: 7250383360355869680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_94
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 134
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80df3d38c7ff2e2c0800000000000000
+      internalID: -4403676575362188024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_95
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 125
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa7923fea3f330b0800000000000000
+      internalID: -5749984366492550495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_96
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 99
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46da5c3fdc1c9240800000000000000
+      internalID: 4799743047985976906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_97
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 82
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f312b2111e76db0800000000000000
+      internalID: -4798619414085681262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_98
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 101
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b0b7c87e726cb60800000000000000
+      internalID: 7765938482894801762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_99
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 109
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43172159d02dcc820800000000000000
+      internalID: 2939955612543512884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_100
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 92
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31364a642eb437190800000000000000
+      internalID: -7965939880668404973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3188762a63bbb6310800000000000000
+      internalID: 1399417952555993107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_102
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 61
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e353ad7584587e790800000000000000
+      internalID: -7500880108604213954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_103
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 76
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2057d7be28c0530800000000000000
+      internalID: 3822574131664454323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_104
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 68
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec6219f8cac09d50800000000000000
+      internalID: 6742111606694636777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_105
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 59
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb1a4ebca2b78eb0800000000000000
+      internalID: -4717605629650658381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_106
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 65
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571f9d3eb4eb79d70800000000000000
+      internalID: 9049911209378836853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_107
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 74
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff99dc97ac33c8f80800000000000000
+      internalID: -8103044684826437121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_108
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 55
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5101f22a11b1ca50800000000000000
+      internalID: 6539702859732156764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_109
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 60
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c314710587c60ab90800000000000000
+      internalID: -7232661737561439940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_110
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 66
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b1aba92910091f0800000000000000
+      internalID: -1040329784749843689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_111
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 80
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc5105d25f570710800000000000000
+      internalID: 1659399797074910454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_112
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 65
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf9891ebb6a3ce70800000000000000
+      internalID: 9134327795111468979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_113
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 58
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27edecbc5be8b3d0800000000000000
+      internalID: -3190541552452770001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_114
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa268bdb2ef98320800000000000000
+      internalID: 2560857327456889584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_115
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 31
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23528a2997a2d12e0800000000000000
+      internalID: -2153518345173326542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_116
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 27
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832873e5e12810080800000000000000
+      internalID: -9222947494936739272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_117
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 51
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0ff2cc8b9dad3d0800000000000000
+      internalID: -3180990799060930380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_118
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 27
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8db3e04df7a1a080800000000000000
+      internalID: -9177869859447128690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_119
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 40
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e211cc71ac04f50800000000000000
+      internalID: 6863708035669372490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_120
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 34
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34832b7cb01588260800000000000000
+      internalID: 7100013923586422851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_121
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 42
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379161c7169ac8f40800000000000000
+      internalID: 5732142661894543731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_122
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 25
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3987ff21d2cdfa9c0800000000000000
+      internalID: -3913667465011300205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_123
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc44dfb8e0c0397a0800000000000000
+      internalID: -6371735791181413169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_124
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5df4efdd7ff50a0800000000000000
+      internalID: -6890516372027091506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_125
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc63edd84929161a0800000000000000
+      internalID: -6818007194129254707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_126
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0984c57e0cdbb7310800000000000000
+      internalID: 1403924345068996752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_127
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 13
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b57c4d7e10dee120800000000000000
+      internalID: 2445120477078517168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_128
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ada743d7281d98a0800000000000000
+      internalID: -6296850144666604128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_129
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc476a808604cd10800000000000000
+      internalID: 2144846471682804984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_130
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 53
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa1139ee76fcf3c0800000000000000
+      internalID: -4324310517243897173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_131
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 85
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2be559136dd2d800800000000000000
+      internalID: 635813915109223214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_132
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 0
+        width: 40
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6255729d113e43a60800000000000000
+      internalID: 7652991332606498086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaRRFreeroam_1_133
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744d24037bfa35fd0800000000000000
+      internalID: -2354344978861075385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d60c6ed7dcf1fe04c8eee202d2253ca7, type: 3}
+  m_Name: IconPositions_Chica
+  m_EditorClassIdentifier: 
+  StagePos: {x: 75.9, y: 480.74}
+  BackStagePos: {x: -255.3, y: 377.1}
+  MainAreaPos: {x: 2.3155, y: 186.5}
+  PiratesCovePos: {x: 46.7, y: -44.8}
+  RestRoomPos: {x: 305.5, y: 402.4}
+  SecondOfficePos: {x: -212, y: -328}
+  ClosetPos: {x: -139.7, y: -157}
+  WestHallFarPos: {x: -79.5, y: -202.1}
+  BreakRoom: {x: -2.9, y: -332}
+  EastHallFarPos: {x: 61.9, y: -144.9}
+  EastHallCornerPos: {x: 64.3, y: -486.3}
+  EastDoorPos: {x: 60.7, y: -441.4}
+  KitchenPos: {x: 174.9, y: -312.1}
+  WestHallCornerPos: {x: -75.1, y: -487.7}
+  WestDoorPos: {x: -82.6, y: -446.8}
+  NoWhere: {x: -204, y: 1390}

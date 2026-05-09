@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6efc31f6ae237e4d98bfb7d7f31fb8e, type: 3}
+  m_Name: Profile_Foxy
+  m_EditorClassIdentifier: 
+  characterName: 4
+  speed: 9
+  cameraSensitiviy: 3
+  patience: 2
+  nightStartingRoom: 5
+  willingnessToSwitchJobs: 0.4
+  jobsByPreference: 000000000200000001000000
+  possibleIdleRooms: 05000000010000000300000006000000
+  likedCharacters: 
+  dislikedCharacters: 010000000200000003000000

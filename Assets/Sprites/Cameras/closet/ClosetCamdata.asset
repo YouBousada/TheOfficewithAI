@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806f70939d2b51240816d47b13004dd1, type: 3}
+  m_Name: ClosetCamdata
+  m_EditorClassIdentifier: 
+  cameraLocation: 6
+  backgroundSprite: {fileID: 4121409181084731807, guid: 29470b9c5ba19244f9607fc8b6ddc0ca, type: 3}
+  BonnieCamviewData: {fileID: 11400000, guid: 2e3145f62becfc745a5bca98c5b23295, type: 2}
+  ChicaCamviewData: {fileID: 11400000, guid: 77b461d413a9f354d998d66496595f01, type: 2}
+  FoxyCamviewData: {fileID: 11400000, guid: 492ea3215d208e441a8e93bfe76a57ff, type: 2}
+  FreddyCamviewData: {fileID: 11400000, guid: a1b0233c006400d489f7cbc0137098b8, type: 2}

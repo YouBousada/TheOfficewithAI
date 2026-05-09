@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f46567c318504aa3442aec0ebfd3e, type: 3}
+  m_Name: FoxyBreakroomData
+  m_EditorClassIdentifier: 
+  characterName: 4
+  associatedLocation: 8
+  Layer1_FreeRoamRenders:
+  - {fileID: 21300000, guid: 741f84bba765c18488bde72ec87cbcae, type: 3}
+  Layer2_FreeRoamRenders:
+  - {fileID: 21300000, guid: 6b2cb792f09541245beca5381e68dddf, type: 3}
+  Layer3_FreeRoamRenders:
+  - {fileID: 21300000, guid: 2ce9122908c308d48b25294ec44b2d8b, type: 3}
+  Layer4_FreeRoamRenders:
+  - {fileID: 21300000, guid: 8312ff4a4f360a840a29a2f689e5bd2e, type: 3}
+  Layer1_RunningRenders:
+  - {fileID: 21300000, guid: ff56e63cc60e0a2479d427f9937c5bbf, type: 3}
+  Layer2_RunningRenders:
+  - {fileID: 21300000, guid: 350d1f633ff3f904091a6761e92032ab, type: 3}
+  Layer3_RunningRenders:
+  - {fileID: 21300000, guid: 928b501cd53f7994fad5e8a96277038d, type: 3}
+  Layer4_RunningRenders:
+  - {fileID: 21300000, guid: e0c51af4bf19e2f4280c2c0293a4966e, type: 3}
+  Layer1_IdleRenders:
+  - {fileID: 8757385469475964440, guid: a811d420ac85cae42b1dc6cee68a569c, type: 3}
+  Layer2_IdleRenders:
+  - {fileID: 6126213837071739066, guid: b13c4e5730850b3459ef4ffda2c1e8a7, type: 3}
+  Layer3_IdleRenders:
+  - {fileID: -5679972158996198715, guid: 045a516607e0dd4418abc2d356463156, type: 3}
+  Layer4_IdleRenders:
+  - {fileID: 1056694038807053068, guid: c35826de3d1dc1e43a53df6cc50cadc1, type: 3}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a87e04c5584a4fb98d126f57b313c, type: 3}
+  m_Name: WR_RDoor_right_Foxy 1
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 21300000, guid: 20c805b8aee0c7d44b9fbf35cf4c2831, type: 3}
+  - {fileID: 21300000, guid: 7a777d49a0caed94289ba7cf0be5cb42, type: 3}
+  - {fileID: 21300000, guid: 4e38fd90a5161ea47bfabe0b7a6f3fa2, type: 3}
+  - {fileID: 21300000, guid: f94023d721d80864da52d24e81e90d60, type: 3}
+  - {fileID: 21300000, guid: 25d734ffdd9d8a2498e1f665859dbd90, type: 3}
+  - {fileID: 21300000, guid: be583e4f46f0dd94ca48136b8211ef99, type: 3}
+  - {fileID: 21300000, guid: 612d5ed41307d6b4d8dd84a37ce6cd6a, type: 3}
+  - {fileID: 21300000, guid: f38db3d8be21b864593a9cf8a9f3e45a, type: 3}
+  - {fileID: 21300000, guid: 04c37298a47327d45b378aa339780b2a, type: 3}
+  - {fileID: 21300000, guid: e447a45e1a3554449ab6e0123bdea989, type: 3}
+  - {fileID: 21300000, guid: 57c02d711f4fc924e8d1071858e8505a, type: 3}
+  - {fileID: 21300000, guid: d71037369a72fbc47a10c41a46512c34, type: 3}
+  fps: 12

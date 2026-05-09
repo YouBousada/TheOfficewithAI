@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a910bc8bfe11c0447bfb15b8cf0f9a96, type: 3}
+  m_Name: DeskViewJumpscareData
+  m_EditorClassIdentifier: 
+  LeftDoorBonnieAnimation: {fileID: 11400000, guid: 0d53cf1be5dcac749ab27796c4ce717d, type: 2}
+  LeftDoorChicaAnimation: {fileID: 11400000, guid: 1c72a6ec5a1d23e42ac7cbfd58d7e018, type: 2}
+  LeftDoorFoxyAnimation: {fileID: 11400000, guid: 5c5c96e5bb8659740a328612a2275b3d, type: 2}
+  LeftDoorFreddyAnimation: {fileID: 11400000, guid: 88c3c06a0ac0aa04b88b82eedc406b1f, type: 2}
+  RightDoorBonnieAnimation: {fileID: 11400000, guid: c3302747eff636f4ba0a6736a6c67771, type: 2}
+  RightDoorChicaAnimation: {fileID: 11400000, guid: 36cf84c6e865a2947b6c9f23fb3b9324, type: 2}
+  RightDoorFoxyAnimation: {fileID: 11400000, guid: f62c4421d4398364d8a13c37635a2625, type: 2}
+  RightDoorFreddyAnimation: {fileID: 11400000, guid: 201e5859b89998e4bb06fd262256d980, type: 2}

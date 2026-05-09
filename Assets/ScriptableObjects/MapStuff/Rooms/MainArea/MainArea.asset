@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858b09d791ce49f42a2d6ea74503d436, type: 3}
+  m_Name: MainArea
+  m_EditorClassIdentifier: 
+  thisBaseMapRoomName: 0
+  edges:
+  - {fileID: 11400000, guid: 75a8b6dfcbe70f24ab4f6e972dc18e9f, type: 2}
+  - {fileID: 11400000, guid: 5eac20fe4e086c94781ab9a0985f3270, type: 2}
+  - {fileID: 11400000, guid: 973108577bd37bc4aa0181e45432bc41, type: 2}

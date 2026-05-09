@@ -1,0 +1,2834 @@
+fileFormatVersion: 2
+guid: a24cf2cce81161a4083e376e6a2f890b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4467197797244088564
+    second: ChicaPirateIdle_2_0
+  - first:
+      213: -4503079053108139116
+    second: ChicaPirateIdle_2_1
+  - first:
+      213: 3503448144419516071
+    second: ChicaPirateIdle_2_2
+  - first:
+      213: 3576009758630115702
+    second: ChicaPirateIdle_2_3
+  - first:
+      213: -7603330633232923854
+    second: ChicaPirateIdle_2_4
+  - first:
+      213: -4468522695020662740
+    second: ChicaPirateIdle_2_5
+  - first:
+      213: 8186566392645330472
+    second: ChicaPirateIdle_2_6
+  - first:
+      213: 7493973334096676740
+    second: ChicaPirateIdle_2_7
+  - first:
+      213: 736301814336527547
+    second: ChicaPirateIdle_2_8
+  - first:
+      213: 6590506042826927829
+    second: ChicaPirateIdle_2_9
+  - first:
+      213: -2133156607749139496
+    second: ChicaPirateIdle_2_10
+  - first:
+      213: 4408362865368052366
+    second: ChicaPirateIdle_2_11
+  - first:
+      213: 3823366155264678568
+    second: ChicaPirateIdle_2_12
+  - first:
+      213: 8690641395681793723
+    second: ChicaPirateIdle_2_13
+  - first:
+      213: -7472244726421864905
+    second: ChicaPirateIdle_2_14
+  - first:
+      213: 7320661951350068711
+    second: ChicaPirateIdle_2_15
+  - first:
+      213: 5713270001285925074
+    second: ChicaPirateIdle_2_16
+  - first:
+      213: -4581713107430857033
+    second: ChicaPirateIdle_2_17
+  - first:
+      213: 2361308345407090559
+    second: ChicaPirateIdle_2_18
+  - first:
+      213: -9143046153617809764
+    second: ChicaPirateIdle_2_19
+  - first:
+      213: 2489778603274135524
+    second: ChicaPirateIdle_2_20
+  - first:
+      213: 2071475828434377889
+    second: ChicaPirateIdle_2_21
+  - first:
+      213: -1717856403021678670
+    second: ChicaPirateIdle_2_22
+  - first:
+      213: -2495666084021129589
+    second: ChicaPirateIdle_2_23
+  - first:
+      213: -8318140564472793020
+    second: ChicaPirateIdle_2_24
+  - first:
+      213: 4572804439260882644
+    second: ChicaPirateIdle_2_25
+  - first:
+      213: 6548418234684545214
+    second: ChicaPirateIdle_2_26
+  - first:
+      213: 3529087296628416238
+    second: ChicaPirateIdle_2_27
+  - first:
+      213: -3965257022211303336
+    second: ChicaPirateIdle_2_28
+  - first:
+      213: -5678741208793667437
+    second: ChicaPirateIdle_2_29
+  - first:
+      213: -8916168574719951088
+    second: ChicaPirateIdle_2_30
+  - first:
+      213: -4088556322606645159
+    second: ChicaPirateIdle_2_31
+  - first:
+      213: -2077361282453624058
+    second: ChicaPirateIdle_2_32
+  - first:
+      213: 2302714243436247646
+    second: ChicaPirateIdle_2_33
+  - first:
+      213: 3555519732760639001
+    second: ChicaPirateIdle_2_34
+  - first:
+      213: -2460135114463235630
+    second: ChicaPirateIdle_2_35
+  - first:
+      213: 520705344467865361
+    second: ChicaPirateIdle_2_36
+  - first:
+      213: -4175600032117192423
+    second: ChicaPirateIdle_2_37
+  - first:
+      213: -2336431618639619328
+    second: ChicaPirateIdle_2_38
+  - first:
+      213: -4662458673739393760
+    second: ChicaPirateIdle_2_39
+  - first:
+      213: -3006747516176784492
+    second: ChicaPirateIdle_2_40
+  - first:
+      213: 3667040990340822539
+    second: ChicaPirateIdle_2_41
+  - first:
+      213: 334951111203214367
+    second: ChicaPirateIdle_2_42
+  - first:
+      213: -4023819333841942139
+    second: ChicaPirateIdle_2_43
+  - first:
+      213: -3143012396928060309
+    second: ChicaPirateIdle_2_44
+  - first:
+      213: 2788736216297402109
+    second: ChicaPirateIdle_2_45
+  - first:
+      213: -2974497856232548302
+    second: ChicaPirateIdle_2_46
+  - first:
+      213: -6980032211300322021
+    second: ChicaPirateIdle_2_47
+  - first:
+      213: -5552659832709875116
+    second: ChicaPirateIdle_2_48
+  - first:
+      213: -6556745675769381736
+    second: ChicaPirateIdle_2_49
+  - first:
+      213: -6276639379000465847
+    second: ChicaPirateIdle_2_50
+  - first:
+      213: -8528910933475117026
+    second: ChicaPirateIdle_2_51
+  - first:
+      213: 3911847542425174034
+    second: ChicaPirateIdle_2_52
+  - first:
+      213: 1595530616624375702
+    second: ChicaPirateIdle_2_53
+  - first:
+      213: 5609889705999144270
+    second: ChicaPirateIdle_2_54
+  - first:
+      213: -685254364001565524
+    second: ChicaPirateIdle_2_55
+  - first:
+      213: 5841689016257564547
+    second: ChicaPirateIdle_2_56
+  - first:
+      213: 5235842854806987774
+    second: ChicaPirateIdle_2_57
+  - first:
+      213: 2670056437813385280
+    second: ChicaPirateIdle_2_58
+  - first:
+      213: -2415493537630647276
+    second: ChicaPirateIdle_2_59
+  - first:
+      213: 8664823103312821129
+    second: ChicaPirateIdle_2_60
+  - first:
+      213: 3513037020458889345
+    second: ChicaPirateIdle_2_61
+  - first:
+      213: 8227461654556488227
+    second: ChicaPirateIdle_2_62
+  - first:
+      213: -532366530447217743
+    second: ChicaPirateIdle_2_63
+  - first:
+      213: 2366408384292544081
+    second: ChicaPirateIdle_2_64
+  - first:
+      213: -5126137727184978075
+    second: ChicaPirateIdle_2_65
+  - first:
+      213: 307743031972901200
+    second: ChicaPirateIdle_2_66
+  - first:
+      213: 6322410007913555264
+    second: ChicaPirateIdle_2_67
+  - first:
+      213: 880395108632945843
+    second: ChicaPirateIdle_2_68
+  - first:
+      213: 515616719036051908
+    second: ChicaPirateIdle_2_69
+  - first:
+      213: -3581935562067016020
+    second: ChicaPirateIdle_2_70
+  - first:
+      213: 8853328908425400275
+    second: ChicaPirateIdle_2_71
+  - first:
+      213: 7257296589492378287
+    second: ChicaPirateIdle_2_72
+  - first:
+      213: 1949985727585649797
+    second: ChicaPirateIdle_2_73
+  - first:
+      213: 4791844741423978588
+    second: ChicaPirateIdle_2_74
+  - first:
+      213: -6618320870154563542
+    second: ChicaPirateIdle_2_75
+  - first:
+      213: 6852752467610134268
+    second: ChicaPirateIdle_2_76
+  - first:
+      213: -6752621120987339652
+    second: ChicaPirateIdle_2_77
+  - first:
+      213: 7497604991481584461
+    second: ChicaPirateIdle_2_78
+  - first:
+      213: -1815981304195270440
+    second: ChicaPirateIdle_2_79
+  - first:
+      213: -5564380210926074567
+    second: ChicaPirateIdle_2_80
+  - first:
+      213: 6275748703583688307
+    second: ChicaPirateIdle_2_81
+  - first:
+      213: -5007792317311689674
+    second: ChicaPirateIdle_2_82
+  - first:
+      213: -2098630306391614697
+    second: ChicaPirateIdle_2_83
+  - first:
+      213: -2728108306773770208
+    second: ChicaPirateIdle_2_84
+  - first:
+      213: 4244500452726460299
+    second: ChicaPirateIdle_2_85
+  - first:
+      213: 6362443791460918197
+    second: ChicaPirateIdle_2_86
+  - first:
+      213: 7645935520350582527
+    second: ChicaPirateIdle_2_87
+  - first:
+      213: -6376498652235288387
+    second: ChicaPirateIdle_2_88
+  - first:
+      213: 666032982975616898
+    second: ChicaPirateIdle_2_89
+  - first:
+      213: -8591834643273069461
+    second: ChicaPirateIdle_2_90
+  - first:
+      213: -1242590970333862643
+    second: ChicaPirateIdle_2_91
+  - first:
+      213: 2786697547095288215
+    second: ChicaPirateIdle_2_92
+  - first:
+      213: -1587831286804778808
+    second: ChicaPirateIdle_2_93
+  - first:
+      213: 3424688762604819232
+    second: ChicaPirateIdle_2_94
+  - first:
+      213: 2204643873512962133
+    second: ChicaPirateIdle_2_95
+  - first:
+      213: 2861199306711589904
+    second: ChicaPirateIdle_2_96
+  - first:
+      213: -9019945850581091051
+    second: ChicaPirateIdle_2_97
+  - first:
+      213: -8674521002631452587
+    second: ChicaPirateIdle_2_98
+  - first:
+      213: -7462169255021603432
+    second: ChicaPirateIdle_2_99
+  - first:
+      213: 1731756096077109342
+    second: ChicaPirateIdle_2_100
+  - first:
+      213: 1374041959682514901
+    second: ChicaPirateIdle_2_101
+  - first:
+      213: 9113676571588901618
+    second: ChicaPirateIdle_2_102
+  - first:
+      213: 5166936974608056301
+    second: ChicaPirateIdle_2_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f034267abcaefd30800000000000000
+      internalID: 4467197797244088564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 517
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bacf3a579d181c0800000000000000
+      internalID: -4503079053108139116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 526
+        width: 397
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae6029768fbe9030800000000000000
+      internalID: 3503448144419516071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 523
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6797a70dde980a130800000000000000
+      internalID: 3576009758630115702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_4
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 534
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2334e40c21b8b7690800000000000000
+      internalID: -7603330633232923854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_5
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 530
+        width: 128
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20b58cb84e9cf1c0800000000000000
+      internalID: -4468522695020662740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826a6c382c68c9170800000000000000
+      internalID: 8186566392645330472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 37
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4870517ea01fff760800000000000000
+      internalID: 7493973334096676740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 24
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc110b599ed73a00800000000000000
+      internalID: 736301814336527547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_9
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 13
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dea3c4f35e267b50800000000000000
+      internalID: 6590506042826927829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 50
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3d5d00e518562e0800000000000000
+      internalID: -2133156607749139496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 39
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8239476ba6ad2d30800000000000000
+      internalID: 4408362865368052366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 37
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa5dcad2435f0530800000000000000
+      internalID: 3823366155264678568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_13
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 40
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb61bebed4c5b9870800000000000000
+      internalID: 8690641395681793723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 40
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73eb6dec2014d4890800000000000000
+      internalID: -7472244726421864905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_15
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 43
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e550fa1247389560800000000000000
+      internalID: 7320661951350068711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_16
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 48
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d80b84cbcc994f40800000000000000
+      internalID: 5713270001285925074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_17
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 44
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b625d8243c7a60c0800000000000000
+      internalID: -4581713107430857033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_18
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 35
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fa72ded6d05c020800000000000000
+      internalID: 2361308345407090559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_19
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 50
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9edb9817ff5d1180800000000000000
+      internalID: -9143046153617809764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_20
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 37
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7e581c2787d8220800000000000000
+      internalID: 2489778603274135524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_21
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 50
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac93a27a4c5fbc10800000000000000
+      internalID: 2071475828434377889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_22
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 41
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b733caf3b2f828e0800000000000000
+      internalID: -1717856403021678670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_23
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 44
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e2eef4bec9d5dd0800000000000000
+      internalID: -2495666084021129589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_24
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 39
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448f4de5a37009c80800000000000000
+      internalID: -8318140564472793020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_25
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 48
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d66975e86dd57f30800000000000000
+      internalID: 4572804439260882644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_26
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 39
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8101f70b7a0ea50800000000000000
+      internalID: 6548418234684545214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_27
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 38
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee51e8c236d9f030800000000000000
+      internalID: 3529087296628416238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_28
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 44
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858d8f34fb398f8c0800000000000000
+      internalID: -3965257022211303336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 39
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3982b7635fe0131b0800000000000000
+      internalID: -5678741208793667437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 33
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ff052dbe7634480800000000000000
+      internalID: -8916168574719951088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_31
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 33
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9508adacfa78247c0800000000000000
+      internalID: -4088556322606645159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_32
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 34
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ba3318beabb23e0800000000000000
+      internalID: -2077361282453624058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_33
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 24
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aff337762e4ff10800000000000000
+      internalID: 2302714243436247646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_34
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 27
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916f617eb5eb75130800000000000000
+      internalID: 3555519732760639001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_35
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 26
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d134f2d528dbddd0800000000000000
+      internalID: -2460135114463235630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_36
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 33
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f87a180cae93700800000000000000
+      internalID: 520705344467865361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_37
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 32
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9198b81e4e94d06c0800000000000000
+      internalID: -4175600032117192423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_38
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 40
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b9ef062d3539fd0800000000000000
+      internalID: -2336431618639619328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_39
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 37
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02513dbf98e9b4fb0800000000000000
+      internalID: -4662458673739393760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_40
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 30
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493aef08013e546d0800000000000000
+      internalID: -3006747516176784492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_41
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 25
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06bf061a52f3e230800000000000000
+      internalID: 3667040990340822539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_42
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 38
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14d360d24cf5a400800000000000000
+      internalID: 334951111203214367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_43
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 36
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589800e82a58828c0800000000000000
+      internalID: -4023819333841942139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_44
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 27
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64347c90e6c164d0800000000000000
+      internalID: -3143012396928060309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_45
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 19
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe6ca830d493b620800000000000000
+      internalID: 2788736216297402109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_46
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 22
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238191695f578b6d0800000000000000
+      internalID: -2974497856232548302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_47
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15f8a48fa1f12f90800000000000000
+      internalID: -6980032211300322021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_48
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 28
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a7fb82d4df0f2b0800000000000000
+      internalID: -5552659832709875116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_49
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 3
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cff290c82c105a0800000000000000
+      internalID: -6556745675769381736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_50
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 14
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946e2776db5e4e8a0800000000000000
+      internalID: -6276639379000465847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_51
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 5
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e183541b1b833a980800000000000000
+      internalID: -8528910933475117026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_52
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 13
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210ccbd2d9ca94630800000000000000
+      internalID: 3911847542425174034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_53
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 31
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697e72074a6742610800000000000000
+      internalID: 1595530616624375702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_54
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 28
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45133317f45add40800000000000000
+      internalID: 5609889705999144270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_55
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 28
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca486ec59cc7d76f0800000000000000
+      internalID: -685254364001565524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_56
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 18
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f455ea539d11150800000000000000
+      internalID: 5841689016257564547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_57
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 16
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3a984f55379a840800000000000000
+      internalID: 5235842854806987774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_58
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0489c120f22fd0520800000000000000
+      internalID: 2670056437813385280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_59
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 21
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c0644ec617a7ed0800000000000000
+      internalID: -2415493537630647276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_60
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 25
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bfe8a44b2af3870800000000000000
+      internalID: 8664823103312821129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_61
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 20
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180bf37ae80d0c030800000000000000
+      internalID: 3513037020458889345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_62
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 19
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322bcfaa8c0dd2270800000000000000
+      internalID: 8227461654556488227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_63
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 25
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbe26e0677ac98f0800000000000000
+      internalID: -532366530447217743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_64
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 20
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e534343eb27d020800000000000000
+      internalID: 2366408384292544081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_65
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 13
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f396585ec4cd8b0800000000000000
+      internalID: -5126137727184978075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_66
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 14
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051b8d638a2554400800000000000000
+      internalID: 307743031972901200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_67
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 7
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045ef069766bdb750800000000000000
+      internalID: 6322410007913555264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_68
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 23
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4ee00dfaac73c00800000000000000
+      internalID: 880395108632945843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_69
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c175629ca6d72700800000000000000
+      internalID: 515616719036051908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_70
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 22
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca608ae85986a4ec0800000000000000
+      internalID: -3581935562067016020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_71
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 17
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df846a3cb75dda70800000000000000
+      internalID: 8853328908425400275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_72
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 10
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faad85e1cc817b460800000000000000
+      internalID: 7257296589492378287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_73
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 17
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58403d110bdbf0b10800000000000000
+      internalID: 1949985727585649797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_74
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 3
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58566f676d008240800000000000000
+      internalID: 4791844741423978588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_75
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2012e4eb300724a0800000000000000
+      internalID: -6618320870154563542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_76
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 3
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf66595df0ed91f50800000000000000
+      internalID: 6852752467610134268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_77
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 0
+        width: 45
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74efbc0eded942a0800000000000000
+      internalID: -6752621120987339652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_78
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 12
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b94770408dc0860800000000000000
+      internalID: 7497604991481584461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_79
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 16
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8b0b410a65cc6e0800000000000000
+      internalID: -1815981304195270440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_80
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 15
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935c984fda957c2b0800000000000000
+      internalID: -5564380210926074567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37659b01230f71750800000000000000
+      internalID: 6275748703583688307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_82
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cd4b97b6fb08ab0800000000000000
+      internalID: -5007792317311689674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_83
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b98a8fada20e2e0800000000000000
+      internalID: -2098630306391614697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_84
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02005f9f2ffc32ad0800000000000000
+      internalID: -2728108306773770208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_85
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fceb56cae77ea30800000000000000
+      internalID: 4244500452726460299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_86
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 5
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3ea6d2be0fb4850800000000000000
+      internalID: 6362443791460918197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_87
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 7
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6b90a88d1db1a60800000000000000
+      internalID: 7645935520350582527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_88
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 3
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db032ca82402287a0800000000000000
+      internalID: -6376498652235288387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_89
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 5
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28794fe18793e3900800000000000000
+      internalID: 666032982975616898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_90
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 4
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c40d6d9eba3c880800000000000000
+      internalID: -8591834643273069461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_91
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d056424981e61cee0800000000000000
+      internalID: -1242590970333862643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_92
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 4
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799211f87a65ca620800000000000000
+      internalID: 2786697547095288215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_93
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 5
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0ffba7bd3e6f9e0800000000000000
+      internalID: -1587831286804778808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_94
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 5
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0231559e840f68f20800000000000000
+      internalID: 3424688762604819232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_95
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 6
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5583bf81ce7789e10800000000000000
+      internalID: 2204643873512962133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_96
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 7
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01463243c9505b720800000000000000
+      internalID: 2861199306711589904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_97
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 4
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51dfad2e907b2d280800000000000000
+      internalID: -9019945850581091051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_98
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 4
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558ac719b19ed9780800000000000000
+      internalID: -8674521002631452587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_99
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895989c499c017890800000000000000
+      internalID: -7462169255021603432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_100
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 4
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e581b408efe680810800000000000000
+      internalID: 1731756096077109342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_101
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df9b51e1e3911310800000000000000
+      internalID: 1374041959682514901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_102
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 3
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa3b573e884a7e70800000000000000
+      internalID: 9113676571588901618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChicaPirateIdle_2_103
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 0
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def38548dc5a4b740800000000000000
+      internalID: 5166936974608056301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChicaPirateIdle_2_0: 4467197797244088564
+      ChicaPirateIdle_2_1: -4503079053108139116
+      ChicaPirateIdle_2_10: -2133156607749139496
+      ChicaPirateIdle_2_100: 1731756096077109342
+      ChicaPirateIdle_2_101: 1374041959682514901
+      ChicaPirateIdle_2_102: 9113676571588901618
+      ChicaPirateIdle_2_103: 5166936974608056301
+      ChicaPirateIdle_2_11: 4408362865368052366
+      ChicaPirateIdle_2_12: 3823366155264678568
+      ChicaPirateIdle_2_13: 8690641395681793723
+      ChicaPirateIdle_2_14: -7472244726421864905
+      ChicaPirateIdle_2_15: 7320661951350068711
+      ChicaPirateIdle_2_16: 5713270001285925074
+      ChicaPirateIdle_2_17: -4581713107430857033
+      ChicaPirateIdle_2_18: 2361308345407090559
+      ChicaPirateIdle_2_19: -9143046153617809764
+      ChicaPirateIdle_2_2: 3503448144419516071
+      ChicaPirateIdle_2_20: 2489778603274135524
+      ChicaPirateIdle_2_21: 2071475828434377889
+      ChicaPirateIdle_2_22: -1717856403021678670
+      ChicaPirateIdle_2_23: -2495666084021129589
+      ChicaPirateIdle_2_24: -8318140564472793020
+      ChicaPirateIdle_2_25: 4572804439260882644
+      ChicaPirateIdle_2_26: 6548418234684545214
+      ChicaPirateIdle_2_27: 3529087296628416238
+      ChicaPirateIdle_2_28: -3965257022211303336
+      ChicaPirateIdle_2_29: -5678741208793667437
+      ChicaPirateIdle_2_3: 3576009758630115702
+      ChicaPirateIdle_2_30: -8916168574719951088
+      ChicaPirateIdle_2_31: -4088556322606645159
+      ChicaPirateIdle_2_32: -2077361282453624058
+      ChicaPirateIdle_2_33: 2302714243436247646
+      ChicaPirateIdle_2_34: 3555519732760639001
+      ChicaPirateIdle_2_35: -2460135114463235630
+      ChicaPirateIdle_2_36: 520705344467865361
+      ChicaPirateIdle_2_37: -4175600032117192423
+      ChicaPirateIdle_2_38: -2336431618639619328
+      ChicaPirateIdle_2_39: -4662458673739393760
+      ChicaPirateIdle_2_4: -7603330633232923854
+      ChicaPirateIdle_2_40: -3006747516176784492
+      ChicaPirateIdle_2_41: 3667040990340822539
+      ChicaPirateIdle_2_42: 334951111203214367
+      ChicaPirateIdle_2_43: -4023819333841942139
+      ChicaPirateIdle_2_44: -3143012396928060309
+      ChicaPirateIdle_2_45: 2788736216297402109
+      ChicaPirateIdle_2_46: -2974497856232548302
+      ChicaPirateIdle_2_47: -6980032211300322021
+      ChicaPirateIdle_2_48: -5552659832709875116
+      ChicaPirateIdle_2_49: -6556745675769381736
+      ChicaPirateIdle_2_5: -4468522695020662740
+      ChicaPirateIdle_2_50: -6276639379000465847
+      ChicaPirateIdle_2_51: -8528910933475117026
+      ChicaPirateIdle_2_52: 3911847542425174034
+      ChicaPirateIdle_2_53: 1595530616624375702
+      ChicaPirateIdle_2_54: 5609889705999144270
+      ChicaPirateIdle_2_55: -685254364001565524
+      ChicaPirateIdle_2_56: 5841689016257564547
+      ChicaPirateIdle_2_57: 5235842854806987774
+      ChicaPirateIdle_2_58: 2670056437813385280
+      ChicaPirateIdle_2_59: -2415493537630647276
+      ChicaPirateIdle_2_6: 8186566392645330472
+      ChicaPirateIdle_2_60: 8664823103312821129
+      ChicaPirateIdle_2_61: 3513037020458889345
+      ChicaPirateIdle_2_62: 8227461654556488227
+      ChicaPirateIdle_2_63: -532366530447217743
+      ChicaPirateIdle_2_64: 2366408384292544081
+      ChicaPirateIdle_2_65: -5126137727184978075
+      ChicaPirateIdle_2_66: 307743031972901200
+      ChicaPirateIdle_2_67: 6322410007913555264
+      ChicaPirateIdle_2_68: 880395108632945843
+      ChicaPirateIdle_2_69: 515616719036051908
+      ChicaPirateIdle_2_7: 7493973334096676740
+      ChicaPirateIdle_2_70: -3581935562067016020
+      ChicaPirateIdle_2_71: 8853328908425400275
+      ChicaPirateIdle_2_72: 7257296589492378287
+      ChicaPirateIdle_2_73: 1949985727585649797
+      ChicaPirateIdle_2_74: 4791844741423978588
+      ChicaPirateIdle_2_75: -6618320870154563542
+      ChicaPirateIdle_2_76: 6852752467610134268
+      ChicaPirateIdle_2_77: -6752621120987339652
+      ChicaPirateIdle_2_78: 7497604991481584461
+      ChicaPirateIdle_2_79: -1815981304195270440
+      ChicaPirateIdle_2_8: 736301814336527547
+      ChicaPirateIdle_2_80: -5564380210926074567
+      ChicaPirateIdle_2_81: 6275748703583688307
+      ChicaPirateIdle_2_82: -5007792317311689674
+      ChicaPirateIdle_2_83: -2098630306391614697
+      ChicaPirateIdle_2_84: -2728108306773770208
+      ChicaPirateIdle_2_85: 4244500452726460299
+      ChicaPirateIdle_2_86: 6362443791460918197
+      ChicaPirateIdle_2_87: 7645935520350582527
+      ChicaPirateIdle_2_88: -6376498652235288387
+      ChicaPirateIdle_2_89: 666032982975616898
+      ChicaPirateIdle_2_9: 6590506042826927829
+      ChicaPirateIdle_2_90: -8591834643273069461
+      ChicaPirateIdle_2_91: -1242590970333862643
+      ChicaPirateIdle_2_92: 2786697547095288215
+      ChicaPirateIdle_2_93: -1587831286804778808
+      ChicaPirateIdle_2_94: 3424688762604819232
+      ChicaPirateIdle_2_95: 2204643873512962133
+      ChicaPirateIdle_2_96: 2861199306711589904
+      ChicaPirateIdle_2_97: -9019945850581091051
+      ChicaPirateIdle_2_98: -8674521002631452587
+      ChicaPirateIdle_2_99: -7462169255021603432
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
