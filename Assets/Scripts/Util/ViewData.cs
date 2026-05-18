@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//TODO: THIS CLASS WILL BE REPLACED WITH VIEWCONTROLLER
 public class ViewData : MonoBehaviour
 {
     public View viewName;

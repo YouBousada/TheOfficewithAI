@@ -27,6 +27,8 @@ public class CameraViewManager : MonoBehaviour
     private RoomCameraData thisRoomCameraData;
     private LocName activeCamera;
 
+    
+
     public void Awake()
     {
         BuildSortingLayerMap();
@@ -138,6 +140,8 @@ public class CameraViewManager : MonoBehaviour
 
         CharacterCamviewData thisCharacterRenders = characterRendersMap[thisCharacter];
 
+        //CHECK CACHE HERE, GET LAYER AND IMAGE
+
         int layerInt = -1;
 
         if(activeCamera  == LocName.Stage)
@@ -146,9 +150,10 @@ public class CameraViewManager : MonoBehaviour
         }
         else
         {
+            //CHOOSES THE LAYER
             layerInt = availableLayers[Random.Range(0, availableLayers.Count)];
         }
-
+        //CHOOSES THE RENDER 
         Sprite chosenRender = thisCharacterRenders.GetRandomRender(layerInt, behaviour);
 
         if (chosenRender == null)
@@ -170,6 +175,8 @@ public class CameraViewManager : MonoBehaviour
 
     private List<int> GetAvailableSortingLayers()
     {
+        //CHECK CACHE, TAKEN LAYERS WILL NOT BE AVIALABLE
+
         List<int> availableLayers = new List<int>();
 
         foreach (var entry in sortingLayerToImage)

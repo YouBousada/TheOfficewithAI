@@ -5,19 +5,19 @@ public class AIMonitor : MonoBehaviour
 {
     public void HandleLocationChange(CharacterName who, LocName from, LocName to)
     {
-        Debug.Log($"[{Time.time:F2}] {who} moved from {from} to {to}");
+        // Debug.Log($"[{Time.time:F2}] {who} moved from {from} to {to}");
         OnLocationChanged?.Invoke(who, from, to);
     }
 
     public void HandleBehaviourChange(CharacterName who, Behaviour oldBehaviour, Behaviour newBehaviour)
     {
-        Debug.Log($"[{Time.time:F2}] {who} changed behaviour from {oldBehaviour}ing to {newBehaviour}ing");
+        // Debug.Log($"[{Time.time:F2}] {who} changed behaviour from {oldBehaviour}ing to {newBehaviour}ing");
         OnBehaviourChanged?.Invoke(who, oldBehaviour, newBehaviour);
     }
 
     public void HandleJobSwitch(CharacterName who, JobName fromJob, JobName toJob)
     {
-        Debug.Log($"<color=cyan>[INIT]</color> [{Time.time:F2}] {who} switched job from {fromJob} to {toJob}");
+        // Debug.Log($"<color=cyan>[INIT]</color> [{Time.time:F2}] {who} switched job from {fromJob} to {toJob}");
         OnJobSwitched?.Invoke(who, fromJob, toJob);
     }
 

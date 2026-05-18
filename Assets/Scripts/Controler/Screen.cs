@@ -12,7 +12,7 @@ public class Screen : MonoBehaviour
     {
         world.playerMonitor.OnViewChanged += WarpToView;
     }
-    public void WarpToView(View newView, float time)
+    public void WarpToView(View newView)
     {
         if (newView == View.Desk)
         {

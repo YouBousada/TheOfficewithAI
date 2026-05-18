@@ -7,12 +7,12 @@ public class PlayerMonitor : MonoBehaviour
 
     public void Start()
     {
-        OnViewChanged?.Invoke(player.startingView, 0f);
+        OnViewChanged?.Invoke(player.startingView);
     }
 
-    public void HandleNewView(View newView, float time)
+    public void HandleNewView(View newView)
     {
-        OnViewChanged?.Invoke(newView, time);
+        OnViewChanged?.Invoke(newView);
         Debug.Log("View changed to: " + newView);
     }
 
@@ -21,6 +21,6 @@ public class PlayerMonitor : MonoBehaviour
         OnActionPerformed?.Invoke(action);
         Debug.Log("Action performed: " + action);
     }
-    public event Action <View, float> OnViewChanged;
+    public event Action <View> OnViewChanged;
     public event Action <Action> OnActionPerformed;
 }

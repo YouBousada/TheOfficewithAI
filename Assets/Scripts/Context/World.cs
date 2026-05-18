@@ -30,8 +30,8 @@ public class World : MonoBehaviour
     [field: SerializeField] public GameManager gameManager { get; private set; }
     [field: SerializeField] public List<Animatronic> animatronicList = new List<Animatronic>();
     public Dictionary<CharacterName, Animatronic> animatronicSet = new Dictionary<CharacterName, Animatronic>();
-    [field: SerializeField] public List<ViewData> gameViews;
-    public Dictionary<View, ViewData> viewDictionary = new Dictionary<View, ViewData>();
+    [field: SerializeField] public List<ViewController> gameViews;
+    public Dictionary<View, ViewController> viewDictionary = new Dictionary<View, ViewController>();
     public void Awake()
     {
         for(int i = 0; i < animatronicList.Count; i++)
@@ -41,7 +41,7 @@ public class World : MonoBehaviour
 
         for(int i = 0; i < gameViews.Count; i++)
         {
-            viewDictionary.Add(gameViews[i].viewName, gameViews[i]);
+            viewDictionary.Add(gameViews[i].thisViewName, gameViews[i]);
         }
 
         leftDoorIsOpen = true;

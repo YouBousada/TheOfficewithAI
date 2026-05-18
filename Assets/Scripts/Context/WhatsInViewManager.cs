@@ -2,8 +2,8 @@ using UnityEngine;
 public class WhatsInViewManager : MonoBehaviour
 {
     public World world;
-    private ViewData currentViewData;
-    private ViewData previousViewData;
+    private ViewController activeViewController;
+    private ViewController previouslyActiveViewData;
     void Start()
     {
         foreach (var viewData in world.gameViews)
@@ -11,26 +11,26 @@ public class WhatsInViewManager : MonoBehaviour
                 obj.SetActive(false);
 
 
-        currentViewData = world.viewDictionary[world.player.currentView];
-        foreach (var obj in currentViewData.objectsInView)
+        activeViewController = world.viewDictionary[world.player.currentView];
+        foreach (var obj in activeViewController.objectsInView)
             obj.SetActive(true);
 
-        previousViewData = currentViewData;
+        previouslyActiveViewData = activeViewController;
         world.playerMonitor.OnViewChanged += RespondToViewChange;
         world.aiMonitor.OnDeath += JumpscareHideObjects;
     }
 
-    void RespondToViewChange(View newView, float time)
+    void RespondToViewChange(View newView)
     {
-        previousViewData = currentViewData;
-        currentViewData = world.viewDictionary[newView];
+        previouslyActiveViewData = activeViewController;
+        activeViewController = world.viewDictionary[newView];
         HideOldViewObjects();
         ShowNewViewObjects();
     }
 
     private void HideOldViewObjects()
     {
-        foreach (var obj in previousViewData.objectsInView)
+        foreach (var obj in previouslyActiveViewData.objectsInView)
         {
             obj.SetActive(false);
         }
@@ -38,7 +38,7 @@ public class WhatsInViewManager : MonoBehaviour
 
     private void ShowNewViewObjects()
     {
-        foreach (var obj in currentViewData.objectsInView)
+        foreach (var obj in activeViewController.objectsInView)
         {
             obj.SetActive(true);
         }
@@ -46,9 +46,9 @@ public class WhatsInViewManager : MonoBehaviour
 
     void JumpscareHideObjects(CharacterName killer, LocName location)
     {   
-        foreach (var obj in currentViewData.objectsInView)
+        foreach (var obj in activeViewController.objectsInView)
         {
-            if(currentViewData.hideUponJumpscare.Contains(obj))
+            if(activeViewController.hideUponJumpscare.Contains(obj))
             {
                 obj.SetActive(false);
             }

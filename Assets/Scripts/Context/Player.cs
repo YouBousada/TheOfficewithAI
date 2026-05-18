@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     public void SetNewView(View newView)
     {
         currentView = newView;
-        playerMonitor.HandleNewView(newView, 1f);
+        playerMonitor.HandleNewView(newView);
     }
 
     public void PerformAction(Action action)

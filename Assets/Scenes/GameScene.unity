@@ -285,7 +285,6 @@ Transform:
   m_Children:
   - {fileID: 58737080}
   - {fileID: 808761165}
-  - {fileID: 889167842}
   m_Father: {fileID: 473542908}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &31818126
@@ -1051,62 +1050,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &147490149
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 147490150}
-  - component: {fileID: 147490151}
-  m_Layer: 0
-  m_Name: MonitorView
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &147490150
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147490149}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889167842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &147490151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147490149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4649b894ac3644c9a9d0e8915f96c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  viewName: 5
-  objectsInView:
-  - {fileID: 355969272}
-  - {fileID: 1040319358}
-  - {fileID: 1746211844}
-  hideUponJumpscare:
-  - {fileID: 355969272}
-  - {fileID: 1040319358}
-  - {fileID: 1746211844}
-  thisViewBackground: {fileID: -8117046721963414888, guid: 28199fa4b8aa10d469a880071d580e7b, type: 3}
-  backgroundJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
-  doorViewJumpscareData: {fileID: 0}
 --- !u!1 &148678844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,8 +1098,6 @@ MonoBehaviour:
   services: {fileID: 1446922956}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: f20904c41c2aa204c8db5618f3e9c5f3, type: 2}
-  recordedLoc: 0
-  recordedBehaviour: 7
   Ailevel: 20
 --- !u!1 &161621953
 GameObject:
@@ -1201,60 +1142,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1108953929}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &164049578
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 164049580}
-  - component: {fileID: 164049579}
-  m_Layer: 0
-  m_Name: OfficeBackView
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &164049579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164049578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4649b894ac3644c9a9d0e8915f96c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  viewName: 4
-  objectsInView:
-  - {fileID: 1837334868}
-  - {fileID: 239548247}
-  hideUponJumpscare:
-  - {fileID: 1837334868}
-  - {fileID: 239548247}
-  thisViewBackground: {fileID: 5000927251509650613, guid: 8e6f96c8f2a5c2e44ad3c3c44170c02c, type: 3}
-  backgroundJumpscareData: {fileID: 11400000, guid: a4f3e4eb33b51ca41ae817a39bc5421d, type: 2}
-  doorViewJumpscareData: {fileID: 0}
---- !u!4 &164049580
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164049578}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889167842}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &206301719
 GameObject:
@@ -1764,7 +1651,6 @@ GameObject:
   - component: {fileID: 293875265}
   - component: {fileID: 293875264}
   - component: {fileID: 293875268}
-  - component: {fileID: 293875269}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -1841,27 +1727,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036a7481e6cd5564cbdd96e61da5f5b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &293875269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293875263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9172a24ec93de7d4f8898e12a69467cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  world: {fileID: 1108953928}
-  rightDoorOpenAnimation: {fileID: 11400000, guid: f204dbe2c73a7a040b7553b5af9e51dc, type: 2}
-  rightDoorCloseAnimation: {fileID: 11400000, guid: e97ca5cffadb8494da1c3c197556a167, type: 2}
-  leftDoorOpenAnimation: {fileID: 11400000, guid: d4f1d248c40a55849b9942895b27c6e3, type: 2}
-  leftDoorCloseAnimation: {fileID: 11400000, guid: 071566ed86f323c479dd1c96173fb377, type: 2}
-  rightDoorClosedImage: {fileID: 21300000, guid: 86bc5b0faca32ca42be29b6ec5ba6020, type: 3}
-  leftDoorOpenImage: {fileID: 21300000, guid: 43af86f697935cb4ea3b503d6906fe24, type: 3}
-  leftDoorClosedImage: {fileID: 21300000, guid: 0bc7f44f7ec25ab4cb03a3c17ad86a80, type: 3}
-  rightDoorOpenImage: {fileID: 21300000, guid: 1523378d398a878419e31a9af52689b6, type: 3}
 --- !u!1 &353081170
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,6 +2872,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571517343}
   m_CullTransparentMesh: 1
+--- !u!1 &572307462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 572307463}
+  - component: {fileID: 572307464}
+  m_Layer: 0
+  m_Name: RightDoorViewController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &572307463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572307462}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 889167842}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &572307464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572307462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687bce385bd09d54c92e561b82fd6d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world: {fileID: 1108953928}
+  backgroundImage: {fileID: 293875264}
+  thisViewName: 3
+  objectsInView:
+  - {fileID: 102512523}
+  - {fileID: 206301719}
+  - {fileID: 998350783}
+  - {fileID: 355886996}
+  - {fileID: 661298739}
+  hideUponJumpscare:
+  - {fileID: 102512523}
+  - {fileID: 206301719}
+  - {fileID: 998350783}
+  - {fileID: 355886996}
+  doorViewJumpscareData: {fileID: 11400000, guid: 31beb39217823f64e983ab6aab28b99a, type: 2}
+  DoorOpenAnimation: {fileID: 11400000, guid: f204dbe2c73a7a040b7553b5af9e51dc, type: 2}
+  DoorCloseAnimation: {fileID: 11400000, guid: e97ca5cffadb8494da1c3c197556a167, type: 2}
+  DoorClosedImage: {fileID: 21300000, guid: 86bc5b0faca32ca42be29b6ec5ba6020, type: 3}
+  DoorOpenImage: {fileID: 21300000, guid: 1523378d398a878419e31a9af52689b6, type: 3}
 --- !u!1 &594831629
 GameObject:
   m_ObjectHideFlags: 0
@@ -3425,8 +3353,6 @@ MonoBehaviour:
   services: {fileID: 1446922956}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: 4614e3a02e7e9204ab96f0aaae91086b, type: 2}
-  recordedLoc: 0
-  recordedBehaviour: 7
   Ailevel: 20
 --- !u!1 &661298739
 GameObject:
@@ -3439,6 +3365,7 @@ GameObject:
   - component: {fileID: 661298740}
   - component: {fileID: 661298743}
   - component: {fileID: 661298742}
+  - component: {fileID: 661298744}
   - component: {fileID: 661298741}
   m_Layer: 5
   m_Name: RightWindowAnimatronic
@@ -3524,6 +3451,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661298739}
   m_CullTransparentMesh: 1
+--- !u!114 &661298744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661298739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 036a7481e6cd5564cbdd96e61da5f5b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &733016778
 GameObject:
   m_ObjectHideFlags: 0
@@ -3968,6 +3907,8 @@ Transform:
   - {fileID: 14039892}
   - {fileID: 257209763}
   - {fileID: 738975246}
+  - {fileID: 1048234889}
+  - {fileID: 889167842}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &868322325
@@ -4018,8 +3959,6 @@ MonoBehaviour:
   services: {fileID: 1446922956}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: 8dc07c8bf88faf64393c1e75df757743, type: 2}
-  recordedLoc: 0
-  recordedBehaviour: 7
   Ailevel: 20
 --- !u!1 &889167841
 GameObject:
@@ -4031,7 +3970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 889167842}
   m_Layer: 0
-  m_Name: OfficeViews
+  m_Name: Views
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4046,16 +3985,16 @@ Transform:
   m_GameObject: {fileID: 889167841}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.4249518, y: -0.4756051, z: -393.89218}
+  m_LocalPosition: {x: 1.4598868, y: -0.23023534, z: 2.0248718}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 942191797}
-  - {fileID: 147490150}
-  - {fileID: 2041721383}
-  - {fileID: 1042702264}
-  - {fileID: 164049580}
-  m_Father: {fileID: 19430130}
+  - {fileID: 1326439612}
+  - {fileID: 2085307968}
+  - {fileID: 1292941612}
+  - {fileID: 572307463}
+  - {fileID: 1817508889}
+  m_Father: {fileID: 860101788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &897854362
 GameObject:
@@ -4600,64 +4539,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 733016779}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &942191796
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 942191797}
-  - component: {fileID: 942191798}
-  m_Layer: 0
-  m_Name: DeskView
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &942191797
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942191796}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889167842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &942191798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942191796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4649b894ac3644c9a9d0e8915f96c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  viewName: 1
-  objectsInView:
-  - {fileID: 1040319358}
-  - {fileID: 430844832}
-  - {fileID: 829830430}
-  - {fileID: 207303622}
-  hideUponJumpscare:
-  - {fileID: 1040319358}
-  - {fileID: 430844832}
-  - {fileID: 829830430}
-  - {fileID: 207303622}
-  thisViewBackground: {fileID: -2690792559708188323, guid: 298ee97783129274da6d7d7d28b4832b, type: 3}
-  backgroundJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
-  doorViewJumpscareData: {fileID: 0}
 --- !u!1 &998350783
 GameObject:
   m_ObjectHideFlags: 0
@@ -4965,7 +4846,6 @@ GameObject:
   - component: {fileID: 1040319362}
   - component: {fileID: 1040319361}
   - component: {fileID: 1040319360}
-  - component: {fileID: 1040319363}
   m_Layer: 5
   m_Name: Screen
   m_TagString: Untagged
@@ -5043,19 +4923,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040319358}
   m_CullTransparentMesh: 1
---- !u!114 &1040319363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1040319358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 036a7481e6cd5564cbdd96e61da5f5b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1042702263
+--- !u!1 &1048234888
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5063,57 +4931,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1042702264}
-  - component: {fileID: 1042702265}
+  - component: {fileID: 1048234889}
+  - component: {fileID: 1048234890}
   m_Layer: 0
-  m_Name: RightDoorView
+  m_Name: AnimSync
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1042702264
+--- !u!4 &1048234889
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1042702263}
+  m_GameObject: {fileID: 1048234888}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 889167842}
+  m_Father: {fileID: 860101788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1042702265
+--- !u!114 &1048234890
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1042702263}
+  m_GameObject: {fileID: 1048234888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4649b894ac3644c9a9d0e8915f96c5, type: 3}
+  m_Script: {fileID: 11500000, guid: d5ed3578536022644b92fd50e02dcb3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewName: 3
-  objectsInView:
-  - {fileID: 102512523}
-  - {fileID: 206301719}
-  - {fileID: 998350783}
-  - {fileID: 355886996}
-  - {fileID: 661298739}
-  hideUponJumpscare:
-  - {fileID: 102512523}
-  - {fileID: 206301719}
-  - {fileID: 998350783}
-  - {fileID: 355886996}
-  thisViewBackground: {fileID: 6738091721526378128, guid: c2b843bb459404a4cada0005ba2e22d4, type: 3}
-  backgroundJumpscareData: {fileID: 0}
-  doorViewJumpscareData: {fileID: 11400000, guid: 28a5b12977b86004d8eb1be10de52ebf, type: 2}
 --- !u!1 &1092583172
 GameObject:
   m_ObjectHideFlags: 0
@@ -5249,11 +5102,11 @@ MonoBehaviour:
   - {fileID: 642933800}
   - {fileID: 1313046240}
   gameViews:
-  - {fileID: 942191798}
-  - {fileID: 147490151}
-  - {fileID: 2041721384}
-  - {fileID: 1042702265}
-  - {fileID: 164049579}
+  - {fileID: 1326439611}
+  - {fileID: 2085307969}
+  - {fileID: 1292941613}
+  - {fileID: 572307464}
+  - {fileID: 1817508890}
 --- !u!4 &1108953929
 Transform:
   m_ObjectHideFlags: 0
@@ -5949,6 +5802,69 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1292941611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1292941612}
+  - component: {fileID: 1292941613}
+  m_Layer: 0
+  m_Name: LeftDoorViewController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1292941612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292941611}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 889167842}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1292941613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292941611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fe37e9e5e9b9546bb57c552195b1d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world: {fileID: 1108953928}
+  backgroundImage: {fileID: 293875264}
+  thisViewName: 2
+  objectsInView:
+  - {fileID: 70500186}
+  - {fileID: 594831629}
+  - {fileID: 1144237679}
+  - {fileID: 393995717}
+  - {fileID: 1759411983}
+  hideUponJumpscare:
+  - {fileID: 70500186}
+  - {fileID: 594831629}
+  - {fileID: 1144237679}
+  - {fileID: 393995717}
+  doorViewJumpscareData: {fileID: 11400000, guid: a2476f580f421974688f0c2b7b0d6e99, type: 2}
+  DoorOpenAnimation: {fileID: 11400000, guid: d4f1d248c40a55849b9942895b27c6e3, type: 2}
+  DoorCloseAnimation: {fileID: 11400000, guid: 071566ed86f323c479dd1c96173fb377, type: 2}
+  DoorClosedImage: {fileID: 21300000, guid: 0bc7f44f7ec25ab4cb03a3c17ad86a80, type: 3}
+  DoorOpenImage: {fileID: 21300000, guid: 43af86f697935cb4ea3b503d6906fe24, type: 3}
 --- !u!1 &1313046238
 GameObject:
   m_ObjectHideFlags: 0
@@ -5997,9 +5913,66 @@ MonoBehaviour:
   services: {fileID: 1446922956}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: 2ddadece3725b2d4294eeefdef24f4f6, type: 2}
-  recordedLoc: 5
-  recordedBehaviour: 7
   Ailevel: 5
+--- !u!1 &1326439610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1326439612}
+  - component: {fileID: 1326439611}
+  m_Layer: 0
+  m_Name: DeskViewController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1326439611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326439610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40376eae79511914994ce7a61fcb9ca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world: {fileID: 1108953928}
+  backgroundImage: {fileID: 293875264}
+  thisViewName: 1
+  objectsInView:
+  - {fileID: 1040319358}
+  - {fileID: 430844832}
+  - {fileID: 829830430}
+  - {fileID: 207303622}
+  hideUponJumpscare:
+  - {fileID: 1040319358}
+  - {fileID: 430844832}
+  - {fileID: 829830430}
+  - {fileID: 207303622}
+  backgroundSprite: {fileID: -2690792559708188323, guid: 298ee97783129274da6d7d7d28b4832b, type: 3}
+  thsisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
+--- !u!4 &1326439612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326439610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 889167842}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1347849920
 GameObject:
   m_ObjectHideFlags: 0
@@ -6697,6 +6670,7 @@ GameObject:
   - component: {fileID: 1759411984}
   - component: {fileID: 1759411987}
   - component: {fileID: 1759411986}
+  - component: {fileID: 1759411988}
   - component: {fileID: 1759411985}
   m_Layer: 5
   m_Name: LeftWindowAnimatronic
@@ -6782,6 +6756,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759411983}
   m_CullTransparentMesh: 1
+--- !u!114 &1759411988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759411983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 036a7481e6cd5564cbdd96e61da5f5b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1805076788
 GameObject:
   m_ObjectHideFlags: 0
@@ -6929,6 +6915,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thisRoom: 12
   cameraSystem: {fileID: 19047313}
+--- !u!1 &1817508888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1817508889}
+  - component: {fileID: 1817508890}
+  m_Layer: 0
+  m_Name: BackViewController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1817508889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817508888}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 889167842}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1817508890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817508888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00324b0b88c37f6488248ebbb3fda962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world: {fileID: 1108953928}
+  backgroundImage: {fileID: 293875264}
+  thisViewName: 4
+  objectsInView:
+  - {fileID: 1837334868}
+  - {fileID: 239548247}
+  hideUponJumpscare:
+  - {fileID: 1837334868}
+  - {fileID: 239548247}
+  backgroundSprite: {fileID: 5000927251509650613, guid: 8e6f96c8f2a5c2e44ad3c3c44170c02c, type: 3}
+  thsisViewJumpscareData: {fileID: 11400000, guid: a4f3e4eb33b51ca41ae817a39bc5421d, type: 2}
 --- !u!1 &1837334868
 GameObject:
   m_ObjectHideFlags: 0
@@ -8022,65 +8063,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038292569}
   m_CullTransparentMesh: 1
---- !u!1 &2041721382
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2041721383}
-  - component: {fileID: 2041721384}
-  m_Layer: 0
-  m_Name: LeftDoorView
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2041721383
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2041721382}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889167842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2041721384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2041721382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4649b894ac3644c9a9d0e8915f96c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  viewName: 2
-  objectsInView:
-  - {fileID: 70500186}
-  - {fileID: 594831629}
-  - {fileID: 1144237679}
-  - {fileID: 393995717}
-  - {fileID: 1759411983}
-  hideUponJumpscare:
-  - {fileID: 70500186}
-  - {fileID: 594831629}
-  - {fileID: 1144237679}
-  - {fileID: 393995717}
-  thisViewBackground: {fileID: -3026884317816280897, guid: 6304dd6a46dc3fb4f92d093b41686e14, type: 3}
-  backgroundJumpscareData: {fileID: 0}
-  doorViewJumpscareData: {fileID: 11400000, guid: a2476f580f421974688f0c2b7b0d6e99, type: 2}
 --- !u!1 &2076133059
 GameObject:
   m_ObjectHideFlags: 0
@@ -8156,6 +8138,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076133059}
   m_CullTransparentMesh: 1
+--- !u!1 &2085307967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2085307968}
+  - component: {fileID: 2085307969}
+  m_Layer: 0
+  m_Name: MonitorViewController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2085307968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085307967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 889167842}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2085307969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085307967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d8e991e2400fe42a0d4105900a8d9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world: {fileID: 1108953928}
+  backgroundImage: {fileID: 293875264}
+  thisViewName: 5
+  objectsInView:
+  - {fileID: 355969272}
+  - {fileID: 1040319358}
+  - {fileID: 1746211844}
+  hideUponJumpscare:
+  - {fileID: 355969272}
+  - {fileID: 1040319358}
+  - {fileID: 1746211844}
+  backgroundSprite: {fileID: -8117046721963414888, guid: 28199fa4b8aa10d469a880071d580e7b, type: 3}
+  thsisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
 --- !u!1 &2100811462
 GameObject:
   m_ObjectHideFlags: 0

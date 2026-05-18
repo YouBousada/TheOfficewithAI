@@ -10,8 +10,11 @@ public class CameraSystem : MonoBehaviour
     }
     public void SetCameraRoom(LocName newRoom)
     {
-        activeCamera = newRoom;
-        OnCameraRoomChanged?.Invoke(newRoom);
+        if(newRoom != activeCamera)
+        {
+            activeCamera = newRoom;
+            OnCameraRoomChanged?.Invoke(newRoom);
+        }
     }
 
     public event System.Action<LocName> OnCameraRoomChanged;
