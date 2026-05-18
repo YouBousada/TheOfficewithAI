@@ -10,7 +10,7 @@ public class Screen : MonoBehaviour
 
     void Awake()
     {
-        world.playerMonitor.OnViewChanged += WarpToView;
+        world.player.OnViewChanged += WarpToView;
     }
     public void WarpToView(View newView)
     {

@@ -8,10 +8,10 @@ public class HotSpot : MonoBehaviour
 
     public void EnvokeViewChange()
     {
-        world.player.SetNewView(to);
+        world.player.SetView(to);
     }
 
-     public void EnvokeAction()
+    public void EnvokeAction()
     {
         world.player.PerformAction(action);
 
@@ -20,5 +20,5 @@ public class HotSpot : MonoBehaviour
         else if (action == Action.OpenRightDoor) world.SetRightDoor(true);
         else if (action == Action.CloseRightDoor) world.SetRightDoor(false);
     }
-    
+
 }

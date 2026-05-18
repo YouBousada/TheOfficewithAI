@@ -5,7 +5,6 @@ using System;
 public class World : MonoBehaviour
 {
     public Player player;
-    public PlayerMonitor playerMonitor;
     public bool leftDoorIsOpen;
     public bool rightDoorIsOpen;
 
@@ -24,7 +23,7 @@ public class World : MonoBehaviour
         rightDoorIsOpen = isOpen;
         OnDoorStateChanged?.Invoke(leftDoorIsOpen, rightDoorIsOpen);
     }
-    
+
     [field: SerializeField] public CameraSystem cameraSystem { get; private set; }
     [field: SerializeField] public AIMonitor aiMonitor { get; private set; }
     [field: SerializeField] public GameManager gameManager { get; private set; }
@@ -34,12 +33,12 @@ public class World : MonoBehaviour
     public Dictionary<View, ViewController> viewDictionary = new Dictionary<View, ViewController>();
     public void Awake()
     {
-        for(int i = 0; i < animatronicList.Count; i++)
+        for (int i = 0; i < animatronicList.Count; i++)
         {
             animatronicSet.Add(animatronicList[i].GetCharacterName(), animatronicList[i]);
         }
 
-        for(int i = 0; i < gameViews.Count; i++)
+        for (int i = 0; i < gameViews.Count; i++)
         {
             viewDictionary.Add(gameViews[i].thisViewName, gameViews[i]);
         }

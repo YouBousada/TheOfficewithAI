@@ -1,25 +1,28 @@
+using System;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-   public View currentView;
-   public View startingView;
-   public PlayerMonitor playerMonitor;
-   public bool isDead = false;
+    public View currentView;
+    public View startingView;
+    public bool isDead = false;
 
-    private void Awake()
+    public event Action<View> OnViewChanged;
+    public event Action<Action> OnActionPerformed;
+
+    private void Start()
     {
-        SetNewView(startingView);
+        SetView(startingView);
     }
 
-    public void SetNewView(View newView)
+    public void SetView(View newView)
     {
         currentView = newView;
-        playerMonitor.HandleNewView(newView);
+        OnViewChanged?.Invoke(newView);
     }
 
     public void PerformAction(Action action)
     {
-        playerMonitor.HandleAction(action);
+        OnActionPerformed?.Invoke(action);
     }
 }

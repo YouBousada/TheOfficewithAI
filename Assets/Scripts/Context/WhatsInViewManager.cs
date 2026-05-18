@@ -16,7 +16,7 @@ public class WhatsInViewManager : MonoBehaviour
             obj.SetActive(true);
 
         previouslyActiveViewData = activeViewController;
-        world.playerMonitor.OnViewChanged += RespondToViewChange;
+        world.player.OnViewChanged += RespondToViewChange;
         world.aiMonitor.OnDeath += JumpscareHideObjects;
     }
 
