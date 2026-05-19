@@ -39,7 +39,7 @@ public abstract class BaseJob : IJobRequirements
     }
     public bool TheDoorImAtIsClosed()
     {
-        if ((!world.leftDoorIsOpen && currentLoc == LocName.WestDoor) || (!world.rightDoorIsOpen && currentLoc == LocName.EastDoor))
+        if ((!world.OfficeStates.LeftDoorIsOpen && currentLoc == LocName.WestDoor) || (!world.OfficeStates.RightDoorIsOpen && currentLoc == LocName.EastDoor))
         {
             return true;
         }
@@ -68,12 +68,8 @@ public abstract class BaseJob : IJobRequirements
 
     public void KillPlayer()
     {
-        if (world.player.isDead)
-        { 
-        return;
-        }
-        
-        world.player.isDead = true;
+        if (world.Player.IsDead) return;
+        world.Player.Die();
         world.aiMonitor.HandleDeath(profile.characterName, currentLoc);
     }
 
@@ -94,12 +90,14 @@ public abstract class BaseJob : IJobRequirements
         }
         return false;
     }
+    private const float JobSelectionChance = 0.8f;
+
     public bool AskForJob(JobArbiter arbiter, World world, CharacterName character, JobName toJob)
     {
         if (arbiter.ApproveJobSwitch(world, character, toJob))
         {
             float x = Random.value;
-            if(x > 0.8f)
+            if(x > JobSelectionChance)
             {
                 return false;
             }
@@ -117,9 +115,9 @@ public abstract class BaseJob : IJobRequirements
         }
         foreach (CharacterName disliked in profile.dislikedCharacters)
             {
-                if(world.animatronicSet[disliked].GetCurrentLocation() == currentLoc)
+                if(world.animatronicDictionary[disliked].GetCurrentLocation() == currentLoc)
                 {
-                    MovementTimer -= Time.deltaTime * 10f;
+                    MovementTimer -= Time.deltaTime * profile.socialRepelStrength;
                 }
 
             }
@@ -133,9 +131,9 @@ public abstract class BaseJob : IJobRequirements
         }
         foreach (CharacterName liked in profile.likedCharacters)
             {
-                if(world.animatronicSet[liked].GetCurrentLocation() == currentLoc)
+                if(world.animatronicDictionary[liked].GetCurrentLocation() == currentLoc)
                 {
-                    MovementTimer += Time.deltaTime * 0.5f;
+                    MovementTimer += Time.deltaTime * profile.socialAttractStrength;
                 }
 
             }
@@ -149,9 +147,9 @@ public abstract class BaseJob : IJobRequirements
 
     public bool OccupiedWindow(LocName windowLoc)
     {
-        for (int i = 0; i < world.animatronicList.Count; i++)
+        
+        foreach (Animatronic anim in world.animatronicDictionary.Values)
         {
-            var anim = world.animatronicList[i];
             if (anim.GetCurrentLocation() == windowLoc && anim.GetCurrentBehaviour() == Behaviour.StareThroughWindow)
             {
                 return true;

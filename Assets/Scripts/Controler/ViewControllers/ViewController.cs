@@ -7,11 +7,11 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
     protected AnimationPlayer animPlayer;
 
     [Header("Context")]
-    public World world;
-    public Image backgroundImage;
+    [SerializeField] protected World world;
+    [SerializeField] protected Image backgroundImage;
 
     [Header("Info about view")]
-    public View thisViewName;
+    [SerializeField] private View thisViewName;
     public List<GameObject> objectsInView = new();
     public List<GameObject> hideUponJumpscare = new();
 
@@ -28,14 +28,16 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
     protected virtual void Awake()
     {
         UtilizeAnimationPlayer();
+        world.viewDictionary.Add(thisViewName, this);
     }
 
     void Start()
     {
-        OnViewActivated(world.player.currentView);
 
-        world.player.OnActionPerformed += RespondToAction;
-        world.player.OnViewChanged += OnViewActivated;
+        OnViewActivated(world.Player.CurrentView);
+
+        world.Player.OnActionPerformed += RespondToAction;
+        world.Player.OnViewChanged += OnViewActivated;
         world.aiMonitor.OnDeath += ReactToJumpscare;
     }
 
@@ -52,14 +54,14 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
 
     public void ReactToJumpscare(CharacterName who, LocName from)
     {
-        if (world.player.currentView != thisViewName) { return; }
+        if (world.Player.CurrentView != thisViewName) { return; }
         ReactToJumpscare_Concrete(who, from);
     }
 
     void OnDisable()
     {
-        world.player.OnActionPerformed -= RespondToAction;
-        world.player.OnViewChanged -= OnViewActivated;
+        world.Player.OnActionPerformed -= RespondToAction;
+        world.Player.OnViewChanged -= OnViewActivated;
         world.aiMonitor.OnDeath -= ReactToJumpscare;
 
     }

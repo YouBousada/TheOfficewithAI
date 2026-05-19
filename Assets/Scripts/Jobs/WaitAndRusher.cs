@@ -7,6 +7,13 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     private float maxIdleTime;
     private float maxRuntime;
     private DoorName lastFailedDoorLoc = DoorName.None;
+
+    private const float AiLevelIdleScale = 0.5f;
+    private const float PatienceIdleScale = 0.5f;
+    private const float MaxRunInterval = 3f;
+    private const float MinRunInterval = 2f;
+    private const float StalkDoorInitialTimer = 0.1f;
+    private const float CameraWatchedRecoveryRate = 3f;
     public WaitAndRusher(JobNecessities necessities, bool switchedFromAnotherJob = false)
         : base(necessities)
     {
@@ -20,8 +27,8 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     public void JobSpecificInitilizations()
     {
         JobName = JobName.WaitAndRusher;
-        maxIdleTime = 20f - (0.5f * AiLevel) + (0.5f * profile.patience);
-        maxRuntime = Mathf.Lerp(3f, 2f, (AiLevel - 1f) / 19f);
+        maxIdleTime = Mathf.Max(0.1f, profile.baseIdleTime - (AiLevelIdleScale * AiLevel) + (PatienceIdleScale * profile.patience));
+        maxRuntime = Mathf.Lerp(MaxRunInterval, MinRunInterval, (AiLevel - 1f) / 19f);
         MovementTimer = maxIdleTime;
     }
 
@@ -82,7 +89,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
                 currentBehaviour = Behaviour.Idling;
                 break;
             case Behaviour.StalkDoor:
-                MovementTimer = 0.1f;
+                MovementTimer = StalkDoorInitialTimer;
                 currentBehaviour = Behaviour.StalkDoor;
                 break;
             default:
@@ -97,7 +104,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
         {
             if (MovementTimer < maxIdleTime)
             {
-                MovementTimer += 3 * Time.deltaTime;
+                MovementTimer += CameraWatchedRecoveryRate * Time.deltaTime;
             }
         }
         else

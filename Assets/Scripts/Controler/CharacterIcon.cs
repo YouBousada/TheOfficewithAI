@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class CharacterIcon : MonoBehaviour
 {
-    public RectTransform characterIcon;
-    public CharacterName thisCharacterName;
+    [SerializeField] private RectTransform characterIcon;
+    [SerializeField] private CharacterName thisCharacterName;
 
-    public Sprite greenSprite;
-    public Sprite redSprite;
-    public World world;
-    
-    public CharacterUIPositions positions;
+    [SerializeField] private Sprite greenSprite;
+    [SerializeField] private Sprite redSprite;
+    [SerializeField] private World world;
+
+    [SerializeField] private CharacterUIPositions positions;
 
     private void Awake()
     {

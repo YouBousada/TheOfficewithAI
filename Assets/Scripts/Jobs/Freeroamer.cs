@@ -8,6 +8,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
     private int minLeaveSteps = 3;
     private int currentLeaveStepsLeft;
     private DoorName lastFailedDoorLoc = DoorName.None;
+    private const float ReencroachChance = 0.6f;
 
 
 
@@ -90,7 +91,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
             {
                 currentLeaveStepsLeft--;
             }
-            else if (Random.value <= 0.6f)
+            else if (Random.value <= ReencroachChance)
             {
                 SwitchToBehaviour(Behaviour.Encroaching);
                 nextRoom = services.mapService.ChooseNext(currentMap.nodes[currentLoc]).roomName;

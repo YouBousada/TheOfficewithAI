@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class MapService
 {
+    private const float WeightJitterRange = 0.5f;
+    private const float FailedDoorWeightMultiplier = 0.1f;
+
     public sealed class RuntimeMap
     {
         public class RNode { public LocName roomName; public List<REdge> edges = new(); }
@@ -26,13 +29,13 @@ public class MapService
 
                 var runTo = RunTimeMap.nodes[baseMapEdge.to.thisBaseMapRoomName];
 
-                float randomValue = Random.Range(-0.5f, 0.5f);
+                float randomValue = Random.Range(-WeightJitterRange, WeightJitterRange);
 
                 float newWeight = jitterWeights ? baseMapEdge.weight + (baseMapEdge.weight * randomValue) : baseMapEdge.weight;
 
                 if(IFailedThatDoor(runTo, lastFailedDoor))
                 {
-                    newWeight *= 0.1f;
+                    newWeight *= FailedDoorWeightMultiplier;
                 }
 
                 currentRunTimeRoom.edges.Add(new RuntimeMap.REdge { to = runTo, weight = newWeight,});

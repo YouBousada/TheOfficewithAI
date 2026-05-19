@@ -1,22 +1,27 @@
 using UnityEngine;
 public class WhatsInViewManager : MonoBehaviour
 {
-    public World world;
+    [SerializeField] private World world;
     private ViewController activeViewController;
     private ViewController previouslyActiveViewData;
     void Start()
     {
-        foreach (var viewData in world.gameViews)
-            foreach (var obj in viewData.objectsInView)
+        
+        foreach (ViewController viewController in world.viewDictionary.Values)
+        {
+            foreach (var obj in viewController.objectsInView)
+            {
                 obj.SetActive(false);
+            }
+        }
 
+        activeViewController = world.viewDictionary[world.Player.CurrentView];
 
-        activeViewController = world.viewDictionary[world.player.currentView];
         foreach (var obj in activeViewController.objectsInView)
             obj.SetActive(true);
 
         previouslyActiveViewData = activeViewController;
-        world.player.OnViewChanged += RespondToViewChange;
+        world.Player.OnViewChanged += RespondToViewChange;
         world.aiMonitor.OnDeath += JumpscareHideObjects;
     }
 
@@ -45,13 +50,8 @@ public class WhatsInViewManager : MonoBehaviour
     }
 
     void JumpscareHideObjects(CharacterName killer, LocName location)
-    {   
-        foreach (var obj in activeViewController.objectsInView)
-        {
-            if(activeViewController.hideUponJumpscare.Contains(obj))
-            {
-                obj.SetActive(false);
-            }
-        }
+    {
+        foreach (var obj in activeViewController.hideUponJumpscare)
+            obj.SetActive(false);
     }
 }

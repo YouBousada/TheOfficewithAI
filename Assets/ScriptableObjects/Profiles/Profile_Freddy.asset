@@ -18,6 +18,9 @@ MonoBehaviour:
   patience: 10
   nightStartingRoom: 2
   willingnessToSwitchJobs: 0.9
+  baseIdleTime: 20
+  socialRepelStrength: 10
+  socialAttractStrength: 0.5
   jobsByPreference: 010000000200000000000000
   possibleIdleRooms: 0300000001000000
   likedCharacters: 

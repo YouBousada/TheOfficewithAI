@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class Screen : MonoBehaviour
 {
-    public World world;
-    public ScreenPosition deskPosition;
-    public ScreenPosition closePosition;
-    public RectTransform rect;
+    [SerializeField] private World world;
+    [SerializeField] private ScreenPosition deskPosition;
+    [SerializeField] private ScreenPosition closePosition;
+    [SerializeField] private RectTransform rect;
 
 
     void Awake()
     {
-        world.player.OnViewChanged += WarpToView;
+        world.Player.OnViewChanged += WarpToView;
     }
     public void WarpToView(View newView)
     {

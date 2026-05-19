@@ -80,7 +80,7 @@ public class CameraViewManager : MonoBehaviour
 
     private void AddCharactersToView()
     {
-        foreach (Animatronic anim in world.animatronicList)
+        foreach (Animatronic anim in world.animatronicDictionary.Values)
         {
             if (anim.GetCurrentLocation() == activeCamera)
             {
@@ -100,7 +100,7 @@ public class CameraViewManager : MonoBehaviour
     {
         if (to == activeCamera)
         {
-            AddCharacter(who, world.animatronicSet[who].GetCurrentBehaviour());
+            AddCharacter(who, world.animatronicDictionary[who].GetCurrentBehaviour());
         }
         else if (from == activeCamera)
         {
@@ -110,7 +110,7 @@ public class CameraViewManager : MonoBehaviour
 
     public void HandleAnimatronicBehaviorChange(CharacterName who, Behaviour oldBehaviour, Behaviour newBehaviour)
     {
-        if(world.animatronicSet[who].GetCurrentLocation() != activeCamera)
+        if(world.animatronicDictionary[who].GetCurrentLocation() != activeCamera)
         {
             return;
         }

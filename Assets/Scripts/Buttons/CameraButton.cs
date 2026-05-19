@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CameraButton : MonoBehaviour
 {
-    public LocName thisRoom;
+    [SerializeField] private LocName thisRoom;
 
-    public CameraSystem cameraSystem;
+    [SerializeField] private CameraSystem cameraSystem;
 
     public void OnButtonPressed()
     {

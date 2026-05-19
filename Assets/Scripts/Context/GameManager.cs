@@ -1,20 +1,38 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public bool isGameOver = false;
-
-    public void TriggerGameOver()
+    [SerializeField] private World world;
+    [SerializeField] private float gameOverDelay = 3f;
+    public void Start()
     {
-        isGameOver = true;
+        world.aiMonitor.OnDeath += HandleDeath;
+    }
+    private void TriggerGameOver()
+    {
         SceneManager.LoadScene("GameOverScene");
-
     }
 
-    public void RestartGame()
+    private void RestartGame()
     {
-        isGameOver = false;
         SceneManager.LoadScene("GameScene");
+    }
+
+    private void HandleDeath(CharacterName who, LocName from)
+    {
+        StartCoroutine(DelayedGameOver());
+    }
+
+    private IEnumerator DelayedGameOver()
+    {
+        yield return new WaitForSeconds(gameOverDelay);
+        TriggerGameOver();
+    }
+
+    void OnDestroy()
+    {
+        world.aiMonitor.OnDeath -= HandleDeath;
     }
 }

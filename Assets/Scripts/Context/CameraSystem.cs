@@ -3,7 +3,7 @@ using UnityEngine;
 public class CameraSystem : MonoBehaviour
 {
     private LocName startingCameraRoom = LocName.Stage;
-    public LocName activeCamera;
+    public LocName activeCamera { get; private set; }
     void Start()
     {
         activeCamera = startingCameraRoom;

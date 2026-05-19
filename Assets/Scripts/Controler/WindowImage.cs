@@ -3,21 +3,22 @@ using UnityEngine.UI;
 
 public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 {
-    public World world;
-    public LocName thisWindowDoor;
+    [SerializeField] private World world;
+    [SerializeField] private LocName thisWindowDoor;
     private Image Image;
     private AnimationPlayer animPlayer;
     private CharacterName WatcherAtThisWindow = CharacterName.None;
+    private bool started = false;
 
     [Header("Idle Window Sprites")]
-    public Sprite noOneAtThisWindow;
-    public Sprite bonnieAtThisWindow;
-    public Sprite chicaAtThisWindow;
-    public Sprite foxyAtThisWindow;
-    public Sprite freddyAtThisWindow;   
+    [SerializeField] private Sprite noOneAtThisWindow;
+    [SerializeField] private Sprite bonnieAtThisWindow;
+    [SerializeField] private Sprite chicaAtThisWindow;
+    [SerializeField] private Sprite foxyAtThisWindow;
+    [SerializeField] private Sprite freddyAtThisWindow;
 
     [Header("JumpscareData")]
-    public WindowJumpscareData jumpscareData;
+    [SerializeField] private WindowJumpscareData jumpscareData;
 
     void Awake()
     {
@@ -27,6 +28,19 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 
     void OnEnable()
     {
+        if (!started)
+        {
+            return;
+        }
+
+        DoSubscribing();
+        SeeIfAWindowWatcherIsHere();
+    }
+
+    void Start()
+    {
+        started = true;
+        
         DoSubscribing();
         SeeIfAWindowWatcherIsHere();
     }
@@ -102,22 +116,22 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 
     private void SeeIfAWindowWatcherIsHere()
     {
-        if (world.animatronicSet[CharacterName.Bonnie].GetCurrentLocation() == thisWindowDoor && world.animatronicSet[CharacterName.Bonnie].GetCurrentJobName() == JobName.WindowWatcher)
+        if (world.animatronicDictionary[CharacterName.Bonnie].GetCurrentLocation() == thisWindowDoor && world.animatronicDictionary[CharacterName.Bonnie].GetCurrentJobName() == JobName.WindowWatcher)
         {
             RespondToMovement(CharacterName.Bonnie, LocName.None, thisWindowDoor);
             // Debug.Log("WindowImage: Bonnie found at his window on enable");
         }
-        else if (world.animatronicSet[CharacterName.Chica].GetCurrentLocation() == thisWindowDoor && world.animatronicSet[CharacterName.Chica].GetCurrentJobName() == JobName.WindowWatcher)
+        else if (world.animatronicDictionary[CharacterName.Chica].GetCurrentLocation() == thisWindowDoor && world.animatronicDictionary[CharacterName.Chica].GetCurrentJobName() == JobName.WindowWatcher)
         {
             RespondToMovement(CharacterName.Chica, LocName.None, thisWindowDoor);
             // Debug.Log("WindowImage: Chica found at her window on enable");
         }
-        else if (world.animatronicSet[CharacterName.Foxy].GetCurrentLocation() == thisWindowDoor && world.animatronicSet[CharacterName.Foxy].GetCurrentJobName() == JobName.WindowWatcher)
+        else if (world.animatronicDictionary[CharacterName.Foxy].GetCurrentLocation() == thisWindowDoor && world.animatronicDictionary[CharacterName.Foxy].GetCurrentJobName() == JobName.WindowWatcher)
         {
             RespondToMovement(CharacterName.Foxy, LocName.None, thisWindowDoor);
             // Debug.Log("WindowImage: Foxy found at his window on enable");
         }
-        else if (world.animatronicSet[CharacterName.Freddy].GetCurrentLocation() == thisWindowDoor && world.animatronicSet[CharacterName.Freddy].GetCurrentJobName() == JobName.WindowWatcher)
+        else if (world.animatronicDictionary[CharacterName.Freddy].GetCurrentLocation() == thisWindowDoor && world.animatronicDictionary[CharacterName.Freddy].GetCurrentJobName() == JobName.WindowWatcher)
         {
             RespondToMovement(CharacterName.Freddy, LocName.None, thisWindowDoor);
             // Debug.Log("WindowImage: Freddy found at his window on enable");
@@ -158,7 +172,7 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
             
         if (to != thisWindowDoor) return;
 
-        if (world.animatronicSet[who].GetCurrentJobName() != JobName.WindowWatcher) return;
+        if (world.animatronicDictionary[who].GetCurrentJobName() != JobName.WindowWatcher) return;
 
         WatcherAtThisWindow = who;
 

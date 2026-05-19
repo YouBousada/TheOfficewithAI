@@ -3,22 +3,31 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public View currentView;
-    public View startingView;
-    public bool isDead = false;
+    public static Player Instance { get; private set; }
+
+    public View CurrentView { get; private set; }
+    [SerializeField] private View startingView;
+    public bool IsDead { get; private set; } = false;
 
     public event Action<View> OnViewChanged;
     public event Action<Action> OnActionPerformed;
 
-    private void Start()
+    private void Awake()
     {
+        Instance = this;
         SetView(startingView);
     }
 
     public void SetView(View newView)
     {
-        currentView = newView;
+        CurrentView = newView;
         OnViewChanged?.Invoke(newView);
+    }
+
+    public void Die()
+    {
+        if (IsDead) return;
+        IsDead = true;
     }
 
     public void PerformAction(Action action)

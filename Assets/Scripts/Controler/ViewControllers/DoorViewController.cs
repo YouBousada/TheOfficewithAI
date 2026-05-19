@@ -4,12 +4,12 @@ using System.Collections.Generic;
 
 public abstract class DoorViewController : ViewController
 {
-    public DoorViewJumpscareData doorViewJumpscareData;
+    [SerializeField] private DoorViewJumpscareData doorViewJumpscareData;
 
-    public AnimationSequence DoorOpenAnimation;
-    public AnimationSequence DoorCloseAnimation;
-    public Sprite DoorClosedImage;
-    public Sprite DoorOpenImage;
+    [SerializeField] private AnimationSequence DoorOpenAnimation;
+    [SerializeField] private AnimationSequence DoorCloseAnimation;
+    [SerializeField] private Sprite DoorClosedImage;
+    [SerializeField] private Sprite DoorOpenImage;
 
     protected abstract bool isThisDoorOpen { get; }
     protected abstract Action OpenAction { get; }

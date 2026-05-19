@@ -2,6 +2,7 @@ using UnityEngine;
 public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 {
     protected override Behaviour InitialBehaviour => Behaviour.InvisableRoaming;
+    private const float StaringTimeMultiplier = 0.5f;
 
     public WindowWatcher(JobNecessities necessities, bool switchedFromAnotherJob = false)
         : base(necessities)
@@ -119,7 +120,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
     private bool PlayerIsLookingAtThisWindow(LocName chosenLocation)
     {
-        return (world.player.currentView == View.LeftDoor && chosenLocation == LocName.WestDoor) || (world.player.currentView == View.RightDoor && chosenLocation == LocName.EastDoor);
+        return (world.Player.CurrentView == View.LeftDoor && chosenLocation == LocName.WestDoor) || (world.Player.CurrentView == View.RightDoor && chosenLocation == LocName.EastDoor);
     }
 
     public override bool HandleNewBehaviour(Behaviour newBehaviour)
@@ -131,7 +132,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
                 currentBehaviour = Behaviour.InvisableRoaming;
                 break;
             case Behaviour.StareThroughWindow:
-                MovementTimer = services.timeGenerator.WeibullTime(AiLevel, null, 0.5f);
+                MovementTimer = services.timeGenerator.WeibullTime(AiLevel, null, StaringTimeMultiplier);
                 currentBehaviour = Behaviour.StareThroughWindow;
                 break;
             default:
@@ -171,7 +172,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
     public bool PlayerIsLookingAtMeThroughWindow()
     {
-        if (world.player.currentView == View.LeftDoor && currentLoc == LocName.WestDoor || world.player.currentView == View.RightDoor && currentLoc == LocName.EastDoor)
+        if (world.Player.CurrentView == View.LeftDoor && currentLoc == LocName.WestDoor || world.Player.CurrentView == View.RightDoor && currentLoc == LocName.EastDoor)
         {
             return true;
         }

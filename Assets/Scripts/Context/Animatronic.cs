@@ -14,14 +14,14 @@ public class Animatronic : MonoBehaviour
     private bool hasPendingSwitch;
     private JobName pendingJob;
 
-
-
     void Awake()
     {
         if (world == null || services == null || mapGraphs == null || profile == null)
             Debug.LogError($"{name}: Missing references on Animatronic.");
 
         recordedLoc = profile.nightStartingRoom;
+
+        world.animatronicDictionary.Add(profile.characterName, this);
     }
 
     void OnEnable()
