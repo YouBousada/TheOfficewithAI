@@ -105,28 +105,28 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
         if (world.animatronicSet[CharacterName.Bonnie].GetCurrentLocation() == thisWindowDoor && world.animatronicSet[CharacterName.Bonnie].GetCurrentJobName() == JobName.WindowWatcher)
         {
             RespondToMovement(CharacterName.Bonnie, LocName.None, thisWindowDoor);
-            Debug.Log("WindowImage: Bonnie found at his window on enable");
+            // Debug.Log("WindowImage: Bonnie found at his window on enable");
         }
         else if (world.animatronicSet[CharacterName.Chica].GetCurrentLocation() == thisWindowDoor && world.animatronicSet[CharacterName.Chica].GetCurrentJobName() == JobName.WindowWatcher)
         {
             RespondToMovement(CharacterName.Chica, LocName.None, thisWindowDoor);
-            Debug.Log("WindowImage: Chica found at her window on enable");
+            // Debug.Log("WindowImage: Chica found at her window on enable");
         }
         else if (world.animatronicSet[CharacterName.Foxy].GetCurrentLocation() == thisWindowDoor && world.animatronicSet[CharacterName.Foxy].GetCurrentJobName() == JobName.WindowWatcher)
         {
             RespondToMovement(CharacterName.Foxy, LocName.None, thisWindowDoor);
-            Debug.Log("WindowImage: Foxy found at his window on enable");
+            // Debug.Log("WindowImage: Foxy found at his window on enable");
         }
         else if (world.animatronicSet[CharacterName.Freddy].GetCurrentLocation() == thisWindowDoor && world.animatronicSet[CharacterName.Freddy].GetCurrentJobName() == JobName.WindowWatcher)
         {
             RespondToMovement(CharacterName.Freddy, LocName.None, thisWindowDoor);
-            Debug.Log("WindowImage: Freddy found at his window on enable");
+            // Debug.Log("WindowImage: Freddy found at his window on enable");
         }
         else
         {
             WatcherAtThisWindow = CharacterName.None;
             Image.sprite = noOneAtThisWindow;
-            Debug.Log("WindowImage: No one found at this window on enable");
+            // Debug.Log("WindowImage: No one found at this window on enable");
         }
     }
 

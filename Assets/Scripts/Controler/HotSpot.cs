@@ -6,19 +6,13 @@ public class HotSpot : MonoBehaviour
     public View to;
     public Action action;
 
-    public void EnvokeViewChange()
-    {
+    public void EnvokeViewChange(){
         world.player.SetView(to);
+        Debug.Log("Player set view to " + to);
     }
-
-    public void EnvokeAction()
-    {
+    public void EnvokeAction(){
         world.player.PerformAction(action);
-
-        if (action == Action.OpenLeftDoor) world.SetLeftDoor(true);
-        else if (action == Action.CloseLeftDoor) world.SetLeftDoor(false);
-        else if (action == Action.OpenRightDoor) world.SetRightDoor(true);
-        else if (action == Action.CloseRightDoor) world.SetRightDoor(false);
+        Debug.Log("action taken: " + action);
     }
 
 }

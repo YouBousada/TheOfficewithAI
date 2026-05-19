@@ -16,12 +16,10 @@ public class Screen : MonoBehaviour
     {
         if (newView == View.Desk)
         {
-            // Invoke("ApplyDeskPosition", time / 2f);
             ApplyDeskPosition();
         }
         else if (newView == View.Cameras)
         {
-            // Invoke("ApplyClosePosition", time / 2f);
             ApplyClosePosition();
         }
     }

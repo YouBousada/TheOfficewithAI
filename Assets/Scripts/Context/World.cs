@@ -46,4 +46,22 @@ public class World : MonoBehaviour
         leftDoorIsOpen = true;
         rightDoorIsOpen = true;
     }
+
+    public void Start()
+    {
+        player.OnActionPerformed += HandleAction;
+    }
+
+    void HandleAction(Action action)
+    {
+        if (action == Action.OpenLeftDoor) SetLeftDoor(true);
+        else if (action == Action.CloseLeftDoor) SetLeftDoor(false);
+        else if (action == Action.OpenRightDoor) SetRightDoor(true);
+        else if (action == Action.CloseRightDoor) SetRightDoor(false);
+    }
+
+    void OnDestroy()
+    {
+        player.OnActionPerformed -= HandleAction;
+    }
 }
