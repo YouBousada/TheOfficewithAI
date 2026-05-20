@@ -2,17 +2,25 @@ using UnityEngine;
 
 public class CameraSystem : MonoBehaviour
 {
+    public static CameraSystem Instance { get; private set; }
+
     private LocName startingCameraRoom = LocName.Stage;
-    public LocName activeCamera { get; private set; }
+    public LocName ActiveCamera { get; private set; }
+
+    void Awake()
+    {
+        Instance = this;
+    }
+
     void Start()
     {
-        activeCamera = startingCameraRoom;
+        ActiveCamera = startingCameraRoom;
     }
     public void SetCameraRoom(LocName newRoom)
     {
-        if(newRoom != activeCamera)
+        if(newRoom != ActiveCamera)
         {
-            activeCamera = newRoom;
+            ActiveCamera = newRoom;
             OnCameraRoomChanged?.Invoke(newRoom);
         }
     }

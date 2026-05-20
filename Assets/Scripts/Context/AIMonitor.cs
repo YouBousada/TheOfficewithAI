@@ -3,6 +3,13 @@ using System;
 
 public class AIMonitor : MonoBehaviour
 {
+    public static AIMonitor Instance { get; private set; }
+
+    void Awake()
+    {
+        Instance = this;
+    }
+
     public void HandleLocationChange(CharacterName who, LocName from, LocName to)
     {
         // Debug.Log($"[{Time.time:F2}] {who} moved from {from} to {to}");

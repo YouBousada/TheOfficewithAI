@@ -38,7 +38,7 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
 
         world.Player.OnActionPerformed += RespondToAction;
         world.Player.OnViewChanged += OnViewActivated;
-        world.aiMonitor.OnDeath += ReactToJumpscare;
+        world.AIMonitor.OnDeath += ReactToJumpscare;
     }
 
     protected abstract void RespondToAction(Action action);
@@ -62,7 +62,7 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
     {
         world.Player.OnActionPerformed -= RespondToAction;
         world.Player.OnViewChanged -= OnViewActivated;
-        world.aiMonitor.OnDeath -= ReactToJumpscare;
+        world.AIMonitor.OnDeath -= ReactToJumpscare;
 
     }
 

@@ -6,7 +6,7 @@ public class CharacterProfile : ScriptableObject
 {
     public CharacterName characterName;
     public float speed;
-    public float cameraSensitiviy;
+    public float cameraSensitivity;
     public float patience;
     public LocName nightStartingRoom;
     public float willingnessToSwitchJobs;

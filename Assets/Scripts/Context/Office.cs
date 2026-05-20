@@ -3,16 +3,32 @@ using System;
 
 public class Office : MonoBehaviour
 {
+    public static Office Instance { get; private set; }
+
     public float Power { get; private set; } = 100f;
     public bool LeftDoorIsOpen { get; private set; }
     public bool RightDoorIsOpen { get; private set; }
 
-    private float doorDrainagePerSecond = 0.1f;
+    private float doorDrainagePerSecond = 1f;
 
     public event Action<bool, bool> OnDoorStateChanged;
+    public event System.Action OnPowerOutage;
+
+    private bool invokedPowerOutage = false;
+
+    void OnGUI()
+    {
+        GUIStyle style = new(GUI.skin.label) { fontSize =  20 };
+        style.normal.textColor = Color.green;
+
+        GUI.Label(new Rect(10, 10, 300, 40), $"Power: {Power}", style);
+        GUI.Label(new Rect(10, 50, 300, 40), $"Left Door is Open : {LeftDoorIsOpen}", style);
+        GUI.Label(new Rect(10, 90, 300, 40), $"Right Door is Open: {RightDoorIsOpen}", style);
+    }
 
     void Awake()
     {
+        Instance = this;
         LeftDoorIsOpen = true;
         RightDoorIsOpen = true;
     }
@@ -24,6 +40,12 @@ public class Office : MonoBehaviour
 
     void Update()
     {
+        if(Power < 0 && invokedPowerOutage == false)
+        {
+            OnPowerOutage?.Invoke();
+            invokedPowerOutage = true;
+        }
+
         if (!LeftDoorIsOpen)
         {
             Power -= Time.deltaTime * doorDrainagePerSecond;
@@ -55,6 +77,7 @@ public class Office : MonoBehaviour
         RightDoorIsOpen = isOpen;
         OnDoorStateChanged?.Invoke(LeftDoorIsOpen, RightDoorIsOpen);
     }
+
 
     void OnDestroy()
     {

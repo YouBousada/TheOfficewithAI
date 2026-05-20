@@ -13,9 +13,9 @@ public class CharacterIcon : MonoBehaviour
 
     private void Awake()
     {
-        world.aiMonitor.OnLocationChanged += HandleRoomChange;
-        world.aiMonitor.OnBehaviourChanged += HandleBehaviourChange;
-        world.aiMonitor.OnInitialization += (who, location, behaviour, job) =>
+        world.AIMonitor.OnLocationChanged += HandleRoomChange;
+        world.AIMonitor.OnBehaviourChanged += HandleBehaviourChange;
+        world.AIMonitor.OnInitialization += (who, location, behaviour, job) =>
         {
             HandleRoomChange(who, location, location);
         };
@@ -118,7 +118,7 @@ public class CharacterIcon : MonoBehaviour
 
      void OnDestroy()
     {
-        world.aiMonitor.OnLocationChanged -= HandleRoomChange;
-        world.aiMonitor.OnBehaviourChanged -= HandleBehaviourChange;
+        world.AIMonitor.OnLocationChanged -= HandleRoomChange;
+        world.AIMonitor.OnBehaviourChanged -= HandleBehaviourChange;
     }
 }

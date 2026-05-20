@@ -1,29 +1,29 @@
 using UnityEngine;
 public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 {
-    protected override Behaviour InitialBehaviour => Behaviour.InvisableRoaming;
+    protected override Behaviour InitialBehaviour => Behaviour.InvisibleRoaming;
     private const float StaringTimeMultiplier = 0.5f;
 
     public WindowWatcher(JobNecessities necessities, bool switchedFromAnotherJob = false)
         : base(necessities)
     {
-        JobSpecificInitilizations();
+        JobSpecificInitializations();
         HandleSwitchInitialization(switchedFromAnotherJob);
-        DeclareInitilization();
+        DeclareInitialization();
 
     }
 
-    public void JobSpecificInitilizations()
+    public void JobSpecificInitializations()
     {
         JobName = JobName.WindowWatcher;
-        MovementTimer = services.timeGenerator.WeibullTime(AiLevel, profile);
+        MovementTimer = services.TimeGenerator.WeibullTime(AiLevel, profile);
     }
 
     public void HandleSwitchInitialization(bool switchedFromAnotherJob)
     {
         if (switchedFromAnotherJob)
         {
-            SwitchToBehaviour(Behaviour.InvisableRoaming);
+            SwitchToBehaviour(Behaviour.InvisibleRoaming);
             currentLoc = LocName.NoWhere;
         }
     }
@@ -32,7 +32,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
     {
         switch (currentBehaviour)
         {
-            case Behaviour.InvisableRoaming:
+            case Behaviour.InvisibleRoaming:
                 InvisibleRoam();
                 break;
             case Behaviour.StareThroughWindow:
@@ -48,7 +48,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
         MovementTimer -= Time.deltaTime;
         if (MovementTimer <= 0f)
         {
-            MovementTimer = services.timeGenerator.WeibullTime(AiLevel, profile);
+            MovementTimer = services.TimeGenerator.WeibullTime(AiLevel, profile);
             StepandNotify();
         }
     }
@@ -64,7 +64,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
                     if (PlayerIsLookingAtThisWindow(door))
                     {
-                        SwitchToBehaviour(Behaviour.InvisableRoaming);
+                        SwitchToBehaviour(Behaviour.InvisibleRoaming);
                         return LocName.NoWhere;
                     }
 
@@ -75,7 +75,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
                 }
 
             default:
-                SwitchToBehaviour(Behaviour.InvisableRoaming);
+                SwitchToBehaviour(Behaviour.InvisibleRoaming);
                 return LocName.NoWhere;
         }
     }
@@ -90,7 +90,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
         if (occupiedEast && occupiedWest)
         {
-            SwitchToBehaviour(Behaviour.InvisableRoaming);
+            SwitchToBehaviour(Behaviour.InvisibleRoaming);
             return chosenLocation;
         }
 
@@ -127,12 +127,12 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
     {
         switch (newBehaviour)
         {
-            case Behaviour.InvisableRoaming:
-                MovementTimer = services.timeGenerator.WeibullTime(AiLevel);
-                currentBehaviour = Behaviour.InvisableRoaming;
+            case Behaviour.InvisibleRoaming:
+                MovementTimer = services.TimeGenerator.WeibullTime(AiLevel);
+                currentBehaviour = Behaviour.InvisibleRoaming;
                 break;
             case Behaviour.StareThroughWindow:
-                MovementTimer = services.timeGenerator.WeibullTime(AiLevel, null, StaringTimeMultiplier);
+                MovementTimer = services.TimeGenerator.WeibullTime(AiLevel, null, StaringTimeMultiplier);
                 currentBehaviour = Behaviour.StareThroughWindow;
                 break;
             default:
@@ -161,7 +161,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
         {
             if (AttemptToSwitchJobs())
                 return;
-            MovementTimer = services.timeGenerator.ExponentialTime(AiLevel);
+            MovementTimer = services.TimeGenerator.ExponentialTime(AiLevel);
             StepandNotify();
         }
         else

@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   world: {fileID: 1108953928}
-  gameOverDelay: 3
+  gameOverDelay: 1
 --- !u!1 &19047312
 GameObject:
   m_ObjectHideFlags: 0
@@ -5694,8 +5694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <Player>k__BackingField: {fileID: 825810208}
-  <cameraSystem>k__BackingField: {fileID: 19047313}
-  <aiMonitor>k__BackingField: {fileID: 161621954}
+  <CameraSystem>k__BackingField: {fileID: 19047313}
+  <AIMonitor>k__BackingField: {fileID: 161621954}
   <OfficeStates>k__BackingField: {fileID: 1805175351}
 --- !u!4 &1108953929
 Transform:

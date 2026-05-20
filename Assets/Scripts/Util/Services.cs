@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class Services : MonoBehaviour
 {
-    public MapService mapService { get; private set; }
-    public TimeGenerator timeGenerator { get; private set; }
-    public JobArbiter jobArbiter  { get; private set; }
+    public MapService MapService { get; private set; }
+    public TimeGenerator TimeGenerator { get; private set; }
+    public JobArbiter JobArbiter  { get; private set; }
     void Awake()
     {
-        mapService = new MapService();
-        timeGenerator = new TimeGenerator();
-        jobArbiter = new JobArbiter();
+        MapService = new MapService();
+        TimeGenerator = new TimeGenerator();
+        JobArbiter = new JobArbiter();
     }
 
 }

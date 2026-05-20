@@ -25,7 +25,7 @@ public class CameraViewManager : MonoBehaviour
     private Dictionary<int, Image> sortingLayerToImage = new Dictionary<int, Image>();
 
     private RoomCameraData thisRoomCameraData;
-    private LocName activeCamera;
+    private LocName ActiveCamera;
 
     
 
@@ -45,22 +45,22 @@ public class CameraViewManager : MonoBehaviour
 
     public void OnEnable()
     {
-        activeCamera = world.cameraSystem.activeCamera;
+        ActiveCamera = world.CameraSystem.ActiveCamera;
 
-        world.aiMonitor.OnLocationChanged += HandleAnimatronicMovement;
-        world.aiMonitor.OnBehaviourChanged += HandleAnimatronicBehaviorChange;
-        world.cameraSystem.OnCameraRoomChanged += HandleCameraRoomChanged;
+        world.AIMonitor.OnLocationChanged += HandleAnimatronicMovement;
+        world.AIMonitor.OnBehaviourChanged += HandleAnimatronicBehaviorChange;
+        world.CameraSystem.OnCameraRoomChanged += HandleCameraRoomChanged;
     }
 
     public void Start()
     {
-        HandleCameraRoomChanged(world.cameraSystem.activeCamera);
+        HandleCameraRoomChanged(world.CameraSystem.ActiveCamera);
     }
 
 
     private void HandleCameraRoomChanged(LocName newRoom)
     {
-        activeCamera = newRoom;
+        ActiveCamera = newRoom;
 
         ClearView();
 
@@ -82,7 +82,7 @@ public class CameraViewManager : MonoBehaviour
     {
         foreach (Animatronic anim in world.animatronicDictionary.Values)
         {
-            if (anim.GetCurrentLocation() == activeCamera)
+            if (anim.GetCurrentLocation() == ActiveCamera)
             {
                 AddCharacter(anim.GetCharacterName(), anim.GetCurrentBehaviour());
             }
@@ -91,18 +91,18 @@ public class CameraViewManager : MonoBehaviour
 
     public void OnDisable()
     {
-        world.aiMonitor.OnLocationChanged -= HandleAnimatronicMovement;
-        world.aiMonitor.OnBehaviourChanged -= HandleAnimatronicBehaviorChange;
-        world.cameraSystem.OnCameraRoomChanged -= HandleCameraRoomChanged;
+        world.AIMonitor.OnLocationChanged -= HandleAnimatronicMovement;
+        world.AIMonitor.OnBehaviourChanged -= HandleAnimatronicBehaviorChange;
+        world.CameraSystem.OnCameraRoomChanged -= HandleCameraRoomChanged;
     }
 
     public void HandleAnimatronicMovement(CharacterName who, LocName from, LocName to)
     {
-        if (to == activeCamera)
+        if (to == ActiveCamera)
         {
             AddCharacter(who, world.animatronicDictionary[who].GetCurrentBehaviour());
         }
-        else if (from == activeCamera)
+        else if (from == ActiveCamera)
         {
             RemoveCharacterFromThisView(who);
         }   
@@ -110,7 +110,7 @@ public class CameraViewManager : MonoBehaviour
 
     public void HandleAnimatronicBehaviorChange(CharacterName who, Behaviour oldBehaviour, Behaviour newBehaviour)
     {
-        if(world.animatronicDictionary[who].GetCurrentLocation() != activeCamera)
+        if(world.animatronicDictionary[who].GetCurrentLocation() != ActiveCamera)
         {
             return;
         }
@@ -144,7 +144,7 @@ public class CameraViewManager : MonoBehaviour
 
         int layerInt = -1;
 
-        if(activeCamera  == LocName.Stage)
+        if(ActiveCamera  == LocName.Stage)
         {
            layerInt = totalCameraData.GetStageLayerForCharacter(thisCharacter);
         }

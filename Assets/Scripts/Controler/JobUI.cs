@@ -9,16 +9,16 @@ public class JobUI : MonoBehaviour
 
     void Awake()
     {
-        world.aiMonitor.OnInitialization += HandleInit;
-        world.aiMonitor.OnJobSwitched += HandleJobSwitch;
+        world.AIMonitor.OnInitialization += HandleInit;
+        world.AIMonitor.OnJobSwitched += HandleJobSwitch;
     }
 
     void OnDestroy()
     {
         if (world == null) return;
 
-        world.aiMonitor.OnInitialization -= HandleInit;
-        world.aiMonitor.OnJobSwitched -= HandleJobSwitch;
+        world.AIMonitor.OnInitialization -= HandleInit;
+        world.AIMonitor.OnJobSwitched -= HandleJobSwitch;
     }
 
     void HandleInit(CharacterName who, LocName loc, Behaviour behaviour, JobName job)

@@ -7,7 +7,7 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
     [SerializeField] private LocName thisWindowDoor;
     private Image Image;
     private AnimationPlayer animPlayer;
-    private CharacterName WatcherAtThisWindow = CharacterName.None;
+    private CharacterName watcherAtThisWindow = CharacterName.None;
     private bool started = false;
 
     [Header("Idle Window Sprites")]
@@ -57,7 +57,7 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 
     public void ReactToJumpscare(CharacterName who, LocName from)
     {
-        if(who == WatcherAtThisWindow)
+        if(who == watcherAtThisWindow)
         {
             Image.sprite = noOneAtThisWindow;
             return;
@@ -65,19 +65,19 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
         
         if((from == LocName.EastDoor && thisWindowDoor == LocName.EastDoor) || (from == LocName.WestDoor && thisWindowDoor == LocName.WestDoor))
         {
-            if(WatcherAtThisWindow == CharacterName.Bonnie)
+            if(watcherAtThisWindow == CharacterName.Bonnie)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromHereBonnieAnimation, gameObject);
             }
-            else if(WatcherAtThisWindow == CharacterName.Chica)
+            else if(watcherAtThisWindow == CharacterName.Chica)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromHereChicaAnimation, gameObject);
             }
-            else if(WatcherAtThisWindow == CharacterName.Foxy)
+            else if(watcherAtThisWindow == CharacterName.Foxy)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromHereFoxyAnimation, gameObject);
             }
-            else if(WatcherAtThisWindow == CharacterName.Freddy)
+            else if(watcherAtThisWindow == CharacterName.Freddy)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromHereFreddyAnimation, gameObject);
             }
@@ -86,19 +86,19 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 
         if((from == LocName.EastDoor && thisWindowDoor == LocName.WestDoor) || (from == LocName.WestDoor && thisWindowDoor == LocName.EastDoor))
         {
-            if(WatcherAtThisWindow == CharacterName.Bonnie)
+            if(watcherAtThisWindow == CharacterName.Bonnie)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorBonnieAnimation, gameObject);
             }
-            else if(WatcherAtThisWindow == CharacterName.Chica)
+            else if(watcherAtThisWindow == CharacterName.Chica)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorChicaAnimation, gameObject);
             }
-            else if(WatcherAtThisWindow == CharacterName.Foxy)
+            else if(watcherAtThisWindow == CharacterName.Foxy)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorFoxyAnimation, gameObject);
             }
-            else if(WatcherAtThisWindow == CharacterName.Freddy)
+            else if(watcherAtThisWindow == CharacterName.Freddy)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorFreddyAnimation, gameObject);
             }
@@ -109,9 +109,9 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 
     private void DoSubscribing()
     {
-        world.aiMonitor.OnLocationChanged += RespondToMovement;
-        world.aiMonitor.OnJobSwitched += RespondToJobSwitch;
-        world.aiMonitor.OnDeath += ReactToJumpscare;
+        world.AIMonitor.OnLocationChanged += RespondToMovement;
+        world.AIMonitor.OnJobSwitched += RespondToJobSwitch;
+        world.AIMonitor.OnDeath += ReactToJumpscare;
     }
 
     private void SeeIfAWindowWatcherIsHere()
@@ -138,7 +138,7 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
         }
         else
         {
-            WatcherAtThisWindow = CharacterName.None;
+            watcherAtThisWindow = CharacterName.None;
             Image.sprite = noOneAtThisWindow;
             // Debug.Log("WindowImage: No one found at this window on enable");
         }
@@ -146,16 +146,16 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 
     void OnDisable()
     {
-        world.aiMonitor.OnLocationChanged -= RespondToMovement;
-        world.aiMonitor.OnJobSwitched -= RespondToJobSwitch;
-        world.aiMonitor.OnDeath -= ReactToJumpscare;
+        world.AIMonitor.OnLocationChanged -= RespondToMovement;
+        world.AIMonitor.OnJobSwitched -= RespondToJobSwitch;
+        world.AIMonitor.OnDeath -= ReactToJumpscare;
     }
 
     void RespondToJobSwitch(CharacterName who, JobName fromJob, JobName toJob)
     {
-        if (toJob != JobName.WindowWatcher && who == WatcherAtThisWindow)
+        if (toJob != JobName.WindowWatcher && who == watcherAtThisWindow)
         {
-            WatcherAtThisWindow = CharacterName.None;
+            watcherAtThisWindow = CharacterName.None;
             Image.sprite = noOneAtThisWindow;
         }
     }
@@ -163,9 +163,9 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
     {
         Debug.Log($"WindowImage: UpdateWindowImage called for {who} moving from {from} to {to}");
 
-        if (who == WatcherAtThisWindow && to != thisWindowDoor)
+        if (who == watcherAtThisWindow && to != thisWindowDoor)
         {
-            WatcherAtThisWindow = CharacterName.None;
+            watcherAtThisWindow = CharacterName.None;
             Image.sprite = noOneAtThisWindow;
             return;
         }
@@ -174,7 +174,7 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 
         if (world.animatronicDictionary[who].GetCurrentJobName() != JobName.WindowWatcher) return;
 
-        WatcherAtThisWindow = who;
+        watcherAtThisWindow = who;
 
         Image.sprite = who switch
         {

@@ -26,21 +26,21 @@ public class Animatronic : MonoBehaviour
 
     void OnEnable()
     {
-        world.aiMonitor.OnJobSwitched += HandleSwitchRequest;
+        world.AIMonitor.OnJobSwitched += HandleSwitchRequest;
 
-        world.aiMonitor.OnLocationChanged += HandleLocationChange;
+        world.AIMonitor.OnLocationChanged += HandleLocationChange;
 
-        world.aiMonitor.OnDeath += HandleDeath;
+        world.AIMonitor.OnDeath += HandleDeath;
 
     }
 
     void OnDisable()
     {
-        world.aiMonitor.OnJobSwitched -= HandleSwitchRequest;
+        world.AIMonitor.OnJobSwitched -= HandleSwitchRequest;
 
-        world.aiMonitor.OnLocationChanged -= HandleLocationChange;
+        world.AIMonitor.OnLocationChanged -= HandleLocationChange;
 
-        world.aiMonitor.OnDeath -= HandleDeath;
+        world.AIMonitor.OnDeath -= HandleDeath;
     }
     void Start()
     {
@@ -52,7 +52,7 @@ public class Animatronic : MonoBehaviour
             services = services,
             mapGraphs = mapGraphs,
             givenProfile = profile,
-            lastlocation = recordedLoc,
+            LastLocation = recordedLoc,
             aiLevel = Ailevel
         };
         
@@ -142,7 +142,7 @@ public class Animatronic : MonoBehaviour
         hasPendingSwitch = false;
 
         LocName oldLocation = recordedLoc;
-        necessities.lastlocation = oldLocation;
+        necessities.LastLocation = oldLocation;
         myJob = JobFactory.Create(pendingJob, necessities, true);
         recordedLoc = myJob.currentLoc;
     }
@@ -159,8 +159,8 @@ public class Animatronic : MonoBehaviour
     }
     void OnDestroy()
     {
-        if (world?.aiMonitor != null)
-            world.aiMonitor.OnJobSwitched -= HandleSwitchRequest;
+        if (world?.AIMonitor != null)
+            world.AIMonitor.OnJobSwitched -= HandleSwitchRequest;
     }
     
 }

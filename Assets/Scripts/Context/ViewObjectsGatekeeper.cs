@@ -1,9 +1,17 @@
 using UnityEngine;
-public class WhatsInViewManager : MonoBehaviour
+public class ViewObjectsGatekeeper : MonoBehaviour
 {
     [SerializeField] private World world;
     private ViewController activeViewController;
     private ViewController previouslyActiveViewData;
+
+    public static ViewObjectsGatekeeper Instance {get; private set;}
+
+    void Awake()
+    {
+        Instance = this;
+    }
+
     void Start()
     {
         
@@ -22,7 +30,7 @@ public class WhatsInViewManager : MonoBehaviour
 
         previouslyActiveViewData = activeViewController;
         world.Player.OnViewChanged += RespondToViewChange;
-        world.aiMonitor.OnDeath += JumpscareHideObjects;
+        world.AIMonitor.OnDeath += JumpscareHideObjects;
     }
 
     void RespondToViewChange(View newView)

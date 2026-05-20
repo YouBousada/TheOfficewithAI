@@ -5,6 +5,6 @@ public class JobNecessities
     public MapGraphs mapGraphs;
     public CharacterProfile givenProfile;
     // public JobName givenJobName;
-    public LocName lastlocation;
+    public LocName LastLocation;
     public int aiLevel;
 }

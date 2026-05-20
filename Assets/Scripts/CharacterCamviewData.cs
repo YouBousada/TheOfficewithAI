@@ -30,7 +30,7 @@ public class CharacterCamviewData : ScriptableObject
         {
             case Behaviour.Encroaching:
             case Behaviour.Leaving:
-            case Behaviour.InvisableRoaming:
+            case Behaviour.InvisibleRoaming:
             case Behaviour.None:
                 switch(layer)
                 {

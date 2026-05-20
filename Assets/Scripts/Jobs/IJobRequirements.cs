@@ -4,5 +4,5 @@ public interface IJobRequirements
     void PerformJob();
     bool HandleNewBehaviour(Behaviour newBehaviour);
     LocName CalculateNextPos();
-    void DeclareInitilization();
+    void DeclareInitialization();
 }

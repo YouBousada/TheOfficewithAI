@@ -4,18 +4,30 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance { get; private set; }
+
     [SerializeField] private World world;
-    [SerializeField] private float gameOverDelay = 3f;
+    [SerializeField] private float gameOverDelay;
+
+    void Awake()
+    {
+        if (Instance != null) { Destroy(gameObject); return; }
+        Instance = this;
+        transform.SetParent(null);
+        DontDestroyOnLoad(gameObject);
+    }
+
     public void Start()
     {
-        world.aiMonitor.OnDeath += HandleDeath;
+        world.AIMonitor.OnDeath += HandleDeath;
+        world.OfficeStates.OnPowerOutage += HandlePowerOut;
     }
-    private void TriggerGameOver()
+    private void GoToGameOverScene()
     {
         SceneManager.LoadScene("GameOverScene");
     }
 
-    private void RestartGame()
+    public void GoToNightScene()
     {
         SceneManager.LoadScene("GameScene");
     }
@@ -25,14 +37,19 @@ public class GameManager : MonoBehaviour
         StartCoroutine(DelayedGameOver());
     }
 
+    private void HandlePowerOut()
+    {
+        GoToGameOverScene();
+    }
+
     private IEnumerator DelayedGameOver()
     {
         yield return new WaitForSeconds(gameOverDelay);
-        TriggerGameOver();
+        GoToGameOverScene();
     }
 
     void OnDestroy()
     {
-        world.aiMonitor.OnDeath -= HandleDeath;
+        world.AIMonitor.OnDeath -= HandleDeath;
     }
 }

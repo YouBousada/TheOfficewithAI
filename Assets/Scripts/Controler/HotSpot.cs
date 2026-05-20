@@ -6,11 +6,11 @@ public class HotSpot : MonoBehaviour
     [SerializeField] private View to;
     [SerializeField] private Action action;
 
-    public void EnvokeViewChange(){
+    public void InvokeViewChange(){
         world.Player.SetView(to);
         Debug.Log("Player set view to " + to);
     }
-    public void EnvokeAction(){
+    public void InvokeAction(){
         world.Player.PerformAction(action);
         Debug.Log("action taken: " + action);
     }

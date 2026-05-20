@@ -6,8 +6,8 @@ public class World : MonoBehaviour
     public static World Instance { get; private set; }
 
     [field: SerializeField] public Player Player { get; private set; }
-    [field: SerializeField] public CameraSystem cameraSystem { get; private set; }
-    [field: SerializeField] public AIMonitor aiMonitor { get; private set; }
+    [field: SerializeField] public CameraSystem CameraSystem { get; private set; }
+    [field: SerializeField] public AIMonitor AIMonitor { get; private set; }
     [field: SerializeField] public Office OfficeStates { get; private set; }
 
     public Dictionary<CharacterName, Animatronic> animatronicDictionary = new Dictionary<CharacterName, Animatronic>();

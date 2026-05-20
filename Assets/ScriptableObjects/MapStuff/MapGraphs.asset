@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dada87775253d1418e0f0e56bd60460, type: 3}
   m_Name: MapGraphs
   m_EditorClassIdentifier: 
-  <runningBaseMap>k__BackingField: {fileID: 11400000, guid: 908f6e6cf21d8eb4fb7b301d8a4f14a1, type: 2}
-  <encroachBaseMap>k__BackingField: {fileID: 11400000, guid: e9088b41dccec8c4b86f2a2dde12be9a, type: 2}
-  <leaveBaseMap>k__BackingField: {fileID: 11400000, guid: 9358268b3d51d134da99fc06662e10b8, type: 2}
+  <RunningBaseMap>k__BackingField: {fileID: 11400000, guid: 908f6e6cf21d8eb4fb7b301d8a4f14a1, type: 2}
+  <EncroachBaseMap>k__BackingField: {fileID: 11400000, guid: e9088b41dccec8c4b86f2a2dde12be9a, type: 2}
+  <LeaveBaseMap>k__BackingField: {fileID: 11400000, guid: 9358268b3d51d134da99fc06662e10b8, type: 2}

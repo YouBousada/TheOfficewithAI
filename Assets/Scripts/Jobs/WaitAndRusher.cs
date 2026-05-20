@@ -1,7 +1,7 @@
 using UnityEngine;
 public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 {
-    private MapService.RuntimeMap RuntimeRunningMap;
+    private MapService.RuntimeMap runtimeRunningMap;
     private BaseMap map;
     protected override Behaviour InitialBehaviour => Behaviour.Idling;
     private float maxIdleTime;
@@ -17,14 +17,14 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     public WaitAndRusher(JobNecessities necessities, bool switchedFromAnotherJob = false)
         : base(necessities)
     {
-        JobSpecificInitilizations();
-        map = necessities.mapGraphs.runningBaseMap;
-        RuntimeRunningMap = services.mapService.BuildRuntimeMap(map);
+        JobSpecificInitializations();
+        map = necessities.mapGraphs.RunningBaseMap;
+        runtimeRunningMap = services.MapService.BuildRuntimeMap(map);
         HandleSwitchInitialization(switchedFromAnotherJob);
-        DeclareInitilization();
+        DeclareInitialization();
     }
 
-    public void JobSpecificInitilizations()
+    public void JobSpecificInitializations()
     {
         JobName = JobName.WaitAndRusher;
         maxIdleTime = Mathf.Max(0.1f, profile.baseIdleTime - (AiLevelIdleScale * AiLevel) + (PatienceIdleScale * profile.patience));
@@ -70,7 +70,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 
         else
         {
-            newLoc = services.mapService.ChooseNext(RuntimeRunningMap.nodes[currentLoc]).roomName;
+            newLoc = services.MapService.ChooseNext(runtimeRunningMap.nodes[currentLoc]).roomName;
         }
 
         return newLoc;
@@ -100,7 +100,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 
     void Wait()
     {
-        if (world.cameraSystem.activeCamera == currentLoc)
+        if (world.CameraSystem.ActiveCamera == currentLoc)
         {
             if (MovementTimer < maxIdleTime)
             {
@@ -145,7 +145,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
             }
             if (AttemptToSwitchJobs())
                 return;
-            RuntimeRunningMap = services.mapService.BuildRuntimeMap(map, false, lastFailedDoorLoc);
+            runtimeRunningMap = services.MapService.BuildRuntimeMap(map, false, lastFailedDoorLoc);
             SwitchToBehaviour(Behaviour.Idling);
             StepandNotify();
         }

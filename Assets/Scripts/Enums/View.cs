@@ -6,11 +6,11 @@ public enum View
     RightDoor,
     Back,
     Cameras,
-    Officejumpscare,
+    OfficeJumpscare,
 
     UnderDesk,
 
     UnderDeskCorner,
 
-    Backcornerview
+    BackCornerView
 }

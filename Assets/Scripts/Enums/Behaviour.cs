@@ -6,7 +6,7 @@ public enum Behaviour
     Running,
     StalkDoor,
     StareThroughWindow,
-    InvisableRoaming,
+    InvisibleRoaming,
 
     None
 }

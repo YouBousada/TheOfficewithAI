@@ -20,7 +20,7 @@ public abstract class BaseJob : IJobRequirements
         AiLevel = necessities.aiLevel;
         world = necessities.world;
         profile = necessities.givenProfile;
-        currentLoc = necessities.lastlocation;
+        currentLoc = necessities.LastLocation;
         currentBehaviour = InitialBehaviour;
     }
     public abstract void PerformJob();
@@ -29,9 +29,9 @@ public abstract class BaseJob : IJobRequirements
     public abstract void HandleKillPosition();
 
 
-    public void DeclareInitilization()
+    public void DeclareInitialization()
     {
-        world.aiMonitor.HandleInitialization(profile.characterName, currentLoc, currentBehaviour, JobName);
+        world.AIMonitor.HandleInitialization(profile.characterName, currentLoc, currentBehaviour, JobName);
     }
     public bool AtADoor()
     {
@@ -51,7 +51,7 @@ public abstract class BaseJob : IJobRequirements
         LocName oldlocation = currentLoc;
         LocName newLocation = CalculateNextPos();
         currentLoc = newLocation;
-        world.aiMonitor.HandleLocationChange(profile.characterName, oldlocation, currentLoc);
+        world.AIMonitor.HandleLocationChange(profile.characterName, oldlocation, currentLoc);
     }
 
     public void SwitchToBehaviour(Behaviour newBehaviour)
@@ -63,14 +63,14 @@ public abstract class BaseJob : IJobRequirements
             return;
         }
 
-        world.aiMonitor.HandleBehaviourChange(profile.characterName, oldBehaviour, newBehaviour);
+        world.AIMonitor.HandleBehaviourChange(profile.characterName, oldBehaviour, newBehaviour);
     }
 
     public void KillPlayer()
     {
         if (world.Player.IsDead) return;
         world.Player.Die();
-        world.aiMonitor.HandleDeath(profile.characterName, currentLoc);
+        world.AIMonitor.HandleDeath(profile.characterName, currentLoc);
     }
 
     public bool AttemptToSwitchJobs()
@@ -85,7 +85,7 @@ public abstract class BaseJob : IJobRequirements
         foreach (var job in profile.jobsByPreference)
         {
             if (job == JobName) continue;
-            if (AskForJob(services.jobArbiter, world, profile.characterName, job))
+            if (AskForJob(services.JobArbiter, world, profile.characterName, job))
                 return true;
         }
         return false;
@@ -101,7 +101,7 @@ public abstract class BaseJob : IJobRequirements
             {
                 return false;
             }
-            world.aiMonitor.HandleJobSwitch(character, JobName, toJob);
+            world.AIMonitor.HandleJobSwitch(character, JobName, toJob);
             return true;
         }
         return false;
