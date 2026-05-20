@@ -51,7 +51,7 @@ public abstract class GenericOfficeViewController : ViewController
         }
     }
 
-    protected override void RespondToAction(Action action)
+    protected override void RespondToAction(Action action, float time)
     {
         return;
     }

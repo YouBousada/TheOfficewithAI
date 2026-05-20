@@ -15,7 +15,7 @@ public abstract class DoorViewController : ViewController
     protected abstract Action OpenAction { get; }
     protected abstract Action CloseAction { get; }
 
-    protected override void RespondToAction(Action action)
+    protected override void RespondToAction(Action action, float time)
     {
         if (action == OpenAction)
             animPlayer.PlayAnimation(DoorOpenAnimation, backgroundImage.gameObject, DoorOpenImage);

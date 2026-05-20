@@ -56,7 +56,7 @@ public class Office : MonoBehaviour
         }
     }
 
-    void HandleAction(Action action)
+    void HandleAction(Action action, float time)
     {
         if (action == Action.OpenLeftDoor) SetLeftDoor(true);
         else if (action == Action.CloseLeftDoor) SetLeftDoor(false);

@@ -13,13 +13,12 @@ public class AnimationPlayer : MonoBehaviour
 
     private bool hasStarted = false;
 
-
     void Start()
     {
-        if (AnimSync.Instance != null){
+        if (AnimSync.Instance != null)
+        {
             AnimSync.Instance.UpdateFPS += AdvanceToNextFrame;
-            // Debug.Log("GameObject "+ gameObject.name + "subscribed to AnimSync!");
-            hasStarted = true; 
+            hasStarted = true;
         }
     }
     void OnEnable()
@@ -31,7 +30,7 @@ public class AnimationPlayer : MonoBehaviour
     {
         HandleCurrentAnimation();
     }
-    public void PlayAnimation(AnimationSequence sequence, GameObject target, Sprite endSprite = null)
+    public void PlayAnimation(AnimationSequence sequence, GameObject target, Sprite endSprite = null, bool unSkippable = false)
     {
         this.endSprite = endSprite;
         currentFrame = 0;
@@ -66,28 +65,24 @@ public class AnimationPlayer : MonoBehaviour
         }
 
     }
-
     private bool NotPlayingAnimation()
     {
         return !isPlaying || sequence == null || targetObject == null;
     }
-
-
     private void AdvanceToNextFrame(object sender, EventArgs e)
     {
         if (NotPlayingAnimation()) { return; }
         if (currentFrame >= sequence.frames.Length) { return; }
-    
+
         targetImage.sprite = sequence.frames[currentFrame];
         currentFrame++;
-        // Debug.Log(gameObject.name + " has advanced to the next frame");
     }
 
     void OnDestroy()
     {
-        if (AnimSync.Instance != null){
+        if (AnimSync.Instance != null)
+        {
             AnimSync.Instance.UpdateFPS -= AdvanceToNextFrame;
-            // Debug.Log("GameObject "+ gameObject.name + "unsubscribed to AnimSync!");
         }
     }
 

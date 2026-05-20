@@ -615,6 +615,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 4
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &70500189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -661,7 +662,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 70500188}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -836,6 +837,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 1
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &102512526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -882,7 +884,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 102512525}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1063,6 +1065,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 7
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &136445249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1109,7 +1112,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 136445248}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1211,6 +1214,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 8
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &139886393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1257,7 +1261,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 139886392}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1452,6 +1456,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 4
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &206301722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1498,7 +1503,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 206301721}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1600,6 +1605,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 3
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &207303625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1646,7 +1652,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 207303624}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1729,6 +1735,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 2
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &239548249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1775,7 +1782,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 239548248}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1933,7 +1940,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8117046721963414888, guid: 28199fa4b8aa10d469a880071d580e7b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 43af86f697935cb4ea3b503d6906fe24, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2036,6 +2043,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 7
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &314820357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2082,7 +2090,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 314820356}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2198,7 +2206,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.1275, y: 0.4539}
+  m_AnchoredPosition: {x: -0.076, y: 0.45}
   m_SizeDelta: {x: 32.87591, y: 32.15121}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &355886998
@@ -2216,6 +2224,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 0
   action: 4
+  <ThisActionTime>k__BackingField: 1
 --- !u!114 &355886999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2262,7 +2271,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 355886998}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeAction
+        m_MethodName: InvokeAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2364,6 +2373,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 1
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &355969275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2410,7 +2420,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 355969274}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2494,7 +2504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.8429, y: 0.46335}
+  m_AnchoredPosition: {x: 0.793, y: 0.466}
   m_SizeDelta: {x: 31.62714, y: 26.32421}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &393995719
@@ -2512,6 +2522,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 0
   action: 2
+  <ThisActionTime>k__BackingField: 1
 --- !u!114 &393995720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2558,7 +2569,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 393995719}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeAction
+        m_MethodName: InvokeAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2660,6 +2671,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 2
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &430844835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2706,7 +2718,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 430844834}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3392,6 +3404,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 1
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &594831632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3438,7 +3451,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 594831631}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3901,6 +3914,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 4
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &718139931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3947,7 +3961,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 718139930}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4058,7 +4072,7 @@ GameObject:
   - component: {fileID: 738975246}
   - component: {fileID: 738975245}
   m_Layer: 0
-  m_Name: ViewManager
+  m_Name: ViewGatekeeper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4329,6 +4343,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 5
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &829830433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4375,7 +4390,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 829830432}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5179,7 +5194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.1597, y: 0.10166}
+  m_AnchoredPosition: {x: -0.101, y: 0.139}
   m_SizeDelta: {x: 37.54815, y: 37.32229}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998350785
@@ -5197,6 +5212,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 0
   action: 3
+  <ThisActionTime>k__BackingField: 1
 --- !u!114 &998350786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5243,7 +5259,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 998350785}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeAction
+        m_MethodName: InvokeAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5697,6 +5713,7 @@ MonoBehaviour:
   <CameraSystem>k__BackingField: {fileID: 19047313}
   <AIMonitor>k__BackingField: {fileID: 161621954}
   <OfficeStates>k__BackingField: {fileID: 1805175351}
+  IsUnskippableAnimationPlaying: 0
 --- !u!4 &1108953929
 Transform:
   m_ObjectHideFlags: 0
@@ -5753,7 +5770,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.8752, y: 0.1224}
+  m_AnchoredPosition: {x: 0.825, y: 0.159}
   m_SizeDelta: {x: 39.19679, y: 39.05567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144237681
@@ -5771,6 +5788,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 0
   action: 1
+  <ThisActionTime>k__BackingField: 1
 --- !u!114 &1144237682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5817,7 +5835,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1144237681}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeAction
+        m_MethodName: InvokeAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6594,6 +6612,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 9
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &1310514410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6640,7 +6659,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1310514409}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7950,6 +7969,7 @@ MonoBehaviour:
   world: {fileID: 1108953928}
   to: 3
   action: 0
+  <ThisActionTime>k__BackingField: 0
 --- !u!114 &1837334871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7996,7 +8016,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1837334870}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: EnvokeViewChange
+        m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

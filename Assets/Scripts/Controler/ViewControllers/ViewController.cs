@@ -41,7 +41,7 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
         world.AIMonitor.OnDeath += ReactToJumpscare;
     }
 
-    protected abstract void RespondToAction(Action action);
+    protected abstract void RespondToAction(Action action, float time);
     protected abstract void OnViewActivated_Concrete();
     protected abstract void ReactToJumpscare_Concrete(CharacterName who, LocName from);
 
