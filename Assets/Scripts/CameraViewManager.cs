@@ -65,7 +65,7 @@ public class CameraViewManager : MonoBehaviour
         ClearView();
 
         thisRoomCameraData = totalCameraData.GetRoomCameraData(newRoom);
-        backgroundLayer.sprite = thisRoomCameraData.GetBackgroundSprite();
+        backgroundLayer.sprite = thisRoomCameraData.backgroundSprite;
 
         if(thisRoomCameraData == null)
         {

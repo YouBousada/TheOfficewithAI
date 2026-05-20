@@ -14,6 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraLocation: 8
   backgroundSprite: {fileID: -6361390000459343152, guid: a076bf2bba6cef04292b4ce6e9573343, type: 3}
+  CharacterCamviewDataSOs:
+  - {fileID: 11400000, guid: 8236d610c6962fa44857f693e941ccde, type: 2}
+  - {fileID: 11400000, guid: b32539c7d97d12344bcbab4029637ea0, type: 2}
+  - {fileID: 11400000, guid: 353c1372462acb041826c6ca2fbd4472, type: 2}
+  - {fileID: 11400000, guid: 4cbe9e7f9d535af428bb416110752434, type: 2}
   BonnieCamviewData: {fileID: 11400000, guid: 8236d610c6962fa44857f693e941ccde, type: 2}
   ChicaCamviewData: {fileID: 11400000, guid: b32539c7d97d12344bcbab4029637ea0, type: 2}
   FoxyCamviewData: {fileID: 11400000, guid: 353c1372462acb041826c6ca2fbd4472, type: 2}

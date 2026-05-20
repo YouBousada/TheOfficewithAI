@@ -23,7 +23,7 @@ public class TotalCameraData : ScriptableObject
                 continue;
             }
             
-            roomCameraDataDictionary[roomCamData.GetCameraLocation()] = roomCamData;
+            roomCameraDataDictionary[roomCamData.cameraLocation] = roomCamData;
         }
     }
 
