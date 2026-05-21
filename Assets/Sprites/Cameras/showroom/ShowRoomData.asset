@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f70939d2b51240816d47b13004dd1, type: 3}
   m_Name: ShowRoomData
   m_EditorClassIdentifier: 
-  cameraLocation: 0
-  backgroundSprite: {fileID: -5855841173259846709, guid: 7eb0fd8e2fe249248911d8b98c7a32f6, type: 3}
+  <cameraLocation>k__BackingField: 0
+  <backgroundSprite>k__BackingField: {fileID: -5855841173259846709, guid: 7eb0fd8e2fe249248911d8b98c7a32f6, type: 3}
   CharacterCamviewDataSOs:
   - {fileID: 11400000, guid: b6ba3dab203327849933e3f2671cdd63, type: 2}
   - {fileID: 11400000, guid: 43e2916add33670429c9171f054e6a74, type: 2}

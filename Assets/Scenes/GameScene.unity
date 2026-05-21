@@ -163,7 +163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0443f0a24216974980fcd17bb968581, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  world: {fileID: 1108953928}
   gameOverDelay: 1
 --- !u!1 &19047312
 GameObject:
@@ -1888,7 +1887,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257209762}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4c7f0b5c5bc5e9468e739763e18e946, type: 3}
   m_Name: 
@@ -2468,6 +2467,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355969272}
   m_CullTransparentMesh: 1
+--- !u!1 &366918781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 366918782}
+  - component: {fileID: 366918783}
+  m_Layer: 0
+  m_Name: CameraDisplayManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &366918782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366918781}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 860101788}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &366918783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366918781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 658610bb5ff5c3242aa66205fb43a4b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world: {fileID: 1108953928}
+  totalCameraData: {fileID: 11400000, guid: 92813326c393faf40ac7516f2ce12ca0, type: 2}
+  characterLayers:
+  - {fileID: 597195379}
+  - {fileID: 1841966281}
+  - {fileID: 31818128}
+  - {fileID: 2076133061}
+  backgroundLayer: {fileID: 571517345}
+  emptySprite: {fileID: 21300000, guid: 5c0e4dc52d1809b4a9f201a44f19b2ad, type: 3}
 --- !u!1 &393995717
 GameObject:
   m_ObjectHideFlags: 0
@@ -4472,6 +4524,7 @@ Transform:
   - {fileID: 738975246}
   - {fileID: 1048234889}
   - {fileID: 889167842}
+  - {fileID: 366918782}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &868322325

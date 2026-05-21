@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f70939d2b51240816d47b13004dd1, type: 3}
   m_Name: PiratesCoveData
   m_EditorClassIdentifier: 
-  cameraLocation: 5
-  backgroundSprite: {fileID: 488566688391327861, guid: 0d4093399cda3ba42b010ee89c52e41b, type: 3}
+  <cameraLocation>k__BackingField: 5
+  <backgroundSprite>k__BackingField: {fileID: 488566688391327861, guid: 0d4093399cda3ba42b010ee89c52e41b, type: 3}
   CharacterCamviewDataSOs:
   - {fileID: 11400000, guid: 7a6133cd3abb8d94cb7df355efffa80b, type: 2}
   - {fileID: 11400000, guid: 503a0ee6fcda74446993cb4a2063a8ea, type: 2}

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f70939d2b51240816d47b13004dd1, type: 3}
   m_Name: RestRoomsCamData
   m_EditorClassIdentifier: 
-  cameraLocation: 3
-  backgroundSprite: {fileID: 6375220533703768654, guid: a374cfdb372c0bf4bb329a48015c6504, type: 3}
+  <cameraLocation>k__BackingField: 3
+  <backgroundSprite>k__BackingField: {fileID: 6375220533703768654, guid: a374cfdb372c0bf4bb329a48015c6504, type: 3}
   CharacterCamviewDataSOs:
   - {fileID: 11400000, guid: c24f2b58e87cb4a4687a1b10976bfc04, type: 2}
   - {fileID: 11400000, guid: 46114f7ce9dbafe4695f80c2ab1d0b23, type: 2}

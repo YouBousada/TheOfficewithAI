@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f70939d2b51240816d47b13004dd1, type: 3}
   m_Name: StageCamData
   m_EditorClassIdentifier: 
-  cameraLocation: 2
-  backgroundSprite: {fileID: -5470436369146123406, guid: 38cc6865122bfae4fb90c9d876f85cf1, type: 3}
+  <cameraLocation>k__BackingField: 2
+  <backgroundSprite>k__BackingField: {fileID: -5470436369146123406, guid: 38cc6865122bfae4fb90c9d876f85cf1, type: 3}
   CharacterCamviewDataSOs:
   - {fileID: 11400000, guid: a5251461ce9a5b645b45886927557d5d, type: 2}
   - {fileID: 11400000, guid: f287728bb23928341a501c3c392ec73d, type: 2}

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f70939d2b51240816d47b13004dd1, type: 3}
   m_Name: EasthallData
   m_EditorClassIdentifier: 
-  cameraLocation: 10
-  backgroundSprite: {fileID: 6083749056161012397, guid: caa6957ada6b7c64e835ea06d6739387, type: 3}
+  <cameraLocation>k__BackingField: 10
+  <backgroundSprite>k__BackingField: {fileID: 6083749056161012397, guid: caa6957ada6b7c64e835ea06d6739387, type: 3}
   CharacterCamviewDataSOs:
   - {fileID: 11400000, guid: 89d15d55d8170f54299f6b34ee93e270, type: 2}
   - {fileID: 11400000, guid: cbafd0b18ba3a3d4480b3acbfe30d55e, type: 2}

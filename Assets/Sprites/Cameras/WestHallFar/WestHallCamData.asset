@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f70939d2b51240816d47b13004dd1, type: 3}
   m_Name: WestHallCamData
   m_EditorClassIdentifier: 
-  cameraLocation: 9
-  backgroundSprite: {fileID: -4685826817884738158, guid: a249c027af9a990478a1ebad7304fd85, type: 3}
+  <cameraLocation>k__BackingField: 9
+  <backgroundSprite>k__BackingField: {fileID: -4685826817884738158, guid: a249c027af9a990478a1ebad7304fd85, type: 3}
   CharacterCamviewDataSOs:
   - {fileID: 11400000, guid: 01ca0cb78bcc72243826d2cb65b6882d, type: 2}
   - {fileID: 11400000, guid: a9ee4a00bb26c3b4189d83a745898948, type: 2}
