@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapService
+public static class MapService
 {
     private const float WeightJitterRange = 0.5f;
     private const float FailedDoorWeightMultiplier = 0.1f;
@@ -9,43 +9,38 @@ public class MapService
     public sealed class RuntimeMap
     {
         public class RNode { public LocName roomName; public List<REdge> edges = new(); }
-        public class REdge { public RNode to; public float weight;}
+        public class REdge { public RNode to; public float weight; }
         public Dictionary<LocName, RNode> nodes = new();
-    }   
-
-    public RuntimeMap BuildRuntimeMap(BaseMap MapBase, bool jitterWeights = true, DoorName lastFailedDoor = DoorName.None){
-
-        var RunTimeMap = new RuntimeMap();
-
-        foreach (var baseMapRoom in MapBase.Rooms)
-
-            RunTimeMap.nodes[baseMapRoom.thisBaseMapRoomName] = new RuntimeMap.RNode { roomName = baseMapRoom.thisBaseMapRoomName };
-
-        foreach (var baseMapRoom in MapBase.Rooms) {
-
-            var currentRunTimeRoom = RunTimeMap.nodes[baseMapRoom.thisBaseMapRoomName];
-
-            foreach (var baseMapEdge in baseMapRoom.edges) {
-
-                var runTo = RunTimeMap.nodes[baseMapEdge.to.thisBaseMapRoomName];
-
-                float randomValue = Random.Range(-WeightJitterRange, WeightJitterRange);
-
-                float newWeight = jitterWeights ? baseMapEdge.weight + (baseMapEdge.weight * randomValue) : baseMapEdge.weight;
-
-                if(IFailedThatDoor(runTo, lastFailedDoor))
-                {
-                    newWeight *= FailedDoorWeightMultiplier;
-                }
-
-                currentRunTimeRoom.edges.Add(new RuntimeMap.REdge { to = runTo, weight = newWeight,});
-                
-            }
-        }
-        return RunTimeMap;
     }
 
-    public RuntimeMap.RNode ChooseNext(RuntimeMap.RNode node)
+    public static RuntimeMap BuildRuntimeMap(BaseMap MapBase, bool jitterWeights = true, DoorName lastFailedDoor = DoorName.None)
+    {
+        var runTimeMap = new RuntimeMap();
+
+        foreach (var baseMapRoom in MapBase.Rooms)
+            runTimeMap.nodes[baseMapRoom.thisBaseMapRoomName] = new RuntimeMap.RNode { roomName = baseMapRoom.thisBaseMapRoomName };
+
+        foreach (var baseMapRoom in MapBase.Rooms)
+        {
+            var currentRunTimeRoom = runTimeMap.nodes[baseMapRoom.thisBaseMapRoomName];
+
+            foreach (var baseMapEdge in baseMapRoom.edges)
+            {
+                var runTo = runTimeMap.nodes[baseMapEdge.to.thisBaseMapRoomName];
+
+                float randomValue = Random.Range(-WeightJitterRange, WeightJitterRange);
+                float newWeight = jitterWeights ? baseMapEdge.weight + (baseMapEdge.weight * randomValue) : baseMapEdge.weight;
+
+                if (IFailedThatDoor(runTo, lastFailedDoor))
+                    newWeight *= FailedDoorWeightMultiplier;
+
+                currentRunTimeRoom.edges.Add(new RuntimeMap.REdge { to = runTo, weight = newWeight });
+            }
+        }
+        return runTimeMap;
+    }
+
+    public static RuntimeMap.RNode ChooseNext(RuntimeMap.RNode node)
     {
         if (node == null || node.edges == null || node.edges.Count == 0)
             return node;
@@ -65,16 +60,11 @@ public class MapService
         return node.edges[^1].to;
     }
 
-    private bool IFailedThatDoor(RuntimeMap.RNode to, DoorName failedDoor)
+    private static bool IFailedThatDoor(RuntimeMap.RNode to, DoorName failedDoor)
     {
-        if (failedDoor == DoorName.None)
-            return false;
+        if (failedDoor == DoorName.None) return false;
 
-        if ((failedDoor == DoorName.Left && (to.roomName == LocName.SecondOffice || to.roomName == LocName.WestHall_Far)) ||
-            (failedDoor == DoorName.Right && (to.roomName == LocName.Kitchen || to.roomName == LocName.EastHall_Far)))
-        {
-            return true;
-        }
-        return false;
+        return (failedDoor == DoorName.Left && (to.roomName == LocName.SecondOffice || to.roomName == LocName.WestHall_Far)) ||
+               (failedDoor == DoorName.Right && (to.roomName == LocName.Kitchen || to.roomName == LocName.EastHall_Far));
     }
 }

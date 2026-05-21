@@ -1,9 +1,24 @@
+using System;
 using UnityEngine;
+
+public struct JobNecessities
+{
+    public World world;
+    public MapGraphs mapGraphs;
+    public CharacterProfile givenProfile;
+    public LocName LastLocation;
+    public AnimatronicMemory memories;
+    public int aiLevel;
+}
+
+public class AnimatronicMemory
+{
+    public DoorName lastFailedDoor;
+}
 
 public class Animatronic : MonoBehaviour
 {
     [SerializeField] private World world;
-    [SerializeField] private Services services;
     [SerializeField] private MapGraphs mapGraphs;
     [SerializeField] private CharacterProfile profile;
     [SerializeField] private int Ailevel;
@@ -11,12 +26,13 @@ public class Animatronic : MonoBehaviour
     private BaseJob myJob; 
     private LocName recordedLoc;
     private JobNecessities necessities;
+    private AnimatronicMemory memories;
     private bool hasPendingSwitch;
     private JobName pendingJob;
 
     void Awake()
     {
-        if (world == null || services == null || mapGraphs == null || profile == null)
+        if (world == null || mapGraphs == null || profile == null)
             Debug.LogError($"{name}: Missing references on Animatronic.");
 
         recordedLoc = profile.nightStartingRoom;
@@ -46,20 +62,24 @@ public class Animatronic : MonoBehaviour
     {
         var defaultJob = GetDefaultJobForThisChar();
 
+        memories = new AnimatronicMemory
+        {
+            lastFailedDoor = DoorName.None
+        };
+
         necessities = new JobNecessities
         {
             world = world,
-            services = services,
             mapGraphs = mapGraphs,
             givenProfile = profile,
             LastLocation = recordedLoc,
+            memories = memories,
             aiLevel = Ailevel
         };
         
         if(myJob == null)
         {
             myJob = JobFactory.Create(defaultJob, necessities, false);
-            // recordedLoc = myJob.currentLoc;
         }
 
     }

@@ -6,7 +6,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     protected override Behaviour InitialBehaviour => Behaviour.Idling;
     private float maxIdleTime;
     private float maxRuntime;
-    private DoorName lastFailedDoorLoc = DoorName.None;
+    private DoorName lastFailedDoorLoc;
 
     private const float AiLevelIdleScale = 0.5f;
     private const float PatienceIdleScale = 0.5f;
@@ -19,7 +19,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     {
         JobSpecificInitializations();
         map = necessities.mapGraphs.RunningBaseMap;
-        runtimeRunningMap = services.MapService.BuildRuntimeMap(map);
+        runtimeRunningMap = MapService.BuildRuntimeMap(map);
         HandleSwitchInitialization(switchedFromAnotherJob);
         DeclareInitialization();
     }
@@ -27,6 +27,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     public void JobSpecificInitializations()
     {
         JobName = JobName.WaitAndRusher;
+        lastFailedDoorLoc = memories.lastFailedDoor;
         maxIdleTime = Mathf.Max(0.1f, profile.baseIdleTime - (AiLevelIdleScale * AiLevel) + (PatienceIdleScale * profile.patience));
         maxRuntime = Mathf.Lerp(MaxRunInterval, MinRunInterval, (AiLevel - 1f) / 19f);
         MovementTimer = maxIdleTime;
@@ -70,7 +71,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 
         else
         {
-            newLoc = services.MapService.ChooseNext(runtimeRunningMap.nodes[currentLoc]).roomName;
+            newLoc = MapService.ChooseNext(runtimeRunningMap.nodes[currentLoc]).roomName;
         }
 
         return newLoc;
@@ -132,20 +133,17 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
         else
         {
             if (currentLoc == LocName.EastDoor)
-            {
                 lastFailedDoorLoc = DoorName.Right;
-            }
             else if (currentLoc == LocName.WestDoor)
-            {
                 lastFailedDoorLoc = DoorName.Left;
-            }
             else
-            {
                 lastFailedDoorLoc = DoorName.None;
-            }
+
+            memories.lastFailedDoor = lastFailedDoorLoc;
+
             if (AttemptToSwitchJobs())
                 return;
-            runtimeRunningMap = services.MapService.BuildRuntimeMap(map, false, lastFailedDoorLoc);
+            runtimeRunningMap = MapService.BuildRuntimeMap(map, false, lastFailedDoorLoc);
             SwitchToBehaviour(Behaviour.Idling);
             StepandNotify();
         }

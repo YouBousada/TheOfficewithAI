@@ -1,31 +1,24 @@
 using System.Collections.Generic;
 
-public class JobArbiter
+public static class JobArbiter
 {
-    public bool ApproveJobSwitch(World world, CharacterName character, JobName toJob)
+    public static bool ApproveJobSwitch(World world, CharacterName character, JobName toJob)
     {
+        var jobCounts = new Dictionary<JobName, int>();
+        JobName currentJob = JobName.None;
 
-        var currentAssignments = new Dictionary<CharacterName, JobName>();
-
-        var JobCounts = new Dictionary<JobName, int>();
-
-        foreach(Animatronic anim in world.animatronicDictionary.Values)
+        foreach (Animatronic anim in world.animatronicDictionary.Values)
         {
-            currentAssignments[anim.GetCharacterName()] = anim.GetCurrentJobName();
-
             var job = anim.GetCurrentJobName();
-            JobCounts[job] = JobCounts.GetValueOrDefault(job, 0) + 1;
+            jobCounts[job] = jobCounts.GetValueOrDefault(job, 0) + 1;
 
+            if (anim.GetCharacterName() == character)
+                currentJob = job;
         }
 
-        var currentJob = currentAssignments[character];
+        if (currentJob == toJob) return false;
 
-        int windowCount = JobCounts.GetValueOrDefault(JobName.WindowWatcher, 0);
-
-        if(currentJob == toJob)
-        {
-            return false;
-        }
+        int windowCount = jobCounts.GetValueOrDefault(JobName.WindowWatcher, 0);
 
         if (currentJob == JobName.WindowWatcher && toJob != JobName.WindowWatcher && windowCount <= 1)
             return false;

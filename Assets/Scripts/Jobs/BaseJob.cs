@@ -3,24 +3,24 @@ using UnityEngine;
 public abstract class BaseJob : IJobRequirements
 {
     protected World world;
-    protected Services services;
     protected MapGraphs mapGraphs;
     protected CharacterProfile profile;
     public LocName currentLoc;
     public Behaviour currentBehaviour;
     protected abstract Behaviour InitialBehaviour { get; }
     public JobName JobName;
+    public AnimatronicMemory memories;
     protected int AiLevel;
     protected float MovementTimer;
 
     public BaseJob(JobNecessities necessities)
     {
         mapGraphs = necessities.mapGraphs;
-        services = necessities.services;
         AiLevel = necessities.aiLevel;
         world = necessities.world;
         profile = necessities.givenProfile;
         currentLoc = necessities.LastLocation;
+        memories = necessities.memories;
         currentBehaviour = InitialBehaviour;
     }
     public abstract void PerformJob();
@@ -85,16 +85,16 @@ public abstract class BaseJob : IJobRequirements
         foreach (var job in profile.jobsByPreference)
         {
             if (job == JobName) continue;
-            if (AskForJob(services.JobArbiter, world, profile.characterName, job))
+            if (AskForJob(world, profile.characterName, job))
                 return true;
         }
         return false;
     }
     private const float JobSelectionChance = 0.8f;
 
-    public bool AskForJob(JobArbiter arbiter, World world, CharacterName character, JobName toJob)
+    public bool AskForJob(World world, CharacterName character, JobName toJob)
     {
-        if (arbiter.ApproveJobSwitch(world, character, toJob))
+        if (JobArbiter.ApproveJobSwitch(world, character, toJob))
         {
             float x = Random.value;
             if(x > JobSelectionChance)
