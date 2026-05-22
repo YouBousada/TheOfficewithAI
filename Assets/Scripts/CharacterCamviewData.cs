@@ -26,6 +26,8 @@ public class CharacterCamviewData : ScriptableObject
 
     public Sprite GetRandomRender(int layer, Behaviour behaviour)
     {
+        // Debug.Log($"{characterName} chose camera render layer index {layer} (Layer {layer + 1}) for {behaviour}.");
+
         switch(behaviour)
         {
             case Behaviour.Encroaching:
@@ -34,74 +36,74 @@ public class CharacterCamviewData : ScriptableObject
             case Behaviour.None:
                 switch(layer)
                 {
-                    case 1:
+                    case 0:
                         if(Layer1_FreeRoamRenders.Count == 0) return null;
                         int randomIndexLayer1Free = Random.Range(0, Layer1_FreeRoamRenders.Count);
                         return Layer1_FreeRoamRenders[randomIndexLayer1Free];
-                    case 2:
+                    case 1:
                         if(Layer2_FreeRoamRenders.Count == 0) return null;
                         int randomIndexLayer2Free = Random.Range(0, Layer2_FreeRoamRenders.Count);
                         return Layer2_FreeRoamRenders[randomIndexLayer2Free];
-                    case 3:
+                    case 2:
                         if(Layer3_FreeRoamRenders.Count == 0) return null;
                         int randomIndexLayer3Free = Random.Range(0, Layer3_FreeRoamRenders.Count);
                         return Layer3_FreeRoamRenders[randomIndexLayer3Free];
-                    case 4:
+                    case 3:
                         if(Layer4_FreeRoamRenders.Count == 0) return null;
                         int randomIndexLayer4Free = Random.Range(0, Layer4_FreeRoamRenders.Count);
                         return Layer4_FreeRoamRenders[randomIndexLayer4Free];
                     default:
-                        Debug.LogWarning("GetRandomRender called with invalid layer: " + layer + "layers must be between 1 and 4.");
+                        // Debug.LogWarning("GetRandomRender called with invalid layer: " + layer + " layers must be between 0 and 3.");
                         return null;
                 }
             case Behaviour.Running:
                 switch(layer)
                 {
-                    case 1:
+                    case 0:
                         if(Layer1_RunningRenders.Count == 0) return null;
                         int randomIndexLayer1Run = Random.Range(0, Layer1_RunningRenders.Count);
                         return Layer1_RunningRenders[randomIndexLayer1Run];
-                    case 2:
+                    case 1:
                         if(Layer2_RunningRenders.Count == 0) return null;
                         int randomIndexLayer2Run = Random.Range(0, Layer2_RunningRenders.Count);
                         return Layer2_RunningRenders[randomIndexLayer2Run];
-                    case 3:
+                    case 2:
                         if(Layer3_RunningRenders.Count == 0) return null;
                         int randomIndexLayer3Run = Random.Range(0, Layer3_RunningRenders.Count);
                         return Layer3_RunningRenders[randomIndexLayer3Run];
-                    case 4:
+                    case 3:
                         if(Layer4_RunningRenders.Count == 0) return null;
                         int randomIndexLayer4Run = Random.Range(0, Layer4_RunningRenders.Count);
                         return Layer4_RunningRenders[randomIndexLayer4Run];
                     default:
-                        Debug.LogWarning("GetRandomRender called with invalid layer: " + layer + "layers must be between 1 and 4.");
+                        // Debug.LogWarning("GetRandomRender called with invalid layer: " + layer + " layers must be between 0 and 3.");
                         return null;
                 }
             case Behaviour.Idling:
                 switch(layer)
                 {
-                    case 1:
+                    case 0:
                         if(Layer1_IdleRenders.Count == 0) return null;
                         int randomIndexLayer1Idle = Random.Range(0, Layer1_IdleRenders.Count);
                         return Layer1_IdleRenders[randomIndexLayer1Idle];
-                    case 2:
+                    case 1:
                         if(Layer2_IdleRenders.Count == 0) return null;
                         int randomIndexLayer2Idle = Random.Range(0, Layer2_IdleRenders.Count);
                         return Layer2_IdleRenders[randomIndexLayer2Idle];
-                    case 3:
+                    case 2:
                         if(Layer3_IdleRenders.Count == 0) return null;
                         int randomIndexLayer3Idle = Random.Range(0, Layer3_IdleRenders.Count);
                         return Layer3_IdleRenders[randomIndexLayer3Idle];
-                    case 4:
+                    case 3:
                         if(Layer4_IdleRenders.Count == 0) return null;
                         int randomIndexLayer4Idle = Random.Range(0, Layer4_IdleRenders.Count);
                         return Layer4_IdleRenders[randomIndexLayer4Idle];
                     default:
-                        Debug.LogWarning("GetRandomRender called with invalid layer: " + layer + "layers must be between 1 and 4.");
+                        // Debug.LogWarning("GetRandomRender called with invalid layer: " + layer + " layers must be between 0 and 3.");
                         return null;
                 }
             default:
-                Debug.LogWarning("GetRandomRender called with invalid behaviour: " + behaviour);
+                // Debug.LogWarning("GetRandomRender called with invalid behaviour: " + behaviour);
                 return null;
         }
         

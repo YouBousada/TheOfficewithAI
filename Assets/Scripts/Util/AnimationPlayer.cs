@@ -30,7 +30,7 @@ public class AnimationPlayer : MonoBehaviour
     {
         HandleCurrentAnimation();
     }
-    public void PlayAnimation(AnimationSequence sequence, GameObject target, Sprite endSprite = null, bool unSkippable = false)
+    public void PlayAnimation(AnimationSequence sequence, GameObject target, Sprite endSprite = null)
     {
         this.endSprite = endSprite;
         currentFrame = 0;
@@ -38,7 +38,7 @@ public class AnimationPlayer : MonoBehaviour
         targetObject = target;
         targetImage = target.GetComponent<Image>();
         isPlaying = true;
-        Debug.Log(gameObject.name + " is now playing an animation");
+        // Debug.Log(gameObject.name + " is now playing an animation");
     }
     void StopAnimation()
     {
@@ -52,7 +52,7 @@ public class AnimationPlayer : MonoBehaviour
         targetObject = null;
         targetImage = null;
         currentFrame = 0;
-        Debug.Log(gameObject.name + " has stopped animating");
+        // Debug.Log(gameObject.name + " has stopped animating");
     }
     void HandleCurrentAnimation()
 

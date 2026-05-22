@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 {
-    [SerializeField] private World world;
+    [SerializeField] private GameContext world;
     [SerializeField] private LocName thisWindowDoor;
     private Image Image;
     private AnimationPlayer animPlayer;
@@ -116,22 +116,22 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 
     private void SeeIfAWindowWatcherIsHere()
     {
-        if (world.animatronicDictionary[CharacterName.Bonnie].GetCurrentLocation() == thisWindowDoor && world.animatronicDictionary[CharacterName.Bonnie].GetCurrentJobName() == JobName.WindowWatcher)
+        if (IsWindowWatcherAtDoor(CharacterName.Bonnie))
         {
             RespondToMovement(CharacterName.Bonnie, LocName.None, thisWindowDoor);
             // Debug.Log("WindowImage: Bonnie found at his window on enable");
         }
-        else if (world.animatronicDictionary[CharacterName.Chica].GetCurrentLocation() == thisWindowDoor && world.animatronicDictionary[CharacterName.Chica].GetCurrentJobName() == JobName.WindowWatcher)
+        else if (IsWindowWatcherAtDoor(CharacterName.Chica))
         {
             RespondToMovement(CharacterName.Chica, LocName.None, thisWindowDoor);
             // Debug.Log("WindowImage: Chica found at her window on enable");
         }
-        else if (world.animatronicDictionary[CharacterName.Foxy].GetCurrentLocation() == thisWindowDoor && world.animatronicDictionary[CharacterName.Foxy].GetCurrentJobName() == JobName.WindowWatcher)
+        else if (IsWindowWatcherAtDoor(CharacterName.Foxy))
         {
             RespondToMovement(CharacterName.Foxy, LocName.None, thisWindowDoor);
             // Debug.Log("WindowImage: Foxy found at his window on enable");
         }
-        else if (world.animatronicDictionary[CharacterName.Freddy].GetCurrentLocation() == thisWindowDoor && world.animatronicDictionary[CharacterName.Freddy].GetCurrentJobName() == JobName.WindowWatcher)
+        else if (IsWindowWatcherAtDoor(CharacterName.Freddy))
         {
             RespondToMovement(CharacterName.Freddy, LocName.None, thisWindowDoor);
             // Debug.Log("WindowImage: Freddy found at his window on enable");
@@ -161,7 +161,7 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
     }
     void RespondToMovement(CharacterName who, LocName from, LocName to)
     {
-        Debug.Log($"WindowImage: UpdateWindowImage called for {who} moving from {from} to {to}");
+        // Debug.Log($"WindowImage: UpdateWindowImage called for {who} moving from {from} to {to}");
 
         if (who == watcherAtThisWindow && to != thisWindowDoor)
         {
@@ -172,7 +172,8 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
             
         if (to != thisWindowDoor) return;
 
-        if (world.animatronicDictionary[who].GetCurrentJobName() != JobName.WindowWatcher) return;
+        if (!world.TryGetAnimatronic(who, out Animatronic animatronic)) return;
+        if (animatronic.GetCurrentJobName() != JobName.WindowWatcher) return;
 
         watcherAtThisWindow = who;
 
@@ -184,6 +185,13 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
             CharacterName.Freddy => freddyAtThisWindow,
             _ => noOneAtThisWindow
         };
+    }
+
+    private bool IsWindowWatcherAtDoor(CharacterName who)
+    {
+        return world.TryGetAnimatronic(who, out Animatronic animatronic) &&
+               animatronic.GetCurrentLocation() == thisWindowDoor &&
+               animatronic.GetCurrentJobName() == JobName.WindowWatcher;
     }
 
 }

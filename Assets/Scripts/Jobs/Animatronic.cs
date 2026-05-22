@@ -3,7 +3,7 @@ using UnityEngine;
 
 public struct JobNecessities
 {
-    public World world;
+    public GameContext world;
     public MapGraphs mapGraphs;
     public CharacterProfile givenProfile;
     public LocName LastLocation;
@@ -18,7 +18,7 @@ public class AnimatronicMemory
 
 public class Animatronic : MonoBehaviour
 {
-    [SerializeField] private World world;
+    [SerializeField] private GameContext world;
     [SerializeField] private MapGraphs mapGraphs;
     [SerializeField] private CharacterProfile profile;
     [SerializeField] private int Ailevel;
@@ -33,11 +33,11 @@ public class Animatronic : MonoBehaviour
     void Awake()
     {
         if (world == null || mapGraphs == null || profile == null)
-            Debug.LogError($"{name}: Missing references on Animatronic.");
+            // Debug.LogError($"{name}: Missing references on Animatronic.");
 
         recordedLoc = profile.nightStartingRoom;
 
-        world.animatronicDictionary.Add(profile.characterName, this);
+        world.RegisterAnimatronic(profile.characterName, this);
     }
 
     void OnEnable()
@@ -108,7 +108,7 @@ public class Animatronic : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Animatronic has no CharacterProfile assigned, cannot get CharacterName.");
+            // Debug.LogWarning("Animatronic has no CharacterProfile assigned, cannot get CharacterName.");
             return CharacterName.None;
         }
     }
@@ -126,7 +126,7 @@ public class Animatronic : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Animatronic has no current job assigned, cannot get JobName.");
+            // Debug.LogWarning("Animatronic has no current job assigned, cannot get JobName.");
             return JobName.None;
         }
     }
@@ -181,6 +181,9 @@ public class Animatronic : MonoBehaviour
     {
         if (world?.AIMonitor != null)
             world.AIMonitor.OnJobSwitched -= HandleSwitchRequest;
+
+        if (world != null && profile != null)
+            world.UnregisterAnimatronic(profile.characterName, this);
     }
     
 }

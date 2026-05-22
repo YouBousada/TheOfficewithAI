@@ -8,7 +8,7 @@ public class CameraButton : MonoBehaviour
 
     public void OnButtonPressed()
     {
-        Debug.Log("Camera button for " + thisRoom + " pressed.");
+        // Debug.Log("Camera button for " + thisRoom + " pressed.");
         cameraSystem.SetCameraRoom(thisRoom);
     }
 }

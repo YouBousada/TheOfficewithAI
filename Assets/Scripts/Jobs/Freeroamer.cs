@@ -131,7 +131,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
     {
         if (!AtADoor())
         {
-            Debug.LogWarning(profile.characterName + " tried to handle kill position while not at a door!");
+            // Debug.LogWarning(profile.characterName + " tried to handle kill position while not at a door!");
             return;
         }
 

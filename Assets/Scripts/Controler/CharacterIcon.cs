@@ -7,7 +7,7 @@ public class CharacterIcon : MonoBehaviour
 
     [SerializeField] private Sprite greenSprite;
     [SerializeField] private Sprite redSprite;
-    [SerializeField] private World world;
+    [SerializeField] private GameContext world;
 
     [SerializeField] private CharacterUIPositions positions;
 
@@ -120,5 +120,9 @@ public class CharacterIcon : MonoBehaviour
     {
         world.AIMonitor.OnLocationChanged -= HandleRoomChange;
         world.AIMonitor.OnBehaviourChanged -= HandleBehaviourChange;
+        world.AIMonitor.OnInitialization -= (who, location, behaviour, job) =>
+        {
+            HandleRoomChange(who, location, location);
+        };
     }
 }

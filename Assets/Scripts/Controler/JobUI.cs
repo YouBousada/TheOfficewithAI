@@ -5,7 +5,7 @@ public class JobUI : MonoBehaviour
 {
     [SerializeField] private CharacterName character;
     [SerializeField] private TextMeshProUGUI label;
-    [SerializeField] private World world;
+    [SerializeField] private GameContext world;
 
     void Awake()
     {

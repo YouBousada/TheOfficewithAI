@@ -8,7 +8,7 @@ public class MapUI : MonoBehaviour
     [SerializeField] private Sprite rightDoorClosed;
     [SerializeField] private Sprite leftDoorClosed;
 
-    [SerializeField] private World world;
+    [SerializeField] private GameContext world;
 
     private Image img;
     

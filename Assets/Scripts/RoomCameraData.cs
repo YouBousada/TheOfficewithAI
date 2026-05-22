@@ -24,7 +24,7 @@ public class RoomCameraData : ScriptableObject
     {
         if (!renderDict.TryGetValue(character, out var data) || data == null)
         {
-            Debug.LogWarning($"RoomCameraData missing CamviewData for: {character}");
+            // Debug.LogWarning($"RoomCameraData missing CamviewData for: {character}");
             return null;
         }
         return data;

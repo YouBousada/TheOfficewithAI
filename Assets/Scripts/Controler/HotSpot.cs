@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class HotSpot : MonoBehaviour
 {
-    [SerializeField] private World world;
+    [SerializeField] private GameContext world;
     [SerializeField] private View to;
     [SerializeField] private Action action;
     [field: SerializeField] public float ThisActionTime { get; private set; }
@@ -15,7 +15,7 @@ public class HotSpot : MonoBehaviour
         if (!started) { return; }
 
         Button button = GetComponent<Button>();
-        if (button == null) Debug.LogError($"{gameObject.name} is missing a Button component!", this);
+        // if (button == null) Debug.LogError($"{gameObject.name} is missing a Button component!", this);
 
         DoSubscriptions();
     }
@@ -34,11 +34,11 @@ public class HotSpot : MonoBehaviour
 
     public void InvokeViewChange(){
         world.Player.SetView(to);
-        Debug.Log("Player set view to " + to);
+        // Debug.Log("Player set view to " + to);
     }
     public void InvokeAction(){
         world.Player.PerformAction(action, ThisActionTime);
-        Debug.Log("action taken: " + action);
+        // Debug.Log("action taken: " + action);
     }
 
     private void HandlePlayerAction(Action action, float time)

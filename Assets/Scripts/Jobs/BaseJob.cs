@@ -2,7 +2,7 @@ using UnityEngine;
 
 public abstract class BaseJob : IJobRequirements
 {
-    protected World world;
+    protected GameContext world;
     protected MapGraphs mapGraphs;
     protected CharacterProfile profile;
     public LocName currentLoc;
@@ -92,7 +92,7 @@ public abstract class BaseJob : IJobRequirements
     }
     private const float JobSelectionChance = 0.8f;
 
-    public bool AskForJob(World world, CharacterName character, JobName toJob)
+    public bool AskForJob(GameContext world, CharacterName character, JobName toJob)
     {
         if (JobArbiter.ApproveJobSwitch(world, character, toJob))
         {
@@ -115,7 +115,7 @@ public abstract class BaseJob : IJobRequirements
         }
         foreach (CharacterName disliked in profile.dislikedCharacters)
             {
-                if(world.animatronicDictionary[disliked].GetCurrentLocation() == currentLoc)
+                if(world.TryGetAnimatronic(disliked, out Animatronic dislikedAnim) && dislikedAnim.GetCurrentLocation() == currentLoc)
                 {
                     MovementTimer -= Time.deltaTime * profile.socialRepelStrength;
                 }
@@ -131,7 +131,7 @@ public abstract class BaseJob : IJobRequirements
         }
         foreach (CharacterName liked in profile.likedCharacters)
             {
-                if(world.animatronicDictionary[liked].GetCurrentLocation() == currentLoc)
+                if(world.TryGetAnimatronic(liked, out Animatronic likedAnim) && likedAnim.GetCurrentLocation() == currentLoc)
                 {
                     MovementTimer += Time.deltaTime * profile.socialAttractStrength;
                 }
@@ -148,7 +148,7 @@ public abstract class BaseJob : IJobRequirements
     public bool OccupiedWindow(LocName windowLoc)
     {
         
-        foreach (Animatronic anim in world.animatronicDictionary.Values)
+        foreach (Animatronic anim in world.Animatronics)
         {
             if (anim.GetCurrentLocation() == windowLoc && anim.GetCurrentBehaviour() == Behaviour.StareThroughWindow)
             {

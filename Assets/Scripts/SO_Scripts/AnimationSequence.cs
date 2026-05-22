@@ -4,5 +4,4 @@ using UnityEngine;
 public class AnimationSequence : ScriptableObject
 {
     public Sprite[] frames;
-    public float fps = 12f;
 }

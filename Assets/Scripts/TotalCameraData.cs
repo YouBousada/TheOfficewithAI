@@ -8,10 +8,10 @@ public class TotalCameraData : ScriptableObject
 
     private Dictionary<LocName, RoomCameraData> roomCameraDataDictionary = new Dictionary<LocName, RoomCameraData>();
 
-    private int FreddyStageLayer = 3;
-    private int FoxyStageLayer = 1;
-    private int ChicaStageLayer = 4;
-    private int BonnieStageLayer = 2;
+    private int FreddyStageLayerIndex = 2;
+    private int FoxyStageLayerIndex = 0;
+    private int ChicaStageLayerIndex = 3;
+    private int BonnieStageLayerIndex = 1;
 
     void OnEnable()
     {
@@ -19,7 +19,7 @@ public class TotalCameraData : ScriptableObject
         {
             if(roomCamData == null)
             {
-                Debug.LogWarning("TotalCameraData: " + roomCamData + "has a null RoomCameraData reference.");
+                // Debug.LogWarning("TotalCameraData: " + roomCamData + "has a null RoomCameraData reference.");
                 continue;
             }
             
@@ -33,7 +33,7 @@ public class TotalCameraData : ScriptableObject
         {
             return roomCamData; 
         }
-        Debug.LogWarning("TotalCameraData does not contain RoomCameraData for location: " + loc);
+        // Debug.LogWarning("TotalCameraData does not contain RoomCameraData for location: " + loc);
         return null;
     }
 
@@ -42,15 +42,15 @@ public class TotalCameraData : ScriptableObject
         switch(character)
         {
             case CharacterName.Freddy:
-                return FreddyStageLayer;
+                return FreddyStageLayerIndex;
             case CharacterName.Foxy:
-                return FoxyStageLayer;
+                return FoxyStageLayerIndex;
             case CharacterName.Chica:
-                return ChicaStageLayer;
+                return ChicaStageLayerIndex;
             case CharacterName.Bonnie:
-                return BonnieStageLayer;
+                return BonnieStageLayerIndex;
             default:
-                Debug.LogWarning("GetStageLayerForCharacter called with invalid character: " + character);
+                // Debug.LogWarning("GetStageLayerForCharacter called with invalid character: " + character);
                 return -1;
         }
     }

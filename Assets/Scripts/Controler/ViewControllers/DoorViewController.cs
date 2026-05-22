@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections.Generic;
 
 public abstract class DoorViewController : ViewController
@@ -14,6 +13,44 @@ public abstract class DoorViewController : ViewController
     protected abstract bool isThisDoorOpen { get; }
     protected abstract Action OpenAction { get; }
     protected abstract Action CloseAction { get; }
+
+    private readonly Dictionary<CharacterName, AnimationSequence> openThisDoorJumpscares = new();
+    private readonly Dictionary<CharacterName, AnimationSequence> openOtherDoorJumpscares = new();
+    private readonly Dictionary<CharacterName, AnimationSequence> closedOtherDoorJumpscares = new();
+
+    protected override void Awake()
+    {
+        base.Awake();
+        BuildJumpscareLookups();
+    }
+
+    private void BuildJumpscareLookups()
+    {
+        openThisDoorJumpscares.Clear();
+        openOtherDoorJumpscares.Clear();
+        closedOtherDoorJumpscares.Clear();
+
+        if (doorViewJumpscareData == null)
+        {
+            // Debug.LogError($"{name}: DoorViewJumpscareData is not assigned.", this);
+            return;
+        }
+
+        openThisDoorJumpscares[CharacterName.Bonnie] = doorViewJumpscareData.ThisDoorBonnieAnimationDoorOpen;
+        openThisDoorJumpscares[CharacterName.Chica] = doorViewJumpscareData.ThisDoorChicaAnimationDoorOpen;
+        openThisDoorJumpscares[CharacterName.Foxy] = doorViewJumpscareData.ThisDoorFoxyAnimationDoorOpen;
+        openThisDoorJumpscares[CharacterName.Freddy] = doorViewJumpscareData.ThisDoorFreddyAnimationDoorOpen;
+
+        openOtherDoorJumpscares[CharacterName.Bonnie] = doorViewJumpscareData.OtherDoorBonnieAnimationDoorOpen;
+        openOtherDoorJumpscares[CharacterName.Chica] = doorViewJumpscareData.OtherDoorChicaAnimationDoorOpen;
+        openOtherDoorJumpscares[CharacterName.Foxy] = doorViewJumpscareData.OtherDoorFoxyAnimationDoorOpen;
+        openOtherDoorJumpscares[CharacterName.Freddy] = doorViewJumpscareData.OtherDoorFreddyAnimationDoorOpen;
+
+        closedOtherDoorJumpscares[CharacterName.Bonnie] = doorViewJumpscareData.OtherDoorBonnieAnimationDoorClosed;
+        closedOtherDoorJumpscares[CharacterName.Chica] = doorViewJumpscareData.OtherDoorChicaAnimationDoorClosed;
+        closedOtherDoorJumpscares[CharacterName.Foxy] = doorViewJumpscareData.OtherDoorFoxyAnimationDoorClosed;
+        closedOtherDoorJumpscares[CharacterName.Freddy] = doorViewJumpscareData.OtherDoorFreddyAnimationDoorClosed;
+    }
 
     protected override void RespondToAction(Action action, float time)
     {
@@ -36,66 +73,61 @@ public abstract class DoorViewController : ViewController
     }
     protected override void ReactToJumpscare_Concrete(CharacterName who, LocName from)
     {
-        if (!isThisDoorOpen)
+        if (doorViewJumpscareData == null)
         {
-            if (who == CharacterName.Bonnie)
-            {
-                animPlayer.PlayAnimation(doorViewJumpscareData.OtherDoorBonnieAnimationDoorClosed, backgroundImage.gameObject);
-            }
-            else if (who == CharacterName.Chica)
-            {
-                animPlayer.PlayAnimation(doorViewJumpscareData.OtherDoorChicaAnimationDoorClosed, backgroundImage.gameObject);
-            }
-            else if (who == CharacterName.Foxy)
-            {
-                animPlayer.PlayAnimation(doorViewJumpscareData.OtherDoorFoxyAnimationDoorClosed, backgroundImage.gameObject);
-            }
-            else if (who == CharacterName.Freddy)
-            {
-                animPlayer.PlayAnimation(doorViewJumpscareData.OtherDoorFreddyAnimationDoorClosed, backgroundImage.gameObject);
-            }
+            // Debug.LogError($"{name}: Cannot play door jumpscare because DoorViewJumpscareData is not assigned.", this);
+            return;
         }
-        else
-        {
-            if (from == LocName.EastDoor)
-            {
-                if (who == CharacterName.Bonnie)
-                {
-                    animPlayer.PlayAnimation(doorViewJumpscareData.OtherDoorBonnieAnimationDoorOpen, backgroundImage.gameObject);
-                }
-                else if (who == CharacterName.Chica)
-                {
-                    animPlayer.PlayAnimation(doorViewJumpscareData.OtherDoorChicaAnimationDoorOpen, backgroundImage.gameObject);
-                }
-                else if (who == CharacterName.Foxy)
-                {
-                    animPlayer.PlayAnimation(doorViewJumpscareData.OtherDoorFoxyAnimationDoorOpen, backgroundImage.gameObject);
-                }
-                else if (who == CharacterName.Freddy)
-                {
-                    animPlayer.PlayAnimation(doorViewJumpscareData.OtherDoorFreddyAnimationDoorOpen, backgroundImage.gameObject);
-                }
-            }
-            else
-            {
-                if (who == CharacterName.Bonnie)
-                {
-                    animPlayer.PlayAnimation(doorViewJumpscareData.ThisDoorBonnieAnimationDoorOpen, backgroundImage.gameObject);
-                }
-                else if (who == CharacterName.Chica)
-                {
-                    animPlayer.PlayAnimation(doorViewJumpscareData.ThisDoorChicaAnimationDoorOpen, backgroundImage.gameObject);
-                }
-                else if (who == CharacterName.Foxy)
-                {
-                    animPlayer.PlayAnimation(doorViewJumpscareData.ThisDoorFoxyAnimationDoorOpen, backgroundImage.gameObject);
-                }
-                else if (who == CharacterName.Freddy)
-                {
-                    animPlayer.PlayAnimation(doorViewJumpscareData.ThisDoorFreddyAnimationDoorOpen, backgroundImage.gameObject);
-                }
 
-            }
+        if (!IsDoorAttack(from))
+        {
+            // Debug.LogWarning($"{name}: Door jumpscare called from non-door location {from}.", this);
+            return;
         }
+
+        if (!isThisDoorOpen && IsAttackFromThisDoor(from))
+        {
+            // Debug.LogWarning($"{name}: Closed door view received a same-door jumpscare from {from}.", this);
+            return;
+        }
+
+        Dictionary<CharacterName, AnimationSequence> jumpscares = GetJumpscareLookup(from);
+        PlayJumpscareFromLookup(jumpscares, who, from);
+    }
+
+    private Dictionary<CharacterName, AnimationSequence> GetJumpscareLookup(LocName from)
+    {
+        if (!isThisDoorOpen)
+            return closedOtherDoorJumpscares;
+
+        return IsAttackFromThisDoor(from) ? openThisDoorJumpscares : openOtherDoorJumpscares;
+    }
+
+    private void PlayJumpscareFromLookup(Dictionary<CharacterName, AnimationSequence> jumpscares, CharacterName who, LocName from)
+    {
+        if (!jumpscares.TryGetValue(who, out AnimationSequence sequence))
+        {
+            // Debug.LogWarning($"{name}: No door jumpscare entry for {who} from {from}.", this);
+            return;
+        }
+
+        if (sequence == null)
+        {
+            // Debug.LogWarning($"{name}: Door jumpscare animation is missing for {who} from {from}.", this);
+            return;
+        }
+
+        animPlayer.PlayAnimation(sequence, backgroundImage.gameObject);
+    }
+
+    private bool IsDoorAttack(LocName from)
+    {
+        return from == LocName.EastDoor || from == LocName.WestDoor;
+    }
+
+    private bool IsAttackFromThisDoor(LocName from)
+    {
+        return (from == LocName.EastDoor && thisViewName == View.RightDoor) ||
+               (from == LocName.WestDoor && thisViewName == View.LeftDoor);
     }
 }

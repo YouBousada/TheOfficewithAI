@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    private World world;
+    private GameContext world;
     [SerializeField] private float gameOverDelay;
 
     void Awake()
@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
             world.OfficeStates.OnPowerOutage -= HandlePowerOut;
         }
 
-        world = World.Instance;
+        world = GameContext.Instance;
 
         if (world != null)
         {
@@ -66,5 +66,6 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
         if (world != null)
             world.AIMonitor.OnDeath -= HandleDeath;
+            world.OfficeStates.OnPowerOutage -= HandlePowerOut;
     }
 }

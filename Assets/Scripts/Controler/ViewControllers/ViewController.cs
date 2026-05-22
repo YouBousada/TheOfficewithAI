@@ -7,11 +7,11 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
     protected AnimationPlayer animPlayer;
 
     [Header("Context")]
-    [SerializeField] protected World world;
+    [SerializeField] protected GameContext world;
     [SerializeField] protected Image backgroundImage;
 
     [Header("Info about view")]
-    [SerializeField] private View thisViewName;
+    [SerializeField] protected View thisViewName;
     public List<GameObject> objectsInView = new();
     public List<GameObject> hideUponJumpscare = new();
 
@@ -28,7 +28,7 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
     protected virtual void Awake()
     {
         UtilizeAnimationPlayer();
-        world.viewDictionary.Add(thisViewName, this);
+        world.RegisterView(thisViewName, this);
     }
 
     void Start()
@@ -64,6 +64,12 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
         world.Player.OnViewChanged -= OnViewActivated;
         world.AIMonitor.OnDeath -= ReactToJumpscare;
 
+    }
+
+    void OnDestroy()
+    {
+        if (world != null)
+            world.UnregisterView(thisViewName, this);
     }
 
 

@@ -1,7 +1,7 @@
 using UnityEngine;
 public class ViewObjectsGatekeeper : MonoBehaviour
 {
-    [SerializeField] private World world;
+    [SerializeField] private GameContext world;
     private ViewController activeViewController;
     private ViewController previouslyActiveViewData;
 
@@ -15,7 +15,7 @@ public class ViewObjectsGatekeeper : MonoBehaviour
     void Start()
     {
         
-        foreach (ViewController viewController in world.viewDictionary.Values)
+        foreach (ViewController viewController in world.ViewControllers)
         {
             foreach (var obj in viewController.objectsInView)
             {
@@ -23,7 +23,11 @@ public class ViewObjectsGatekeeper : MonoBehaviour
             }
         }
 
-        activeViewController = world.viewDictionary[world.Player.CurrentView];
+        if (!world.TryGetView(world.Player.CurrentView, out activeViewController))
+        {
+            // Debug.LogWarning($"{name}: No ViewController registered for starting view {world.Player.CurrentView}.", this);
+            return;
+        }
 
         foreach (var obj in activeViewController.objectsInView)
             obj.SetActive(true);
@@ -36,7 +40,12 @@ public class ViewObjectsGatekeeper : MonoBehaviour
     void RespondToViewChange(View newView)
     {
         previouslyActiveViewData = activeViewController;
-        activeViewController = world.viewDictionary[newView];
+        if (!world.TryGetView(newView, out activeViewController))
+        {
+            // Debug.LogWarning($"{name}: No ViewController registered for view {newView}.", this);
+            activeViewController = previouslyActiveViewData;
+            return;
+        }
         HideOldViewObjects();
         ShowNewViewObjects();
     }
@@ -59,7 +68,17 @@ public class ViewObjectsGatekeeper : MonoBehaviour
 
     void JumpscareHideObjects(CharacterName killer, LocName location)
     {
+        if (activeViewController == null) return;
+
         foreach (var obj in activeViewController.hideUponJumpscare)
             obj.SetActive(false);
+    }
+
+    void OnDestroy()
+    {
+        if (world == null) return;
+
+        world.Player.OnViewChanged -= RespondToViewChange;
+        world.AIMonitor.OnDeath -= JumpscareHideObjects;
     }
 }

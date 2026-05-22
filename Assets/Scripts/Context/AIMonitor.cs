@@ -36,7 +36,7 @@ public class AIMonitor : MonoBehaviour
 
     public void HandleDeath(CharacterName who, LocName location)
     {
-        Debug.Log($"<color=red><b>[DEATH]</b></color>[{Time.time:F2}] {who} has killed the player from {location}.");
+        // Debug.Log($"<color=red><b>[DEATH]</b></color>[{Time.time:F2}] {who} has killed the player from {location}.");
         OnDeath?.Invoke(who, location);
     }
 

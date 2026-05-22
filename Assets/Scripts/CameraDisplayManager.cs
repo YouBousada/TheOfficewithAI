@@ -19,7 +19,7 @@ public class CameraDisplayManager : MonoBehaviour
     }
 
     [Header("World and Camera Data")]
-    [SerializeField] private World world;
+    [SerializeField] private GameContext world;
     [SerializeField] private TotalCameraData totalCameraData;
 
     [Header("Camera View Layers")]
@@ -37,12 +37,12 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void Awake()
     {
-        if (world == null) Debug.LogError($"{name}: World is not assigned.", this);
-        if (totalCameraData == null) Debug.LogError($"{name}: TotalCameraData is not assigned.", this);
-        if (backgroundLayer == null) Debug.LogError($"{name}: Background layer is not assigned.", this);
-        if (emptySprite == null) Debug.LogError($"{name}: Empty sprite is not assigned.", this);
-        if (characterLayers == null || characterLayers.Count < 4)
-            Debug.LogError($"{name}: At least 4 character layers required, only {characterLayers?.Count ?? 0} assigned.", this);
+        // if (world == null) Debug.LogError($"{name}: World is not assigned.", this);
+        // if (totalCameraData == null) Debug.LogError($"{name}: TotalCameraData is not assigned.", this);
+        // if (backgroundLayer == null) Debug.LogError($"{name}: Background layer is not assigned.", this);
+        // if (emptySprite == null) Debug.LogError($"{name}: Empty sprite is not assigned.", this);
+        // if (characterLayers == null || characterLayers.Count < 4)
+        //     Debug.LogError($"{name}: At least 4 character layers required, only {characterLayers?.Count ?? 0} assigned.", this);
 
         camDisplay = new CamDisplayLayer[characterLayers.Count];
     }
@@ -81,7 +81,8 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void HandleBehaviourChanged(CharacterName who, Behaviour oldBehaviour, Behaviour newBehaviour)
     {
-        if (world.animatronicDictionary[who].GetCurrentLocation() != activeCamera) return;
+        if (!world.TryGetAnimatronic(who, out Animatronic animatronic)) return;
+        if (animatronic.GetCurrentLocation() != activeCamera) return;
 
         renderCache.Remove(who);
         RemoveCharacterFromDisplay(who);
@@ -92,7 +93,8 @@ public class CameraDisplayManager : MonoBehaviour
     {
         renderCache.Remove(who);
 
-        Behaviour behaviour = world.animatronicDictionary[who].GetCurrentBehaviour();
+        if (!world.TryGetAnimatronic(who, out Animatronic animatronic)) return;
+        Behaviour behaviour = animatronic.GetCurrentBehaviour();
 
         if (to == activeCamera)
             AddCharacterToDisplay(who, behaviour);
@@ -110,7 +112,7 @@ public class CameraDisplayManager : MonoBehaviour
 
         if (thisRoomCameraData == null)
         {
-            Debug.LogWarning($"{name}: Could not find RoomCameraData for location: {newRoom}");
+            // Debug.LogWarning($"{name}: Could not find RoomCameraData for location: {newRoom}");
             return;
         }
 
@@ -121,7 +123,7 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void AddCharactersToDisplay()
     {
-        foreach (Animatronic anim in world.animatronicDictionary.Values)
+        foreach (Animatronic anim in world.Animatronics)
         {
             if (anim.GetCurrentLocation() == activeCamera)
                 AddCharacterToDisplay(anim.GetCharacterName(), anim.GetCurrentBehaviour());
@@ -146,12 +148,12 @@ public class CameraDisplayManager : MonoBehaviour
         for (int i = 0; i < camDisplay.Length; i++)
         {
             if (camDisplay[i].Occupant == CharacterName.None)
-                availableLayers.Add(i + 1);
+                availableLayers.Add(i);
         }
 
         if (availableLayers.Count == 0)
         {
-            Debug.LogWarning($"{name}: No available layers to display {animName}.");
+            // Debug.LogWarning($"{name}: No available layers to display {animName}.");
             return;
         }
 
@@ -171,7 +173,7 @@ public class CameraDisplayManager : MonoBehaviour
         var camviewData = thisRoomCameraData.GetCamviewDataForCharacter(animName);
         if (camviewData == null) return;
         Sprite chosenRender = camviewData.GetRandomRender(chosenLayer, animBehaviour);
-        PasteInRender(chosenLayer - 1, chosenRender, animName);
+        PasteInRender(chosenLayer, chosenRender, animName);
 
         //cache render if idling or running
         if (cachable)
@@ -181,7 +183,7 @@ public class CameraDisplayManager : MonoBehaviour
                 RenderSprite = chosenRender,
                 Room = activeCamera,
                 AnimBehaviour = animBehaviour,
-                SortingLayer = chosenLayer - 1
+                SortingLayer = chosenLayer
             };
         }
     }

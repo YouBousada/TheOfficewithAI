@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Screen : MonoBehaviour
 {
-    [SerializeField] private World world;
+    [SerializeField] private GameContext world;
     [SerializeField] private ScreenPosition deskPosition;
     [SerializeField] private ScreenPosition closePosition;
     [SerializeField] private RectTransform rect;
