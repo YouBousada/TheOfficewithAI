@@ -7,7 +7,7 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
     protected AnimationPlayer animPlayer;
 
     [Header("Context")]
-    [SerializeField] protected GameContext world;
+    [SerializeField] protected GameContext gameContext;
     [SerializeField] protected Image backgroundImage;
 
     [Header("Info about view")]
@@ -28,17 +28,17 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
     protected virtual void Awake()
     {
         UtilizeAnimationPlayer();
-        world.RegisterView(thisViewName, this);
+        gameContext.RegisterView(thisViewName, this);
     }
 
     void Start()
     {
 
-        OnViewActivated(world.Player.CurrentView);
+        OnViewActivated(gameContext.Player.CurrentView);
 
-        world.Player.OnActionPerformed += RespondToAction;
-        world.Player.OnViewChanged += OnViewActivated;
-        world.AIMonitor.OnDeath += ReactToJumpscare;
+        gameContext.Player.OnActionPerformed += RespondToAction;
+        gameContext.Player.OnViewChanged += OnViewActivated;
+        gameContext.AIMonitor.OnDeath += ReactToJumpscare;
     }
 
     protected abstract void RespondToAction(Action action, float time);
@@ -54,22 +54,22 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
 
     public void ReactToJumpscare(CharacterName who, LocName from)
     {
-        if (world.Player.CurrentView != thisViewName) { return; }
+        if (gameContext.Player.CurrentView != thisViewName) { return; }
         ReactToJumpscare_Concrete(who, from);
     }
 
     void OnDisable()
     {
-        world.Player.OnActionPerformed -= RespondToAction;
-        world.Player.OnViewChanged -= OnViewActivated;
-        world.AIMonitor.OnDeath -= ReactToJumpscare;
+        gameContext.Player.OnActionPerformed -= RespondToAction;
+        gameContext.Player.OnViewChanged -= OnViewActivated;
+        gameContext.AIMonitor.OnDeath -= ReactToJumpscare;
 
     }
 
     void OnDestroy()
     {
-        if (world != null)
-            world.UnregisterView(thisViewName, this);
+        if (gameContext != null)
+            gameContext.UnregisterView(thisViewName, this);
     }
 
 

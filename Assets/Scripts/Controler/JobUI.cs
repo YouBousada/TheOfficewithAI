@@ -5,20 +5,20 @@ public class JobUI : MonoBehaviour
 {
     [SerializeField] private CharacterName character;
     [SerializeField] private TextMeshProUGUI label;
-    [SerializeField] private GameContext world;
+    [SerializeField] private GameContext gameContext;
 
     void Awake()
     {
-        world.AIMonitor.OnInitialization += HandleInit;
-        world.AIMonitor.OnJobSwitched += HandleJobSwitch;
+        gameContext.AIMonitor.OnInitialization += HandleInit;
+        gameContext.AIMonitor.OnJobSwitched += HandleJobSwitch;
     }
 
     void OnDestroy()
     {
-        if (world == null) return;
+        if (gameContext == null) return;
 
-        world.AIMonitor.OnInitialization -= HandleInit;
-        world.AIMonitor.OnJobSwitched -= HandleJobSwitch;
+        gameContext.AIMonitor.OnInitialization -= HandleInit;
+        gameContext.AIMonitor.OnJobSwitched -= HandleJobSwitch;
     }
 
     void HandleInit(CharacterName who, LocName loc, Behaviour behaviour, JobName job)

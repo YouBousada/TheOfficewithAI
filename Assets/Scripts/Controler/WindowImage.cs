@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 {
-    [SerializeField] private GameContext world;
+    [SerializeField] private GameContext gameContext;
     [SerializeField] private LocName thisWindowDoor;
     private Image Image;
     private AnimationPlayer animPlayer;
@@ -109,9 +109,9 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 
     private void DoSubscribing()
     {
-        world.AIMonitor.OnLocationChanged += RespondToMovement;
-        world.AIMonitor.OnJobSwitched += RespondToJobSwitch;
-        world.AIMonitor.OnDeath += ReactToJumpscare;
+        gameContext.AIMonitor.OnLocationChanged += RespondToMovement;
+        gameContext.AIMonitor.OnJobSwitched += RespondToJobSwitch;
+        gameContext.AIMonitor.OnDeath += ReactToJumpscare;
     }
 
     private void SeeIfAWindowWatcherIsHere()
@@ -146,9 +146,9 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 
     void OnDisable()
     {
-        world.AIMonitor.OnLocationChanged -= RespondToMovement;
-        world.AIMonitor.OnJobSwitched -= RespondToJobSwitch;
-        world.AIMonitor.OnDeath -= ReactToJumpscare;
+        gameContext.AIMonitor.OnLocationChanged -= RespondToMovement;
+        gameContext.AIMonitor.OnJobSwitched -= RespondToJobSwitch;
+        gameContext.AIMonitor.OnDeath -= ReactToJumpscare;
     }
 
     void RespondToJobSwitch(CharacterName who, JobName fromJob, JobName toJob)
@@ -172,7 +172,7 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
             
         if (to != thisWindowDoor) return;
 
-        if (!world.TryGetAnimatronic(who, out Animatronic animatronic)) return;
+        if (!gameContext.TryGetAnimatronic(who, out Animatronic animatronic)) return;
         if (animatronic.GetCurrentJobName() != JobName.WindowWatcher) return;
 
         watcherAtThisWindow = who;
@@ -189,7 +189,7 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
 
     private bool IsWindowWatcherAtDoor(CharacterName who)
     {
-        return world.TryGetAnimatronic(who, out Animatronic animatronic) &&
+        return gameContext.TryGetAnimatronic(who, out Animatronic animatronic) &&
                animatronic.GetCurrentLocation() == thisWindowDoor &&
                animatronic.GetCurrentJobName() == JobName.WindowWatcher;
     }

@@ -18,8 +18,8 @@ public class CameraDisplayManager : MonoBehaviour
         public int SortingLayer;
     }
 
-    [Header("World and Camera Data")]
-    [SerializeField] private GameContext world;
+    [Header("Game Context and Camera Data")]
+    [SerializeField] private GameContext gameContext;
     [SerializeField] private TotalCameraData totalCameraData;
 
     [Header("Camera View Layers")]
@@ -37,7 +37,7 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void Awake()
     {
-        // if (world == null) Debug.LogError($"{name}: World is not assigned.", this);
+        // if (gameContext == null) Debug.LogError($"{name}: GameContext is not assigned.", this);
         // if (totalCameraData == null) Debug.LogError($"{name}: TotalCameraData is not assigned.", this);
         // if (backgroundLayer == null) Debug.LogError($"{name}: Background layer is not assigned.", this);
         // if (emptySprite == null) Debug.LogError($"{name}: Empty sprite is not assigned.", this);
@@ -49,11 +49,11 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void OnEnable()
     {
-        activeCamera = world.CameraSystem.ActiveCamera;
+        activeCamera = gameContext.CameraSystem.ActiveCamera;
 
-        world.AIMonitor.OnLocationChanged += HandleAnimatronicMovement;
-        world.AIMonitor.OnBehaviourChanged += HandleBehaviourChanged;
-        world.CameraSystem.OnCameraRoomChanged += HandleCameraRoomChanged;
+        gameContext.AIMonitor.OnLocationChanged += HandleAnimatronicMovement;
+        gameContext.AIMonitor.OnBehaviourChanged += HandleBehaviourChanged;
+        gameContext.CameraSystem.OnCameraRoomChanged += HandleCameraRoomChanged;
 
         for (int i = 0; i < characterLayers.Count; i++)
         {
@@ -69,19 +69,19 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void Start()
     {
-        HandleCameraRoomChanged(world.CameraSystem.ActiveCamera);
+        HandleCameraRoomChanged(gameContext.CameraSystem.ActiveCamera);
     }
 
     private void OnDisable()
     {
-        world.AIMonitor.OnLocationChanged -= HandleAnimatronicMovement;
-        world.AIMonitor.OnBehaviourChanged -= HandleBehaviourChanged;
-        world.CameraSystem.OnCameraRoomChanged -= HandleCameraRoomChanged;
+        gameContext.AIMonitor.OnLocationChanged -= HandleAnimatronicMovement;
+        gameContext.AIMonitor.OnBehaviourChanged -= HandleBehaviourChanged;
+        gameContext.CameraSystem.OnCameraRoomChanged -= HandleCameraRoomChanged;
     }
 
     private void HandleBehaviourChanged(CharacterName who, Behaviour oldBehaviour, Behaviour newBehaviour)
     {
-        if (!world.TryGetAnimatronic(who, out Animatronic animatronic)) return;
+        if (!gameContext.TryGetAnimatronic(who, out Animatronic animatronic)) return;
         if (animatronic.GetCurrentLocation() != activeCamera) return;
 
         renderCache.Remove(who);
@@ -93,7 +93,7 @@ public class CameraDisplayManager : MonoBehaviour
     {
         renderCache.Remove(who);
 
-        if (!world.TryGetAnimatronic(who, out Animatronic animatronic)) return;
+        if (!gameContext.TryGetAnimatronic(who, out Animatronic animatronic)) return;
         Behaviour behaviour = animatronic.GetCurrentBehaviour();
 
         if (to == activeCamera)
@@ -123,7 +123,7 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void AddCharactersToDisplay()
     {
-        foreach (Animatronic anim in world.Animatronics)
+        foreach (Animatronic anim in gameContext.Animatronics)
         {
             if (anim.GetCurrentLocation() == activeCamera)
                 AddCharacterToDisplay(anim.GetCharacterName(), anim.GetCurrentBehaviour());

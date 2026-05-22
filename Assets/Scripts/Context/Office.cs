@@ -5,7 +5,7 @@ public class Office : MonoBehaviour
 {
     public static Office Instance { get; private set; }
 
-    public float Power { get; private set; } = 100f;
+    public float Power { get; private set; } = 1000f;
     public bool LeftDoorIsOpen { get; private set; }
     public bool RightDoorIsOpen { get; private set; }
 
@@ -58,10 +58,21 @@ public class Office : MonoBehaviour
 
     void HandleAction(Action action, float time)
     {
-        if (action == Action.OpenLeftDoor) SetLeftDoor(true);
-        else if (action == Action.CloseLeftDoor) SetLeftDoor(false);
-        else if (action == Action.OpenRightDoor) SetRightDoor(true);
-        else if (action == Action.CloseRightDoor) SetRightDoor(false);
+        switch (action)
+        {
+            case Action.OpenLeftDoor:
+                SetLeftDoor(true);
+                break;
+            case Action.CloseLeftDoor:
+                SetLeftDoor(false);
+                break;
+            case Action.OpenRightDoor:
+                SetRightDoor(true);
+                break;
+            case Action.CloseRightDoor:
+                SetRightDoor(false);
+                break;
+        }
     }
 
     public void SetLeftDoor(bool isOpen)

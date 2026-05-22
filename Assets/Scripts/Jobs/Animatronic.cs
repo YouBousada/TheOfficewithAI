@@ -3,7 +3,7 @@ using UnityEngine;
 
 public struct JobNecessities
 {
-    public GameContext world;
+    public GameContext gameContext;
     public MapGraphs mapGraphs;
     public CharacterProfile givenProfile;
     public LocName LastLocation;
@@ -18,7 +18,7 @@ public class AnimatronicMemory
 
 public class Animatronic : MonoBehaviour
 {
-    [SerializeField] private GameContext world;
+    [SerializeField] private GameContext gameContext;
     [SerializeField] private MapGraphs mapGraphs;
     [SerializeField] private CharacterProfile profile;
     [SerializeField] private int Ailevel;
@@ -32,31 +32,33 @@ public class Animatronic : MonoBehaviour
 
     void Awake()
     {
-        if (world == null || mapGraphs == null || profile == null)
-            // Debug.LogError($"{name}: Missing references on Animatronic.");
+        if (gameContext == null || mapGraphs == null || profile == null)
+        {
+            Debug.LogError($"{name}: Missing references on Animatronic.");
+        }
 
         recordedLoc = profile.nightStartingRoom;
 
-        world.RegisterAnimatronic(profile.characterName, this);
+        gameContext.RegisterAnimatronic(profile.characterName, this);
     }
 
     void OnEnable()
     {
-        world.AIMonitor.OnJobSwitched += HandleSwitchRequest;
+        gameContext.AIMonitor.OnJobSwitched += HandleSwitchRequest;
 
-        world.AIMonitor.OnLocationChanged += HandleLocationChange;
+        gameContext.AIMonitor.OnLocationChanged += HandleLocationChange;
 
-        world.AIMonitor.OnDeath += HandleDeath;
+        gameContext.AIMonitor.OnDeath += HandleDeath;
 
     }
 
     void OnDisable()
     {
-        world.AIMonitor.OnJobSwitched -= HandleSwitchRequest;
+        gameContext.AIMonitor.OnJobSwitched -= HandleSwitchRequest;
 
-        world.AIMonitor.OnLocationChanged -= HandleLocationChange;
+        gameContext.AIMonitor.OnLocationChanged -= HandleLocationChange;
 
-        world.AIMonitor.OnDeath -= HandleDeath;
+        gameContext.AIMonitor.OnDeath -= HandleDeath;
     }
     void Start()
     {
@@ -69,7 +71,7 @@ public class Animatronic : MonoBehaviour
 
         necessities = new JobNecessities
         {
-            world = world,
+            gameContext = gameContext,
             mapGraphs = mapGraphs,
             givenProfile = profile,
             LastLocation = recordedLoc,
@@ -179,11 +181,11 @@ public class Animatronic : MonoBehaviour
     }
     void OnDestroy()
     {
-        if (world?.AIMonitor != null)
-            world.AIMonitor.OnJobSwitched -= HandleSwitchRequest;
+        if (gameContext?.AIMonitor != null)
+            gameContext.AIMonitor.OnJobSwitched -= HandleSwitchRequest;
 
-        if (world != null && profile != null)
-            world.UnregisterAnimatronic(profile.characterName, this);
+        if (gameContext != null && profile != null)
+            gameContext.UnregisterAnimatronic(profile.characterName, this);
     }
     
 }

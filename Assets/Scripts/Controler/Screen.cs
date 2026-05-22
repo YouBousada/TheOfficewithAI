@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Screen : MonoBehaviour
 {
-    [SerializeField] private GameContext world;
+    [SerializeField] private GameContext gameContext;
     [SerializeField] private ScreenPosition deskPosition;
     [SerializeField] private ScreenPosition closePosition;
     [SerializeField] private RectTransform rect;
@@ -10,7 +10,7 @@ public class Screen : MonoBehaviour
 
     void Awake()
     {
-        world.Player.OnViewChanged += WarpToView;
+        gameContext.Player.OnViewChanged += WarpToView;
     }
     public void WarpToView(View newView)
     {

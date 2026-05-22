@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    private GameContext world;
+    private GameContext gameContext;
     [SerializeField] private float gameOverDelay;
 
     void Awake()
@@ -20,18 +20,18 @@ public class GameManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (world != null)
+        if (gameContext != null)
         {
-            world.AIMonitor.OnDeath -= HandleDeath;
-            world.OfficeStates.OnPowerOutage -= HandlePowerOut;
+            gameContext.AIMonitor.OnDeath -= HandleDeath;
+            gameContext.OfficeStates.OnPowerOutage -= HandlePowerOut;
         }
 
-        world = GameContext.Instance;
+        gameContext = GameContext.Instance;
 
-        if (world != null)
+        if (gameContext != null)
         {
-            world.AIMonitor.OnDeath += HandleDeath;
-            world.OfficeStates.OnPowerOutage += HandlePowerOut;
+            gameContext.AIMonitor.OnDeath += HandleDeath;
+            gameContext.OfficeStates.OnPowerOutage += HandlePowerOut;
         }
     }
 
@@ -64,8 +64,8 @@ public class GameManager : MonoBehaviour
     void OnDestroy()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
-        if (world != null)
-            world.AIMonitor.OnDeath -= HandleDeath;
-            world.OfficeStates.OnPowerOutage -= HandlePowerOut;
+        if (gameContext != null)
+            gameContext.AIMonitor.OnDeath -= HandleDeath;
+            gameContext.OfficeStates.OnPowerOutage -= HandlePowerOut;
     }
 }

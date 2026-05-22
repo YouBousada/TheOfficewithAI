@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class HotSpot : MonoBehaviour
 {
-    [SerializeField] private GameContext world;
+    [SerializeField] private GameContext gameContext;
     [SerializeField] private View to;
     [SerializeField] private Action action;
     [field: SerializeField] public float ThisActionTime { get; private set; }
@@ -22,8 +22,8 @@ public class HotSpot : MonoBehaviour
 
     private void DoSubscriptions()
     {
-        world.Player.OnActionPerformed += HandlePlayerAction;
-        world.AIMonitor.OnDeath += HandleJumpscare;
+        gameContext.Player.OnActionPerformed += HandlePlayerAction;
+        gameContext.AIMonitor.OnDeath += HandleJumpscare;
     }
 
     public void Start()
@@ -33,11 +33,11 @@ public class HotSpot : MonoBehaviour
     }
 
     public void InvokeViewChange(){
-        world.Player.SetView(to);
+        gameContext.Player.SetView(to);
         // Debug.Log("Player set view to " + to);
     }
     public void InvokeAction(){
-        world.Player.PerformAction(action, ThisActionTime);
+        gameContext.Player.PerformAction(action, ThisActionTime);
         // Debug.Log("action taken: " + action);
     }
 
@@ -67,8 +67,8 @@ public class HotSpot : MonoBehaviour
 
     public void OnDisable()
     {
-        world.Player.OnActionPerformed -= HandlePlayerAction;
-        world.AIMonitor.OnDeath -= HandleJumpscare;
+        gameContext.Player.OnActionPerformed -= HandlePlayerAction;
+        gameContext.AIMonitor.OnDeath -= HandleJumpscare;
     }
 
 }

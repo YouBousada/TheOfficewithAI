@@ -1,7 +1,7 @@
 using UnityEngine;
 public class ViewObjectsGatekeeper : MonoBehaviour
 {
-    [SerializeField] private GameContext world;
+    [SerializeField] private GameContext gameContext;
     private ViewController activeViewController;
     private ViewController previouslyActiveViewData;
 
@@ -15,7 +15,7 @@ public class ViewObjectsGatekeeper : MonoBehaviour
     void Start()
     {
         
-        foreach (ViewController viewController in world.ViewControllers)
+        foreach (ViewController viewController in gameContext.ViewControllers)
         {
             foreach (var obj in viewController.objectsInView)
             {
@@ -23,9 +23,9 @@ public class ViewObjectsGatekeeper : MonoBehaviour
             }
         }
 
-        if (!world.TryGetView(world.Player.CurrentView, out activeViewController))
+        if (!gameContext.TryGetView(gameContext.Player.CurrentView, out activeViewController))
         {
-            // Debug.LogWarning($"{name}: No ViewController registered for starting view {world.Player.CurrentView}.", this);
+            // Debug.LogWarning($"{name}: No ViewController registered for starting view {gameContext.Player.CurrentView}.", this);
             return;
         }
 
@@ -33,14 +33,14 @@ public class ViewObjectsGatekeeper : MonoBehaviour
             obj.SetActive(true);
 
         previouslyActiveViewData = activeViewController;
-        world.Player.OnViewChanged += RespondToViewChange;
-        world.AIMonitor.OnDeath += JumpscareHideObjects;
+        gameContext.Player.OnViewChanged += RespondToViewChange;
+        gameContext.AIMonitor.OnDeath += JumpscareHideObjects;
     }
 
     void RespondToViewChange(View newView)
     {
         previouslyActiveViewData = activeViewController;
-        if (!world.TryGetView(newView, out activeViewController))
+        if (!gameContext.TryGetView(newView, out activeViewController))
         {
             // Debug.LogWarning($"{name}: No ViewController registered for view {newView}.", this);
             activeViewController = previouslyActiveViewData;
@@ -76,9 +76,9 @@ public class ViewObjectsGatekeeper : MonoBehaviour
 
     void OnDestroy()
     {
-        if (world == null) return;
+        if (gameContext == null) return;
 
-        world.Player.OnViewChanged -= RespondToViewChange;
-        world.AIMonitor.OnDeath -= JumpscareHideObjects;
+        gameContext.Player.OnViewChanged -= RespondToViewChange;
+        gameContext.AIMonitor.OnDeath -= JumpscareHideObjects;
     }
 }

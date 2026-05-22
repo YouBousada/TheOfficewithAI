@@ -101,7 +101,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 
     void Wait()
     {
-        if (world.CameraSystem.ActiveCamera == currentLoc)
+        if (gameContext.CameraSystem.ActiveCamera == currentLoc)
         {
             if (MovementTimer < maxIdleTime)
             {
