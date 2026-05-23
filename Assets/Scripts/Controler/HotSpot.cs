@@ -1,74 +1,131 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-
-public class HotSpot : MonoBehaviour
+public class HotSpot : OverLayObject
 {
-    [SerializeField] private GameContext gameContext;
     [SerializeField] private View to;
-    [SerializeField] private Action action;
-    [field: SerializeField] public float ThisActionTime { get; private set; }
-    private bool started;
+    [SerializeField] private PlayerAction action;
+    [SerializeField] private bool startsAvailable = true;
 
-    public void OnEnable()
+    private Button button;
+    private CanvasGroup canvasGroup;
+    private Coroutine actionCooldownCoroutine;
+    private bool isAvailableFromWorldState;
+    private bool isActionLocked;
+    private bool isJumpscareLocked;
+
+    public bool CanUseHotspot => IsInActiveView &&
+                                 isAvailableFromWorldState &&
+                                 !isActionLocked &&
+                                 !isJumpscareLocked;
+
+    private void Awake()
     {
-        if (!started) { return; }
+        button = GetComponent<Button>();
+        canvasGroup = GetComponent<CanvasGroup>();
 
-        Button button = GetComponent<Button>();
-        // if (button == null) Debug.LogError($"{gameObject.name} is missing a Button component!", this);
+        if (canvasGroup == null)
+            canvasGroup = gameObject.AddComponent<CanvasGroup>();
 
-        DoSubscriptions();
+        isAvailableFromWorldState = startsAvailable;
     }
 
-    private void DoSubscriptions()
+    protected override void Start()
     {
+        base.Start();
+
         gameContext.Player.OnActionPerformed += HandlePlayerAction;
-        gameContext.AIMonitor.OnDeath += HandleJumpscare;
     }
 
-    public void Start()
+    public void InvokeViewChange()
     {
-        started = true;
-        DoSubscriptions();
-    }
+        if (!CanUseHotspot) return;
 
-    public void InvokeViewChange(){
         gameContext.Player.SetView(to);
-        // Debug.Log("Player set view to " + to);
-    }
-    public void InvokeAction(){
-        gameContext.Player.PerformAction(action, ThisActionTime);
-        // Debug.Log("action taken: " + action);
     }
 
-    private void HandlePlayerAction(Action action, float time)
+    public void InvokeAction()
     {
-        StartCoroutine(HandlePlayerActionCoroutine(action, time));
+        if (!CanUseHotspot) return;
+        if (action == null)
+        {
+            Debug.LogWarning($"{name} cannot perform an action because no PlayerAction is assigned.", this);
+            return;
+        }
+
+        gameContext.Player.PerformAction(action);
     }
 
-    private IEnumerator HandlePlayerActionCoroutine(Action action, float time)
+    public void ActivateHotspot()
     {
-        Button button = GetComponent<Button>();
-
-        button.interactable = false;
-
-
-        yield return new WaitForSeconds(time);
-
-        button.interactable = true;
+        isAvailableFromWorldState = true;
+        RefreshState();
     }
 
-    private void HandleJumpscare(CharacterName who, LocName from)
+    public void DeactivateHotspot()
     {
-        Button button = GetComponent<Button>();
-        button.interactable = false;
+        isAvailableFromWorldState = false;
+        RefreshState();
     }
-    
 
-    public void OnDisable()
+    private void HandlePlayerAction(PlayerAction performedAction)
     {
-        gameContext.Player.OnActionPerformed -= HandlePlayerAction;
-        gameContext.AIMonitor.OnDeath -= HandleJumpscare;
+        if (performedAction == null) return;
+        if (button == null) return;
+
+        if (actionCooldownCoroutine != null)
+            StopCoroutine(actionCooldownCoroutine);
+
+        actionCooldownCoroutine = StartCoroutine(HandlePlayerActionCoroutine(performedAction));
     }
 
+    private IEnumerator HandlePlayerActionCoroutine(PlayerAction performedAction)
+    {
+        isActionLocked = true;
+        RefreshState();
+
+        yield return new WaitForSeconds(performedAction.HotspotDisableDuration);
+
+        isActionLocked = false;
+        RefreshState();
+
+        actionCooldownCoroutine = null;
+    }
+
+    protected override void EnterActiveView()
+    {
+        RefreshState();
+    }
+
+    protected override void ExitActiveView()
+    {
+        RefreshState();
+    }
+
+    protected override void HideForJumpscare(CharacterName who, LocName from)
+    {
+        isJumpscareLocked = true;
+        RefreshState();
+    }
+
+    private void RefreshState()
+    {
+        bool visible = IsInActiveView && isAvailableFromWorldState && !isJumpscareLocked;
+        bool usable = visible && !isActionLocked;
+
+        canvasGroup.alpha = visible ? 1f : 0f;
+        canvasGroup.interactable = usable;
+        canvasGroup.blocksRaycasts = usable;
+
+        if (button != null)
+            button.interactable = usable;
+    }
+
+    protected override void OnDestroy()
+    {
+        if (gameContext != null)
+            gameContext.Player.OnActionPerformed -= HandlePlayerAction;
+
+        base.OnDestroy();
+    }
 }

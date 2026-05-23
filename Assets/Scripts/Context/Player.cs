@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public bool IsDead { get; private set; } = false;
 
     public event Action<View> OnViewChanged;
-    public event Action<Action, float> OnActionPerformed;
+    public event Action<PlayerAction> OnActionPerformed;
 
     private void Awake()
     {
@@ -31,8 +31,8 @@ public class Player : MonoBehaviour
         IsDead = true;
     }
 
-    public void PerformAction(Action action, float actionTime)
+    public void PerformAction(PlayerAction action)
     {
-        OnActionPerformed?.Invoke(action, actionTime);
+        OnActionPerformed?.Invoke(action);
     }
 }

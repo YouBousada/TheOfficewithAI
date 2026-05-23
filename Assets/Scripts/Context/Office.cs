@@ -56,9 +56,9 @@ public class Office : MonoBehaviour
         }
     }
 
-    void HandleAction(Action action, float time)
+    void HandleAction(PlayerAction action)
     {
-        switch (action)
+        switch (action.ActionName)
         {
             case Action.OpenLeftDoor:
                 SetLeftDoor(true);

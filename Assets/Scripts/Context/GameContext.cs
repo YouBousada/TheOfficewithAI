@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Linq;
 
 public class GameContext : MonoBehaviour
 {
@@ -18,6 +19,25 @@ public class GameContext : MonoBehaviour
     void Awake()
     {
         Instance = this;
+    }
+
+    void OnGUI()
+    {
+        GUIStyle style = new(GUI.skin.label) { fontSize = 20 };
+        style.normal.textColor = Color.green;
+
+        int i = 0;
+
+        foreach (Animatronic animatronic in Animatronics)
+        {
+            GUI.Label(
+                new Rect(300, 10 + i * 30, 500, 40),
+                $"{animatronic.GetCharacterName()}'s Job: {animatronic.GetCurrentJobName()}",
+                style
+            );
+
+            i++;
+        }
     }
 
     public void RegisterAnimatronic(CharacterName character, Animatronic animatronic)

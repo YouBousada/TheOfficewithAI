@@ -84,7 +84,7 @@ public abstract class GenericOfficeViewController : ViewController
         animPlayer.PlayAnimation(sequence, backgroundImage.gameObject);
     }
 
-    protected override void RespondToAction(Action action, float time)
+    protected override void RespondToAction_Concrete(PlayerAction action)
     {
         return;
     }

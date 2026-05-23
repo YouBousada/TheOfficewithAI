@@ -1,14 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
+public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 {
-    [SerializeField] private GameContext gameContext;
     [SerializeField] private LocName thisWindowDoor;
     private Image Image;
     private AnimationPlayer animPlayer;
     private CharacterName watcherAtThisWindow = CharacterName.None;
-    private bool started = false;
 
     [Header("Idle Window Sprites")]
     [SerializeField] private Sprite noOneAtThisWindow;
@@ -26,20 +24,9 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
         Image = GetComponent<Image>();
     }
 
-    void OnEnable()
+    protected override void Start()
     {
-        if (!started)
-        {
-            return;
-        }
-
-        DoSubscribing();
-        SeeIfAWindowWatcherIsHere();
-    }
-
-    void Start()
-    {
-        started = true;
+        base.Start();
         
         DoSubscribing();
         SeeIfAWindowWatcherIsHere();
@@ -144,11 +131,16 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
         }
     }
 
-    void OnDisable()
+    protected override void OnDestroy()
     {
-        gameContext.AIMonitor.OnLocationChanged -= RespondToMovement;
-        gameContext.AIMonitor.OnJobSwitched -= RespondToJobSwitch;
-        gameContext.AIMonitor.OnDeath -= ReactToJumpscare;
+        if (gameContext != null)
+        {
+            gameContext.AIMonitor.OnLocationChanged -= RespondToMovement;
+            gameContext.AIMonitor.OnJobSwitched -= RespondToJobSwitch;
+            gameContext.AIMonitor.OnDeath -= ReactToJumpscare;
+        }
+
+        base.OnDestroy();
     }
 
     void RespondToJobSwitch(CharacterName who, JobName fromJob, JobName toJob)
@@ -192,6 +184,27 @@ public class WindowImage : MonoBehaviour, IAnimated, IJumpscareAffected
         return gameContext.TryGetAnimatronic(who, out Animatronic animatronic) &&
                animatronic.GetCurrentLocation() == thisWindowDoor &&
                animatronic.GetCurrentJobName() == JobName.WindowWatcher;
+    }
+
+    protected override void EnterActiveView()
+    {
+        SetVisible(true);
+    }
+
+    protected override void ExitActiveView()
+    {
+        SetVisible(false);
+    }
+
+    protected override void HideForJumpscare(CharacterName who, LocName from)
+    {
+        SetVisible(false);
+    }
+
+    private void SetVisible(bool visible)
+    {
+        if (Image != null)
+            Image.enabled = visible;
     }
 
 }

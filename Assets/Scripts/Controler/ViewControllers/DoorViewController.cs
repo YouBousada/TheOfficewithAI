@@ -4,11 +4,13 @@ using System.Collections.Generic;
 public abstract class DoorViewController : ViewController
 {
     [SerializeField] private DoorViewJumpscareData doorViewJumpscareData;
-
     [SerializeField] private AnimationSequence DoorOpenAnimation;
     [SerializeField] private AnimationSequence DoorCloseAnimation;
     [SerializeField] private Sprite DoorClosedImage;
     [SerializeField] private Sprite DoorOpenImage;
+
+    [SerializeField] private HotSpot CloseButton;
+    [SerializeField] private HotSpot OpenButton;
 
     protected abstract bool isThisDoorOpen { get; }
     protected abstract Action OpenAction { get; }
@@ -52,12 +54,21 @@ public abstract class DoorViewController : ViewController
         closedOtherDoorJumpscares[CharacterName.Freddy] = doorViewJumpscareData.OtherDoorFreddyAnimationDoorClosed;
     }
 
-    protected override void RespondToAction(Action action, float time)
+    protected override void RespondToAction_Concrete(PlayerAction action)
     {
-        if (action == OpenAction)
+        if (action.ActionName == OpenAction && !isThisDoorOpen)
+        {
             animPlayer.PlayAnimation(DoorOpenAnimation, backgroundImage.gameObject, DoorOpenImage);
-        else if (action == CloseAction)
+            OpenButton.DeactivateHotspot();
+            CloseButton.ActivateHotspot();
+        }
+        else if (action.ActionName == CloseAction && isThisDoorOpen)
+        {
             animPlayer.PlayAnimation(DoorCloseAnimation, backgroundImage.gameObject, DoorClosedImage);
+            OpenButton.ActivateHotspot();
+            CloseButton.DeactivateHotspot();
+        }
+            
     }
 
     protected override void OnViewActivated_Concrete()
@@ -69,6 +80,16 @@ public abstract class DoorViewController : ViewController
         else
         {
             backgroundImage.sprite = DoorOpenImage;
+        }
+        if (isThisDoorOpen)
+        {
+            OpenButton.DeactivateHotspot();
+            CloseButton.ActivateHotspot();
+        }
+        else
+        {
+            OpenButton.ActivateHotspot();
+            CloseButton.DeactivateHotspot();
         }
     }
     protected override void ReactToJumpscare_Concrete(CharacterName who, LocName from)
