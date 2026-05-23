@@ -1,9 +1,9 @@
 using UnityEngine;
 using System;
 
-public class AIMonitor : MonoBehaviour
+public class AIEvents : MonoBehaviour
 {
-    public static AIMonitor Instance { get; private set; }
+    public static AIEvents Instance { get; private set; }
 
     void Awake()
     {

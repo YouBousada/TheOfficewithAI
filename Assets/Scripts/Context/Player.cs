@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
     {
         CurrentView = newView;
         OnViewChanged?.Invoke(newView);
+        Debug.Log("Player is now looking at: " + newView);
     }
 
     public void Die()

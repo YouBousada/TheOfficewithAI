@@ -6,9 +6,8 @@ public class GameContext : MonoBehaviour
     public static GameContext Instance { get; private set; }
     [field: SerializeField] public Player Player { get; private set; }
     [field: SerializeField] public CameraSystem CameraSystem { get; private set; }
-    [field: SerializeField] public AIMonitor AIMonitor { get; private set; }
+    [field: SerializeField] public AIEvents AIMonitor { get; private set; }
     [field: SerializeField] public Office OfficeStates { get; private set; }
-    public bool IsUnskippableAnimationPlaying = false;
 
     private readonly Dictionary<CharacterName, Animatronic> animatronics = new();
     private readonly Dictionary<View, ViewController> views = new();

@@ -3,7 +3,7 @@ public class ViewObjectsGatekeeper : MonoBehaviour
 {
     [SerializeField] private GameContext gameContext;
     private ViewController activeViewController;
-    private ViewController previouslyActiveViewData;
+    private ViewController previouslyActiveViewController;
 
     public static ViewObjectsGatekeeper Instance {get; private set;}
 
@@ -17,7 +17,7 @@ public class ViewObjectsGatekeeper : MonoBehaviour
         
         foreach (ViewController viewController in gameContext.ViewControllers)
         {
-            foreach (var obj in viewController.objectsInView)
+            foreach (var obj in viewController.ObjectsImmediatelyInView)
             {
                 obj.SetActive(false);
             }
@@ -29,21 +29,21 @@ public class ViewObjectsGatekeeper : MonoBehaviour
             return;
         }
 
-        foreach (var obj in activeViewController.objectsInView)
+        foreach (var obj in activeViewController.ObjectsImmediatelyInView)
             obj.SetActive(true);
 
-        previouslyActiveViewData = activeViewController;
+        previouslyActiveViewController = activeViewController;
         gameContext.Player.OnViewChanged += RespondToViewChange;
         gameContext.AIMonitor.OnDeath += JumpscareHideObjects;
     }
 
     void RespondToViewChange(View newView)
     {
-        previouslyActiveViewData = activeViewController;
+        previouslyActiveViewController = activeViewController;
         if (!gameContext.TryGetView(newView, out activeViewController))
         {
             // Debug.LogWarning($"{name}: No ViewController registered for view {newView}.", this);
-            activeViewController = previouslyActiveViewData;
+            activeViewController = previouslyActiveViewController;
             return;
         }
         HideOldViewObjects();
@@ -52,16 +52,23 @@ public class ViewObjectsGatekeeper : MonoBehaviour
 
     private void HideOldViewObjects()
     {
-        foreach (var obj in previouslyActiveViewData.objectsInView)
+        foreach (var obj in previouslyActiveViewController.ObjectsImmediatelyInView)
         {
+            if (obj == null)
+            {
+                Debug.Log("Null object refrence in " + previouslyActiveViewController.GetViewName());
+                continue;
+            }
+            
             obj.SetActive(false);
         }
     }
 
     private void ShowNewViewObjects()
     {
-        foreach (var obj in activeViewController.objectsInView)
+        foreach (var obj in activeViewController.ObjectsImmediatelyInView)
         {
+            Debug.Log("Null object refrence in " + previouslyActiveViewController.GetViewName());
             obj.SetActive(true);
         }
     }
@@ -70,7 +77,7 @@ public class ViewObjectsGatekeeper : MonoBehaviour
     {
         if (activeViewController == null) return;
 
-        foreach (var obj in activeViewController.hideUponJumpscare)
+        foreach (var obj in activeViewController.HideUponJumpscare)
             obj.SetActive(false);
     }
 
