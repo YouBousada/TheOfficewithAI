@@ -12,7 +12,7 @@ public class AIEvents : MonoBehaviour
 
     public void HandleLocationChange(CharacterName who, LocName from, LocName to)
     {
-        // Debug.Log($"[{Time.time:F2}] {who} moved from {from} to {to}");
+        Debug.Log($"[{Time.time:F2}] {who} moved from {from} to {to}");
         OnLocationChanged?.Invoke(who, from, to);
     }
 

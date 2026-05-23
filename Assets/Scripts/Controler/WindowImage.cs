@@ -20,8 +20,14 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 
     void Awake()
     {
+        AddActiveViewForWindowDoor();
         UtilizeAnimationPlayer();
         Image = GetComponent<Image>();
+    }
+
+    void Reset()
+    {
+        AddActiveViewForWindowDoor();
     }
 
     protected override void Start()
@@ -29,7 +35,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
         base.Start();
         
         DoSubscribing();
-        SeeIfAWindowWatcherIsHere();
+        RefreshWindowSprite();
     }
 
     public void UtilizeAnimationPlayer()
@@ -96,45 +102,17 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 
     private void DoSubscribing()
     {
+        gameContext.AIMonitor.OnInitialization += RespondToInitialization;
         gameContext.AIMonitor.OnLocationChanged += RespondToMovement;
         gameContext.AIMonitor.OnJobSwitched += RespondToJobSwitch;
         gameContext.AIMonitor.OnDeath += ReactToJumpscare;
-    }
-
-    private void SeeIfAWindowWatcherIsHere()
-    {
-        if (IsWindowWatcherAtDoor(CharacterName.Bonnie))
-        {
-            RespondToMovement(CharacterName.Bonnie, LocName.None, thisWindowDoor);
-            // Debug.Log("WindowImage: Bonnie found at his window on enable");
-        }
-        else if (IsWindowWatcherAtDoor(CharacterName.Chica))
-        {
-            RespondToMovement(CharacterName.Chica, LocName.None, thisWindowDoor);
-            // Debug.Log("WindowImage: Chica found at her window on enable");
-        }
-        else if (IsWindowWatcherAtDoor(CharacterName.Foxy))
-        {
-            RespondToMovement(CharacterName.Foxy, LocName.None, thisWindowDoor);
-            // Debug.Log("WindowImage: Foxy found at his window on enable");
-        }
-        else if (IsWindowWatcherAtDoor(CharacterName.Freddy))
-        {
-            RespondToMovement(CharacterName.Freddy, LocName.None, thisWindowDoor);
-            // Debug.Log("WindowImage: Freddy found at his window on enable");
-        }
-        else
-        {
-            watcherAtThisWindow = CharacterName.None;
-            Image.sprite = noOneAtThisWindow;
-            // Debug.Log("WindowImage: No one found at this window on enable");
-        }
     }
 
     protected override void OnDestroy()
     {
         if (gameContext != null)
         {
+            gameContext.AIMonitor.OnInitialization -= RespondToInitialization;
             gameContext.AIMonitor.OnLocationChanged -= RespondToMovement;
             gameContext.AIMonitor.OnJobSwitched -= RespondToJobSwitch;
             gameContext.AIMonitor.OnDeath -= ReactToJumpscare;
@@ -143,30 +121,40 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
         base.OnDestroy();
     }
 
+    void RespondToInitialization(CharacterName who, LocName location, Behaviour behaviour, JobName job)
+    {
+        if (IsInActiveView)
+            RefreshWindowSprite();
+    }
+
     void RespondToJobSwitch(CharacterName who, JobName fromJob, JobName toJob)
     {
-        if (toJob != JobName.WindowWatcher && who == watcherAtThisWindow)
-        {
-            watcherAtThisWindow = CharacterName.None;
-            Image.sprite = noOneAtThisWindow;
-        }
+        if (IsInActiveView)
+            RefreshWindowSprite();
     }
+
     void RespondToMovement(CharacterName who, LocName from, LocName to)
     {
-        // Debug.Log($"WindowImage: UpdateWindowImage called for {who} moving from {from} to {to}");
+        if (IsInActiveView || from == thisWindowDoor || to == thisWindowDoor)
+            RefreshWindowSprite();
+    }
 
-        if (who == watcherAtThisWindow && to != thisWindowDoor)
+    private void RefreshWindowSprite()
+    {
+        foreach (Animatronic animatronic in gameContext.Animatronics)
         {
-            watcherAtThisWindow = CharacterName.None;
-            Image.sprite = noOneAtThisWindow;
+            if (animatronic.GetCurrentLocation() != thisWindowDoor) continue;
+            if (animatronic.GetCurrentJobName() != JobName.WindowWatcher) continue;
+
+            SetWatcher(animatronic.GetCharacterName());
             return;
         }
-            
-        if (to != thisWindowDoor) return;
 
-        if (!gameContext.TryGetAnimatronic(who, out Animatronic animatronic)) return;
-        if (animatronic.GetCurrentJobName() != JobName.WindowWatcher) return;
+        ClearWatcher();
+    }
 
+    private void SetWatcher(CharacterName who)
+    {
         watcherAtThisWindow = who;
 
         Image.sprite = who switch
@@ -179,15 +167,15 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
         };
     }
 
-    private bool IsWindowWatcherAtDoor(CharacterName who)
+    private void ClearWatcher()
     {
-        return gameContext.TryGetAnimatronic(who, out Animatronic animatronic) &&
-               animatronic.GetCurrentLocation() == thisWindowDoor &&
-               animatronic.GetCurrentJobName() == JobName.WindowWatcher;
+        watcherAtThisWindow = CharacterName.None;
+        Image.sprite = noOneAtThisWindow;
     }
 
     protected override void EnterActiveView()
     {
+        RefreshWindowSprite();
         SetVisible(true);
     }
 
@@ -205,6 +193,14 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
     {
         if (Image != null)
             Image.enabled = visible;
+    }
+
+    private void AddActiveViewForWindowDoor()
+    {
+        if (thisWindowDoor == LocName.WestDoor)
+            AddActiveViewIfMissing(View.LeftDoor);
+        else if (thisWindowDoor == LocName.EastDoor)
+            AddActiveViewIfMissing(View.RightDoor);
     }
 
 }

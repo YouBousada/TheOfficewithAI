@@ -11,10 +11,7 @@ public class GameContext : MonoBehaviour
     [field: SerializeField] public Office OfficeStates { get; private set; }
 
     private readonly Dictionary<CharacterName, Animatronic> animatronics = new();
-    private readonly Dictionary<View, ViewController> views = new();
-
     public IEnumerable<Animatronic> Animatronics => animatronics.Values;
-    public IEnumerable<ViewController> ViewControllers => views.Values;
 
     void Awake()
     {
@@ -56,23 +53,5 @@ public class GameContext : MonoBehaviour
     public bool TryGetAnimatronic(CharacterName character, out Animatronic animatronic)
     {
         return animatronics.TryGetValue(character, out animatronic);
-    }
-
-    public void RegisterView(View view, ViewController controller)
-    {
-        if (view == View.None || controller == null) return;
-        views[view] = controller;
-    }
-
-    public void UnregisterView(View view, ViewController controller)
-    {
-        if (!views.TryGetValue(view, out ViewController registered)) return;
-        if (registered == controller)
-            views.Remove(view);
-    }
-
-    public bool TryGetView(View view, out ViewController controller)
-    {
-        return views.TryGetValue(view, out controller);
     }
 }

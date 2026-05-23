@@ -5,4 +5,6 @@ public enum Action
     OpenLeftDoor,
     CloseRightDoor,
     OpenRightDoor,
+    OpenTopDrawer,
+    OpenBottomDrawer,
 }

@@ -12,10 +12,6 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
 
     [Header("Info about view")]
     [SerializeField] protected View thisViewName;
-    [SerializeField] private List<GameObject> objectsImmediatelyInView = new();
-    [SerializeField] private List<GameObject> hideUponJumpscare = new();
-    public IReadOnlyList<GameObject> ObjectsImmediatelyInView => objectsImmediatelyInView;
-    public IReadOnlyList<GameObject> HideUponJumpscare => hideUponJumpscare;
 
     public View GetViewName()
     {
@@ -36,7 +32,6 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
     {
         UtilizeAnimationPlayer();
         
-        gameContext.RegisterView(thisViewName, this);
     }
 
     void Start()
@@ -87,12 +82,6 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
         gameContext.Player.OnViewChanged -= OnViewActivated;
         gameContext.AIMonitor.OnDeath -= ReactToJumpscare;
 
-    }
-
-    void OnDestroy()
-    {
-        if (gameContext != null)
-            gameContext.UnregisterView(thisViewName, this);
     }
 
 
