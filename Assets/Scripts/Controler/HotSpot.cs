@@ -1,24 +1,20 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-public class HotSpot : OverLayObject
+public abstract class HotSpot : OverLayObject
 {
-    [SerializeField] private View to;
-    [SerializeField] private PlayerAction action;
-    [SerializeField] private bool startsAvailable = true;
+    [Header("Hotspot requirements")]
+    [SerializeField] private bool startsAvailable = true;  //keep here
 
     private Button button;
     private CanvasGroup canvasGroup;
     private Coroutine actionCooldownCoroutine;
     private bool isAvailableFromWorldState;
-    private bool isActionLocked;
-    private bool isJumpscareLocked;
+    private bool isLocked;
 
     public bool CanUseHotspot => IsInActiveView &&
                                  isAvailableFromWorldState &&
-                                 !isActionLocked &&
-                                 !isJumpscareLocked;
-
+                                 !isLocked;
     private void Awake()
     {
         button = GetComponent<Button>();
@@ -37,25 +33,6 @@ public class HotSpot : OverLayObject
         gameContext.Player.OnActionPerformed += HandlePlayerAction;
     }
 
-    public void InvokeViewChange()
-    {
-        if (!CanUseHotspot) return;
-
-        gameContext.Player.SetView(to);
-    }
-
-    public void InvokeAction()
-    {
-        if (!CanUseHotspot) return;
-        if (action == null)
-        {
-            Debug.LogWarning($"{name} cannot perform an action because no PlayerAction is assigned.", this);
-            return;
-        }
-
-        gameContext.Player.PerformAction(action);
-    }
-
     public void ActivateHotspot()
     {
         isAvailableFromWorldState = true;
@@ -68,7 +45,8 @@ public class HotSpot : OverLayObject
         RefreshState();
     }
 
-    private void HandlePlayerAction(PlayerAction performedAction)
+    //keep these 2 here
+    private void HandlePlayerAction(ActionType performedAction)
     {
         if (performedAction == null) return;
         if (button == null) return;
@@ -79,14 +57,14 @@ public class HotSpot : OverLayObject
         actionCooldownCoroutine = StartCoroutine(HandlePlayerActionCoroutine(performedAction));
     }
 
-    private IEnumerator HandlePlayerActionCoroutine(PlayerAction performedAction)
+    private IEnumerator HandlePlayerActionCoroutine(ActionType performedAction)
     {
-        isActionLocked = true;
+        isLocked = true;
         RefreshState();
 
         yield return new WaitForSeconds(performedAction.HotspotDisableDuration);
 
-        isActionLocked = false;
+        isLocked = false;
         RefreshState();
 
         actionCooldownCoroutine = null;
@@ -104,14 +82,14 @@ public class HotSpot : OverLayObject
 
     protected override void HideForJumpscare(CharacterName who, LocName from)
     {
-        isJumpscareLocked = true;
+        isLocked = true;
         RefreshState();
     }
 
     private void RefreshState()
     {
-        bool visible = IsInActiveView && isAvailableFromWorldState && !isJumpscareLocked;
-        bool usable = visible && !isActionLocked;
+        bool visible = IsInActiveView && isAvailableFromWorldState;
+        bool usable = visible && !isLocked;
 
         canvasGroup.alpha = visible ? 1f : 0f;
         canvasGroup.interactable = usable;

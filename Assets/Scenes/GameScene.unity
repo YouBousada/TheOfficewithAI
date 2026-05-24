@@ -572,7 +572,7 @@ GameObject:
   - component: {fileID: 70500191}
   - component: {fileID: 70500190}
   - component: {fileID: 70500189}
-  - component: {fileID: 70500188}
+  - component: {fileID: 70500192}
   m_Layer: 5
   m_Name: LeftLeftDoor_HotSpot
   m_TagString: Untagged
@@ -599,24 +599,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1.2234497, y: 0.5006509}
   m_SizeDelta: {x: 160, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &70500188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70500186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 02000000
-  hideUponJumpscare: 1
-  to: 4
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &70500189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -661,8 +643,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 70500188}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+      - m_Target: {fileID: 70500192}
+        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
@@ -711,6 +693,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70500186}
   m_CullTransparentMesh: 1
+--- !u!114 &70500192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70500186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 02000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 4
 --- !u!1 &93870444
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,7 +794,7 @@ GameObject:
   - component: {fileID: 102512528}
   - component: {fileID: 102512527}
   - component: {fileID: 102512526}
-  - component: {fileID: 102512525}
+  - component: {fileID: 102512529}
   m_Layer: 5
   m_Name: LeftRightDoor_HotSpot
   m_TagString: Untagged
@@ -822,24 +821,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1.2234497, y: 0.5006509}
   m_SizeDelta: {x: 160, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &102512525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 102512523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 03000000
-  hideUponJumpscare: 1
-  to: 1
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &102512526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -884,7 +865,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 102512525}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
@@ -934,6 +915,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102512523}
   m_CullTransparentMesh: 1
+--- !u!114 &102512529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102512523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 03000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 1
 --- !u!1 &120855972
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,7 +1023,7 @@ GameObject:
   - component: {fileID: 136445251}
   - component: {fileID: 136445250}
   - component: {fileID: 136445249}
-  - component: {fileID: 136445248}
+  - component: {fileID: 136445252}
   m_Layer: 5
   m_Name: UnderDesk_Hotspot
   m_TagString: Untagged
@@ -1052,24 +1050,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.3928, y: -0.4007}
   m_SizeDelta: {x: 1601.7753, y: 307.1617}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &136445248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136445246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 01000000
-  hideUponJumpscare: 1
-  to: 7
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &136445249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1114,8 +1094,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 136445248}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+      - m_Target: {fileID: 136445252}
+        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
@@ -1164,6 +1144,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136445246}
   m_CullTransparentMesh: 1
+--- !u!114 &136445252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136445246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 01000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 7
 --- !u!1 &148678844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,7 +1265,7 @@ GameObject:
   - component: {fileID: 206301724}
   - component: {fileID: 206301723}
   - component: {fileID: 206301722}
-  - component: {fileID: 206301721}
+  - component: {fileID: 206301725}
   m_Layer: 5
   m_Name: RightRightDoor_HotSpot
   m_TagString: Untagged
@@ -1295,24 +1292,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2.0167236, y: 0.50065047}
   m_SizeDelta: {x: 160, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &206301721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 206301719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 03000000
-  hideUponJumpscare: 1
-  to: 4
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &206301722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1357,7 +1336,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 206301721}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
@@ -1407,6 +1386,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206301719}
   m_CullTransparentMesh: 1
+--- !u!114 &206301725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206301719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 03000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 4
 --- !u!1 &207303622
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,7 +1415,7 @@ GameObject:
   - component: {fileID: 207303627}
   - component: {fileID: 207303626}
   - component: {fileID: 207303625}
-  - component: {fileID: 207303624}
+  - component: {fileID: 207303628}
   m_Layer: 5
   m_Name: RightDesk_HotSpot
   m_TagString: Untagged
@@ -1446,24 +1442,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2.0167236, y: 0.50065047}
   m_SizeDelta: {x: 160, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &207303624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207303622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 01000000
-  hideUponJumpscare: 1
-  to: 3
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &207303625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1508,8 +1486,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 207303624}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+      - m_Target: {fileID: 207303628}
+        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
@@ -1558,6 +1536,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207303622}
   m_CullTransparentMesh: 1
+--- !u!114 &207303628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207303622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 01000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 3
 --- !u!1 &239548247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,7 +1565,7 @@ GameObject:
   - component: {fileID: 239548251}
   - component: {fileID: 239548250}
   - component: {fileID: 239548249}
-  - component: {fileID: 239548248}
+  - component: {fileID: 239548253}
   m_Layer: 5
   m_Name: RightBack_HotSpot
   m_TagString: Untagged
@@ -1578,24 +1573,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &239548248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239548247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 04000000
-  hideUponJumpscare: 1
-  to: 2
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &239548249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1640,8 +1617,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 239548248}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+      - m_Target: {fileID: 239548253}
+        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
@@ -1709,6 +1686,23 @@ RectTransform:
   m_AnchoredPosition: {x: 2.0167236, y: 0.50065047}
   m_SizeDelta: {x: 160, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &239548253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239548247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 04000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 2
 --- !u!1 &293875263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1841,7 +1835,7 @@ GameObject:
   - component: {fileID: 355969277}
   - component: {fileID: 355969276}
   - component: {fileID: 355969275}
-  - component: {fileID: 355969274}
+  - component: {fileID: 355969278}
   m_Layer: 5
   m_Name: BackToDesk_Hotspot
   m_TagString: Untagged
@@ -1868,24 +1862,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.3928, y: -0.658}
   m_SizeDelta: {x: 1601.7753, y: 78.4426}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &355969274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 355969272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 05000000
-  hideUponJumpscare: 1
-  to: 1
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &355969275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1930,8 +1906,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 355969274}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+      - m_Target: {fileID: 355969278}
+        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
@@ -1980,6 +1956,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355969272}
   m_CullTransparentMesh: 1
+--- !u!114 &355969278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355969272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 05000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 1
 --- !u!1 &366918781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2045,7 +2038,7 @@ GameObject:
   - component: {fileID: 393995722}
   - component: {fileID: 393995721}
   - component: {fileID: 393995720}
-  - component: {fileID: 393995719}
+  - component: {fileID: 393995723}
   m_Layer: 5
   m_Name: ButtonUp_Left
   m_TagString: Untagged
@@ -2072,24 +2065,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.793, y: 0.466}
   m_SizeDelta: {x: 31.62714, y: 26.32421}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &393995719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 393995717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 02000000
-  hideUponJumpscare: 1
-  to: 0
-  action: {fileID: 11400000, guid: fe781f2ba02f35d4daed27300fd3a70a, type: 2}
-  startsAvailable: 1
 --- !u!114 &393995720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2133,19 +2108,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 393995721}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 393995719}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: InvokeAction
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &393995721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2184,6 +2147,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393995717}
   m_CullTransparentMesh: 1
+--- !u!114 &393995723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393995717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 
+  hideUponJumpscare: 1
+  startsAvailable: 0
+  actionType: {fileID: 11400000, guid: 3d4e28ab7f4504e40a0de598d465d4e0, type: 2}
+  item: {fileID: 0}
 --- !u!1 &400448601
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,9 +2219,16 @@ MonoBehaviour:
   gameContext: {fileID: 1108953928}
   viewsICanBeActiveIn: 07000000
   hideUponJumpscare: 1
+  hasHandledViewChange: 0
+  <IsInActiveView>k__BackingField: 0
   to: 0
   action: {fileID: 11400000, guid: 98750b99bfcd8944293d7779629c6534, type: 2}
   startsAvailable: 1
+  button: {fileID: 0}
+  canvasGroup: {fileID: 0}
+  isAvailableFromWorldState: 0
+  isActionLocked: 0
+  isJumpscareLocked: 0
 --- !u!114 &400448604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2391,7 +2379,7 @@ GameObject:
   - component: {fileID: 430844837}
   - component: {fileID: 430844836}
   - component: {fileID: 430844835}
-  - component: {fileID: 430844834}
+  - component: {fileID: 430844838}
   m_Layer: 5
   m_Name: LeftDesk_HotSpot
   m_TagString: Untagged
@@ -2418,24 +2406,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1.2234497, y: 0.5006509}
   m_SizeDelta: {x: 160, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &430844834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 430844832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 01000000
-  hideUponJumpscare: 1
-  to: 2
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &430844835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2480,8 +2450,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 430844834}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+      - m_Target: {fileID: 430844838}
+        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
@@ -2530,6 +2500,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430844832}
   m_CullTransparentMesh: 1
+--- !u!114 &430844838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430844832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 01000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 2
 --- !u!1 &473542907
 GameObject:
   m_ObjectHideFlags: 0
@@ -2876,8 +2863,8 @@ MonoBehaviour:
   DoorCloseAnimation: {fileID: 11400000, guid: e97ca5cffadb8494da1c3c197556a167, type: 2}
   DoorClosedImage: {fileID: 21300000, guid: 86bc5b0faca32ca42be29b6ec5ba6020, type: 3}
   DoorOpenImage: {fileID: 21300000, guid: 1523378d398a878419e31a9af52689b6, type: 3}
-  CloseButton: {fileID: 998350785}
-  OpenButton: {fileID: 1185421248}
+  CloseButton: {fileID: 0}
+  OpenButton: {fileID: 0}
 --- !u!1 &594831629
 GameObject:
   m_ObjectHideFlags: 0
@@ -2890,7 +2877,7 @@ GameObject:
   - component: {fileID: 594831634}
   - component: {fileID: 594831633}
   - component: {fileID: 594831632}
-  - component: {fileID: 594831631}
+  - component: {fileID: 594831635}
   m_Layer: 5
   m_Name: RightLeftDoor_HotSpot
   m_TagString: Untagged
@@ -2917,24 +2904,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2.0167236, y: 0.50065047}
   m_SizeDelta: {x: 160, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &594831631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594831629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 02000000
-  hideUponJumpscare: 1
-  to: 1
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &594831632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2979,8 +2948,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 594831631}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+      - m_Target: {fileID: 594831635}
+        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
@@ -3029,6 +2998,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594831629}
   m_CullTransparentMesh: 1
+--- !u!114 &594831635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594831629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 02000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 1
 --- !u!1 &597195377
 GameObject:
   m_ObjectHideFlags: 0
@@ -3448,9 +3434,16 @@ MonoBehaviour:
   gameContext: {fileID: 1108953928}
   viewsICanBeActiveIn: 09000000
   hideUponJumpscare: 1
+  hasHandledViewChange: 0
+  <IsInActiveView>k__BackingField: 0
   to: 4
   action: {fileID: 0}
   startsAvailable: 1
+  button: {fileID: 0}
+  canvasGroup: {fileID: 0}
+  isAvailableFromWorldState: 0
+  isActionLocked: 0
+  isJumpscareLocked: 0
 --- !u!114 &718139931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3792,7 +3785,7 @@ GameObject:
   - component: {fileID: 829830435}
   - component: {fileID: 829830434}
   - component: {fileID: 829830433}
-  - component: {fileID: 829830432}
+  - component: {fileID: 829830436}
   m_Layer: 5
   m_Name: Monitor_Hotspot
   m_TagString: Untagged
@@ -3819,24 +3812,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.11755371, y: 0.38049316}
   m_SizeDelta: {x: 381.5, y: 373.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &829830432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829830430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 01000000
-  hideUponJumpscare: 1
-  to: 5
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &829830433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3881,8 +3856,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829830432}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+      - m_Target: {fileID: 829830436}
+        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
@@ -3931,6 +3906,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829830430}
   m_CullTransparentMesh: 1
+--- !u!114 &829830436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829830430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 01000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 5
 --- !u!1 &860101787
 GameObject:
   m_ObjectHideFlags: 0
@@ -4508,7 +4500,7 @@ GameObject:
   - component: {fileID: 998350788}
   - component: {fileID: 998350787}
   - component: {fileID: 998350786}
-  - component: {fileID: 998350785}
+  - component: {fileID: 998350789}
   m_Layer: 5
   m_Name: ButtonDown_Right
   m_TagString: Untagged
@@ -4535,24 +4527,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.101, y: 0.139}
   m_SizeDelta: {x: 37.54815, y: 37.32229}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &998350785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998350783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 03000000
-  hideUponJumpscare: 1
-  to: 0
-  action: {fileID: 11400000, guid: fba42aba6e621db4fb700780a0ea850a, type: 2}
-  startsAvailable: 1
 --- !u!114 &998350786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4596,19 +4570,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 998350787}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 998350785}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: InvokeAction
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &998350787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4647,6 +4609,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998350783}
   m_CullTransparentMesh: 1
+--- !u!114 &998350789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998350783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 03000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  actionType: {fileID: 11400000, guid: 3d4e28ab7f4504e40a0de598d465d4e0, type: 2}
+  item: {fileID: 0}
 --- !u!1 &1025727863
 GameObject:
   m_ObjectHideFlags: 0
@@ -5080,9 +5060,16 @@ MonoBehaviour:
   gameContext: {fileID: 1108953928}
   viewsICanBeActiveIn: 07000000
   hideUponJumpscare: 1
+  hasHandledViewChange: 0
+  <IsInActiveView>k__BackingField: 0
   to: 1
   action: {fileID: 0}
   startsAvailable: 1
+  button: {fileID: 0}
+  canvasGroup: {fileID: 0}
+  isAvailableFromWorldState: 0
+  isActionLocked: 0
+  isJumpscareLocked: 0
 --- !u!114 &1105232144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5242,7 +5229,7 @@ GameObject:
   - component: {fileID: 1144237684}
   - component: {fileID: 1144237683}
   - component: {fileID: 1144237682}
-  - component: {fileID: 1144237681}
+  - component: {fileID: 1144237685}
   m_Layer: 5
   m_Name: ButtonDown_Left
   m_TagString: Untagged
@@ -5269,24 +5256,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.825, y: 0.159}
   m_SizeDelta: {x: 39.19679, y: 39.05567}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1144237681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144237679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 02000000
-  hideUponJumpscare: 1
-  to: 0
-  action: {fileID: 11400000, guid: 8a45794dba47ccb409f46c75b03b739e, type: 2}
-  startsAvailable: 1
 --- !u!114 &1144237682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5330,19 +5299,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1144237683}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1144237681}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: InvokeAction
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1144237683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5381,6 +5338,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144237679}
   m_CullTransparentMesh: 1
+--- !u!114 &1144237685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144237679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  actionType: {fileID: 11400000, guid: 3d4e28ab7f4504e40a0de598d465d4e0, type: 2}
+  item: {fileID: 0}
 --- !u!1 &1185421246
 GameObject:
   m_ObjectHideFlags: 0
@@ -5393,7 +5368,7 @@ GameObject:
   - component: {fileID: 1185421251}
   - component: {fileID: 1185421250}
   - component: {fileID: 1185421249}
-  - component: {fileID: 1185421248}
+  - component: {fileID: 1185421252}
   m_Layer: 5
   m_Name: ButtonUp_Right
   m_TagString: Untagged
@@ -5420,24 +5395,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.074, y: 0.472}
   m_SizeDelta: {x: 31.62714, y: 26.32421}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1185421248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1185421246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 03000000
-  hideUponJumpscare: 1
-  to: 0
-  action: {fileID: 11400000, guid: 412ec0cae6227b94c8b62a1840fd51a6, type: 2}
-  startsAvailable: 1
 --- !u!114 &1185421249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5481,19 +5438,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1185421250}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1185421248}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
-        m_MethodName: InvokeAction
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1185421250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5532,6 +5477,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185421246}
   m_CullTransparentMesh: 1
+--- !u!114 &1185421252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185421246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 03000000
+  hideUponJumpscare: 1
+  startsAvailable: 0
+  actionType: {fileID: 11400000, guid: 3d4e28ab7f4504e40a0de598d465d4e0, type: 2}
+  item: {fileID: 0}
 --- !u!1 &1254783344
 GameObject:
   m_ObjectHideFlags: 0
@@ -6023,8 +5986,8 @@ MonoBehaviour:
   DoorCloseAnimation: {fileID: 11400000, guid: 071566ed86f323c479dd1c96173fb377, type: 2}
   DoorClosedImage: {fileID: 21300000, guid: 0bc7f44f7ec25ab4cb03a3c17ad86a80, type: 3}
   DoorOpenImage: {fileID: 21300000, guid: 43af86f697935cb4ea3b503d6906fe24, type: 3}
-  CloseButton: {fileID: 1144237681}
-  OpenButton: {fileID: 393995719}
+  CloseButton: {fileID: 0}
+  OpenButton: {fileID: 0}
 --- !u!1 &1310514407
 GameObject:
   m_ObjectHideFlags: 0
@@ -6037,7 +6000,7 @@ GameObject:
   - component: {fileID: 1310514412}
   - component: {fileID: 1310514411}
   - component: {fileID: 1310514410}
-  - component: {fileID: 1310514409}
+  - component: {fileID: 1310514413}
   m_Layer: 5
   m_Name: Backcorner_hotspot
   m_TagString: Untagged
@@ -6064,24 +6027,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.362, y: 0.222}
   m_SizeDelta: {x: 355.355, y: 353.4623}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1310514409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310514407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 04000000
-  hideUponJumpscare: 1
-  to: 9
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &1310514410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6126,8 +6071,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1310514409}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+      - m_Target: {fileID: 1310514413}
+        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
@@ -6176,6 +6121,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310514407}
   m_CullTransparentMesh: 1
+--- !u!114 &1310514413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310514407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 04000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 9
 --- !u!1 &1313046238
 GameObject:
   m_ObjectHideFlags: 0
@@ -6362,8 +6324,8 @@ MonoBehaviour:
   DrawerOnlyTopOpen: {fileID: 8797202110680046410, guid: 6f147723f2f9c9641a3e7a67a51adc4f, type: 3}
   DrawerOnlyBottomOpen: {fileID: 21300000, guid: 8b3a0b36f932f0a4d9cbbb1e5ee7c37a, type: 3}
   puzzleMaster: {fileID: 404973574}
-  OpenTopDrawerButton: {fileID: 1673687880}
-  OpenBottomDrawerButton: {fileID: 400448603}
+  OpenTopDrawerButton: {fileID: 0}
+  OpenBottomDrawerButton: {fileID: 0}
 --- !u!1 &1472369472
 GameObject:
   m_ObjectHideFlags: 0
@@ -6886,9 +6848,16 @@ MonoBehaviour:
   gameContext: {fileID: 1108953928}
   viewsICanBeActiveIn: 07000000
   hideUponJumpscare: 1
+  hasHandledViewChange: 0
+  <IsInActiveView>k__BackingField: 0
   to: 0
   action: {fileID: 11400000, guid: 6464e0e97da12634cb8b80806e93d1e6, type: 2}
   startsAvailable: 1
+  button: {fileID: 0}
+  canvasGroup: {fileID: 0}
+  isAvailableFromWorldState: 0
+  isActionLocked: 0
+  isJumpscareLocked: 0
 --- !u!114 &1673687881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7397,7 +7366,7 @@ GameObject:
   - component: {fileID: 1837334873}
   - component: {fileID: 1837334872}
   - component: {fileID: 1837334871}
-  - component: {fileID: 1837334870}
+  - component: {fileID: 1837334874}
   m_Layer: 5
   m_Name: LeftBack_HotSpot
   m_TagString: Untagged
@@ -7424,24 +7393,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1.2234497, y: 0.5006509}
   m_SizeDelta: {x: 160, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1837334870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837334868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b4ccb3cbe66a054fbc7087ffe0d519c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 04000000
-  hideUponJumpscare: 1
-  to: 3
-  action: {fileID: 0}
-  startsAvailable: 1
 --- !u!114 &1837334871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7486,8 +7437,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1837334870}
-        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+      - m_Target: {fileID: 1837334874}
+        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
         m_MethodName: InvokeViewChange
         m_Mode: 1
         m_Arguments:
@@ -7536,6 +7487,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837334868}
   m_CullTransparentMesh: 1
+--- !u!114 &1837334874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837334868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameContext: {fileID: 1108953928}
+  viewsICanBeActiveIn: 04000000
+  hideUponJumpscare: 1
+  startsAvailable: 1
+  to: 3
 --- !u!1 &1841966279
 GameObject:
   m_ObjectHideFlags: 0

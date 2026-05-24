@@ -1,16 +1,14 @@
 using UnityEngine;
 
-public class MovementHotspot : MonoBehaviour
+public class MovementHotspot : HotSpot
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Header("MovementHotspot requirements")]
+    [SerializeField] private View to;
 
-    // Update is called once per frame
-    void Update()
+    public void InvokeViewChange()
     {
-        
+        if (!CanUseHotspot) return;
+
+        gameContext.Player.SetView(to);
     }
 }

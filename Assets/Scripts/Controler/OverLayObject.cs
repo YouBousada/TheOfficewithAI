@@ -1,8 +1,10 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public abstract class OverLayObject : MonoBehaviour
 {
+    [Header("OverLayObject requirements")]
     [SerializeField] protected GameContext gameContext;
     [SerializeField] private List<View> viewsICanBeActiveIn = new();
     [SerializeField] private bool hideUponJumpscare = true;

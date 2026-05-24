@@ -54,15 +54,15 @@ public abstract class DoorViewController : ViewController
         closedOtherDoorJumpscares[CharacterName.Freddy] = doorViewJumpscareData.OtherDoorFreddyAnimationDoorClosed;
     }
 
-    protected override void RespondToAction_Concrete(PlayerAction action)
+    protected override void RespondToAction_Concrete(ActionType action)
     {
-        if (action.ActionName == OpenAction && !isThisDoorOpen)
+        if (action.ActionTypeName == OpenAction && !isThisDoorOpen)
         {
             animPlayer.PlayAnimation(DoorOpenAnimation, backgroundImage.gameObject, DoorOpenImage);
             OpenButton.DeactivateHotspot();
             CloseButton.ActivateHotspot();
         }
-        else if (action.ActionName == CloseAction && isThisDoorOpen)
+        else if (action.ActionTypeName == CloseAction && isThisDoorOpen)
         {
             animPlayer.PlayAnimation(DoorCloseAnimation, backgroundImage.gameObject, DoorClosedImage);
             OpenButton.ActivateHotspot();

@@ -1,16 +1,20 @@
 using UnityEngine;
 
-public class ActionHotspot : MonoBehaviour
+public class ActionHotspot : HotSpot
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Header("ActionHotspot requirements")]
+    [SerializeField] private ActionType actionType;
+    [SerializeField] private HoldableItem item;
 
-    // Update is called once per frame
-    void Update()
+    public void InvokeAction()
     {
-        
+        if (!CanUseHotspot) return;
+        if (actionType == null)
+        {
+            Debug.LogWarning($"{name} cannot perform an action because no PlayerAction is assigned.", this);
+            return;
+        }
+
+        gameContext.Player.PerformAction(actionType);
     }
 }

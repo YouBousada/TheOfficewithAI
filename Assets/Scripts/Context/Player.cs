@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public bool IsDead { get; private set; } = false;
 
     public event Action<View> OnViewChanged;
-    public event Action<PlayerAction> OnActionPerformed;
+    public event Action<ActionType> OnActionPerformed;
 
     private HoldableItem ItemInHand;
 
@@ -56,7 +56,7 @@ public class Player : MonoBehaviour
         IsDead = true;
     }
 
-    public void PerformAction(PlayerAction action)
+    public void PerformAction(ActionType action)
     {
         OnActionPerformed?.Invoke(action);
     }

@@ -44,18 +44,18 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
         gameContext.AIMonitor.OnDeath += ReactToJumpscare;
     }
 
-    protected abstract void RespondToAction_Concrete(PlayerAction action);
+    protected abstract void RespondToAction_Concrete(ActionType action);
     protected abstract void OnViewActivated_Concrete();
     protected abstract void ReactToJumpscare_Concrete(CharacterName who, LocName from);
 
 
-    protected void OnPlayerAction(PlayerAction action)
+    protected void OnPlayerAction(ActionType action)
     {
-        if(action.AllowedView != thisViewName)
-        {
-            Debug.Log("PlayerAction " + action.ActionName + " was performed in an illegal view! Incorrect ObjectsInView Assignment?");
-            return;
-        }
+        // if(action.AllowedView != thisViewName)
+        // {
+        //     Debug.Log("PlayerAction " + action.ActionTypeName + " was performed in an illegal view! Incorrect ObjectsInView Assignment?");
+        //     return;
+        // }
 
         RespondToAction_Concrete(action);
     }
