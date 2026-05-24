@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public static class TimeGenerator
+public class TimeGenerator
 {
     private const float WeibullMinShape = 1.2f;
     private const float WeibullMaxShape = 3.0f;
@@ -9,7 +9,7 @@ public static class TimeGenerator
     private const float ExponentialLambdaScale = 0.00376f;
     private const float ExponentialLambdaBase = 0.0676f;
 
-    public static float WeibullTime(int aiLevel, CharacterProfile profile = null, float additionalMultiplier = 1f)
+    public float WeibullTime(int aiLevel, CharacterProfile profile = null, float additionalMultiplier = 1f)
     {
         float u = Mathf.Clamp01(aiLevel / 20f);
         float k = Mathf.Lerp(WeibullMinShape, WeibullMaxShape, u);
@@ -20,7 +20,7 @@ public static class TimeGenerator
         return t * additionalMultiplier;
     }
 
-    public static float ExponentialTime(int aiLevel, CharacterProfile profile = null, float additionalMultiplier = 1f)
+    public float ExponentialTime(int aiLevel, CharacterProfile profile = null, float additionalMultiplier = 1f)
     {
         float x = Mathf.Clamp(Random.value, 0f, 0.9999f);
         float lambda = ExponentialLambdaScale * aiLevel + ExponentialLambdaBase;

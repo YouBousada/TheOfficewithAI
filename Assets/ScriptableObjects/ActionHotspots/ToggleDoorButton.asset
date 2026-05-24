@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08c8f9e667e988a4e8d051047277160a, type: 3}
   m_Name: ToggleDoorButton
   m_EditorClassIdentifier: 
-  actionTypeName: 7
+  actionTypeName: 1
   hotspotDisableDuration: 1

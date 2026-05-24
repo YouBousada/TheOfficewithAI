@@ -34,7 +34,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
         JobName = JobName.Freeroamer;
         lastFailedDoorLoc = memories.lastFailedDoor;
         BuildMaps();
-        MovementTimer = TimeGenerator.WeibullTime(AiLevel, profile);
+        MovementTimer = timeGenerator.WeibullTime(AiLevel, profile);
         currentMap = runtimeEncroachMap;
     }
 
@@ -72,7 +72,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
 
             if (MovementTimer <= 0f)
             {
-                MovementTimer = TimeGenerator.WeibullTime(AiLevel, profile);
+                MovementTimer = timeGenerator.WeibullTime(AiLevel, profile);
                 StepandNotify();
             }
         }
@@ -81,7 +81,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
 
     public override LocName CalculateNextPos()
     {
-        var nextRoom = MapService.ChooseNext(currentMap.nodes[currentLoc]).roomName;
+        var nextRoom = mapService.ChooseNext(currentMap.nodes[currentLoc]).roomName;
 
         if (currentBehaviour == BehaviourName.Leaving)
         {
@@ -92,7 +92,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
             else if (Random.value <= ReencroachChance)
             {
                 SwitchToBehaviour(BehaviourName.Encroaching);
-                nextRoom = MapService.ChooseNext(currentMap.nodes[currentLoc]).roomName;
+                nextRoom = mapService.ChooseNext(currentMap.nodes[currentLoc]).roomName;
             }
         }
 
@@ -107,18 +107,18 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
         {
             case BehaviourName.Encroaching:
                 currentBehaviour = BehaviourName.Encroaching;
-                MovementTimer = TimeGenerator.WeibullTime(AiLevel, profile);
+                MovementTimer = timeGenerator.WeibullTime(AiLevel, profile);
                 currentMap = runtimeEncroachMap;
                 break;
             case BehaviourName.Leaving:
                 currentBehaviour = BehaviourName.Leaving;
-                MovementTimer = TimeGenerator.WeibullTime(AiLevel, profile);
+                MovementTimer = timeGenerator.WeibullTime(AiLevel, profile);
                 currentLeaveStepsLeft = minLeaveSteps;
                 currentMap = runtimeLeaveMap;
                 break;
             case BehaviourName.StalkDoor:
                 currentBehaviour = BehaviourName.StalkDoor;
-                MovementTimer = TimeGenerator.ExponentialTime(AiLevel, profile);
+                MovementTimer = timeGenerator.ExponentialTime(AiLevel, profile);
                 break;
             default:
                 return false;
@@ -166,7 +166,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
 
     private void BuildMaps(DoorName doorFailed = DoorName.None)
     {
-        runtimeEncroachMap = MapService.BuildRuntimeMap(mapGraphs.EncroachBaseMap, true, doorFailed);
-        runtimeLeaveMap = MapService.BuildRuntimeMap(mapGraphs.LeaveBaseMap);
+        runtimeEncroachMap = mapService.BuildRuntimeMap(mapGraphs.EncroachBaseMap, true, doorFailed);
+        runtimeLeaveMap = mapService.BuildRuntimeMap(mapGraphs.LeaveBaseMap);
     }
 }

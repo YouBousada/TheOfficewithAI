@@ -12,6 +12,9 @@ public abstract class BaseJob : IJobRequirements
     public AnimatronicMemory memories;
     protected int AiLevel;
     protected float MovementTimer;
+    protected TimeGenerator timeGenerator;
+    protected MapService mapService;
+    protected JobArbiter jobArbiter;
 
     public BaseJob(JobNecessities necessities)
     {
@@ -22,6 +25,9 @@ public abstract class BaseJob : IJobRequirements
         currentLoc = necessities.LastLocation;
         memories = necessities.memories;
         currentBehaviour = InitialBehaviour;
+        timeGenerator = new TimeGenerator();
+        mapService = new MapService();
+        jobArbiter = new JobArbiter(gameContext);
     }
     public abstract void PerformJob();
     public abstract LocName CalculateNextPos();
@@ -85,26 +91,21 @@ public abstract class BaseJob : IJobRequirements
         foreach (var job in profile.jobsByPreference)
         {
             if (job == JobName) continue;
-            if (AskJobArbiterForJob(gameContext, profile.characterName, job))
+            if (AskJobArbiterForJob(profile.characterName, job))
                 return true;
         }
         return false;
     }
     private const float JobSelectionChance = 0.8f;
 
-    public bool AskJobArbiterForJob(GameContext gameContext, CharacterName character, JobName toJob)
+    public bool AskJobArbiterForJob(CharacterName character, JobName toJob)
     {
-        if (JobArbiter.ApproveJobSwitch(gameContext, character, toJob))
-        {
-            float x = Random.value;
-            if(x > JobSelectionChance)
-            {
-                return false;
-            }
-            gameContext.AIMonitor.HandleJobSwitch(character, JobName, toJob);
-            return true;
-        }
-        return false;
+        if (!jobArbiter.ApproveJobSwitch(character, toJob)) return false;
+
+        if (Random.value > JobSelectionChance) return false;
+
+        gameContext.AIMonitor.HandleJobSwitch(character, JobName, toJob);
+        return true;
     }
 
     public void RetreatFromDislikedCharacters()

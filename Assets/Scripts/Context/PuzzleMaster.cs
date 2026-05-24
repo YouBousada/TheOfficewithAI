@@ -1,11 +1,14 @@
+using System;
 using UnityEngine;
 
 public class PuzzleMaster : MonoBehaviour
 {
     public static PuzzleMaster Instance;
-    private bool CompletedSpotDifferencePuzzle = false;
+
     private bool TopDrawerIsOpen = false;
     private bool BottomDrawerIsOpen = false;
+
+    public event Action OnRoomStateChanged;
 
     public bool IsTopDrawerOpen()
     {
@@ -20,11 +23,13 @@ public class PuzzleMaster : MonoBehaviour
     public void ToggleTopDrawer()
     {
         TopDrawerIsOpen = !TopDrawerIsOpen;
+        OnRoomStateChanged?.Invoke();
     }
 
     public void ToggleBottomDrawer()
     {
         BottomDrawerIsOpen = !BottomDrawerIsOpen;
+        OnRoomStateChanged?.Invoke();
     }
 
     void Awake()

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 public abstract class GenericOfficeViewController : ViewController
 {
-    [SerializeField] private Sprite backgroundSprite;
     [SerializeField] private JumpscareData thisViewJumpscareData;
 
     private readonly Dictionary<CharacterName, AnimationSequence> leftDoorJumpscares = new();
@@ -22,7 +21,6 @@ public abstract class GenericOfficeViewController : ViewController
 
         if (thisViewJumpscareData == null)
         {
-            // Debug.LogError($"{name}: JumpscareData is not assigned.", this);
             return;
         }
 
@@ -37,23 +35,16 @@ public abstract class GenericOfficeViewController : ViewController
         rightDoorJumpscares[CharacterName.Freddy] = thisViewJumpscareData.RightDoorFreddyAnimation;
     }
 
-    protected override void OnViewActivated_Concrete()
-    {
-        backgroundImage.sprite = backgroundSprite;
-    }
-
     protected override void ReactToJumpscare_Concrete(CharacterName who, LocName from)
     {
         if (thisViewJumpscareData == null)
         {
-            // Debug.LogError($"{name}: Cannot play jumpscare because JumpscareData is not assigned.", this);
             return;
         }
 
         Dictionary<CharacterName, AnimationSequence> jumpscares = GetJumpscareLookup(from);
         if (jumpscares == null)
         {
-            // Debug.LogWarning($"{name}: Generic office jumpscare called from non-door location {from}.", this);
             return;
         }
 
@@ -71,21 +62,14 @@ public abstract class GenericOfficeViewController : ViewController
     {
         if (!jumpscares.TryGetValue(who, out AnimationSequence sequence))
         {
-            // Debug.LogWarning($"{name}: No generic office jumpscare entry for {who} from {from}.", this);
             return;
         }
 
         if (sequence == null)
         {
-            // Debug.LogWarning($"{name}: Generic office jumpscare animation is missing for {who} from {from}.", this);
             return;
         }
 
         animPlayer.PlayAnimation(sequence, backgroundImage.gameObject);
     }
-
-    // protected override void RespondToAction_Concrete(ActionType action)
-    // {
-    //     return;
-    // }
 }

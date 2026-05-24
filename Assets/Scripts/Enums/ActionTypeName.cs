@@ -1,6 +1,7 @@
 public enum ActionTypeName
 {
     None,
-    ToggleDoorButton
+    ToggleDoorButton,
+    ToggleLight,
 
 }

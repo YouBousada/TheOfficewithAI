@@ -1,8 +1,15 @@
 using System.Collections.Generic;
 
-public static class JobArbiter
+public class JobArbiter
 {
-    public static bool ApproveJobSwitch(GameContext gameContext, CharacterName character, JobName toJob)
+    private readonly GameContext gameContext;
+
+    public JobArbiter(GameContext gameContext)
+    {
+        this.gameContext = gameContext;
+    }
+
+    public bool ApproveJobSwitch(CharacterName character, JobName toJob)
     {
         var jobCounts = new Dictionary<JobName, int>();
         JobName currentJob = JobName.None;

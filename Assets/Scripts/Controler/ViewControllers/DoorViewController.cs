@@ -13,8 +13,6 @@ public abstract class DoorViewController : ViewController
     [SerializeField] private HotSpot OpenButton;
 
     protected abstract bool isThisDoorOpen { get; }
-    // protected abstract ActionTypeName OpenAction { get; }
-    // protected abstract ActionTypeName CloseAction { get; }
 
     private readonly Dictionary<CharacterName, AnimationSequence> openThisDoorJumpscares = new();
     private readonly Dictionary<CharacterName, AnimationSequence> openOtherDoorJumpscares = new();
@@ -67,7 +65,7 @@ public abstract class DoorViewController : ViewController
         CloseButton.DeactivateHotspot();
     }
 
-    protected override void OnViewActivated_Concrete()
+    protected override void RenderViewBasedOnWorldState()
     {
         if (!isThisDoorOpen)
         {
@@ -92,19 +90,16 @@ public abstract class DoorViewController : ViewController
     {
         if (doorViewJumpscareData == null)
         {
-            // Debug.LogError($"{name}: Cannot play door jumpscare because DoorViewJumpscareData is not assigned.", this);
             return;
         }
 
         if (!IsDoorAttack(from))
         {
-            // Debug.LogWarning($"{name}: Door jumpscare called from non-door location {from}.", this);
             return;
         }
 
         if (!isThisDoorOpen && IsAttackFromThisDoor(from))
         {
-            // Debug.LogWarning($"{name}: Closed door view received a same-door jumpscare from {from}.", this);
             return;
         }
 
@@ -124,13 +119,11 @@ public abstract class DoorViewController : ViewController
     {
         if (!jumpscares.TryGetValue(who, out AnimationSequence sequence))
         {
-            // Debug.LogWarning($"{name}: No door jumpscare entry for {who} from {from}.", this);
             return;
         }
 
         if (sequence == null)
         {
-            // Debug.LogWarning($"{name}: Door jumpscare animation is missing for {who} from {from}.", this);
             return;
         }
 

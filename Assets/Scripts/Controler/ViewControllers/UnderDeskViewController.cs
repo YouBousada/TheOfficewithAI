@@ -6,19 +6,22 @@ public class UnderDeskViewController : GenericOfficeViewController
     [SerializeField] private Sprite DrawerBothOpen;
     [SerializeField] private Sprite DrawerOnlyTopOpen;
     [SerializeField] private Sprite DrawerOnlyBottomOpen;
-    
+
     [SerializeField] private PuzzleMaster puzzleMaster;
 
     [SerializeField] private HotSpot OpenTopDrawerButton;
     [SerializeField] private HotSpot OpenBottomDrawerButton;
-    
-    protected override void OnViewActivated_Concrete()
+
+    protected override void Awake()
     {
-        RenderViewBasedOnWorldState();
+        base.Awake();
+
+        puzzleMaster.OnRoomStateChanged += RenderViewBasedOnWorldState;
     }
 
-    private void RenderViewBasedOnWorldState()
+    protected override void RenderViewBasedOnWorldState()
     {
+
         if (puzzleMaster.IsBottomDrawerOpen() && puzzleMaster.IsTopDrawerOpen())
         {
             backgroundImage.sprite = DrawerBothOpen;
@@ -38,30 +41,9 @@ public class UnderDeskViewController : GenericOfficeViewController
         {
             backgroundImage.sprite = DrawerOnlyBottomOpen;
         }
+
     }
 
-    // protected override void RespondToAction_Concrete(ActionType action)
-    // {
-    //     // if(action.ActionTypeName == ActionTypeName.OpenTopDrawer)
-    //     // {
-    //     //     puzzleMaster.ToggleTopDrawer();
 
-    //     //     if (puzzleMaster.IsTopDrawerOpen())
-    //     //     {
-    //     //         OpenBottomDrawerButton.DeactivateHotspot();
-    //     //     }
-    //     //     else
-    //     //     {
-    //     //         OpenBottomDrawerButton.ActivateHotspot();
-    //     //     }
 
-    //     //     RenderViewBasedOnWorldState();
-    //     // }
-        
-    //     // if(action.ActionTypeName == ActionTypeName.OpenBottomDrawer)
-    //     // {
-    //     //     puzzleMaster.ToggleBottomDrawer();
-    //     //     RenderViewBasedOnWorldState();
-    //     // }
-    // }
 }

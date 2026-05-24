@@ -38,21 +38,11 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
     {
 
         OnViewActivated(gameContext.Player.CurrentView);
-
-        // gameContext.Player.OnActionPerformed += RespondToAction_Concrete;
         gameContext.Player.OnViewChanged += OnViewActivated;
         gameContext.AIMonitor.OnDeath += ReactToJumpscare;
     }
-
-    // protected abstract void RespondToAction_Concrete(ActionType action);
-    protected abstract void OnViewActivated_Concrete();
+    protected abstract void RenderViewBasedOnWorldState();
     protected abstract void ReactToJumpscare_Concrete(CharacterName who, LocName from);
-
-
-    // protected void OnPlayerAction(ActionType action)
-    // {
-    //     RespondToAction_Concrete(action);
-    // }
 
     protected void OnViewActivated(ViewName view)
     {
@@ -62,7 +52,7 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
             return;
         }
 
-        OnViewActivated_Concrete();
+        RenderViewBasedOnWorldState();
     }
     public void ReactToJumpscare(CharacterName who, LocName from)
     {
@@ -72,7 +62,6 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
 
     void OnDisable()
     {
-        // gameContext.Player.OnActionPerformed -= RespondToAction_Concrete;
         gameContext.Player.OnViewChanged -= OnViewActivated;
         gameContext.AIMonitor.OnDeath -= ReactToJumpscare;
 
