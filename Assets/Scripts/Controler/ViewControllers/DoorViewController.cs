@@ -13,8 +13,8 @@ public abstract class DoorViewController : ViewController
     [SerializeField] private HotSpot OpenButton;
 
     protected abstract bool isThisDoorOpen { get; }
-    protected abstract Action OpenAction { get; }
-    protected abstract Action CloseAction { get; }
+    protected abstract ActionTypeName OpenAction { get; }
+    protected abstract ActionTypeName CloseAction { get; }
 
     private readonly Dictionary<CharacterName, AnimationSequence> openThisDoorJumpscares = new();
     private readonly Dictionary<CharacterName, AnimationSequence> openOtherDoorJumpscares = new();

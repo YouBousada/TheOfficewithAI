@@ -16,7 +16,7 @@ public class AIEvents : MonoBehaviour
         OnLocationChanged?.Invoke(who, from, to);
     }
 
-    public void HandleBehaviourChange(CharacterName who, Behaviour oldBehaviour, Behaviour newBehaviour)
+    public void HandleBehaviourChange(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour)
     {
         // Debug.Log($"[{Time.time:F2}] {who} changed behaviour from {oldBehaviour}ing to {newBehaviour}ing");
         OnBehaviourChanged?.Invoke(who, oldBehaviour, newBehaviour);
@@ -28,7 +28,7 @@ public class AIEvents : MonoBehaviour
         OnJobSwitched?.Invoke(who, fromJob, toJob);
     }
 
-    public void HandleInitialization(CharacterName who, LocName location, Behaviour behaviour, JobName job)
+    public void HandleInitialization(CharacterName who, LocName location, BehaviourName behaviour, JobName job)
     {
         // Debug.Log($"<color=yellow>[JOB]</color>[{Time.time:F2}] {who} initialized at {location} with {behaviour} behaviour in job {job}");
         OnInitialization?.Invoke(who, location, behaviour, job);
@@ -41,9 +41,9 @@ public class AIEvents : MonoBehaviour
     }
 
     public event Action<CharacterName, LocName, LocName> OnLocationChanged;
-    public event Action<CharacterName, Behaviour, Behaviour> OnBehaviourChanged;
+    public event Action<CharacterName, BehaviourName, BehaviourName> OnBehaviourChanged;
     public event Action<CharacterName, JobName, JobName> OnJobSwitched;
-    public event Action<CharacterName, LocName, Behaviour, JobName> OnInitialization;
+    public event Action<CharacterName, LocName, BehaviourName, JobName> OnInitialization;
     public event Action<CharacterName, LocName> OnDeath;
 
 }

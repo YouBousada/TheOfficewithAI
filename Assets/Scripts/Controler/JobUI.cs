@@ -21,7 +21,7 @@ public class JobUI : MonoBehaviour
         gameContext.AIMonitor.OnJobSwitched -= HandleJobSwitch;
     }
 
-    void HandleInit(CharacterName who, LocName loc, Behaviour behaviour, JobName job)
+    void HandleInit(CharacterName who, LocName loc, BehaviourName behaviour, JobName job)
     {
         if (who != character) return;
         UpdateLabel(job);

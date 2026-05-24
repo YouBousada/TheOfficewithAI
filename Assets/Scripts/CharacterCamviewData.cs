@@ -24,16 +24,16 @@ public class CharacterCamviewData : ScriptableObject
     public List<Sprite> Layer3_RunningRenders;
     public List<Sprite> Layer4_RunningRenders;
 
-    public Sprite GetRandomRender(int layer, Behaviour behaviour)
+    public Sprite GetRandomRender(int layer, BehaviourName behaviour)
     {
         // Debug.Log($"{characterName} chose camera render layer index {layer} (Layer {layer + 1}) for {behaviour}.");
 
         switch(behaviour)
         {
-            case Behaviour.Encroaching:
-            case Behaviour.Leaving:
-            case Behaviour.InvisibleRoaming:
-            case Behaviour.None:
+            case BehaviourName.Encroaching:
+            case BehaviourName.Leaving:
+            case BehaviourName.InvisibleRoaming:
+            case BehaviourName.None:
                 switch(layer)
                 {
                     case 0:
@@ -56,7 +56,7 @@ public class CharacterCamviewData : ScriptableObject
                         // Debug.LogWarning("GetRandomRender called with invalid layer: " + layer + " layers must be between 0 and 3.");
                         return null;
                 }
-            case Behaviour.Running:
+            case BehaviourName.Running:
                 switch(layer)
                 {
                     case 0:
@@ -79,7 +79,7 @@ public class CharacterCamviewData : ScriptableObject
                         // Debug.LogWarning("GetRandomRender called with invalid layer: " + layer + " layers must be between 0 and 3.");
                         return null;
                 }
-            case Behaviour.Idling:
+            case BehaviourName.Idling:
                 switch(layer)
                 {
                     case 0:

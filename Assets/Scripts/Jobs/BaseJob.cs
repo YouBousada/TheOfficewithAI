@@ -6,8 +6,8 @@ public abstract class BaseJob : IJobRequirements
     protected MapGraphs mapGraphs;
     protected CharacterProfile profile;
     public LocName currentLoc;
-    public Behaviour currentBehaviour;
-    protected abstract Behaviour InitialBehaviour { get; }
+    public BehaviourName currentBehaviour;
+    protected abstract BehaviourName InitialBehaviour { get; }
     public JobName JobName;
     public AnimatronicMemory memories;
     protected int AiLevel;
@@ -25,7 +25,7 @@ public abstract class BaseJob : IJobRequirements
     }
     public abstract void PerformJob();
     public abstract LocName CalculateNextPos();
-    public abstract bool HandleNewBehaviour(Behaviour newBehaviour);
+    public abstract bool HandleNewBehaviour(BehaviourName newBehaviour);
     public abstract void HandleKillPosition();
 
 
@@ -54,9 +54,9 @@ public abstract class BaseJob : IJobRequirements
         gameContext.AIMonitor.HandleLocationChange(profile.characterName, oldlocation, currentLoc);
     }
 
-    public void SwitchToBehaviour(Behaviour newBehaviour)
+    public void SwitchToBehaviour(BehaviourName newBehaviour)
     {
-        Behaviour oldBehaviour = currentBehaviour;
+        BehaviourName oldBehaviour = currentBehaviour;
         bool flowControl = HandleNewBehaviour(newBehaviour);
         if (!flowControl)
         {
@@ -150,7 +150,7 @@ public abstract class BaseJob : IJobRequirements
         
         foreach (Animatronic anim in gameContext.Animatronics)
         {
-            if (anim.GetCurrentLocation() == windowLoc && anim.GetCurrentBehaviour() == Behaviour.StareThroughWindow)
+            if (anim.GetCurrentLocation() == windowLoc && anim.GetCurrentBehaviour() == BehaviourName.StareThroughWindow)
             {
                 return true;
             }

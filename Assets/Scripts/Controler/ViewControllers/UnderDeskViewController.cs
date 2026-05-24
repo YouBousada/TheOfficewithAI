@@ -42,7 +42,7 @@ public class UnderDeskViewController : GenericOfficeViewController
 
     protected override void RespondToAction_Concrete(PlayerAction action)
     {
-        if(action.ActionName == Action.OpenTopDrawer)
+        if(action.ActionName == ActionTypeName.OpenTopDrawer)
         {
             puzzleMaster.ToggleTopDrawer();
 
@@ -58,7 +58,7 @@ public class UnderDeskViewController : GenericOfficeViewController
             RenderViewBasedOnWorldState();
         }
         
-        if(action.ActionName == Action.OpenBottomDrawer)
+        if(action.ActionName == ActionTypeName.OpenBottomDrawer)
         {
             puzzleMaster.ToggleBottomDrawer();
             RenderViewBasedOnWorldState();

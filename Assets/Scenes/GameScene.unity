@@ -1211,7 +1211,7 @@ MonoBehaviour:
   gameContext: {fileID: 1108953928}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: f20904c41c2aa204c8db5618f3e9c5f3, type: 2}
-  Ailevel: 20
+  Ailevel: 5
 --- !u!1 &161621953
 GameObject:
   m_ObjectHideFlags: 0
@@ -3301,7 +3301,7 @@ MonoBehaviour:
   gameContext: {fileID: 1108953928}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: 4614e3a02e7e9204ab96f0aaae91086b, type: 2}
-  Ailevel: 20
+  Ailevel: 5
 --- !u!1 &661298739
 GameObject:
   m_ObjectHideFlags: 0
@@ -4014,7 +4014,7 @@ MonoBehaviour:
   gameContext: {fileID: 1108953928}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: 8dc07c8bf88faf64393c1e75df757743, type: 2}
-  Ailevel: 20
+  Ailevel: 5
 --- !u!1 &889167841
 GameObject:
   m_ObjectHideFlags: 0

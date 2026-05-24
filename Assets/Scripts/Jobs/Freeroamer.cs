@@ -4,7 +4,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
     private MapService.RuntimeMap runtimeEncroachMap;
     private MapService.RuntimeMap runtimeLeaveMap;
     private MapService.RuntimeMap currentMap;
-    protected override Behaviour InitialBehaviour => Behaviour.Encroaching;
+    protected override BehaviourName InitialBehaviour => BehaviourName.Encroaching;
     private int minLeaveSteps = 3;
     private int currentLeaveStepsLeft;
     private DoorName lastFailedDoorLoc;
@@ -43,7 +43,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
         if (switchedFromAnotherJob)
         {
             currentMap = runtimeLeaveMap;
-            SwitchToBehaviour(Behaviour.Leaving);
+            SwitchToBehaviour(BehaviourName.Leaving);
         }
     }
 
@@ -51,11 +51,11 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
     {
         switch (currentBehaviour)
         {
-            case Behaviour.Encroaching:
-            case Behaviour.Leaving:
+            case BehaviourName.Encroaching:
+            case BehaviourName.Leaving:
                 PlayRedLightGreenLight();
                 break;
-            case Behaviour.StalkDoor:
+            case BehaviourName.StalkDoor:
                 HandleKillPosition();
                 break;
             default:
@@ -83,7 +83,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
     {
         var nextRoom = MapService.ChooseNext(currentMap.nodes[currentLoc]).roomName;
 
-        if (currentBehaviour == Behaviour.Leaving)
+        if (currentBehaviour == BehaviourName.Leaving)
         {
             if (currentLeaveStepsLeft > 0)
             {
@@ -91,33 +91,33 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
             }
             else if (Random.value <= ReencroachChance)
             {
-                SwitchToBehaviour(Behaviour.Encroaching);
+                SwitchToBehaviour(BehaviourName.Encroaching);
                 nextRoom = MapService.ChooseNext(currentMap.nodes[currentLoc]).roomName;
             }
         }
 
         if (nextRoom == LocName.EastDoor || nextRoom == LocName.WestDoor)
-            SwitchToBehaviour(Behaviour.StalkDoor);
+            SwitchToBehaviour(BehaviourName.StalkDoor);
 
         return nextRoom;
     }
-    public override bool HandleNewBehaviour(Behaviour newBehaviour)
+    public override bool HandleNewBehaviour(BehaviourName newBehaviour)
     {
         switch (newBehaviour)
         {
-            case Behaviour.Encroaching:
-                currentBehaviour = Behaviour.Encroaching;
+            case BehaviourName.Encroaching:
+                currentBehaviour = BehaviourName.Encroaching;
                 MovementTimer = TimeGenerator.WeibullTime(AiLevel, profile);
                 currentMap = runtimeEncroachMap;
                 break;
-            case Behaviour.Leaving:
-                currentBehaviour = Behaviour.Leaving;
+            case BehaviourName.Leaving:
+                currentBehaviour = BehaviourName.Leaving;
                 MovementTimer = TimeGenerator.WeibullTime(AiLevel, profile);
                 currentLeaveStepsLeft = minLeaveSteps;
                 currentMap = runtimeLeaveMap;
                 break;
-            case Behaviour.StalkDoor:
-                currentBehaviour = Behaviour.StalkDoor;
+            case BehaviourName.StalkDoor:
+                currentBehaviour = BehaviourName.StalkDoor;
                 MovementTimer = TimeGenerator.ExponentialTime(AiLevel, profile);
                 break;
             default:
@@ -155,7 +155,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
             if (AttemptToSwitchJobs())
                 return;
             BuildMaps(lastFailedDoorLoc);
-            SwitchToBehaviour(Behaviour.Leaving);
+            SwitchToBehaviour(BehaviourName.Leaving);
             StepandNotify();
         }
         else

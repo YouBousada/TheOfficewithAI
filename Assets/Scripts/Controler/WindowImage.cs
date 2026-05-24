@@ -121,7 +121,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
         base.OnDestroy();
     }
 
-    void RespondToInitialization(CharacterName who, LocName location, Behaviour behaviour, JobName job)
+    void RespondToInitialization(CharacterName who, LocName location, BehaviourName behaviour, JobName job)
     {
         if (IsInActiveView)
             RefreshWindowSprite();

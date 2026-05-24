@@ -3,7 +3,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 {
     private MapService.RuntimeMap runtimeRunningMap;
     private BaseMap map;
-    protected override Behaviour InitialBehaviour => Behaviour.Idling;
+    protected override BehaviourName InitialBehaviour => BehaviourName.Idling;
     private float maxIdleTime;
     private float maxRuntime;
     private DoorName lastFailedDoorLoc;
@@ -37,7 +37,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     {
         if (switchedFromAnotherJob)
         {
-            SwitchToBehaviour(Behaviour.Idling);
+            SwitchToBehaviour(BehaviourName.Idling);
             currentLoc = PickRandomIdleRoom();
         }
     }
@@ -46,13 +46,13 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     {
         switch (currentBehaviour)
         {
-            case Behaviour.Idling:
+            case BehaviourName.Idling:
                 Wait();
                 break;
-            case Behaviour.Running:
+            case BehaviourName.Running:
                 Run();
                 break;
-            case Behaviour.StalkDoor:
+            case BehaviourName.StalkDoor:
                 HandleKillPosition();
                 break;
             default:
@@ -77,21 +77,21 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
         return newLoc;
     }
 
-    public override bool HandleNewBehaviour(Behaviour newBehaviour)
+    public override bool HandleNewBehaviour(BehaviourName newBehaviour)
     {
         switch (newBehaviour)
         {
-            case Behaviour.Running:
+            case BehaviourName.Running:
                 MovementTimer = maxRuntime;
-                currentBehaviour = Behaviour.Running;
+                currentBehaviour = BehaviourName.Running;
                 break;
-            case Behaviour.Idling:
+            case BehaviourName.Idling:
                 MovementTimer = maxIdleTime;
-                currentBehaviour = Behaviour.Idling;
+                currentBehaviour = BehaviourName.Idling;
                 break;
-            case Behaviour.StalkDoor:
+            case BehaviourName.StalkDoor:
                 MovementTimer = StalkDoorInitialTimer;
-                currentBehaviour = Behaviour.StalkDoor;
+                currentBehaviour = BehaviourName.StalkDoor;
                 break;
             default:
                 return false;
@@ -116,7 +116,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 
         if (MovementTimer <= 0f)
         {
-            SwitchToBehaviour(Behaviour.Running);
+            SwitchToBehaviour(BehaviourName.Running);
         }
     }
 
@@ -144,7 +144,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
             if (AttemptToSwitchJobs())
                 return;
             runtimeRunningMap = MapService.BuildRuntimeMap(map, false, lastFailedDoorLoc);
-            SwitchToBehaviour(Behaviour.Idling);
+            SwitchToBehaviour(BehaviourName.Idling);
             StepandNotify();
         }
     }
@@ -158,7 +158,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     {
         if (AtADoor())
         {
-            SwitchToBehaviour(Behaviour.StalkDoor);
+            SwitchToBehaviour(BehaviourName.StalkDoor);
             return;
         }
 

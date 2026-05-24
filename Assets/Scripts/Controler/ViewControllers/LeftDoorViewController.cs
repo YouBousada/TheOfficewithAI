@@ -1,6 +1,6 @@
 public class LeftDoorViewController : DoorViewController
 {
     protected override bool isThisDoorOpen => gameContext.OfficeStates.LeftDoorIsOpen;
-    protected override Action OpenAction => Action.OpenLeftDoor;
-    protected override Action CloseAction => Action.CloseLeftDoor;
+    protected override ActionTypeName OpenAction => ActionTypeName.OpenLeftDoor;
+    protected override ActionTypeName CloseAction => ActionTypeName.CloseLeftDoor;
 }

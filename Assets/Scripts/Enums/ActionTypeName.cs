@@ -1,4 +1,4 @@
-public enum Action
+public enum ActionTypeName
 {
     None,
     CloseLeftDoor,
@@ -7,4 +7,5 @@ public enum Action
     OpenRightDoor,
     OpenTopDrawer,
     OpenBottomDrawer,
+
 }

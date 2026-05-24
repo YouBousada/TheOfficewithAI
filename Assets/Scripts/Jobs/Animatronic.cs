@@ -90,7 +90,7 @@ public class Animatronic : MonoBehaviour
         return profile.jobsByPreference[0];
     }
 
-    public Behaviour GetCurrentBehaviour()
+    public BehaviourName GetCurrentBehaviour()
     {
         if(myJob != null)
         {
@@ -98,7 +98,7 @@ public class Animatronic : MonoBehaviour
         }
         else
         {
-            return Behaviour.None;
+            return BehaviourName.None;
         }
     }
 

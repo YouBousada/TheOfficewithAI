@@ -83,7 +83,7 @@ public class CharacterIcon : MonoBehaviour
         }
     }
         
-    private void HandleBehaviourChange(CharacterName who, Behaviour oldBehaviour, Behaviour newBehaviour)
+    private void HandleBehaviourChange(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour)
     {
         if (!(who == thisCharacterName))
         {
@@ -92,22 +92,22 @@ public class CharacterIcon : MonoBehaviour
 
         switch (newBehaviour)
         {
-            case Behaviour.Running:
+            case BehaviourName.Running:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = redSprite;
                 break;
-            case Behaviour.Idling:
+            case BehaviourName.Idling:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = greenSprite;
                 break;
-            case Behaviour.Encroaching:
+            case BehaviourName.Encroaching:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = redSprite;
                 break;
-            case Behaviour.Leaving:
+            case BehaviourName.Leaving:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = greenSprite;
                 break;
-            case Behaviour.StalkDoor:
+            case BehaviourName.StalkDoor:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = redSprite;
                 break;
-            case Behaviour.StareThroughWindow:
+            case BehaviourName.StareThroughWindow:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = redSprite;
                 break;
             default:

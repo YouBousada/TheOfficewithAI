@@ -1,7 +1,7 @@
 using UnityEngine;
 public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 {
-    protected override Behaviour InitialBehaviour => Behaviour.InvisibleRoaming;
+    protected override BehaviourName InitialBehaviour => BehaviourName.InvisibleRoaming;
     private const float StaringTimeMultiplier = 0.5f;
 
     public WindowWatcher(JobNecessities necessities, bool switchedFromAnotherJob = false)
@@ -23,7 +23,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
     {
         if (switchedFromAnotherJob)
         {
-            SwitchToBehaviour(Behaviour.InvisibleRoaming);
+            SwitchToBehaviour(BehaviourName.InvisibleRoaming);
             currentLoc = LocName.NoWhere;
         }
     }
@@ -32,10 +32,10 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
     {
         switch (currentBehaviour)
         {
-            case Behaviour.InvisibleRoaming:
+            case BehaviourName.InvisibleRoaming:
                 InvisibleRoam();
                 break;
-            case Behaviour.StareThroughWindow:
+            case BehaviourName.StareThroughWindow:
                 HandleKillPosition();
                 break;
             default:
@@ -64,7 +64,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
                     if (PlayerIsLookingAtThisWindow(door))
                     {
-                        SwitchToBehaviour(Behaviour.InvisibleRoaming);
+                        SwitchToBehaviour(BehaviourName.InvisibleRoaming);
                         return LocName.NoWhere;
                     }
 
@@ -75,7 +75,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
                 }
 
             default:
-                SwitchToBehaviour(Behaviour.InvisibleRoaming);
+                SwitchToBehaviour(BehaviourName.InvisibleRoaming);
                 return LocName.NoWhere;
         }
     }
@@ -90,28 +90,28 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
         if (occupiedEast && occupiedWest)
         {
-            SwitchToBehaviour(Behaviour.InvisibleRoaming);
+            SwitchToBehaviour(BehaviourName.InvisibleRoaming);
             return chosenLocation;
         }
 
         else if (occupiedWest)
         {
-            SwitchToBehaviour(Behaviour.StareThroughWindow);
+            SwitchToBehaviour(BehaviourName.StareThroughWindow);
             chosenLocation = LocName.EastDoor;
         }
         else if (occupiedEast)
         {
-            SwitchToBehaviour(Behaviour.StareThroughWindow);
+            SwitchToBehaviour(BehaviourName.StareThroughWindow);
             chosenLocation = LocName.WestDoor;
         }
         else if (x <= 0.5f)
         {
-            SwitchToBehaviour(Behaviour.StareThroughWindow);
+            SwitchToBehaviour(BehaviourName.StareThroughWindow);
             chosenLocation = LocName.WestDoor;
         }
         else
         {
-            SwitchToBehaviour(Behaviour.StareThroughWindow);
+            SwitchToBehaviour(BehaviourName.StareThroughWindow);
             chosenLocation = LocName.EastDoor;
         }
 
@@ -123,17 +123,17 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
         return (gameContext.Player.CurrentView == View.LeftDoor && chosenLocation == LocName.WestDoor) || (gameContext.Player.CurrentView == View.RightDoor && chosenLocation == LocName.EastDoor);
     }
 
-    public override bool HandleNewBehaviour(Behaviour newBehaviour)
+    public override bool HandleNewBehaviour(BehaviourName newBehaviour)
     {
         switch (newBehaviour)
         {
-            case Behaviour.InvisibleRoaming:
+            case BehaviourName.InvisibleRoaming:
                 MovementTimer = TimeGenerator.WeibullTime(AiLevel);
-                currentBehaviour = Behaviour.InvisibleRoaming;
+                currentBehaviour = BehaviourName.InvisibleRoaming;
                 break;
-            case Behaviour.StareThroughWindow:
+            case BehaviourName.StareThroughWindow:
                 MovementTimer = TimeGenerator.WeibullTime(AiLevel, null, StaringTimeMultiplier);
-                currentBehaviour = Behaviour.StareThroughWindow;
+                currentBehaviour = BehaviourName.StareThroughWindow;
                 break;
             default:
                 return false;

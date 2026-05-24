@@ -1,4 +1,4 @@
-public enum Behaviour
+public enum BehaviourName
 {
     Encroaching,
     Leaving,

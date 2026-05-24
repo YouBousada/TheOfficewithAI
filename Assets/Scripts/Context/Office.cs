@@ -60,16 +60,16 @@ public class Office : MonoBehaviour
     {
         switch (action.ActionName)
         {
-            case Action.OpenLeftDoor:
+            case ActionTypeName.OpenLeftDoor:
                 SetLeftDoor(true);
                 break;
-            case Action.CloseLeftDoor:
+            case ActionTypeName.CloseLeftDoor:
                 SetLeftDoor(false);
                 break;
-            case Action.OpenRightDoor:
+            case ActionTypeName.OpenRightDoor:
                 SetRightDoor(true);
                 break;
-            case Action.CloseRightDoor:
+            case ActionTypeName.CloseRightDoor:
                 SetRightDoor(false);
                 break;
         }

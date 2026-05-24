@@ -14,7 +14,7 @@ public class CameraDisplayManager : MonoBehaviour
     {
         public Sprite RenderSprite;
         public LocName Room;
-        public Behaviour AnimBehaviour;
+        public BehaviourName AnimBehaviour;
         public int SortingLayer;
     }
 
@@ -79,7 +79,7 @@ public class CameraDisplayManager : MonoBehaviour
         gameContext.CameraSystem.OnCameraRoomChanged -= HandleCameraRoomChanged;
     }
 
-    private void HandleBehaviourChanged(CharacterName who, Behaviour oldBehaviour, Behaviour newBehaviour)
+    private void HandleBehaviourChanged(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour)
     {
         if (!gameContext.TryGetAnimatronic(who, out Animatronic animatronic)) return;
         if (animatronic.GetCurrentLocation() != activeCamera) return;
@@ -94,7 +94,7 @@ public class CameraDisplayManager : MonoBehaviour
         renderCache.Remove(who);
 
         if (!gameContext.TryGetAnimatronic(who, out Animatronic animatronic)) return;
-        Behaviour behaviour = animatronic.GetCurrentBehaviour();
+        BehaviourName behaviour = animatronic.GetCurrentBehaviour();
 
         if (to == activeCamera)
             AddCharacterToDisplay(who, behaviour);
@@ -130,12 +130,12 @@ public class CameraDisplayManager : MonoBehaviour
         }
     }
 
-    private void AddCharacterToDisplay(CharacterName animName, Behaviour animBehaviour)
+    private void AddCharacterToDisplay(CharacterName animName, BehaviourName animBehaviour)
     {
         if (thisRoomCameraData == null) return;
 
         //check caache, use cache render if cache hit and return
-        bool cachable = animBehaviour == Behaviour.Running || animBehaviour == Behaviour.Idling || animBehaviour == Behaviour.None;
+        bool cachable = animBehaviour == BehaviourName.Running || animBehaviour == BehaviourName.Idling || animBehaviour == BehaviourName.None;
 
         if (cachable && renderCache.TryGetValue(animName, out var cached) && cached.Room == activeCamera && cached.AnimBehaviour == animBehaviour)
         {
