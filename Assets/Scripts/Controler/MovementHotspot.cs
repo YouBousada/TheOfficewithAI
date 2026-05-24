@@ -3,7 +3,7 @@ using UnityEngine;
 public class MovementHotspot : HotSpot
 {
     [Header("MovementHotspot requirements")]
-    [SerializeField] private View to;
+    [SerializeField] private ViewName to;
 
     public void InvokeViewChange()
     {

@@ -4,13 +4,13 @@ using UnityEngine.UI;
 public abstract class HotSpot : OverLayObject
 {
     [Header("Hotspot requirements")]
-    [SerializeField] private bool startsAvailable = true;  //keep here
+    [SerializeField] private bool startsAvailable = true;  
 
     private Button button;
     private CanvasGroup canvasGroup;
     private Coroutine actionCooldownCoroutine;
-    private bool isAvailableFromWorldState;
-    private bool isLocked;
+    protected bool isAvailableFromWorldState {get; private set;}
+    protected bool isLocked {get; private set;}
 
     public bool CanUseHotspot => IsInActiveView &&
                                  isAvailableFromWorldState &&

@@ -26,13 +26,13 @@ public class Screen : OverLayObject
         WarpToView(gameContext.Player.CurrentView);
     }
 
-    public void WarpToView(View newView)
+    public void WarpToView(ViewName newView)
     {
-        if (newView == View.Desk)
+        if (newView == ViewName.Desk)
         {
             ApplyDeskPosition();
         }
-        else if (newView == View.Cameras)
+        else if (newView == ViewName.Cameras)
         {
             ApplyClosePosition();
         }

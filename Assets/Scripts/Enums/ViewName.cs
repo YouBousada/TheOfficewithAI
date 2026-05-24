@@ -1,4 +1,4 @@
-public enum View
+public enum ViewName
 {
     None,
     Desk,
@@ -6,11 +6,6 @@ public enum View
     RightDoor,
     Back,
     Cameras,
-    OfficeJumpscare,
-
     UnderDesk,
-
-    UnderDeskCorner,
-
-    BackCornerView
+    BackCorner
 }

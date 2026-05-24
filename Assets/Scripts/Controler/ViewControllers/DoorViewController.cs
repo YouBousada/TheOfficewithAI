@@ -13,8 +13,8 @@ public abstract class DoorViewController : ViewController
     [SerializeField] private HotSpot OpenButton;
 
     protected abstract bool isThisDoorOpen { get; }
-    protected abstract ActionTypeName OpenAction { get; }
-    protected abstract ActionTypeName CloseAction { get; }
+    // protected abstract ActionTypeName OpenAction { get; }
+    // protected abstract ActionTypeName CloseAction { get; }
 
     private readonly Dictionary<CharacterName, AnimationSequence> openThisDoorJumpscares = new();
     private readonly Dictionary<CharacterName, AnimationSequence> openOtherDoorJumpscares = new();
@@ -34,7 +34,6 @@ public abstract class DoorViewController : ViewController
 
         if (doorViewJumpscareData == null)
         {
-            // Debug.LogError($"{name}: DoorViewJumpscareData is not assigned.", this);
             return;
         }
 
@@ -54,21 +53,18 @@ public abstract class DoorViewController : ViewController
         closedOtherDoorJumpscares[CharacterName.Freddy] = doorViewJumpscareData.OtherDoorFreddyAnimationDoorClosed;
     }
 
-    protected override void RespondToAction_Concrete(ActionType action)
+    public void PlayOpenDoorAnimation()
     {
-        if (action.ActionTypeName == OpenAction && !isThisDoorOpen)
-        {
-            animPlayer.PlayAnimation(DoorOpenAnimation, backgroundImage.gameObject, DoorOpenImage);
-            OpenButton.DeactivateHotspot();
-            CloseButton.ActivateHotspot();
-        }
-        else if (action.ActionTypeName == CloseAction && isThisDoorOpen)
-        {
-            animPlayer.PlayAnimation(DoorCloseAnimation, backgroundImage.gameObject, DoorClosedImage);
-            OpenButton.ActivateHotspot();
-            CloseButton.DeactivateHotspot();
-        }
-            
+        animPlayer.PlayAnimation(DoorOpenAnimation, backgroundImage.gameObject, DoorOpenImage);
+        OpenButton.DeactivateHotspot();
+        CloseButton.ActivateHotspot();
+    }
+
+    public void PlayCloseDoorAnimation()
+    {
+        animPlayer.PlayAnimation(DoorCloseAnimation, backgroundImage.gameObject, DoorClosedImage);
+        OpenButton.ActivateHotspot();
+        CloseButton.DeactivateHotspot();
     }
 
     protected override void OnViewActivated_Concrete()
@@ -148,7 +144,7 @@ public abstract class DoorViewController : ViewController
 
     private bool IsAttackFromThisDoor(LocName from)
     {
-        return (from == LocName.EastDoor && thisViewName == View.RightDoor) ||
-               (from == LocName.WestDoor && thisViewName == View.LeftDoor);
+        return (from == LocName.EastDoor && thisViewName == ViewName.RightDoor) ||
+               (from == LocName.WestDoor && thisViewName == ViewName.LeftDoor);
     }
 }

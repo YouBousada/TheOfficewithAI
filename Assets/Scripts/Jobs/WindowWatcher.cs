@@ -120,7 +120,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
     private bool PlayerIsLookingAtThisWindow(LocName chosenLocation)
     {
-        return (gameContext.Player.CurrentView == View.LeftDoor && chosenLocation == LocName.WestDoor) || (gameContext.Player.CurrentView == View.RightDoor && chosenLocation == LocName.EastDoor);
+        return (gameContext.Player.CurrentView == ViewName.LeftDoor && chosenLocation == LocName.WestDoor) || (gameContext.Player.CurrentView == ViewName.RightDoor && chosenLocation == LocName.EastDoor);
     }
 
     public override bool HandleNewBehaviour(BehaviourName newBehaviour)
@@ -172,7 +172,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
     public bool PlayerIsLookingAtMeThroughWindow()
     {
-        if (gameContext.Player.CurrentView == View.LeftDoor && currentLoc == LocName.WestDoor || gameContext.Player.CurrentView == View.RightDoor && currentLoc == LocName.EastDoor)
+        if (gameContext.Player.CurrentView == ViewName.LeftDoor && currentLoc == LocName.WestDoor || gameContext.Player.CurrentView == ViewName.RightDoor && currentLoc == LocName.EastDoor)
         {
             return true;
         }

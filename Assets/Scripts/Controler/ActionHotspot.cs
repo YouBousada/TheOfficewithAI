@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ActionHotspot : HotSpot
@@ -8,7 +9,6 @@ public class ActionHotspot : HotSpot
 
     public void InvokeAction()
     {
-        if (!CanUseHotspot) return;
         if (actionType == null)
         {
             Debug.LogWarning($"{name} cannot perform an action because no PlayerAction is assigned.", this);
@@ -16,5 +16,7 @@ public class ActionHotspot : HotSpot
         }
 
         gameContext.Player.PerformAction(actionType);
+        Debug.Log("player performed: " + actionType);
+        
     }
 }

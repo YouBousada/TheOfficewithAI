@@ -5,11 +5,11 @@ public class Player : MonoBehaviour
 {
     public static Player Instance { get; private set; }
 
-    public View CurrentView { get; private set; }
-    [SerializeField] private View startingView;
+    public ViewName CurrentView { get; private set; }
+    [SerializeField] private ViewName startingView;
     public bool IsDead { get; private set; } = false;
 
-    public event Action<View> OnViewChanged;
+    public event Action<ViewName> OnViewChanged;
     public event Action<ActionType> OnActionPerformed;
 
     private HoldableItem ItemInHand;
@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
         ItemInHand = null;
     }
 
-    public void SetView(View newView)
+    public void SetView(ViewName newView)
     {
         CurrentView = newView;
         OnViewChanged?.Invoke(newView);

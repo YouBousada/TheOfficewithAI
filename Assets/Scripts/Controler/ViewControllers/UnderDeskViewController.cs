@@ -40,28 +40,28 @@ public class UnderDeskViewController : GenericOfficeViewController
         }
     }
 
-    protected override void RespondToAction_Concrete(ActionType action)
-    {
-        if(action.ActionTypeName == ActionTypeName.OpenTopDrawer)
-        {
-            puzzleMaster.ToggleTopDrawer();
+    // protected override void RespondToAction_Concrete(ActionType action)
+    // {
+    //     // if(action.ActionTypeName == ActionTypeName.OpenTopDrawer)
+    //     // {
+    //     //     puzzleMaster.ToggleTopDrawer();
 
-            if (puzzleMaster.IsTopDrawerOpen())
-            {
-                OpenBottomDrawerButton.DeactivateHotspot();
-            }
-            else
-            {
-                OpenBottomDrawerButton.ActivateHotspot();
-            }
+    //     //     if (puzzleMaster.IsTopDrawerOpen())
+    //     //     {
+    //     //         OpenBottomDrawerButton.DeactivateHotspot();
+    //     //     }
+    //     //     else
+    //     //     {
+    //     //         OpenBottomDrawerButton.ActivateHotspot();
+    //     //     }
 
-            RenderViewBasedOnWorldState();
-        }
+    //     //     RenderViewBasedOnWorldState();
+    //     // }
         
-        if(action.ActionTypeName == ActionTypeName.OpenBottomDrawer)
-        {
-            puzzleMaster.ToggleBottomDrawer();
-            RenderViewBasedOnWorldState();
-        }
-    }
+    //     // if(action.ActionTypeName == ActionTypeName.OpenBottomDrawer)
+    //     // {
+    //     //     puzzleMaster.ToggleBottomDrawer();
+    //     //     RenderViewBasedOnWorldState();
+    //     // }
+    // }
 }

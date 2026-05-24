@@ -198,9 +198,9 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
     private void AddActiveViewForWindowDoor()
     {
         if (thisWindowDoor == LocName.WestDoor)
-            AddActiveViewIfMissing(View.LeftDoor);
+            AddActiveViewIfMissing(ViewName.LeftDoor);
         else if (thisWindowDoor == LocName.EastDoor)
-            AddActiveViewIfMissing(View.RightDoor);
+            AddActiveViewIfMissing(ViewName.RightDoor);
     }
 
 }

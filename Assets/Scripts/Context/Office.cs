@@ -10,21 +10,14 @@ public class Office : MonoBehaviour
     public bool RightDoorIsOpen { get; private set; }
 
     private float doorDrainagePerSecond = 1f;
-
-    public event Action<bool, bool> OnDoorStateChanged;
-    public event System.Action OnPowerOutage;
-
     private bool invokedPowerOutage = false;
 
-    void OnGUI()
-    {
-        GUIStyle style = new(GUI.skin.label) { fontSize =  20 };
-        style.normal.textColor = Color.green;
-
-        GUI.Label(new Rect(10, 10, 300, 40), $"Power: {Power}", style);
-        GUI.Label(new Rect(10, 50, 300, 40), $"Left Door is Open : {LeftDoorIsOpen}", style);
-        GUI.Label(new Rect(10, 90, 300, 40), $"Right Door is Open: {RightDoorIsOpen}", style);
-    }
+    public event Action<bool, bool> OnDoorStateChanged;
+    public event Action OnLeftDoorClosed;
+    public event Action OnLeftDoorOpened;
+    public event Action OnRightDoorClosed;
+    public event Action OnRightDoorOpened;
+    public event Action OnPowerOutage;
 
     void Awake()
     {
@@ -33,65 +26,56 @@ public class Office : MonoBehaviour
         RightDoorIsOpen = true;
     }
 
-    void Start()
-    {
-        Player.Instance.OnActionPerformed += HandleAction;
-    }
-
     void Update()
     {
-        if(Power < 0 && invokedPowerOutage == false)
+        if (Power < 0 && !invokedPowerOutage)
         {
             OnPowerOutage?.Invoke();
             invokedPowerOutage = true;
         }
 
-        if (!LeftDoorIsOpen)
-        {
-            Power -= Time.deltaTime * doorDrainagePerSecond;
-        }
-        if (!RightDoorIsOpen)
-        {
-            Power -= Time.deltaTime * doorDrainagePerSecond;
-        }
+        if (!LeftDoorIsOpen) Power -= Time.deltaTime * doorDrainagePerSecond;
+        if (!RightDoorIsOpen) Power -= Time.deltaTime * doorDrainagePerSecond;
     }
 
-    void HandleAction(ActionType action)
+    public void OpenLeftDoor()
     {
-        switch (action.ActionTypeName)
-        {
-            case ActionTypeName.OpenLeftDoor:
-                SetLeftDoor(true);
-                break;
-            case ActionTypeName.CloseLeftDoor:
-                SetLeftDoor(false);
-                break;
-            case ActionTypeName.OpenRightDoor:
-                SetRightDoor(true);
-                break;
-            case ActionTypeName.CloseRightDoor:
-                SetRightDoor(false);
-                break;
-        }
-    }
-
-    public void SetLeftDoor(bool isOpen)
-    {
-        if (LeftDoorIsOpen == isOpen) return;
-        LeftDoorIsOpen = isOpen;
+        if (LeftDoorIsOpen) return;
+        LeftDoorIsOpen = true;
         OnDoorStateChanged?.Invoke(LeftDoorIsOpen, RightDoorIsOpen);
+        OnLeftDoorOpened?.Invoke();
     }
 
-    public void SetRightDoor(bool isOpen)
+    public void CloseLeftDoor()
     {
-        if (RightDoorIsOpen == isOpen) return;
-        RightDoorIsOpen = isOpen;
+        if (!LeftDoorIsOpen) return;
+        LeftDoorIsOpen = false;
         OnDoorStateChanged?.Invoke(LeftDoorIsOpen, RightDoorIsOpen);
+        OnLeftDoorClosed?.Invoke();
     }
 
-
-    void OnDestroy()
+    public void OpenRightDoor()
     {
-        Player.Instance.OnActionPerformed -= HandleAction;
+        if (RightDoorIsOpen) return;
+        RightDoorIsOpen = true;
+        OnDoorStateChanged?.Invoke(LeftDoorIsOpen, RightDoorIsOpen);
+        OnRightDoorOpened?.Invoke();
+    }
+
+    public void CloseRightDoor()
+    {
+        if (!RightDoorIsOpen) return;
+        RightDoorIsOpen = false;
+        OnDoorStateChanged?.Invoke(LeftDoorIsOpen, RightDoorIsOpen);
+        OnRightDoorClosed?.Invoke();
+    }
+
+    void OnGUI()
+    {
+        GUIStyle style = new(GUI.skin.label) { fontSize = 20 };
+        style.normal.textColor = Color.green;
+        GUI.Label(new Rect(10, 10, 300, 40), $"Power: {Power}", style);
+        GUI.Label(new Rect(10, 50, 300, 40), $"Left Door: {LeftDoorIsOpen}", style);
+        GUI.Label(new Rect(10, 90, 300, 40), $"Right Door: {RightDoorIsOpen}", style);
     }
 }

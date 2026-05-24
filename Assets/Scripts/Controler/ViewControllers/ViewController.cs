@@ -11,9 +11,9 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
     [SerializeField] protected Image backgroundImage;
 
     [Header("Info about view")]
-    [SerializeField] protected View thisViewName;
+    [SerializeField] protected ViewName thisViewName;
 
-    public View GetViewName()
+    public ViewName GetViewName()
     {
         return thisViewName;
     }
@@ -39,28 +39,22 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
 
         OnViewActivated(gameContext.Player.CurrentView);
 
-        gameContext.Player.OnActionPerformed += RespondToAction_Concrete;
+        // gameContext.Player.OnActionPerformed += RespondToAction_Concrete;
         gameContext.Player.OnViewChanged += OnViewActivated;
         gameContext.AIMonitor.OnDeath += ReactToJumpscare;
     }
 
-    protected abstract void RespondToAction_Concrete(ActionType action);
+    // protected abstract void RespondToAction_Concrete(ActionType action);
     protected abstract void OnViewActivated_Concrete();
     protected abstract void ReactToJumpscare_Concrete(CharacterName who, LocName from);
 
 
-    protected void OnPlayerAction(ActionType action)
-    {
-        // if(action.AllowedView != thisViewName)
-        // {
-        //     Debug.Log("PlayerAction " + action.ActionTypeName + " was performed in an illegal view! Incorrect ObjectsInView Assignment?");
-        //     return;
-        // }
+    // protected void OnPlayerAction(ActionType action)
+    // {
+    //     RespondToAction_Concrete(action);
+    // }
 
-        RespondToAction_Concrete(action);
-    }
-
-    protected void OnViewActivated(View view)
+    protected void OnViewActivated(ViewName view)
     {
         if (view != thisViewName)
         {
@@ -78,7 +72,7 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
 
     void OnDisable()
     {
-        gameContext.Player.OnActionPerformed -= RespondToAction_Concrete;
+        // gameContext.Player.OnActionPerformed -= RespondToAction_Concrete;
         gameContext.Player.OnViewChanged -= OnViewActivated;
         gameContext.AIMonitor.OnDeath -= ReactToJumpscare;
 

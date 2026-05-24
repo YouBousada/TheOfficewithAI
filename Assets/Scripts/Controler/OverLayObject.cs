@@ -6,13 +6,13 @@ public abstract class OverLayObject : MonoBehaviour
 {
     [Header("OverLayObject requirements")]
     [SerializeField] protected GameContext gameContext;
-    [SerializeField] private List<View> viewsICanBeActiveIn = new();
+    [SerializeField] private List<ViewName> viewsICanBeActiveIn = new();
     [SerializeField] private bool hideUponJumpscare = true;
     private bool hasHandledViewChange;
 
     protected bool IsInActiveView { get; private set; }
 
-    protected void AddActiveViewIfMissing(View view)
+    protected void AddActiveViewIfMissing(ViewName view)
     {
         if (!viewsICanBeActiveIn.Contains(view))
             viewsICanBeActiveIn.Add(view);
@@ -29,6 +29,12 @@ public abstract class OverLayObject : MonoBehaviour
             return;
         }
 
+        if (viewsICanBeActiveIn.Count == 0)
+        {
+            Debug.LogWarning($"{name} Is not set to be active in any view!.", this);
+            return;
+        }
+
         gameContext.Player.OnViewChanged += HandleViewChanged;
 
         if (gameContext.AIMonitor != null)
@@ -37,7 +43,7 @@ public abstract class OverLayObject : MonoBehaviour
         HandleViewChanged(gameContext.Player.CurrentView);
     }
 
-    private void HandleViewChanged(View newView)
+    private void HandleViewChanged(ViewName newView)
     {
         bool shouldBeActive = viewsICanBeActiveIn.Contains(newView);
 
