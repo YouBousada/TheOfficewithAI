@@ -1,3 +1,4 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 
 public class UnderDeskViewController : GenericOfficeViewController
@@ -13,6 +14,16 @@ public class UnderDeskViewController : GenericOfficeViewController
     [SerializeField] private HotSpot TopDrawerButton;
     [SerializeField] private HotSpot BottomDrawerButton;
 
+    [SerializeField] private HotSpot takeBluePaper;
+    [SerializeField] private HotSpot takeYellowPaper;
+    [SerializeField] private HotSpot takeGreenPaper;
+
+
+    [Header("Image Overlays")]
+    [SerializeField] private TopPaper bluePaper;
+    [SerializeField] private TopPaper YellowPaper;
+    [SerializeField] private TopPaper GreenPaper;
+
 
     protected override void Awake()
     {
@@ -23,6 +34,38 @@ public class UnderDeskViewController : GenericOfficeViewController
 
     protected override void RenderViewBasedOnWorldState()
     {
+        if (gameContext.puzzleMaster.IsTopDrawerOpen())
+        {
+            if(!gameContext.puzzleMaster.hasItem(ItemName.bluePlane)){
+                takeBluePaper.DeactivateHotspot();
+            }
+            else
+            {
+                takeBluePaper.ActivateHotspot();
+            }
+            
+            if(!gameContext.puzzleMaster.hasItem(ItemName.yellowPlane)){
+                takeYellowPaper.DeactivateHotspot();
+            }
+            else
+            {
+                takeYellowPaper.ActivateHotspot();
+            }
+
+            if(!gameContext.puzzleMaster.hasItem(ItemName.greenPlane)){
+                takeGreenPaper.DeactivateHotspot();
+            }
+            else
+            {
+                takeGreenPaper.ActivateHotspot();
+            }
+
+            bluePaper.SetVisible(gameContext.puzzleMaster.hasItem(ItemName.bluePlane));
+
+            YellowPaper.SetVisible(gameContext.puzzleMaster.hasItem(ItemName.yellowPlane));
+            
+            GreenPaper.SetVisible(gameContext.puzzleMaster.hasItem(ItemName.greenPlane));
+        }
 
         if (gameContext.puzzleMaster.IsBottomDrawerOpen() && gameContext.puzzleMaster.IsTopDrawerOpen())
         {

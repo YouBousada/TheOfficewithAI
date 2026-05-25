@@ -6,7 +6,10 @@ public class GivePlayerItem : PlayerCommand
 
     protected override void Execute_Concrete(GameContext ctx)
     {
-        ctx.Player.Give(item);
-        ctx.puzzleMaster.removeItem(item);
+        if (!ctx.Player.handsFull())
+        {
+            ctx.Player.Give(item);
+            ctx.puzzleMaster.removeItem(item);
+        }
     }
 }

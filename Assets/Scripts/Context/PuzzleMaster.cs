@@ -14,6 +14,11 @@ public class PuzzleMaster : MonoBehaviour
 
     private List<ItemName> itemsInTopDrawer = new List<ItemName> {ItemName.greenPlane, ItemName.yellowPlane, ItemName.bluePlane};
 
+    public bool hasItem(ItemName itemName)
+    {
+        return itemsInTopDrawer.Contains(itemName);
+    }
+
     public bool IsTopDrawerOpen()
     {
         return TopDrawerIsOpen;

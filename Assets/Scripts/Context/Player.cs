@@ -27,6 +27,11 @@ public class Player : MonoBehaviour
         return ItemInHand;
     }
 
+    public bool handsFull()
+    {
+        return !(ItemInHand == null);
+    }
+
     public bool Give(Item newItem)
     {
         if(ItemInHand == null)
