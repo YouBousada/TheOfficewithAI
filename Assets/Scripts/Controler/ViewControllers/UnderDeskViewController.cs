@@ -25,21 +25,29 @@ public class UnderDeskViewController : GenericOfficeViewController
         if (puzzleMaster.IsBottomDrawerOpen() && puzzleMaster.IsTopDrawerOpen())
         {
             backgroundImage.sprite = DrawerBothOpen;
+            OpenTopDrawerButton.ActivateHotspot();
+            OpenBottomDrawerButton.DeactivateHotspot();
         }
 
         if (!puzzleMaster.IsBottomDrawerOpen() && !puzzleMaster.IsTopDrawerOpen())
         {
             backgroundImage.sprite = DrawerBothClosed;
+            OpenTopDrawerButton.ActivateHotspot();
+            OpenBottomDrawerButton.ActivateHotspot();
         }
 
         if (!puzzleMaster.IsBottomDrawerOpen() && puzzleMaster.IsTopDrawerOpen())
         {
             backgroundImage.sprite = DrawerOnlyTopOpen;
+            OpenTopDrawerButton.ActivateHotspot();
+            OpenBottomDrawerButton.DeactivateHotspot();
         }
 
         if (puzzleMaster.IsBottomDrawerOpen() && !puzzleMaster.IsTopDrawerOpen())
         {
             backgroundImage.sprite = DrawerOnlyBottomOpen;
+            OpenTopDrawerButton.ActivateHotspot();
+            OpenBottomDrawerButton.ActivateHotspot();
         }
 
     }

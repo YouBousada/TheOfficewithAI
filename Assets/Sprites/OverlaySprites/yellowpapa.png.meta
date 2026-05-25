@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6f147723f2f9c9641a3e7a67a51adc4f
+guid: d986e7e9d706ccd4e832b2fedd056b71
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8797202110680046410
-    second: desk_top_opened_0
+      213: -6744721071248176645
+    second: yellowpapa_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: desk_top_opened_0
+      name: yellowpapa_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1600
-        height: 1200
+        x: 495
+        y: 305
+        width: 199
+        height: 298
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4b9668c5b0f51a70800000000000000
-      internalID: 8797202110680046410
+      spriteID: bf90927bbefe562a0800000000000000
+      internalID: -6744721071248176645
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      yellowpapa_0: -6744721071248176645
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

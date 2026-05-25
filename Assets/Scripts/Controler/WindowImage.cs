@@ -186,7 +186,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 
     protected override void HideForJumpscare(CharacterName who, LocName from)
     {
-        SetVisible(false);
+        SetVisible(!hideUponJumpscare);
     }
 
     private void SetVisible(bool visible)
