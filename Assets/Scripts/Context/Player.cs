@@ -11,8 +11,10 @@ public class Player : MonoBehaviour
 
     public event Action<ViewName> OnViewChanged;
     public event Action<ActionType> OnActionPerformed;
+    public event Action<Item> OnReceiveItem;
+    public event Action<Item> OnLooseItem;
 
-    private HoldableItem ItemInHand;
+    private Item ItemInHand;
 
     private void Awake()
     {
@@ -20,16 +22,17 @@ public class Player : MonoBehaviour
         SetView(startingView);
     }
 
-    private HoldableItem GetItemInHand()
+    public Item GetItem()
     {
         return ItemInHand;
     }
 
-    private bool HoldItem(HoldableItem newItem)
+    public bool Give(Item newItem)
     {
         if(ItemInHand == null)
         {
             ItemInHand = newItem;
+            OnReceiveItem?.Invoke(newItem);
             return true;
         }
         else
@@ -38,8 +41,9 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void ClearItem()
+    public void ClearItem()
     {
+        OnReceiveItem?.Invoke(ItemInHand);
         ItemInHand = null;
     }
 

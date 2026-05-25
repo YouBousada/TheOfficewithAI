@@ -38,7 +38,7 @@ public class Office : MonoBehaviour
         if (!RightDoorIsOpen) Power -= Time.deltaTime * doorDrainagePerSecond;
     }
 
-    public void OpenLeftDoor()
+    private void OpenLeftDoor()
     {
         if (LeftDoorIsOpen) return;
         LeftDoorIsOpen = true;
@@ -46,7 +46,7 @@ public class Office : MonoBehaviour
         OnLeftDoorOpened?.Invoke();
     }
 
-    public void CloseLeftDoor()
+    private void CloseLeftDoor()
     {
         if (!LeftDoorIsOpen) return;
         LeftDoorIsOpen = false;
@@ -54,7 +54,7 @@ public class Office : MonoBehaviour
         OnLeftDoorClosed?.Invoke();
     }
 
-    public void OpenRightDoor()
+    private void OpenRightDoor()
     {
         if (RightDoorIsOpen) return;
         RightDoorIsOpen = true;
@@ -62,12 +62,31 @@ public class Office : MonoBehaviour
         OnRightDoorOpened?.Invoke();
     }
 
-    public void CloseRightDoor()
+    private void CloseRightDoor()
     {
         if (!RightDoorIsOpen) return;
         RightDoorIsOpen = false;
         OnDoorStateChanged?.Invoke(LeftDoorIsOpen, RightDoorIsOpen);
         OnRightDoorClosed?.Invoke();
+    }
+
+    public void RespondToDoorButton(DoorButtonName doorButtonName)
+    {
+        switch (doorButtonName)
+        {
+            case DoorButtonName.LEFT_CLOSE:
+                CloseLeftDoor();
+                break;
+            case DoorButtonName.LEFT_OPEN:
+                OpenLeftDoor();
+                break;
+            case DoorButtonName.RIGHT_CLOSE:
+                CloseRightDoor();
+                break;
+            case DoorButtonName.RIGHT_OPEN:
+                OpenRightDoor();
+                break;
+        }
     }
 
     void OnGUI()

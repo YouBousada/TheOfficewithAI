@@ -1,7 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
-
 public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffected
 {
     protected AnimationPlayer animPlayer;

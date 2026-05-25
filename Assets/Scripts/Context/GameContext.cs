@@ -9,6 +9,7 @@ public class GameContext : MonoBehaviour
     [field: SerializeField] public CameraSystem CameraSystem { get; private set; }
     [field: SerializeField] public AIEvents AIMonitor { get; private set; }
     [field: SerializeField] public Office OfficeStates { get; private set; }
+    [field: SerializeField] public PuzzleMaster puzzleMaster { get; private set; }
 
     private readonly Dictionary<CharacterName, Animatronic> animatronics = new();
     public IEnumerable<Animatronic> Animatronics => animatronics.Values;

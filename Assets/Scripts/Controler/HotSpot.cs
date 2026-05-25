@@ -6,7 +6,7 @@ public abstract class HotSpot : OverLayObject
     [Header("Hotspot requirements")]
     [SerializeField] private bool startsAvailable = true;  
 
-    private Button button;
+    protected Button button;
     private CanvasGroup canvasGroup;
     private Coroutine actionCooldownCoroutine;
     protected bool isAvailableFromWorldState {get; private set;}
@@ -15,7 +15,7 @@ public abstract class HotSpot : OverLayObject
     public bool CanUseHotspot => IsInActiveView &&
                                  isAvailableFromWorldState &&
                                  !isLocked;
-    private void Awake()
+    protected virtual void Awake()
     {
         button = GetComponent<Button>();
         canvasGroup = GetComponent<CanvasGroup>();

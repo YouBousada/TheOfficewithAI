@@ -1,22 +1,25 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
+[RequireComponent(typeof(UnityEngine.UI.Button))]
 public class ActionHotspot : HotSpot
 {
     [Header("ActionHotspot requirements")]
-    [SerializeField] private ActionType actionType;
-    [SerializeField] private HoldableItem item;
+    [SerializeField] private PlayerCommand command;
 
+    protected override void Awake()
+    {
+        base.Awake();
+        button.onClick.AddListener(InvokeAction);
+    }
     public void InvokeAction()
     {
-        if (actionType == null)
+        if (command == null)
         {
-            Debug.LogWarning($"{name} cannot perform an action because no PlayerAction is assigned.", this);
+            Debug.LogWarning($"{name} cannot perform an action because no command is assigned.", this);
             return;
         }
 
-        gameContext.Player.PerformAction(actionType);
-        Debug.Log("player performed: " + actionType);
-        
+        command.Execute(gameContext);
     }
 }

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: GreenPaper
   m_EditorClassIdentifier: 
   itemName: 0
-  inventorySprite: {fileID: 0}
+  inventorySprite: {fileID: -2135017975981247705, guid: 5669d8184ad827b43ba2039001e4b03e, type: 3}
