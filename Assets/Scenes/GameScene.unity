@@ -780,19 +780,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 70500190}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 70500192}
-        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
-        m_MethodName: InvokeViewChange
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &70500190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1000,19 +988,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 102512527}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 102512529}
-        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
-        m_MethodName: InvokeViewChange
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &102512527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1229,19 +1205,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 136445250}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 136445252}
-        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
-        m_MethodName: InvokeViewChange
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &136445250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1471,19 +1435,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 206301723}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 206301725}
-        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
-        m_MethodName: InvokeViewChange
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &206301723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1621,19 +1573,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 207303626}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 207303628}
-        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
-        m_MethodName: InvokeViewChange
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &207303626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1752,19 +1692,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 239548250}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 239548253}
-        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
-        m_MethodName: InvokeViewChange
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &239548250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2270,19 +2198,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 355969276}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 355969278}
-        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
-        m_MethodName: InvokeViewChange
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &355969276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2655,19 +2571,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 430844836}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 430844838}
-        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
-        m_MethodName: InvokeViewChange
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &430844836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3291,19 +3195,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 594831633}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 594831635}
-        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
-        m_MethodName: InvokeViewChange
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &594831633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4044,19 +3936,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 829830434}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 829830436}
-        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
-        m_MethodName: InvokeViewChange
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &829830434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7477,19 +7357,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1837334872}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1837334874}
-        m_TargetAssemblyTypeName: MovementHotspot, Assembly-CSharp
-        m_MethodName: InvokeViewChange
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1837334872
 MonoBehaviour:
   m_ObjectHideFlags: 0

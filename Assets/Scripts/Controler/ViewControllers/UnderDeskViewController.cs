@@ -1,102 +1,70 @@
-using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 
 public class UnderDeskViewController : GenericOfficeViewController
 {
     [Header("Renders")]
-    [SerializeField] private Sprite DrawerBothClosed;
-    [SerializeField] private Sprite DrawerBothOpen;
-    [SerializeField] private Sprite DrawerOnlyTopOpen;
-    [SerializeField] private Sprite DrawerOnlyBottomOpen;
-    
+    [SerializeField] private Sprite drawerBothClosed;
+    [SerializeField] private Sprite drawerBothOpen;
+    [SerializeField] private Sprite drawerOnlyTopOpen;
+    [SerializeField] private Sprite drawerOnlyBottomOpen;
 
-    [Header("Relavant HotSpots")]
-    [SerializeField] private HotSpot TopDrawerButton;
-    [SerializeField] private HotSpot BottomDrawerButton;
-
+    [Header("Relevant HotSpots")]
+    [SerializeField] private HotSpot topDrawerButton;
+    [SerializeField] private HotSpot bottomDrawerButton;
     [SerializeField] private HotSpot takeBluePaper;
     [SerializeField] private HotSpot takeYellowPaper;
     [SerializeField] private HotSpot takeGreenPaper;
 
-
     [Header("Image Overlays")]
     [SerializeField] private TopPaper bluePaper;
-    [SerializeField] private TopPaper YellowPaper;
-    [SerializeField] private TopPaper GreenPaper;
-
+    [SerializeField] private TopPaper yellowPaper;
+    [SerializeField] private TopPaper greenPaper;
 
     protected override void Awake()
     {
         base.Awake();
-
         gameContext.puzzleMaster.OnRoomStateChanged += RenderViewBasedOnWorldState;
     }
 
     protected override void RenderViewBasedOnWorldState()
     {
-        if (gameContext.puzzleMaster.IsTopDrawerOpen())
-        {
-            if(!gameContext.puzzleMaster.hasItem(ItemName.bluePlane)){
-                takeBluePaper.DeactivateHotspot();
-            }
-            else
-            {
-                takeBluePaper.ActivateHotspot();
-            }
-            
-            if(!gameContext.puzzleMaster.hasItem(ItemName.yellowPlane)){
-                takeYellowPaper.DeactivateHotspot();
-            }
-            else
-            {
-                takeYellowPaper.ActivateHotspot();
-            }
+        bool topOpen    = gameContext.puzzleMaster.IsTopDrawerOpen();
+        bool bottomOpen = gameContext.puzzleMaster.IsBottomDrawerOpen();
 
-            if(!gameContext.puzzleMaster.hasItem(ItemName.greenPlane)){
-                takeGreenPaper.DeactivateHotspot();
-            }
-            else
-            {
-                takeGreenPaper.ActivateHotspot();
-            }
-
-            bluePaper.SetVisible(gameContext.puzzleMaster.hasItem(ItemName.bluePlane));
-
-            YellowPaper.SetVisible(gameContext.puzzleMaster.hasItem(ItemName.yellowPlane));
-            
-            GreenPaper.SetVisible(gameContext.puzzleMaster.hasItem(ItemName.greenPlane));
-        }
-
-        if (gameContext.puzzleMaster.IsBottomDrawerOpen() && gameContext.puzzleMaster.IsTopDrawerOpen())
-        {
-            backgroundImage.sprite = DrawerBothOpen;
-            TopDrawerButton.ActivateHotspot();
-            BottomDrawerButton.DeactivateHotspot();
-        }
-
-        if (!gameContext.puzzleMaster.IsBottomDrawerOpen() && !gameContext.puzzleMaster.IsTopDrawerOpen())
-        {
-            backgroundImage.sprite = DrawerBothClosed;
-            TopDrawerButton.ActivateHotspot();
-            BottomDrawerButton.ActivateHotspot();
-        }
-
-        if (!gameContext.puzzleMaster.IsBottomDrawerOpen() && gameContext.puzzleMaster.IsTopDrawerOpen())
-        {
-            backgroundImage.sprite = DrawerOnlyTopOpen;
-            TopDrawerButton.ActivateHotspot();
-            BottomDrawerButton.DeactivateHotspot();
-        }
-
-        if (gameContext.puzzleMaster.IsBottomDrawerOpen() && !gameContext.puzzleMaster.IsTopDrawerOpen())
-        {
-            backgroundImage.sprite = DrawerOnlyBottomOpen;
-            TopDrawerButton.ActivateHotspot();
-            BottomDrawerButton.ActivateHotspot();
-        }
-
+        UpdateDrawers(topOpen, bottomOpen);
+        UpdateItems(topOpen);
     }
 
+    private void UpdateDrawers(bool topOpen, bool bottomOpen)
+    {
+        backgroundImage.sprite = (topOpen, bottomOpen) switch
+        {
+            (true,  true)  => drawerBothOpen,
+            (true,  false) => drawerOnlyTopOpen,
+            (false, true)  => drawerOnlyBottomOpen,
+            (false, false) => drawerBothClosed,
+        };
 
+        topDrawerButton.ActivateHotspot();
 
+        if (topOpen) bottomDrawerButton.DeactivateHotspot();
+        else         bottomDrawerButton.ActivateHotspot();
+    }
+
+    private void UpdateItems(bool topOpen)
+    {
+        UpdateItem(takeBluePaper,   bluePaper,   ItemName.bluePlane,   topOpen);
+        UpdateItem(takeYellowPaper, yellowPaper, ItemName.yellowPlane, topOpen);
+        UpdateItem(takeGreenPaper,  greenPaper,  ItemName.greenPlane,  topOpen);
+    }
+
+    private void UpdateItem(HotSpot hotspot, TopPaper paper, ItemName item, bool drawerOpen)
+    {
+        bool itemPresent = gameContext.puzzleMaster.hasItem(item);
+
+        if (drawerOpen && itemPresent) hotspot.ActivateHotspot();
+        else                           hotspot.DeactivateHotspot();
+
+        paper.SetVisible(drawerOpen && itemPresent);
+    }
 }

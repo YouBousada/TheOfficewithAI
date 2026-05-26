@@ -12,7 +12,7 @@ public class PuzzleMaster : MonoBehaviour
 
     public event Action OnRoomStateChanged;
 
-    private List<ItemName> itemsInTopDrawer = new List<ItemName> {ItemName.greenPlane, ItemName.yellowPlane, ItemName.bluePlane};
+    public List<ItemName> itemsInTopDrawer = new List<ItemName> {ItemName.greenPlane, ItemName.yellowPlane, ItemName.bluePlane};
 
     public bool hasItem(ItemName itemName)
     {
