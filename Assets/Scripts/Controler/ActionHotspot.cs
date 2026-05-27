@@ -19,6 +19,11 @@ public class ActionHotspot : HotSpot
             return;
         }
 
+        if (Player.Instance.IsInspectingItem)
+        {
+            return;
+        }
+
         command.Execute(gameContext);
     }
 }

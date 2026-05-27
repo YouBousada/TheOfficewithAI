@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 3
   inventorySprite: {fileID: 4147474783448558728, guid: 1c6408cb317acc546b3b1509bd982872, type: 3}
+  inspectSprite: {fileID: -8986343497812636822, guid: 7b9d02aee44388648b318dd4c34638c4, type: 3}

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -11,21 +12,88 @@ public class Player : MonoBehaviour
     [SerializeField] private ViewName startingView;
     [SerializeField] private GameObject inventoryIconPrefab;
     [SerializeField] private Transform inventoryContainer;
+    [SerializeField] private Transform inspectionContainer;
+    [SerializeField] private List<Item> inventory = new();
+    [SerializeField] private int InventoryCapacity;
 
     public event Action<ViewName> OnViewChanged;
     public event Action<ActionType> OnActionPerformed;
     public event Action<Item> OnReceiveItem;
     public event Action<Item> OnRemoveItemFromInventory;
 
-    private List<Item> inventory = new();
-    public bool InventoryFull => inventory.Count >= 3;
+    public bool InventoryFull => inventory.Count >= InventoryCapacity;
     public bool IsHoldingSomething => itemInHand != null;
     public Item itemInHand { get; private set; }
+
+    public bool IsInspectingItem { get; private set; }
 
     private void Awake()
     {
         Instance = this;
+        IsInspectingItem = false;
         SetView(startingView);
+    }
+
+    public void Update()
+    {
+        if (IsDead)
+        {
+            return;
+        }
+        
+        if (Input.GetMouseButtonDown(1))
+        {
+            if (!IsInspectingItem)
+            {
+                ReturnHeldItemToInventory();
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (IsHoldingSomething)
+            {
+                IsInspectingItem = !IsInspectingItem;
+                GenerateInspectionGUI(IsInspectingItem);
+            }
+        }
+    }
+
+    public void GenerateInspectionGUI(bool inspecting)
+    {
+        if (inspecting)
+        {
+            var go = new GameObject("BlackOverlay");
+            go.transform.SetParent(inspectionContainer, false);
+
+            var image = go.AddComponent<Image>();
+            image.color = new Color(0, 0, 0, 0.4f);
+
+            var rect = image.rectTransform;
+            rect.anchorMin = Vector2.zero;
+            rect.anchorMax = Vector2.one;
+            rect.offsetMin = Vector2.zero;
+            rect.offsetMax = Vector2.zero;
+
+            var inspectionDisplayObject = new GameObject("InspectionDisplay");
+            inspectionDisplayObject.transform.SetParent(inspectionContainer, false);
+
+            var inspectionDisplayImage = inspectionDisplayObject.AddComponent<Image>();
+            inspectionDisplayImage.sprite = itemInHand.InspectSprite;
+            inspectionDisplayImage.preserveAspect = true;
+
+            var inspectionRect = inspectionDisplayImage.rectTransform;
+            inspectionRect.anchorMin = Vector2.zero;
+            inspectionRect.anchorMax = Vector2.one;
+            inspectionRect.offsetMin = new Vector2(30, 30);
+            inspectionRect.offsetMax = new Vector2(-30, -30);
+        }
+        else
+        {
+            foreach (Transform child in inspectionContainer)
+                Destroy(child.gameObject);
+        }
+
     }
 
     public void HoldItem(Item item)
@@ -37,9 +105,18 @@ public class Player : MonoBehaviour
             BuildInventoryDisplay();
         }
     }
+
+    public void ReturnHeldItemToInventory()
+    {
+        if (itemInHand)
+        {
+            AddItemToInventory(itemInHand);
+            itemInHand = null;
+        }
+    }
     public void AddItemToInventory(Item newItem)
     {
-        if (!InventoryFull && itemInHand == null)
+        if (!InventoryFull)
         {
             inventory.Add(newItem);
             OnReceiveItem?.Invoke(newItem);
@@ -66,8 +143,7 @@ public class Player : MonoBehaviour
 
     private void BuildInventoryDisplay()
     {
-        foreach (Transform child in inventoryContainer)
-            Destroy(child.gameObject);
+        ClearInventoryDisplay();
 
         foreach (Item item in inventory)
         {
@@ -76,9 +152,19 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void ClearInventoryDisplay()
+    {
+        foreach (Transform child in inventoryContainer)
+            Destroy(child.gameObject);
+    }
+
     public void Die()
     {
         if (IsDead) return;
+
+        ClearInventoryDisplay();
+        IsInspectingItem = false;
+        GenerateInspectionGUI(IsInspectingItem);
         IsDead = true;
     }
 

@@ -16,7 +16,7 @@ public class HeldItemImage : MonoBehaviour
 
     void Update() {
 
-        if (Player.Instance.IsHoldingSomething)
+        if (Player.Instance.IsHoldingSomething && !Player.Instance.IsInspectingItem && !Player.Instance.IsDead)
         {
             heldItemImage.enabled = true;
             heldItemImage.sprite = Player.Instance.itemInHand.InventorySprite;

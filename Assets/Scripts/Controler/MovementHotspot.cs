@@ -12,6 +12,11 @@ public class MovementHotspot : HotSpot
     }
     public void InvokeViewChange()
     {
+        if (Player.Instance.IsInspectingItem)
+        {
+            return;
+        }
+        
         if (!CanUseHotspot) return;
 
         gameContext.Player.SetView(to);
