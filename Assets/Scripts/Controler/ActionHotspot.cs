@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(UnityEngine.UI.Button))]
@@ -5,6 +6,7 @@ public class ActionHotspot : HotSpot
 {
     [Header("ActionHotspot requirements")]
     [SerializeField] private PlayerCommand command;
+    [SerializeField] private List<Item> AllowedItemsInHandToUse;
 
     protected override void Awake()
     {
@@ -24,6 +26,16 @@ public class ActionHotspot : HotSpot
             return;
         }
 
-        command.Execute(gameContext);
+        if(AllowedItemsInHandToUse.Count > 0)
+        {
+            if (AllowedItemsInHandToUse.Contains(Player.Instance.itemInHand))
+            {
+                command.Execute(gameContext);
+            }
+        }
+        else
+        {
+            command.Execute(gameContext);
+        }
     }
 }

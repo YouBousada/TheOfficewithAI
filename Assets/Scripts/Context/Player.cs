@@ -24,7 +24,6 @@ public class Player : MonoBehaviour
     public bool InventoryFull => inventory.Count >= InventoryCapacity;
     public bool IsHoldingSomething => itemInHand != null;
     public Item itemInHand { get; private set; }
-
     public bool IsInspectingItem { get; private set; }
 
     private void Awake()
@@ -49,14 +48,36 @@ public class Player : MonoBehaviour
             }
         }
 
+        // if (Input.GetMouseButtonDown(0))
+        // {
+        //     if(IsHoldingSomething && !IsInspectingItem)
+        //     {
+        //         itemInHand.Use.Execute(GameContext.Instance);
+        //     }
+        // }
+
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (IsHoldingSomething)
             {
-                IsInspectingItem = !IsInspectingItem;
-                GenerateInspectionGUI(IsInspectingItem);
+                UpdateInspectionState();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            if (IsHoldingSomething && !IsInspectingItem)
+            {
+                PuzzleMaster.Instance.giveItem(itemInHand);
+                itemInHand = null;
+            }
+        }
+    }
+
+    private void UpdateInspectionState()
+    {
+        IsInspectingItem = !IsInspectingItem;
+        GenerateInspectionGUI(IsInspectingItem);
     }
 
     public void GenerateInspectionGUI(bool inspecting)
@@ -67,7 +88,7 @@ public class Player : MonoBehaviour
             go.transform.SetParent(inspectionContainer, false);
 
             var image = go.AddComponent<Image>();
-            image.color = new Color(0, 0, 0, 0.4f);
+            image.color = new Color(0, 0, 0, 0.9f);
 
             var rect = image.rectTransform;
             rect.anchorMin = Vector2.zero;
@@ -104,6 +125,11 @@ public class Player : MonoBehaviour
             inventory.Remove(item);
             BuildInventoryDisplay();
         }
+    }
+    
+    private void UseItem()
+    {
+        
     }
 
     public void ReturnHeldItemToInventory()

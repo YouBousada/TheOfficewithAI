@@ -12,11 +12,12 @@ public class PuzzleMaster : MonoBehaviour
 
     public event Action OnRoomStateChanged;
 
-    public List<ItemName> itemsInTopDrawer = new List<ItemName> {ItemName.greenPlane, ItemName.yellowPlane, ItemName.bluePlane};
+    [SerializeField] private List<Item> itemsInTopDrawer;
+    public Item itemOnWall { get; private set; }
 
-    public bool hasItem(ItemName itemName)
+    public bool hasItem(Item item)
     {
-        return itemsInTopDrawer.Contains(itemName);
+        return itemsInTopDrawer.Contains(item);
     }
 
     public bool IsTopDrawerOpen()
@@ -43,11 +44,23 @@ public class PuzzleMaster : MonoBehaviour
 
     public void removeItem(Item item)
     {
-        if (itemsInTopDrawer.Contains(item.ItemName))
+        if (itemsInTopDrawer.Contains(item))
         {
-            itemsInTopDrawer.Remove(item.ItemName);
+            itemsInTopDrawer.Remove(item);
             OnRoomStateChanged?.Invoke();
         }
+    }
+
+    public void giveItem(Item item)
+    {
+        itemsInTopDrawer.Add(item);
+        OnRoomStateChanged?.Invoke();
+    }
+
+    public void ChangeWallWithItem(Item item)
+    {
+        itemOnWall = item;
+        OnRoomStateChanged?.Invoke();
     }
 
     void Awake()

@@ -7,5 +7,5 @@ public enum ViewName
     Back,
     Cameras,
     UnderDesk,
-    BackCorner
+    ItemFrame
 }

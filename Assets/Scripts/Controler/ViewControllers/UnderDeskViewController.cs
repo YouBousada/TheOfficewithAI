@@ -20,6 +20,11 @@ public class UnderDeskViewController : GenericOfficeViewController
     [SerializeField] private TopPaper yellowPaper;
     [SerializeField] private TopPaper greenPaper;
 
+    [Header("Aquireable Items In this view")]
+    [SerializeField] private Item bluePaperObj;
+    [SerializeField] private Item yellowPaperObj;
+    [SerializeField] private Item greenPaperObj;
+
     protected override void Awake()
     {
         base.Awake();
@@ -28,6 +33,11 @@ public class UnderDeskViewController : GenericOfficeViewController
 
     protected override void RenderViewBasedOnWorldState()
     {
+        if(Player.Instance.CurrentView != thisViewName)
+        {
+            return;
+        }
+        
         bool topOpen    = gameContext.puzzleMaster.IsTopDrawerOpen();
         bool bottomOpen = gameContext.puzzleMaster.IsBottomDrawerOpen();
 
@@ -53,12 +63,12 @@ public class UnderDeskViewController : GenericOfficeViewController
 
     private void UpdateItems(bool topOpen)
     {
-        UpdateItem(takeBluePaper,   bluePaper,   ItemName.bluePlane,   topOpen);
-        UpdateItem(takeYellowPaper, yellowPaper, ItemName.yellowPlane, topOpen);
-        UpdateItem(takeGreenPaper,  greenPaper,  ItemName.greenPlane,  topOpen);
+        UpdateItem(takeBluePaper,   bluePaper,   bluePaperObj,   topOpen);
+        UpdateItem(takeYellowPaper, yellowPaper, yellowPaperObj, topOpen);
+        UpdateItem(takeGreenPaper,  greenPaper,  greenPaperObj,  topOpen);
     }
 
-    private void UpdateItem(HotSpot hotspot, TopPaper paper, ItemName item, bool drawerOpen)
+    private void UpdateItem(HotSpot hotspot, TopPaper paper, Item item, bool drawerOpen)
     {
         bool itemPresent = gameContext.puzzleMaster.hasItem(item);
 
