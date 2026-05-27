@@ -1,20 +1,26 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     public static Player Instance { get; private set; }
-
     public ViewName CurrentView { get; private set; }
-    [SerializeField] private ViewName startingView;
     public bool IsDead { get; private set; } = false;
+
+    [SerializeField] private ViewName startingView;
+    [SerializeField] private GameObject inventoryIconPrefab;
+    [SerializeField] private Transform inventoryContainer;
 
     public event Action<ViewName> OnViewChanged;
     public event Action<ActionType> OnActionPerformed;
     public event Action<Item> OnReceiveItem;
-    public event Action<Item> OnLooseItem;
+    public event Action<Item> OnRemoveItemFromInventory;
 
-    private Item ItemInHand;
+    private List<Item> inventory = new();
+    public bool InventoryFull => inventory.Count >= 3;
+    public bool IsHoldingSomething => itemInHand != null;
+    public Item itemInHand { get; private set; }
 
     private void Awake()
     {
@@ -22,34 +28,33 @@ public class Player : MonoBehaviour
         SetView(startingView);
     }
 
-    public Item GetItem()
+    public void HoldItem(Item item)
     {
-        return ItemInHand;
-    }
-
-    public bool handsFull()
-    {
-        return !(ItemInHand == null);
-    }
-
-    public bool Give(Item newItem)
-    {
-        if(ItemInHand == null)
+        if (itemInHand == null)
         {
-            ItemInHand = newItem;
+            itemInHand = item;
+            inventory.Remove(item);
+            BuildInventoryDisplay();
+        }
+    }
+    public void AddItemToInventory(Item newItem)
+    {
+        if (!InventoryFull && itemInHand == null)
+        {
+            inventory.Add(newItem);
             OnReceiveItem?.Invoke(newItem);
-            return true;
-        }
-        else
-        {
-            return false;
+            BuildInventoryDisplay();
         }
     }
 
-    public void ClearItem()
+    public void RemoveItemFromInventory(Item item)
     {
-        OnReceiveItem?.Invoke(ItemInHand);
-        ItemInHand = null;
+        if (inventory.Contains(item))
+        {
+            inventory.Remove(item);
+            OnRemoveItemFromInventory?.Invoke(item);
+            BuildInventoryDisplay();
+        }
     }
 
     public void SetView(ViewName newView)
@@ -57,6 +62,18 @@ public class Player : MonoBehaviour
         CurrentView = newView;
         OnViewChanged?.Invoke(newView);
         Debug.Log("Player is now looking at: " + newView);
+    }
+
+    private void BuildInventoryDisplay()
+    {
+        foreach (Transform child in inventoryContainer)
+            Destroy(child.gameObject);
+
+        foreach (Item item in inventory)
+        {
+            var icon = Instantiate(inventoryIconPrefab, inventoryContainer).GetComponent<InventoryIcon>();
+            icon.Display(item);
+        }
     }
 
     public void Die()

@@ -6,9 +6,9 @@ public class GivePlayerItem : PlayerCommand
 
     protected override void Execute_Concrete(GameContext ctx)
     {
-        if (!ctx.Player.handsFull())
+        if (!ctx.Player.InventoryFull && !ctx.Player.IsHoldingSomething)
         {
-            ctx.Player.Give(item);
+            ctx.Player.AddItemToInventory(item);
             ctx.puzzleMaster.removeItem(item);
         }
     }

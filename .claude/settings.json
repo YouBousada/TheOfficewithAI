@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\culio\\\\Documents\\\\Unitystuff\\\\TheOfficewithAI\" -Recurse -Include \"*.cs\")",
-      "Bash(Select-Object FullName)"
+      "Bash(Select-Object FullName)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\culio\\\\Documents\\\\Unitystuff\\\\TheOfficewithAI\\\\Assets\\\\Scripts\" -Recurse -Include *.cs)",
+      "Bash(Sort-Object FullName)"
     ]
   }
 }

@@ -11,7 +11,7 @@ public class ActionHotspot : HotSpot
         base.Awake();
         button.onClick.AddListener(InvokeAction);
     }
-    public void InvokeAction()
+    private void InvokeAction()
     {
         if (command == null)
         {
