@@ -19,7 +19,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     {
         JobSpecificInitializations();
         map = necessities.mapGraphs.RunningBaseMap;
-        runtimeRunningMap = mapService.BuildRuntimeMap(map);
+        runtimeRunningMap = MapService.BuildRuntimeMap(map);
         HandleSwitchInitialization(switchedFromAnotherJob);
         DeclareInitialization();
     }
@@ -71,7 +71,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 
         else
         {
-            newLoc = mapService.ChooseNext(runtimeRunningMap.nodes[currentLoc]).roomName;
+            newLoc = MapService.ChooseNext(runtimeRunningMap.nodes[currentLoc]).roomName;
         }
 
         return newLoc;
@@ -143,7 +143,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 
             if (AttemptToSwitchJobs())
                 return;
-            runtimeRunningMap = mapService.BuildRuntimeMap(map, false, lastFailedDoorLoc);
+            runtimeRunningMap = MapService.BuildRuntimeMap(map, false, lastFailedDoorLoc);
             SwitchToBehaviour(BehaviourName.IDLING);
             StepandNotify();
         }

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapService
+public static class MapService
 {
     private const float WeightJitterRange = 0.5f;
     private const float FailedDoorWeightMultiplier = 0.1f;
@@ -13,7 +13,7 @@ public class MapService
         public Dictionary<LocName, RNode> nodes = new();
     }
 
-    public RuntimeMap BuildRuntimeMap(BaseMap MapBase, bool jitterWeights = true, DoorName lastFailedDoor = DoorName.NONE)
+    public static RuntimeMap BuildRuntimeMap(BaseMap MapBase, bool jitterWeights = true, DoorName lastFailedDoor = DoorName.NONE)
     {
         var runTimeMap = new RuntimeMap();
 
@@ -40,7 +40,7 @@ public class MapService
         return runTimeMap;
     }
 
-    public RuntimeMap.RNode ChooseNext(RuntimeMap.RNode node)
+    public static RuntimeMap.RNode ChooseNext(RuntimeMap.RNode node)
     {
         if (node == null || node.edges == null || node.edges.Count == 0)
             return node;
@@ -60,7 +60,7 @@ public class MapService
         return node.edges[^1].to;
     }
 
-    private bool IFailedThatDoor(RuntimeMap.RNode to, DoorName failedDoor)
+    private static bool IFailedThatDoor(RuntimeMap.RNode to, DoorName failedDoor)
     {
         if (failedDoor == DoorName.NONE) return false;
 

@@ -16,7 +16,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
     public void JobSpecificInitializations()
     {
         JobName = JobName.WINDOW_WATCHER;
-        MovementTimer = timeGenerator.WeibullTime(AiLevel, profile);
+        MovementTimer = TimeGenerator.WeibullTime(AiLevel, profile);
     }
 
     public void HandleSwitchInitialization(bool switchedFromAnotherJob)
@@ -48,7 +48,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
         MovementTimer -= Time.deltaTime;
         if (MovementTimer <= 0f)
         {
-            MovementTimer = timeGenerator.WeibullTime(AiLevel, profile);
+            MovementTimer = TimeGenerator.WeibullTime(AiLevel, profile);
             StepandNotify();
         }
     }
@@ -128,11 +128,11 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
         switch (newBehaviour)
         {
             case BehaviourName.INVISIBLE_ROAMING:
-                MovementTimer = timeGenerator.WeibullTime(AiLevel);
+                MovementTimer = TimeGenerator.WeibullTime(AiLevel);
                 currentBehaviour = BehaviourName.INVISIBLE_ROAMING;
                 break;
             case BehaviourName.STARING_THROUGH_WINDOW:
-                MovementTimer = timeGenerator.WeibullTime(AiLevel, null, StaringTimeMultiplier);
+                MovementTimer = TimeGenerator.WeibullTime(AiLevel, null, StaringTimeMultiplier);
                 currentBehaviour = BehaviourName.STARING_THROUGH_WINDOW;
                 break;
             default:
@@ -161,7 +161,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
         {
             if (AttemptToSwitchJobs())
                 return;
-            MovementTimer = timeGenerator.ExponentialTime(AiLevel);
+            MovementTimer = TimeGenerator.ExponentialTime(AiLevel);
             StepandNotify();
         }
         else

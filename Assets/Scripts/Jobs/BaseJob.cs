@@ -16,8 +16,6 @@ public abstract class BaseJob : IJobRequirements
     public AnimatronicMemory memories;
     protected int AiLevel;
     protected float MovementTimer;
-    protected TimeGenerator timeGenerator;
-    protected MapService mapService;
     protected JobArbiter jobArbiter;
 
     public BaseJob(JobNecessities necessities)
@@ -33,8 +31,6 @@ public abstract class BaseJob : IJobRequirements
         currentLoc = necessities.LastLocation;
         memories = necessities.memories;
         currentBehaviour = InitialBehaviour;
-        timeGenerator = new TimeGenerator();
-        mapService = new MapService();
         jobArbiter = new JobArbiter(animatronicRegistry);
     }
     public abstract void PerformJob();
