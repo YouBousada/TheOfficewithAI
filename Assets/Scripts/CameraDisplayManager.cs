@@ -18,8 +18,10 @@ public class CameraDisplayManager : MonoBehaviour
         public int SortingLayer;
     }
 
-    [Header("Game Context and Camera Data")]
-    [SerializeField] private GameContext gameContext;
+    [Header("Dependencies")]
+    [SerializeField] private CameraSystem cameraSystem;
+    [SerializeField] private AIEvents aiMonitor;
+    [SerializeField] private GameContext animatronicRegistry;
     [SerializeField] private TotalCameraData totalCameraData;
 
     [Header("Camera View Layers")]
@@ -49,11 +51,11 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void OnEnable()
     {
-        activeCamera = gameContext.CameraSystem.ActiveCamera;
+        activeCamera = cameraSystem.ActiveCamera;
 
-        gameContext.AIMonitor.OnLocationChanged += HandleAnimatronicMovement;
-        gameContext.AIMonitor.OnBehaviourChanged += HandleBehaviourChanged;
-        gameContext.CameraSystem.OnCameraRoomChanged += HandleCameraRoomChanged;
+        aiMonitor.OnLocationChanged += HandleAnimatronicMovement;
+        aiMonitor.OnBehaviourChanged += HandleBehaviourChanged;
+        cameraSystem.OnCameraRoomChanged += HandleCameraRoomChanged;
 
         for (int i = 0; i < characterLayers.Count; i++)
         {
@@ -69,19 +71,19 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void Start()
     {
-        HandleCameraRoomChanged(gameContext.CameraSystem.ActiveCamera);
+        HandleCameraRoomChanged(cameraSystem.ActiveCamera);
     }
 
     private void OnDisable()
     {
-        gameContext.AIMonitor.OnLocationChanged -= HandleAnimatronicMovement;
-        gameContext.AIMonitor.OnBehaviourChanged -= HandleBehaviourChanged;
-        gameContext.CameraSystem.OnCameraRoomChanged -= HandleCameraRoomChanged;
+        aiMonitor.OnLocationChanged -= HandleAnimatronicMovement;
+        aiMonitor.OnBehaviourChanged -= HandleBehaviourChanged;
+        cameraSystem.OnCameraRoomChanged -= HandleCameraRoomChanged;
     }
 
     private void HandleBehaviourChanged(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour)
     {
-        if (!gameContext.TryGetAnimatronic(who, out Animatronic animatronic)) return;
+        if (!animatronicRegistry.TryGetAnimatronic(who, out Animatronic animatronic)) return;
         if (animatronic.GetCurrentLocation() != activeCamera) return;
 
         renderCache.Remove(who);
@@ -93,7 +95,7 @@ public class CameraDisplayManager : MonoBehaviour
     {
         renderCache.Remove(who);
 
-        if (!gameContext.TryGetAnimatronic(who, out Animatronic animatronic)) return;
+        if (!animatronicRegistry.TryGetAnimatronic(who, out Animatronic animatronic)) return;
         BehaviourName behaviour = animatronic.GetCurrentBehaviour();
 
         if (to == activeCamera)
@@ -123,7 +125,7 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void AddCharactersToDisplay()
     {
-        foreach (Animatronic anim in gameContext.Animatronics)
+        foreach (Animatronic anim in animatronicRegistry.Animatronics)
         {
             if (anim.GetCurrentLocation() == activeCamera)
                 AddCharacterToDisplay(anim.GetCharacterName(), anim.GetCurrentBehaviour());

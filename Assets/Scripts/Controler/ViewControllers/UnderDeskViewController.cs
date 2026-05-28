@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class UnderDeskViewController : GenericOfficeViewController
 {
+    [Header("UnderDeskViewController requirements")]
+
     [Header("Renders")]
     [SerializeField] private Sprite drawerBothClosed;
     [SerializeField] private Sprite drawerBothOpen;
@@ -28,16 +30,13 @@ public class UnderDeskViewController : GenericOfficeViewController
     protected override void Awake()
     {
         base.Awake();
-        gameContext.puzzleMaster.OnRoomStateChanged += RenderViewBasedOnWorldState;
+        puzzleMaster.OnRoomStateChanged += RenderViewBasedOnWorldState_Concrete;
     }
 
-    protected override void RenderViewBasedOnWorldState()
+    protected override void RenderViewBasedOnWorldState_Concrete()
     {
-        if (gameContext.Player.CurrentView != thisViewName)
-            return;
-        
-        bool topOpen    = gameContext.puzzleMaster.IsTopDrawerOpen();
-        bool bottomOpen = gameContext.puzzleMaster.IsBottomDrawerOpen();
+        bool topOpen    = puzzleMaster.IsTopDrawerOpen();
+        bool bottomOpen = puzzleMaster.IsBottomDrawerOpen();
 
         UpdateDrawers(topOpen, bottomOpen);
         UpdateItems(topOpen);
@@ -68,7 +67,7 @@ public class UnderDeskViewController : GenericOfficeViewController
 
     private void UpdateItem(HotSpot hotspot, TopPaper paper, Item item, bool drawerOpen)
     {
-        bool itemPresent = gameContext.puzzleMaster.hasItem(item);
+        bool itemPresent = puzzleMaster.hasItem(item);
 
         if (drawerOpen && itemPresent) hotspot.ActivateHotspot();
         else                           hotspot.DeactivateHotspot();

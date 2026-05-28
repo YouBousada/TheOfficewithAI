@@ -1,11 +1,11 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public abstract class OverLayObject : MonoBehaviour
 {
     [Header("OverLayObject requirements")]
-    [SerializeField] protected GameContext gameContext;
+    [SerializeField] protected Player player;
+    [SerializeField] protected AIEvents aiMonitor;
     [SerializeField] private List<ViewName> viewsICanBeActiveIn = new();
     [SerializeField] protected bool hideUponJumpscare = true;
     private bool hasHandledViewChange;
@@ -20,27 +20,24 @@ public abstract class OverLayObject : MonoBehaviour
 
     protected virtual void Start()
     {
-        if (gameContext == null)
-            gameContext = GameContext.Instance;
-
-        if (gameContext == null || gameContext.Player == null)
+        if (player == null)
         {
-            Debug.LogWarning($"{name} cannot initialize overlay behavior because GameContext or Player is missing.", this);
+            Debug.LogWarning($"{name} is missing a Player reference.", this);
             return;
         }
 
         if (viewsICanBeActiveIn.Count == 0)
         {
-            Debug.LogWarning($"{name} Is not set to be active in any view!.", this);
+            Debug.LogWarning($"{name} is not set to be active in any view.", this);
             return;
         }
 
-        gameContext.Player.OnViewChanged += HandleViewChanged;
+        player.OnViewChanged += HandleViewChanged;
 
-        if (gameContext.AIMonitor != null)
-            gameContext.AIMonitor.OnDeath += HandleJumpscare;
+        if (aiMonitor != null)
+            aiMonitor.OnDeath += HandleJumpscare;
 
-        HandleViewChanged(gameContext.Player.CurrentView);
+        HandleViewChanged(player.CurrentView);
     }
 
     private void HandleViewChanged(ViewName newView)
@@ -62,7 +59,6 @@ public abstract class OverLayObject : MonoBehaviour
     private void HandleJumpscare(CharacterName who, LocName from)
     {
         if (!hideUponJumpscare) return;
-
         HideForJumpscare(who, from);
     }
 
@@ -72,12 +68,10 @@ public abstract class OverLayObject : MonoBehaviour
 
     protected virtual void OnDestroy()
     {
-        if (gameContext == null) return;
+        if (player != null)
+            player.OnViewChanged -= HandleViewChanged;
 
-        if (gameContext.Player != null)
-            gameContext.Player.OnViewChanged -= HandleViewChanged;
-
-        if (gameContext.AIMonitor != null)
-            gameContext.AIMonitor.OnDeath -= HandleJumpscare;
+        if (aiMonitor != null)
+            aiMonitor.OnDeath -= HandleJumpscare;
     }
 }

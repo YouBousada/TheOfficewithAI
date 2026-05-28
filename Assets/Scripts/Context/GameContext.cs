@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 
-public class GameContext : MonoBehaviour
+public class GameContext : MonoBehaviour, ICommandContext
 {
     public static GameContext Instance { get; private set; }
     [field: SerializeField] public Player Player { get; private set; }

@@ -18,6 +18,9 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
     [Header("JumpscareData")]
     [SerializeField] private WindowJumpscareData jumpscareData;
 
+    [Header("Animatronic Registry")]
+    [SerializeField] private GameContext animatronicRegistry;
+
     void Awake()
     {
         AddActiveViewForWindowDoor();
@@ -102,20 +105,20 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 
     private void DoSubscribing()
     {
-        gameContext.AIMonitor.OnInitialization += RespondToInitialization;
-        gameContext.AIMonitor.OnLocationChanged += RespondToMovement;
-        gameContext.AIMonitor.OnJobSwitched += RespondToJobSwitch;
-        gameContext.AIMonitor.OnDeath += ReactToJumpscare;
+        aiMonitor.OnInitialization += RespondToInitialization;
+        aiMonitor.OnLocationChanged += RespondToMovement;
+        aiMonitor.OnJobSwitched += RespondToJobSwitch;
+        aiMonitor.OnDeath += ReactToJumpscare;
     }
 
     protected override void OnDestroy()
     {
-        if (gameContext != null)
+        if (aiMonitor != null)
         {
-            gameContext.AIMonitor.OnInitialization -= RespondToInitialization;
-            gameContext.AIMonitor.OnLocationChanged -= RespondToMovement;
-            gameContext.AIMonitor.OnJobSwitched -= RespondToJobSwitch;
-            gameContext.AIMonitor.OnDeath -= ReactToJumpscare;
+            aiMonitor.OnInitialization -= RespondToInitialization;
+            aiMonitor.OnLocationChanged -= RespondToMovement;
+            aiMonitor.OnJobSwitched -= RespondToJobSwitch;
+            aiMonitor.OnDeath -= ReactToJumpscare;
         }
 
         base.OnDestroy();
@@ -141,7 +144,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 
     private void RefreshWindowSprite()
     {
-        foreach (Animatronic animatronic in gameContext.Animatronics)
+        foreach (Animatronic animatronic in animatronicRegistry.Animatronics)
         {
             if (animatronic.GetCurrentLocation() != thisWindowDoor) continue;
             if (animatronic.GetCurrentJobName() != JobName.WINDOW_WATCHER) continue;

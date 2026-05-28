@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 public abstract class GenericOfficeViewController : ViewController
 {
+    [Header("GenericOfficeViewController requirements")]
     [SerializeField] private JumpscareData thisViewJumpscareData;
 
     private readonly Dictionary<CharacterName, AnimationSequence> leftDoorJumpscares = new();

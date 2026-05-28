@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CameraButton : OverLayObject
 {
+    [Header("CameraButton requirements")]
     [SerializeField] private LocName thisRoom;
     [SerializeField] private CameraSystem cameraSystem;
     private CanvasGroup canvasGroup;
@@ -20,9 +21,6 @@ public class CameraButton : OverLayObject
     protected override void Start()
     {
         base.Start();
-
-        if (cameraSystem == null && gameContext != null)
-            cameraSystem = gameContext.CameraSystem;
     }
 
     void Reset()

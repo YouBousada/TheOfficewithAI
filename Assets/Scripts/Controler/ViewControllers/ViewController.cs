@@ -1,69 +1,68 @@
 using UnityEngine;
 using UnityEngine.UI;
+
 public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffected
 {
     protected AnimationPlayer animPlayer;
 
-    [Header("Context")]
-    [SerializeField] protected GameContext gameContext;
+    [Header("ViewController requirements")]
+    [SerializeField] protected Player player;
+    [SerializeField] protected AIEvents aiMonitor;
+    [SerializeField] protected PuzzleMaster puzzleMaster;
     [SerializeField] protected Image backgroundImage;
-
-    [Header("Info about view")]
     [SerializeField] protected ViewName thisViewName;
 
-    public ViewName GetViewName()
-    {
-        return thisViewName;
-    }
+    public ViewName GetViewName() => thisViewName;
 
     public void UtilizeAnimationPlayer()
     {
         animPlayer = GetComponent<AnimationPlayer>();
 
         if (animPlayer == null)
-        {
             animPlayer = gameObject.AddComponent<AnimationPlayer>();
-        }
     }
 
     protected virtual void Awake()
     {
         UtilizeAnimationPlayer();
-        
     }
 
     void Start()
     {
-
-        OnViewActivated(gameContext.Player.CurrentView);
-        gameContext.Player.OnViewChanged += OnViewActivated;
-        gameContext.AIMonitor.OnDeath += ReactToJumpscare;
+        OnViewActivated(player.CurrentView);
+        player.OnViewChanged += OnViewActivated;
+        aiMonitor.OnDeath += ReactToJumpscare;
     }
-    protected abstract void RenderViewBasedOnWorldState();
+
+    protected abstract void RenderViewBasedOnWorldState_Concrete();
     protected abstract void ReactToJumpscare_Concrete(CharacterName who, LocName from);
 
-    protected void OnViewActivated(ViewName view)
+    private void RenderViewBasedOnWorldState()
     {
-        if (view != thisViewName)
+        if(player.CurrentView != thisViewName)
         {
-
             return;
         }
 
-        RenderViewBasedOnWorldState();
+        RenderViewBasedOnWorldState_Concrete();
     }
+    private void OnViewActivated(ViewName view)
+    {
+        if (view != thisViewName)
+            return;
+
+        RenderViewBasedOnWorldState_Concrete();
+    }
+
     public void ReactToJumpscare(CharacterName who, LocName from)
     {
-        if (gameContext.Player.CurrentView != thisViewName) { return; }
+        if (player.CurrentView != thisViewName) return;
         ReactToJumpscare_Concrete(who, from);
     }
 
     void OnDisable()
     {
-        gameContext.Player.OnViewChanged -= OnViewActivated;
-        gameContext.AIMonitor.OnDeath -= ReactToJumpscare;
-
+        player.OnViewChanged -= OnViewActivated;
+        aiMonitor.OnDeath -= ReactToJumpscare;
     }
-
-
 }

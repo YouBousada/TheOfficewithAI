@@ -4,7 +4,7 @@ public class GivePlayerItem : PlayerCommand
 {
     [SerializeField] Item item;
 
-    protected override void Execute_Concrete(GameContext ctx)
+    protected override void Execute_Concrete(ICommandContext ctx)
     {
         if (!ctx.Player.InventoryFull && !ctx.Player.IsHoldingSomething)
         {

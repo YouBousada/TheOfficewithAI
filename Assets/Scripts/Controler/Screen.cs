@@ -3,10 +3,11 @@ using UnityEngine.UI;
 
 public class Screen : OverLayObject
 {
+    [Header("Screen requirements")]
     [SerializeField] private ScreenPosition deskPosition;
     [SerializeField] private ScreenPosition closePosition;
     [SerializeField] private RectTransform rect;
-    [SerializeField] private Image image;
+    private Image image;
 
 
     void Awake()
@@ -22,8 +23,8 @@ public class Screen : OverLayObject
     {
         base.Start();
 
-        gameContext.Player.OnViewChanged += WarpToView;
-        WarpToView(gameContext.Player.CurrentView);
+        player.OnViewChanged += WarpToView;
+        WarpToView(player.CurrentView);
     }
 
     public void WarpToView(ViewName newView)
@@ -86,8 +87,8 @@ public class Screen : OverLayObject
 
     protected override void OnDestroy()
     {
-        if (gameContext != null)
-            gameContext.Player.OnViewChanged -= WarpToView;
+        if (player != null)
+            player.OnViewChanged -= WarpToView;
 
         base.OnDestroy();
     }

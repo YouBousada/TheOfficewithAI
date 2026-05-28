@@ -7,29 +7,29 @@ public class MapUI : MonoBehaviour
     [SerializeField] private Sprite bothDoorsClosed;
     [SerializeField] private Sprite rightDoorClosed;
     [SerializeField] private Sprite leftDoorClosed;
-    [SerializeField] private GameContext gameContext;
+    [SerializeField] private Office office;
 
     private Image img;
     
     void Awake()
     {
         img = GetComponent<Image>();
-        gameContext.OfficeStates.OnDoorStateChanged += Refresh;
+        office.OnDoorStateChanged += Refresh;
     }
 
     void Start() => Refresh();
 
     void Refresh(bool unused = false, bool unused2 = false)
     {
-        if (!gameContext.OfficeStates.LeftDoorIsOpen && !gameContext.OfficeStates.RightDoorIsOpen) img.sprite = bothDoorsClosed;
-        else if (!gameContext.OfficeStates.LeftDoorIsOpen && gameContext.OfficeStates.RightDoorIsOpen) img.sprite = leftDoorClosed;
-        else if (gameContext.OfficeStates.LeftDoorIsOpen && !gameContext.OfficeStates.RightDoorIsOpen) img.sprite = rightDoorClosed;
+        if (!office.LeftDoorIsOpen && !office.RightDoorIsOpen) img.sprite = bothDoorsClosed;
+        else if (!office.LeftDoorIsOpen && office.RightDoorIsOpen) img.sprite = leftDoorClosed;
+        else if (office.LeftDoorIsOpen && !office.RightDoorIsOpen) img.sprite = rightDoorClosed;
         else img.sprite = bothDoorsOpen;
     }
 
     void OnDestroy()
     {
-        gameContext.OfficeStates.OnDoorStateChanged -= Refresh;
+        office.OnDoorStateChanged -= Refresh;
     }
 
 }

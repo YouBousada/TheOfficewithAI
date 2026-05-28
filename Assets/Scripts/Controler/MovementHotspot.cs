@@ -12,13 +12,11 @@ public class MovementHotspot : HotSpot
     }
     public void InvokeViewChange()
     {
-        if (Player.Instance.IsInspectingItem)
-        {
+        if (player.IsInspectingItem)
             return;
-        }
-        
+
         if (!CanUseHotspot) return;
 
-        gameContext.Player.SetView(to);
+        player.SetView(to);
     }
 }

@@ -30,7 +30,7 @@ public abstract class HotSpot : OverLayObject
     {
         base.Start();
 
-        gameContext.Player.OnActionPerformed += HandlePlayerAction;
+        player.OnActionPerformed += HandlePlayerAction;
     }
 
     public void ActivateHotspot()
@@ -101,8 +101,8 @@ public abstract class HotSpot : OverLayObject
 
     protected override void OnDestroy()
     {
-        if (gameContext != null)
-            gameContext.Player.OnActionPerformed -= HandlePlayerAction;
+        if (player != null)
+            player.OnActionPerformed -= HandlePlayerAction;
 
         base.OnDestroy();
     }

@@ -2,11 +2,11 @@ using UnityEngine;
 
 public abstract class PlayerCommand : ScriptableObject {
     [SerializeField] private ActionType actionType;
-    protected abstract void Execute_Concrete(GameContext ctx);
-    public void Execute(GameContext ctx)
+    public ActionType ActionType => actionType;
+    protected abstract void Execute_Concrete(ICommandContext ctx);
+    public void Execute(ICommandContext ctx)
     {
         ctx.Player.PerformAction(actionType);
         Execute_Concrete(ctx);
     }
-    
 }

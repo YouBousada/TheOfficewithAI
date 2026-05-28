@@ -4,7 +4,7 @@ using UnityEngine;
 public class PressDoorButton : PlayerCommand
 {   
     [SerializeField] private DoorButtonName doorButtonName;
-    protected override void Execute_Concrete(GameContext ctx)
+    protected override void Execute_Concrete(ICommandContext ctx)
     {
         ctx.OfficeStates.RespondToDoorButton(doorButtonName);
     }

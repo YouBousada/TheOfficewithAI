@@ -7,15 +7,15 @@ public class CharacterIcon : MonoBehaviour
 
     [SerializeField] private Sprite greenSprite;
     [SerializeField] private Sprite redSprite;
-    [SerializeField] private GameContext gameContext;
+    [SerializeField] private AIEvents aiMonitor;
 
     [SerializeField] private CharacterUIPositions positions;
 
     private void Awake()
     {
-        gameContext.AIMonitor.OnLocationChanged += HandleRoomChange;
-        gameContext.AIMonitor.OnBehaviourChanged += HandleBehaviourChange;
-        gameContext.AIMonitor.OnInitialization += (who, location, behaviour, job) =>
+        aiMonitor.OnLocationChanged += HandleRoomChange;
+        aiMonitor.OnBehaviourChanged += HandleBehaviourChange;
+        aiMonitor.OnInitialization += (who, location, behaviour, job) =>
         {
             HandleRoomChange(who, location, location);
         };
@@ -118,9 +118,9 @@ public class CharacterIcon : MonoBehaviour
 
      void OnDestroy()
     {
-        gameContext.AIMonitor.OnLocationChanged -= HandleRoomChange;
-        gameContext.AIMonitor.OnBehaviourChanged -= HandleBehaviourChange;
-        gameContext.AIMonitor.OnInitialization -= (who, location, behaviour, job) =>
+        aiMonitor.OnLocationChanged -= HandleRoomChange;
+        aiMonitor.OnBehaviourChanged -= HandleBehaviourChange;
+        aiMonitor.OnInitialization -= (who, location, behaviour, job) =>
         {
             HandleRoomChange(who, location, location);
         };

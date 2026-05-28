@@ -1,18 +1,23 @@
+using UnityEngine;
+
 public class RightDoorViewController : DoorViewController
 {
-    protected override bool isThisDoorOpen => gameContext.OfficeStates.RightDoorIsOpen;
+    [Header("RightDoorViewController requirements")]
+    [SerializeField] private Office office;
+
+    protected override bool isThisDoorOpen => office.RightDoorIsOpen;
 
     protected override void Awake()
     {
         base.Awake();
-        gameContext.OfficeStates.OnRightDoorOpened += PlayOpenDoorAnimation;
-        gameContext.OfficeStates.OnRightDoorClosed += PlayCloseDoorAnimation;
+        office.OnRightDoorOpened += PlayOpenDoorAnimation;
+        office.OnRightDoorClosed += PlayCloseDoorAnimation;
     }
 
     void OnDestroy()
     {
-        if (gameContext == null || gameContext.OfficeStates == null) return;
-        gameContext.OfficeStates.OnRightDoorOpened -= PlayOpenDoorAnimation;
-        gameContext.OfficeStates.OnRightDoorClosed -= PlayCloseDoorAnimation;
+        if (office == null) return;
+        office.OnRightDoorOpened -= PlayOpenDoorAnimation;
+        office.OnRightDoorClosed -= PlayCloseDoorAnimation;
     }
 }

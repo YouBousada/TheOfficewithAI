@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ItemFrameViewController : GenericOfficeViewController
 {
+    [Header("ItemFrameViewController requirements")]
     [SerializeField] private Sprite nothingSprite;
     [SerializeField] private Sprite greenSprite;
     [SerializeField] private Sprite blueSprite;
@@ -10,14 +11,12 @@ public class ItemFrameViewController : GenericOfficeViewController
     protected override void Awake()
     {
         base.Awake();
-        gameContext.puzzleMaster.OnRoomStateChanged += RenderViewBasedOnWorldState;
+        puzzleMaster.OnRoomStateChanged += RenderViewBasedOnWorldState_Concrete;
     }
-    protected override void RenderViewBasedOnWorldState()
-    {
-        if (gameContext.Player.CurrentView != thisViewName)
-            return;
 
-        Item wallItem = gameContext.puzzleMaster.itemOnWall;
+    protected override void RenderViewBasedOnWorldState_Concrete()
+    {
+        Item wallItem = puzzleMaster.itemOnWall;
         switch (wallItem)
         {
             case null:

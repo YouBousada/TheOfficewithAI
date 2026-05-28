@@ -2,14 +2,15 @@ using UnityEngine;
 
 public class BackViewController : GenericOfficeViewController
 {
+    [Header("BackViewController requirements")]
     [SerializeField] private Sprite nothingSprite;
     [SerializeField] private Sprite greenSprite;
     [SerializeField] private Sprite blueSprite;
     [SerializeField] private Sprite yellowSprite;
 
-    protected override void RenderViewBasedOnWorldState()
+    protected override void RenderViewBasedOnWorldState_Concrete()
     {
-        Item wallItem = gameContext.puzzleMaster.itemOnWall;
+        Item wallItem = puzzleMaster.itemOnWall;
         switch (wallItem)
         {
             case null:

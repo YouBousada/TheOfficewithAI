@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 public abstract class DoorViewController : ViewController
 {
+    [Header("DoorViewController requirements")]
     [SerializeField] private DoorViewJumpscareData doorViewJumpscareData;
     [SerializeField] private AnimationSequence DoorOpenAnimation;
     [SerializeField] private AnimationSequence DoorCloseAnimation;
@@ -65,7 +66,7 @@ public abstract class DoorViewController : ViewController
         CloseButton.DeactivateHotspot();
     }
 
-    protected override void RenderViewBasedOnWorldState()
+    protected override void RenderViewBasedOnWorldState_Concrete()
     {
         if (!isThisDoorOpen)
         {
