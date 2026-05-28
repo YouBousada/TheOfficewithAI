@@ -19,6 +19,16 @@ public class GameContext : MonoBehaviour
         Instance = this;
     }
 
+    void Start()
+    {
+        Player.OnReturnItem += puzzleMaster.giveItem;
+    }
+
+    void OnDestroy()
+    {
+        Player.OnReturnItem -= puzzleMaster.giveItem;
+    }
+
     void OnGUI()
     {
         GUIStyle style = new(GUI.skin.label) { fontSize = 20 };

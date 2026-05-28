@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     public event Action<ActionType> OnActionPerformed;
     public event Action<Item> OnReceiveItem;
     public event Action<Item> OnRemoveItemFromInventory;
+    public event Action<Item> OnReturnItem;
 
     public bool InventoryFull => inventory.Count >= InventoryCapacity;
     public bool IsHoldingSomething => itemInHand != null;
@@ -68,7 +69,7 @@ public class Player : MonoBehaviour
         {
             if (IsHoldingSomething && !IsInspectingItem)
             {
-                PuzzleMaster.Instance.giveItem(itemInHand);
+                OnReturnItem?.Invoke(itemInHand);
                 itemInHand = null;
             }
         }
@@ -174,7 +175,7 @@ public class Player : MonoBehaviour
         foreach (Item item in inventory)
         {
             var icon = Instantiate(inventoryIconPrefab, inventoryContainer).GetComponent<InventoryIcon>();
-            icon.Display(item);
+            icon.Display(item, () => HoldItem(item));
         }
     }
 

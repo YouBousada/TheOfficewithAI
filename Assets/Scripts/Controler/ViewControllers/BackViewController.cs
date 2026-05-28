@@ -9,25 +9,19 @@ public class BackViewController : GenericOfficeViewController
 
     protected override void RenderViewBasedOnWorldState()
     {
-        switch (PuzzleMaster.Instance.itemOnWall)
+        Item wallItem = gameContext.puzzleMaster.itemOnWall;
+        switch (wallItem)
         {
             case null:
                 backgroundImage.sprite = nothingSprite;
                 break;
             default:
-                if (PuzzleMaster.Instance.itemOnWall.ItemName == ItemName.GREEN_PLANE)
-                {
+                if (wallItem.ItemName == ItemName.GREEN_PLANE)
                     backgroundImage.sprite = greenSprite;
-                }
-                else if (PuzzleMaster.Instance.itemOnWall.ItemName == ItemName.YELLOW_PLANE)
-                {
+                else if (wallItem.ItemName == ItemName.YELLOW_PLANE)
                     backgroundImage.sprite = yellowSprite;
-                }
-                else if (PuzzleMaster.Instance.itemOnWall.ItemName == ItemName.BLUE_PLANE)
-                {
+                else if (wallItem.ItemName == ItemName.BLUE_PLANE)
                     backgroundImage.sprite = blueSprite;
-                }
-
                 break;
         }
     }

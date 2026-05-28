@@ -2101,7 +2101,7 @@ GameObject:
   - component: {fileID: 321361428}
   - component: {fileID: 321361427}
   m_Layer: 5
-  m_Name: BackToDesk_Hotspot
+  m_Name: BackToBack_HOTSPOT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2142,7 +2142,7 @@ MonoBehaviour:
   viewsICanBeActiveIn: 0700000006000000
   hideUponJumpscare: 1
   startsAvailable: 1
-  to: 1
+  to: 4
 --- !u!114 &321361428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5326,6 +5326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 754f1f49fec769b4d916549cf72c5adf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 825810208}
 --- !u!114 &1069010487
 MonoBehaviour:
   m_ObjectHideFlags: 0

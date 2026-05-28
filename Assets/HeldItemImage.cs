@@ -4,6 +4,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class HeldItemImage : MonoBehaviour
 {
+    [SerializeField] private Player player;
     private Image heldItemImage;
     private Canvas canvas;
 
@@ -16,10 +17,10 @@ public class HeldItemImage : MonoBehaviour
 
     void Update() {
 
-        if (Player.Instance.IsHoldingSomething && !Player.Instance.IsInspectingItem && !Player.Instance.IsDead)
+        if (player.IsHoldingSomething && !player.IsInspectingItem && !player.IsDead)
         {
             heldItemImage.enabled = true;
-            heldItemImage.sprite = Player.Instance.itemInHand.InventorySprite;
+            heldItemImage.sprite = player.itemInHand.InventorySprite;
 
             RectTransformUtility.ScreenPointToLocalPointInRectangle(
                 canvas.GetComponent<RectTransform>(),

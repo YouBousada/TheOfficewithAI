@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,12 +10,12 @@ public class InventoryIcon : MonoBehaviour
 {
     private Image image;
     private Button button;
-    private Item item;
+    private Action onHold;
+
     public void Awake()
     {
         image = GetComponent<Image>();
         button = GetComponent<Button>();
-
         image.enabled = false;
     }
 
@@ -23,15 +24,15 @@ public class InventoryIcon : MonoBehaviour
         button.onClick.AddListener(TellPlayerToHoldMe);
     }
 
-    public void Display(Item item)
+    public void Display(Item item, Action onHold)
     {
-        this.item = item;
-        image.sprite = this.item.InventorySprite;
+        this.onHold = onHold;
+        image.sprite = item.InventorySprite;
         image.enabled = true;
     }
 
     public void TellPlayerToHoldMe()
     {
-        Player.Instance.HoldItem(item);
+        onHold?.Invoke();
     }
 }

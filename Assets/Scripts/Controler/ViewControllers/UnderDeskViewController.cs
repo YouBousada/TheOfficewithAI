@@ -33,10 +33,8 @@ public class UnderDeskViewController : GenericOfficeViewController
 
     protected override void RenderViewBasedOnWorldState()
     {
-        if(Player.Instance.CurrentView != thisViewName)
-        {
+        if (gameContext.Player.CurrentView != thisViewName)
             return;
-        }
         
         bool topOpen    = gameContext.puzzleMaster.IsTopDrawerOpen();
         bool bottomOpen = gameContext.puzzleMaster.IsBottomDrawerOpen();
