@@ -41,13 +41,13 @@ public class TotalCameraData : ScriptableObject
     {
         switch(character)
         {
-            case CharacterName.Freddy:
+            case CharacterName.FREDDY:
                 return FreddyStageLayerIndex;
-            case CharacterName.Foxy:
+            case CharacterName.FOXY:
                 return FoxyStageLayerIndex;
-            case CharacterName.Chica:
+            case CharacterName.CHICA:
                 return ChicaStageLayerIndex;
-            case CharacterName.Bonnie:
+            case CharacterName.BONNIE:
                 return BonnieStageLayerIndex;
             default:
                 // Debug.LogWarning("GetStageLayerForCharacter called with invalid character: " + character);

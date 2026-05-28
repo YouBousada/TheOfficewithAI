@@ -13,7 +13,7 @@ public class MapService
         public Dictionary<LocName, RNode> nodes = new();
     }
 
-    public RuntimeMap BuildRuntimeMap(BaseMap MapBase, bool jitterWeights = true, DoorName lastFailedDoor = DoorName.None)
+    public RuntimeMap BuildRuntimeMap(BaseMap MapBase, bool jitterWeights = true, DoorName lastFailedDoor = DoorName.NONE)
     {
         var runTimeMap = new RuntimeMap();
 
@@ -62,9 +62,9 @@ public class MapService
 
     private bool IFailedThatDoor(RuntimeMap.RNode to, DoorName failedDoor)
     {
-        if (failedDoor == DoorName.None) return false;
+        if (failedDoor == DoorName.NONE) return false;
 
-        return (failedDoor == DoorName.Left && (to.roomName == LocName.SecondOffice || to.roomName == LocName.WestHall_Far)) ||
-               (failedDoor == DoorName.Right && (to.roomName == LocName.Kitchen || to.roomName == LocName.EastHall_Far));
+        return (failedDoor == DoorName.LEFT && (to.roomName == LocName.MANAGEMENT || to.roomName == LocName.WEST_HALL_FAR)) ||
+               (failedDoor == DoorName.RIGHT && (to.roomName == LocName.KITCHEN || to.roomName == LocName.EAST_HALL_FAR));
     }
 }

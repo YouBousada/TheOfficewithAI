@@ -40,7 +40,7 @@ public class GameContext : MonoBehaviour
 
     public void RegisterAnimatronic(CharacterName character, Animatronic animatronic)
     {
-        if (character == CharacterName.None || animatronic == null) return;
+        if (character == CharacterName.NONE || animatronic == null) return;
         animatronics[character] = animatronic;
     }
 

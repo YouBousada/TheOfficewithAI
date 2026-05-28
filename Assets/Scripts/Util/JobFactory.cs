@@ -4,9 +4,9 @@ public static class JobFactory
     {
         return jobName switch
         {
-            JobName.Freeroamer => new Freeroamer(necessities, switchedFromAnotherJob),
-            JobName.WaitAndRusher => new WaitAndRusher(necessities, switchedFromAnotherJob),
-            JobName.WindowWatcher => new WindowWatcher(necessities, switchedFromAnotherJob),
+            JobName.FREEROAMER => new Freeroamer(necessities, switchedFromAnotherJob),
+            JobName.WAIT_AND_RUSHER => new WaitAndRusher(necessities, switchedFromAnotherJob),
+            JobName.WINDOW_WATCHER => new WindowWatcher(necessities, switchedFromAnotherJob),
             _ => throw new System.ArgumentOutOfRangeException(nameof(jobName), jobName, null)
         };
     }

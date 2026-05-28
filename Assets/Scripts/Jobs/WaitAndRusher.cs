@@ -3,7 +3,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 {
     private MapService.RuntimeMap runtimeRunningMap;
     private BaseMap map;
-    protected override BehaviourName InitialBehaviour => BehaviourName.Idling;
+    protected override BehaviourName InitialBehaviour => BehaviourName.IDLING;
     private float maxIdleTime;
     private float maxRuntime;
     private DoorName lastFailedDoorLoc;
@@ -26,7 +26,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 
     public void JobSpecificInitializations()
     {
-        JobName = JobName.WaitAndRusher;
+        JobName = JobName.WAIT_AND_RUSHER;
         lastFailedDoorLoc = memories.lastFailedDoor;
         maxIdleTime = Mathf.Max(0.1f, profile.baseIdleTime - (AiLevelIdleScale * AiLevel) + (PatienceIdleScale * profile.patience));
         maxRuntime = Mathf.Lerp(MaxRunInterval, MinRunInterval, (AiLevel - 1f) / 19f);
@@ -37,7 +37,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     {
         if (switchedFromAnotherJob)
         {
-            SwitchToBehaviour(BehaviourName.Idling);
+            SwitchToBehaviour(BehaviourName.IDLING);
             currentLoc = PickRandomIdleRoom();
         }
     }
@@ -46,13 +46,13 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     {
         switch (currentBehaviour)
         {
-            case BehaviourName.Idling:
+            case BehaviourName.IDLING:
                 Wait();
                 break;
-            case BehaviourName.Running:
+            case BehaviourName.RUNNING:
                 Run();
                 break;
-            case BehaviourName.StalkDoor:
+            case BehaviourName.STALKING_DOOR:
                 HandleKillPosition();
                 break;
             default:
@@ -64,7 +64,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     {
         LocName newLoc;
 
-        if (currentLoc == LocName.WestDoor || currentLoc == LocName.EastDoor)
+        if (currentLoc == LocName.WEST_DOOR || currentLoc == LocName.EAST_DOOR)
         {
             newLoc = PickRandomIdleRoom();
         }
@@ -81,17 +81,17 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     {
         switch (newBehaviour)
         {
-            case BehaviourName.Running:
+            case BehaviourName.RUNNING:
                 MovementTimer = maxRuntime;
-                currentBehaviour = BehaviourName.Running;
+                currentBehaviour = BehaviourName.RUNNING;
                 break;
-            case BehaviourName.Idling:
+            case BehaviourName.IDLING:
                 MovementTimer = maxIdleTime;
-                currentBehaviour = BehaviourName.Idling;
+                currentBehaviour = BehaviourName.IDLING;
                 break;
-            case BehaviourName.StalkDoor:
+            case BehaviourName.STALKING_DOOR:
                 MovementTimer = StalkDoorInitialTimer;
-                currentBehaviour = BehaviourName.StalkDoor;
+                currentBehaviour = BehaviourName.STALKING_DOOR;
                 break;
             default:
                 return false;
@@ -116,7 +116,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 
         if (MovementTimer <= 0f)
         {
-            SwitchToBehaviour(BehaviourName.Running);
+            SwitchToBehaviour(BehaviourName.RUNNING);
         }
     }
 
@@ -132,19 +132,19 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
         }
         else
         {
-            if (currentLoc == LocName.EastDoor)
-                lastFailedDoorLoc = DoorName.Right;
-            else if (currentLoc == LocName.WestDoor)
-                lastFailedDoorLoc = DoorName.Left;
+            if (currentLoc == LocName.EAST_DOOR)
+                lastFailedDoorLoc = DoorName.RIGHT;
+            else if (currentLoc == LocName.WEST_DOOR)
+                lastFailedDoorLoc = DoorName.LEFT;
             else
-                lastFailedDoorLoc = DoorName.None;
+                lastFailedDoorLoc = DoorName.NONE;
 
             memories.lastFailedDoor = lastFailedDoorLoc;
 
             if (AttemptToSwitchJobs())
                 return;
             runtimeRunningMap = mapService.BuildRuntimeMap(map, false, lastFailedDoorLoc);
-            SwitchToBehaviour(BehaviourName.Idling);
+            SwitchToBehaviour(BehaviourName.IDLING);
             StepandNotify();
         }
     }
@@ -158,7 +158,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     {
         if (AtADoor())
         {
-            SwitchToBehaviour(BehaviourName.StalkDoor);
+            SwitchToBehaviour(BehaviourName.STALKING_DOOR);
             return;
         }
 

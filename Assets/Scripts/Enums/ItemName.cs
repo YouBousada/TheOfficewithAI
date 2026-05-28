@@ -1,10 +1,10 @@
 public enum ItemName
 {
-    greenPlane,
+    GREEN_PLANE,
 
-    pinkPlane,
+    PINK_PLANE,
 
-    yellowPlane,
+    YELLOW_PLANE,
 
-    bluePlane,
+    BLUE_PLANE,
 }

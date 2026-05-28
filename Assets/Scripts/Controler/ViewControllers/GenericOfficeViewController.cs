@@ -24,15 +24,15 @@ public abstract class GenericOfficeViewController : ViewController
             return;
         }
 
-        leftDoorJumpscares[CharacterName.Bonnie] = thisViewJumpscareData.LeftDoorBonnieAnimation;
-        leftDoorJumpscares[CharacterName.Chica] = thisViewJumpscareData.LeftDoorChicaAnimation;
-        leftDoorJumpscares[CharacterName.Foxy] = thisViewJumpscareData.LeftDoorFoxyAnimation;
-        leftDoorJumpscares[CharacterName.Freddy] = thisViewJumpscareData.LeftDoorFreddyAnimation;
+        leftDoorJumpscares[CharacterName.BONNIE] = thisViewJumpscareData.LeftDoorBonnieAnimation;
+        leftDoorJumpscares[CharacterName.CHICA] = thisViewJumpscareData.LeftDoorChicaAnimation;
+        leftDoorJumpscares[CharacterName.FOXY] = thisViewJumpscareData.LeftDoorFoxyAnimation;
+        leftDoorJumpscares[CharacterName.FREDDY] = thisViewJumpscareData.LeftDoorFreddyAnimation;
 
-        rightDoorJumpscares[CharacterName.Bonnie] = thisViewJumpscareData.RightDoorBonnieAnimation;
-        rightDoorJumpscares[CharacterName.Chica] = thisViewJumpscareData.RightDoorChicaAnimation;
-        rightDoorJumpscares[CharacterName.Foxy] = thisViewJumpscareData.RightDoorFoxyAnimation;
-        rightDoorJumpscares[CharacterName.Freddy] = thisViewJumpscareData.RightDoorFreddyAnimation;
+        rightDoorJumpscares[CharacterName.BONNIE] = thisViewJumpscareData.RightDoorBonnieAnimation;
+        rightDoorJumpscares[CharacterName.CHICA] = thisViewJumpscareData.RightDoorChicaAnimation;
+        rightDoorJumpscares[CharacterName.FOXY] = thisViewJumpscareData.RightDoorFoxyAnimation;
+        rightDoorJumpscares[CharacterName.FREDDY] = thisViewJumpscareData.RightDoorFreddyAnimation;
     }
 
     protected override void ReactToJumpscare_Concrete(CharacterName who, LocName from)
@@ -53,8 +53,8 @@ public abstract class GenericOfficeViewController : ViewController
 
     private Dictionary<CharacterName, AnimationSequence> GetJumpscareLookup(LocName from)
     {
-        if (from == LocName.WestDoor) return leftDoorJumpscares;
-        if (from == LocName.EastDoor) return rightDoorJumpscares;
+        if (from == LocName.WEST_DOOR) return leftDoorJumpscares;
+        if (from == LocName.EAST_DOOR) return rightDoorJumpscares;
         return null;
     }
 

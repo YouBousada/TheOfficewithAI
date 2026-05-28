@@ -12,7 +12,7 @@ public class JobArbiter
     public bool ApproveJobSwitch(CharacterName character, JobName toJob)
     {
         var jobCounts = new Dictionary<JobName, int>();
-        JobName currentJob = JobName.None;
+        JobName currentJob = JobName.NONE;
 
         foreach (Animatronic anim in gameContext.Animatronics)
         {
@@ -25,12 +25,12 @@ public class JobArbiter
 
         if (currentJob == toJob) return false;
 
-        int windowCount = jobCounts.GetValueOrDefault(JobName.WindowWatcher, 0);
+        int windowCount = jobCounts.GetValueOrDefault(JobName.WINDOW_WATCHER, 0);
 
-        if (currentJob == JobName.WindowWatcher && toJob != JobName.WindowWatcher && windowCount <= 1)
+        if (currentJob == JobName.WINDOW_WATCHER && toJob != JobName.WINDOW_WATCHER && windowCount <= 1)
             return false;
 
-        if (currentJob != JobName.WindowWatcher && toJob == JobName.WindowWatcher && windowCount >= 2)
+        if (currentJob != JobName.WINDOW_WATCHER && toJob == JobName.WINDOW_WATCHER && windowCount >= 2)
             return false;
 
         return true;

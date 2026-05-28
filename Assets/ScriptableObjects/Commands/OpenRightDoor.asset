@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: OpenRightDoor
   m_EditorClassIdentifier: 
   actionType: {fileID: 11400000, guid: 3d4e28ab7f4504e40a0de598d465d4e0, type: 2}
-  doorButtonName: 2
+  doorButtonName: 3

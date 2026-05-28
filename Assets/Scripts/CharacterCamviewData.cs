@@ -30,10 +30,10 @@ public class CharacterCamviewData : ScriptableObject
 
         switch(behaviour)
         {
-            case BehaviourName.Encroaching:
-            case BehaviourName.Leaving:
-            case BehaviourName.InvisibleRoaming:
-            case BehaviourName.None:
+            case BehaviourName.ENCROACHING:
+            case BehaviourName.LEAVING:
+            case BehaviourName.INVISIBLE_ROAMING:
+            case BehaviourName.NONE:
                 switch(layer)
                 {
                     case 0:
@@ -56,7 +56,7 @@ public class CharacterCamviewData : ScriptableObject
                         // Debug.LogWarning("GetRandomRender called with invalid layer: " + layer + " layers must be between 0 and 3.");
                         return null;
                 }
-            case BehaviourName.Running:
+            case BehaviourName.RUNNING:
                 switch(layer)
                 {
                     case 0:
@@ -79,7 +79,7 @@ public class CharacterCamviewData : ScriptableObject
                         // Debug.LogWarning("GetRandomRender called with invalid layer: " + layer + " layers must be between 0 and 3.");
                         return null;
                 }
-            case BehaviourName.Idling:
+            case BehaviourName.IDLING:
                 switch(layer)
                 {
                     case 0:

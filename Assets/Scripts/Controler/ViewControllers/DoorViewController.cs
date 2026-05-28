@@ -35,20 +35,20 @@ public abstract class DoorViewController : ViewController
             return;
         }
 
-        openThisDoorJumpscares[CharacterName.Bonnie] = doorViewJumpscareData.ThisDoorBonnieAnimationDoorOpen;
-        openThisDoorJumpscares[CharacterName.Chica] = doorViewJumpscareData.ThisDoorChicaAnimationDoorOpen;
-        openThisDoorJumpscares[CharacterName.Foxy] = doorViewJumpscareData.ThisDoorFoxyAnimationDoorOpen;
-        openThisDoorJumpscares[CharacterName.Freddy] = doorViewJumpscareData.ThisDoorFreddyAnimationDoorOpen;
+        openThisDoorJumpscares[CharacterName.BONNIE] = doorViewJumpscareData.ThisDoorBonnieAnimationDoorOpen;
+        openThisDoorJumpscares[CharacterName.CHICA] = doorViewJumpscareData.ThisDoorChicaAnimationDoorOpen;
+        openThisDoorJumpscares[CharacterName.FOXY] = doorViewJumpscareData.ThisDoorFoxyAnimationDoorOpen;
+        openThisDoorJumpscares[CharacterName.FREDDY] = doorViewJumpscareData.ThisDoorFreddyAnimationDoorOpen;
 
-        openOtherDoorJumpscares[CharacterName.Bonnie] = doorViewJumpscareData.OtherDoorBonnieAnimationDoorOpen;
-        openOtherDoorJumpscares[CharacterName.Chica] = doorViewJumpscareData.OtherDoorChicaAnimationDoorOpen;
-        openOtherDoorJumpscares[CharacterName.Foxy] = doorViewJumpscareData.OtherDoorFoxyAnimationDoorOpen;
-        openOtherDoorJumpscares[CharacterName.Freddy] = doorViewJumpscareData.OtherDoorFreddyAnimationDoorOpen;
+        openOtherDoorJumpscares[CharacterName.BONNIE] = doorViewJumpscareData.OtherDoorBonnieAnimationDoorOpen;
+        openOtherDoorJumpscares[CharacterName.CHICA] = doorViewJumpscareData.OtherDoorChicaAnimationDoorOpen;
+        openOtherDoorJumpscares[CharacterName.FOXY] = doorViewJumpscareData.OtherDoorFoxyAnimationDoorOpen;
+        openOtherDoorJumpscares[CharacterName.FREDDY] = doorViewJumpscareData.OtherDoorFreddyAnimationDoorOpen;
 
-        closedOtherDoorJumpscares[CharacterName.Bonnie] = doorViewJumpscareData.OtherDoorBonnieAnimationDoorClosed;
-        closedOtherDoorJumpscares[CharacterName.Chica] = doorViewJumpscareData.OtherDoorChicaAnimationDoorClosed;
-        closedOtherDoorJumpscares[CharacterName.Foxy] = doorViewJumpscareData.OtherDoorFoxyAnimationDoorClosed;
-        closedOtherDoorJumpscares[CharacterName.Freddy] = doorViewJumpscareData.OtherDoorFreddyAnimationDoorClosed;
+        closedOtherDoorJumpscares[CharacterName.BONNIE] = doorViewJumpscareData.OtherDoorBonnieAnimationDoorClosed;
+        closedOtherDoorJumpscares[CharacterName.CHICA] = doorViewJumpscareData.OtherDoorChicaAnimationDoorClosed;
+        closedOtherDoorJumpscares[CharacterName.FOXY] = doorViewJumpscareData.OtherDoorFoxyAnimationDoorClosed;
+        closedOtherDoorJumpscares[CharacterName.FREDDY] = doorViewJumpscareData.OtherDoorFreddyAnimationDoorClosed;
     }
 
     public void PlayOpenDoorAnimation()
@@ -132,12 +132,12 @@ public abstract class DoorViewController : ViewController
 
     private bool IsDoorAttack(LocName from)
     {
-        return from == LocName.EastDoor || from == LocName.WestDoor;
+        return from == LocName.EAST_DOOR || from == LocName.WEST_DOOR;
     }
 
     private bool IsAttackFromThisDoor(LocName from)
     {
-        return (from == LocName.EastDoor && thisViewName == ViewName.RightDoor) ||
-               (from == LocName.WestDoor && thisViewName == ViewName.LeftDoor);
+        return (from == LocName.EAST_DOOR && thisViewName == ViewName.RIGHT_DOOR) ||
+               (from == LocName.WEST_DOOR && thisViewName == ViewName.LEFT_DOOR);
     }
 }

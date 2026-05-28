@@ -8,7 +8,7 @@ public class CameraButton : OverLayObject
 
     void Awake()
     {
-        AddActiveViewIfMissing(ViewName.Cameras);
+        AddActiveViewIfMissing(ViewName.MONITOR);
 
         if (canvasGroup == null)
             canvasGroup = GetComponent<CanvasGroup>();
@@ -27,7 +27,7 @@ public class CameraButton : OverLayObject
 
     void Reset()
     {
-        AddActiveViewIfMissing(ViewName.Cameras);
+        AddActiveViewIfMissing(ViewName.MONITOR);
     }
 
     public void OnButtonPressed()

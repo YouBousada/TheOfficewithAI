@@ -4,7 +4,7 @@ public class CameraSystem : MonoBehaviour
 {
     public static CameraSystem Instance { get; private set; }
 
-    private LocName startingCameraRoom = LocName.Stage;
+    private LocName startingCameraRoom = LocName.STAGE;
     public LocName ActiveCamera { get; private set; }
 
     void Awake()

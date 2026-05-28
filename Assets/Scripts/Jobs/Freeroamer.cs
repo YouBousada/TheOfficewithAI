@@ -4,7 +4,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
     private MapService.RuntimeMap runtimeEncroachMap;
     private MapService.RuntimeMap runtimeLeaveMap;
     private MapService.RuntimeMap currentMap;
-    protected override BehaviourName InitialBehaviour => BehaviourName.Encroaching;
+    protected override BehaviourName InitialBehaviour => BehaviourName.ENCROACHING;
     private int minLeaveSteps = 3;
     private int currentLeaveStepsLeft;
     private DoorName lastFailedDoorLoc;
@@ -16,13 +16,13 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
 
         JobSpecificInitializations();
 
-        if (necessities.LastLocation == LocName.EastDoor)
+        if (necessities.LastLocation == LocName.EAST_DOOR)
         {
-            currentLoc = LocName.EastHall_Far;
+            currentLoc = LocName.EAST_HALL_FAR;
         }
-        else if (necessities.LastLocation == LocName.WestDoor)
+        else if (necessities.LastLocation == LocName.WEST_DOOR)
         {
-            currentLoc = LocName.WestHall_Far;
+            currentLoc = LocName.WEST_HALL_FAR;
         }
 
         HandleSwitchInitialization(switchedFromAnotherJob);
@@ -31,7 +31,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
 
     public void JobSpecificInitializations()
     {
-        JobName = JobName.Freeroamer;
+        JobName = JobName.FREEROAMER;
         lastFailedDoorLoc = memories.lastFailedDoor;
         BuildMaps();
         MovementTimer = timeGenerator.WeibullTime(AiLevel, profile);
@@ -43,7 +43,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
         if (switchedFromAnotherJob)
         {
             currentMap = runtimeLeaveMap;
-            SwitchToBehaviour(BehaviourName.Leaving);
+            SwitchToBehaviour(BehaviourName.LEAVING);
         }
     }
 
@@ -51,11 +51,11 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
     {
         switch (currentBehaviour)
         {
-            case BehaviourName.Encroaching:
-            case BehaviourName.Leaving:
+            case BehaviourName.ENCROACHING:
+            case BehaviourName.LEAVING:
                 PlayRedLightGreenLight();
                 break;
-            case BehaviourName.StalkDoor:
+            case BehaviourName.STALKING_DOOR:
                 HandleKillPosition();
                 break;
             default:
@@ -83,7 +83,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
     {
         var nextRoom = mapService.ChooseNext(currentMap.nodes[currentLoc]).roomName;
 
-        if (currentBehaviour == BehaviourName.Leaving)
+        if (currentBehaviour == BehaviourName.LEAVING)
         {
             if (currentLeaveStepsLeft > 0)
             {
@@ -91,13 +91,13 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
             }
             else if (Random.value <= ReencroachChance)
             {
-                SwitchToBehaviour(BehaviourName.Encroaching);
+                SwitchToBehaviour(BehaviourName.ENCROACHING);
                 nextRoom = mapService.ChooseNext(currentMap.nodes[currentLoc]).roomName;
             }
         }
 
-        if (nextRoom == LocName.EastDoor || nextRoom == LocName.WestDoor)
-            SwitchToBehaviour(BehaviourName.StalkDoor);
+        if (nextRoom == LocName.EAST_DOOR || nextRoom == LocName.WEST_DOOR)
+            SwitchToBehaviour(BehaviourName.STALKING_DOOR);
 
         return nextRoom;
     }
@@ -105,19 +105,19 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
     {
         switch (newBehaviour)
         {
-            case BehaviourName.Encroaching:
-                currentBehaviour = BehaviourName.Encroaching;
+            case BehaviourName.ENCROACHING:
+                currentBehaviour = BehaviourName.ENCROACHING;
                 MovementTimer = timeGenerator.WeibullTime(AiLevel, profile);
                 currentMap = runtimeEncroachMap;
                 break;
-            case BehaviourName.Leaving:
-                currentBehaviour = BehaviourName.Leaving;
+            case BehaviourName.LEAVING:
+                currentBehaviour = BehaviourName.LEAVING;
                 MovementTimer = timeGenerator.WeibullTime(AiLevel, profile);
                 currentLeaveStepsLeft = minLeaveSteps;
                 currentMap = runtimeLeaveMap;
                 break;
-            case BehaviourName.StalkDoor:
-                currentBehaviour = BehaviourName.StalkDoor;
+            case BehaviourName.STALKING_DOOR:
+                currentBehaviour = BehaviourName.STALKING_DOOR;
                 MovementTimer = timeGenerator.ExponentialTime(AiLevel, profile);
                 break;
             default:
@@ -143,19 +143,19 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
 
         else if (TheDoorImAtIsClosed())
         {
-            if (currentLoc == LocName.EastDoor)
-                lastFailedDoorLoc = DoorName.Right;
-            else if (currentLoc == LocName.WestDoor)
-                lastFailedDoorLoc = DoorName.Left;
+            if (currentLoc == LocName.EAST_DOOR)
+                lastFailedDoorLoc = DoorName.RIGHT;
+            else if (currentLoc == LocName.WEST_DOOR)
+                lastFailedDoorLoc = DoorName.LEFT;
             else
-                lastFailedDoorLoc = DoorName.None;
+                lastFailedDoorLoc = DoorName.NONE;
 
             memories.lastFailedDoor = lastFailedDoorLoc;
 
             if (AttemptToSwitchJobs())
                 return;
             BuildMaps(lastFailedDoorLoc);
-            SwitchToBehaviour(BehaviourName.Leaving);
+            SwitchToBehaviour(BehaviourName.LEAVING);
             StepandNotify();
         }
         else
@@ -164,7 +164,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
         }
     }
 
-    private void BuildMaps(DoorName doorFailed = DoorName.None)
+    private void BuildMaps(DoorName doorFailed = DoorName.NONE)
     {
         runtimeEncroachMap = mapService.BuildRuntimeMap(mapGraphs.EncroachBaseMap, true, doorFailed);
         runtimeLeaveMap = mapService.BuildRuntimeMap(mapGraphs.LeaveBaseMap);

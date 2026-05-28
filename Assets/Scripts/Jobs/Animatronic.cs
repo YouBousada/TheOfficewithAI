@@ -66,7 +66,7 @@ public class Animatronic : MonoBehaviour
 
         memories = new AnimatronicMemory
         {
-            lastFailedDoor = DoorName.None
+            lastFailedDoor = DoorName.NONE
         };
 
         necessities = new JobNecessities
@@ -98,7 +98,7 @@ public class Animatronic : MonoBehaviour
         }
         else
         {
-            return BehaviourName.None;
+            return BehaviourName.NONE;
         }
     }
 
@@ -111,7 +111,7 @@ public class Animatronic : MonoBehaviour
         else
         {
             // Debug.LogWarning("Animatronic has no CharacterProfile assigned, cannot get CharacterName.");
-            return CharacterName.None;
+            return CharacterName.NONE;
         }
     }
 
@@ -129,7 +129,7 @@ public class Animatronic : MonoBehaviour
         else
         {
             // Debug.LogWarning("Animatronic has no current job assigned, cannot get JobName.");
-            return JobName.None;
+            return JobName.NONE;
         }
     }
 

@@ -1,11 +1,11 @@
 public enum ViewName
 {
-    None,
-    Desk,
-    LeftDoor,
-    RightDoor,
-    Back,
-    Cameras,
-    UnderDesk,
-    ItemFrame
+    NONE,
+    DESK,
+    LEFT_DOOR,
+    RIGHT_DOOR,
+    BACK,
+    MONITOR,
+    UNDER_DESK,
+    ITEM_FRAME
 }

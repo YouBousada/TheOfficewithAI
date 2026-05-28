@@ -25,15 +25,15 @@ public class ItemFrameViewController : GenericOfficeViewController
                 backgroundImage.sprite = nothingSprite;
                 break;
             default:
-                if (PuzzleMaster.Instance.itemOnWall.ItemName == ItemName.greenPlane)
+                if (PuzzleMaster.Instance.itemOnWall.ItemName == ItemName.GREEN_PLANE)
                 {
                     backgroundImage.sprite = greenSprite;
                 }
-                else if (PuzzleMaster.Instance.itemOnWall.ItemName == ItemName.yellowPlane)
+                else if (PuzzleMaster.Instance.itemOnWall.ItemName == ItemName.YELLOW_PLANE)
                 {
                     backgroundImage.sprite = yellowSprite;
                 }
-                else if (PuzzleMaster.Instance.itemOnWall.ItemName == ItemName.bluePlane)
+                else if (PuzzleMaster.Instance.itemOnWall.ItemName == ItemName.BLUE_PLANE)
                 {
                     backgroundImage.sprite = blueSprite;
                 }

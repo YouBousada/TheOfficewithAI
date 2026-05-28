@@ -1,12 +1,11 @@
 public enum BehaviourName
 {
-    Encroaching,
-    Leaving,
-    Idling,
-    Running,
-    StalkDoor,
-    StareThroughWindow,
-    InvisibleRoaming,
-
-    None
+    ENCROACHING,
+    LEAVING,
+    IDLING,
+    RUNNING,
+    STALKING_DOOR,
+    STARING_THROUGH_WINDOW,
+    INVISIBLE_ROAMING,
+    NONE
 }

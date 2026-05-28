@@ -30,52 +30,52 @@ public class CharacterIcon : MonoBehaviour
 
         switch (to)
         {
-            case LocName.BackStage:
+            case LocName.BACK_STAGE:
                 characterIcon.anchoredPosition = positions.BackStagePos;
                 break;
-            case LocName.MainArea:
+            case LocName.SHOW_ROOM:
                 characterIcon.anchoredPosition = positions.MainAreaPos;
                 break;
-            case LocName.PirateCove:
+            case LocName.PIRATES_COVE:
                 characterIcon.anchoredPosition = positions.PiratesCovePos;
                 break;
-            case LocName.RestRooms:
+            case LocName.REST_ROOMS:
                 characterIcon.anchoredPosition = positions.RestRoomPos;
                 break;
-            case LocName.Closet:
+            case LocName.CLOSET:
                 characterIcon.anchoredPosition = positions.ClosetPos;
                 break;
-            case LocName.WestHall_Far:
+            case LocName.WEST_HALL_FAR:
                 characterIcon.anchoredPosition = positions.WestHallFarPos;
                 break;
-            case LocName.EastHall_Far:
+            case LocName.EAST_HALL_FAR:
                 characterIcon.anchoredPosition = positions.EastHallFarPos;
                 break;
-            case LocName.EastDoor:
+            case LocName.EAST_DOOR:
                 characterIcon.anchoredPosition = positions.EastDoorPos;
                 break;
-            case LocName.WestDoor:
+            case LocName.WEST_DOOR:
                 characterIcon.anchoredPosition = positions.WestDoorPos;
                 break;
-            case LocName.SecondOffice:
+            case LocName.MANAGEMENT:
                 characterIcon.anchoredPosition = positions.SecondOfficePos;
                 break;
-            case LocName.Stage:
+            case LocName.STAGE:
                 characterIcon.anchoredPosition = positions.StagePos;
                 break;
-            case LocName.Kitchen:
+            case LocName.KITCHEN:
                 characterIcon.anchoredPosition = positions.KitchenPos;
                 break;
-            case LocName.WestHall_Corner:
+            case LocName.WEST_HALL_CORNER:
                 characterIcon.anchoredPosition = positions.WestHallCornerPos;
                 break;
-            case LocName.EastHall_Corner:
+            case LocName.EAST_HALL_CORNER:
                 characterIcon.anchoredPosition = positions.EastHallCornerPos;
                 break;
-            case LocName.BreakRoom:
+            case LocName.BREAKROOM:
                 characterIcon.anchoredPosition = positions.BreakRoom;
                 break;
-            case LocName.NoWhere:
+            case LocName.NOWHERE:
                 characterIcon.anchoredPosition = positions.NoWhere;
                 break;
             default:
@@ -92,22 +92,22 @@ public class CharacterIcon : MonoBehaviour
 
         switch (newBehaviour)
         {
-            case BehaviourName.Running:
+            case BehaviourName.RUNNING:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = redSprite;
                 break;
-            case BehaviourName.Idling:
+            case BehaviourName.IDLING:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = greenSprite;
                 break;
-            case BehaviourName.Encroaching:
+            case BehaviourName.ENCROACHING:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = redSprite;
                 break;
-            case BehaviourName.Leaving:
+            case BehaviourName.LEAVING:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = greenSprite;
                 break;
-            case BehaviourName.StalkDoor:
+            case BehaviourName.STALKING_DOOR:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = redSprite;
                 break;
-            case BehaviourName.StareThroughWindow:
+            case BehaviourName.STARING_THROUGH_WINDOW:
                 characterIcon.GetComponent<UnityEngine.UI.Image>().sprite = redSprite;
                 break;
             default:

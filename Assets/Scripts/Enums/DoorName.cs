@@ -1,6 +1,6 @@
 public enum DoorName
 {
-    None,
-    Left,
-    Right
+    NONE,
+    LEFT,
+    RIGHT
 }

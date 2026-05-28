@@ -1,7 +1,7 @@
 using UnityEngine;
 public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 {
-    protected override BehaviourName InitialBehaviour => BehaviourName.InvisibleRoaming;
+    protected override BehaviourName InitialBehaviour => BehaviourName.INVISIBLE_ROAMING;
     private const float StaringTimeMultiplier = 0.5f;
 
     public WindowWatcher(JobNecessities necessities, bool switchedFromAnotherJob = false)
@@ -15,7 +15,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
     public void JobSpecificInitializations()
     {
-        JobName = JobName.WindowWatcher;
+        JobName = JobName.WINDOW_WATCHER;
         MovementTimer = timeGenerator.WeibullTime(AiLevel, profile);
     }
 
@@ -23,8 +23,8 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
     {
         if (switchedFromAnotherJob)
         {
-            SwitchToBehaviour(BehaviourName.InvisibleRoaming);
-            currentLoc = LocName.NoWhere;
+            SwitchToBehaviour(BehaviourName.INVISIBLE_ROAMING);
+            currentLoc = LocName.NOWHERE;
         }
     }
 
@@ -32,10 +32,10 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
     {
         switch (currentBehaviour)
         {
-            case BehaviourName.InvisibleRoaming:
+            case BehaviourName.INVISIBLE_ROAMING:
                 InvisibleRoam();
                 break;
-            case BehaviourName.StareThroughWindow:
+            case BehaviourName.STARING_THROUGH_WINDOW:
                 HandleKillPosition();
                 break;
             default:
@@ -57,15 +57,15 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
     {
         switch (currentLoc)
         {
-            case LocName.NoWhere:
+            case LocName.NOWHERE:
 
                 {
                     LocName door = ChooseDoor();
 
                     if (PlayerIsLookingAtThisWindow(door))
                     {
-                        SwitchToBehaviour(BehaviourName.InvisibleRoaming);
-                        return LocName.NoWhere;
+                        SwitchToBehaviour(BehaviourName.INVISIBLE_ROAMING);
+                        return LocName.NOWHERE;
                     }
 
                     else
@@ -75,44 +75,44 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
                 }
 
             default:
-                SwitchToBehaviour(BehaviourName.InvisibleRoaming);
-                return LocName.NoWhere;
+                SwitchToBehaviour(BehaviourName.INVISIBLE_ROAMING);
+                return LocName.NOWHERE;
         }
     }
 
     private LocName ChooseDoor()
     {
         float x = Random.value;
-        bool occupiedWest = OccupiedWindow(LocName.WestDoor);
-        bool occupiedEast = OccupiedWindow(LocName.EastDoor);
+        bool occupiedWest = OccupiedWindow(LocName.WEST_DOOR);
+        bool occupiedEast = OccupiedWindow(LocName.EAST_DOOR);
 
-        LocName chosenLocation = LocName.NoWhere;
+        LocName chosenLocation = LocName.NOWHERE;
 
         if (occupiedEast && occupiedWest)
         {
-            SwitchToBehaviour(BehaviourName.InvisibleRoaming);
+            SwitchToBehaviour(BehaviourName.INVISIBLE_ROAMING);
             return chosenLocation;
         }
 
         else if (occupiedWest)
         {
-            SwitchToBehaviour(BehaviourName.StareThroughWindow);
-            chosenLocation = LocName.EastDoor;
+            SwitchToBehaviour(BehaviourName.STARING_THROUGH_WINDOW);
+            chosenLocation = LocName.EAST_DOOR;
         }
         else if (occupiedEast)
         {
-            SwitchToBehaviour(BehaviourName.StareThroughWindow);
-            chosenLocation = LocName.WestDoor;
+            SwitchToBehaviour(BehaviourName.STARING_THROUGH_WINDOW);
+            chosenLocation = LocName.WEST_DOOR;
         }
         else if (x <= 0.5f)
         {
-            SwitchToBehaviour(BehaviourName.StareThroughWindow);
-            chosenLocation = LocName.WestDoor;
+            SwitchToBehaviour(BehaviourName.STARING_THROUGH_WINDOW);
+            chosenLocation = LocName.WEST_DOOR;
         }
         else
         {
-            SwitchToBehaviour(BehaviourName.StareThroughWindow);
-            chosenLocation = LocName.EastDoor;
+            SwitchToBehaviour(BehaviourName.STARING_THROUGH_WINDOW);
+            chosenLocation = LocName.EAST_DOOR;
         }
 
         return chosenLocation;
@@ -120,20 +120,20 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
     private bool PlayerIsLookingAtThisWindow(LocName chosenLocation)
     {
-        return (gameContext.Player.CurrentView == ViewName.LeftDoor && chosenLocation == LocName.WestDoor) || (gameContext.Player.CurrentView == ViewName.RightDoor && chosenLocation == LocName.EastDoor);
+        return (gameContext.Player.CurrentView == ViewName.LEFT_DOOR && chosenLocation == LocName.WEST_DOOR) || (gameContext.Player.CurrentView == ViewName.RIGHT_DOOR && chosenLocation == LocName.EAST_DOOR);
     }
 
     public override bool HandleNewBehaviour(BehaviourName newBehaviour)
     {
         switch (newBehaviour)
         {
-            case BehaviourName.InvisibleRoaming:
+            case BehaviourName.INVISIBLE_ROAMING:
                 MovementTimer = timeGenerator.WeibullTime(AiLevel);
-                currentBehaviour = BehaviourName.InvisibleRoaming;
+                currentBehaviour = BehaviourName.INVISIBLE_ROAMING;
                 break;
-            case BehaviourName.StareThroughWindow:
+            case BehaviourName.STARING_THROUGH_WINDOW:
                 MovementTimer = timeGenerator.WeibullTime(AiLevel, null, StaringTimeMultiplier);
-                currentBehaviour = BehaviourName.StareThroughWindow;
+                currentBehaviour = BehaviourName.STARING_THROUGH_WINDOW;
                 break;
             default:
                 return false;
@@ -172,7 +172,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
     public bool PlayerIsLookingAtMeThroughWindow()
     {
-        if (gameContext.Player.CurrentView == ViewName.LeftDoor && currentLoc == LocName.WestDoor || gameContext.Player.CurrentView == ViewName.RightDoor && currentLoc == LocName.EastDoor)
+        if (gameContext.Player.CurrentView == ViewName.LEFT_DOOR && currentLoc == LocName.WEST_DOOR || gameContext.Player.CurrentView == ViewName.RIGHT_DOOR && currentLoc == LocName.EAST_DOOR)
         {
             return true;
         }

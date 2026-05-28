@@ -2142,7 +2142,7 @@ MonoBehaviour:
   viewsICanBeActiveIn: 0700000006000000
   hideUponJumpscare: 1
   startsAvailable: 1
-  to: 4
+  to: 1
 --- !u!114 &321361428
 MonoBehaviour:
   m_ObjectHideFlags: 0

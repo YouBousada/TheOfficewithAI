@@ -1,8 +1,8 @@
 
 public enum JobName
 {
-    WaitAndRusher,
-    WindowWatcher,
-    Freeroamer,
-    None,
+    WAIT_AND_RUSHER,
+    WINDOW_WATCHER,
+    FREEROAMER,
+    NONE,
 }

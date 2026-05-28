@@ -28,11 +28,11 @@ public class Screen : OverLayObject
 
     public void WarpToView(ViewName newView)
     {
-        if (newView == ViewName.Desk)
+        if (newView == ViewName.DESK)
         {
             ApplyDeskPosition();
         }
-        else if (newView == ViewName.Cameras)
+        else if (newView == ViewName.MONITOR)
         {
             ApplyClosePosition();
         }

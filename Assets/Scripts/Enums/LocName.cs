@@ -1,37 +1,37 @@
 public enum LocName
 {
 
-    MainArea,
+    SHOW_ROOM,
 
-    BackStage,
+    BACK_STAGE,
 
-    Stage,
+    STAGE,
 
-    RestRooms,
+    REST_ROOMS,
 
-    Kitchen,
+    KITCHEN,
 
-    PirateCove,
+    PIRATES_COVE,
 
-    Closet,
+    CLOSET,
 
-    SecondOffice,
+    MANAGEMENT,
 
-    BreakRoom,
+    BREAKROOM,
 
-    WestHall_Far,
+    WEST_HALL_FAR,
 
-    EastHall_Far,
+    EAST_HALL_FAR,
 
-    WestHall_Corner,
+    WEST_HALL_CORNER,
 
-    EastHall_Corner,
+    EAST_HALL_CORNER,
 
-    WestDoor,
+    WEST_DOOR,
 
-    EastDoor,
+    EAST_DOOR,
 
-    NoWhere,
+    NOWHERE,
 
-    None,
+    NONE,
 }

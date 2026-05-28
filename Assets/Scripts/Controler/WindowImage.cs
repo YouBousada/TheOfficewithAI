@@ -6,7 +6,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
     [SerializeField] private LocName thisWindowDoor;
     private Image Image;
     private AnimationPlayer animPlayer;
-    private CharacterName watcherAtThisWindow = CharacterName.None;
+    private CharacterName watcherAtThisWindow = CharacterName.NONE;
 
     [Header("Idle Window Sprites")]
     [SerializeField] private Sprite noOneAtThisWindow;
@@ -56,42 +56,42 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
             return;
         }
         
-        if((from == LocName.EastDoor && thisWindowDoor == LocName.EastDoor) || (from == LocName.WestDoor && thisWindowDoor == LocName.WestDoor))
+        if((from == LocName.EAST_DOOR && thisWindowDoor == LocName.EAST_DOOR) || (from == LocName.WEST_DOOR && thisWindowDoor == LocName.WEST_DOOR))
         {
-            if(watcherAtThisWindow == CharacterName.Bonnie)
+            if(watcherAtThisWindow == CharacterName.BONNIE)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromHereBonnieAnimation, gameObject);
             }
-            else if(watcherAtThisWindow == CharacterName.Chica)
+            else if(watcherAtThisWindow == CharacterName.CHICA)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromHereChicaAnimation, gameObject);
             }
-            else if(watcherAtThisWindow == CharacterName.Foxy)
+            else if(watcherAtThisWindow == CharacterName.FOXY)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromHereFoxyAnimation, gameObject);
             }
-            else if(watcherAtThisWindow == CharacterName.Freddy)
+            else if(watcherAtThisWindow == CharacterName.FREDDY)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromHereFreddyAnimation, gameObject);
             }
             return;
         }
 
-        if((from == LocName.EastDoor && thisWindowDoor == LocName.WestDoor) || (from == LocName.WestDoor && thisWindowDoor == LocName.EastDoor))
+        if((from == LocName.EAST_DOOR && thisWindowDoor == LocName.WEST_DOOR) || (from == LocName.WEST_DOOR && thisWindowDoor == LocName.EAST_DOOR))
         {
-            if(watcherAtThisWindow == CharacterName.Bonnie)
+            if(watcherAtThisWindow == CharacterName.BONNIE)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorBonnieAnimation, gameObject);
             }
-            else if(watcherAtThisWindow == CharacterName.Chica)
+            else if(watcherAtThisWindow == CharacterName.CHICA)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorChicaAnimation, gameObject);
             }
-            else if(watcherAtThisWindow == CharacterName.Foxy)
+            else if(watcherAtThisWindow == CharacterName.FOXY)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorFoxyAnimation, gameObject);
             }
-            else if(watcherAtThisWindow == CharacterName.Freddy)
+            else if(watcherAtThisWindow == CharacterName.FREDDY)
             {
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorFreddyAnimation, gameObject);
             }
@@ -144,7 +144,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
         foreach (Animatronic animatronic in gameContext.Animatronics)
         {
             if (animatronic.GetCurrentLocation() != thisWindowDoor) continue;
-            if (animatronic.GetCurrentJobName() != JobName.WindowWatcher) continue;
+            if (animatronic.GetCurrentJobName() != JobName.WINDOW_WATCHER) continue;
 
             SetWatcher(animatronic.GetCharacterName());
             return;
@@ -159,17 +159,17 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 
         Image.sprite = who switch
         {
-            CharacterName.Bonnie => bonnieAtThisWindow,
-            CharacterName.Chica  => chicaAtThisWindow,
-            CharacterName.Foxy   => foxyAtThisWindow,
-            CharacterName.Freddy => freddyAtThisWindow,
+            CharacterName.BONNIE => bonnieAtThisWindow,
+            CharacterName.CHICA  => chicaAtThisWindow,
+            CharacterName.FOXY   => foxyAtThisWindow,
+            CharacterName.FREDDY => freddyAtThisWindow,
             _ => noOneAtThisWindow
         };
     }
 
     private void ClearWatcher()
     {
-        watcherAtThisWindow = CharacterName.None;
+        watcherAtThisWindow = CharacterName.NONE;
         Image.sprite = noOneAtThisWindow;
     }
 
@@ -197,10 +197,10 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 
     private void AddActiveViewForWindowDoor()
     {
-        if (thisWindowDoor == LocName.WestDoor)
-            AddActiveViewIfMissing(ViewName.LeftDoor);
-        else if (thisWindowDoor == LocName.EastDoor)
-            AddActiveViewIfMissing(ViewName.RightDoor);
+        if (thisWindowDoor == LocName.WEST_DOOR)
+            AddActiveViewIfMissing(ViewName.LEFT_DOOR);
+        else if (thisWindowDoor == LocName.EAST_DOOR)
+            AddActiveViewIfMissing(ViewName.RIGHT_DOOR);
     }
 
 }

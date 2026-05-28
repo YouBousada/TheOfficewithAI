@@ -60,7 +60,7 @@ public class CameraDisplayManager : MonoBehaviour
             camDisplay[i] = new CamDisplayLayer
             {
                 LayerImage = characterLayers[i],
-                Occupant = CharacterName.None
+                Occupant = CharacterName.NONE
             };
 
             camDisplay[i].LayerImage.sprite = emptySprite;
@@ -135,7 +135,7 @@ public class CameraDisplayManager : MonoBehaviour
         if (thisRoomCameraData == null) return;
 
         //check caache, use cache render if cache hit and return
-        bool cachable = animBehaviour == BehaviourName.Running || animBehaviour == BehaviourName.Idling || animBehaviour == BehaviourName.None;
+        bool cachable = animBehaviour == BehaviourName.RUNNING || animBehaviour == BehaviourName.IDLING || animBehaviour == BehaviourName.NONE;
 
         if (cachable && renderCache.TryGetValue(animName, out var cached) && cached.Room == activeCamera && cached.AnimBehaviour == animBehaviour)
         {
@@ -147,7 +147,7 @@ public class CameraDisplayManager : MonoBehaviour
         List<int> availableLayers = new List<int>();
         for (int i = 0; i < camDisplay.Length; i++)
         {
-            if (camDisplay[i].Occupant == CharacterName.None)
+            if (camDisplay[i].Occupant == CharacterName.NONE)
                 availableLayers.Add(i);
         }
 
@@ -160,7 +160,7 @@ public class CameraDisplayManager : MonoBehaviour
         //choose from avilable layers at random, unless stage, then just use stage allocated layer
         int chosenLayer;
 
-        if (activeCamera == LocName.Stage)
+        if (activeCamera == LocName.STAGE)
         {
             chosenLayer = totalCameraData.GetStageLayerForCharacter(animName);
         }
@@ -195,7 +195,7 @@ public class CameraDisplayManager : MonoBehaviour
             if (camDisplay[i].Occupant == who)
             {
                 camDisplay[i].LayerImage.sprite = emptySprite;
-                camDisplay[i].Occupant = CharacterName.None;
+                camDisplay[i].Occupant = CharacterName.NONE;
                 return;
             }
         }
@@ -211,7 +211,7 @@ public class CameraDisplayManager : MonoBehaviour
     {
         for (int i = 0; i < camDisplay.Length; i++)
         {
-            camDisplay[i].Occupant = CharacterName.None;
+            camDisplay[i].Occupant = CharacterName.NONE;
             camDisplay[i].LayerImage.sprite = emptySprite;
         }
     }

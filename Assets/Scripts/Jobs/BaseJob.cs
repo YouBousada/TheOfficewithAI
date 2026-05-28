@@ -41,11 +41,11 @@ public abstract class BaseJob : IJobRequirements
     }
     public bool AtADoor()
     {
-        return currentLoc == LocName.EastDoor || currentLoc == LocName.WestDoor;
+        return currentLoc == LocName.EAST_DOOR || currentLoc == LocName.WEST_DOOR;
     }
     public bool TheDoorImAtIsClosed()
     {
-        if ((!gameContext.OfficeStates.LeftDoorIsOpen && currentLoc == LocName.WestDoor) || (!gameContext.OfficeStates.RightDoorIsOpen && currentLoc == LocName.EastDoor))
+        if ((!gameContext.OfficeStates.LeftDoorIsOpen && currentLoc == LocName.WEST_DOOR) || (!gameContext.OfficeStates.RightDoorIsOpen && currentLoc == LocName.EAST_DOOR))
         {
             return true;
         }
@@ -151,7 +151,7 @@ public abstract class BaseJob : IJobRequirements
         
         foreach (Animatronic anim in gameContext.Animatronics)
         {
-            if (anim.GetCurrentLocation() == windowLoc && anim.GetCurrentBehaviour() == BehaviourName.StareThroughWindow)
+            if (anim.GetCurrentLocation() == windowLoc && anim.GetCurrentBehaviour() == BehaviourName.STARING_THROUGH_WINDOW)
             {
                 return true;
             }
