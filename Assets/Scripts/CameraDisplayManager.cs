@@ -31,6 +31,9 @@ public class CameraDisplayManager : MonoBehaviour
     [Header("Empty Sprite")]
     [SerializeField] private Sprite emptySprite;
 
+     [Header("Cachable Behaviours")]
+    [SerializeField] private List<BehaviourName> CachableBehaviours;
+
     private CamDisplayLayer[] camDisplay;
     private Dictionary<CharacterName, CachedRender> renderCache = new Dictionary<CharacterName, CachedRender>();
 
@@ -139,7 +142,7 @@ public class CameraDisplayManager : MonoBehaviour
         if (thisRoomCameraData == null) return;
 
         //check caache, use cache render if cache hit and return
-        bool cachable = animBehaviour == BehaviourName.RUNNING || animBehaviour == BehaviourName.IDLING || animBehaviour == BehaviourName.NONE;
+        bool cachable = CachableBehaviours.Contains(animBehaviour);
 
         if (cachable && renderCache.TryGetValue(animName, out var cached) && cached.Room == activeCamera && cached.AnimBehaviour == animBehaviour)
         {
