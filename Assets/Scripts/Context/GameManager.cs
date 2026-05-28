@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    private AIEvents aiMonitor;
+    private AiMonitor aiMonitor;
     private Office officeStates;
     [SerializeField] private float gameOverDelay;
 
@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
         if (aiMonitor != null)    aiMonitor.OnDeath -= HandleDeath;
         if (officeStates != null) officeStates.OnPowerOutage -= HandlePowerOut;
 
-        aiMonitor    = AIEvents.Instance;
+        aiMonitor    = AiMonitor.Instance;
         officeStates = Office.Instance;
 
         if (aiMonitor != null)    aiMonitor.OnDeath += HandleDeath;

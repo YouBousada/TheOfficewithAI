@@ -7,7 +7,7 @@ public abstract class ViewController : MonoBehaviour, IAnimated, IJumpscareAffec
 
     [Header("ViewController requirements")]
     [SerializeField] protected Player player;
-    [SerializeField] protected AIEvents aiMonitor;
+    [SerializeField] protected AiMonitor aiMonitor;
     [SerializeField] protected PuzzleMaster puzzleMaster;
     [SerializeField] protected Office office;
     [SerializeField] protected Image backgroundImage;

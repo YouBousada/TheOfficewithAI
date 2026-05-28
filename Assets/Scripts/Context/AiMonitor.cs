@@ -1,25 +1,25 @@
 using UnityEngine;
 using System;
 
-public class AIEvents : MonoBehaviour
+public class AiMonitor : MonoBehaviour
 {
-    public static AIEvents Instance { get; private set; }
+    public static AiMonitor Instance { get; private set; }
 
     void Awake()
     {
         Instance = this;
     }
 
-    public void HandleLocationChange(CharacterName who, LocName from, LocName to)
+    public void HandleLocationChange(CharacterName who, LocName from, LocName to, BehaviourName currentBehaviour)
     {
         Debug.Log($"[{Time.time:F2}] {who} moved from {from} to {to}");
-        OnLocationChanged?.Invoke(who, from, to);
+        OnLocationChanged?.Invoke(who, from, to, currentBehaviour);
     }
 
-    public void HandleBehaviourChange(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour)
+    public void HandleBehaviourChange(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour, LocName currentLocation)
     {
         // Debug.Log($"[{Time.time:F2}] {who} changed behaviour from {oldBehaviour}ing to {newBehaviour}ing");
-        OnBehaviourChanged?.Invoke(who, oldBehaviour, newBehaviour);
+        OnBehaviourChanged?.Invoke(who, oldBehaviour, newBehaviour, currentLocation);
     }
 
     public void HandleJobSwitch(CharacterName who, JobName fromJob, JobName toJob)
@@ -40,8 +40,8 @@ public class AIEvents : MonoBehaviour
         OnDeath?.Invoke(who, location);
     }
 
-    public event Action<CharacterName, LocName, LocName> OnLocationChanged;
-    public event Action<CharacterName, BehaviourName, BehaviourName> OnBehaviourChanged;
+    public event Action<CharacterName, LocName, LocName, BehaviourName> OnLocationChanged;
+    public event Action<CharacterName, BehaviourName, BehaviourName, LocName> OnBehaviourChanged;
     public event Action<CharacterName, JobName, JobName> OnJobSwitched;
     public event Action<CharacterName, LocName, BehaviourName, JobName> OnInitialization;
     public event Action<CharacterName, LocName> OnDeath;

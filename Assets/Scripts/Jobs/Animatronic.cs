@@ -3,7 +3,7 @@ using UnityEngine;
 
 public struct JobNecessities
 {
-    public AIEvents aiMonitor;
+    public AiMonitor aiMonitor;
     public Office officeStates;
     public Player player;
     public CameraSystem cameraSystem;
@@ -24,7 +24,7 @@ public class Animatronic : MonoBehaviour
 {
     [Header("Animatronic requirements")]
     [SerializeField] private AnimatronicRegistry animatronicRegistry;
-    [SerializeField] private AIEvents aiMonitor;
+    [SerializeField] private AiMonitor aiMonitor;
     [SerializeField] private Office officeStates;
     [SerializeField] private Player player;
     [SerializeField] private CameraSystem cameraSystem;
@@ -157,7 +157,7 @@ public class Animatronic : MonoBehaviour
         hasPendingSwitch = true;
     }
 
-    void HandleLocationChange(CharacterName who, LocName oldLocation, LocName newLocation)
+    void HandleLocationChange(CharacterName who, LocName oldLocation, LocName newLocation, BehaviourName behaviour)
     {
         if (who != profile.characterName) return;
         if(myJob != null)

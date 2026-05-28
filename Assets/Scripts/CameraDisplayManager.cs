@@ -18,15 +18,18 @@ public class CameraDisplayManager : MonoBehaviour
         public int SortingLayer;
     }
 
+    private struct AnimatronicState
+    {
+        public LocName Location;
+        public BehaviourName Behaviour;
+    }
+
     [Header("Dependencies")]
-    [SerializeField] private CameraSystem cameraSystem;
-    [SerializeField] private AIEvents aiMonitor;
-    [SerializeField] private AnimatronicRegistry animatronicRegistry;
     [SerializeField] private TotalCameraData totalCameraData;
 
     [Header("Camera View Layers")]
     [SerializeField] private List<Image> characterLayers;
-    [SerializeField] private Image backgroundLayer;
+    [SerializeField] private Image roomRenderImage;
 
     [Header("Empty Sprite")]
     [SerializeField] private Sprite emptySprite;
@@ -36,17 +39,15 @@ public class CameraDisplayManager : MonoBehaviour
 
     private CamDisplayLayer[] camDisplay;
     private Dictionary<CharacterName, CachedRender> renderCache = new Dictionary<CharacterName, CachedRender>();
+    private Dictionary<CharacterName, AnimatronicState> animatronicStates = new Dictionary<CharacterName, AnimatronicState>();
 
     private RoomCameraData thisRoomCameraData;
     private LocName activeCamera;
 
     private void Awake()
     {
-        if (cameraSystem == null)         Debug.LogWarning($"{name}: cameraSystem is not assigned.", this);
-        if (aiMonitor == null)            Debug.LogWarning($"{name}: aiMonitor is not assigned.", this);
-        if (animatronicRegistry == null)  Debug.LogWarning($"{name}: animatronicRegistry is not assigned.", this);
         if (totalCameraData == null)      Debug.LogWarning($"{name}: totalCameraData is not assigned.", this);
-        if (backgroundLayer == null)      Debug.LogWarning($"{name}: backgroundLayer is not assigned.", this);
+        if (roomRenderImage == null)      Debug.LogWarning($"{name}: backgroundLayer is not assigned.", this);
         if (emptySprite == null)          Debug.LogWarning($"{name}: emptySprite is not assigned.", this);
         if (characterLayers == null || characterLayers.Count == 0)
             Debug.LogWarning($"{name}: characterLayers is not assigned.", this);
@@ -56,12 +57,6 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void OnEnable()
     {
-        activeCamera = cameraSystem.ActiveCamera;
-
-        aiMonitor.OnLocationChanged += HandleAnimatronicMovement;
-        aiMonitor.OnBehaviourChanged += HandleBehaviourChanged;
-        cameraSystem.OnCameraRoomChanged += HandleCameraRoomChanged;
-
         for (int i = 0; i < characterLayers.Count; i++)
         {
             camDisplay[i] = new CamDisplayLayer
@@ -74,34 +69,26 @@ public class CameraDisplayManager : MonoBehaviour
         }
     }
 
-    private void Start()
+    public void HandleAnimatronicInitialization(CharacterName who, LocName location, BehaviourName behaviour, JobName job)
     {
-        HandleCameraRoomChanged(cameraSystem.ActiveCamera);
+        animatronicStates[who] = new AnimatronicState { Location = location, Behaviour = behaviour };
     }
 
-    private void OnDisable()
+    public void HandleBehaviourChanged(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour, LocName location)
     {
-        aiMonitor.OnLocationChanged -= HandleAnimatronicMovement;
-        aiMonitor.OnBehaviourChanged -= HandleBehaviourChanged;
-        cameraSystem.OnCameraRoomChanged -= HandleCameraRoomChanged;
-    }
+        animatronicStates[who] = new AnimatronicState { Location = location, Behaviour = newBehaviour };
 
-    private void HandleBehaviourChanged(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour)
-    {
-        if (!animatronicRegistry.TryGetAnimatronic(who, out Animatronic animatronic)) return;
-        if (animatronic.GetCurrentLocation() != activeCamera) return;
+        if (location != activeCamera) return;
 
         renderCache.Remove(who);
         RemoveCharacterFromDisplay(who);
         AddCharacterToDisplay(who, newBehaviour);
     }
 
-    private void HandleAnimatronicMovement(CharacterName who, LocName from, LocName to)
+    public void HandleAnimatronicMovement(CharacterName who, LocName from, LocName to, BehaviourName behaviour)
     {
+        animatronicStates[who] = new AnimatronicState { Location = to, Behaviour = behaviour };
         renderCache.Remove(who);
-
-        if (!animatronicRegistry.TryGetAnimatronic(who, out Animatronic animatronic)) return;
-        BehaviourName behaviour = animatronic.GetCurrentBehaviour();
 
         if (to == activeCamera)
             AddCharacterToDisplay(who, behaviour);
@@ -109,7 +96,7 @@ public class CameraDisplayManager : MonoBehaviour
             RemoveCharacterFromDisplay(who);
     }
 
-    private void HandleCameraRoomChanged(LocName newRoom)
+    public void HandleCameraRoomChanged(LocName newRoom)
     {
         ClearDisplay();
 
@@ -119,21 +106,20 @@ public class CameraDisplayManager : MonoBehaviour
 
         if (thisRoomCameraData == null)
         {
-            // Debug.LogWarning($"{name}: Could not find RoomCameraData for location: {newRoom}");
             return;
         }
 
-        backgroundLayer.sprite = thisRoomCameraData.backgroundSprite;
+        roomRenderImage.sprite = thisRoomCameraData.backgroundSprite;
 
         AddCharactersToDisplay();
     }
 
     private void AddCharactersToDisplay()
     {
-        foreach (Animatronic anim in animatronicRegistry.Animatronics)
+        foreach (var kvp in animatronicStates)
         {
-            if (anim.GetCurrentLocation() == activeCamera)
-                AddCharacterToDisplay(anim.GetCharacterName(), anim.GetCurrentBehaviour());
+            if (kvp.Value.Location == activeCamera)
+                AddCharacterToDisplay(kvp.Key, kvp.Value.Behaviour);
         }
     }
 
@@ -160,7 +146,6 @@ public class CameraDisplayManager : MonoBehaviour
 
         if (availableLayers.Count == 0)
         {
-            // Debug.LogWarning($"{name}: No available layers to display {animName}.");
             return;
         }
 

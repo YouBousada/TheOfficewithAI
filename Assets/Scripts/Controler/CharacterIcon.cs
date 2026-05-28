@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class CharacterIcon : MonoBehaviour
@@ -7,7 +8,7 @@ public class CharacterIcon : MonoBehaviour
 
     [SerializeField] private Sprite greenSprite;
     [SerializeField] private Sprite redSprite;
-    [SerializeField] private AIEvents aiMonitor;
+    [SerializeField] private AiMonitor aiMonitor;
 
     [SerializeField] private CharacterUIPositions positions;
 
@@ -24,11 +25,11 @@ public class CharacterIcon : MonoBehaviour
         aiMonitor.OnBehaviourChanged += HandleBehaviourChange;
         aiMonitor.OnInitialization += (who, location, behaviour, job) =>
         {
-            HandleRoomChange(who, location, location);
+            HandleRoomChange(who, location, location, behaviour);
         };
     }
 
-    private void HandleRoomChange(CharacterName who, LocName from, LocName to)
+    private void HandleRoomChange(CharacterName who, LocName from, LocName to, BehaviourName behaviour)
     {
         if (!(who == thisCharacterName))
         {
@@ -90,7 +91,7 @@ public class CharacterIcon : MonoBehaviour
         }
     }
         
-    private void HandleBehaviourChange(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour)
+    private void HandleBehaviourChange(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour, LocName location)
     {
         if (!(who == thisCharacterName))
         {
@@ -129,7 +130,9 @@ public class CharacterIcon : MonoBehaviour
         aiMonitor.OnBehaviourChanged -= HandleBehaviourChange;
         aiMonitor.OnInitialization -= (who, location, behaviour, job) =>
         {
-            HandleRoomChange(who, location, location);
+            HandleRoomChange(who, location, location, behaviour);
         };
     }
+
+
 }

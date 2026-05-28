@@ -2,7 +2,7 @@ using UnityEngine;
 
 public abstract class BaseJob : IJobRequirements
 {
-    protected AIEvents aiMonitor;
+    protected AiMonitor aiMonitor;
     protected Office officeStates;
     protected Player player;
     protected CameraSystem cameraSystem;
@@ -61,7 +61,7 @@ public abstract class BaseJob : IJobRequirements
         LocName oldlocation = currentLoc;
         LocName newLocation = CalculateNextPos();
         currentLoc = newLocation;
-        aiMonitor.HandleLocationChange(profile.characterName, oldlocation, currentLoc);
+        aiMonitor.HandleLocationChange(profile.characterName, oldlocation, currentLoc, currentBehaviour);
     }
 
     public void SwitchToBehaviour(BehaviourName newBehaviour)
@@ -73,7 +73,7 @@ public abstract class BaseJob : IJobRequirements
             return;
         }
 
-        aiMonitor.HandleBehaviourChange(profile.characterName, oldBehaviour, newBehaviour);
+        aiMonitor.HandleBehaviourChange(profile.characterName, oldBehaviour, newBehaviour, currentLoc);
     }
 
     public void KillPlayer()

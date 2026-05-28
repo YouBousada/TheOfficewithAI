@@ -5,7 +5,7 @@ public abstract class OverLayObject : MonoBehaviour
 {
     [Header("OverLayObject requirements")]
     [SerializeField] protected Player player;
-    [SerializeField] protected AIEvents aiMonitor;
+    [SerializeField] protected AiMonitor aiMonitor;
     [SerializeField] private List<ViewName> viewsICanBeActiveIn = new();
     [SerializeField] protected bool hideUponJumpscare = true;
     private bool hasHandledViewChange;

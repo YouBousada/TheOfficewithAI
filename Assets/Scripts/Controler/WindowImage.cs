@@ -144,7 +144,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
             RefreshWindowSprite();
     }
 
-    void RespondToMovement(CharacterName who, LocName from, LocName to)
+    void RespondToMovement(CharacterName who, LocName from, LocName to, BehaviourName behaviour)
     {
         if (IsInActiveView || from == thisWindowDoor || to == thisWindowDoor)
             RefreshWindowSprite();
