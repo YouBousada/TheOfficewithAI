@@ -30,7 +30,21 @@ public class UnderDeskViewController : GenericOfficeViewController
     protected override void Awake()
     {
         base.Awake();
-        puzzleMaster.OnRoomStateChanged += RenderViewBasedOnWorldState_Concrete;
+        if (drawerBothClosed == null)    Debug.LogWarning($"{name}: drawerBothClosed is not assigned.", this);
+        if (drawerBothOpen == null)      Debug.LogWarning($"{name}: drawerBothOpen is not assigned.", this);
+        if (drawerOnlyTopOpen == null)   Debug.LogWarning($"{name}: drawerOnlyTopOpen is not assigned.", this);
+        if (drawerOnlyBottomOpen == null) Debug.LogWarning($"{name}: drawerOnlyBottomOpen is not assigned.", this);
+        if (topDrawerButton == null)     Debug.LogWarning($"{name}: topDrawerButton is not assigned.", this);
+        if (bottomDrawerButton == null)  Debug.LogWarning($"{name}: bottomDrawerButton is not assigned.", this);
+        if (takeBluePaper == null)       Debug.LogWarning($"{name}: takeBluePaper is not assigned.", this);
+        if (takeYellowPaper == null)     Debug.LogWarning($"{name}: takeYellowPaper is not assigned.", this);
+        if (takeGreenPaper == null)      Debug.LogWarning($"{name}: takeGreenPaper is not assigned.", this);
+        if (bluePaper == null)           Debug.LogWarning($"{name}: bluePaper is not assigned.", this);
+        if (yellowPaper == null)         Debug.LogWarning($"{name}: yellowPaper is not assigned.", this);
+        if (greenPaper == null)          Debug.LogWarning($"{name}: greenPaper is not assigned.", this);
+        if (bluePaperObj == null)        Debug.LogWarning($"{name}: bluePaperObj is not assigned.", this);
+        if (yellowPaperObj == null)      Debug.LogWarning($"{name}: yellowPaperObj is not assigned.", this);
+        if (greenPaperObj == null)       Debug.LogWarning($"{name}: greenPaperObj is not assigned.", this);
     }
 
     protected override void RenderViewBasedOnWorldState_Concrete()

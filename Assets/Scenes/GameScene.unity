@@ -215,7 +215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 04000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -505,12 +506,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 06000000
   hideUponJumpscare: 1
   startsAvailable: 0
   command: {fileID: 11400000, guid: 3df878503dc099747aebee90fa0e80b8, type: 2}
   AllowedItemsInHandToUse: []
+  commandContext: {fileID: 1108953928}
 --- !u!114 &33531486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -970,7 +973,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 02000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -1180,7 +1184,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 03000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -1397,7 +1402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 01000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -1627,7 +1633,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 03000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -1765,7 +1772,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 01000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -1903,7 +1911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 04000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -2084,7 +2093,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df31a6292eff6124ea7eac9ba9e99cc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 06000000
   hideUponJumpscare: 1
 --- !u!1 &321361425
@@ -2138,7 +2148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 0700000006000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -2276,12 +2287,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 06000000
   hideUponJumpscare: 1
   startsAvailable: 0
   command: {fileID: 11400000, guid: 2b21cc40aef27da4eb7c52357b15e940, type: 2}
   AllowedItemsInHandToUse: []
+  commandContext: {fileID: 1108953928}
 --- !u!114 &346322541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2529,7 +2542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 0500000006000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -2578,7 +2592,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658610bb5ff5c3242aa66205fb43a4b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  cameraSystem: {fileID: 19047313}
+  aiMonitor: {fileID: 161621954}
+  animatronicRegistry: {fileID: 1108953928}
   totalCameraData: {fileID: 11400000, guid: 92813326c393faf40ac7516f2ce12ca0, type: 2}
   characterLayers:
   - {fileID: 597195379}
@@ -2720,12 +2736,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 02000000
   hideUponJumpscare: 1
   startsAvailable: 0
   command: {fileID: 11400000, guid: 6527f57429278414fbb4e82d2cf52fc9, type: 2}
   AllowedItemsInHandToUse: []
+  commandContext: {fileID: 0}
 --- !u!1 &404973572
 GameObject:
   m_ObjectHideFlags: 0
@@ -2907,7 +2925,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 01000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -2956,7 +2975,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0d87a964c0c62a4eab966bbcdfcf506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
+  puzzleMaster: {fileID: 404973574}
   backgroundImage: {fileID: 293875264}
   thisViewName: 7
   thisViewJumpscareData: {fileID: 11400000, guid: a4f3e4eb33b51ca41ae817a39bc5421d, type: 2}
@@ -3143,7 +3164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   thisRoom: 3
@@ -3302,7 +3324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 687bce385bd09d54c92e561b82fd6d74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
+  puzzleMaster: {fileID: 404973574}
   backgroundImage: {fileID: 293875264}
   thisViewName: 3
   doorViewJumpscareData: {fileID: 11400000, guid: 31beb39217823f64e983ab6aab28b99a, type: 2}
@@ -3312,6 +3336,7 @@ MonoBehaviour:
   DoorOpenImage: {fileID: 21300000, guid: 1523378d398a878419e31a9af52689b6, type: 3}
   CloseButton: {fileID: 998350789}
   OpenButton: {fileID: 1185421252}
+  office: {fileID: 1805175351}
 --- !u!1 &591776846
 GameObject:
   m_ObjectHideFlags: 0
@@ -3363,12 +3388,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 06000000
   hideUponJumpscare: 1
   startsAvailable: 1
   command: {fileID: 11400000, guid: a9b1e4d8c2c4c6546b31186f29606f5f, type: 2}
   AllowedItemsInHandToUse: []
+  commandContext: {fileID: 0}
 --- !u!114 &591776849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3584,7 +3611,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 02000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -3809,7 +3837,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   thisRoom: 2
@@ -3913,7 +3942,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee84cbdc5c5e224284966bd9d59ec2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 03000000
   hideUponJumpscare: 0
   thisWindowDoor: 14
@@ -3923,6 +3953,7 @@ MonoBehaviour:
   foxyAtThisWindow: {fileID: 21300000, guid: 4a5ea95affc625c4f8846f10dc229cd8, type: 3}
   freddyAtThisWindow: {fileID: 21300000, guid: 2368e4932fb860246a270ebebb740363, type: 3}
   jumpscareData: {fileID: 11400000, guid: 04e157f8a7b11874ea3cf744e1fdf7e8, type: 2}
+  animatronicRegistry: {fileID: 1108953928}
 --- !u!114 &661298742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4331,7 +4362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 01000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -4602,7 +4634,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   thisRoom: 9
@@ -4984,12 +5017,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 03000000
   hideUponJumpscare: 1
   startsAvailable: 1
   command: {fileID: 11400000, guid: 8db70f2077c1e7b4ea00d4135cac7ab3, type: 2}
   AllowedItemsInHandToUse: []
+  commandContext: {fileID: 0}
 --- !u!1 &1025727863
 GameObject:
   m_ObjectHideFlags: 0
@@ -5135,7 +5170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   thisRoom: 1
@@ -5190,13 +5226,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92e08e9c4fd5d1b4789b77aa5d676e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 0100000005000000
   hideUponJumpscare: 1
   deskPosition: {fileID: 11400000, guid: 776a6b8a8c8e99549ae515419f29ed4a, type: 2}
   closePosition: {fileID: 11400000, guid: 7d6d9099d11e7be44899080eea399f3d, type: 2}
   rect: {fileID: 1040319359}
-  image: {fileID: 0}
 --- !u!114 &1040319361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5416,12 +5452,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 06000000
   hideUponJumpscare: 1
   startsAvailable: 0
   command: {fileID: 11400000, guid: 1e6f1a0b18599034e86ef420f89d559a, type: 2}
   AllowedItemsInHandToUse: []
+  commandContext: {fileID: 1108953928}
 --- !u!114 &1092147991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5596,7 +5634,7 @@ MonoBehaviour:
   bothDoorsClosed: {fileID: -983378228, guid: 9ee96c1a3ccbfe5438732c34867672f3, type: 3}
   rightDoorClosed: {fileID: -1252317676, guid: 9ee96c1a3ccbfe5438732c34867672f3, type: 3}
   leftDoorClosed: {fileID: -1292491731, guid: 9ee96c1a3ccbfe5438732c34867672f3, type: 3}
-  gameContext: {fileID: 1108953928}
+  office: {fileID: 1805175351}
 --- !u!1 &1108953927
 GameObject:
   m_ObjectHideFlags: 0
@@ -5645,11 +5683,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1805175352}
+  - {fileID: 404973573}
   - {fileID: 825810209}
   - {fileID: 161621955}
   - {fileID: 19047314}
   - {fileID: 43198325}
-  - {fileID: 404973573}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1144237679
@@ -5785,12 +5823,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 02000000
   hideUponJumpscare: 1
   startsAvailable: 1
   command: {fileID: 11400000, guid: eea317d5d57ebfb458b848132f6d71f7, type: 2}
   AllowedItemsInHandToUse: []
+  commandContext: {fileID: 0}
 --- !u!1 &1185421246
 GameObject:
   m_ObjectHideFlags: 0
@@ -5924,12 +5964,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 03000000
   hideUponJumpscare: 1
   startsAvailable: 0
   command: {fileID: 11400000, guid: 9a84ca3ce9a5ec542a791b0b6a64a384, type: 2}
   AllowedItemsInHandToUse: []
+  commandContext: {fileID: 0}
 --- !u!1 &1205916566
 GameObject:
   m_ObjectHideFlags: 0
@@ -5981,12 +6023,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 06000000
   hideUponJumpscare: 1
   startsAvailable: 1
   command: {fileID: 11400000, guid: abcc181bfb09d71459ba6f078907b37b, type: 2}
   AllowedItemsInHandToUse: []
+  commandContext: {fileID: 1108953928}
 --- !u!114 &1205916569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6068,156 +6112,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205916566}
-  m_CullTransparentMesh: 1
---- !u!1 &1254783344
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1254783345}
-  - component: {fileID: 1254783349}
-  - component: {fileID: 1254783348}
-  - component: {fileID: 1254783347}
-  - component: {fileID: 1254783346}
-  m_Layer: 5
-  m_Name: NONE
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1254783345
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254783344}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1746211845}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -591, y: -438}
-  m_SizeDelta: {x: 149.2795, y: 118.7149}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1254783346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254783344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
-  viewsICanBeActiveIn: 
-  hideUponJumpscare: 1
-  thisRoom: 16
-  cameraSystem: {fileID: 19047313}
---- !u!114 &1254783347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254783344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 0, g: 0.022322632, b: 0.3962264, a: 1}
-    m_HighlightedColor: {r: 0, g: 1, b: 0.8666668, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0, g: 1, b: 0.8916161, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1254783348}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1254783346}
-        m_TargetAssemblyTypeName: CameraButton, Assembly-CSharp
-        m_MethodName: OnButtonPressed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1254783348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254783344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.25490198}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1254783349
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254783344}
   m_CullTransparentMesh: 1
 --- !u!1 &1281794961
 GameObject:
@@ -6364,7 +6258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   thisRoom: 0
@@ -6554,7 +6449,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26fe37e9e5e9b9546bb57c552195b1d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
+  puzzleMaster: {fileID: 404973574}
   backgroundImage: {fileID: 293875264}
   thisViewName: 2
   doorViewJumpscareData: {fileID: 11400000, guid: a2476f580f421974688f0c2b7b0d6e99, type: 2}
@@ -6564,6 +6461,7 @@ MonoBehaviour:
   DoorOpenImage: {fileID: 21300000, guid: 43af86f697935cb4ea3b503d6906fe24, type: 3}
   CloseButton: {fileID: 1144237685}
   OpenButton: {fileID: 393995723}
+  office: {fileID: 1805175351}
 --- !u!1 &1313046238
 GameObject:
   m_ObjectHideFlags: 0
@@ -6603,7 +6501,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313046238}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e4915e1677407b4f8aaef0777617d19, type: 3}
   m_Name: 
@@ -6641,7 +6539,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40376eae79511914994ce7a61fcb9ca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
+  puzzleMaster: {fileID: 404973574}
   backgroundImage: {fileID: 293875264}
   thisViewName: 1
   thisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
@@ -6740,7 +6640,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632f0ac13b3433e4ab6fffa6e9eef36e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
+  puzzleMaster: {fileID: 404973574}
   backgroundImage: {fileID: 293875264}
   thisViewName: 6
   thisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
@@ -6810,7 +6712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   thisRoom: 8
@@ -7054,7 +6957,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   thisRoom: 10
@@ -7110,7 +7014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 07000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -7119,6 +7024,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 32335d65109049a498d87318b5f84dfd, type: 2}
   - {fileID: 11400000, guid: 6bf5615e6f5b735479e37afeb26aedc4, type: 2}
   - {fileID: 11400000, guid: 1c68921d47ee00f4484e7e80be1dbea7, type: 2}
+  commandContext: {fileID: 1108953928}
 --- !u!114 &1519420100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7474,7 +7380,6 @@ RectTransform:
   m_LocalScale: {x: 0.538, y: 0.577, z: 277}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1254783345}
   - {fileID: 1281794962}
   - {fileID: 1982178823}
   - {fileID: 1984322059}
@@ -7647,7 +7552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee84cbdc5c5e224284966bd9d59ec2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 02000000
   hideUponJumpscare: 0
   thisWindowDoor: 13
@@ -7657,6 +7563,7 @@ MonoBehaviour:
   foxyAtThisWindow: {fileID: 21300000, guid: fb7060fa0133d3f44b3165c432c49593, type: 3}
   freddyAtThisWindow: {fileID: 21300000, guid: 8ccc44823ec8ce145b6379d514d665e3, type: 3}
   jumpscareData: {fileID: 11400000, guid: 2fb6d337e7754984f99d305cb99e7338, type: 2}
+  animatronicRegistry: {fileID: 1108953928}
 --- !u!114 &1759411986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7852,7 +7759,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   thisRoom: 12
@@ -7945,7 +7853,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00324b0b88c37f6488248ebbb3fda962, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
+  puzzleMaster: {fileID: 404973574}
   backgroundImage: {fileID: 293875264}
   thisViewName: 4
   thisViewJumpscareData: {fileID: 11400000, guid: a4f3e4eb33b51ca41ae817a39bc5421d, type: 2}
@@ -8086,7 +7996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f2bdf24e8d9d04d877a3adb72ec87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 04000000
   hideUponJumpscare: 1
   startsAvailable: 1
@@ -8347,7 +8258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   thisRoom: 5
@@ -8497,7 +8409,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   thisRoom: 6
@@ -8626,7 +8539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df31a6292eff6124ea7eac9ba9e99cc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 06000000
   hideUponJumpscare: 1
 --- !u!1 &2076133059
@@ -8748,7 +8662,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28d8e991e2400fe42a0d4105900a8d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
+  puzzleMaster: {fileID: 404973574}
   backgroundImage: {fileID: 293875264}
   thisViewName: 5
   thisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
@@ -8898,7 +8814,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db46881a1428342a43f46946f0690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   thisRoom: 11
@@ -8991,7 +8908,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df31a6292eff6124ea7eac9ba9e99cc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameContext: {fileID: 1108953928}
+  player: {fileID: 825810208}
+  aiMonitor: {fileID: 161621954}
   viewsICanBeActiveIn: 06000000
   hideUponJumpscare: 1
 --- !u!1660057539 &9223372036854775807

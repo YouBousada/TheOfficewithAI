@@ -2,8 +2,8 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Commands/Use Paper")]
 public class UsePaper : PlayerCommand
 {
-    protected override void Execute_Concrete(ICommandContext ctx)
+    protected override void Execute_Concrete(Player player, Office office, PuzzleMaster puzzleMaster)
     {
-        ctx.puzzleMaster.ChangeWallWithItem(ctx.Player.itemInHand);
+        puzzleMaster.ChangeWallWithItem(player.itemInHand);
     }
 }

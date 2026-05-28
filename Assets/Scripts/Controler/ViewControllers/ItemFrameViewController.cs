@@ -11,7 +11,10 @@ public class ItemFrameViewController : GenericOfficeViewController
     protected override void Awake()
     {
         base.Awake();
-        puzzleMaster.OnRoomStateChanged += RenderViewBasedOnWorldState_Concrete;
+        if (nothingSprite == null) Debug.LogWarning($"{name}: nothingSprite is not assigned.", this);
+        if (greenSprite == null)   Debug.LogWarning($"{name}: greenSprite is not assigned.", this);
+        if (blueSprite == null)    Debug.LogWarning($"{name}: blueSprite is not assigned.", this);
+        if (yellowSprite == null)  Debug.LogWarning($"{name}: yellowSprite is not assigned.", this);
     }
 
     protected override void RenderViewBasedOnWorldState_Concrete()

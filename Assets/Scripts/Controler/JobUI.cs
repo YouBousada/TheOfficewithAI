@@ -9,6 +9,10 @@ public class JobUI : MonoBehaviour
 
     void Awake()
     {
+        if (label == null)     Debug.LogWarning($"{name}: label is not assigned.", this);
+        if (aiMonitor == null) Debug.LogWarning($"{name}: aiMonitor is not assigned.", this);
+
+        if (aiMonitor == null) return;
         aiMonitor.OnInitialization += HandleInit;
         aiMonitor.OnJobSwitched += HandleJobSwitch;
     }

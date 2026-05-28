@@ -31,6 +31,11 @@ public class Player : MonoBehaviour
     {
         Instance = this;
         IsInspectingItem = false;
+
+        if (inventoryIconPrefab == null)  Debug.LogWarning($"{name}: inventoryIconPrefab is not assigned.", this);
+        if (inventoryContainer == null)   Debug.LogWarning($"{name}: inventoryContainer is not assigned.", this);
+        if (inspectionContainer == null)  Debug.LogWarning($"{name}: inspectionContainer is not assigned.", this);
+
         SetView(startingView);
     }
 

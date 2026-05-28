@@ -2,11 +2,11 @@ using System.Collections.Generic;
 
 public class JobArbiter
 {
-    private readonly GameContext gameContext;
+    private readonly AnimatronicRegistry animatronicRegistry;
 
-    public JobArbiter(GameContext gameContext)
+    public JobArbiter(AnimatronicRegistry animatronicRegistry)
     {
-        this.gameContext = gameContext;
+        this.animatronicRegistry = animatronicRegistry;
     }
 
     public bool ApproveJobSwitch(CharacterName character, JobName toJob)
@@ -14,7 +14,7 @@ public class JobArbiter
         var jobCounts = new Dictionary<JobName, int>();
         JobName currentJob = JobName.NONE;
 
-        foreach (Animatronic anim in gameContext.Animatronics)
+        foreach (Animatronic anim in animatronicRegistry.Animatronics)
         {
             var job = anim.GetCurrentJobName();
             jobCounts[job] = jobCounts.GetValueOrDefault(job, 0) + 1;

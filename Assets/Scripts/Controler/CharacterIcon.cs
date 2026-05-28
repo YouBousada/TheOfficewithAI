@@ -13,6 +13,13 @@ public class CharacterIcon : MonoBehaviour
 
     private void Awake()
     {
+        if (characterIcon == null) Debug.LogWarning($"{name}: characterIcon is not assigned.", this);
+        if (aiMonitor == null)     Debug.LogWarning($"{name}: aiMonitor is not assigned.", this);
+        if (positions == null)     Debug.LogWarning($"{name}: positions is not assigned.", this);
+        if (greenSprite == null)   Debug.LogWarning($"{name}: greenSprite is not assigned.", this);
+        if (redSprite == null)     Debug.LogWarning($"{name}: redSprite is not assigned.", this);
+
+        if (aiMonitor == null) return;
         aiMonitor.OnLocationChanged += HandleRoomChange;
         aiMonitor.OnBehaviourChanged += HandleBehaviourChange;
         aiMonitor.OnInitialization += (who, location, behaviour, job) =>

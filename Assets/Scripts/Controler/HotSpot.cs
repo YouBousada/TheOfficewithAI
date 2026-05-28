@@ -29,7 +29,7 @@ public abstract class HotSpot : OverLayObject
     protected override void Start()
     {
         base.Start();
-
+        if (player == null) return;
         player.OnActionPerformed += HandlePlayerAction;
     }
 

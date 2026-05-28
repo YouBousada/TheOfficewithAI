@@ -65,7 +65,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
 
     public void PlayRedLightGreenLight()
     {
-        if (gameContext.CameraSystem.ActiveCamera != currentLoc)
+        if (cameraSystem.ActiveCamera != currentLoc)
         {
             ReactToOthers();
             MovementTimer -= Time.deltaTime;

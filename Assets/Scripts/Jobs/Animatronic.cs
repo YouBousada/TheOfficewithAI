@@ -3,7 +3,11 @@ using UnityEngine;
 
 public struct JobNecessities
 {
-    public GameContext gameContext;
+    public AIEvents aiMonitor;
+    public Office officeStates;
+    public Player player;
+    public CameraSystem cameraSystem;
+    public AnimatronicRegistry animatronicRegistry;
     public MapGraphs mapGraphs;
     public CharacterProfile givenProfile;
     public LocName LastLocation;
@@ -18,12 +22,17 @@ public class AnimatronicMemory
 
 public class Animatronic : MonoBehaviour
 {
-    [SerializeField] private GameContext gameContext;
+    [Header("Animatronic requirements")]
+    [SerializeField] private AnimatronicRegistry animatronicRegistry;
+    [SerializeField] private AIEvents aiMonitor;
+    [SerializeField] private Office officeStates;
+    [SerializeField] private Player player;
+    [SerializeField] private CameraSystem cameraSystem;
     [SerializeField] private MapGraphs mapGraphs;
     [SerializeField] private CharacterProfile profile;
     [SerializeField] private int Ailevel;
 
-    private BaseJob myJob; 
+    private BaseJob myJob;
     private LocName recordedLoc;
     private JobNecessities necessities;
     private AnimatronicMemory memories;
@@ -32,58 +41,57 @@ public class Animatronic : MonoBehaviour
 
     void Awake()
     {
-        if (gameContext == null || mapGraphs == null || profile == null)
-        {
-            Debug.LogError($"{name}: Missing references on Animatronic.");
-        }
+        if (animatronicRegistry == null) Debug.LogWarning($"{name}: animatronicRegistry is not assigned.", this);
+        if (aiMonitor == null)    Debug.LogWarning($"{name}: aiMonitor is not assigned.", this);
+        if (officeStates == null) Debug.LogWarning($"{name}: officeStates is not assigned.", this);
+        if (player == null)       Debug.LogWarning($"{name}: player is not assigned.", this);
+        if (cameraSystem == null) Debug.LogWarning($"{name}: cameraSystem is not assigned.", this);
+        if (mapGraphs == null)    Debug.LogWarning($"{name}: mapGraphs is not assigned.", this);
+        if (profile == null)      Debug.LogWarning($"{name}: profile is not assigned.", this);
 
-        recordedLoc = profile.nightStartingRoom;
-
-        gameContext.RegisterAnimatronic(profile.characterName, this);
+        if (profile != null) recordedLoc = profile.nightStartingRoom;
+        if (animatronicRegistry != null && profile != null)
+            animatronicRegistry.RegisterAnimatronic(profile.characterName, this);
     }
 
     void OnEnable()
     {
-        gameContext.AIMonitor.OnJobSwitched += HandleSwitchRequest;
-
-        gameContext.AIMonitor.OnLocationChanged += HandleLocationChange;
-
-        gameContext.AIMonitor.OnDeath += HandleDeath;
-
+        if (aiMonitor == null) return;
+        aiMonitor.OnJobSwitched += HandleSwitchRequest;
+        aiMonitor.OnLocationChanged += HandleLocationChange;
+        aiMonitor.OnDeath += HandleDeath;
     }
 
     void OnDisable()
     {
-        gameContext.AIMonitor.OnJobSwitched -= HandleSwitchRequest;
-
-        gameContext.AIMonitor.OnLocationChanged -= HandleLocationChange;
-
-        gameContext.AIMonitor.OnDeath -= HandleDeath;
+        if (aiMonitor == null) return;
+        aiMonitor.OnJobSwitched -= HandleSwitchRequest;
+        aiMonitor.OnLocationChanged -= HandleLocationChange;
+        aiMonitor.OnDeath -= HandleDeath;
     }
+
     void Start()
     {
         var defaultJob = GetDefaultJobForThisChar();
 
-        memories = new AnimatronicMemory
-        {
-            lastFailedDoor = DoorName.NONE
-        };
+        memories = new AnimatronicMemory { lastFailedDoor = DoorName.NONE };
 
         necessities = new JobNecessities
         {
-            gameContext = gameContext,
-            mapGraphs = mapGraphs,
-            givenProfile = profile,
-            LastLocation = recordedLoc,
-            memories = memories,
-            aiLevel = Ailevel
+            aiMonitor          = aiMonitor,
+            officeStates       = officeStates,
+            player             = player,
+            cameraSystem       = cameraSystem,
+            animatronicRegistry = animatronicRegistry,
+            mapGraphs          = mapGraphs,
+            givenProfile       = profile,
+            LastLocation       = recordedLoc,
+            memories           = memories,
+            aiLevel            = Ailevel
         };
-        
-        if(myJob == null)
-        {
-            myJob = JobFactory.Create(defaultJob, necessities, false);
-        }
 
+        if (myJob == null)
+            myJob = JobFactory.Create(defaultJob, necessities, false);
     }
     private JobName GetDefaultJobForThisChar()
     {
@@ -181,11 +189,11 @@ public class Animatronic : MonoBehaviour
     }
     void OnDestroy()
     {
-        if (gameContext?.AIMonitor != null)
-            gameContext.AIMonitor.OnJobSwitched -= HandleSwitchRequest;
+        if (aiMonitor != null)
+            aiMonitor.OnJobSwitched -= HandleSwitchRequest;
 
-        if (gameContext != null && profile != null)
-            gameContext.UnregisterAnimatronic(profile.characterName, this);
+        if (animatronicRegistry != null && profile != null)
+            animatronicRegistry.UnregisterAnimatronic(profile.characterName, this);
     }
     
 }

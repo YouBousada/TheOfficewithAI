@@ -14,6 +14,13 @@ public class MapUI : MonoBehaviour
     void Awake()
     {
         img = GetComponent<Image>();
+        if (office == null)          Debug.LogWarning($"{name}: office is not assigned.", this);
+        if (bothDoorsOpen == null)   Debug.LogWarning($"{name}: bothDoorsOpen is not assigned.", this);
+        if (bothDoorsClosed == null) Debug.LogWarning($"{name}: bothDoorsClosed is not assigned.", this);
+        if (rightDoorClosed == null) Debug.LogWarning($"{name}: rightDoorClosed is not assigned.", this);
+        if (leftDoorClosed == null)  Debug.LogWarning($"{name}: leftDoorClosed is not assigned.", this);
+
+        if (office == null) return;
         office.OnDoorStateChanged += Refresh;
     }
 

@@ -13,6 +13,8 @@ public class HeldItemImage : MonoBehaviour
         heldItemImage = GetComponent<Image>();
         heldItemImage.preserveAspect = true;
         canvas = GetComponentInParent<Canvas>();
+
+        if (player == null) Debug.LogWarning($"{name}: player is not assigned.", this);
     }
 
     void Update() {

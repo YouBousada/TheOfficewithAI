@@ -4,7 +4,6 @@ using System;
 public class Office : MonoBehaviour
 {
     public static Office Instance { get; private set; }
-
     public float Power { get; private set; } = 1000f;
     public bool LeftDoorIsOpen { get; private set; }
     public bool RightDoorIsOpen { get; private set; }
@@ -94,7 +93,7 @@ public class Office : MonoBehaviour
         GUIStyle style = new(GUI.skin.label) { fontSize = 20 };
         style.normal.textColor = Color.green;
         GUI.Label(new Rect(10, 10, 300, 40), $"Power: {Power}", style);
-        GUI.Label(new Rect(10, 50, 300, 40), $"Left Door: {LeftDoorIsOpen}", style);
-        GUI.Label(new Rect(10, 90, 300, 40), $"Right Door: {RightDoorIsOpen}", style);
+        GUI.Label(new Rect(10, 50, 300, 40), $"LeftDoorIsOpen: {LeftDoorIsOpen}", style);
+        GUI.Label(new Rect(10, 90, 300, 40), $"RightDoorIsOpen: {RightDoorIsOpen}", style);
     }
 }

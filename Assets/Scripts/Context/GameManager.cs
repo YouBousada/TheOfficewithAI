@@ -6,7 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    private GameContext gameContext;
+    private AIEvents aiMonitor;
+    private Office officeStates;
     [SerializeField] private float gameOverDelay;
 
     void Awake()
@@ -20,19 +21,14 @@ public class GameManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (gameContext != null)
-        {
-            gameContext.AIMonitor.OnDeath -= HandleDeath;
-            gameContext.OfficeStates.OnPowerOutage -= HandlePowerOut;
-        }
+        if (aiMonitor != null)    aiMonitor.OnDeath -= HandleDeath;
+        if (officeStates != null) officeStates.OnPowerOutage -= HandlePowerOut;
 
-        gameContext = GameContext.Instance;
+        aiMonitor    = AIEvents.Instance;
+        officeStates = Office.Instance;
 
-        if (gameContext != null)
-        {
-            gameContext.AIMonitor.OnDeath += HandleDeath;
-            gameContext.OfficeStates.OnPowerOutage += HandlePowerOut;
-        }
+        if (aiMonitor != null)    aiMonitor.OnDeath += HandleDeath;
+        if (officeStates != null) officeStates.OnPowerOutage += HandlePowerOut;
     }
 
     private void GoToGameOverScene()
@@ -64,8 +60,7 @@ public class GameManager : MonoBehaviour
     void OnDestroy()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
-        if (gameContext != null)
-            gameContext.AIMonitor.OnDeath -= HandleDeath;
-            gameContext.OfficeStates.OnPowerOutage -= HandlePowerOut;
+        if (aiMonitor != null)    aiMonitor.OnDeath -= HandleDeath;
+        if (officeStates != null) officeStates.OnPowerOutage -= HandlePowerOut;
     }
 }

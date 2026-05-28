@@ -21,7 +21,7 @@ public class CameraDisplayManager : MonoBehaviour
     [Header("Dependencies")]
     [SerializeField] private CameraSystem cameraSystem;
     [SerializeField] private AIEvents aiMonitor;
-    [SerializeField] private GameContext animatronicRegistry;
+    [SerializeField] private AnimatronicRegistry animatronicRegistry;
     [SerializeField] private TotalCameraData totalCameraData;
 
     [Header("Camera View Layers")]
@@ -39,12 +39,14 @@ public class CameraDisplayManager : MonoBehaviour
 
     private void Awake()
     {
-        // if (gameContext == null) Debug.LogError($"{name}: GameContext is not assigned.", this);
-        // if (totalCameraData == null) Debug.LogError($"{name}: TotalCameraData is not assigned.", this);
-        // if (backgroundLayer == null) Debug.LogError($"{name}: Background layer is not assigned.", this);
-        // if (emptySprite == null) Debug.LogError($"{name}: Empty sprite is not assigned.", this);
-        // if (characterLayers == null || characterLayers.Count < 4)
-        //     Debug.LogError($"{name}: At least 4 character layers required, only {characterLayers?.Count ?? 0} assigned.", this);
+        if (cameraSystem == null)         Debug.LogWarning($"{name}: cameraSystem is not assigned.", this);
+        if (aiMonitor == null)            Debug.LogWarning($"{name}: aiMonitor is not assigned.", this);
+        if (animatronicRegistry == null)  Debug.LogWarning($"{name}: animatronicRegistry is not assigned.", this);
+        if (totalCameraData == null)      Debug.LogWarning($"{name}: totalCameraData is not assigned.", this);
+        if (backgroundLayer == null)      Debug.LogWarning($"{name}: backgroundLayer is not assigned.", this);
+        if (emptySprite == null)          Debug.LogWarning($"{name}: emptySprite is not assigned.", this);
+        if (characterLayers == null || characterLayers.Count == 0)
+            Debug.LogWarning($"{name}: characterLayers is not assigned.", this);
 
         camDisplay = new CamDisplayLayer[characterLayers.Count];
     }

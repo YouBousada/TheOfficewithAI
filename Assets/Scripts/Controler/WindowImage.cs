@@ -19,13 +19,21 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
     [SerializeField] private WindowJumpscareData jumpscareData;
 
     [Header("Animatronic Registry")]
-    [SerializeField] private GameContext animatronicRegistry;
+    [SerializeField] private AnimatronicRegistry animatronicRegistry;
 
     void Awake()
     {
         AddActiveViewForWindowDoor();
         UtilizeAnimationPlayer();
         Image = GetComponent<Image>();
+
+        if (noOneAtThisWindow == null)   Debug.LogWarning($"{name}: noOneAtThisWindow is not assigned.", this);
+        if (bonnieAtThisWindow == null)  Debug.LogWarning($"{name}: bonnieAtThisWindow is not assigned.", this);
+        if (chicaAtThisWindow == null)   Debug.LogWarning($"{name}: chicaAtThisWindow is not assigned.", this);
+        if (foxyAtThisWindow == null)    Debug.LogWarning($"{name}: foxyAtThisWindow is not assigned.", this);
+        if (freddyAtThisWindow == null)  Debug.LogWarning($"{name}: freddyAtThisWindow is not assigned.", this);
+        if (jumpscareData == null)       Debug.LogWarning($"{name}: jumpscareData is not assigned.", this);
+        if (animatronicRegistry == null) Debug.LogWarning($"{name}: animatronicRegistry is not assigned.", this);
     }
 
     void Reset()

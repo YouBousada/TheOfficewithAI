@@ -2,7 +2,11 @@ using UnityEngine;
 
 public abstract class BaseJob : IJobRequirements
 {
-    protected GameContext gameContext;
+    protected AIEvents aiMonitor;
+    protected Office officeStates;
+    protected Player player;
+    protected CameraSystem cameraSystem;
+    protected AnimatronicRegistry animatronicRegistry;
     protected MapGraphs mapGraphs;
     protected CharacterProfile profile;
     public LocName currentLoc;
@@ -20,14 +24,18 @@ public abstract class BaseJob : IJobRequirements
     {
         mapGraphs = necessities.mapGraphs;
         AiLevel = necessities.aiLevel;
-        gameContext = necessities.gameContext;
+        aiMonitor           = necessities.aiMonitor;
+        officeStates        = necessities.officeStates;
+        player              = necessities.player;
+        cameraSystem        = necessities.cameraSystem;
+        animatronicRegistry = necessities.animatronicRegistry;
         profile = necessities.givenProfile;
         currentLoc = necessities.LastLocation;
         memories = necessities.memories;
         currentBehaviour = InitialBehaviour;
         timeGenerator = new TimeGenerator();
         mapService = new MapService();
-        jobArbiter = new JobArbiter(gameContext);
+        jobArbiter = new JobArbiter(animatronicRegistry);
     }
     public abstract void PerformJob();
     public abstract LocName CalculateNextPos();
@@ -37,7 +45,7 @@ public abstract class BaseJob : IJobRequirements
 
     public void DeclareInitialization()
     {
-        gameContext.AIMonitor.HandleInitialization(profile.characterName, currentLoc, currentBehaviour, JobName);
+        aiMonitor.HandleInitialization(profile.characterName, currentLoc, currentBehaviour, JobName);
     }
     public bool AtADoor()
     {
@@ -45,7 +53,7 @@ public abstract class BaseJob : IJobRequirements
     }
     public bool TheDoorImAtIsClosed()
     {
-        if ((!gameContext.OfficeStates.LeftDoorIsOpen && currentLoc == LocName.WEST_DOOR) || (!gameContext.OfficeStates.RightDoorIsOpen && currentLoc == LocName.EAST_DOOR))
+        if ((!officeStates.LeftDoorIsOpen && currentLoc == LocName.WEST_DOOR) || (!officeStates.RightDoorIsOpen && currentLoc == LocName.EAST_DOOR))
         {
             return true;
         }
@@ -57,7 +65,7 @@ public abstract class BaseJob : IJobRequirements
         LocName oldlocation = currentLoc;
         LocName newLocation = CalculateNextPos();
         currentLoc = newLocation;
-        gameContext.AIMonitor.HandleLocationChange(profile.characterName, oldlocation, currentLoc);
+        aiMonitor.HandleLocationChange(profile.characterName, oldlocation, currentLoc);
     }
 
     public void SwitchToBehaviour(BehaviourName newBehaviour)
@@ -69,14 +77,14 @@ public abstract class BaseJob : IJobRequirements
             return;
         }
 
-        gameContext.AIMonitor.HandleBehaviourChange(profile.characterName, oldBehaviour, newBehaviour);
+        aiMonitor.HandleBehaviourChange(profile.characterName, oldBehaviour, newBehaviour);
     }
 
     public void KillPlayer()
     {
-        if (gameContext.Player.IsDead) return;
-        gameContext.Player.Die();
-        gameContext.AIMonitor.HandleDeath(profile.characterName, currentLoc);
+        if (player.IsDead) return;
+        player.Die();
+        aiMonitor.HandleDeath(profile.characterName, currentLoc);
     }
 
     public bool AttemptToSwitchJobs()
@@ -104,7 +112,7 @@ public abstract class BaseJob : IJobRequirements
 
         if (Random.value > JobSelectionChance) return false;
 
-        gameContext.AIMonitor.HandleJobSwitch(character, JobName, toJob);
+        aiMonitor.HandleJobSwitch(character, JobName, toJob);
         return true;
     }
 
@@ -116,7 +124,7 @@ public abstract class BaseJob : IJobRequirements
         }
         foreach (CharacterName disliked in profile.dislikedCharacters)
             {
-                if(gameContext.TryGetAnimatronic(disliked, out Animatronic dislikedAnim) && dislikedAnim.GetCurrentLocation() == currentLoc)
+                if(animatronicRegistry.TryGetAnimatronic(disliked, out Animatronic dislikedAnim) && dislikedAnim.GetCurrentLocation() == currentLoc)
                 {
                     MovementTimer -= Time.deltaTime * profile.socialRepelStrength;
                 }
@@ -132,7 +140,7 @@ public abstract class BaseJob : IJobRequirements
         }
         foreach (CharacterName liked in profile.likedCharacters)
             {
-                if(gameContext.TryGetAnimatronic(liked, out Animatronic likedAnim) && likedAnim.GetCurrentLocation() == currentLoc)
+                if(animatronicRegistry.TryGetAnimatronic(liked, out Animatronic likedAnim) && likedAnim.GetCurrentLocation() == currentLoc)
                 {
                     MovementTimer += Time.deltaTime * profile.socialAttractStrength;
                 }
@@ -149,7 +157,7 @@ public abstract class BaseJob : IJobRequirements
     public bool OccupiedWindow(LocName windowLoc)
     {
         
-        foreach (Animatronic anim in gameContext.Animatronics)
+        foreach (Animatronic anim in animatronicRegistry.Animatronics)
         {
             if (anim.GetCurrentLocation() == windowLoc && anim.GetCurrentBehaviour() == BehaviourName.STARING_THROUGH_WINDOW)
             {

@@ -16,6 +16,8 @@ public class CameraButton : OverLayObject
 
         if (canvasGroup == null)
             canvasGroup = gameObject.AddComponent<CanvasGroup>();
+
+        if (cameraSystem == null) Debug.LogWarning($"{name}: cameraSystem is not assigned.", this);
     }
 
     protected override void Start()

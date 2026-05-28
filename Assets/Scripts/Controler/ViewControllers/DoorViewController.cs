@@ -22,6 +22,14 @@ public abstract class DoorViewController : ViewController
     protected override void Awake()
     {
         base.Awake();
+
+        if (DoorOpenAnimation == null)  Debug.LogWarning($"{name}: DoorOpenAnimation is not assigned.", this);
+        if (DoorCloseAnimation == null) Debug.LogWarning($"{name}: DoorCloseAnimation is not assigned.", this);
+        if (DoorClosedImage == null)    Debug.LogWarning($"{name}: DoorClosedImage is not assigned.", this);
+        if (DoorOpenImage == null)      Debug.LogWarning($"{name}: DoorOpenImage is not assigned.", this);
+        if (CloseButton == null)        Debug.LogWarning($"{name}: CloseButton is not assigned.", this);
+        if (OpenButton == null)         Debug.LogWarning($"{name}: OpenButton is not assigned.", this);
+
         BuildJumpscareLookups();
     }
 

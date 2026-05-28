@@ -4,8 +4,8 @@ using UnityEngine;
 public class PressDoorButton : PlayerCommand
 {   
     [SerializeField] private DoorButtonName doorButtonName;
-    protected override void Execute_Concrete(ICommandContext ctx)
+    protected override void Execute_Concrete(Player player, Office office, PuzzleMaster puzzleMaster)
     {
-        ctx.OfficeStates.RespondToDoorButton(doorButtonName);
+        office.RespondToDoorButton(doorButtonName);
     }
 }

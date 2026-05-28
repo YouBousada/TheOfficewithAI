@@ -17,6 +17,9 @@ public class Screen : OverLayObject
 
         if (image == null)
             image = GetComponent<Image>();
+
+        if (deskPosition == null)  Debug.LogWarning($"{name}: deskPosition is not assigned.", this);
+        if (closePosition == null) Debug.LogWarning($"{name}: closePosition is not assigned.", this);
     }
 
     protected override void Start()
