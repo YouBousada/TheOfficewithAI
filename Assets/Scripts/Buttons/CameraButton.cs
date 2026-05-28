@@ -38,8 +38,6 @@ public class CameraButton : OverLayObject
             Debug.LogWarning($"{name} cannot switch cameras because no CameraSystem is assigned.", this);
             return;
         }
-
-        // Debug.Log("Camera button for " + thisRoom + " pressed.");
         cameraSystem.SetCameraRoom(thisRoom);
     }
 
