@@ -5,7 +5,6 @@ public abstract class HotSpot : OverLayObject
 {
     [Header("Hotspot requirements")]
     [SerializeField] private bool startsAvailable = true;  
-
     protected Button button;
     private CanvasGroup canvasGroup;
     private Coroutine actionCooldownCoroutine;

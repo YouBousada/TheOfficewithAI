@@ -5,6 +5,8 @@ public class MovementHotspot : HotSpot
     [Header("MovementHotspot requirements")]
     [SerializeField] private ViewName to;
 
+    [SerializeField] ViewChangedEvent viewChangedEvent;
+
     protected override void Awake()
     {
         base.Awake();
@@ -18,5 +20,6 @@ public class MovementHotspot : HotSpot
         if (!CanUseHotspot) return;
 
         player.SetView(to);
+        viewChangedEvent.Raise(to);
     }
 }

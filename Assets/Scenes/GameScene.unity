@@ -221,6 +221,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 7
+  viewChangedEvent: {fileID: 0}
 --- !u!114 &14393382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,6 +333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d18a69437428f43b8891f52b8855a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingCameraRoom: 0
 --- !u!4 &19047314
 Transform:
   m_ObjectHideFlags: 0
@@ -980,6 +982,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 4
+  viewChangedEvent: {fileID: 0}
 --- !u!1 &93870444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,6 +1194,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 1
+  viewChangedEvent: {fileID: 0}
 --- !u!1 &120855972
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,6 +1413,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 6
+  viewChangedEvent: {fileID: 0}
 --- !u!1 &148678844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,7 +1465,7 @@ MonoBehaviour:
   cameraSystem: {fileID: 19047313}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: f20904c41c2aa204c8db5618f3e9c5f3, type: 2}
-  Ailevel: 5
+  Ailevel: 1
 --- !u!1 &161621953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1644,6 +1649,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 4
+  viewChangedEvent: {fileID: 0}
 --- !u!1 &207303622
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,6 +1789,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 3
+  viewChangedEvent: {fileID: 0}
 --- !u!1 &239548247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,6 +1929,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 2
+  viewChangedEvent: {fileID: 0}
 --- !u!1 &293875263
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,6 +2167,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 4
+  viewChangedEvent: {fileID: 0}
 --- !u!114 &321361428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2554,6 +2563,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 1
+  viewChangedEvent: {fileID: 0}
 --- !u!1 &366918781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2598,16 +2608,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658610bb5ff5c3242aa66205fb43a4b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSystem: {fileID: 19047313}
-  aiMonitor: {fileID: 161621954}
-  animatronicRegistry: {fileID: 1678446841}
   totalCameraData: {fileID: 11400000, guid: 92813326c393faf40ac7516f2ce12ca0, type: 2}
   characterLayers:
   - {fileID: 597195379}
   - {fileID: 1841966281}
   - {fileID: 31818128}
   - {fileID: 2076133061}
-  backgroundLayer: {fileID: 571517345}
+  roomRenderImage: {fileID: 571517345}
   emptySprite: {fileID: 21300000, guid: 5c0e4dc52d1809b4a9f201a44f19b2ad, type: 3}
   CachableBehaviours: 020000000300000007000000
 --- !u!1 &393995717
@@ -2813,6 +2820,7 @@ GameObject:
   - component: {fileID: 430844836}
   - component: {fileID: 430844835}
   - component: {fileID: 430844838}
+  - component: {fileID: 430844839}
   m_Layer: 5
   m_Name: LeftDesk_HotSpot
   m_TagString: Untagged
@@ -2939,6 +2947,35 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 2
+  viewChangedEvent: {fileID: 0}
+--- !u!114 &430844839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430844832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec7fae5a76ecc440a9e17cf72dadccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: e758c4e22e057f34797f7647d8c69475, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 430844832}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &435649671
 GameObject:
   m_ObjectHideFlags: 0
@@ -3627,6 +3664,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 1
+  viewChangedEvent: {fileID: 0}
 --- !u!1 &597195377
 GameObject:
   m_ObjectHideFlags: 0
@@ -3904,7 +3942,7 @@ MonoBehaviour:
   cameraSystem: {fileID: 19047313}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: 4614e3a02e7e9204ab96f0aaae91086b, type: 2}
-  Ailevel: 5
+  Ailevel: 1
 --- !u!1 &661298739
 GameObject:
   m_ObjectHideFlags: 0
@@ -4382,6 +4420,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 5
+  viewChangedEvent: {fileID: 0}
 --- !u!1 &860101787
 GameObject:
   m_ObjectHideFlags: 0
@@ -4413,13 +4452,13 @@ Transform:
   m_Children:
   - {fileID: 14039892}
   - {fileID: 1108953929}
+  - {fileID: 161621955}
   - {fileID: 1048234889}
   - {fileID: 366918782}
   - {fileID: 1678446842}
   - {fileID: 1805175352}
   - {fileID: 404973573}
   - {fileID: 825810209}
-  - {fileID: 161621955}
   - {fileID: 19047314}
   - {fileID: 43198325}
   - {fileID: 889167842}
@@ -4476,7 +4515,7 @@ MonoBehaviour:
   cameraSystem: {fileID: 19047313}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: 8dc07c8bf88faf64393c1e75df757743, type: 2}
-  Ailevel: 5
+  Ailevel: 1
 --- !u!1 &889167841
 GameObject:
   m_ObjectHideFlags: 0
@@ -5692,8 +5731,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20005f9ae9752f4d992b4fbf5b593e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Player>k__BackingField: {fileID: 825810208}
-  <puzzleMaster>k__BackingField: {fileID: 404973574}
+  player: {fileID: 825810208}
+  puzzleMaster: {fileID: 404973574}
+  aIEvents: {fileID: 161621954}
+  cameraDisplayManager: {fileID: 366918783}
+  cameraSystem: {fileID: 19047313}
 --- !u!4 &1108953929
 Transform:
   m_ObjectHideFlags: 0
@@ -6535,7 +6577,7 @@ MonoBehaviour:
   cameraSystem: {fileID: 19047313}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: 2ddadece3725b2d4294eeefdef24f4f6, type: 2}
-  Ailevel: 5
+  Ailevel: 1
 --- !u!1 &1326439610
 GameObject:
   m_ObjectHideFlags: 0
@@ -7418,7 +7460,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678446840}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8076,6 +8118,7 @@ MonoBehaviour:
   hideUponJumpscare: 1
   startsAvailable: 1
   to: 3
+  viewChangedEvent: {fileID: 0}
 --- !u!1 &1841966279
 GameObject:
   m_ObjectHideFlags: 0
