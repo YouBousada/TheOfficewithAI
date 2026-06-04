@@ -1,4 +1,4 @@
-public enum LocName
+public enum RoomName
 {
 
     SHOW_ROOM,

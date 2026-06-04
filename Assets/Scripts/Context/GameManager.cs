@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
-    private void HandleDeath(CharacterName who, LocName from)
+    private void HandleDeath(CharacterName who, RoomName from)
     {
         StartCoroutine(DelayedGameOver());
     }

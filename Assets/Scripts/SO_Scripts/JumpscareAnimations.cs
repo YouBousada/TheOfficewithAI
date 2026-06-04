@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "JumpscareData", menuName = "Scriptable Objects/JumpscareData")]
-public class JumpscareData : ScriptableObject
+[CreateAssetMenu(fileName = "JumpscareAnimations", menuName = "Scriptable Objects/JumpscareAnimations")]
+public class JumpscareAnimations : ScriptableObject
 {
     [Header("FromLeftDoor")]
     public AnimationSequence LeftDoorBonnieAnimation;

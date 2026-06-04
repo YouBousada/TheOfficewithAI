@@ -13,14 +13,14 @@ public class CameraDisplayManager : MonoBehaviour
     private struct CachedRender
     {
         public Sprite RenderSprite;
-        public LocName Room;
+        public RoomName Room;
         public BehaviourName AnimBehaviour;
         public int SortingLayer;
     }
 
     private struct AnimatronicState
     {
-        public LocName Location;
+        public RoomName Location;
         public BehaviourName Behaviour;
     }
 
@@ -42,7 +42,7 @@ public class CameraDisplayManager : MonoBehaviour
     private Dictionary<CharacterName, AnimatronicState> animatronicStates = new Dictionary<CharacterName, AnimatronicState>();
 
     private RoomCameraData thisRoomCameraData;
-    private LocName activeCamera;
+    private RoomName activeCamera;
 
     private void Awake()
     {
@@ -69,13 +69,17 @@ public class CameraDisplayManager : MonoBehaviour
         }
     }
 
-    public void HandleAnimatronicInitialization(CharacterName who, LocName location, BehaviourName behaviour, JobName job)
+    public void HandleAnimatronicInitialization(InitializationData data)
     {
-        animatronicStates[who] = new AnimatronicState { Location = location, Behaviour = behaviour };
+        animatronicStates[data.who] = new AnimatronicState { Location = data.location, Behaviour = data.behaviour };
     }
 
-    public void HandleBehaviourChanged(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour, LocName location)
+    public void HandleBehaviourChanged(BehaviourChangedData data)
     {
+        CharacterName who = data.who;
+        BehaviourName newBehaviour = data.newBehaviour;
+        RoomName location = data.location;
+
         animatronicStates[who] = new AnimatronicState { Location = location, Behaviour = newBehaviour };
 
         if (location != activeCamera) return;
@@ -85,8 +89,13 @@ public class CameraDisplayManager : MonoBehaviour
         AddCharacterToDisplay(who, newBehaviour);
     }
 
-    public void HandleAnimatronicMovement(CharacterName who, LocName from, LocName to, BehaviourName behaviour)
+    public void HandleAnimatronicMovement(LocationChangedData data)
     {
+        CharacterName who = data.who;
+        RoomName from = data.from;
+        RoomName to = data.to;
+        BehaviourName behaviour = data.behaviour;
+
         animatronicStates[who] = new AnimatronicState { Location = to, Behaviour = behaviour };
         renderCache.Remove(who);
 
@@ -96,7 +105,7 @@ public class CameraDisplayManager : MonoBehaviour
             RemoveCharacterFromDisplay(who);
     }
 
-    public void HandleCameraRoomChanged(LocName newRoom)
+    public void HandleCameraRoomChanged(RoomName newRoom)
     {
         ClearDisplay();
 
@@ -152,7 +161,7 @@ public class CameraDisplayManager : MonoBehaviour
         //choose from avilable layers at random, unless stage, then just use stage allocated layer
         int chosenLayer;
 
-        if (activeCamera == LocName.STAGE)
+        if (activeCamera == RoomName.STAGE)
         {
             chosenLayer = totalCameraData.GetStageLayerForCharacter(animName);
         }

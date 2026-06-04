@@ -23,8 +23,8 @@ public class Player : MonoBehaviour
     public event Action<Item> OnReturnItem;
 
     public bool InventoryFull => inventory.Count >= InventoryCapacity;
-    public bool IsHoldingSomething => itemInHand != null;
-    public Item itemInHand { get; private set; }
+    public bool IsHoldingSomething => ItemInHand.item != null;
+    public ItemVariable ItemInHand;
     public bool IsInspectingItem { get; private set; }
 
     private void Awake()
@@ -54,14 +54,6 @@ public class Player : MonoBehaviour
             }
         }
 
-        // if (Input.GetMouseButtonDown(0))
-        // {
-        //     if(IsHoldingSomething && !IsInspectingItem)
-        //     {
-        //         itemInHand.Use.Execute(GameContext.Instance);
-        //     }
-        // }
-
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (IsHoldingSomething)
@@ -74,8 +66,8 @@ public class Player : MonoBehaviour
         {
             if (IsHoldingSomething && !IsInspectingItem)
             {
-                OnReturnItem?.Invoke(itemInHand);
-                itemInHand = null;
+                OnReturnItem?.Invoke(ItemInHand.item);
+                ItemInHand.item = null;
             }
         }
     }
@@ -106,7 +98,7 @@ public class Player : MonoBehaviour
             inspectionDisplayObject.transform.SetParent(inspectionContainer, false);
 
             var inspectionDisplayImage = inspectionDisplayObject.AddComponent<Image>();
-            inspectionDisplayImage.sprite = itemInHand.InspectSprite;
+            inspectionDisplayImage.sprite = ItemInHand.item.InspectSprite;
             inspectionDisplayImage.preserveAspect = true;
 
             var inspectionRect = inspectionDisplayImage.rectTransform;
@@ -125,25 +117,20 @@ public class Player : MonoBehaviour
 
     public void HoldItem(Item item)
     {
-        if (itemInHand == null)
+        if (ItemInHand.item == null)
         {
-            itemInHand = item;
+            ItemInHand.item = item;
             inventory.Remove(item);
             BuildInventoryDisplay();
         }
     }
-    
-    private void UseItem()
-    {
-        
-    }
 
     public void ReturnHeldItemToInventory()
     {
-        if (itemInHand)
+        if (ItemInHand.item)
         {
-            AddItemToInventory(itemInHand);
-            itemInHand = null;
+            AddItemToInventory(ItemInHand.item);
+            ItemInHand.item = null;
         }
     }
     public void AddItemToInventory(Item newItem)

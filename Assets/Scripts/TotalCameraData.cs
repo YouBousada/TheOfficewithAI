@@ -6,7 +6,7 @@ public class TotalCameraData : ScriptableObject
 {
     public RoomCameraData[] roomCameraDatas;
 
-    private Dictionary<LocName, RoomCameraData> roomCameraDataDictionary = new Dictionary<LocName, RoomCameraData>();
+    private Dictionary<RoomName, RoomCameraData> roomCameraDataDictionary = new Dictionary<RoomName, RoomCameraData>();
 
     private int FreddyStageLayerIndex = 2;
     private int FoxyStageLayerIndex = 0;
@@ -27,7 +27,7 @@ public class TotalCameraData : ScriptableObject
         }
     }
 
-    public RoomCameraData GetRoomCameraData(LocName loc)
+    public RoomCameraData GetRoomCameraData(RoomName loc)
     {
         if(roomCameraDataDictionary.TryGetValue(loc, out RoomCameraData roomCamData))
         {

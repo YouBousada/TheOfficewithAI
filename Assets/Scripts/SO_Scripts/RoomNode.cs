@@ -5,7 +5,7 @@ using UnityEngine;
 public class RoomNode : ScriptableObject
 {
 
-    public LocName thisBaseMapRoomName;
+    public RoomName thisBaseMapRoomName;
     public List<Edge> edges = new();
     
 }

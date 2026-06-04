@@ -10,7 +10,7 @@ public struct JobNecessities
     public AnimatronicRegistry animatronicRegistry;
     public MapGraphs mapGraphs;
     public CharacterProfile givenProfile;
-    public LocName LastLocation;
+    public RoomName LastLocation;
     public AnimatronicMemory memories;
     public int aiLevel;
 }
@@ -33,7 +33,7 @@ public class Animatronic : MonoBehaviour
     [SerializeField] private int Ailevel;
 
     private BaseJob myJob;
-    private LocName recordedLoc;
+    private RoomName recordedLoc;
     private JobNecessities necessities;
     private AnimatronicMemory memories;
     private bool hasPendingSwitch;
@@ -123,7 +123,7 @@ public class Animatronic : MonoBehaviour
         }
     }
 
-    public LocName GetCurrentLocation()
+    public RoomName GetCurrentLocation()
     {
         return recordedLoc;
     }
@@ -157,7 +157,7 @@ public class Animatronic : MonoBehaviour
         hasPendingSwitch = true;
     }
 
-    void HandleLocationChange(CharacterName who, LocName oldLocation, LocName newLocation, BehaviourName behaviour)
+    void HandleLocationChange(CharacterName who, RoomName oldLocation, RoomName newLocation, BehaviourName behaviour)
     {
         if (who != profile.characterName) return;
         if(myJob != null)
@@ -171,13 +171,13 @@ public class Animatronic : MonoBehaviour
         if (!hasPendingSwitch) return;
         hasPendingSwitch = false;
 
-        LocName oldLocation = recordedLoc;
+        RoomName oldLocation = recordedLoc;
         necessities.LastLocation = oldLocation;
         myJob = JobFactory.Create(pendingJob, necessities, true);
         recordedLoc = myJob.currentLoc;
     }
 
-    void HandleDeath(CharacterName who, LocName location)
+    void HandleDeath(CharacterName who, RoomName location)
     {
         if (who == profile.characterName){return;}
         

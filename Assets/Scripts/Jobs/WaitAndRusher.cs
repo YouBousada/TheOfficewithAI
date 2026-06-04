@@ -60,11 +60,11 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
         }
     }
 
-    public override LocName CalculateNextPos()
+    public override RoomName CalculateNextPos()
     {
-        LocName newLoc;
+        RoomName newLoc;
 
-        if (currentLoc == LocName.WEST_DOOR || currentLoc == LocName.EAST_DOOR)
+        if (currentLoc == RoomName.WEST_DOOR || currentLoc == RoomName.EAST_DOOR)
         {
             newLoc = PickRandomIdleRoom();
         }
@@ -132,9 +132,9 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
         }
         else
         {
-            if (currentLoc == LocName.EAST_DOOR)
+            if (currentLoc == RoomName.EAST_DOOR)
                 lastFailedDoorLoc = DoorName.RIGHT;
-            else if (currentLoc == LocName.WEST_DOOR)
+            else if (currentLoc == RoomName.WEST_DOOR)
                 lastFailedDoorLoc = DoorName.LEFT;
             else
                 lastFailedDoorLoc = DoorName.NONE;
@@ -149,7 +149,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
         }
     }
 
-    private LocName PickRandomIdleRoom()
+    private RoomName PickRandomIdleRoom()
     {
         return profile.possibleIdleRooms[Random.Range(0, profile.possibleIdleRooms.Count)];
     }

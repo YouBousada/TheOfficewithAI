@@ -8,9 +8,9 @@ public static class MapService
 
     public sealed class RuntimeMap
     {
-        public class RNode { public LocName roomName; public List<REdge> edges = new(); }
+        public class RNode { public RoomName roomName; public List<REdge> edges = new(); }
         public class REdge { public RNode to; public float weight; }
-        public Dictionary<LocName, RNode> nodes = new();
+        public Dictionary<RoomName, RNode> nodes = new();
     }
 
     public static RuntimeMap BuildRuntimeMap(BaseMap MapBase, bool jitterWeights = true, DoorName lastFailedDoor = DoorName.NONE)
@@ -64,7 +64,7 @@ public static class MapService
     {
         if (failedDoor == DoorName.NONE) return false;
 
-        return (failedDoor == DoorName.LEFT && (to.roomName == LocName.MANAGEMENT || to.roomName == LocName.WEST_HALL_FAR)) ||
-               (failedDoor == DoorName.RIGHT && (to.roomName == LocName.KITCHEN || to.roomName == LocName.EAST_HALL_FAR));
+        return (failedDoor == DoorName.LEFT && (to.roomName == RoomName.MANAGEMENT || to.roomName == RoomName.WEST_HALL_FAR)) ||
+               (failedDoor == DoorName.RIGHT && (to.roomName == RoomName.KITCHEN || to.roomName == RoomName.EAST_HALL_FAR));
     }
 }

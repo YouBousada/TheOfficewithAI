@@ -1,12 +1,13 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+[RequireComponent(typeof(Button))]
 public abstract class HotSpot : OverLayObject
 {
     [Header("Hotspot requirements")]
     [SerializeField] private bool startsAvailable = true;  
     protected Button button;
-    private CanvasGroup canvasGroup;
+    protected CanvasGroup canvasGroup;
     private Coroutine actionCooldownCoroutine;
     protected bool isAvailableFromWorldState {get; private set;}
     protected bool isLocked {get; private set;}
@@ -28,8 +29,8 @@ public abstract class HotSpot : OverLayObject
     protected override void Start()
     {
         base.Start();
-        if (player == null) return;
-        player.OnActionPerformed += HandlePlayerAction;
+        // if (player == null) return;
+        // player.OnActionPerformed += HandlePlayerAction;
     }
 
     public void ActivateHotspot()
@@ -79,7 +80,7 @@ public abstract class HotSpot : OverLayObject
         RefreshState();
     }
 
-    protected override void HideForJumpscare(CharacterName who, LocName from)
+    protected override void HideForJumpscare(CharacterName who, RoomName from)
     {
         isLocked = true;
         RefreshState();
@@ -96,13 +97,5 @@ public abstract class HotSpot : OverLayObject
 
         if (button != null)
             button.interactable = usable;
-    }
-
-    protected override void OnDestroy()
-    {
-        if (player != null)
-            player.OnActionPerformed -= HandlePlayerAction;
-
-        base.OnDestroy();
     }
 }

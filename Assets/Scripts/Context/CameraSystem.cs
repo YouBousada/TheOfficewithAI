@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CameraSystem : MonoBehaviour
 {
-    [SerializeField] private LocName startingCameraRoom = LocName.STAGE;
+    [SerializeField] private RoomName startingCameraRoom = RoomName.STAGE;
     public static CameraSystem Instance { get; private set; }
-    public LocName ActiveCamera { get; private set; }
+    public RoomName ActiveCamera { get; private set; }
 
     void Awake()
     {
@@ -15,7 +15,7 @@ public class CameraSystem : MonoBehaviour
         ActiveCamera = startingCameraRoom;
         OnCameraRoomChanged?.Invoke(startingCameraRoom);
     }
-    public void SetCameraRoom(LocName newRoom)
+    public void SetCameraRoom(RoomName newRoom)
     {
         if(newRoom != ActiveCamera)
         {
@@ -23,6 +23,6 @@ public class CameraSystem : MonoBehaviour
             OnCameraRoomChanged?.Invoke(newRoom);
         }
     }
-    public event System.Action<LocName> OnCameraRoomChanged;
+    public event System.Action<RoomName> OnCameraRoomChanged;
 
 }

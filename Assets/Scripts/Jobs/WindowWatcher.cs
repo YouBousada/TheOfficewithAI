@@ -24,7 +24,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
         if (switchedFromAnotherJob)
         {
             SwitchToBehaviour(BehaviourName.INVISIBLE_ROAMING);
-            currentLoc = LocName.NOWHERE;
+            currentLoc = RoomName.NOWHERE;
         }
     }
 
@@ -53,19 +53,19 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
         }
     }
 
-    public override LocName CalculateNextPos()
+    public override RoomName CalculateNextPos()
     {
         switch (currentLoc)
         {
-            case LocName.NOWHERE:
+            case RoomName.NOWHERE:
 
                 {
-                    LocName door = ChooseDoor();
+                    RoomName door = ChooseDoor();
 
                     if (PlayerIsLookingAtThisWindow(door))
                     {
                         SwitchToBehaviour(BehaviourName.INVISIBLE_ROAMING);
-                        return LocName.NOWHERE;
+                        return RoomName.NOWHERE;
                     }
 
                     else
@@ -76,17 +76,17 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
             default:
                 SwitchToBehaviour(BehaviourName.INVISIBLE_ROAMING);
-                return LocName.NOWHERE;
+                return RoomName.NOWHERE;
         }
     }
 
-    private LocName ChooseDoor()
+    private RoomName ChooseDoor()
     {
         float x = Random.value;
-        bool occupiedWest = OccupiedWindow(LocName.WEST_DOOR);
-        bool occupiedEast = OccupiedWindow(LocName.EAST_DOOR);
+        bool occupiedWest = OccupiedWindow(RoomName.WEST_DOOR);
+        bool occupiedEast = OccupiedWindow(RoomName.EAST_DOOR);
 
-        LocName chosenLocation = LocName.NOWHERE;
+        RoomName chosenLocation = RoomName.NOWHERE;
 
         if (occupiedEast && occupiedWest)
         {
@@ -97,30 +97,30 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
         else if (occupiedWest)
         {
             SwitchToBehaviour(BehaviourName.STARING_THROUGH_WINDOW);
-            chosenLocation = LocName.EAST_DOOR;
+            chosenLocation = RoomName.EAST_DOOR;
         }
         else if (occupiedEast)
         {
             SwitchToBehaviour(BehaviourName.STARING_THROUGH_WINDOW);
-            chosenLocation = LocName.WEST_DOOR;
+            chosenLocation = RoomName.WEST_DOOR;
         }
         else if (x <= 0.5f)
         {
             SwitchToBehaviour(BehaviourName.STARING_THROUGH_WINDOW);
-            chosenLocation = LocName.WEST_DOOR;
+            chosenLocation = RoomName.WEST_DOOR;
         }
         else
         {
             SwitchToBehaviour(BehaviourName.STARING_THROUGH_WINDOW);
-            chosenLocation = LocName.EAST_DOOR;
+            chosenLocation = RoomName.EAST_DOOR;
         }
 
         return chosenLocation;
     }
 
-    private bool PlayerIsLookingAtThisWindow(LocName chosenLocation)
+    private bool PlayerIsLookingAtThisWindow(RoomName chosenLocation)
     {
-        return (player.CurrentView == ViewName.LEFT_DOOR && chosenLocation == LocName.WEST_DOOR) || (player.CurrentView == ViewName.RIGHT_DOOR && chosenLocation == LocName.EAST_DOOR);
+        return (player.CurrentView == ViewName.LEFT_DOOR && chosenLocation == RoomName.WEST_DOOR) || (player.CurrentView == ViewName.RIGHT_DOOR && chosenLocation == RoomName.EAST_DOOR);
     }
 
     public override bool HandleNewBehaviour(BehaviourName newBehaviour)
@@ -172,7 +172,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
     public bool PlayerIsLookingAtMeThroughWindow()
     {
-        if (player.CurrentView == ViewName.LEFT_DOOR && currentLoc == LocName.WEST_DOOR || player.CurrentView == ViewName.RIGHT_DOOR && currentLoc == LocName.EAST_DOOR)
+        if (player.CurrentView == ViewName.LEFT_DOOR && currentLoc == RoomName.WEST_DOOR || player.CurrentView == ViewName.RIGHT_DOOR && currentLoc == RoomName.EAST_DOOR)
         {
             return true;
         }

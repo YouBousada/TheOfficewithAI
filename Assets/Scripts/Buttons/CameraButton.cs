@@ -1,28 +1,21 @@
 using UnityEngine;
+[RequireComponent(typeof(UnityEngine.UI.Button))]
 
-public class CameraButton : OverLayObject
+public class CameraButton : HotSpot
 {
     [Header("CameraButton requirements")]
-    [SerializeField] private LocName thisRoom;
-    [SerializeField] private CameraSystem cameraSystem;
-    private CanvasGroup canvasGroup;
+    [SerializeField] private RoomName thisRoom;
 
-    void Awake()
+    [SerializeField] private CameraChangedEvent cameraChangedEvent;
+
+
+    protected override void Awake()
     {
+        base.Awake();
+
         AddActiveViewIfMissing(ViewName.MONITOR);
 
-        if (canvasGroup == null)
-            canvasGroup = GetComponent<CanvasGroup>();
-
-        if (canvasGroup == null)
-            canvasGroup = gameObject.AddComponent<CanvasGroup>();
-
-        if (cameraSystem == null) Debug.LogWarning($"{name}: cameraSystem is not assigned.", this);
-    }
-
-    protected override void Start()
-    {
-        base.Start();
+        button.onClick.AddListener(OnButtonPressed);
     }
 
     void Reset()
@@ -33,12 +26,8 @@ public class CameraButton : OverLayObject
     public void OnButtonPressed()
     {
         if (!IsInActiveView) return;
-        if (cameraSystem == null)
-        {
-            Debug.LogWarning($"{name} cannot switch cameras because no CameraSystem is assigned.", this);
-            return;
-        }
-        cameraSystem.SetCameraRoom(thisRoom);
+
+        cameraChangedEvent.Raise(thisRoom);
     }
 
     protected override void EnterActiveView()
@@ -51,7 +40,7 @@ public class CameraButton : OverLayObject
         SetVisible(false);
     }
 
-    protected override void HideForJumpscare(CharacterName who, LocName from)
+    protected override void HideForJumpscare(CharacterName who, RoomName from)
     {
         SetVisible(false);
     }

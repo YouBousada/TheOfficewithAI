@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 {
-    [SerializeField] private LocName thisWindowDoor;
+    [SerializeField] private RoomName thisWindowDoor;
     private Image Image;
     private AnimationPlayer animPlayer;
     private CharacterName watcherAtThisWindow = CharacterName.NONE;
@@ -59,7 +59,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
         }
     }
 
-    public void ReactToJumpscare(CharacterName who, LocName from)
+    public void ReactToJumpscare(CharacterName who, RoomName from)
     {
         if(who == watcherAtThisWindow)
         {
@@ -67,7 +67,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
             return;
         }
         
-        if((from == LocName.EAST_DOOR && thisWindowDoor == LocName.EAST_DOOR) || (from == LocName.WEST_DOOR && thisWindowDoor == LocName.WEST_DOOR))
+        if((from == RoomName.EAST_DOOR && thisWindowDoor == RoomName.EAST_DOOR) || (from == RoomName.WEST_DOOR && thisWindowDoor == RoomName.WEST_DOOR))
         {
             if(watcherAtThisWindow == CharacterName.BONNIE)
             {
@@ -88,7 +88,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
             return;
         }
 
-        if((from == LocName.EAST_DOOR && thisWindowDoor == LocName.WEST_DOOR) || (from == LocName.WEST_DOOR && thisWindowDoor == LocName.EAST_DOOR))
+        if((from == RoomName.EAST_DOOR && thisWindowDoor == RoomName.WEST_DOOR) || (from == RoomName.WEST_DOOR && thisWindowDoor == RoomName.EAST_DOOR))
         {
             if(watcherAtThisWindow == CharacterName.BONNIE)
             {
@@ -113,26 +113,12 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 
     private void DoSubscribing()
     {
-        aiMonitor.OnInitialization += RespondToInitialization;
-        aiMonitor.OnLocationChanged += RespondToMovement;
-        aiMonitor.OnJobSwitched += RespondToJobSwitch;
-        aiMonitor.OnDeath += ReactToJumpscare;
+        // aiMonitor.OnInitialization += RespondToInitialization;
+        // aiMonitor.OnLocationChanged += RespondToMovement;
+        // aiMonitor.OnJobSwitched += RespondToJobSwitch;
+        // aiMonitor.OnDeath += ReactToJumpscare;
     }
-
-    protected override void OnDestroy()
-    {
-        if (aiMonitor != null)
-        {
-            aiMonitor.OnInitialization -= RespondToInitialization;
-            aiMonitor.OnLocationChanged -= RespondToMovement;
-            aiMonitor.OnJobSwitched -= RespondToJobSwitch;
-            aiMonitor.OnDeath -= ReactToJumpscare;
-        }
-
-        base.OnDestroy();
-    }
-
-    void RespondToInitialization(CharacterName who, LocName location, BehaviourName behaviour, JobName job)
+    void RespondToInitialization(CharacterName who, RoomName location, BehaviourName behaviour, JobName job)
     {
         if (IsInActiveView)
             RefreshWindowSprite();
@@ -144,7 +130,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
             RefreshWindowSprite();
     }
 
-    void RespondToMovement(CharacterName who, LocName from, LocName to, BehaviourName behaviour)
+    void RespondToMovement(CharacterName who, RoomName from, RoomName to, BehaviourName behaviour)
     {
         if (IsInActiveView || from == thisWindowDoor || to == thisWindowDoor)
             RefreshWindowSprite();
@@ -195,7 +181,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
         SetVisible(false);
     }
 
-    protected override void HideForJumpscare(CharacterName who, LocName from)
+    protected override void HideForJumpscare(CharacterName who, RoomName from)
     {
         SetVisible(!hideUponJumpscare);
     }
@@ -208,9 +194,9 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 
     private void AddActiveViewForWindowDoor()
     {
-        if (thisWindowDoor == LocName.WEST_DOOR)
+        if (thisWindowDoor == RoomName.WEST_DOOR)
             AddActiveViewIfMissing(ViewName.LEFT_DOOR);
-        else if (thisWindowDoor == LocName.EAST_DOOR)
+        else if (thisWindowDoor == RoomName.EAST_DOOR)
             AddActiveViewIfMissing(ViewName.RIGHT_DOOR);
     }
 

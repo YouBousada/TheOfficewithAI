@@ -16,13 +16,13 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
 
         JobSpecificInitializations();
 
-        if (necessities.LastLocation == LocName.EAST_DOOR)
+        if (necessities.LastLocation == RoomName.EAST_DOOR)
         {
-            currentLoc = LocName.EAST_HALL_FAR;
+            currentLoc = RoomName.EAST_HALL_FAR;
         }
-        else if (necessities.LastLocation == LocName.WEST_DOOR)
+        else if (necessities.LastLocation == RoomName.WEST_DOOR)
         {
-            currentLoc = LocName.WEST_HALL_FAR;
+            currentLoc = RoomName.WEST_HALL_FAR;
         }
 
         HandleSwitchInitialization(switchedFromAnotherJob);
@@ -79,7 +79,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
     }
 
 
-    public override LocName CalculateNextPos()
+    public override RoomName CalculateNextPos()
     {
         var nextRoom = MapService.ChooseNext(currentMap.nodes[currentLoc]).roomName;
 
@@ -96,7 +96,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
             }
         }
 
-        if (nextRoom == LocName.EAST_DOOR || nextRoom == LocName.WEST_DOOR)
+        if (nextRoom == RoomName.EAST_DOOR || nextRoom == RoomName.WEST_DOOR)
             SwitchToBehaviour(BehaviourName.STALKING_DOOR);
 
         return nextRoom;
@@ -143,9 +143,9 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
 
         else if (TheDoorImAtIsClosed())
         {
-            if (currentLoc == LocName.EAST_DOOR)
+            if (currentLoc == RoomName.EAST_DOOR)
                 lastFailedDoorLoc = DoorName.RIGHT;
-            else if (currentLoc == LocName.WEST_DOOR)
+            else if (currentLoc == RoomName.WEST_DOOR)
                 lastFailedDoorLoc = DoorName.LEFT;
             else
                 lastFailedDoorLoc = DoorName.NONE;

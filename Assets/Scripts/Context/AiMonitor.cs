@@ -5,45 +5,56 @@ public class AiMonitor : MonoBehaviour
 {
     public static AiMonitor Instance { get; private set; }
 
+    [SerializeField] private LocationChangedEvent locationChangedEvent;
+    [SerializeField] private BehaviourChangedEvent behaviourChangedEvent;
+    [SerializeField] private JobSwitchedEvent jobSwitchedEvent;
+    [SerializeField] private InitializationEvent initializationEvent;
+    [SerializeField] private JumpscareEvent jumpscareEvent;
+
     void Awake()
     {
         Instance = this;
     }
 
-    public void HandleLocationChange(CharacterName who, LocName from, LocName to, BehaviourName currentBehaviour)
+    public void HandleLocationChange(CharacterName who, RoomName from, RoomName to, BehaviourName currentBehaviour)
     {
         Debug.Log($"[{Time.time:F2}] {who} moved from {from} to {to}");
         OnLocationChanged?.Invoke(who, from, to, currentBehaviour);
+        locationChangedEvent.Raise(new LocationChangedData { who = who, from = from, to = to, behaviour = currentBehaviour });
     }
 
-    public void HandleBehaviourChange(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour, LocName currentLocation)
+    public void HandleBehaviourChange(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour, RoomName currentLocation)
     {
         // Debug.Log($"[{Time.time:F2}] {who} changed behaviour from {oldBehaviour}ing to {newBehaviour}ing");
         OnBehaviourChanged?.Invoke(who, oldBehaviour, newBehaviour, currentLocation);
+        behaviourChangedEvent.Raise(new BehaviourChangedData { who = who, oldBehaviour = oldBehaviour, newBehaviour = newBehaviour, location = currentLocation });
     }
 
     public void HandleJobSwitch(CharacterName who, JobName fromJob, JobName toJob)
     {
         // Debug.Log($"<color=cyan>[INIT]</color> [{Time.time:F2}] {who} switched job from {fromJob} to {toJob}");
         OnJobSwitched?.Invoke(who, fromJob, toJob);
+        jobSwitchedEvent.Raise(new JobSwitchedData { who = who, fromJob = fromJob, toJob = toJob });
     }
 
-    public void HandleInitialization(CharacterName who, LocName location, BehaviourName behaviour, JobName job)
+    public void HandleInitialization(CharacterName who, RoomName location, BehaviourName behaviour, JobName job)
     {
         // Debug.Log($"<color=yellow>[JOB]</color>[{Time.time:F2}] {who} initialized at {location} with {behaviour} behaviour in job {job}");
         OnInitialization?.Invoke(who, location, behaviour, job);
+        initializationEvent.Raise(new InitializationData { who = who, location = location, behaviour = behaviour, job = job });
     }
 
-    public void HandleDeath(CharacterName who, LocName location)
+    public void HandleDeath(CharacterName who, RoomName location)
     {
         // Debug.Log($"<color=red><b>[DEATH]</b></color>[{Time.time:F2}] {who} has killed the player from {location}.");
         OnDeath?.Invoke(who, location);
+        jumpscareEvent.Raise(new JumpscareEventData { who = who, from = location });
     }
 
-    public event Action<CharacterName, LocName, LocName, BehaviourName> OnLocationChanged;
-    public event Action<CharacterName, BehaviourName, BehaviourName, LocName> OnBehaviourChanged;
+    public event Action<CharacterName, RoomName, RoomName, BehaviourName> OnLocationChanged;
+    public event Action<CharacterName, BehaviourName, BehaviourName, RoomName> OnBehaviourChanged;
     public event Action<CharacterName, JobName, JobName> OnJobSwitched;
-    public event Action<CharacterName, LocName, BehaviourName, JobName> OnInitialization;
-    public event Action<CharacterName, LocName> OnDeath;
+    public event Action<CharacterName, RoomName, BehaviourName, JobName> OnInitialization;
+    public event Action<CharacterName, RoomName> OnDeath;
 
 }

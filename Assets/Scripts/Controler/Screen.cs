@@ -9,7 +9,6 @@ public class Screen : OverLayObject
     [SerializeField] private RectTransform rect;
     private Image image;
 
-
     void Awake()
     {
         if (rect == null)
@@ -26,8 +25,7 @@ public class Screen : OverLayObject
     {
         base.Start();
 
-        player.OnViewChanged += WarpToView;
-        WarpToView(player.CurrentView);
+        WarpToView(ViewName.DESK);
     }
 
     public void WarpToView(ViewName newView)
@@ -77,7 +75,7 @@ public class Screen : OverLayObject
         SetVisible(false);
     }
 
-    protected override void HideForJumpscare(CharacterName who, LocName from)
+    protected override void HideForJumpscare(CharacterName who, RoomName from)
     {
         SetVisible(false);
     }
@@ -86,13 +84,5 @@ public class Screen : OverLayObject
     {
         if (image != null)
             image.enabled = visible;
-    }
-
-    protected override void OnDestroy()
-    {
-        if (player != null)
-            player.OnViewChanged -= WarpToView;
-
-        base.OnDestroy();
     }
 }

@@ -29,7 +29,7 @@ public class CharacterIcon : MonoBehaviour
         };
     }
 
-    private void HandleRoomChange(CharacterName who, LocName from, LocName to, BehaviourName behaviour)
+    private void HandleRoomChange(CharacterName who, RoomName from, RoomName to, BehaviourName behaviour)
     {
         if (!(who == thisCharacterName))
         {
@@ -38,52 +38,52 @@ public class CharacterIcon : MonoBehaviour
 
         switch (to)
         {
-            case LocName.BACK_STAGE:
+            case RoomName.BACK_STAGE:
                 characterIcon.anchoredPosition = positions.BackStagePos;
                 break;
-            case LocName.SHOW_ROOM:
+            case RoomName.SHOW_ROOM:
                 characterIcon.anchoredPosition = positions.MainAreaPos;
                 break;
-            case LocName.PIRATES_COVE:
+            case RoomName.PIRATES_COVE:
                 characterIcon.anchoredPosition = positions.PiratesCovePos;
                 break;
-            case LocName.REST_ROOMS:
+            case RoomName.REST_ROOMS:
                 characterIcon.anchoredPosition = positions.RestRoomPos;
                 break;
-            case LocName.CLOSET:
+            case RoomName.CLOSET:
                 characterIcon.anchoredPosition = positions.ClosetPos;
                 break;
-            case LocName.WEST_HALL_FAR:
+            case RoomName.WEST_HALL_FAR:
                 characterIcon.anchoredPosition = positions.WestHallFarPos;
                 break;
-            case LocName.EAST_HALL_FAR:
+            case RoomName.EAST_HALL_FAR:
                 characterIcon.anchoredPosition = positions.EastHallFarPos;
                 break;
-            case LocName.EAST_DOOR:
+            case RoomName.EAST_DOOR:
                 characterIcon.anchoredPosition = positions.EastDoorPos;
                 break;
-            case LocName.WEST_DOOR:
+            case RoomName.WEST_DOOR:
                 characterIcon.anchoredPosition = positions.WestDoorPos;
                 break;
-            case LocName.MANAGEMENT:
+            case RoomName.MANAGEMENT:
                 characterIcon.anchoredPosition = positions.SecondOfficePos;
                 break;
-            case LocName.STAGE:
+            case RoomName.STAGE:
                 characterIcon.anchoredPosition = positions.StagePos;
                 break;
-            case LocName.KITCHEN:
+            case RoomName.KITCHEN:
                 characterIcon.anchoredPosition = positions.KitchenPos;
                 break;
-            case LocName.WEST_HALL_CORNER:
+            case RoomName.WEST_HALL_CORNER:
                 characterIcon.anchoredPosition = positions.WestHallCornerPos;
                 break;
-            case LocName.EAST_HALL_CORNER:
+            case RoomName.EAST_HALL_CORNER:
                 characterIcon.anchoredPosition = positions.EastHallCornerPos;
                 break;
-            case LocName.BREAKROOM:
+            case RoomName.BREAKROOM:
                 characterIcon.anchoredPosition = positions.BreakRoom;
                 break;
-            case LocName.NOWHERE:
+            case RoomName.NOWHERE:
                 characterIcon.anchoredPosition = positions.NoWhere;
                 break;
             default:
@@ -91,7 +91,7 @@ public class CharacterIcon : MonoBehaviour
         }
     }
         
-    private void HandleBehaviourChange(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour, LocName location)
+    private void HandleBehaviourChange(CharacterName who, BehaviourName oldBehaviour, BehaviourName newBehaviour, RoomName location)
     {
         if (!(who == thisCharacterName))
         {

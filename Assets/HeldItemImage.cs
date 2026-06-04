@@ -22,7 +22,7 @@ public class HeldItemImage : MonoBehaviour
         if (player.IsHoldingSomething && !player.IsInspectingItem && !player.IsDead)
         {
             heldItemImage.enabled = true;
-            heldItemImage.sprite = player.itemInHand.InventorySprite;
+            heldItemImage.sprite = player.ItemInHand.item.InventorySprite;
 
             RectTransformUtility.ScreenPointToLocalPointInRectangle(
                 canvas.GetComponent<RectTransform>(),

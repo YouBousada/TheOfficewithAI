@@ -4,13 +4,12 @@ using UnityEngine;
 public abstract class OverLayObject : MonoBehaviour
 {
     [Header("OverLayObject requirements")]
-    [SerializeField] protected Player player;
-    [SerializeField] protected AiMonitor aiMonitor;
     [SerializeField] private List<ViewName> viewsICanBeActiveIn = new();
     [SerializeField] protected bool hideUponJumpscare = true;
     private bool hasHandledViewChange;
 
     protected bool IsInActiveView { get; private set; }
+
 
     protected void AddActiveViewIfMissing(ViewName view)
     {
@@ -20,11 +19,6 @@ public abstract class OverLayObject : MonoBehaviour
 
     protected virtual void Start()
     {
-        if (player == null)
-        {
-            Debug.LogWarning($"{name} is missing a Player reference.", this);
-            return;
-        }
 
         if (viewsICanBeActiveIn.Count == 0)
         {
@@ -32,15 +26,15 @@ public abstract class OverLayObject : MonoBehaviour
             return;
         }
 
-        player.OnViewChanged += HandleViewChanged;
+        // player.OnViewChanged += HandleViewChanged;
 
-        if (aiMonitor != null)
-            aiMonitor.OnDeath += HandleJumpscare;
+        // if (aiMonitor != null)
+        //     aiMonitor.OnDeath += HandleJumpscare;
 
-        HandleViewChanged(player.CurrentView);
+        HandleViewChanged(ViewName.DESK);
     }
 
-    private void HandleViewChanged(ViewName newView)
+    public void HandleViewChanged(ViewName newView)
     {
         bool shouldBeActive = viewsICanBeActiveIn.Contains(newView);
 
@@ -56,22 +50,16 @@ public abstract class OverLayObject : MonoBehaviour
             ExitActiveView();
     }
 
-    private void HandleJumpscare(CharacterName who, LocName from)
+    public void HandleJumpscare(JumpscareEventData jsData)
     {
+        CharacterName who = jsData.who;
+        RoomName from = jsData.from;
+
         if (!hideUponJumpscare) return;
         HideForJumpscare(who, from);
     }
 
     protected abstract void EnterActiveView();
     protected abstract void ExitActiveView();
-    protected abstract void HideForJumpscare(CharacterName who, LocName from);
-
-    protected virtual void OnDestroy()
-    {
-        if (player != null)
-            player.OnViewChanged -= HandleViewChanged;
-
-        if (aiMonitor != null)
-            aiMonitor.OnDeath -= HandleJumpscare;
-    }
+    protected abstract void HideForJumpscare(CharacterName who, RoomName from);
 }

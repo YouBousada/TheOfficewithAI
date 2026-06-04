@@ -95,7 +95,7 @@ public abstract class DoorViewController : ViewController
             CloseButton.DeactivateHotspot();
         }
     }
-    protected override void ReactToJumpscare_Concrete(CharacterName who, LocName from)
+    protected override void ReactToJumpscare_Concrete(CharacterName who, RoomName from)
     {
         if (doorViewJumpscareData == null)
         {
@@ -116,7 +116,7 @@ public abstract class DoorViewController : ViewController
         PlayJumpscareFromLookup(jumpscares, who, from);
     }
 
-    private Dictionary<CharacterName, AnimationSequence> GetJumpscareLookup(LocName from)
+    private Dictionary<CharacterName, AnimationSequence> GetJumpscareLookup(RoomName from)
     {
         if (!isThisDoorOpen)
             return closedOtherDoorJumpscares;
@@ -124,7 +124,7 @@ public abstract class DoorViewController : ViewController
         return IsAttackFromThisDoor(from) ? openThisDoorJumpscares : openOtherDoorJumpscares;
     }
 
-    private void PlayJumpscareFromLookup(Dictionary<CharacterName, AnimationSequence> jumpscares, CharacterName who, LocName from)
+    private void PlayJumpscareFromLookup(Dictionary<CharacterName, AnimationSequence> jumpscares, CharacterName who, RoomName from)
     {
         if (!jumpscares.TryGetValue(who, out AnimationSequence sequence))
         {
@@ -139,14 +139,14 @@ public abstract class DoorViewController : ViewController
         animPlayer.PlayAnimation(sequence, backgroundImage.gameObject);
     }
 
-    private bool IsDoorAttack(LocName from)
+    private bool IsDoorAttack(RoomName from)
     {
-        return from == LocName.EAST_DOOR || from == LocName.WEST_DOOR;
+        return from == RoomName.EAST_DOOR || from == RoomName.WEST_DOOR;
     }
 
-    private bool IsAttackFromThisDoor(LocName from)
+    private bool IsAttackFromThisDoor(RoomName from)
     {
-        return (from == LocName.EAST_DOOR && thisViewName == ViewName.RIGHT_DOOR) ||
-               (from == LocName.WEST_DOOR && thisViewName == ViewName.LEFT_DOOR);
+        return (from == RoomName.EAST_DOOR && thisViewName == ViewName.RIGHT_DOOR) ||
+               (from == RoomName.WEST_DOOR && thisViewName == ViewName.LEFT_DOOR);
     }
 }

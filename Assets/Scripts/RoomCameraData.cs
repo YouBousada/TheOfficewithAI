@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "RoomCameraData", menuName = "Scriptable Objects/RoomCameraData")]
 public class RoomCameraData : ScriptableObject
 {
-    [field: SerializeField] public LocName cameraLocation { get; private set; }
+    [field: SerializeField] public RoomName cameraLocation { get; private set; }
     [field: SerializeField] public Sprite backgroundSprite { get; private set; }
 
     [Header("Each Character's Camview Data for this Camera View")]

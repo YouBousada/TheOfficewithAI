@@ -3,6 +3,6 @@ public interface IJobRequirements
     void HandleKillPosition();
     void PerformJob();
     bool HandleNewBehaviour(BehaviourName newBehaviour);
-    LocName CalculateNextPos();
+    RoomName CalculateNextPos();
     void DeclareInitialization();
 }

@@ -9,7 +9,7 @@ public abstract class BaseJob : IJobRequirements
     protected AnimatronicRegistry animatronicRegistry;
     protected MapGraphs mapGraphs;
     protected CharacterProfile profile;
-    public LocName currentLoc;
+    public RoomName currentLoc;
     public BehaviourName currentBehaviour;
     protected abstract BehaviourName InitialBehaviour { get; }
     public JobName JobName;
@@ -34,7 +34,7 @@ public abstract class BaseJob : IJobRequirements
         jobArbiter = new JobArbiter(animatronicRegistry);
     }
     public abstract void PerformJob();
-    public abstract LocName CalculateNextPos();
+    public abstract RoomName CalculateNextPos();
     public abstract bool HandleNewBehaviour(BehaviourName newBehaviour);
     public abstract void HandleKillPosition();
 
@@ -45,11 +45,11 @@ public abstract class BaseJob : IJobRequirements
     }
     public bool AtADoor()
     {
-        return currentLoc == LocName.EAST_DOOR || currentLoc == LocName.WEST_DOOR;
+        return currentLoc == RoomName.EAST_DOOR || currentLoc == RoomName.WEST_DOOR;
     }
     public bool TheDoorImAtIsClosed()
     {
-        if ((!officeStates.LeftDoorIsOpen && currentLoc == LocName.WEST_DOOR) || (!officeStates.RightDoorIsOpen && currentLoc == LocName.EAST_DOOR))
+        if ((!officeStates.LeftDoorIsOpen && currentLoc == RoomName.WEST_DOOR) || (!officeStates.RightDoorIsOpen && currentLoc == RoomName.EAST_DOOR))
         {
             return true;
         }
@@ -58,8 +58,8 @@ public abstract class BaseJob : IJobRequirements
 
     public void StepandNotify()
     {
-        LocName oldlocation = currentLoc;
-        LocName newLocation = CalculateNextPos();
+        RoomName oldlocation = currentLoc;
+        RoomName newLocation = CalculateNextPos();
         currentLoc = newLocation;
         aiMonitor.HandleLocationChange(profile.characterName, oldlocation, currentLoc, currentBehaviour);
     }
@@ -150,7 +150,7 @@ public abstract class BaseJob : IJobRequirements
         StayWithLikedCharacters();
     }
 
-    public bool OccupiedWindow(LocName windowLoc)
+    public bool OccupiedWindow(RoomName windowLoc)
     {
         
         foreach (Animatronic anim in animatronicRegistry.Animatronics)

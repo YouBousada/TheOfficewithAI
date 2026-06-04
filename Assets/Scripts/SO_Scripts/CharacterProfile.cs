@@ -8,7 +8,7 @@ public class CharacterProfile : ScriptableObject
     public float speed;
     public float cameraSensitivity;
     public float patience;
-    public LocName nightStartingRoom;
+    public RoomName nightStartingRoom;
     public float willingnessToSwitchJobs;
 
     [Header("Idle Behavior")]
@@ -19,7 +19,7 @@ public class CharacterProfile : ScriptableObject
     public float socialAttractStrength;
 
     public List<JobName> jobsByPreference = new List<JobName>();
-    public List<LocName> possibleIdleRooms = new List<LocName>();
+    public List<RoomName> possibleIdleRooms = new List<RoomName>();
     public List<CharacterName> likedCharacters = new List<CharacterName>();
     public List<CharacterName> dislikedCharacters = new List<CharacterName>();
 }

@@ -19,5 +19,5 @@ public class TopPaper : OverLayObject
 
     protected override void EnterActiveView() { }
     protected override void ExitActiveView() => SetVisible(false);
-    protected override void HideForJumpscare(CharacterName who, LocName from) => SetVisible(false);
+    protected override void HideForJumpscare(CharacterName who, RoomName from) => SetVisible(false);
 }
