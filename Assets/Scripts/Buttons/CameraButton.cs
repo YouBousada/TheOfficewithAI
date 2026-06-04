@@ -4,9 +4,9 @@ using UnityEngine;
 public class CameraButton : HotSpot
 {
     [Header("CameraButton requirements")]
-    [SerializeField] private RoomName thisRoom;
-
+    [SerializeField] private RoomName thisButtonsRoom;
     [SerializeField] private CameraChangedEvent cameraChangedEvent;
+    [SerializeField] private ActiveCameraVariable activeCamera;
 
 
     protected override void Awake()
@@ -27,7 +27,8 @@ public class CameraButton : HotSpot
     {
         if (!IsInActiveView) return;
 
-        cameraChangedEvent.Raise(thisRoom);
+        activeCamera.room = thisButtonsRoom;
+        cameraChangedEvent.Raise(thisButtonsRoom);
     }
 
     protected override void EnterActiveView()

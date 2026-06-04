@@ -5,7 +5,7 @@ public abstract class BaseJob : IJobRequirements
     protected AiMonitor aiMonitor;
     protected Office officeStates;
     protected Player player;
-    protected CameraSystem cameraSystem;
+    protected ActiveCameraVariable activeCamera;
     protected AnimatronicRegistry animatronicRegistry;
     protected MapGraphs mapGraphs;
     protected CharacterProfile profile;
@@ -25,7 +25,7 @@ public abstract class BaseJob : IJobRequirements
         aiMonitor           = necessities.aiMonitor;
         officeStates        = necessities.officeStates;
         player              = necessities.player;
-        cameraSystem        = necessities.cameraSystem;
+        activeCamera        = necessities.activeCamera;
         animatronicRegistry = necessities.animatronicRegistry;
         profile = necessities.givenProfile;
         currentLoc = necessities.LastLocation;

@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
         SetView(startingView);
     }
 
-    public void Update()
+    private void Update()
     {
         if (IsDead)
         {

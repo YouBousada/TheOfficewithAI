@@ -26,6 +26,7 @@ public class CameraDisplayManager : MonoBehaviour
 
     [Header("Dependencies")]
     [SerializeField] private TotalCameraData totalCameraData;
+    [SerializeField] private CameraSystemConfig cameraSystemConfig;
 
     [Header("Camera View Layers")]
     [SerializeField] private List<Image> characterLayers;
@@ -67,6 +68,11 @@ public class CameraDisplayManager : MonoBehaviour
 
             camDisplay[i].LayerImage.sprite = emptySprite;
         }
+    }
+
+    private void Start()
+    {
+        HandleCameraRoomChanged(cameraSystemConfig.startingRoom);
     }
 
     public void HandleAnimatronicInitialization(InitializationData data)

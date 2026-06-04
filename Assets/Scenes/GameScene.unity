@@ -164,80 +164,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverDelay: 1
---- !u!1 &19047312
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 19047314}
-  - component: {fileID: 19047313}
-  - component: {fileID: 19047315}
-  m_Layer: 0
-  m_Name: CameraSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &19047313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19047312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77d18a69437428f43b8891f52b8855a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingCameraRoom: 0
---- !u!4 &19047314
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19047312}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 721.49274, y: 556.09296, z: -102.72147}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 860101788}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &19047315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19047312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47d9c147371c94c4b8e5403c76174da7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: cb7fa811eeb7747499ca43131be227cf, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 19047313}
-        m_TargetAssemblyTypeName: CameraSystem, Assembly-CSharp
-        m_MethodName: SetCameraRoom
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &19430129
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,7 +904,7 @@ PrefabInstance:
     - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: cameraSystem
       value: 
-      objectReference: {fileID: 19047313}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1032,7 +958,7 @@ MonoBehaviour:
   aiMonitor: {fileID: 161621954}
   officeStates: {fileID: 1805175351}
   player: {fileID: 825810208}
-  cameraSystem: {fileID: 19047313}
+  activeCamera: {fileID: 11400000, guid: ae67811d1bb8d134a9b059e3d4fc45d8, type: 2}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: f20904c41c2aa204c8db5618f3e9c5f3, type: 2}
   Ailevel: 1
@@ -1184,7 +1110,11 @@ PrefabInstance:
     - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: cameraSystem
       value: 
-      objectReference: {fileID: 19047313}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
+      propertyPath: thisButtonsRoom
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1602,7 +1532,11 @@ PrefabInstance:
     - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: cameraSystem
       value: 
-      objectReference: {fileID: 19047313}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
+      propertyPath: thisButtonsRoom
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7347695713430759912, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -1926,6 +1860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalCameraData: {fileID: 11400000, guid: 92813326c393faf40ac7516f2ce12ca0, type: 2}
+  cameraSystemConfig: {fileID: 11400000, guid: fcfeec3ed552a8a4ba9479a63269d5ec, type: 2}
   characterLayers:
   - {fileID: 597195379}
   - {fileID: 1841966281}
@@ -2393,7 +2328,11 @@ PrefabInstance:
     - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: cameraSystem
       value: 
-      objectReference: {fileID: 19047313}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
+      propertyPath: thisButtonsRoom
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3066,7 +3005,11 @@ PrefabInstance:
     - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: cameraSystem
       value: 
-      objectReference: {fileID: 19047313}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
+      propertyPath: thisButtonsRoom
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3176,7 +3119,11 @@ PrefabInstance:
     - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: cameraSystem
       value: 
-      objectReference: {fileID: 19047313}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
+      propertyPath: thisButtonsRoom
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7347695713430759912, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -3640,7 +3587,7 @@ MonoBehaviour:
   aiMonitor: {fileID: 161621954}
   officeStates: {fileID: 1805175351}
   player: {fileID: 825810208}
-  cameraSystem: {fileID: 19047313}
+  activeCamera: {fileID: 11400000, guid: ae67811d1bb8d134a9b059e3d4fc45d8, type: 2}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: 4614e3a02e7e9204ab96f0aaae91086b, type: 2}
   Ailevel: 1
@@ -4268,7 +4215,6 @@ Transform:
   - {fileID: 1805175352}
   - {fileID: 404973573}
   - {fileID: 825810209}
-  - {fileID: 19047314}
   - {fileID: 43198325}
   - {fileID: 889167842}
   m_Father: {fileID: 0}
@@ -4321,7 +4267,7 @@ MonoBehaviour:
   aiMonitor: {fileID: 161621954}
   officeStates: {fileID: 1805175351}
   player: {fileID: 825810208}
-  cameraSystem: {fileID: 19047313}
+  activeCamera: {fileID: 11400000, guid: ae67811d1bb8d134a9b059e3d4fc45d8, type: 2}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: 8dc07c8bf88faf64393c1e75df757743, type: 2}
   Ailevel: 1
@@ -5276,8 +5222,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 825810208}
   puzzleMaster: {fileID: 404973574}
-  cameraDisplayManager: {fileID: 366918783}
-  cameraSystem: {fileID: 19047313}
 --- !u!4 &1108953929
 Transform:
   m_ObjectHideFlags: 0
@@ -6107,7 +6051,7 @@ MonoBehaviour:
   aiMonitor: {fileID: 161621954}
   officeStates: {fileID: 1805175351}
   player: {fileID: 825810208}
-  cameraSystem: {fileID: 19047313}
+  activeCamera: {fileID: 11400000, guid: ae67811d1bb8d134a9b059e3d4fc45d8, type: 2}
   mapGraphs: {fileID: 11400000, guid: 35be61521b8b0b146b1a9ec7f9ac7295, type: 2}
   profile: {fileID: 11400000, guid: 2ddadece3725b2d4294eeefdef24f4f6, type: 2}
   Ailevel: 1
@@ -6585,7 +6529,11 @@ PrefabInstance:
     - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: cameraSystem
       value: 
-      objectReference: {fileID: 19047313}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
+      propertyPath: thisButtonsRoom
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6805,7 +6753,11 @@ PrefabInstance:
     - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: cameraSystem
       value: 
-      objectReference: {fileID: 19047313}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
+      propertyPath: thisButtonsRoom
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7424,7 +7376,11 @@ PrefabInstance:
     - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: cameraSystem
       value: 
-      objectReference: {fileID: 19047313}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
+      propertyPath: thisButtonsRoom
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8023,7 +7979,11 @@ PrefabInstance:
     - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: cameraSystem
       value: 
-      objectReference: {fileID: 19047313}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
+      propertyPath: thisButtonsRoom
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8170,7 +8130,11 @@ PrefabInstance:
     - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
       propertyPath: cameraSystem
       value: 
-      objectReference: {fileID: 19047313}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078465600407269488, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
+      propertyPath: thisButtonsRoom
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

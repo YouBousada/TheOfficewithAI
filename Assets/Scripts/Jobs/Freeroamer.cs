@@ -65,7 +65,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
 
     public void PlayRedLightGreenLight()
     {
-        if (cameraSystem.ActiveCamera != currentLoc)
+        if (activeCamera.room != currentLoc)
         {
             ReactToOthers();
             MovementTimer -= Time.deltaTime;
@@ -131,7 +131,6 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
     {
         if (!AtADoor())
         {
-            // Debug.LogWarning(profile.characterName + " tried to handle kill position while not at a door!");
             return;
         }
 

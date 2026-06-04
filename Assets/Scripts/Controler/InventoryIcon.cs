@@ -12,14 +12,14 @@ public class InventoryIcon : MonoBehaviour
     private Button button;
     private Action onHold;
 
-    public void Awake()
+    private void Awake()
     {
         image = GetComponent<Image>();
         button = GetComponent<Button>();
         image.enabled = false;
     }
 
-    public void Start()
+    private void Start()
     {
         button.onClick.AddListener(TellPlayerToHoldMe);
     }

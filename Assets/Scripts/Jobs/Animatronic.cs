@@ -6,7 +6,7 @@ public struct JobNecessities
     public AiMonitor aiMonitor;
     public Office officeStates;
     public Player player;
-    public CameraSystem cameraSystem;
+    public ActiveCameraVariable activeCamera;
     public AnimatronicRegistry animatronicRegistry;
     public MapGraphs mapGraphs;
     public CharacterProfile givenProfile;
@@ -27,7 +27,7 @@ public class Animatronic : MonoBehaviour
     [SerializeField] private AiMonitor aiMonitor;
     [SerializeField] private Office officeStates;
     [SerializeField] private Player player;
-    [SerializeField] private CameraSystem cameraSystem;
+    [SerializeField] private ActiveCameraVariable activeCamera;
     [SerializeField] private MapGraphs mapGraphs;
     [SerializeField] private CharacterProfile profile;
     [SerializeField] private int Ailevel;
@@ -45,7 +45,7 @@ public class Animatronic : MonoBehaviour
         if (aiMonitor == null)    Debug.LogWarning($"{name}: aiMonitor is not assigned.", this);
         if (officeStates == null) Debug.LogWarning($"{name}: officeStates is not assigned.", this);
         if (player == null)       Debug.LogWarning($"{name}: player is not assigned.", this);
-        if (cameraSystem == null) Debug.LogWarning($"{name}: cameraSystem is not assigned.", this);
+        if (activeCamera == null) Debug.LogWarning($"{name}: activeCamera is not assigned.", this);
         if (mapGraphs == null)    Debug.LogWarning($"{name}: mapGraphs is not assigned.", this);
         if (profile == null)      Debug.LogWarning($"{name}: profile is not assigned.", this);
 
@@ -81,7 +81,7 @@ public class Animatronic : MonoBehaviour
             aiMonitor          = aiMonitor,
             officeStates       = officeStates,
             player             = player,
-            cameraSystem       = cameraSystem,
+            activeCamera       = activeCamera,
             animatronicRegistry = animatronicRegistry,
             mapGraphs          = mapGraphs,
             givenProfile       = profile,
@@ -136,7 +136,6 @@ public class Animatronic : MonoBehaviour
         }
         else
         {
-            // Debug.LogWarning("Animatronic has no current job assigned, cannot get JobName.");
             return JobName.NONE;
         }
     }

@@ -138,8 +138,9 @@ MonoBehaviour:
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
   startsAvailable: 1
-  thisRoom: 16
+  thisButtonsRoom: 0
   cameraChangedEvent: {fileID: 11400000, guid: cb7fa811eeb7747499ca43131be227cf, type: 2}
+  activeCamera: {fileID: 11400000, guid: ae67811d1bb8d134a9b059e3d4fc45d8, type: 2}
 --- !u!114 &-3679949589189841385
 MonoBehaviour:
   m_ObjectHideFlags: 0
