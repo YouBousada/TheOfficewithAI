@@ -159,7 +159,7 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
         }
         else
         {
-            KillPlayer();
+            InitiateJumpscareEvent();
         }
     }
 

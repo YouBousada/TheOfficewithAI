@@ -3,9 +3,9 @@ using UnityEngine;
 
 public struct JobNecessities
 {
-    public AiMonitor aiMonitor;
+    public AiEvents aiEvents;
+    public CurrentView currentPlayerView;
     public Office officeStates;
-    public Player player;
     public ActiveCameraVariable activeCamera;
     public AnimatronicRegistry animatronicRegistry;
     public MapGraphs mapGraphs;
@@ -23,10 +23,10 @@ public class AnimatronicMemory
 public class Animatronic : MonoBehaviour
 {
     [Header("Animatronic requirements")]
-    [SerializeField] private AnimatronicRegistry animatronicRegistry;
-    [SerializeField] private AiMonitor aiMonitor;
+    private AnimatronicRegistry animatronicRegistry;
+    [SerializeField] private AiEvents aiEvents;
+    [SerializeField] private CurrentView currentPlayerView;
     [SerializeField] private Office officeStates;
-    [SerializeField] private Player player;
     [SerializeField] private ActiveCameraVariable activeCamera;
     [SerializeField] private MapGraphs mapGraphs;
     [SerializeField] private CharacterProfile profile;
@@ -41,66 +41,112 @@ public class Animatronic : MonoBehaviour
 
     void Awake()
     {
-        if (animatronicRegistry == null) Debug.LogWarning($"{name}: animatronicRegistry is not assigned.", this);
-        if (aiMonitor == null)    Debug.LogWarning($"{name}: aiMonitor is not assigned.", this);
-        if (officeStates == null) Debug.LogWarning($"{name}: officeStates is not assigned.", this);
-        if (player == null)       Debug.LogWarning($"{name}: player is not assigned.", this);
-        if (activeCamera == null) Debug.LogWarning($"{name}: activeCamera is not assigned.", this);
-        if (mapGraphs == null)    Debug.LogWarning($"{name}: mapGraphs is not assigned.", this);
-        if (profile == null)      Debug.LogWarning($"{name}: profile is not assigned.", this);
+        if (aiEvents == null)      Debug.LogWarning($"{name}: aiEvents is not assigned.", this);
+        if (officeStates == null)  Debug.LogWarning($"{name}: officeStates is not assigned.", this);
+        if (activeCamera == null)  Debug.LogWarning($"{name}: activeCamera is not assigned.", this);
+        if (mapGraphs == null)     Debug.LogWarning($"{name}: mapGraphs is not assigned.", this);
+        if (profile == null)       Debug.LogWarning($"{name}: profile is not assigned.", this);
 
-        if (profile != null) recordedLoc = profile.nightStartingRoom;
-        if (animatronicRegistry != null && profile != null)
-            animatronicRegistry.RegisterAnimatronic(profile.characterName, this);
-    }
+        animatronicRegistry = AnimatronicRegistry.Instance;
 
-    void OnEnable()
-    {
-        if (aiMonitor == null) return;
-        aiMonitor.OnJobSwitched += HandleSwitchRequest;
-        aiMonitor.OnLocationChanged += HandleLocationChange;
-        aiMonitor.OnDeath += HandleDeath;
-    }
-
-    void OnDisable()
-    {
-        if (aiMonitor == null) return;
-        aiMonitor.OnJobSwitched -= HandleSwitchRequest;
-        aiMonitor.OnLocationChanged -= HandleLocationChange;
-        aiMonitor.OnDeath -= HandleDeath;
+        if (profile != null) recordedLoc = profile.NightStartingRoom;
+        if (profile != null)
+            animatronicRegistry.RegisterAnimatronic(profile.CharacterName, this);
     }
 
     void Start()
     {
-        var defaultJob = GetDefaultJobForThisChar();
-
         memories = new AnimatronicMemory { lastFailedDoor = DoorName.NONE };
 
         necessities = new JobNecessities
         {
-            aiMonitor          = aiMonitor,
-            officeStates       = officeStates,
-            player             = player,
-            activeCamera       = activeCamera,
+            aiEvents            = aiEvents,
+            currentPlayerView   = currentPlayerView,
+            officeStates        = officeStates,
+            activeCamera        = activeCamera,
             animatronicRegistry = animatronicRegistry,
-            mapGraphs          = mapGraphs,
-            givenProfile       = profile,
-            LastLocation       = recordedLoc,
-            memories           = memories,
-            aiLevel            = Ailevel
+            mapGraphs           = mapGraphs,
+            givenProfile        = profile,
+            LastLocation        = recordedLoc,
+            memories            = memories,
+            aiLevel             = Ailevel
         };
 
-        if (myJob == null)
-            myJob = JobFactory.Create(defaultJob, necessities, false);
+        myJob ??= JobFactory.Create(GetDefaultJobForThisChar(), necessities, false);
     }
+
+    void Update()
+    {
+        myJob?.PerformJob();
+    }
+
+    void LateUpdate()
+    {
+        if (!hasPendingSwitch) return;
+        hasPendingSwitch = false;
+
+        necessities.LastLocation = recordedLoc;
+        myJob = JobFactory.Create(pendingJob, necessities, true);
+        recordedLoc = myJob.currentLoc;
+    }
+
+    void OnDestroy()
+    {
+        if (profile != null)
+            animatronicRegistry.UnregisterAnimatronic(profile.CharacterName, this);
+    }
+
     private JobName GetDefaultJobForThisChar()
     {
-        return profile.jobsByPreference[0];
+        return profile.JobsByPreference[0];
+    }
+
+    public void HandleSwitchRequest(JobSwitchedData data)
+    {
+        CharacterName who = data.who;
+        JobName toJob     = data.toJob;
+
+        if (who != profile.CharacterName) return;
+        if (hasPendingSwitch) return;
+        pendingJob = toJob;
+        hasPendingSwitch = true;
+    }
+
+    public void HandleLocationChange(LocationChangedData data)
+    {
+        CharacterName who    = data.who;
+        RoomName newLocation = data.to;
+
+        if (who != profile.CharacterName) return;
+        if (myJob != null)
+            recordedLoc = newLocation;
+    }
+
+    public void HandleDeath(JumpscareEventData data)
+    {
+        myJob = null;
+    }
+
+    public RoomName GetCurrentLocation()
+    {
+        return recordedLoc;
+    }
+
+    public CharacterName GetCharacterName()
+    {
+        if (profile != null)
+        {
+            return profile.CharacterName;
+        }
+        else
+        {
+            return CharacterName.NONE;
+        }
     }
 
     public BehaviourName GetCurrentBehaviour()
     {
-        if(myJob != null)
+        if (myJob != null)
         {
             return myJob.currentBehaviour;
         }
@@ -110,27 +156,9 @@ public class Animatronic : MonoBehaviour
         }
     }
 
-    public CharacterName GetCharacterName()
-    {
-        if(profile != null)
-        {
-            return profile.characterName;
-        }
-        else
-        {
-            // Debug.LogWarning("Animatronic has no CharacterProfile assigned, cannot get CharacterName.");
-            return CharacterName.NONE;
-        }
-    }
-
-    public RoomName GetCurrentLocation()
-    {
-        return recordedLoc;
-    }
-
     public JobName GetCurrentJobName()
     {
-        if(myJob != null)
+        if (myJob != null)
         {
             return myJob.JobName;
         }
@@ -139,60 +167,4 @@ public class Animatronic : MonoBehaviour
             return JobName.NONE;
         }
     }
-
-    void Update()
-    {
-        if(myJob != null)
-        {
-            myJob.PerformJob();
-        }
-    }
-
-    void HandleSwitchRequest(CharacterName who, JobName fromJob, JobName toJob)
-    {
-        if (who != profile.characterName) return;
-        if (hasPendingSwitch) return;
-        pendingJob = toJob;
-        hasPendingSwitch = true;
-    }
-
-    void HandleLocationChange(CharacterName who, RoomName oldLocation, RoomName newLocation, BehaviourName behaviour)
-    {
-        if (who != profile.characterName) return;
-        if(myJob != null)
-        {
-            recordedLoc = newLocation;
-        }
-    }
-
-    void LateUpdate()
-    {
-        if (!hasPendingSwitch) return;
-        hasPendingSwitch = false;
-
-        RoomName oldLocation = recordedLoc;
-        necessities.LastLocation = oldLocation;
-        myJob = JobFactory.Create(pendingJob, necessities, true);
-        recordedLoc = myJob.currentLoc;
-    }
-
-    void HandleDeath(CharacterName who, RoomName location)
-    {
-        if (who == profile.characterName){return;}
-        
-        if (myJob != null)
-        {
-            myJob = null;
-        }
-        
-    }
-    void OnDestroy()
-    {
-        if (aiMonitor != null)
-            aiMonitor.OnJobSwitched -= HandleSwitchRequest;
-
-        if (animatronicRegistry != null && profile != null)
-            animatronicRegistry.UnregisterAnimatronic(profile.characterName, this);
-    }
-    
 }

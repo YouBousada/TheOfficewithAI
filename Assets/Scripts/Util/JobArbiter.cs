@@ -1,20 +1,13 @@
 using System.Collections.Generic;
 
-public class JobArbiter
+public static class JobArbiter
 {
-    private readonly AnimatronicRegistry animatronicRegistry;
-
-    public JobArbiter(AnimatronicRegistry animatronicRegistry)
-    {
-        this.animatronicRegistry = animatronicRegistry;
-    }
-
-    public bool ApproveJobSwitch(CharacterName character, JobName toJob)
+    public static bool ApproveJobSwitch(AnimatronicRegistry registry, CharacterName character, JobName toJob)
     {
         var jobCounts = new Dictionary<JobName, int>();
         JobName currentJob = JobName.NONE;
 
-        foreach (Animatronic anim in animatronicRegistry.Animatronics)
+        foreach (Animatronic anim in registry.Animatronics)
         {
             var job = anim.GetCurrentJobName();
             jobCounts[job] = jobCounts.GetValueOrDefault(job, 0) + 1;

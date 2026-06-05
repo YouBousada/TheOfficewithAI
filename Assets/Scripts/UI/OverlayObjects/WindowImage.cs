@@ -18,22 +18,18 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
     [Header("JumpscareData")]
     [SerializeField] private WindowJumpscareData jumpscareData;
 
-    [Header("Animatronic Registry")]
-    [SerializeField] private AnimatronicRegistry animatronicRegistry;
-
     void Awake()
     {
         AddActiveViewForWindowDoor();
         UtilizeAnimationPlayer();
         Image = GetComponent<Image>();
 
-        if (noOneAtThisWindow == null)   Debug.LogWarning($"{name}: noOneAtThisWindow is not assigned.", this);
-        if (bonnieAtThisWindow == null)  Debug.LogWarning($"{name}: bonnieAtThisWindow is not assigned.", this);
-        if (chicaAtThisWindow == null)   Debug.LogWarning($"{name}: chicaAtThisWindow is not assigned.", this);
-        if (foxyAtThisWindow == null)    Debug.LogWarning($"{name}: foxyAtThisWindow is not assigned.", this);
-        if (freddyAtThisWindow == null)  Debug.LogWarning($"{name}: freddyAtThisWindow is not assigned.", this);
-        if (jumpscareData == null)       Debug.LogWarning($"{name}: jumpscareData is not assigned.", this);
-        if (animatronicRegistry == null) Debug.LogWarning($"{name}: animatronicRegistry is not assigned.", this);
+        if (noOneAtThisWindow == null) Debug.LogWarning($"{name}: noOneAtThisWindow is not assigned.", this);
+        if (bonnieAtThisWindow == null) Debug.LogWarning($"{name}: bonnieAtThisWindow is not assigned.", this);
+        if (chicaAtThisWindow == null) Debug.LogWarning($"{name}: chicaAtThisWindow is not assigned.", this);
+        if (foxyAtThisWindow == null) Debug.LogWarning($"{name}: foxyAtThisWindow is not assigned.", this);
+        if (freddyAtThisWindow == null) Debug.LogWarning($"{name}: freddyAtThisWindow is not assigned.", this);
+        if (jumpscareData == null) Debug.LogWarning($"{name}: jumpscareData is not assigned.", this);
     }
 
     void Reset()
@@ -44,9 +40,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
     protected override void Start()
     {
         base.Start();
-        
-        DoSubscribing();
-        RefreshWindowSprite();
+        ClearWatcher();
     }
 
     public void UtilizeAnimationPlayer()
@@ -59,96 +53,72 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
         }
     }
 
-    public void ReactToJumpscare(CharacterName who, RoomName from)
+    public void ReactToJumpscare(JumpscareEventData data)
     {
-        if(who == watcherAtThisWindow)
+        CharacterName who = data.who;
+        RoomName from = data.from;
+
+        if (who == watcherAtThisWindow)
         {
             Image.sprite = noOneAtThisWindow;
             return;
         }
-        
-        if((from == RoomName.EAST_DOOR && thisWindowDoor == RoomName.EAST_DOOR) || (from == RoomName.WEST_DOOR && thisWindowDoor == RoomName.WEST_DOOR))
+
+        if ((from == RoomName.EAST_DOOR && thisWindowDoor == RoomName.EAST_DOOR) || (from == RoomName.WEST_DOOR && thisWindowDoor == RoomName.WEST_DOOR))
         {
-            if(watcherAtThisWindow == CharacterName.BONNIE)
-            {
+            if (watcherAtThisWindow == CharacterName.BONNIE)
                 animPlayer.PlayAnimation(jumpscareData.FromHereBonnieAnimation, gameObject);
-            }
-            else if(watcherAtThisWindow == CharacterName.CHICA)
-            {
+            else if (watcherAtThisWindow == CharacterName.CHICA)
                 animPlayer.PlayAnimation(jumpscareData.FromHereChicaAnimation, gameObject);
-            }
-            else if(watcherAtThisWindow == CharacterName.FOXY)
-            {
+            else if (watcherAtThisWindow == CharacterName.FOXY)
                 animPlayer.PlayAnimation(jumpscareData.FromHereFoxyAnimation, gameObject);
-            }
-            else if(watcherAtThisWindow == CharacterName.FREDDY)
-            {
+            else if (watcherAtThisWindow == CharacterName.FREDDY)
                 animPlayer.PlayAnimation(jumpscareData.FromHereFreddyAnimation, gameObject);
-            }
             return;
         }
 
-        if((from == RoomName.EAST_DOOR && thisWindowDoor == RoomName.WEST_DOOR) || (from == RoomName.WEST_DOOR && thisWindowDoor == RoomName.EAST_DOOR))
+        if ((from == RoomName.EAST_DOOR && thisWindowDoor == RoomName.WEST_DOOR) || (from == RoomName.WEST_DOOR && thisWindowDoor == RoomName.EAST_DOOR))
         {
-            if(watcherAtThisWindow == CharacterName.BONNIE)
-            {
+            if (watcherAtThisWindow == CharacterName.BONNIE)
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorBonnieAnimation, gameObject);
-            }
-            else if(watcherAtThisWindow == CharacterName.CHICA)
-            {
+            else if (watcherAtThisWindow == CharacterName.CHICA)
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorChicaAnimation, gameObject);
-            }
-            else if(watcherAtThisWindow == CharacterName.FOXY)
-            {
+            else if (watcherAtThisWindow == CharacterName.FOXY)
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorFoxyAnimation, gameObject);
-            }
-            else if(watcherAtThisWindow == CharacterName.FREDDY)
-            {
+            else if (watcherAtThisWindow == CharacterName.FREDDY)
                 animPlayer.PlayAnimation(jumpscareData.FromOtherDoorFreddyAnimation, gameObject);
-            }
-            return;
         }
-        
     }
+    public void UpdateSpriteFromMoveEvent(LocationChangedData data)
+    {
+        CharacterName who = data.who;
+        RoomName to = data.to;
+        RoomName from = data.from;
+        BehaviourName behaviour = data.behaviour;
 
-    private void DoSubscribing()
-    {
-        // aiMonitor.OnInitialization += RespondToInitialization;
-        // aiMonitor.OnLocationChanged += RespondToMovement;
-        // aiMonitor.OnJobSwitched += RespondToJobSwitch;
-        // aiMonitor.OnDeath += ReactToJumpscare;
-    }
-    void RespondToInitialization(CharacterName who, RoomName location, BehaviourName behaviour, JobName job)
-    {
-        if (IsInActiveView)
-            RefreshWindowSprite();
-    }
-
-    void RespondToJobSwitch(CharacterName who, JobName fromJob, JobName toJob)
-    {
-        if (IsInActiveView)
-            RefreshWindowSprite();
-    }
-
-    void RespondToMovement(CharacterName who, RoomName from, RoomName to, BehaviourName behaviour)
-    {
-        if (IsInActiveView || from == thisWindowDoor || to == thisWindowDoor)
-            RefreshWindowSprite();
-    }
-
-    private void RefreshWindowSprite()
-    {
-        foreach (Animatronic animatronic in animatronicRegistry.Animatronics)
+        if (behaviour == BehaviourName.STARING_THROUGH_WINDOW && to == thisWindowDoor)
         {
-            if (animatronic.GetCurrentLocation() != thisWindowDoor) continue;
-            if (animatronic.GetCurrentJobName() != JobName.WINDOW_WATCHER) continue;
-
-            SetWatcher(animatronic.GetCharacterName());
-            return;
+            SetWatcher(who);
         }
 
-        ClearWatcher();
+        else if (from == thisWindowDoor)
+        {
+            ClearWatcher();
+        }
+
     }
+
+    public void UpdateSpriteFromJobswitch(JobSwitchedData data)
+    {
+        CharacterName who = data.who;
+        JobName fromJob = data.fromJob;
+
+        if (who == watcherAtThisWindow && fromJob == JobName.WINDOW_WATCHER)
+        {
+            ClearWatcher();
+        }
+    }
+
 
     private void SetWatcher(CharacterName who)
     {
@@ -157,8 +127,8 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
         Image.sprite = who switch
         {
             CharacterName.BONNIE => bonnieAtThisWindow,
-            CharacterName.CHICA  => chicaAtThisWindow,
-            CharacterName.FOXY   => foxyAtThisWindow,
+            CharacterName.CHICA => chicaAtThisWindow,
+            CharacterName.FOXY => foxyAtThisWindow,
             CharacterName.FREDDY => freddyAtThisWindow,
             _ => noOneAtThisWindow
         };
@@ -172,7 +142,6 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 
     protected override void EnterActiveView()
     {
-        RefreshWindowSprite();
         SetVisible(true);
     }
 

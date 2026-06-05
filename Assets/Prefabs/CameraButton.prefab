@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
+  playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
   startsAvailable: 1
   thisButtonsRoom: 0
   cameraChangedEvent: {fileID: 11400000, guid: cb7fa811eeb7747499ca43131be227cf, type: 2}

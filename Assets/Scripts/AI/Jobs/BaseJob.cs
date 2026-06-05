@@ -2,9 +2,9 @@ using UnityEngine;
 
 public abstract class BaseJob : IJobRequirements
 {
-    protected AiMonitor aiMonitor;
+    protected AiEvents aiEvents;
     protected Office officeStates;
-    protected Player player;
+    protected CurrentView currentPlayerView;
     protected ActiveCameraVariable activeCamera;
     protected AnimatronicRegistry animatronicRegistry;
     protected MapGraphs mapGraphs;
@@ -16,22 +16,19 @@ public abstract class BaseJob : IJobRequirements
     public AnimatronicMemory memories;
     protected int AiLevel;
     protected float MovementTimer;
-    protected JobArbiter jobArbiter;
-
     public BaseJob(JobNecessities necessities)
     {
-        mapGraphs = necessities.mapGraphs;
-        AiLevel = necessities.aiLevel;
-        aiMonitor           = necessities.aiMonitor;
+        mapGraphs           = necessities.mapGraphs;
+        AiLevel             = necessities.aiLevel;
+        currentPlayerView   = necessities.currentPlayerView;
+        aiEvents            = necessities.aiEvents;
         officeStates        = necessities.officeStates;
-        player              = necessities.player;
         activeCamera        = necessities.activeCamera;
         animatronicRegistry = necessities.animatronicRegistry;
-        profile = necessities.givenProfile;
-        currentLoc = necessities.LastLocation;
-        memories = necessities.memories;
-        currentBehaviour = InitialBehaviour;
-        jobArbiter = new JobArbiter(animatronicRegistry);
+        profile             = necessities.givenProfile;
+        currentLoc          = necessities.LastLocation;
+        memories            = necessities.memories;
+        currentBehaviour    = InitialBehaviour;
     }
     public abstract void PerformJob();
     public abstract RoomName CalculateNextPos();
@@ -41,7 +38,7 @@ public abstract class BaseJob : IJobRequirements
 
     public void DeclareInitialization()
     {
-        aiMonitor.HandleInitialization(profile.characterName, currentLoc, currentBehaviour, JobName);
+        aiEvents.OnAnimatronicInitialize.Raise(new InitializationData { who = profile.CharacterName, location = currentLoc, behaviour = currentBehaviour, job = JobName });
     }
     public bool AtADoor()
     {
@@ -61,7 +58,7 @@ public abstract class BaseJob : IJobRequirements
         RoomName oldlocation = currentLoc;
         RoomName newLocation = CalculateNextPos();
         currentLoc = newLocation;
-        aiMonitor.HandleLocationChange(profile.characterName, oldlocation, currentLoc, currentBehaviour);
+        aiEvents.OnLocationChanged.Raise(new LocationChangedData { who = profile.CharacterName, from = oldlocation, to = currentLoc, behaviour = currentBehaviour });
     }
 
     public void SwitchToBehaviour(BehaviourName newBehaviour)
@@ -73,29 +70,27 @@ public abstract class BaseJob : IJobRequirements
             return;
         }
 
-        aiMonitor.HandleBehaviourChange(profile.characterName, oldBehaviour, newBehaviour, currentLoc);
+        aiEvents.OnBehaviourChanged.Raise(new BehaviourChangedData { who = profile.CharacterName, oldBehaviour = oldBehaviour, newBehaviour = newBehaviour, location = currentLoc });
     }
 
-    public void KillPlayer()
+    public void InitiateJumpscareEvent()
     {
-        if (player.IsDead) return;
-        player.Die();
-        aiMonitor.HandleDeath(profile.characterName, currentLoc);
+        aiEvents.OnJumpscare.Raise(new JumpscareEventData { who = profile.CharacterName, from = currentLoc });
     }
 
     public bool AttemptToSwitchJobs()
     {
         float x = Random.value;
 
-        if (x > profile.willingnessToSwitchJobs)
+        if (x > profile.WillingnessToSwitchJobs)
         {
             return false;
         }
 
-        foreach (var job in profile.jobsByPreference)
+        foreach (var job in profile.JobsByPreference)
         {
             if (job == JobName) continue;
-            if (AskJobArbiterForJob(profile.characterName, job))
+            if (AskJobArbiterForJob(profile.CharacterName, job))
                 return true;
         }
         return false;
@@ -104,25 +99,25 @@ public abstract class BaseJob : IJobRequirements
 
     public bool AskJobArbiterForJob(CharacterName character, JobName toJob)
     {
-        if (!jobArbiter.ApproveJobSwitch(character, toJob)) return false;
+        if (!JobArbiter.ApproveJobSwitch(animatronicRegistry, character, toJob)) return false;
 
         if (Random.value > JobSelectionChance) return false;
 
-        aiMonitor.HandleJobSwitch(character, JobName, toJob);
+        aiEvents.OnJobSwitched.Raise(new JobSwitchedData { who = character, fromJob = JobName, toJob = toJob });
         return true;
     }
 
     public void RetreatFromDislikedCharacters()
     {
-        if (profile.dislikedCharacters.Count == 0)
+        if (profile.DislikedCharacters.Count == 0)
         {
             return;
         }
-        foreach (CharacterName disliked in profile.dislikedCharacters)
+        foreach (CharacterName disliked in profile.DislikedCharacters)
             {
                 if(animatronicRegistry.TryGetAnimatronic(disliked, out Animatronic dislikedAnim) && dislikedAnim.GetCurrentLocation() == currentLoc)
                 {
-                    MovementTimer -= Time.deltaTime * profile.socialRepelStrength;
+                    MovementTimer -= Time.deltaTime * profile.SocialRepelStrength;
                 }
 
             }
@@ -130,15 +125,15 @@ public abstract class BaseJob : IJobRequirements
 
     public void StayWithLikedCharacters()
     {
-        if (profile.likedCharacters.Count == 0)
+        if (profile.LikedCharacters.Count == 0)
         {
             return;
         }
-        foreach (CharacterName liked in profile.likedCharacters)
+        foreach (CharacterName liked in profile.LikedCharacters)
             {
                 if(animatronicRegistry.TryGetAnimatronic(liked, out Animatronic likedAnim) && likedAnim.GetCurrentLocation() == currentLoc)
                 {
-                    MovementTimer += Time.deltaTime * profile.socialAttractStrength;
+                    MovementTimer += Time.deltaTime * profile.SocialAttractStrength;
                 }
 
             }

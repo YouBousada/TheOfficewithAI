@@ -1,11 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(ViewChangedListener))]
 public abstract class OverLayObject : MonoBehaviour
 {
     [Header("OverLayObject requirements")]
     [SerializeField] private List<ViewName> viewsICanBeActiveIn = new();
     [SerializeField] protected bool hideUponJumpscare = true;
+    [SerializeField] PlayerConfig playerConfig;
     private bool hasHandledViewChange;
 
     protected bool IsInActiveView { get; private set; }
@@ -26,12 +28,7 @@ public abstract class OverLayObject : MonoBehaviour
             return;
         }
 
-        // player.OnViewChanged += HandleViewChanged;
-
-        // if (aiMonitor != null)
-        //     aiMonitor.OnDeath += HandleJumpscare;
-
-        HandleViewChanged(ViewName.DESK);
+        HandleViewChanged(playerConfig.startingview);
     }
 
     public void HandleViewChanged(ViewName newView)

@@ -6,7 +6,6 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    private AiMonitor aiMonitor;
     private Office officeStates;
     [SerializeField] private float gameOverDelay;
 
@@ -21,13 +20,10 @@ public class GameManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (aiMonitor != null)    aiMonitor.OnDeath -= HandleDeath;
         if (officeStates != null) officeStates.OnPowerOutage -= HandlePowerOut;
 
-        aiMonitor    = AiMonitor.Instance;
         officeStates = Office.Instance;
 
-        if (aiMonitor != null)    aiMonitor.OnDeath += HandleDeath;
         if (officeStates != null) officeStates.OnPowerOutage += HandlePowerOut;
     }
 
@@ -41,7 +37,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
-    private void HandleDeath(CharacterName who, RoomName from)
+    public void HandleDeath(JumpscareEventData data)
     {
         StartCoroutine(DelayedGameOver());
     }
@@ -60,7 +56,6 @@ public class GameManager : MonoBehaviour
     void OnDestroy()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
-        if (aiMonitor != null)    aiMonitor.OnDeath -= HandleDeath;
         if (officeStates != null) officeStates.OnPowerOutage -= HandlePowerOut;
     }
 }

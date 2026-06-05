@@ -137,11 +137,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewsICanBeActiveIn: 
   hideUponJumpscare: 1
+  playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
   startsAvailable: 1
   command: {fileID: 11400000, guid: eea317d5d57ebfb458b848132f6d71f7, type: 2}
   AllowedItemsInHandToUse: []
-  office: {fileID: 0}
-  puzzleMaster: {fileID: 0}
 --- !u!114 &5153523204022260624
 MonoBehaviour:
   m_ObjectHideFlags: 0

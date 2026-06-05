@@ -28,7 +28,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
     {
         JobName = JobName.WAIT_AND_RUSHER;
         lastFailedDoorLoc = memories.lastFailedDoor;
-        maxIdleTime = Mathf.Max(0.1f, profile.baseIdleTime - (AiLevelIdleScale * AiLevel) + (PatienceIdleScale * profile.patience));
+        maxIdleTime = Mathf.Max(0.1f, profile.BaseIdleTime - (AiLevelIdleScale * AiLevel) + (PatienceIdleScale * profile.Patience));
         maxRuntime = Mathf.Lerp(MaxRunInterval, MinRunInterval, (AiLevel - 1f) / 19f);
         MovementTimer = maxIdleTime;
     }
@@ -128,7 +128,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
         }
         else if (!TheDoorImAtIsClosed())
         {
-            KillPlayer();
+            InitiateJumpscareEvent();
         }
         else
         {
@@ -151,7 +151,7 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 
     private RoomName PickRandomIdleRoom()
     {
-        return profile.possibleIdleRooms[Random.Range(0, profile.possibleIdleRooms.Count)];
+        return profile.PossibleIdleRooms[Random.Range(0, profile.PossibleIdleRooms.Count)];
     }
 
     private void Run()

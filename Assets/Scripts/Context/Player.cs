@@ -6,15 +6,15 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     public static Player Instance { get; private set; }
-    public ViewName CurrentView { get; private set; }
     public bool IsDead { get; private set; } = false;
 
-    [SerializeField] private ViewName startingView;
     [SerializeField] private GameObject inventoryIconPrefab;
     [SerializeField] private Transform inventoryContainer;
     [SerializeField] private Transform inspectionContainer;
     [SerializeField] private List<Item> inventory = new();
     [SerializeField] private int InventoryCapacity;
+    [SerializeField] private CurrentView currentView;
+    [SerializeField] private PlayerConfig config;
 
     public event Action<ViewName> OnViewChanged;
     public event Action<ActionType> OnActionPerformed;
@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
         if (inventoryContainer == null)   Debug.LogWarning($"{name}: inventoryContainer is not assigned.", this);
         if (inspectionContainer == null)  Debug.LogWarning($"{name}: inspectionContainer is not assigned.", this);
 
-        SetView(startingView);
+        SetView(config.startingview);
     }
 
     private void Update()
@@ -155,7 +155,7 @@ public class Player : MonoBehaviour
 
     public void SetView(ViewName newView)
     {
-        CurrentView = newView;
+        currentView.viewName = newView;
         OnViewChanged?.Invoke(newView);
         Debug.Log("Player is now looking at: " + newView);
     }
@@ -177,7 +177,7 @@ public class Player : MonoBehaviour
             Destroy(child.gameObject);
     }
 
-    public void Die()
+    public void Die(JumpscareEventData data)
     {
         if (IsDead) return;
 

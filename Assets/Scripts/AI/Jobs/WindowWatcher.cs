@@ -120,7 +120,7 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
 
     private bool PlayerIsLookingAtThisWindow(RoomName chosenLocation)
     {
-        return (player.CurrentView == ViewName.LEFT_DOOR && chosenLocation == RoomName.WEST_DOOR) || (player.CurrentView == ViewName.RIGHT_DOOR && chosenLocation == RoomName.EAST_DOOR);
+        return (currentPlayerView.viewName == ViewName.LEFT_DOOR && chosenLocation == RoomName.WEST_DOOR) || (currentPlayerView.viewName == ViewName.RIGHT_DOOR && chosenLocation == RoomName.EAST_DOOR);
     }
 
     public override bool HandleNewBehaviour(BehaviourName newBehaviour)
@@ -144,7 +144,6 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
     {
         if (!AtADoor())
         {
-            // Debug.LogWarning(profile.characterName + " tried to handle kill position while not at a door!");
             return;
         }
 
@@ -166,13 +165,13 @@ public class WindowWatcher : BaseJob, IJobRequirements, IConcreteJob
         }
         else
         {
-            KillPlayer();
+            InitiateJumpscareEvent();
         }
     }
 
     public bool PlayerIsLookingAtMeThroughWindow()
     {
-        if (player.CurrentView == ViewName.LEFT_DOOR && currentLoc == RoomName.WEST_DOOR || player.CurrentView == ViewName.RIGHT_DOOR && currentLoc == RoomName.EAST_DOOR)
+        if (currentPlayerView.viewName == ViewName.LEFT_DOOR && currentLoc == RoomName.WEST_DOOR || currentPlayerView.viewName == ViewName.RIGHT_DOOR && currentLoc == RoomName.EAST_DOOR)
         {
             return true;
         }
