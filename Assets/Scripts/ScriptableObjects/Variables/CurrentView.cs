@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Variables/CurrentView")]
+[CreateAssetMenu(menuName = "Variables/Current View")]
 public class CurrentView: ScriptableObject
 {
     public ViewName viewName;

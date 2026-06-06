@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Variables/RoomVariable")]
+[CreateAssetMenu(menuName = "Variables/Room Variable")]
 public class ActiveCameraVariable : ScriptableObject
 {
     [SerializeField] private CameraSystemConfig cameraSystemConfig;

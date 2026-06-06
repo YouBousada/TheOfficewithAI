@@ -15,15 +15,12 @@ public class Player : MonoBehaviour
     [SerializeField] private int InventoryCapacity;
     [SerializeField] private CurrentView currentView;
     [SerializeField] private PlayerConfig config;
-
-    public event Action<ActionType> OnActionPerformed;
-    public event Action<Item> OnReceiveItem;
-    public event Action<Item> OnRemoveItemFromInventory;
-    public event Action<Item> OnReturnItem;
+    [SerializeField] public ItemVariable ItemInHand;
+    [SerializeField] private PickupSuccessEvent pickupSuccessEvent;
+    [SerializeField] private ReturnItemEvent returnItemEvent;
 
     public bool InventoryFull => inventory.Count >= InventoryCapacity;
     public bool IsHoldingSomething => ItemInHand.item != null;
-    public ItemVariable ItemInHand;
     public bool IsInspectingItem { get; private set; }
 
     private void Awake()
@@ -47,9 +44,10 @@ public class Player : MonoBehaviour
         
         if (Input.GetMouseButtonDown(1))
         {
-            if (!IsInspectingItem)
+            if (IsHoldingSomething && !IsInspectingItem)
             {
-                ReturnHeldItemToInventory();
+                returnItemEvent.Raise(ItemInHand.item);
+                ItemInHand.item = null;
             }
         }
 
@@ -65,7 +63,6 @@ public class Player : MonoBehaviour
         {
             if (IsHoldingSomething && !IsInspectingItem)
             {
-                OnReturnItem?.Invoke(ItemInHand.item);
                 ItemInHand.item = null;
             }
         }
@@ -137,7 +134,6 @@ public class Player : MonoBehaviour
         if (!InventoryFull)
         {
             inventory.Add(newItem);
-            OnReceiveItem?.Invoke(newItem);
             BuildInventoryDisplay();
         }
     }
@@ -147,7 +143,6 @@ public class Player : MonoBehaviour
         if (inventory.Contains(item))
         {
             inventory.Remove(item);
-            OnRemoveItemFromInventory?.Invoke(item);
             BuildInventoryDisplay();
         }
     }
@@ -175,6 +170,13 @@ public class Player : MonoBehaviour
             Destroy(child.gameObject);
     }
 
+    public void HandleAttemptPickup(Item item)
+    {
+        if (InventoryFull || IsHoldingSomething) return;
+        AddItemToInventory(item);
+        pickupSuccessEvent.Raise(item);
+    }
+
     public void Die(JumpscareEventData data)
     {
         if (IsDead) return;
@@ -183,10 +185,5 @@ public class Player : MonoBehaviour
         IsInspectingItem = false;
         GenerateInspectionGUI(IsInspectingItem);
         IsDead = true;
-    }
-
-    public void PerformAction(ActionType action)
-    {
-        OnActionPerformed?.Invoke(action);
     }
 }

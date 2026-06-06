@@ -19,6 +19,19 @@ public class PuzzleMaster : MonoBehaviour
         return itemsInTopDrawer.Contains(item);
     }
 
+    public void HandleEnvrionementInteraction(EvironmentInteractionName i)
+    {
+        switch (i)
+        {
+            case EvironmentInteractionName.TOGGLE_TOP_DRAWER:
+            ToggleTopDrawer();
+            break;
+            case EvironmentInteractionName.TOGGLE_BOTTOM_DRAWER:
+            ToggleBottomDrawer();
+            break;
+        }
+    }
+
     public bool IsTopDrawerOpen()
     {
         return TopDrawerIsOpen;
@@ -29,16 +42,21 @@ public class PuzzleMaster : MonoBehaviour
         return BottomDrawerIsOpen;
     }
 
-    public void ToggleTopDrawer()
+    private void ToggleTopDrawer()
     {
         TopDrawerIsOpen = !TopDrawerIsOpen;
         OnRoomStateChanged?.Invoke();
     }
 
-    public void ToggleBottomDrawer()
+    private void ToggleBottomDrawer()
     {
         BottomDrawerIsOpen = !BottomDrawerIsOpen;
         OnRoomStateChanged?.Invoke();
+    }
+
+    public void HandlePickupSuccess(Item item)
+    {
+        removeItem(item);
     }
 
     public void removeItem(Item item)

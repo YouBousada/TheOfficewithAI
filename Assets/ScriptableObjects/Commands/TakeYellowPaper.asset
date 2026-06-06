@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: TakeYellowPaper
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 1c68921d47ee00f4484e7e80be1dbea7, type: 2}
+  attemptPickupEvent: {fileID: 11400000, guid: 8a5bcd7a3f7d4094a9c809a20e6586c8, type: 2}

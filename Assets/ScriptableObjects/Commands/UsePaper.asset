@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a996c37091bb75d44b8b40ea89ed939f, type: 3}
   m_Name: UsePaper
   m_EditorClassIdentifier: 
+  itemInHand: {fileID: 11400000, guid: ae8c8773c71889545a1b03dd1ee51e5c, type: 2}
+  useItemEvent: {fileID: 11400000, guid: b3bd2de794e7a6b4a99e8d6b61b26efa, type: 2}

@@ -1,15 +1,13 @@
 using UnityEngine;
+
 [CreateAssetMenu(menuName = "Commands/Give Player Item")]
 public class GivePlayerItem : PlayerCommand
 {
-    [SerializeField] Item item;
+    [SerializeField] private Item item;
+    [SerializeField] private AttemptPickupEvent attemptPickupEvent;
 
     public override void Execute()
     {
-        // if (!player.InventoryFull && !player.IsHoldingSomething)
-        // {
-        //     player.AddItemToInventory(item);
-        //     puzzleMaster.removeItem(item);
-        // }
+        attemptPickupEvent.Raise(item);
     }
 }
