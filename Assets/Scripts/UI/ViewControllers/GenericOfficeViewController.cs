@@ -36,20 +36,20 @@ public abstract class GenericOfficeViewController : ViewController
         rightDoorJumpscares[CharacterName.FREDDY] = thisViewJumpscareData.RightDoorFreddyAnimation;
     }
 
-    protected override void ReactToJumpscare_Concrete(CharacterName who, RoomName from)
+    public override void ReactToJumpscare(JumpscareEventData jsData)
     {
         if (thisViewJumpscareData == null)
         {
             return;
         }
 
-        Dictionary<CharacterName, AnimationSequence> jumpscares = GetJumpscareLookup(from);
+        Dictionary<CharacterName, AnimationSequence> jumpscares = GetJumpscareLookup(jsData.from);
         if (jumpscares == null)
         {
             return;
         }
 
-        PlayJumpscareFromLookup(jumpscares, who, from);
+        PlayJumpscareFromLookup(jumpscares, jsData.who, jsData.from);
     }
 
     private Dictionary<CharacterName, AnimationSequence> GetJumpscareLookup(RoomName from)

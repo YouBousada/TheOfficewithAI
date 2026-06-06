@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1524112496843559020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5413895847476909548}
+  - component: {fileID: 8625902362152319381}
+  m_Layer: 0
+  m_Name: UnderDeskController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5413895847476909548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524112496843559020}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8625902362152319381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524112496843559020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 632f0ac13b3433e4ab6fffa6e9eef36e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzleMaster: {fileID: 0}
+  office: {fileID: 0}
+  backgroundImage: {fileID: 0}
+  thisViewName: 6
+  playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
+  currentView: {fileID: 11400000, guid: 945b41f4af89cbb48852cac669f9af1b, type: 2}
+  thisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
+  drawerBothClosed: {fileID: 5999897835493105218, guid: d0301d31575924347b9054cb13426c1c, type: 3}
+  drawerBothOpen: {fileID: -5140592288879006639, guid: a2ac1093d3a1d0d4799aad745a80b866, type: 3}
+  drawerOnlyTopOpen: {fileID: 4848475523088598730, guid: 069e920430ca2c949968849fb8990c4e, type: 3}
+  drawerOnlyBottomOpen: {fileID: -4906509479468443247, guid: 38984ae2057890f48b73fe2dce89cc05, type: 3}
+  topDrawerButton: {fileID: 0}
+  bottomDrawerButton: {fileID: 0}
+  takeBluePaper: {fileID: 0}
+  takeYellowPaper: {fileID: 0}
+  takeGreenPaper: {fileID: 0}
+  bluePaper: {fileID: 0}
+  yellowPaper: {fileID: 0}
+  greenPaper: {fileID: 0}
+  bluePaperObj: {fileID: 11400000, guid: 32335d65109049a498d87318b5f84dfd, type: 2}
+  yellowPaperObj: {fileID: 11400000, guid: 1c68921d47ee00f4484e7e80be1dbea7, type: 2}
+  greenPaperObj: {fileID: 11400000, guid: 6bf5615e6f5b735479e37afeb26aedc4, type: 2}

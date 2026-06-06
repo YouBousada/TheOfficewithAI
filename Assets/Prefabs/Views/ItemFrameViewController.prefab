@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2330561692617089412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6601954568839068627}
+  - component: {fileID: 4336533018071006413}
+  m_Layer: 0
+  m_Name: ItemFrameViewController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6601954568839068627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2330561692617089412}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4336533018071006413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2330561692617089412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0d87a964c0c62a4eab966bbcdfcf506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzleMaster: {fileID: 0}
+  office: {fileID: 0}
+  backgroundImage: {fileID: 0}
+  thisViewName: 7
+  playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
+  currentView: {fileID: 11400000, guid: 945b41f4af89cbb48852cac669f9af1b, type: 2}
+  thisViewJumpscareData: {fileID: 11400000, guid: a4f3e4eb33b51ca41ae817a39bc5421d, type: 2}
+  nothingSprite: {fileID: 783382141435092289, guid: d57f9fdc4c34cba4eadef34b6564cd8f, type: 3}
+  greenSprite: {fileID: 8109234547855253915, guid: c814de59e0d463649b14f549427e809e, type: 3}
+  blueSprite: {fileID: 785895146768206283, guid: 0985cb6c5e97e2b499e44c85cc65a6c9, type: 3}
+  yellowSprite: {fileID: -3293127060099714347, guid: 430270f779475c445830405fd582021f, type: 3}

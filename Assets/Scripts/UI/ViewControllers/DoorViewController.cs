@@ -95,25 +95,25 @@ public abstract class DoorViewController : ViewController
             CloseButton.DeactivateHotspot();
         }
     }
-    protected override void ReactToJumpscare_Concrete(CharacterName who, RoomName from)
+    public override void ReactToJumpscare(JumpscareEventData jsData)
     {
         if (doorViewJumpscareData == null)
         {
             return;
         }
 
-        if (!IsDoorAttack(from))
+        if (!IsDoorAttack(jsData.from))
         {
             return;
         }
 
-        if (!isThisDoorOpen && IsAttackFromThisDoor(from))
+        if (!isThisDoorOpen && IsAttackFromThisDoor(jsData.from))
         {
             return;
         }
 
-        Dictionary<CharacterName, AnimationSequence> jumpscares = GetJumpscareLookup(from);
-        PlayJumpscareFromLookup(jumpscares, who, from);
+        Dictionary<CharacterName, AnimationSequence> jumpscares = GetJumpscareLookup(jsData.from);
+        PlayJumpscareFromLookup(jumpscares, jsData.who, jsData.from);
     }
 
     private Dictionary<CharacterName, AnimationSequence> GetJumpscareLookup(RoomName from)

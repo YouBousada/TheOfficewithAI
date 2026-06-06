@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1065978016623466961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2772601043846161039}
+  - component: {fileID: 8368834193703756831}
+  m_Layer: 0
+  m_Name: LeftDoorViewController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2772601043846161039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065978016623466961}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8368834193703756831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065978016623466961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fe37e9e5e9b9546bb57c552195b1d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzleMaster: {fileID: 0}
+  office: {fileID: 0}
+  backgroundImage: {fileID: 0}
+  thisViewName: 2
+  playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
+  currentView: {fileID: 11400000, guid: 945b41f4af89cbb48852cac669f9af1b, type: 2}
+  doorViewJumpscareData: {fileID: 11400000, guid: a2476f580f421974688f0c2b7b0d6e99, type: 2}
+  DoorOpenAnimation: {fileID: 11400000, guid: d4f1d248c40a55849b9942895b27c6e3, type: 2}
+  DoorCloseAnimation: {fileID: 11400000, guid: 071566ed86f323c479dd1c96173fb377, type: 2}
+  DoorClosedImage: {fileID: 21300000, guid: 0bc7f44f7ec25ab4cb03a3c17ad86a80, type: 3}
+  DoorOpenImage: {fileID: 21300000, guid: 43af86f697935cb4ea3b503d6906fe24, type: 3}
+  CloseButton: {fileID: 0}
+  OpenButton: {fileID: 0}

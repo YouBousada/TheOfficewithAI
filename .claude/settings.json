@@ -9,7 +9,11 @@
       "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\culio\\\\Documents\\\\Unitystuff\\\\TheOfficewithAI\\\\Assets\\\\Scripts\" -Recurse -Directory)",
       "PowerShell(Get-ChildItem \"C:\\\\Users\\\\culio\\\\Documents\\\\Unitystuff\\\\TheOfficewithAI\\\\Assets\\\\Scripts\" -Directory -Recurse | Select-Object -ExpandProperty FullName | ForEach-Object { $_.Replace\\(\"C:\\\\Users\\\\culio\\\\Documents\\\\Unitystuff\\\\TheOfficewithAI\\\\Assets\\\\Scripts\\\\\",\"\"\\) })",
       "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\culio\\\\Documents\\\\Unitystuff\\\\TheOfficewithAI\\\\Assets\\\\Scripts\" -Recurse)",
-      "PowerShell(head -100)"
+      "PowerShell(head -100)",
+      "Bash(cd \"c:\\\\Users\\\\culio\\\\Documents\\\\Unitystuff\\\\TheOfficewithAI\" && rm \"Assets/Scripts/Context/AiMonitor.cs\" \"Assets/Scripts/Context/AiMonitor.cs.meta\" \"Assets/Scripts/Context/EventMediator.cs\" \"Assets/Scripts/Context/EventMediator.cs.meta\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\culio\\Documents\\Unitystuff\\TheOfficewithAI\\Assets\\Scripts\\Context"
     ]
   }
 }

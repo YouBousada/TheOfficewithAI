@@ -3,7 +3,6 @@ using System;
 
 public class Office : MonoBehaviour
 {
-    public static Office Instance { get; private set; }
     public float Power { get; private set; } = 1000f;
     public bool LeftDoorIsOpen { get; private set; }
     public bool RightDoorIsOpen { get; private set; }
@@ -20,7 +19,6 @@ public class Office : MonoBehaviour
 
     void Awake()
     {
-        Instance = this;
         LeftDoorIsOpen = true;
         RightDoorIsOpen = true;
     }

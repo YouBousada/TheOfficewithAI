@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class GameOverButton : MonoBehaviour
 {
+    [SerializeField] private GameManager gameManager;
+
     public void OnClick()
     {
-        GameManager.Instance.GoToNightScene();
+        gameManager.GoToNightScene();
     }
 }

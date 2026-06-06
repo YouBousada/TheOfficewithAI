@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PuzzleMaster : MonoBehaviour
 {
-    public static PuzzleMaster Instance;
-
     private bool TopDrawerIsOpen = false;
     private bool BottomDrawerIsOpen = false;
 
@@ -80,8 +78,5 @@ public class PuzzleMaster : MonoBehaviour
         OnRoomStateChanged?.Invoke();
     }
 
-    void Awake()
-    {
-        Instance = this;
-    }
+    void Awake() { }
 }

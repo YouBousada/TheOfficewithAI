@@ -4,32 +4,12 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; }
-
-    private Office officeStates;
+    [SerializeField] private Office officeStates;
     [SerializeField] private float gameOverDelay;
 
     void Awake()
     {
-        if (Instance != null) { Destroy(gameObject); return; }
-        Instance = this;
-        transform.SetParent(null);
-        DontDestroyOnLoad(gameObject);
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        if (officeStates != null) officeStates.OnPowerOutage -= HandlePowerOut;
-
-        officeStates = Office.Instance;
-
         if (officeStates != null) officeStates.OnPowerOutage += HandlePowerOut;
-    }
-
-    private void GoToGameOverScene()
-    {
-        SceneManager.LoadScene("GameOverScene");
     }
 
     public void GoToNightScene()
@@ -44,18 +24,17 @@ public class GameManager : MonoBehaviour
 
     private void HandlePowerOut()
     {
-        GoToGameOverScene();
+        SceneManager.LoadScene("GameOverScene");
     }
 
     private IEnumerator DelayedGameOver()
     {
         yield return new WaitForSeconds(gameOverDelay);
-        GoToGameOverScene();
+        SceneManager.LoadScene("GameOverScene");
     }
 
     void OnDestroy()
     {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
         if (officeStates != null) officeStates.OnPowerOutage -= HandlePowerOut;
     }
 }

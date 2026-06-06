@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0443f0a24216974980fcd17bb968581, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  officeStates: {fileID: 1805175351}
   gameOverDelay: 1
 --- !u!114 &14039894
 MonoBehaviour:
@@ -928,17 +929,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6010192344686716205, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
   m_PrefabInstance: {fileID: 996959533}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &224727090 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
-  m_PrefabInstance: {fileID: 996959533}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &260035546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1619,17 +1609,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6010192344686716205, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
   m_PrefabInstance: {fileID: 287761131}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &291988518 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
-  m_PrefabInstance: {fileID: 287761131}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &293875263
 GameObject:
   m_ObjectHideFlags: 0
@@ -2929,117 +2908,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1375917091604826781, guid: 4b09d0f2b7c042849877c0ac548b48d3, type: 3}
   m_PrefabInstance: {fileID: 7100747842223023485}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &435649671
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 435649672}
-  - component: {fileID: 435649673}
-  - component: {fileID: 435649674}
-  - component: {fileID: 435649675}
-  m_Layer: 0
-  m_Name: ItemFrameViewController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &435649672
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 435649671}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889167842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &435649673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 435649671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0d87a964c0c62a4eab966bbcdfcf506, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puzzleMaster: {fileID: 404973574}
-  office: {fileID: 1805175351}
-  backgroundImage: {fileID: 293875264}
-  thisViewName: 7
-  thisViewJumpscareData: {fileID: 11400000, guid: a4f3e4eb33b51ca41ae817a39bc5421d, type: 2}
-  nothingSprite: {fileID: 783382141435092289, guid: d57f9fdc4c34cba4eadef34b6564cd8f, type: 3}
-  greenSprite: {fileID: 8109234547855253915, guid: c814de59e0d463649b14f549427e809e, type: 3}
-  blueSprite: {fileID: 785895146768206283, guid: 0985cb6c5e97e2b499e44c85cc65a6c9, type: 3}
-  yellowSprite: {fileID: -3293127060099714347, guid: 430270f779475c445830405fd582021f, type: 3}
---- !u!114 &435649674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 435649671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ec7fae5a76ecc440a9e17cf72dadccf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: e758c4e22e057f34797f7647d8c69475, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 435649673}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: OnViewActivated
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &435649675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 435649671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4d847f7e4d686d4bb923efee0e87b70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 1468bbc866a5c814daf753e3198e3d72, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 435649673}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: ReactToJumpscare
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &465558065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3652,119 +3520,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571517343}
   m_CullTransparentMesh: 1
---- !u!1 &572307462
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 572307463}
-  - component: {fileID: 572307464}
-  - component: {fileID: 572307465}
-  - component: {fileID: 572307466}
-  m_Layer: 0
-  m_Name: RightDoorViewController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &572307463
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572307462}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889167842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &572307464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572307462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 687bce385bd09d54c92e561b82fd6d74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puzzleMaster: {fileID: 404973574}
-  office: {fileID: 1805175351}
-  backgroundImage: {fileID: 293875264}
-  thisViewName: 3
-  doorViewJumpscareData: {fileID: 11400000, guid: 31beb39217823f64e983ab6aab28b99a, type: 2}
-  DoorOpenAnimation: {fileID: 11400000, guid: f204dbe2c73a7a040b7553b5af9e51dc, type: 2}
-  DoorCloseAnimation: {fileID: 11400000, guid: e97ca5cffadb8494da1c3c197556a167, type: 2}
-  DoorClosedImage: {fileID: 21300000, guid: 86bc5b0faca32ca42be29b6ec5ba6020, type: 3}
-  DoorOpenImage: {fileID: 21300000, guid: 1523378d398a878419e31a9af52689b6, type: 3}
-  CloseButton: {fileID: 1220341315}
-  OpenButton: {fileID: 224727090}
---- !u!114 &572307465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572307462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ec7fae5a76ecc440a9e17cf72dadccf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: e758c4e22e057f34797f7647d8c69475, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 572307464}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: OnViewActivated
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &572307466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572307462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4d847f7e4d686d4bb923efee0e87b70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 1468bbc866a5c814daf753e3198e3d72, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 572307464}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: ReactToJumpscare
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &574062863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4662,6 +4417,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 14039892}
+  - {fileID: 893350072}
   - {fileID: 1048234889}
   - {fileID: 366918782}
   - {fileID: 1805175352}
@@ -4680,7 +4436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 889167842}
   m_Layer: 0
-  m_Name: Views
+  m_Name: ActiveView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4698,16 +4454,121 @@ Transform:
   m_LocalPosition: {x: 1.4598868, y: -0.23023534, z: 2.0248718}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1440739430}
-  - {fileID: 2085307968}
-  - {fileID: 1292941612}
-  - {fileID: 572307463}
-  - {fileID: 1817508889}
-  - {fileID: 1387411821}
-  - {fileID: 435649672}
+  m_Children: []
   m_Father: {fileID: 860101788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &893350071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 893350072}
+  - component: {fileID: 893350075}
+  - component: {fileID: 893350074}
+  - component: {fileID: 893350073}
+  m_Layer: 0
+  m_Name: ViewManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &893350072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893350071}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 860101788}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &893350073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893350071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4d847f7e4d686d4bb923efee0e87b70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 1468bbc866a5c814daf753e3198e3d72, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 893350075}
+        m_TargetAssemblyTypeName: ViewManager, Assembly-CSharp
+        m_MethodName: ReactToJumpscare
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &893350074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893350071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec7fae5a76ecc440a9e17cf72dadccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: e758c4e22e057f34797f7647d8c69475, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 893350075}
+        m_TargetAssemblyTypeName: ViewManager, Assembly-CSharp
+        m_MethodName: SwitchTo
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &893350075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893350071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c84bb0ec3b2245498eddb053c4a53d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewPrefabs:
+  - {fileID: 3112229758350212748, guid: 4f55e92e66448e548a84bc8727ce32a0, type: 3}
+  - {fileID: 4325113898856205231, guid: 3ed9510219c139d45a15eee8ad37f110, type: 3}
+  - {fileID: 4336533018071006413, guid: ba46f55954ca305488b1ec763c304f6d, type: 3}
+  - {fileID: 8368834193703756831, guid: 883a3e96b1a232a4bb44d9073fc3f51c, type: 3}
+  - {fileID: 3985231869979268311, guid: a7922328923688e4a8ff1cc30a3642c1, type: 3}
+  - {fileID: 5981005179442361979, guid: 53a84824df59284418d00edc95e91524, type: 3}
+  - {fileID: 8625902362152319381, guid: 6576cd5bdc5d0284293f6c7f0ecb7ca4, type: 3}
+  viewContainer: {fileID: 889167842}
+  startingView: 1
 --- !u!1 &905626431
 GameObject:
   m_ObjectHideFlags: 0
@@ -4815,17 +4676,6 @@ RectTransform:
   m_AnchoredPosition: {x: -3.8848386, y: -0.24536964}
   m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &921344429 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
-  m_PrefabInstance: {fileID: 574062863}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &937524528
 GameObject:
   m_ObjectHideFlags: 0
@@ -5558,17 +5408,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6010192344686716205, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
   m_PrefabInstance: {fileID: 7065979733660709032}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1144237685 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
-  m_PrefabInstance: {fileID: 7065979733660709032}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1186654111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5687,33 +5526,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6010192344686716205, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
   m_PrefabInstance: {fileID: 1186654111}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1186654116 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
-  m_PrefabInstance: {fileID: 1186654111}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1220341312 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6010192344686716205, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
   m_PrefabInstance: {fileID: 377767704}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1220341315 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
-  m_PrefabInstance: {fileID: 377767704}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1232079466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6083,119 +5900,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &1292941611
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1292941612}
-  - component: {fileID: 1292941613}
-  - component: {fileID: 1292941614}
-  - component: {fileID: 1292941615}
-  m_Layer: 0
-  m_Name: LeftDoorViewController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1292941612
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1292941611}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889167842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1292941613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1292941611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26fe37e9e5e9b9546bb57c552195b1d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puzzleMaster: {fileID: 404973574}
-  office: {fileID: 1805175351}
-  backgroundImage: {fileID: 293875264}
-  thisViewName: 2
-  doorViewJumpscareData: {fileID: 11400000, guid: a2476f580f421974688f0c2b7b0d6e99, type: 2}
-  DoorOpenAnimation: {fileID: 11400000, guid: d4f1d248c40a55849b9942895b27c6e3, type: 2}
-  DoorCloseAnimation: {fileID: 11400000, guid: 071566ed86f323c479dd1c96173fb377, type: 2}
-  DoorClosedImage: {fileID: 21300000, guid: 0bc7f44f7ec25ab4cb03a3c17ad86a80, type: 3}
-  DoorOpenImage: {fileID: 21300000, guid: 43af86f697935cb4ea3b503d6906fe24, type: 3}
-  CloseButton: {fileID: 1144237685}
-  OpenButton: {fileID: 291988518}
---- !u!114 &1292941614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1292941611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ec7fae5a76ecc440a9e17cf72dadccf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: e758c4e22e057f34797f7647d8c69475, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1292941613}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: OnViewActivated
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1292941615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1292941611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4d847f7e4d686d4bb923efee0e87b70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 1468bbc866a5c814daf753e3198e3d72, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1292941613}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: ReactToJumpscare
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!4 &1313046239 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 77434287812794144, guid: 388adb6646513204c865e88f735f6b0e, type: 3}
@@ -6346,247 +6050,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1375917091604826781, guid: 4b09d0f2b7c042849877c0ac548b48d3, type: 3}
   m_PrefabInstance: {fileID: 1371999341}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1387411820
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1387411821}
-  - component: {fileID: 1387411822}
-  - component: {fileID: 1387411823}
-  - component: {fileID: 1387411824}
-  m_Layer: 0
-  m_Name: UnderDeskController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1387411821
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387411820}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889167842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1387411822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387411820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 632f0ac13b3433e4ab6fffa6e9eef36e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puzzleMaster: {fileID: 404973574}
-  office: {fileID: 1805175351}
-  backgroundImage: {fileID: 293875264}
-  thisViewName: 6
-  thisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
-  drawerBothClosed: {fileID: 5999897835493105218, guid: d0301d31575924347b9054cb13426c1c, type: 3}
-  drawerBothOpen: {fileID: -5140592288879006639, guid: a2ac1093d3a1d0d4799aad745a80b866, type: 3}
-  drawerOnlyTopOpen: {fileID: 4848475523088598730, guid: 069e920430ca2c949968849fb8990c4e, type: 3}
-  drawerOnlyBottomOpen: {fileID: -4906509479468443247, guid: 38984ae2057890f48b73fe2dce89cc05, type: 3}
-  topDrawerButton: {fileID: 1784603463}
-  bottomDrawerButton: {fileID: 1396801511}
-  takeBluePaper: {fileID: 921344429}
-  takeYellowPaper: {fileID: 1186654116}
-  takeGreenPaper: {fileID: 1491815180}
-  bluePaper: {fileID: 318198390}
-  yellowPaper: {fileID: 2106642086}
-  greenPaper: {fileID: 2024391433}
-  bluePaperObj: {fileID: 11400000, guid: 32335d65109049a498d87318b5f84dfd, type: 2}
-  yellowPaperObj: {fileID: 11400000, guid: 1c68921d47ee00f4484e7e80be1dbea7, type: 2}
-  greenPaperObj: {fileID: 11400000, guid: 6bf5615e6f5b735479e37afeb26aedc4, type: 2}
---- !u!114 &1387411823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387411820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ec7fae5a76ecc440a9e17cf72dadccf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: e758c4e22e057f34797f7647d8c69475, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1387411822}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: OnViewActivated
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1387411824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387411820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4d847f7e4d686d4bb923efee0e87b70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 1468bbc866a5c814daf753e3198e3d72, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1387411822}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: ReactToJumpscare
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1396801511 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
-  m_PrefabInstance: {fileID: 116399860}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1440739429
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1440739430}
-  - component: {fileID: 1440739432}
-  - component: {fileID: 1440739431}
-  - component: {fileID: 1440739433}
-  m_Layer: 0
-  m_Name: DeskViewController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1440739430
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440739429}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889167842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1440739431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440739429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ec7fae5a76ecc440a9e17cf72dadccf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: e758c4e22e057f34797f7647d8c69475, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1440739432}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: OnViewActivated
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1440739432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440739429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40376eae79511914994ce7a61fcb9ca8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puzzleMaster: {fileID: 404973574}
-  office: {fileID: 1805175351}
-  backgroundImage: {fileID: 293875264}
-  thisViewName: 1
-  thisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
-  backgroundSprite: {fileID: -2690792559708188323, guid: 298ee97783129274da6d7d7d28b4832b, type: 3}
---- !u!114 &1440739433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440739429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4d847f7e4d686d4bb923efee0e87b70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 1468bbc866a5c814daf753e3198e3d72, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1440739432}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: ReactToJumpscare
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &1473209520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6815,17 +6278,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1375917091604826781, guid: 4b09d0f2b7c042849877c0ac548b48d3, type: 3}
   m_PrefabInstance: {fileID: 1474591517}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1491815180 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
-  m_PrefabInstance: {fileID: 1241966928}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1496752698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7621,17 +7073,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7178975095864346168, guid: dfee0a8d682c07f4bbd5fd0dbf08b9e6, type: 3}
   m_PrefabInstance: {fileID: 6311576732143450180}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1784603463 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
-  m_PrefabInstance: {fileID: 465558065}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60da426339b0e1e47825315848733109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1805175350
 GameObject:
   m_ObjectHideFlags: 0
@@ -7696,117 +7137,6 @@ MonoBehaviour:
       - m_Target: {fileID: 1805175351}
         m_TargetAssemblyTypeName: Office, Assembly-CSharp
         m_MethodName: RespondToDoorButton
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!1 &1817508888
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1817508889}
-  - component: {fileID: 1817508890}
-  - component: {fileID: 1817508891}
-  - component: {fileID: 1817508892}
-  m_Layer: 0
-  m_Name: BackViewController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1817508889
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817508888}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889167842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1817508890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817508888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00324b0b88c37f6488248ebbb3fda962, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puzzleMaster: {fileID: 404973574}
-  office: {fileID: 1805175351}
-  backgroundImage: {fileID: 293875264}
-  thisViewName: 4
-  thisViewJumpscareData: {fileID: 11400000, guid: a4f3e4eb33b51ca41ae817a39bc5421d, type: 2}
-  nothingSprite: {fileID: 232581992174814274, guid: 74e62f34fd8b3c14185ff6c899d3c8f2, type: 3}
-  greenSprite: {fileID: 8752030581782101974, guid: 78164708ec6b3ae4fabc491afd769857, type: 3}
-  blueSprite: {fileID: 8930769803646582388, guid: 3c67f14f013afcf479b38db9cc8b9142, type: 3}
-  yellowSprite: {fileID: -7381318549150602339, guid: 37796fb34e8d44d4393d1948167d6e0f, type: 3}
---- !u!114 &1817508891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817508888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ec7fae5a76ecc440a9e17cf72dadccf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: e758c4e22e057f34797f7647d8c69475, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1817508890}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: OnViewActivated
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1817508892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817508888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4d847f7e4d686d4bb923efee0e87b70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 1468bbc866a5c814daf753e3198e3d72, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1817508890}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: ReactToJumpscare
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8470,114 +7800,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076133059}
   m_CullTransparentMesh: 1
---- !u!1 &2085307967
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2085307968}
-  - component: {fileID: 2085307969}
-  - component: {fileID: 2085307970}
-  - component: {fileID: 2085307971}
-  m_Layer: 0
-  m_Name: MonitorViewController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2085307968
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2085307967}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 889167842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2085307969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2085307967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28d8e991e2400fe42a0d4105900a8d9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puzzleMaster: {fileID: 404973574}
-  office: {fileID: 1805175351}
-  backgroundImage: {fileID: 293875264}
-  thisViewName: 5
-  thisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
-  backgroundSprite: {fileID: -8117046721963414888, guid: 28199fa4b8aa10d469a880071d580e7b, type: 3}
---- !u!114 &2085307970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2085307967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ec7fae5a76ecc440a9e17cf72dadccf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: e758c4e22e057f34797f7647d8c69475, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2085307969}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: OnViewActivated
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &2085307971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2085307967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4d847f7e4d686d4bb923efee0e87b70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 1468bbc866a5c814daf753e3198e3d72, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2085307969}
-        m_TargetAssemblyTypeName: ViewController, Assembly-CSharp
-        m_MethodName: ReactToJumpscare
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &2106642082
 GameObject:
   m_ObjectHideFlags: 0

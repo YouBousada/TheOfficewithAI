@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5297230729574540941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 398035735150197662}
+  - component: {fileID: 4325113898856205231}
+  m_Layer: 0
+  m_Name: DeskViewController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &398035735150197662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297230729574540941}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4325113898856205231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297230729574540941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40376eae79511914994ce7a61fcb9ca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzleMaster: {fileID: 0}
+  office: {fileID: 0}
+  backgroundImage: {fileID: 0}
+  thisViewName: 1
+  playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
+  currentView: {fileID: 11400000, guid: 945b41f4af89cbb48852cac669f9af1b, type: 2}
+  thisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
+  backgroundSprite: {fileID: -2690792559708188323, guid: 298ee97783129274da6d7d7d28b4832b, type: 3}

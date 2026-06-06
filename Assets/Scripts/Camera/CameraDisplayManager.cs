@@ -43,7 +43,7 @@ public class CameraDisplayManager : MonoBehaviour
     private Dictionary<CharacterName, AnimatronicState> animatronicStates = new Dictionary<CharacterName, AnimatronicState>();
 
     private RoomCameraData thisRoomCameraData;
-    private RoomName activeCamera;
+    private RoomName activeCamera = RoomName.NONE;
 
     private void Awake()
     {
@@ -113,6 +113,11 @@ public class CameraDisplayManager : MonoBehaviour
 
     public void HandleCameraRoomChanged(RoomName newRoom)
     {
+        if(newRoom == activeCamera)
+        {
+            return;
+        }
+
         ClearDisplay();
 
         activeCamera = newRoom;

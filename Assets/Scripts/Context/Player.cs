@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public static Player Instance { get; private set; }
     public bool IsDead { get; private set; } = false;
 
     [SerializeField] private GameObject inventoryIconPrefab;
@@ -25,7 +24,6 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
         IsInspectingItem = false;
 
         if (inventoryIconPrefab == null)  Debug.LogWarning($"{name}: inventoryIconPrefab is not assigned.", this);

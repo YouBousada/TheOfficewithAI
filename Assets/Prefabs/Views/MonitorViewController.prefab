@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3090120230206112696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6241244568401699037}
+  - component: {fileID: 3985231869979268311}
+  m_Layer: 0
+  m_Name: MonitorViewController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6241244568401699037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3090120230206112696}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3985231869979268311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3090120230206112696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d8e991e2400fe42a0d4105900a8d9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzleMaster: {fileID: 0}
+  office: {fileID: 0}
+  backgroundImage: {fileID: 0}
+  thisViewName: 5
+  playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
+  currentView: {fileID: 11400000, guid: 945b41f4af89cbb48852cac669f9af1b, type: 2}
+  thisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}
+  backgroundSprite: {fileID: -8117046721963414888, guid: 28199fa4b8aa10d469a880071d580e7b, type: 3}
