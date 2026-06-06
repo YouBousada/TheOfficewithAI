@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: 2
   speed: 7
-  cameraSensitiviy: 4
+  cameraSensitivity: 0
   patience: 3
   nightStartingRoom: 2
   willingnessToSwitchJobs: 0.4
@@ -23,5 +23,5 @@ MonoBehaviour:
   socialAttractStrength: 0.5
   jobsByPreference: 020000000000000001000000
   possibleIdleRooms: 0300000001000000
-  likedCharacters: 0200000001000000
+  likedCharacters: 01000000
   dislikedCharacters: 03000000

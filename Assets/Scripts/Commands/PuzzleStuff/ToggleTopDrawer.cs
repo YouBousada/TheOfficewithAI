@@ -1,9 +1,9 @@
 using UnityEngine;
 [CreateAssetMenu(menuName = "Commands/Toggle Top Drawer")]
 public class ToggleTopDrawer : PlayerCommand
-{    
-    protected override void Execute_Concrete(Player player, Office office, PuzzleMaster puzzleMaster)
+{
+    public override void Execute()
     {
-        puzzleMaster.ToggleTopDrawer();
+        // puzzleMaster.ToggleTopDrawer();
     }
 }

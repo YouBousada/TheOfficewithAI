@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bc60ebecf613ef498234979cc49df73, type: 3}
   m_Name: CloseRightDoor
   m_EditorClassIdentifier: 
-  actionType: {fileID: 11400000, guid: 3d4e28ab7f4504e40a0de598d465d4e0, type: 2}
   doorButtonName: 2
+  pressDoorButtonEvent: {fileID: 11400000, guid: a83e5a5f6bb69754d8a3350c541b17f9, type: 2}

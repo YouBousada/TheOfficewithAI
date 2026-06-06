@@ -4,12 +4,12 @@ public class GivePlayerItem : PlayerCommand
 {
     [SerializeField] Item item;
 
-    protected override void Execute_Concrete(Player player, Office office, PuzzleMaster puzzleMaster)
+    public override void Execute()
     {
-        if (!player.InventoryFull && !player.IsHoldingSomething)
-        {
-            player.AddItemToInventory(item);
-            puzzleMaster.removeItem(item);
-        }
+        // if (!player.InventoryFull && !player.IsHoldingSomething)
+        // {
+        //     player.AddItemToInventory(item);
+        //     puzzleMaster.removeItem(item);
+        // }
     }
 }

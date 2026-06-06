@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1270691963632215183}
   - component: {fileID: 2836270832677817572}
   - component: {fileID: 1048279136805435536}
-  - component: {fileID: -2152259502107424738}
+  - component: {fileID: 9023084484942721013}
   m_Layer: 5
   m_Name: Movement HotSpot
   m_TagString: Untagged
@@ -198,7 +198,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &-2152259502107424738
+--- !u!114 &9023084484942721013
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,16 +207,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5843707036570975152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ec7fae5a76ecc440a9e17cf72dadccf, type: 3}
+  m_Script: {fileID: 11500000, guid: 4cfadb07408ead74ba561d5625b10a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: e758c4e22e057f34797f7647d8c69475, type: 2}
+  gameEvent: {fileID: 11400000, guid: 1df3d31c4fae628458fbd44a99de8986, type: 2}
   response:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1270691963632215183}
-        m_TargetAssemblyTypeName: OverLayObject, Assembly-CSharp
-        m_MethodName: HandleViewChanged
+        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+        m_MethodName: HandleCoolDown
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -16,7 +16,6 @@ public class Player : MonoBehaviour
     [SerializeField] private CurrentView currentView;
     [SerializeField] private PlayerConfig config;
 
-    public event Action<ViewName> OnViewChanged;
     public event Action<ActionType> OnActionPerformed;
     public event Action<Item> OnReceiveItem;
     public event Action<Item> OnRemoveItemFromInventory;
@@ -156,7 +155,6 @@ public class Player : MonoBehaviour
     public void SetView(ViewName newView)
     {
         currentView.viewName = newView;
-        OnViewChanged?.Invoke(newView);
         Debug.Log("Player is now looking at: " + newView);
     }
 

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3687775926572883683}
   - component: {fileID: 5153523204022260624}
   - component: {fileID: -3530164090081711003}
+  - component: {fileID: 8153771794159581620}
   m_Layer: 5
   m_Name: Action HotSpot
   m_TagString: Untagged
@@ -139,8 +140,11 @@ MonoBehaviour:
   hideUponJumpscare: 1
   playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
   startsAvailable: 1
-  command: {fileID: 11400000, guid: eea317d5d57ebfb458b848132f6d71f7, type: 2}
+  itemPlayerIsHolding: {fileID: 11400000, guid: ae8c8773c71889545a1b03dd1ee51e5c, type: 2}
   AllowedItemsInHandToUse: []
+  command: {fileID: 0}
+  actionType: {fileID: 0}
+  hotSpotCoolDownEvent: {fileID: 11400000, guid: 1df3d31c4fae628458fbd44a99de8986, type: 2}
 --- !u!114 &5153523204022260624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,6 +192,34 @@ MonoBehaviour:
       - m_Target: {fileID: 3687775926572883683}
         m_TargetAssemblyTypeName: OverLayObject, Assembly-CSharp
         m_MethodName: HandleJumpscare
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8153771794159581620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141159188817985054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfadb07408ead74ba561d5625b10a43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 1df3d31c4fae628458fbd44a99de8986, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3687775926572883683}
+        m_TargetAssemblyTypeName: HotSpot, Assembly-CSharp
+        m_MethodName: HandleCoolDown
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

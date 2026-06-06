@@ -12,4 +12,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e9c1478d719cd40a4e13e1549c9390, type: 3}
   m_Name: ToggleTopDrawer
   m_EditorClassIdentifier: 
-  actionType: {fileID: 11400000, guid: a64016bc9bf0d344a8a4e3de46fb2a78, type: 2}

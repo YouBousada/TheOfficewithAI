@@ -26,13 +26,6 @@ public abstract class HotSpot : OverLayObject
         isAvailableFromWorldState = startsAvailable;
     }
 
-    protected override void Start()
-    {
-        base.Start();
-        // if (player == null) return;
-        // player.OnActionPerformed += HandlePlayerAction;
-    }
-
     public void ActivateHotspot()
     {
         isAvailableFromWorldState = true;
@@ -46,23 +39,22 @@ public abstract class HotSpot : OverLayObject
     }
 
     //keep these 2 here
-    private void HandlePlayerAction(ActionType performedAction)
+    public void HandleCoolDown(float coolDownTime)
     {
-        if (performedAction == null) return;
         if (button == null) return;
 
         if (actionCooldownCoroutine != null)
             StopCoroutine(actionCooldownCoroutine);
 
-        actionCooldownCoroutine = StartCoroutine(HandlePlayerActionCoroutine(performedAction));
+        actionCooldownCoroutine = StartCoroutine(HandleCoolDownCoroutine(coolDownTime));
     }
 
-    private IEnumerator HandlePlayerActionCoroutine(ActionType performedAction)
+    private IEnumerator HandleCoolDownCoroutine(float coolDownTime)
     {
         isLocked = true;
         RefreshState();
 
-        yield return new WaitForSeconds(performedAction.HotspotDisableDuration);
+        yield return new WaitForSeconds(coolDownTime);
 
         isLocked = false;
         RefreshState();
