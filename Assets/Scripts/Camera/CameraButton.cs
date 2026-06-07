@@ -31,25 +31,4 @@ public class CameraButton : HotSpot
         cameraChangedEvent.Raise(thisButtonsRoom);
     }
 
-    protected override void EnterActiveView()
-    {
-        SetVisible(true);
-    }
-
-    protected override void ExitActiveView()
-    {
-        SetVisible(false);
-    }
-
-    protected override void HideForJumpscare(CharacterName who, RoomName from)
-    {
-        SetVisible(false);
-    }
-
-    private void SetVisible(bool visible)
-    {
-        canvasGroup.alpha = visible ? 1f : 0f;
-        canvasGroup.interactable = visible;
-        canvasGroup.blocksRaycasts = visible;
-    }
 }

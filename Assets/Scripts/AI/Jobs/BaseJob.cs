@@ -102,7 +102,6 @@ public abstract class BaseJob : IJobRequirements
         if (!JobArbiter.ApproveJobSwitch(animatronicRegistry, character, toJob)) return false;
 
         if (Random.value > JobSelectionChance) return false;
-
         aiEvents.OnJobSwitched.Raise(new JobSwitchedData { who = character, fromJob = JobName, toJob = toJob });
         return true;
     }

@@ -3,10 +3,13 @@ using System;
 
 public class Office : MonoBehaviour
 {
-    public float Power { get; private set; } = 1000f;
-    public bool LeftDoorIsOpen { get; private set; }
-    public bool RightDoorIsOpen { get; private set; }
+    [SerializeField] private BooleanVariable leftDoorIsOpen;
+    [SerializeField] private BooleanVariable rightDoorIsOpen;
 
+    public bool LeftDoorIsOpen => leftDoorIsOpen.boolean;
+    public bool RightDoorIsOpen => rightDoorIsOpen.boolean;
+
+    public float Power { get; private set; } = 1000f;
     private float doorDrainagePerSecond = 1f;
     private bool invokedPowerOutage = false;
 
@@ -19,8 +22,8 @@ public class Office : MonoBehaviour
 
     void Awake()
     {
-        LeftDoorIsOpen = true;
-        RightDoorIsOpen = true;
+        leftDoorIsOpen.boolean = true;
+        rightDoorIsOpen.boolean = true;
     }
 
     void Update()
@@ -31,38 +34,38 @@ public class Office : MonoBehaviour
             invokedPowerOutage = true;
         }
 
-        if (!LeftDoorIsOpen) Power -= Time.deltaTime * doorDrainagePerSecond;
-        if (!RightDoorIsOpen) Power -= Time.deltaTime * doorDrainagePerSecond;
+        if (!leftDoorIsOpen.boolean) Power -= Time.deltaTime * doorDrainagePerSecond;
+        if (!rightDoorIsOpen.boolean) Power -= Time.deltaTime * doorDrainagePerSecond;
     }
 
     private void OpenLeftDoor()
     {
-        if (LeftDoorIsOpen) return;
-        LeftDoorIsOpen = true;
+        if (leftDoorIsOpen.boolean) return;
+        leftDoorIsOpen.boolean = true;
         OnDoorStateChanged?.Invoke(LeftDoorIsOpen, RightDoorIsOpen);
         OnLeftDoorOpened?.Invoke();
     }
 
     private void CloseLeftDoor()
     {
-        if (!LeftDoorIsOpen) return;
-        LeftDoorIsOpen = false;
+        if (!leftDoorIsOpen.boolean) return;
+        leftDoorIsOpen.boolean = false;
         OnDoorStateChanged?.Invoke(LeftDoorIsOpen, RightDoorIsOpen);
         OnLeftDoorClosed?.Invoke();
     }
 
     private void OpenRightDoor()
     {
-        if (RightDoorIsOpen) return;
-        RightDoorIsOpen = true;
+        if (rightDoorIsOpen.boolean) return;
+        rightDoorIsOpen.boolean = true;
         OnDoorStateChanged?.Invoke(LeftDoorIsOpen, RightDoorIsOpen);
         OnRightDoorOpened?.Invoke();
     }
 
     private void CloseRightDoor()
     {
-        if (!RightDoorIsOpen) return;
-        RightDoorIsOpen = false;
+        if (!rightDoorIsOpen.boolean) return;
+        rightDoorIsOpen.boolean = false;
         OnDoorStateChanged?.Invoke(LeftDoorIsOpen, RightDoorIsOpen);
         OnRightDoorClosed?.Invoke();
     }
@@ -71,18 +74,10 @@ public class Office : MonoBehaviour
     {
         switch (doorButtonName)
         {
-            case DoorButtonName.LEFT_CLOSE:
-                CloseLeftDoor();
-                break;
-            case DoorButtonName.LEFT_OPEN:
-                OpenLeftDoor();
-                break;
-            case DoorButtonName.RIGHT_CLOSE:
-                CloseRightDoor();
-                break;
-            case DoorButtonName.RIGHT_OPEN:
-                OpenRightDoor();
-                break;
+            case DoorButtonName.LEFT_CLOSE:  CloseLeftDoor();  break;
+            case DoorButtonName.LEFT_OPEN:   OpenLeftDoor();   break;
+            case DoorButtonName.RIGHT_CLOSE: CloseRightDoor(); break;
+            case DoorButtonName.RIGHT_OPEN:  OpenRightDoor();  break;
         }
     }
 
@@ -91,7 +86,7 @@ public class Office : MonoBehaviour
         GUIStyle style = new(GUI.skin.label) { fontSize = 20 };
         style.normal.textColor = Color.green;
         GUI.Label(new Rect(10, 10, 300, 40), $"Power: {Power}", style);
-        GUI.Label(new Rect(10, 50, 300, 40), $"LeftDoorIsOpen: {LeftDoorIsOpen}", style);
-        GUI.Label(new Rect(10, 90, 300, 40), $"RightDoorIsOpen: {RightDoorIsOpen}", style);
+        GUI.Label(new Rect(10, 50, 300, 40), $"LeftDoorIsOpen: {leftDoorIsOpen.boolean}", style);
+        GUI.Label(new Rect(10, 90, 300, 40), $"RightDoorIsOpen: {rightDoorIsOpen.boolean}", style);
     }
 }

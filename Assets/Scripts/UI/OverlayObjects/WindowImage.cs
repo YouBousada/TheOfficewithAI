@@ -1,10 +1,8 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 {
     [SerializeField] private RoomName thisWindowDoor;
-    private Image Image;
     private AnimationPlayer animPlayer;
     private CharacterName watcherAtThisWindow = CharacterName.NONE;
 
@@ -18,11 +16,12 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
     [Header("JumpscareData")]
     [SerializeField] private WindowJumpscareData jumpscareData;
 
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+
         AddActiveViewForWindowDoor();
         UtilizeAnimationPlayer();
-        Image = GetComponent<Image>();
 
         if (noOneAtThisWindow == null) Debug.LogWarning($"{name}: noOneAtThisWindow is not assigned.", this);
         if (bonnieAtThisWindow == null) Debug.LogWarning($"{name}: bonnieAtThisWindow is not assigned.", this);
@@ -60,7 +59,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
 
         if (who == watcherAtThisWindow)
         {
-            Image.sprite = noOneAtThisWindow;
+            image.sprite = noOneAtThisWindow;
             return;
         }
 
@@ -124,7 +123,7 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
     {
         watcherAtThisWindow = who;
 
-        Image.sprite = who switch
+        image.sprite = who switch
         {
             CharacterName.BONNIE => bonnieAtThisWindow,
             CharacterName.CHICA => chicaAtThisWindow,
@@ -137,28 +136,12 @@ public class WindowImage : OverLayObject, IAnimated, IJumpscareAffected
     private void ClearWatcher()
     {
         watcherAtThisWindow = CharacterName.NONE;
-        Image.sprite = noOneAtThisWindow;
-    }
-
-    protected override void EnterActiveView()
-    {
-        SetVisible(true);
-    }
-
-    protected override void ExitActiveView()
-    {
-        SetVisible(false);
+        image.sprite = noOneAtThisWindow;
     }
 
     protected override void HideForJumpscare(CharacterName who, RoomName from)
     {
         SetVisible(!hideUponJumpscare);
-    }
-
-    private void SetVisible(bool visible)
-    {
-        if (Image != null)
-            Image.enabled = visible;
     }
 
     private void AddActiveViewForWindowDoor()

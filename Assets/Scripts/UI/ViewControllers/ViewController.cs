@@ -7,14 +7,10 @@ public abstract class ViewController : MonoBehaviour, IAnimated
     protected AnimationPlayer animPlayer;
 
     [Header("ViewController requirements")]
-    // [SerializeField] protected PuzzleMaster puzzleMaster;
-    // [SerializeField] protected Office office;
     public Image backgroundImage;
-    [SerializeField] protected ViewName thisViewName;
+    [field: SerializeField] public ViewName ViewName { get; private set; }
     [SerializeField] private PlayerConfig playerConfig;
     [SerializeField] protected CurrentView currentView;
-
-    public ViewName GetViewName() => thisViewName;
 
     public void UtilizeAnimationPlayer()
     {
@@ -29,11 +25,11 @@ public abstract class ViewController : MonoBehaviour, IAnimated
         UtilizeAnimationPlayer();
     }
 
-    void Start()
+    protected virtual void OnEnable()
     {
-        RenderViewBasedOnWorldState_Concrete();
+        RenderViewBasedOnWorldState();
     }
 
-    protected abstract void RenderViewBasedOnWorldState_Concrete();
+    public abstract void RenderViewBasedOnWorldState();
     public abstract void ReactToJumpscare(JumpscareEventData jsData);
 }

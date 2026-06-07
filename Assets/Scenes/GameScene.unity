@@ -986,6 +986,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 8dc07c8bf88faf64393c1e75df757743, type: 2}
     - target: {fileID: 2660168685479410468, guid: 388adb6646513204c865e88f735f6b0e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2660168685479410468, guid: 388adb6646513204c865e88f735f6b0e, type: 3}
       propertyPath: officeStates
       value: 
       objectReference: {fileID: 1805175351}
@@ -1487,6 +1491,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7178975095864346168, guid: dfee0a8d682c07f4bbd5fd0dbf08b9e6, type: 3}
   m_PrefabInstance: {fileID: 278254574}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &284703351 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 141159188817985054, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+  m_PrefabInstance: {fileID: 1241966928}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &287761131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1833,6 +1842,8 @@ GameObject:
   - component: {fileID: 318198390}
   - component: {fileID: 318198391}
   - component: {fileID: 318198392}
+  - component: {fileID: 318198394}
+  - component: {fileID: 318198393}
   m_Layer: 5
   m_Name: BluePaper
   m_TagString: Untagged
@@ -1911,6 +1922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewsICanBeActiveIn: 06000000
   hideUponJumpscare: 1
+  startsAvailable: 0
   playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
 --- !u!114 &318198391
 MonoBehaviour:
@@ -1960,6 +1972,49 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: OverLayObject, Assembly-CSharp
         m_MethodName: HandleJumpscare
         m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &318198393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318198386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d1867a9e41a7d45ab6df28994b1671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsintopdrawer: {fileID: 11400000, guid: 2bf0d77f894f2ff4c90f4694a9a50a87, type: 2}
+  topdrawerIsOpen: {fileID: 11400000, guid: 44ec5c9c3cc263d47b7117176b8588df, type: 2}
+  myItem: {fileID: 11400000, guid: 32335d65109049a498d87318b5f84dfd, type: 2}
+--- !u!114 &318198394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318198386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6ba3e2db5f85f49859d690460749dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 48af5068429315242b835a19b8aebc29, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 318198393}
+        m_TargetAssemblyTypeName: ResponsiveToTopDrawer, Assembly-CSharp
+        m_MethodName: RenderBasedOnPuzzleStatus
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2563,10 +2618,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73bb17022db61c44fafe94c2a264c7ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemsInTopDrawer:
+  TopDrawerIsOpen: {fileID: 11400000, guid: 44ec5c9c3cc263d47b7117176b8588df, type: 2}
+  BottomDrawerIsOpen: {fileID: 11400000, guid: df683798e2d3ef6448ad6a6a64214808, type: 2}
+  itemsInTopDrawer: {fileID: 11400000, guid: 2bf0d77f894f2ff4c90f4694a9a50a87, type: 2}
+  itemOnWall: {fileID: 11400000, guid: d9e9afda242685445905f94587b09706, type: 2}
+  startingItemsInTopDrawer:
   - {fileID: 11400000, guid: 32335d65109049a498d87318b5f84dfd, type: 2}
   - {fileID: 11400000, guid: 6bf5615e6f5b735479e37afeb26aedc4, type: 2}
   - {fileID: 11400000, guid: 1c68921d47ee00f4484e7e80be1dbea7, type: 2}
+  OnRoomStatusChanged: {fileID: 11400000, guid: 48af5068429315242b835a19b8aebc29, type: 2}
 --- !u!114 &404973575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3541,6 +3601,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1a9a7679aa6accc498e77ea2e255398c, type: 2}
     - target: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+      propertyPath: startsAvailable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
       propertyPath: viewsICanBeActiveIn.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -3631,7 +3695,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 141159188817985054, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 843966477}
+    - targetCorrespondingSourceObject: {fileID: 141159188817985054, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 843966476}
   m_SourcePrefab: {fileID: 100100000, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
 --- !u!224 &574062864 stripped
 RectTransform:
@@ -4387,6 +4457,54 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &843966468 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 141159188817985054, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+  m_PrefabInstance: {fileID: 574062863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &843966476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843966468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d1867a9e41a7d45ab6df28994b1671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsintopdrawer: {fileID: 11400000, guid: 2bf0d77f894f2ff4c90f4694a9a50a87, type: 2}
+  topdrawerIsOpen: {fileID: 11400000, guid: 44ec5c9c3cc263d47b7117176b8588df, type: 2}
+  myItem: {fileID: 11400000, guid: 32335d65109049a498d87318b5f84dfd, type: 2}
+--- !u!114 &843966477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843966468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6ba3e2db5f85f49859d690460749dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 48af5068429315242b835a19b8aebc29, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 843966476}
+        m_TargetAssemblyTypeName: ResponsiveToTopDrawer, Assembly-CSharp
+        m_MethodName: RenderBasedOnPuzzleStatus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &860101787
 GameObject:
   m_ObjectHideFlags: 0
@@ -4423,7 +4541,6 @@ Transform:
   - {fileID: 1805175352}
   - {fileID: 404973573}
   - {fileID: 825810209}
-  - {fileID: 889167842}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &889167841
@@ -4436,7 +4553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 889167842}
   m_Layer: 0
-  m_Name: ActiveView
+  m_Name: Views
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4451,11 +4568,11 @@ Transform:
   m_GameObject: {fileID: 889167841}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4598868, y: -0.23023534, z: 2.0248718}
+  m_LocalPosition: {x: -2.0451133, y: -0.23023546, z: 102.02488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 860101788}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &893350071
 GameObject:
@@ -4469,6 +4586,7 @@ GameObject:
   - component: {fileID: 893350075}
   - component: {fileID: 893350074}
   - component: {fileID: 893350073}
+  - component: {fileID: 893350076}
   m_Layer: 0
   m_Name: ViewManager
   m_TagString: Untagged
@@ -4560,15 +4678,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   viewPrefabs:
-  - {fileID: 3112229758350212748, guid: 4f55e92e66448e548a84bc8727ce32a0, type: 3}
   - {fileID: 4325113898856205231, guid: 3ed9510219c139d45a15eee8ad37f110, type: 3}
-  - {fileID: 4336533018071006413, guid: ba46f55954ca305488b1ec763c304f6d, type: 3}
-  - {fileID: 8368834193703756831, guid: 883a3e96b1a232a4bb44d9073fc3f51c, type: 3}
   - {fileID: 3985231869979268311, guid: a7922328923688e4a8ff1cc30a3642c1, type: 3}
-  - {fileID: 5981005179442361979, guid: 53a84824df59284418d00edc95e91524, type: 3}
   - {fileID: 8625902362152319381, guid: 6576cd5bdc5d0284293f6c7f0ecb7ca4, type: 3}
+  - {fileID: 5981005179442361979, guid: 53a84824df59284418d00edc95e91524, type: 3}
+  - {fileID: 8368834193703756831, guid: 883a3e96b1a232a4bb44d9073fc3f51c, type: 3}
+  - {fileID: 3112229758350212748, guid: 4f55e92e66448e548a84bc8727ce32a0, type: 3}
+  - {fileID: 4336533018071006413, guid: ba46f55954ca305488b1ec763c304f6d, type: 3}
   viewContainer: {fileID: 889167842}
-  startingView: 1
+  playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
+  backgroundImage: {fileID: 293875264}
+--- !u!114 &893350076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893350071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6ba3e2db5f85f49859d690460749dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 48af5068429315242b835a19b8aebc29, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 893350075}
+        m_TargetAssemblyTypeName: ViewManager, Assembly-CSharp
+        m_MethodName: UpdateView
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &905626431
 GameObject:
   m_ObjectHideFlags: 0
@@ -4988,6 +5135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewsICanBeActiveIn: 0100000005000000
   hideUponJumpscare: 1
+  startsAvailable: 1
   playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
   deskPosition: {fileID: 11400000, guid: 776a6b8a8c8e99549ae515419f29ed4a, type: 2}
   closePosition: {fileID: 11400000, guid: 7d6d9099d11e7be44899080eea399f3d, type: 2}
@@ -5429,6 +5577,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1a9a7679aa6accc498e77ea2e255398c, type: 2}
     - target: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+      propertyPath: startsAvailable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
       propertyPath: viewsICanBeActiveIn.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -5519,7 +5671,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 141159188817985054, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1983081744}
+    - targetCorrespondingSourceObject: {fileID: 141159188817985054, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1983081743}
   m_SourcePrefab: {fileID: 100100000, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
 --- !u!224 &1186654112 stripped
 RectTransform:
@@ -5662,6 +5820,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1a9a7679aa6accc498e77ea2e255398c, type: 2}
     - target: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+      propertyPath: startsAvailable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687775926572883683, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
       propertyPath: viewsICanBeActiveIn.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -5752,13 +5914,62 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 141159188817985054, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1241966938}
+    - targetCorrespondingSourceObject: {fileID: 141159188817985054, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1241966937}
   m_SourcePrefab: {fileID: 100100000, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
 --- !u!224 &1241966929 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6010192344686716205, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
   m_PrefabInstance: {fileID: 1241966928}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1241966937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284703351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6ba3e2db5f85f49859d690460749dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 48af5068429315242b835a19b8aebc29, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1241966938}
+        m_TargetAssemblyTypeName: ResponsiveToTopDrawer, Assembly-CSharp
+        m_MethodName: RenderBasedOnPuzzleStatus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1241966938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284703351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d1867a9e41a7d45ab6df28994b1671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsintopdrawer: {fileID: 11400000, guid: 2bf0d77f894f2ff4c90f4694a9a50a87, type: 2}
+  topdrawerIsOpen: {fileID: 11400000, guid: 44ec5c9c3cc263d47b7117176b8588df, type: 2}
+  myItem: {fileID: 11400000, guid: 6bf5615e6f5b735479e37afeb26aedc4, type: 2}
 --- !u!1 &1286481876
 GameObject:
   m_ObjectHideFlags: 0
@@ -6899,6 +7110,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 4614e3a02e7e9204ab96f0aaae91086b, type: 2}
     - target: {fileID: 2660168685479410468, guid: 388adb6646513204c865e88f735f6b0e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2660168685479410468, guid: 388adb6646513204c865e88f735f6b0e, type: 3}
       propertyPath: officeStates
       value: 
       objectReference: {fileID: 1805175351}
@@ -7103,6 +7318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d691666760958824891139a6c971a866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftDoorIsOpen: {fileID: 11400000, guid: f4432b9303fd55c44a84f5f398871560, type: 2}
+  rightDoorIsOpen: {fileID: 11400000, guid: 0f040a67218d4924bb975a8d682391d8, type: 2}
 --- !u!4 &1805175352
 Transform:
   m_ObjectHideFlags: 0
@@ -7494,6 +7711,54 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5344284156041971296, guid: 9682450a0ecef5a4e8d8bd18efcd043f, type: 3}
   m_PrefabInstance: {fileID: 1978708688}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1983081735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 141159188817985054, guid: 5f15ca6a4eb15a64c9e8e76e62d010c4, type: 3}
+  m_PrefabInstance: {fileID: 1186654111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1983081743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983081735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6ba3e2db5f85f49859d690460749dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 48af5068429315242b835a19b8aebc29, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1983081744}
+        m_TargetAssemblyTypeName: ResponsiveToTopDrawer, Assembly-CSharp
+        m_MethodName: RenderBasedOnPuzzleStatus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1983081744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983081735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d1867a9e41a7d45ab6df28994b1671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsintopdrawer: {fileID: 11400000, guid: 2bf0d77f894f2ff4c90f4694a9a50a87, type: 2}
+  topdrawerIsOpen: {fileID: 11400000, guid: 44ec5c9c3cc263d47b7117176b8588df, type: 2}
+  myItem: {fileID: 11400000, guid: 1c68921d47ee00f4484e7e80be1dbea7, type: 2}
 --- !u!1 &2024391429
 GameObject:
   m_ObjectHideFlags: 0
@@ -7508,6 +7773,8 @@ GameObject:
   - component: {fileID: 2024391433}
   - component: {fileID: 2024391434}
   - component: {fileID: 2024391435}
+  - component: {fileID: 2024391437}
+  - component: {fileID: 2024391436}
   m_Layer: 5
   m_Name: GreenPaper
   m_TagString: Untagged
@@ -7586,6 +7853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewsICanBeActiveIn: 06000000
   hideUponJumpscare: 1
+  startsAvailable: 0
   playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
 --- !u!114 &2024391434
 MonoBehaviour:
@@ -7635,6 +7903,49 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: OverLayObject, Assembly-CSharp
         m_MethodName: HandleJumpscare
         m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2024391436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024391429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d1867a9e41a7d45ab6df28994b1671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsintopdrawer: {fileID: 11400000, guid: 2bf0d77f894f2ff4c90f4694a9a50a87, type: 2}
+  topdrawerIsOpen: {fileID: 11400000, guid: 44ec5c9c3cc263d47b7117176b8588df, type: 2}
+  myItem: {fileID: 11400000, guid: 6bf5615e6f5b735479e37afeb26aedc4, type: 2}
+--- !u!114 &2024391437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024391429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6ba3e2db5f85f49859d690460749dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 48af5068429315242b835a19b8aebc29, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2024391436}
+        m_TargetAssemblyTypeName: ResponsiveToTopDrawer, Assembly-CSharp
+        m_MethodName: RenderBasedOnPuzzleStatus
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7703,6 +8014,10 @@ PrefabInstance:
       propertyPath: profile
       value: 
       objectReference: {fileID: 11400000, guid: f20904c41c2aa204c8db5618f3e9c5f3, type: 2}
+    - target: {fileID: 2660168685479410468, guid: 388adb6646513204c865e88f735f6b0e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2660168685479410468, guid: 388adb6646513204c865e88f735f6b0e, type: 3}
       propertyPath: officeStates
       value: 
@@ -7814,6 +8129,8 @@ GameObject:
   - component: {fileID: 2106642086}
   - component: {fileID: 2106642087}
   - component: {fileID: 2106642088}
+  - component: {fileID: 2106642090}
+  - component: {fileID: 2106642089}
   m_Layer: 5
   m_Name: YellowPaper
   m_TagString: Untagged
@@ -7892,6 +8209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewsICanBeActiveIn: 06000000
   hideUponJumpscare: 1
+  startsAvailable: 0
   playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
 --- !u!114 &2106642087
 MonoBehaviour:
@@ -7941,6 +8259,49 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: OverLayObject, Assembly-CSharp
         m_MethodName: HandleJumpscare
         m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2106642089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106642082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d1867a9e41a7d45ab6df28994b1671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsintopdrawer: {fileID: 11400000, guid: 2bf0d77f894f2ff4c90f4694a9a50a87, type: 2}
+  topdrawerIsOpen: {fileID: 11400000, guid: 44ec5c9c3cc263d47b7117176b8588df, type: 2}
+  myItem: {fileID: 11400000, guid: 1c68921d47ee00f4484e7e80be1dbea7, type: 2}
+--- !u!114 &2106642090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106642082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6ba3e2db5f85f49859d690460749dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 48af5068429315242b835a19b8aebc29, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2106642089}
+        m_TargetAssemblyTypeName: ResponsiveToTopDrawer, Assembly-CSharp
+        m_MethodName: RenderBasedOnPuzzleStatus
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8009,6 +8370,10 @@ PrefabInstance:
       propertyPath: aiEvents
       value: 
       objectReference: {fileID: 11400000, guid: 419998f40666dfc4eb33512b4091b080, type: 2}
+    - target: {fileID: 2660168685479410468, guid: 388adb6646513204c865e88f735f6b0e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2660168685479410468, guid: 388adb6646513204c865e88f735f6b0e, type: 3}
       propertyPath: officeStates
       value: 
@@ -8390,6 +8755,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 120855975}
-  - {fileID: 860101788}
+  - {fileID: 889167842}
   - {fileID: 43198325}
+  - {fileID: 860101788}
   - {fileID: 473542908}

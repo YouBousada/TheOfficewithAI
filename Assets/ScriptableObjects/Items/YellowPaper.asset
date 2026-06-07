@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be887d71e367aad43adb6ed73ca4e214, type: 3}
   m_Name: YellowPaper
   m_EditorClassIdentifier: 
-  itemName: 2
+  itemName: 1
   inventorySprite: {fileID: -8776531040639168594, guid: 7daffb09c136c8742a96b84c4d1aed1b, type: 3}
   inspectSprite: {fileID: 5430318343805221489, guid: ac14acd3009eb2a46b37a5b7a0e69218, type: 3}

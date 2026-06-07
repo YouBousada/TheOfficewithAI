@@ -1,21 +1,10 @@
+using UnityEngine;
+
 public class RightDoorViewController : DoorViewController
 {
+    [SerializeField] private BooleanVariable rightDoorIsOpen;
 
-    // protected override bool isThisDoorOpen => office.RightDoorIsOpen;
-
-    // protected override void Awake()
-    // {
-    //     base.Awake();
-    //     if (office == null) return;
-    //     office.OnRightDoorOpened += PlayOpenDoorAnimation;
-    //     office.OnRightDoorClosed += PlayCloseDoorAnimation;
-    // }
-
-    // void OnDestroy()
-    // {
-    //     if (office == null) return;
-    //     office.OnRightDoorOpened -= PlayOpenDoorAnimation;
-    //     office.OnRightDoorClosed -= PlayCloseDoorAnimation;
-    // }
-    protected override bool isThisDoorOpen => throw new System.NotImplementedException();
+    protected override bool isThisDoorOpen => rightDoorIsOpen.boolean;
+    protected override DoorButtonName CloseButtonName => DoorButtonName.RIGHT_CLOSE;
+    protected override DoorButtonName OpenButtonName => DoorButtonName.RIGHT_OPEN;
 }

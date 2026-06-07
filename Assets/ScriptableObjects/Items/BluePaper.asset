@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be887d71e367aad43adb6ed73ca4e214, type: 3}
   m_Name: BluePaper
   m_EditorClassIdentifier: 
-  itemName: 3
+  itemName: 2
   inventorySprite: {fileID: 4147474783448558728, guid: 1c6408cb317acc546b3b1509bd982872, type: 3}
   inspectSprite: {fileID: -8986343497812636822, guid: 7b9d02aee44388648b318dd4c34638c4, type: 3}

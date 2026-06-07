@@ -13,7 +13,6 @@ public class MovementHotspot : HotSpot
     public void InvokeViewChange()
     {
         if (!CanUseHotspot) return;
-
         viewChangedEvent.Raise(to);
     }
 }

@@ -2,20 +2,16 @@ using UnityEngine;
 
 public class MonitorViewController : GenericOfficeViewController
 {
-    // [Header("MonitorViewController requirements")]
-    // [SerializeField] private Sprite backgroundSprite;
-    // protected override void Awake()
-    // {
-    //     base.Awake();
-    //     if (backgroundSprite == null) Debug.LogWarning($"{name}: backgroundSprite is not assigned.", this);
-    // }
-
-    // protected override void RenderViewBasedOnWorldState_Concrete()
-    // {
-    //     backgroundImage.sprite = backgroundSprite;
-    // }
-    protected override void RenderViewBasedOnWorldState_Concrete()
+    [Header("MonitorViewController requirements")]
+    [SerializeField] private Sprite backgroundSprite;
+    protected override void Awake()
     {
-        throw new System.NotImplementedException();
+        base.Awake();
+        if (backgroundSprite == null) Debug.LogWarning($"{name}: backgroundSprite is not assigned.", this);
+    }
+
+    public override void RenderViewBasedOnWorldState()
+    {
+        backgroundImage.sprite = backgroundSprite;
     }
 }

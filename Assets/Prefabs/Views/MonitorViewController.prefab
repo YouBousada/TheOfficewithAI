@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6241244568401699037
 Transform:
   m_ObjectHideFlags: 0
@@ -44,10 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28d8e991e2400fe42a0d4105900a8d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleMaster: {fileID: 0}
-  office: {fileID: 0}
   backgroundImage: {fileID: 0}
-  thisViewName: 5
+  <ViewName>k__BackingField: 5
   playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
   currentView: {fileID: 11400000, guid: 945b41f4af89cbb48852cac669f9af1b, type: 2}
   thisViewJumpscareData: {fileID: 11400000, guid: c4a2f51a2010e444798fbf44a5a39ebe, type: 2}

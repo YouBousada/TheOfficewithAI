@@ -9,7 +9,7 @@ public class DeskViewController : GenericOfficeViewController
         base.Awake();
         if (backgroundSprite == null) Debug.LogWarning($"{name}: backgroundSprite is not assigned.", this);
     }
-    protected override void RenderViewBasedOnWorldState_Concrete()
+    public override void RenderViewBasedOnWorldState()
     {
         backgroundImage.sprite = backgroundSprite;
     }

@@ -10,13 +10,14 @@ GameObject:
   m_Component:
   - component: {fileID: 2772601043846161039}
   - component: {fileID: 8368834193703756831}
+  - component: {fileID: 3755150235213450155}
   m_Layer: 0
   m_Name: LeftDoorViewController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2772601043846161039
 Transform:
   m_ObjectHideFlags: 0
@@ -44,10 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26fe37e9e5e9b9546bb57c552195b1d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleMaster: {fileID: 0}
-  office: {fileID: 0}
   backgroundImage: {fileID: 0}
-  thisViewName: 2
+  <ViewName>k__BackingField: 2
   playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
   currentView: {fileID: 11400000, guid: 945b41f4af89cbb48852cac669f9af1b, type: 2}
   doorViewJumpscareData: {fileID: 11400000, guid: a2476f580f421974688f0c2b7b0d6e99, type: 2}
@@ -55,5 +54,32 @@ MonoBehaviour:
   DoorCloseAnimation: {fileID: 11400000, guid: 071566ed86f323c479dd1c96173fb377, type: 2}
   DoorClosedImage: {fileID: 21300000, guid: 0bc7f44f7ec25ab4cb03a3c17ad86a80, type: 3}
   DoorOpenImage: {fileID: 21300000, guid: 43af86f697935cb4ea3b503d6906fe24, type: 3}
-  CloseButton: {fileID: 0}
-  OpenButton: {fileID: 0}
+  leftDoorIsOpen: {fileID: 11400000, guid: f4432b9303fd55c44a84f5f398871560, type: 2}
+--- !u!114 &3755150235213450155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065978016623466961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e9e24515328c24087b0df75242e648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: a83e5a5f6bb69754d8a3350c541b17f9, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8368834193703756831}
+        m_TargetAssemblyTypeName: DoorViewController, Assembly-CSharp
+        m_MethodName: HandleDoorButtonPressed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

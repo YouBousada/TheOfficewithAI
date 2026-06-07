@@ -1,20 +1,34 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PuzzleMaster : MonoBehaviour
 {
-    private bool TopDrawerIsOpen = false;
-    private bool BottomDrawerIsOpen = false;
+    [Header("Shared SO Variables")]
+    [SerializeField] private BooleanVariable TopDrawerIsOpen;
+    [SerializeField] private BooleanVariable BottomDrawerIsOpen;
+    [SerializeField] private ListOfItemsVaiable itemsInTopDrawer;
+    [SerializeField] private ItemVariable itemOnWall;
 
-    public event Action OnRoomStateChanged;
+    [Header("Starting State")]
+    [SerializeField] private List<Item> startingItemsInTopDrawer;
 
-    [SerializeField] private List<Item> itemsInTopDrawer;
-    public Item itemOnWall { get; private set; }
+    [Header("SO Events")]
+
+    [SerializeField] private EmptyGameEvent OnRoomStatusChanged;
+    public void Awake()
+    {
+        TopDrawerIsOpen.boolean = false;
+        BottomDrawerIsOpen.boolean = false;
+
+        itemsInTopDrawer.items.Clear();
+        itemsInTopDrawer.items.AddRange(startingItemsInTopDrawer);
+        itemOnWall.item = null;
+    }
+
 
     public bool hasItem(Item item)
     {
-        return itemsInTopDrawer.Contains(item);
+        return itemsInTopDrawer.items.Contains(item);
     }
 
     public void HandleEnvrionementInteraction(EvironmentInteractionName i)
@@ -30,26 +44,19 @@ public class PuzzleMaster : MonoBehaviour
         }
     }
 
-    public bool IsTopDrawerOpen()
-    {
-        return TopDrawerIsOpen;
-    }
-
-    public bool IsBottomDrawerOpen()
-    {
-        return BottomDrawerIsOpen;
-    }
+    public bool IsTopDrawerOpen() => TopDrawerIsOpen.boolean;
+    public bool IsBottomDrawerOpen() => BottomDrawerIsOpen.boolean;
 
     private void ToggleTopDrawer()
     {
-        TopDrawerIsOpen = !TopDrawerIsOpen;
-        OnRoomStateChanged?.Invoke();
+        TopDrawerIsOpen.boolean = !TopDrawerIsOpen.boolean;
+        OnRoomStatusChanged.Raise();
     }
 
     private void ToggleBottomDrawer()
     {
-        BottomDrawerIsOpen = !BottomDrawerIsOpen;
-        OnRoomStateChanged?.Invoke();
+        BottomDrawerIsOpen.boolean = !BottomDrawerIsOpen.boolean;
+        OnRoomStatusChanged.Raise();
     }
 
     public void HandlePickupSuccess(Item item)
@@ -59,24 +66,22 @@ public class PuzzleMaster : MonoBehaviour
 
     public void removeItem(Item item)
     {
-        if (itemsInTopDrawer.Contains(item))
+        if (itemsInTopDrawer.items.Contains(item))
         {
-            itemsInTopDrawer.Remove(item);
-            OnRoomStateChanged?.Invoke();
+            itemsInTopDrawer.items.Remove(item);
+            OnRoomStatusChanged.Raise();
         }
     }
 
     public void giveItem(Item item)
     {
-        itemsInTopDrawer.Add(item);
-        OnRoomStateChanged?.Invoke();
+        itemsInTopDrawer.items.Add(item);
+        OnRoomStatusChanged.Raise();
     }
 
     public void ChangeWallWithItem(Item item)
     {
-        itemOnWall = item;
-        OnRoomStateChanged?.Invoke();
+        itemOnWall.item = item;
+        OnRoomStatusChanged.Raise();
     }
-
-    void Awake() { }
 }

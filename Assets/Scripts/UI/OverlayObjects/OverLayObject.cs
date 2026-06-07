@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(ViewChangedListener))]
 public abstract class OverLayObject : MonoBehaviour
@@ -7,11 +8,38 @@ public abstract class OverLayObject : MonoBehaviour
     [Header("OverLayObject requirements")]
     [SerializeField] private List<ViewName> viewsICanBeActiveIn = new();
     [SerializeField] protected bool hideUponJumpscare = true;
+    [SerializeField] private bool startsAvailable = true;
     [SerializeField] PlayerConfig playerConfig;
     private bool hasHandledViewChange;
 
+    public bool isAvailableFromWorldState { get; private set; }
     protected bool IsInActiveView { get; private set; }
+    protected bool ShouldBeVisible => IsInActiveView && isAvailableFromWorldState;
 
+    protected Image image;
+
+    protected virtual void Awake()
+    {
+        image = GetComponent<Image>();
+        isAvailableFromWorldState = startsAvailable;
+    }
+    public void SetVisible(bool visible)
+    {
+        if (image != null)
+            image.enabled = visible;
+    }
+
+    public void Activate()
+    {
+        isAvailableFromWorldState = true;
+        RefreshVisibility();
+    }
+
+    public void Deactivate()
+    {
+        isAvailableFromWorldState = false;
+        RefreshVisibility();
+    }
 
     protected void AddActiveViewIfMissing(ViewName view)
     {
@@ -41,10 +69,7 @@ public abstract class OverLayObject : MonoBehaviour
         hasHandledViewChange = true;
         IsInActiveView = shouldBeActive;
 
-        if (IsInActiveView)
-            EnterActiveView();
-        else
-            ExitActiveView();
+        RefreshVisibility();
     }
 
     public void HandleJumpscare(JumpscareEventData jsData)
@@ -56,7 +81,6 @@ public abstract class OverLayObject : MonoBehaviour
         HideForJumpscare(who, from);
     }
 
-    protected abstract void EnterActiveView();
-    protected abstract void ExitActiveView();
+    protected virtual void RefreshVisibility() => SetVisible(ShouldBeVisible);
     protected abstract void HideForJumpscare(CharacterName who, RoomName from);
 }

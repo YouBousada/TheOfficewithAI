@@ -10,10 +10,9 @@ public abstract class DoorViewController : ViewController
     [SerializeField] private Sprite DoorClosedImage;
     [SerializeField] private Sprite DoorOpenImage;
 
-    [SerializeField] private HotSpot CloseButton;
-    [SerializeField] private HotSpot OpenButton;
-
     protected abstract bool isThisDoorOpen { get; }
+    protected abstract DoorButtonName CloseButtonName { get; }
+    protected abstract DoorButtonName OpenButtonName { get; }
 
     private readonly Dictionary<CharacterName, AnimationSequence> openThisDoorJumpscares = new();
     private readonly Dictionary<CharacterName, AnimationSequence> openOtherDoorJumpscares = new();
@@ -27,8 +26,6 @@ public abstract class DoorViewController : ViewController
         if (DoorCloseAnimation == null) Debug.LogWarning($"{name}: DoorCloseAnimation is not assigned.", this);
         if (DoorClosedImage == null)    Debug.LogWarning($"{name}: DoorClosedImage is not assigned.", this);
         if (DoorOpenImage == null)      Debug.LogWarning($"{name}: DoorOpenImage is not assigned.", this);
-        if (CloseButton == null)        Debug.LogWarning($"{name}: CloseButton is not assigned.", this);
-        if (OpenButton == null)         Debug.LogWarning($"{name}: OpenButton is not assigned.", this);
 
         BuildJumpscareLookups();
     }
@@ -60,21 +57,23 @@ public abstract class DoorViewController : ViewController
         closedOtherDoorJumpscares[CharacterName.FREDDY] = doorViewJumpscareData.OtherDoorFreddyAnimationDoorClosed;
     }
 
-    public void PlayOpenDoorAnimation()
+
+    public void HandleDoorButtonPressed(DoorButtonName doorButtonName)
+    {
+        if (doorButtonName == CloseButtonName) PlayCloseDoorAnimation();
+        else if (doorButtonName == OpenButtonName) PlayOpenDoorAnimation();
+    }
+    private void PlayOpenDoorAnimation()
     {
         animPlayer.PlayAnimation(DoorOpenAnimation, backgroundImage.gameObject, DoorOpenImage);
-        OpenButton.DeactivateHotspot();
-        CloseButton.ActivateHotspot();
     }
 
-    public void PlayCloseDoorAnimation()
+    private void PlayCloseDoorAnimation()
     {
         animPlayer.PlayAnimation(DoorCloseAnimation, backgroundImage.gameObject, DoorClosedImage);
-        OpenButton.ActivateHotspot();
-        CloseButton.DeactivateHotspot();
     }
 
-    protected override void RenderViewBasedOnWorldState_Concrete()
+    public override void RenderViewBasedOnWorldState()
     {
         if (!isThisDoorOpen)
         {
@@ -83,16 +82,6 @@ public abstract class DoorViewController : ViewController
         else
         {
             backgroundImage.sprite = DoorOpenImage;
-        }
-        if (isThisDoorOpen)
-        {
-            OpenButton.DeactivateHotspot();
-            CloseButton.ActivateHotspot();
-        }
-        else
-        {
-            OpenButton.ActivateHotspot();
-            CloseButton.DeactivateHotspot();
         }
     }
     public override void ReactToJumpscare(JumpscareEventData jsData)
@@ -146,7 +135,7 @@ public abstract class DoorViewController : ViewController
 
     private bool IsAttackFromThisDoor(RoomName from)
     {
-        return (from == RoomName.EAST_DOOR && thisViewName == ViewName.RIGHT_DOOR) ||
-               (from == RoomName.WEST_DOOR && thisViewName == ViewName.LEFT_DOOR);
+        return (from == RoomName.EAST_DOOR && ViewName == ViewName.RIGHT_DOOR) ||
+               (from == RoomName.WEST_DOOR && ViewName == ViewName.LEFT_DOOR);
     }
 }

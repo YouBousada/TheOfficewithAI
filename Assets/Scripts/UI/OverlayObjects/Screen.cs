@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Screen : OverLayObject
 {
@@ -7,15 +6,13 @@ public class Screen : OverLayObject
     [SerializeField] private ScreenPosition deskPosition;
     [SerializeField] private ScreenPosition closePosition;
     [SerializeField] private RectTransform rect;
-    private Image image;
 
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+
         if (rect == null)
             rect = GetComponent<RectTransform>();
-
-        if (image == null)
-            image = GetComponent<Image>();
 
         if (deskPosition == null)  Debug.LogWarning($"{name}: deskPosition is not assigned.", this);
         if (closePosition == null) Debug.LogWarning($"{name}: closePosition is not assigned.", this);
@@ -65,24 +62,8 @@ public class Screen : OverLayObject
         rect.localScale = pos.scale;
     }
 
-    protected override void EnterActiveView()
-    {
-        SetVisible(true);
-    }
-
-    protected override void ExitActiveView()
-    {
-        SetVisible(false);
-    }
-
     protected override void HideForJumpscare(CharacterName who, RoomName from)
     {
         SetVisible(false);
-    }
-
-    private void SetVisible(bool visible)
-    {
-        if (image != null)
-            image.enabled = visible;
     }
 }

@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8392645133319152853
 Transform:
   m_ObjectHideFlags: 0
@@ -44,10 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00324b0b88c37f6488248ebbb3fda962, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleMaster: {fileID: 0}
-  office: {fileID: 0}
   backgroundImage: {fileID: 0}
-  thisViewName: 4
+  <ViewName>k__BackingField: 4
   playerConfig: {fileID: 11400000, guid: d293b4942359d6d4196154a5b33ffe32, type: 2}
   currentView: {fileID: 11400000, guid: 945b41f4af89cbb48852cac669f9af1b, type: 2}
   thisViewJumpscareData: {fileID: 11400000, guid: a4f3e4eb33b51ca41ae817a39bc5421d, type: 2}
@@ -55,3 +53,4 @@ MonoBehaviour:
   greenSprite: {fileID: 8752030581782101974, guid: 78164708ec6b3ae4fabc491afd769857, type: 3}
   blueSprite: {fileID: 8930769803646582388, guid: 3c67f14f013afcf479b38db9cc8b9142, type: 3}
   yellowSprite: {fileID: -7381318549150602339, guid: 37796fb34e8d44d4393d1948167d6e0f, type: 3}
+  itemOnWall: {fileID: 11400000, guid: d9e9afda242685445905f94587b09706, type: 2}

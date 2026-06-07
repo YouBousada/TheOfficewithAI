@@ -5,37 +5,22 @@ using UnityEngine.UI;
 public abstract class HotSpot : OverLayObject
 {
     [Header("Hotspot requirements")]
-    [SerializeField] private bool startsAvailable = true;  
     protected Button button;
     protected CanvasGroup canvasGroup;
     private Coroutine actionCooldownCoroutine;
-    protected bool isAvailableFromWorldState {get; private set;}
     protected bool isLocked {get; private set;}
 
-    public bool CanUseHotspot => IsInActiveView &&
-                                 isAvailableFromWorldState &&
-                                 !isLocked;
-    protected virtual void Awake()
+    public bool CanUseHotspot => ShouldBeVisible && !isLocked;
+
+    protected override void Awake()
     {
+        base.Awake();
+
         button = GetComponent<Button>();
         canvasGroup = GetComponent<CanvasGroup>();
 
         if (canvasGroup == null)
             canvasGroup = gameObject.AddComponent<CanvasGroup>();
-
-        isAvailableFromWorldState = startsAvailable;
-    }
-
-    public void ActivateHotspot()
-    {
-        isAvailableFromWorldState = true;
-        RefreshState();
-    }
-
-    public void DeactivateHotspot()
-    {
-        isAvailableFromWorldState = false;
-        RefreshState();
     }
 
     //keep these 2 here
@@ -52,35 +37,25 @@ public abstract class HotSpot : OverLayObject
     private IEnumerator HandleCoolDownCoroutine(float coolDownTime)
     {
         isLocked = true;
-        RefreshState();
+        RefreshVisibility();
 
         yield return new WaitForSeconds(coolDownTime);
 
         isLocked = false;
-        RefreshState();
+        RefreshVisibility();
 
         actionCooldownCoroutine = null;
-    }
-
-    protected override void EnterActiveView()
-    {
-        RefreshState();
-    }
-
-    protected override void ExitActiveView()
-    {
-        RefreshState();
     }
 
     protected override void HideForJumpscare(CharacterName who, RoomName from)
     {
         isLocked = true;
-        RefreshState();
+        RefreshVisibility();
     }
 
-    private void RefreshState()
+    protected override void RefreshVisibility()
     {
-        bool visible = IsInActiveView && isAvailableFromWorldState;
+        bool visible = ShouldBeVisible;
         bool usable = visible && !isLocked;
 
         canvasGroup.alpha = visible ? 1f : 0f;

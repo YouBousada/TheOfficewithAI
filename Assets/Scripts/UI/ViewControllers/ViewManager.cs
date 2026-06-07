@@ -19,9 +19,11 @@ public class ViewManager : MonoBehaviour
             var instance = Instantiate(prefab, viewContainer);
             instance.backgroundImage = backgroundImage;
             instance.gameObject.SetActive(false);
-            views[instance.GetViewName()] = instance;
+            views[instance.ViewName] = instance;
         }
-
+    }
+    void Start()
+    {
         SwitchTo(playerConfig.startingview);
     }
 
@@ -37,6 +39,11 @@ public class ViewManager : MonoBehaviour
 
         activeView = target;
         activeView.gameObject.SetActive(true);
+    }
+
+    public void UpdateView()
+    {
+        activeView.RenderViewBasedOnWorldState();
     }
 
     public void ReactToJumpscare(JumpscareEventData data)

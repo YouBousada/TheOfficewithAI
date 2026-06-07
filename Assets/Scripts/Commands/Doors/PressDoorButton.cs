@@ -8,6 +8,5 @@ public class PressDoorButton : PlayerCommand
     public override void Execute()
     {
         pressDoorButtonEvent.Raise(doorButtonName);
-        
     }
 }

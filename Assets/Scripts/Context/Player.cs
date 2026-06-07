@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
         if (inspectionContainer == null)  Debug.LogWarning($"{name}: inspectionContainer is not assigned.", this);
 
         SetView(config.startingview);
+        ItemInHand.item = config.startingItemInHand;
     }
 
     private void Update()
@@ -44,7 +45,7 @@ public class Player : MonoBehaviour
         {
             if (IsHoldingSomething && !IsInspectingItem)
             {
-                returnItemEvent.Raise(ItemInHand.item);
+                AddItemToInventory(ItemInHand.item);
                 ItemInHand.item = null;
             }
         }
@@ -61,6 +62,7 @@ public class Player : MonoBehaviour
         {
             if (IsHoldingSomething && !IsInspectingItem)
             {
+                returnItemEvent.Raise(ItemInHand.item);
                 ItemInHand.item = null;
             }
         }
@@ -148,7 +150,6 @@ public class Player : MonoBehaviour
     public void SetView(ViewName newView)
     {
         currentView.viewName = newView;
-        Debug.Log("Player is now looking at: " + newView);
     }
 
     private void BuildInventoryDisplay()
