@@ -5,6 +5,7 @@ public class Office : MonoBehaviour
 {
     [SerializeField] private BooleanVariable leftDoorIsOpen;
     [SerializeField] private BooleanVariable rightDoorIsOpen;
+    [SerializeField] private Boolean UsePower;
 
     public bool LeftDoorIsOpen => leftDoorIsOpen.boolean;
     public bool RightDoorIsOpen => rightDoorIsOpen.boolean;
@@ -28,6 +29,7 @@ public class Office : MonoBehaviour
 
     void Update()
     {
+        if(!UsePower){return;}
         if (Power < 0 && !invokedPowerOutage)
         {
             OnPowerOutage?.Invoke();
@@ -81,12 +83,5 @@ public class Office : MonoBehaviour
         }
     }
 
-    void OnGUI()
-    {
-        GUIStyle style = new(GUI.skin.label) { fontSize = 20 };
-        style.normal.textColor = Color.green;
-        GUI.Label(new Rect(10, 10, 300, 40), $"Power: {Power}", style);
-        GUI.Label(new Rect(10, 50, 300, 40), $"LeftDoorIsOpen: {leftDoorIsOpen.boolean}", style);
-        GUI.Label(new Rect(10, 90, 300, 40), $"RightDoorIsOpen: {rightDoorIsOpen.boolean}", style);
-    }
+
 }

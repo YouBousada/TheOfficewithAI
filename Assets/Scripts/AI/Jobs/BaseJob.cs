@@ -57,6 +57,14 @@ public abstract class BaseJob : IJobRequirements
     {
         RoomName oldlocation = currentLoc;
         RoomName newLocation = CalculateNextPos();
+
+
+        //if for whatever reason the job doesnt want to move (crouded room, camera, ect), dont do anything else
+        if(newLocation == oldlocation)
+        {
+            return;
+        }
+
         currentLoc = newLocation;
         aiEvents.OnLocationChanged.Raise(new LocationChangedData { who = profile.CharacterName, from = oldlocation, to = currentLoc, behaviour = currentBehaviour });
     }
@@ -147,7 +155,7 @@ public abstract class BaseJob : IJobRequirements
     public bool OccupiedWindow(RoomName windowLoc)
     {
         
-        foreach (Animatronic anim in animatronicRegistry.Animatronics)
+        foreach (Animatronic anim in animatronicRegistry.animatronicList)
         {
             if (anim.GetCurrentLocation() == windowLoc && anim.GetCurrentBehaviour() == BehaviourName.STARING_THROUGH_WINDOW)
             {

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 {
@@ -151,8 +152,27 @@ public class WaitAndRusher : BaseJob, IJobRequirements, IConcreteJob
 
     private RoomName PickRandomIdleRoom()
     {
+        List<RoomName> idealRooms    = new(); // uncrowded + not watched
+        List<RoomName> acceptableRooms = new(); // uncrowded but watched
+
+        foreach (RoomName room in profile.PossibleIdleRooms)
+        {
+            if (animatronicRegistry.AnimatronicsInThisRoom(room) > 1) continue;
+
+            if (activeCamera.room == room)
+                acceptableRooms.Add(room);
+            else
+                idealRooms.Add(room);
+        }
+
+        if (idealRooms.Count > 0)
+            return idealRooms[Random.Range(0, idealRooms.Count)];
+        if (acceptableRooms.Count > 0)
+            return acceptableRooms[Random.Range(0, acceptableRooms.Count)];
+
         return profile.PossibleIdleRooms[Random.Range(0, profile.PossibleIdleRooms.Count)];
     }
+
 
     private void Run()
     {

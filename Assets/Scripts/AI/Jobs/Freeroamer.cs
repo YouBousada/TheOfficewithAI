@@ -96,6 +96,12 @@ public class Freeroamer : BaseJob, IJobRequirements, IConcreteJob
             }
         }
 
+        if (animatronicRegistry.AnimatronicsInThisRoom(nextRoom) > 1 || activeCamera.room == nextRoom)
+        {
+            Debug.Log($"{profile.CharacterName} cant move to {nextRoom}, staying in {currentLoc}");
+            nextRoom = currentLoc;
+        }
+
         if (nextRoom == RoomName.EAST_DOOR || nextRoom == RoomName.WEST_DOOR)
             SwitchToBehaviour(BehaviourName.STALKING_DOOR);
 

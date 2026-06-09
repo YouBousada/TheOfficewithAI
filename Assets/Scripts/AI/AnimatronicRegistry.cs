@@ -1,49 +1,43 @@
 using System.Collections.Generic;
-using UnityEngine;
 
 public class AnimatronicRegistry
 {
     private static AnimatronicRegistry _instance;
     public static AnimatronicRegistry Instance => _instance ??= new AnimatronicRegistry();
 
-    private readonly Dictionary<CharacterName, Animatronic> animatronics = new();
-    public IEnumerable<Animatronic> Animatronics => animatronics.Values;
+    public readonly Dictionary<CharacterName, Animatronic> animatronicDict = new();
+    public IEnumerable<Animatronic> animatronicList => animatronicDict.Values;
 
     public void RegisterAnimatronic(CharacterName character, Animatronic animatronic)
     {
         if (character == CharacterName.NONE || animatronic == null) return;
-        animatronics[character] = animatronic;
+        animatronicDict[character] = animatronic;
     }
 
     public void UnregisterAnimatronic(CharacterName character, Animatronic animatronic)
     {
-        if (!animatronics.TryGetValue(character, out Animatronic registered)) return;
+        if (!animatronicDict.TryGetValue(character, out Animatronic registered)) return;
         if (registered == animatronic)
-            animatronics.Remove(character);
+            animatronicDict.Remove(character);
     }
 
     public bool TryGetAnimatronic(CharacterName character, out Animatronic animatronic)
     {
-        return animatronics.TryGetValue(character, out animatronic);
+        return animatronicDict.TryGetValue(character, out animatronic);
     }
-}
 
-public class AnimatronicRegistryDebugDisplay : MonoBehaviour
-{
-    void OnGUI()
+    public int AnimatronicsInThisRoom(RoomName room)
     {
-        GUIStyle style = new(GUI.skin.label) { fontSize = 20 };
-        style.normal.textColor = Color.green;
+        int animsInThisRoom = 0;
 
-        int i = 0;
-        foreach (Animatronic anim in AnimatronicRegistry.Instance.Animatronics)
+        foreach(Animatronic a in animatronicList)
         {
-            GUI.Label(
-                new Rect(300, 10 + i * 30, 1000, 40),
-                $"{anim.GetCharacterName()}: Job: {anim.GetCurrentJobName()} Location: {anim.GetCurrentLocation()}",
-                style
-            );
-            i++;
+            if(a.GetCurrentLocation() == room)
+            {
+                animsInThisRoom++;
+            }
         }
+
+        return animsInThisRoom;
     }
 }
